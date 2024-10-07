@@ -1,0 +1,2751 @@
+1
+00:00:04,041 --> 00:00:29,006
+L'obiettivo è rendere la lezione più interattiva, evitando una lezione frontale sulla lavagna. Cercherò, quindi, di ridurre il discorso teorico e ovviamente di integrare attività pratiche.
+
+2
+00:00:31,013 --> 00:00:33,835
+Una lezione con delle attività che dovreste svolgere.
+
+3
+00:00:36,137 --> 00:00:58,575
+L'ultima volta abbiamo parlato dell'obiettivo principale, che è lavorare con UML, quindi imparare a usare UML come strumento di rappresentazione grafica di una progettazione composta da oggetti.
+
+4
+00:01:05,063 --> 00:01:06,684
+In questa situazione, il nome della classe e il metodo di...
+
+5
+00:01:34,468 --> 00:01:42,352
+Dovremmo ovviamente spostare l'attenzione. Intanto, ci sono anche delle regole sintattiche; presenterò due versioni.
+
+6
+00:01:44,213 --> 00:01:58,119
+Una versione ufficiale, che rientra nelle regole di UML. In questo caso, quello di cui stiamo parlando è uno dei diagrammi, uno dei linguaggi di rappresentazione.
+
+7
+00:02:06,300 --> 00:02:07,040
+per le classi.
+
+8
+00:02:14,242 --> 00:02:14,603
+Chiaro?
+
+9
+00:02:16,563 --> 00:02:32,208
+Quindi, la prima cosa che abbiamo detto è che ci sono i simboli di visibilità: pubblico, privato e protetto, che devono essere aggiunti per le informazioni più rilevanti.
+
+10
+00:02:33,748 --> 00:02:35,589
+Qual è l'intenzione di non esporre internamente alla classe?
+
+11
+00:02:37,185 --> 00:02:40,327
+La stessa cosa, ovviamente, si applica ai metodi che definiamo.
+
+12
+00:02:41,667 --> 00:02:54,414
+Lo stile di dichiarazione delle variabili è leggermente diverso rispetto a quello che facciamo normalmente, nel senso che la logica richiede prima il tipo della variabile.
+
+13
+00:02:54,714 --> 00:03:03,219
+In questo caso, invece, prima viene dichiarata la variabile, poi il tipo specifico.
+
+14
+00:03:06,659 --> 00:03:35,482
+La cosa che cambia anche tecnicamente, ad esempio negli IDE, è che alcuni strumenti mostrano il nome e non il tipo, quindi non vengono visualizzati in modo intuitivo. Tuttavia, questi strumenti CASE sono strumenti di supporto alla progettazione; qual è il nostro obiettivo?
+
+15
+00:03:37,283 --> 00:03:50,066
+Questi sono ambienti CASE, strumenti di supporto alla progettazione. Il nostro obiettivo è rendere le persone più produttive perché hanno integrato meccanismi automatici.
+
+16
+00:03:50,126 --> 00:04:03,010
+Uno delle caratteristiche principali è che possono generare automaticamente tutto ciò che serve per la riflessione di una classe, senza preoccuparti dei dettagli. Successivamente, trasformano le classi in codice, riducendo la quantità di codice che l'utente deve scrivere manualmente.
+
+17
+00:04:03,989 --> 00:04:25,740
+In questo modo, cerco di ridurre la quantità di codice che l'utente deve scrivere, rendendo sufficiente avere lo schema del progetto e lo schema delle classi. L'utente riconosce la struttura e al suo interno viene applicata la corretta sintassi legata al linguaggio. Ho intenzione di sviluppare un'applicazione che trasforma questa visione grafica in testo, seguendo le regole sintattiche del linguaggio.
+
+18
+00:04:34,793 --> 00:05:03,099
+In questo modo, se ci pensate, cerco di ridurre la quantità di codice che l'utilizzatore dovrà utilizzare, rendendo sufficiente avere lo schema del progetto e lo schema delle classi. Successivamente, l'utente riconosce la struttura e viene applicata la corretta sintassi legata al linguaggio. Ho intenzione di sviluppare un'applicazione che trasforma questa visione grafica in testo, seguendo le regole sintattiche del linguaggio.
+
+19
+00:05:03,507 --> 00:05:26,869
+Sviluppare un'applicazione, quindi utilizzo un ambiente CASE perché trasforma questa rappresentazione grafica in testo, seguendo le regole sintattiche del linguaggio, ma fondamentalmente in testo, quindi da disegno a codice.
+
+20
+00:05:33,675 --> 00:06:02,471
+Mi chiedo se utilizzando uno strumento CASE possa essere considerato uno strumento CASE anche StarUML, ad esempio. Gli strumenti CASE sono strumenti di supporto alla progettazione, e mi chiedo se altri strumenti possano rientrare in questa categoria.
+
+21
+00:06:15,540 --> 00:06:18,722
+In cui potete comunicarlo.
+
+22
+00:06:20,263 --> 00:06:40,174
+L'idea degli strumenti CASE è che sono stati sviluppati per supportare la progettazione software. Quando ne parlavamo, erano considerati una prospettiva futura, con l'obiettivo di ridurre la quantità di codice necessario.
+
+23
+00:06:41,515 --> 00:06:44,297
+E quindi, descrivo, praticamente,
+
+24
+00:06:45,296 --> 00:07:11,635
+nel nostro contesto, non si tratta di politica, ma di logica progettuale. Gli strumenti CASE sono stati creati in modo significativo. Quando parliamo di UML, prestiamo attenzione alla corretta applicazione delle regole.
+
+25
+00:07:15,299 --> 00:07:38,347
+Per le versioni precedenti, erano utilizzati strumenti diversi. Le macchine erano molto più potenti, e il rischio era maggiore. Se volevi utilizzare uno strumento di questo genere, dovevi avere le macchine adeguate per gestire queste operazioni e attivare il processo di trasformazione.
+
+26
+00:07:39,448 --> 00:07:43,409
+Ecco perché erano ancora utilizzati certi approcci.
+
+27
+00:07:44,474 --> 00:07:46,955
+Che continuano ad essere costruzioni.
+
+28
+00:07:49,196 --> 00:07:53,417
+Sono costruzioni perché effettivamente riducono il codice manuale.
+
+29
+00:07:53,477 --> 00:07:57,659
+Quindi, chiaramente, sono abbastanza avanzati.
+
+30
+00:07:57,719 --> 00:08:03,401
+Detto questo, un'altra domanda che potete fare è: cosa posso fare con uno strumento CASE?
+
+31
+00:08:03,521 --> 00:08:07,222
+Giusto per farti un'idea,
+
+32
+00:08:17,005 --> 00:08:28,368
+ma, ripeto, non considero le domande che avete posto finora. Esse rientrano nell'ambito della progettazione mentale, un'attività fondamentale.
+
+33
+00:08:29,188 --> 00:08:33,569
+Tuttavia, la ripeto, queste domande vengono poste da altri professionisti.
+
+34
+00:08:33,609 --> 00:08:42,951
+Quindi, avere un'idea chiara è importante. Se mi chiedete una conoscenza specifica, so di cosa state parlando. Se mi chiedete un parere e utilizzate termini tecnici, so rispondere.
+
+35
+00:08:49,090 --> 00:09:11,659
+Anche per quanto riguarda l'associazione, utilizzata chiaramente per la descrizione delle funzioni, ci sono delle regole di associazione leggermente diverse rispetto a quelle che abbiamo visto. Ad esempio, lo spazio, e poi ne abbiamo tenuto conto in vari contesti.
+
+36
+00:09:13,500 --> 00:09:17,161
+Sì, ma non c'è un underscore?
+
+37
+00:09:18,297 --> 00:09:30,067
+Non c'è un underscore, un trattino, un singolo carattere speciale, un punto esclamativo o interrogativo. Molti caratteri non possono essere inseriti.
+
+38
+00:09:31,508 --> 00:09:41,276
+Questo significa che, quando si utilizzano nomi automatici, bisogna fare un'analisi di ciò che può essere accettato e cosa no.
+
+39
+00:09:41,761 --> 00:09:42,882
+Cosa non può essere accettato.
+
+40
+00:09:42,902 --> 00:09:48,965
+Quando faccio l'analisi e stabilisco cosa non deve essere accettato, significa un carico di lavoro che devo gestire.
+
+41
+00:09:50,746 --> 00:09:56,189
+E questo significa che mi servono funzioni specifiche che gestiscono tutto.
+
+42
+00:09:58,291 --> 00:09:58,991
+Chiaro?
+
+43
+00:10:01,032 --> 00:10:01,512
+È chiaro?
+
+44
+00:10:02,113 --> 00:10:02,753
+Attenzione!
+
+45
+00:10:02,773 --> 00:10:08,196
+Chi vuole che usi quel metodo fuori da quella classe?
+
+46
+00:10:08,296 --> 00:10:09,157
+Quella classe esiste.
+
+47
+00:10:10,300 --> 00:10:13,862
+Quello è un metodo che svolge quel compito, ma è funzionale, no?
+
+48
+00:10:15,603 --> 00:10:20,025
+Serve al corretto funzionamento della fase di inserimento di una stringa.
+
+49
+00:10:21,286 --> 00:10:23,827
+In questo esempio che abbiamo discusso la scorsa volta.
+
+50
+00:10:26,428 --> 00:10:30,711
+La volta scorsa abbiamo fatto un altro esempio, un esempio con le date, no?
+
+51
+00:10:31,391 --> 00:10:33,712
+Ho fatto un inserimento di una data, in qualsiasi formato.
+
+52
+00:10:34,072 --> 00:10:37,974
+Può essere una stringa, può essere qualsiasi cosa, anche campo per campo, no?
+
+53
+00:10:38,415 --> 00:10:39,115
+Di anno, mese, giorno.
+
+54
+00:10:41,368 --> 00:10:48,811
+Non esiste un anno con 13 mesi. Se permetto l'inserimento di un mese tredicesimo, c'è un problema.
+
+55
+00:10:49,831 --> 00:10:53,513
+Ma allo stesso tempo ci sono i giorni dei mesi.
+
+56
+00:10:53,773 --> 00:10:59,415
+Ci sono mesi con 30 giorni, febbraio con 28 o 29 giorni. Permettere inserimenti errati richiede controlli.
+
+57
+00:11:00,195 --> 00:11:04,957
+È chiaro che devo avere una serie di strumenti. Posso dire: "Me lo controlli tu?"
+
+58
+00:11:05,077 --> 00:11:06,878
+No, non lo faccio.
+
+59
+00:11:06,958 --> 00:11:10,739
+Queste sono attività funzionali,
+
+60
+00:11:12,635 --> 00:11:13,736
+Mi stai registrando?
+
+61
+00:11:14,596 --> 00:11:15,516
+Sì, sì.
+
+62
+00:11:15,636 --> 00:11:19,838
+Ecco perché dicevo, mi sta venendo bene.
+
+63
+00:11:20,978 --> 00:11:25,040
+Sto dicendo tutto quello che dovete fare nella lezione.
+
+64
+00:11:25,720 --> 00:11:28,221
+Potrebbero mancare dei dettagli.
+
+65
+00:11:28,281 --> 00:11:31,002
+Questo è sufficientemente completo.
+
+66
+00:11:31,442 --> 00:11:32,202
+Fin qui ci siete?
+
+67
+00:11:32,622 --> 00:11:36,744
+Quindi, mentre devo implementare la possibilità di inserire una data,
+
+68
+00:11:38,138 --> 00:11:44,763
+è chiaro che deve essere gestito correttamente il tipo di oggetto.
+
+69
+00:11:45,183 --> 00:11:51,748
+La progettazione prevede ovviamente tutta un'analisi delle situazioni di lavoro con le date.
+
+70
+00:11:51,768 --> 00:11:56,051
+È chiaro che c'è un problema di associazione tra numero di giorni e mesi.
+
+71
+00:11:58,013 --> 00:12:03,597
+Ma allo stesso tempo c'è anche un altro problema: come gestire i numeri, tutti numeri positivi e negativi.
+
+72
+00:12:03,957 --> 00:12:04,518
+C'è il resto.
+
+73
+00:12:04,618 --> 00:12:07,260
+È chiaro?
+
+74
+00:12:07,967 --> 00:12:22,470
+Quando sto cercando di produrre un'analisi, è un'analisi che deve essere fatta prima. Quando c'è del codice che vuole funzionare in risposta a una richiesta, mi dici se funziona bene o no?
+
+75
+00:12:23,530 --> 00:12:23,770
+Perché?
+
+76
+00:12:23,930 --> 00:12:27,011
+Perché non ci sono tutte le operazioni di controllo che andrebbero fatte, no?
+
+77
+00:12:27,631 --> 00:12:32,452
+Infatti, l'anno scorso abbiamo fatto il programma delle date, con tre quarti di codice e controlli interni.
+
+78
+00:12:32,592 --> 00:12:36,673
+Infatti, lo scopo era abituarsi a quelle esercitazioni.
+
+79
+00:12:43,067 --> 00:13:10,369
+Abituarsi all'idea di non esporre internamente alla richiesta dell'utente. Ci sono cose che l'utente chiede, come la possibilità di inserire il nome o una data, ma non inserirà caratteri non validi come esclamativi o interrogativi.
+
+80
+00:13:12,699 --> 00:13:14,119
+Ma neanche ci pensa proprio.
+
+81
+00:13:15,680 --> 00:13:19,481
+Diventa un problema se inserisce elementi non validi.
+
+82
+00:13:20,681 --> 00:13:23,862
+Elementi non validi, perché se li inserisce, sa cosa sta facendo.
+
+83
+00:13:24,842 --> 00:13:26,983
+E quindi chiaramente c'è un problema grave.
+
+84
+00:13:28,764 --> 00:13:28,944
+No?
+
+85
+00:13:30,444 --> 00:13:35,425
+Inserire elementi non validi non è sufficiente per evitare errori.
+
+86
+00:13:35,445 --> 00:13:36,446
+Ci sono delle possibilità.
+
+87
+00:13:36,646 --> 00:13:38,426
+Io lo faccio, mi rendo conto.
+
+88
+00:13:38,826 --> 00:13:40,167
+No, non me lo rendo conto.
+
+89
+00:13:41,417 --> 00:13:42,999
+Il problema è quando non me ne rendo conto.
+
+90
+00:13:44,460 --> 00:13:45,981
+Perché quelle date sono già errate.
+
+91
+00:13:46,902 --> 00:13:50,365
+E quindi, il problema non si riscontra immediatamente.
+
+92
+00:13:51,206 --> 00:13:52,627
+Dipende da quando viene rilevato.
+
+93
+00:13:54,068 --> 00:13:58,892
+Ad esempio, se hanno un anno, devi effettuare il calcolo e c'è un controllo interno dei tipi.
+
+94
+00:13:58,952 --> 00:14:06,439
+Il motivo per cui, quando ci sono errori, è che i formati sono sbagliati.
+
+95
+00:14:07,019 --> 00:14:09,021
+I formati sono i moduli di inserimento dei dati.
+
+96
+00:14:10,451 --> 00:14:32,305
+Attaccano lì inserendo codice malevolo perché è una finestra aperta. Noi diciamo: "Chiudiamo la porta e lasciamo entrare solo ciò che è sicuro." Per questo motivo, ripeto, scrivere codice richiede attenzione, ma dal punto di vista progettuale, cosa succede?
+
+97
+00:14:32,325 --> 00:14:35,428
+Dal momento che non siamo attenti, cosa succede?
+
+98
+00:14:35,508 --> 00:14:37,309
+Periodicamente devo fare una manutenzione.
+
+99
+00:14:37,790 --> 00:14:43,694
+Perché qualcuno potrebbe dire: "Guarda, questa funzionalità non sta funzionando, l'hai fatto apposta, no?"
+
+100
+00:14:45,114 --> 00:14:53,580
+Se non sei abituato, invece di commettere un errore una volta, potresti commetterne dieci. Quindi, fai attenzione a non commettere errori.
+
+101
+00:14:55,701 --> 00:14:58,122
+E tu non ti devi scocciare, perché è in garanzia, di conseguenza devi intervenire.
+
+102
+00:15:00,879 --> 00:15:13,248
+Sì, ma sei su un altro progetto, consistente nel migliorare l'altro progetto, perché devi manutenere un software che è stato consegnato e pagato, ma non sta funzionando.
+
+103
+00:15:16,190 --> 00:15:18,211
+Perdi solo tempo, è il rischio.
+
+104
+00:15:19,492 --> 00:15:21,613
+Ecco un discorso di abituarci a un certo modo.
+
+105
+00:15:23,190 --> 00:15:43,845
+Tipo i controlli, li dovete metabolizzare. Ogni volta che faccio qualcosa devo pensare a qualunque cosa decido; tutto ciò che espongo all'utente deve essere supervisionato, supervisionato o controllato da un pezzo di codice che non è solo il messaggio, non è solo la lettura, no?
+
+106
+00:15:45,066 --> 00:15:47,448
+Con tutta una serie di potenziali, effettivamente.
+
+107
+00:15:48,609 --> 00:15:50,410
+È un modo di ragionare.
+
+108
+00:15:54,150 --> 00:16:01,313
+Detto questo, e quindi chiaramente è il discorso dei controlli, i metodi protetti.
+
+109
+00:16:01,813 --> 00:16:11,257
+Beh, queste sono le funzioni, sono tutta una serie di funzioni di servizio che servono a far funzionare bene e dire: "Ehi, tu, non sei di quel cognome."
+
+110
+00:16:11,337 --> 00:16:19,760
+Poi ci pensa l'oggetto a gestire tutte le situazioni, tipo tutti gli errori che commetterai in fase di inserimento.
+
+111
+00:16:22,041 --> 00:16:22,761
+Chiaro il senso?
+
+112
+00:16:25,581 --> 00:16:27,181
+Questo è quello che di solito non si fa.
+
+113
+00:16:28,482 --> 00:16:31,042
+E questo è ciò che uno scopre, lavorando.
+
+114
+00:16:33,262 --> 00:16:33,602
+Perché?
+
+115
+00:16:34,162 --> 00:16:35,583
+Che tu parti in un certo modo, no?
+
+116
+00:16:36,883 --> 00:16:41,644
+Sviluppo l'applicazione, sviluppo l'applicazione, sì, però non stai, non ti sei interrogato su nessuna posizione.
+
+117
+00:16:42,564 --> 00:16:51,225
+Non stai anticipando, come ti ho sempre detto, e per le volte gliel'ho detto, e ne ho viste tante di cose che non funzionavano.
+
+118
+00:16:53,206 --> 00:16:54,806
+Il mio assunto è quello che so.
+
+119
+00:16:55,438 --> 00:17:14,448
+Ovviamente ripeti funzioni, ma non l'hai mai visto, e non si ottiene critica. Poi la incontri e qualcuno deve spiegare. Però questo è tutto, ma questo vale in tutto, tutte le materie; in sostanza, se non sbagli non impari, è chiaro?
+
+120
+00:17:14,528 --> 00:17:22,813
+Detto questo, quindi prendi la mano. Questo è il mondo del riuscire, è un insieme di cose, no?
+
+121
+00:17:24,255 --> 00:17:25,636
+Di metodi e proprietà.
+
+122
+00:17:28,458 --> 00:17:34,161
+Le proprietà, su cui ci siamo, possono essere variabili, ma possono essere anche metodi.
+
+123
+00:17:34,421 --> 00:17:37,183
+In termini più generali, membri.
+
+124
+00:17:38,383 --> 00:17:41,625
+E quindi, chiaramente, vi devo sempre ricordare che c'è una classe.
+
+125
+00:17:41,665 --> 00:17:51,151
+Detto questo, andando nel dettaglio della classe, diciamo una classe che voglio considerare tale,
+
+126
+00:17:54,275 --> 00:17:57,756
+L'ingrediente fondamentale.
+
+127
+00:17:58,096 --> 00:18:04,259
+Gli ingredienti fondamentali sono: uno, il costruttore; un altro, il distruttore.
+
+128
+00:18:05,759 --> 00:18:07,080
+Quando stiamo parlando di classe?
+
+129
+00:18:07,220 --> 00:18:08,921
+C'è differenza tra classe e oggetto?
+
+130
+00:18:09,581 --> 00:18:12,202
+La classe mi consente di creare degli oggetti.
+
+131
+00:18:12,802 --> 00:18:16,023
+L'oggetto è quello che io uso per sviluppare l'applicazione.
+
+132
+00:18:17,024 --> 00:18:18,384
+La classe mi serve soltanto nel momento in cui
+
+133
+00:18:22,227 --> 00:18:26,128
+Indico il tipo di oggetto con il quale ho intenzione di lavorare.
+
+134
+00:18:26,468 --> 00:18:30,249
+Però il lavoro che faccio con l'oggetto... La classe crea oggetti.
+
+135
+00:18:31,209 --> 00:18:31,489
+Crea.
+
+136
+00:18:31,969 --> 00:18:32,649
+Sbagliato.
+
+137
+00:18:35,890 --> 00:18:38,110
+È la dichiarazione che istanzia.
+
+138
+00:18:38,410 --> 00:18:41,871
+Cioè, se no, vabbè, faccio un inciso, quindi discorso, no?
+
+139
+00:18:42,311 --> 00:18:43,191
+Però ci siamo capiti di quello che stiamo dicendo.
+
+140
+00:18:43,251 --> 00:18:46,272
+Poi ci siamo capiti di quello che stiamo dicendo.
+
+141
+00:18:47,292 --> 00:18:49,593
+E quindi veramente il discorso qual è in pratica.
+
+142
+00:18:50,253 --> 00:18:50,373
+Ok?
+
+143
+00:18:52,057 --> 00:18:57,239
+C'è una frase: la dichiarazione dell'oggetto è quella che istanzia l'oggetto.
+
+144
+00:18:58,779 --> 00:19:06,841
+Quindi, semplicemente, la classe non è altro che un insieme di regole che dicono come deve essere istanziato l'oggetto.
+
+145
+00:19:07,541 --> 00:19:08,662
+Andiamo nello specifico.
+
+146
+00:19:08,842 --> 00:19:10,962
+Cosa significa istanziare l'oggetto?
+
+147
+00:19:12,323 --> 00:19:17,264
+La risposta che io fornisco è: costruire l'oggetto.
+
+148
+00:19:17,304 --> 00:19:19,965
+Per costruire un oggetto, gli oggetti si costruiscono.
+
+149
+00:19:30,265 --> 00:19:41,113
+Il costruttore serve a inizializzare un processo, ma tutti gli oggetti diventeranno utili al momento in cui ci portano ai nostri scopi.
+
+150
+00:19:41,194 --> 00:19:42,815
+Il costruttore è qui.
+
+151
+00:19:43,756 --> 00:19:54,444
+Abbiamo detto il costruttore da un punto di vista sintattico, però ripeto, non voglio commettere questa divagazione.
+
+152
+00:19:55,004 --> 00:19:56,566
+Il costruttore cosa è? Quello che non potete...
+
+153
+00:19:59,504 --> 00:20:01,865
+Analizziamo ancora il termine "costruire".
+
+154
+00:20:02,065 --> 00:20:02,785
+Cosa significa?
+
+155
+00:20:02,845 --> 00:20:07,086
+Sì, costruire è prendere regole che sono messe a disposizione dalla classe.
+
+156
+00:20:07,186 --> 00:20:08,026
+Mi va bene, sì.
+
+157
+00:20:08,086 --> 00:20:09,266
+Ma c'è dell'altro.
+
+158
+00:20:11,487 --> 00:20:19,088
+Io parlo di abitazione, io chiaramente ho bisogno di un terreno.
+
+159
+00:20:19,668 --> 00:20:28,290
+Ma siccome qui, ovviamente, il luogo dove andare a costruire il computer, e questo non è una risposta troppo generica,
+
+160
+00:20:29,065 --> 00:20:45,473
+Nello specifico, un oggetto è qualcosa che sta nella RAM, di conseguenza costruire significa trasferire le regole, però allo stesso tempo dire anche quanto è grande e quanta quantità di cose occuperà.
+
+161
+00:20:45,493 --> 00:20:46,633
+Quella è la costruzione.
+
+162
+00:20:47,354 --> 00:20:55,958
+La costruzione significa occupare le strutture necessarie, affinché l'oggetto possa esistere, con tutte le regole che sono state definite.
+
+163
+00:20:58,934 --> 00:21:26,432
+Detto questo, quindi, il costruttore serve, ma serve anche un'altra cosa: il distruttore. Perché è importante il distruttore? Perché se non uso il progetto... Diciamo che la programmazione a oggetti da questo punto di vista è abbastanza ecologica, nel senso che io uso il distruttore. Se non uso l'oggetto lo devo distruggere. Però è possibile che ci sia una distruzione automatica.
+
+164
+00:21:28,482 --> 00:21:38,652
+E c'è una distruzione, diciamo, su richiesta; quella automatica, talmente automatica che io non la percepisco neanche.
+
+165
+00:21:39,013 --> 00:21:41,215
+Il problema a questo punto è un altro.
+
+166
+00:21:42,356 --> 00:21:44,358
+Ma cosa significa distruggere?
+
+167
+00:21:45,079 --> 00:21:45,980
+Liberare memoria.
+
+168
+00:21:46,380 --> 00:21:46,740
+Chiaro?
+
+169
+00:21:47,982 --> 00:21:50,784
+Liberare ancora lo spazio in memoria che stava occupando.
+
+170
+00:21:56,032 --> 00:22:00,956
+È chiaro?
+
+171
+00:22:01,036 --> 00:22:07,060
+Il discorso è liberare, significa liberare della memoria che era stata già riservata.
+
+172
+00:22:07,540 --> 00:22:08,100
+Perché?
+
+173
+00:22:08,260 --> 00:22:12,063
+Perché chiaramente l'ho finita e la metto a disposizione per altri scopi.
+
+174
+00:22:12,723 --> 00:22:21,609
+Se non libero mai quella memoria, beh, a questo punto io rischio, rischio potenziale, quale? L'overflow: non c'è spazio.
+
+175
+00:22:23,250 --> 00:22:25,152
+Io vi dico le cose dal punto di vista...
+
+176
+00:22:28,355 --> 00:22:30,075
+E quindi è importante il distruttore.
+
+177
+00:22:30,176 --> 00:22:34,677
+Per quanto riguarda il costruttore, invece?
+
+178
+00:22:36,498 --> 00:22:39,799
+Beh, noi scopriamo che di costruttori ce ne possono essere più di uno.
+
+179
+00:22:42,040 --> 00:22:46,122
+E questa è una regola della programmazione a oggetti, no?
+
+180
+00:22:46,142 --> 00:22:47,923
+I costruttori possono essere più di uno.
+
+181
+00:22:48,003 --> 00:22:48,403
+Perché?
+
+182
+00:22:52,164 --> 00:22:53,885
+Perché è vero che io occupo spazio.
+
+183
+00:22:56,536 --> 00:23:00,679
+Lo scopo del costruttore è anche inizializzare le variabili.
+
+184
+00:23:03,521 --> 00:23:06,923
+E quello lo posso fare anche con un unico costruttore.
+
+185
+00:23:08,564 --> 00:23:09,425
+Prendiamo un altro esempio.
+
+186
+00:23:10,746 --> 00:23:12,427
+Supponiamo di avere una classe Persona.
+
+187
+00:23:13,288 --> 00:23:20,753
+Se io ho la classe Persona, io potrei decidere di costruire due tipi di oggetti.
+
+188
+00:23:22,514 --> 00:23:25,136
+Ok, mi serve un oggetto Persona
+
+189
+00:23:26,437 --> 00:23:31,041
+senza un'identità, ovvero senza nome e senza cognome.
+
+190
+00:23:33,083 --> 00:23:40,649
+Allora, a questo punto, quella è una persona potenziale che esiste, occupa spazio, ma non ha un'identità.
+
+191
+00:23:42,070 --> 00:23:51,799
+Poi c'è, a questo punto, voglio offrire una seconda possibilità, la possibilità di creare
+
+192
+00:23:54,167 --> 00:23:56,988
+un oggetto con un'identità, nome e cognome.
+
+193
+00:23:57,928 --> 00:23:58,868
+Allora che faccio?
+
+194
+00:24:00,108 --> 00:24:15,251
+Se voglio una persona senza identità uso un costruttore; se voglio una persona con un'identità uso un costruttore con due parametri: il nome e il cognome.
+
+195
+00:24:15,291 --> 00:24:15,631
+Chiaro?
+
+196
+00:24:16,232 --> 00:24:23,193
+Bisogna avere la possibilità di avere un certo costruttore al quale posso
+
+197
+00:24:24,306 --> 00:24:27,428
+offrire la possibilità di inviare il nome, il cognome, eccetera.
+
+198
+00:24:28,709 --> 00:24:32,912
+Oppure il nome, il cognome, oppure la data di nascita.
+
+199
+00:24:34,333 --> 00:24:48,363
+Vedete, il discorso dei costruttori non si pensa, però quando progetto una classe è chiaro che devo decidere. Tanto è vero che nella maggior parte dei casi, il primo che mi viene lo metto dentro, fino a quando?
+
+200
+00:24:48,403 --> 00:24:49,404
+Fino a prova contraria.
+
+201
+00:24:49,664 --> 00:24:53,047
+Lo contrario è che devo dire: "Andami a un'avventura con le storie,"
+
+202
+00:24:53,943 --> 00:25:04,265
+Non state progettando, state eseguendo un compito, perché per segnare ciò che si deve fare per progettare potete riuscire, praticamente, quanti costruttori riuscire per noi.
+
+203
+00:25:04,365 --> 00:25:18,307
+Se non vuoi cercare, il distruttore è un... quindi costruttori multipli, distruttori... ci siete?
+
+204
+00:25:18,547 --> 00:25:21,888
+Questa è la regola della programmazione.
+
+205
+00:25:28,474 --> 00:25:30,295
+A chi ti ha scoperto in questo mondo.
+
+206
+00:25:31,235 --> 00:25:35,536
+Io sto parlando in città, non ho scritto la mia informazione.
+
+207
+00:25:37,257 --> 00:25:37,557
+Perché?
+
+208
+00:25:37,737 --> 00:25:39,718
+Ho adottato il concetto di qua.
+
+209
+00:25:39,758 --> 00:25:40,838
+Ok?
+
+210
+00:25:40,898 --> 00:25:41,218
+Ok.
+
+211
+00:25:41,258 --> 00:25:55,742
+A questo punto dicono bene: "Voglio immaterializzare." Sì, ok, questo è il vero, lo hai rappresentato immediatamente, però poi alla fine, e prima di me, le ho dette da un formato di differenza.
+
+212
+00:25:56,743 --> 00:25:57,283
+È chiaro che
+
+213
+00:25:58,217 --> 00:25:59,999
+Hanno delle funzionalità, ce ne deve essere.
+
+214
+00:26:01,780 --> 00:26:02,781
+Ci sono due aspetti.
+
+215
+00:26:03,642 --> 00:26:05,584
+Ho progettato una classe, come me la faccio?
+
+216
+00:26:07,906 --> 00:26:13,471
+E qui attenzione, questo è un errore di comprensione, ma non è un errore di comprensione evoluto.
+
+217
+00:26:14,572 --> 00:26:20,638
+Nel senso che se io progetto una classe, progetto una classe, qual è l'evoluzione?
+
+218
+00:26:27,053 --> 00:26:28,854
+Un'applicazione con oggetti.
+
+219
+00:26:30,355 --> 00:26:33,016
+Allora, a questo punto, il tipo di presentazione è diverso.
+
+220
+00:26:33,596 --> 00:26:37,118
+Perché?
+
+221
+00:26:37,198 --> 00:26:52,525
+Analizzo il funzionamento delle singole classi, analizzo la richiesta, scrivo l'algoritmo, all'interno dell'algoritmo faccio tutta una serie di chiamate alle varie classi, ai vari oggetti che mi servono nell'applicazione.
+
+222
+00:26:54,648 --> 00:26:59,769
+La classe serve per costruire oggetti da inserire all'interno di un'applicazione.
+
+223
+00:27:00,549 --> 00:27:01,709
+I punti di vista sono due.
+
+224
+00:27:03,009 --> 00:27:15,072
+Io costruisco il monitor, tu costruisci il case, lui assembla.
+
+225
+00:27:17,652 --> 00:27:23,093
+Quando tu progetti il monitor, non ti preoccupi del case, e viceversa,
+
+226
+00:27:25,004 --> 00:27:48,142
+nel momento in cui devi assemblare, allora devi chiedere: come funziona il monitor? Quali sono le caratteristiche del case? Perché stai utilizzando questi due oggetti? Devi farli incastrare e quindi ottenere il terzo oggetto, cioè l'applicazione, il computer. È chiaro?
+
+227
+00:27:48,983 --> 00:27:51,645
+Ripeto, sono delle cose talmente ovvie
+
+228
+00:27:53,115 --> 00:27:54,996
+che voi mi dite in una normale.
+
+229
+00:27:56,337 --> 00:28:04,180
+Se ve le sto dicendo, c'è un motivo. Sono talmente ovvie, talmente normali, che non le fate.
+
+230
+00:28:06,121 --> 00:28:07,902
+È un modo di pensare che non avete.
+
+231
+00:28:08,563 --> 00:28:08,903
+Perché?
+
+232
+00:28:09,423 --> 00:28:09,603
+Sì?
+
+233
+00:28:10,363 --> 00:28:12,504
+Voi ci state pensando perché io vi sto tentando.
+
+234
+00:28:14,065 --> 00:28:19,668
+Però, fino a prova contraria, voi continuate a fare confusione tra usare l'oggetto
+
+235
+00:28:22,153 --> 00:28:23,473
+e progettare l'oggetto.
+
+236
+00:28:24,014 --> 00:28:27,154
+Se io ti chiedo di progettare l'oggetto, tu mi chiedi il main.
+
+237
+00:28:29,815 --> 00:28:34,896
+Quando progetterò un oggetto, non c'è il main.
+
+238
+00:28:35,817 --> 00:28:39,958
+Il main è il programma principale, quello che ha richiesto l'utente.
+
+239
+00:28:41,358 --> 00:28:44,099
+E allora, chiaramente, la domanda che mi dovesse fare è questa.
+
+240
+00:28:44,479 --> 00:28:45,279
+No, questo è il mio progetto.
+
+241
+00:28:45,419 --> 00:28:48,080
+Il mio progetto non è qualcosa di generico.
+
+242
+00:28:48,977 --> 00:29:10,896
+Mi sta dicendo che non devo usare il main, però ti dico, subito dopo devi usare il main una volta che ho scritto la classe, che ho progettato, che ho codificato, ho fatto tutto. Come faccio a testare?
+
+243
+00:29:22,324 --> 00:29:30,787
+Perché un'azienda, una volta che ha realizzato il prodotto, la cosa successiva non è la vendita, ma il test.
+
+244
+00:29:32,668 --> 00:29:37,590
+E quindi chiaramente, per avere il test, bisogna avere un ambiente, e l'ambiente è meglio.
+
+245
+00:29:38,610 --> 00:29:46,713
+E quindi anche il test può fare tutta una serie di chiamate, per verificare che tutti i metodi e tutte le funzionalità funzionano correttamente.
+
+246
+00:29:47,073 --> 00:29:47,374
+Chiaro?
+
+247
+00:29:48,814 --> 00:29:50,935
+Quindi, io in teoria,
+
+248
+00:29:51,800 --> 00:29:54,082
+potrei dare un oggetto e dire: "Ok, testali."
+
+249
+00:29:57,905 --> 00:30:01,969
+Non ti chiedo di progettare, ti chiedo di testare.
+
+250
+00:30:05,652 --> 00:30:12,478
+E lì chiaramente, questa è una richiesta strana, apparentemente strana perché il problema è il test.
+
+251
+00:30:12,619 --> 00:30:14,620
+Tanto è vero che nella realtà chi testa non è
+
+252
+00:30:21,664 --> 00:30:28,128
+In questa zona ricordo che vi ho detto in annuncio: chi scrive il codice, quando scrive un concetto, deve essere lì, non lo legge, non lo scrive.
+
+253
+00:30:28,269 --> 00:30:35,033
+Chi sviluppa ha in testa la soluzione, sa cosa inserisce dentro, quindi segue la sua idea.
+
+254
+00:30:36,114 --> 00:30:38,415
+Non è oggettivo e non è obiettivo.
+
+255
+00:30:41,618 --> 00:30:41,998
+È chiaro?
+
+256
+00:30:43,039 --> 00:30:46,221
+Chi testa, questo è quello che scrive il codice, chi testa,
+
+257
+00:30:52,706 --> 00:31:08,335
+Dice: "Ok, devo testare le funzionalità." Perfetto, allora a questo punto mi faccio domande su qual è l'obiettivo di chi testa: rompere questo oggetto, perché se lo rompe ha trovato un difetto; se l'oggetto non si rompe, allora funziona.
+
+258
+00:31:08,936 --> 00:31:16,960
+Il discorso è sempre tornare su un'altra missione che io sottopongo: lavorare tra funzionali.
+
+259
+00:31:31,387 --> 00:31:35,229
+Oggi tu testi tutta l'applicazione che usa questo oggetto.
+
+260
+00:31:37,590 --> 00:31:39,350
+Dopo di che, domani cambiamo il progetto.
+
+261
+00:31:41,651 --> 00:31:42,912
+E mi ha detto subito: "Tu hai..."
+
+262
+00:31:43,132 --> 00:31:43,972
+È andata questa cosa.
+
+263
+00:31:44,052 --> 00:31:44,472
+Ma cosa è?
+
+264
+00:31:44,612 --> 00:31:45,352
+È la vita, no?
+
+265
+00:31:47,693 --> 00:31:48,233
+Chiaro?
+
+266
+00:31:50,194 --> 00:31:53,215
+Lavorando in un qualunque luogo di lavoro, prendiamo la pizzeria.
+
+267
+00:31:53,375 --> 00:31:57,337
+Tu fai la pizzeria e fai le pizze, il cassiere deve fare il suo lavoro.
+
+268
+00:31:58,387 --> 00:32:05,508
+Ma non puoi dire: "Siete la stessa cosa perché vivete nello stesso luogo," perché le attività, le funzioni, sono diverse.
+
+269
+00:32:06,648 --> 00:32:12,689
+Però è normale quando parliamo ovviamente di teoria; da un momento in più parliamo di oggetti, no?
+
+270
+00:32:12,869 --> 00:32:21,511
+Ma cominciamo a mescolare tutto: facciamo tutto, scriviamo oggetti, usiamo oggetti, scriviamo applicazioni, però facciamo cose.
+
+271
+00:32:21,551 --> 00:32:23,331
+Mentre approfondiamo un po' più la teoria.
+
+272
+00:32:25,552 --> 00:32:25,852
+Chiaro?
+
+273
+00:32:26,232 --> 00:32:27,432
+Ecco perché ti dico: sì, va bene?
+
+274
+00:32:29,735 --> 00:32:59,087
+Sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì, sì.
+
+275
+00:33:02,623 --> 00:33:06,887
+Perché se vendo quel prodotto a questo punto, con tutte le fasi di test, quanto devo far pagare?
+
+276
+00:33:06,907 --> 00:33:10,510
+Poi arriva il concorrente, è un test sbagliato, quanto è vero l'enorme competitività?
+
+277
+00:33:14,573 --> 00:33:19,176
+Cioè, ma quanto costa il test?
+
+278
+00:33:19,217 --> 00:33:20,678
+Questo è uno dei... no?
+
+279
+00:33:20,778 --> 00:33:22,779
+Non sono solo concorrenti, lo fanno anche gli italiani.
+
+280
+00:33:25,333 --> 00:33:31,038
+Non c'è voglia di lavorare insieme a tutti.
+
+281
+00:33:31,118 --> 00:33:36,262
+Sì, ma ripeto, su questo possiamo solo discutere quando ci confrontiamo.
+
+282
+00:33:36,342 --> 00:33:39,765
+Io ripeto, devo dire che è una cosa che forza che voglio.
+
+283
+00:33:41,807 --> 00:33:46,391
+Questo ovviamente non entra, lo considero un approfondimento, nel senso che anche su
+
+284
+00:33:51,266 --> 00:33:53,147
+Ma perché in quanto dovrebbero essere grossi?
+
+285
+00:33:53,247 --> 00:33:54,948
+E quanto poi diventerebbe dispersivo?
+
+286
+00:33:55,029 --> 00:33:58,030
+Io sto cercando di andare su e giù, su e giù, evitando di complicare le cose, no?
+
+287
+00:33:58,231 --> 00:33:59,852
+Quindi sto cercando di tenerle unite.
+
+288
+00:34:01,032 --> 00:34:04,094
+Ma se io dovessi scrivere su un libro, dovrei andare per le mie pagine?
+
+289
+00:34:05,115 --> 00:34:10,899
+Dopo che ho esaurito le mie pagine e che avete studiato il test, ho perso il filo di quello che stavo dicendo prima.
+
+290
+00:34:11,900 --> 00:34:15,162
+È una questione strategica, no?
+
+291
+00:34:15,182 --> 00:34:15,482
+Chiaro?
+
+292
+00:34:16,002 --> 00:34:18,444
+Tanto è vero che fai tutorial con pasta e cose?
+
+293
+00:34:18,464 --> 00:34:20,145
+Perché?
+
+294
+00:34:21,767 --> 00:34:26,269
+Ti chiudi in una trattura nella metà del progetto. Cosa fa?
+
+295
+00:34:26,909 --> 00:34:45,836
+Questo, e allora, la prima cosa che fa è chiaro che la formazione di oggetti si fa tramite la formazione di oggetti, non c'è una riga di codice che spiega, ma neanche l'unità della metà del progetto.
+
+296
+00:34:49,189 --> 00:34:50,269
+E aggiungo: inizialmente l'oggetto fatto con C++ o Java.
+
+297
+00:34:50,289 --> 00:34:52,630
+Bene, in quel momento in poi è Java che parla, e C++ che parla, o quello che riguarda che parla.
+
+298
+00:35:22,759 --> 00:35:24,360
+Ok, allora che dico?
+
+299
+00:35:24,440 --> 00:35:26,160
+Ok, questa è la sintassi di C++.
+
+300
+00:35:27,400 --> 00:35:28,281
+Significatelo.
+
+301
+00:35:29,341 --> 00:35:34,703
+Mettiamo classe C, parentesi graffe, all'interno, per l'indirizzo.
+
+302
+00:35:35,663 --> 00:35:38,364
+In questo caso abbiamo un costruttore iniziale.
+
+303
+00:35:40,825 --> 00:35:47,827
+Commentate dove dite che c'è la fase di implementazione secondo la regola C++.
+
+304
+00:35:47,867 --> 00:35:48,207
+Chiaro?
+
+305
+00:35:55,221 --> 00:36:20,292
+In un concetto giocato è una ricorda diversa, non di sangue, no. Il senso è che si può anche stare, il problema è il discorso degli stati, perché stanno parlando in significato di stati, perché usano la parola.
+
+306
+00:36:23,524 --> 00:36:23,684
+Sono qua?
+
+307
+00:36:23,704 --> 00:36:24,504
+No, sono alla quarta ora?
+
+308
+00:36:24,564 --> 00:36:28,846
+Giuriamo tutti quanti?
+
+309
+00:36:28,926 --> 00:36:29,126
+Terza ora.
+
+310
+00:36:56,184 --> 00:37:01,468
+Non alla terza, alla quarta, capito?
+
+311
+00:37:01,568 --> 00:37:05,131
+Allora, alla quarta abbiamo una profilazione.
+
+312
+00:37:05,311 --> 00:37:06,312
+Questa è già la seconda.
+
+313
+00:37:06,432 --> 00:37:06,833
+Ciao, grazie.
+
+314
+00:37:07,333 --> 00:37:11,176
+Ah, va bene.
+
+315
+00:37:11,216 --> 00:37:15,840
+Cosa è quello che ci accade in questo tipo di posizioni?
+
+316
+00:37:17,281 --> 00:37:17,901
+Attenzione.
+
+317
+00:37:18,422 --> 00:37:20,724
+Mi chiarisci la visibilità?
+
+318
+00:37:20,744 --> 00:37:24,567
+Per quanto riguarda, diciamo, più o meno cosa posso usare questa sentenza.
+
+319
+00:37:25,831 --> 00:37:32,714
+In classi, la gente non vuole concentrarsi sulla sicurezza.
+
+320
+00:37:32,754 --> 00:37:52,841
+La prima cosa che vorrei dire è che, ovviamente, questo metodo è pubblico. Quando io dico membro pubblico, perché può essere sia una variabile, sia una funzione, quindi termine membro include entrambi, ecco perché si usa.
+
+321
+00:37:58,356 --> 00:38:03,779
+L'importanza di usare quel valore, tanto è vero che nei libri si parla di meccaniche, chiaro?
+
+322
+00:38:04,499 --> 00:38:08,001
+Per generalizzare il concetto di contenuto, cosa succede?
+
+323
+00:38:09,442 --> 00:38:18,908
+E quindi tutti i membri che possiedono una classe, ovviamente, hanno bisogno di essere resi, quindi simili.
+
+324
+00:38:18,968 --> 00:38:21,029
+Ci sono tre livelli.
+
+325
+00:38:31,115 --> 00:38:35,778
+Vengono raccolti in un unico termine: l'interfaccia.
+
+326
+00:38:36,838 --> 00:38:40,480
+L'interfaccia è quello che l'utente finale usa dell'oggetto.
+
+327
+00:38:41,381 --> 00:38:45,063
+Di che altro funziona l'oggetto?
+
+328
+00:38:45,243 --> 00:38:46,503
+Corretto funzionamento?
+
+329
+00:38:46,824 --> 00:38:52,086
+Penso che sia passato il funzionamento.
+
+330
+00:38:52,106 --> 00:38:53,007
+Ci siete?
+
+331
+00:38:53,047 --> 00:38:53,167
+Ok.
+
+332
+00:38:56,170 --> 00:38:56,990
+Interpretiamo?
+
+333
+00:38:57,010 --> 00:39:04,233
+Questo significa che il costruttore ha una visibilità pubblica, mentre il costruttore ha una visibilità pubblica.
+
+334
+00:39:05,414 --> 00:39:11,196
+Attenzione, non è un caso quello che ho scritto, nel senso che quei metodi devono avere una visibilità pubblica.
+
+335
+00:39:12,417 --> 00:39:12,657
+Perché?
+
+336
+00:39:14,838 --> 00:39:16,439
+Per un motivo molto esatto.
+
+337
+00:39:16,499 --> 00:39:20,200
+Il costruttore mi serve per costruire oggetti.
+
+338
+00:39:20,260 --> 00:39:20,420
+Siete?
+
+339
+00:39:30,632 --> 00:39:33,695
+E cos'è in me una cosa esterna dall'oggetto?
+
+340
+00:39:34,916 --> 00:39:50,632
+Nello stesso tempo il distruttore è importante perché potrebbe avere la necessità di voler liberare l'oggetto e se lo nasconde allora può partire nella migliore delle ipotesi quando.
+
+341
+00:40:01,730 --> 00:40:17,297
+Chiaro? Se vuoi riuscirci, attenzione sintatticamente. Sintatticamente, non riconosco sia il costruttore che il distruttore. Attenzione, usando il linguaggio che è proprio.
+
+342
+00:40:18,698 --> 00:40:27,402
+Il proprio perché tecnicamente il C++ ha le sue regole, ma quando tutti quanti gli invadono,
+
+343
+00:40:28,530 --> 00:40:47,456
+e C++ dice: "Guarda, i costruttori puoi riconoscerli perché hanno lo stesso nome della classe. Ogni volta che trovi un elenco di nomi tutti uguali e corrispondono a quello della classe, quali sono tutti i costruttori?"
+
+344
+00:40:47,496 --> 00:40:57,599
+In conseguenza, quando devo analizzare una classe, la prima cosa che devo fare è, oltretutto, dove devo commentare, devo commentare.
+
+345
+00:40:58,103 --> 00:40:59,844
+Le menzioni dei costruttori.
+
+346
+00:40:59,864 --> 00:41:00,265
+Perché?
+
+347
+00:41:02,546 --> 00:41:04,848
+Sono i vari modi di costruire un oggetto.
+
+348
+00:41:05,308 --> 00:41:06,569
+Se non me lo dici, come faccio?
+
+349
+00:41:06,990 --> 00:41:10,092
+Se faccio, indovino, prendo sempre quello di default.
+
+350
+00:41:12,133 --> 00:41:12,273
+Sì.
+
+351
+00:41:13,755 --> 00:41:15,616
+E tu decidi di non mettere quello di default.
+
+352
+00:41:15,956 --> 00:41:20,159
+Allora, da questo punto, chiaramente me lo devi documentare i costruttori.
+
+353
+00:41:20,219 --> 00:41:26,024
+Non è vero che quando andate a leggere la documentazione di una classe, manca l'elemento dei costruttori.
+
+354
+00:41:28,248 --> 00:41:30,350
+E quanto riguarda il distruttore, non c'è parametro.
+
+355
+00:41:31,751 --> 00:41:37,957
+Ma i costruttori sono diversi, la documentazione non può mancare. Se manca, c'è una problematica. Non posso usare quella classe.
+
+356
+00:41:40,139 --> 00:41:40,399
+Chiaro?
+
+357
+00:41:41,080 --> 00:41:53,131
+Detto questo, mai si ha un'altra regola: l'altra regola, l'altra regola parentica, il riconoscimento del distruttore.
+
+358
+00:41:57,535 --> 00:42:01,878
+Un tilde, cioè un singolo tilde, seguito dal nome della classe.
+
+359
+00:42:02,799 --> 00:42:10,665
+Beh, questa combinazione di caratteri tilde più il nome della classe è il distruttore.
+
+360
+00:42:11,185 --> 00:42:11,606
+Ci siete?
+
+361
+00:42:12,186 --> 00:42:13,007
+E il distruttore?
+
+362
+00:42:13,827 --> 00:42:14,648
+Ci siete?
+
+363
+00:42:14,848 --> 00:42:15,849
+Sì. Ma.
+
+364
+00:42:18,491 --> 00:42:20,072
+Io sto parlando con le 5 più.
+
+365
+00:42:21,633 --> 00:42:24,055
+Aspetta, aspetta.
+
+366
+00:42:25,208 --> 00:42:44,216
+Ho detto che esistono, nel linguaggio comune a tutti quanti i linguaggi, i costruttori e i distruttori. I costruttori possono essere più di uno, lo scopo dei costruttori è quello che vi ho detto. Lo scopo dei distruttori è quello che vi ho detto, e chiaramente ho aggiunto che costruttori e distruttori devono essere pubblici.
+
+367
+00:42:44,656 --> 00:42:53,960
+Ok, ho fatto il mio lavoro da teoregui. Da questo momento in poi, giusto per darvi, per farvi capire, alcune cose,
+
+368
+00:42:55,529 --> 00:42:58,991
+che avevo spiegato durante la mia lezione.
+
+369
+00:42:59,031 --> 00:43:00,512
+La mia lezione è finita.
+
+370
+00:43:03,154 --> 00:43:06,997
+E chiaramente è così, c'è un po' di teoria, un po' di pratica.
+
+371
+00:43:08,538 --> 00:43:11,220
+C'è quell'altro il quale... vedete?
+
+372
+00:43:11,260 --> 00:43:24,929
+Non è vero che si sono circolati persone, dei teorici che non sanno, che non escono perché poi non riescono.
+
+373
+00:43:26,081 --> 00:43:26,941
+Ecco perché dico.
+
+374
+00:43:27,362 --> 00:43:28,282
+Io non devo sapere più, no?
+
+375
+00:43:28,302 --> 00:43:32,144
+Ti incazzi pure se non ti puoi ricordare?
+
+376
+00:43:33,064 --> 00:43:34,105
+Ma ti incazzi sempre con me?
+
+377
+00:43:36,366 --> 00:43:38,506
+È una cosa che ti infastidisce dopo una vita.
+
+378
+00:43:39,787 --> 00:43:43,108
+Tu ne hai una percezione.
+
+379
+00:43:43,469 --> 00:43:44,369
+Io, tu, io.
+
+380
+00:43:45,189 --> 00:43:46,930
+Senti?
+
+381
+00:43:47,290 --> 00:43:50,452
+Allora, in C++ le regole sono più rigide.
+
+382
+00:43:52,032 --> 00:43:52,813
+Di Giavone che ci aveva...
+
+383
+00:43:56,810 --> 00:43:57,630
+No.
+
+384
+00:43:58,911 --> 00:44:00,491
+Non lo so.
+
+385
+00:44:00,611 --> 00:44:02,592
+Non lo so.
+
+386
+00:44:02,992 --> 00:44:03,753
+Certo, proprio.
+
+387
+00:44:03,773 --> 00:44:04,993
+Dove non ci arrivano?
+
+388
+00:44:05,253 --> 00:44:06,574
+Ci arrivano solamente i mostri?
+
+389
+00:44:08,254 --> 00:44:09,515
+Cioè, non so se rendere.
+
+390
+00:44:10,015 --> 00:44:10,795
+Non siamo gli eroi.
+
+391
+00:44:10,975 --> 00:44:12,776
+E se vengono le persone femminili?
+
+392
+00:44:14,896 --> 00:44:16,117
+Hanno questa reazione.
+
+393
+00:44:16,137 --> 00:44:16,917
+Scappano un po' così.
+
+394
+00:44:20,462 --> 00:44:23,603
+Va bene, no, tutta la vita con voi.
+
+395
+00:44:23,983 --> 00:44:25,264
+No, no, no, ci senti?
+
+396
+00:44:25,304 --> 00:44:31,706
+Questo è tutta la vita.
+
+397
+00:44:33,667 --> 00:44:36,307
+E quindi, il discorso è del regolamento del C++ più, no?
+
+398
+00:44:36,968 --> 00:44:39,529
+Ve l'ho detto, stessi nomi, costruttori.
+
+399
+00:44:39,669 --> 00:44:41,309
+Elenco di nomi, costruttori.
+
+400
+00:44:42,670 --> 00:44:44,250
+Tilde, distruttori.
+
+401
+00:44:45,210 --> 00:44:47,971
+Visibilità: tutti i membri sono pubblici, ma vale per tutti.
+
+402
+00:44:48,812 --> 00:44:49,692
+A questo punto ti dico:
+
+403
+00:44:51,195 --> 00:44:53,017
+Ma non fare cose oscene.
+
+404
+00:44:53,417 --> 00:44:56,479
+Perché il costruttore non per forza deve essere pubblico.
+
+405
+00:44:57,760 --> 00:45:04,766
+Non è. Non è. Cioè, se lo voglio... Questa è la regola, funzioni.
+
+406
+00:45:05,226 --> 00:45:11,371
+E ti ripeto, chiedilo a certe GPT e se sbagliano la risposta, ignora certe GPT.
+
+407
+00:45:11,411 --> 00:45:16,255
+Non state vedendo questo, c'è una scena nei libri in cui chiedo di bruciare perché non vincere.
+
+408
+00:45:17,498 --> 00:45:20,799
+Ma c'è un motivo, c'è una spiegazione, capisci?
+
+409
+00:45:21,640 --> 00:45:38,066
+E semplicemente la spiegazione è quella che ti ho detto prima: se io devo costruire degli oggetti, si presume che gli oggetti vengano costruiti fuori dalla classe, a meno che, è chiaro, non ci siano versioni private. Però c'è dell'altro, non c'è soltanto una parola, capisci?
+
+410
+00:45:38,446 --> 00:45:45,609
+Il concetto principale è che sono pubblici, poi le specializzazioni sono dei casi particolari che possono esistere, però
+
+411
+00:45:47,634 --> 00:46:01,744
+queste implementazioni, devo darti prima le basi, poi le cose eccezionali, le vediamo, perché altrimenti potresti creare distruttori.
+
+412
+00:46:03,125 --> 00:46:12,171
+L'assoluto è che questi sono gli ingredienti di base, dopodiché è chiaro che ci sono delle situazioni particolari che vanno considerate, però anche lì
+
+413
+00:46:13,917 --> 00:46:16,259
+Tu lo rendi privato, ok. Cosa c'è dietro?
+
+414
+00:46:16,439 --> 00:46:18,821
+Non mi basta dire semplicemente che questo è privato.
+
+415
+00:46:18,941 --> 00:46:20,042
+No, perché è privato?
+
+416
+00:46:20,823 --> 00:46:22,124
+Qual è la funzionalità?
+
+417
+00:46:22,324 --> 00:46:23,165
+E qui è lì.
+
+418
+00:46:24,986 --> 00:46:42,161
+È chiaro, ma te lo dico subito: se fai una combinazione di oggetti che contiene all'interno un altro oggetto, il quale non viene semplicemente dichiarato, ma innestato, e beh, e beh, sì,
+
+419
+00:46:48,251 --> 00:46:48,891
+Ci siete?
+
+420
+00:46:49,631 --> 00:46:59,674
+Quindi questo è lo standard. Allora, ritornando a noi: cioè, il G++ dice: ok, il G++ dice altre cose, e il Java cosa dice?
+
+421
+00:46:59,874 --> 00:47:04,436
+Beh, dice le sostanziali cose. Cosa vuol dire entrare nei costruttori?
+
+422
+00:47:04,896 --> 00:47:10,478
+Le riconosco perché hanno lo stesso nome della classe; i distruttori li riconosco perché hanno un tilde.
+
+423
+00:47:13,672 --> 00:47:14,052
+Ci siete?
+
+424
+00:47:15,794 --> 00:47:17,015
+E allora sono le stesse cose.
+
+425
+00:47:17,095 --> 00:47:18,516
+No, c'è una piccola differenza.
+
+426
+00:47:18,876 --> 00:47:20,758
+La piccola differenza consiste in questo.
+
+427
+00:47:22,019 --> 00:47:23,700
+Vedete questa classe?
+
+428
+00:47:23,740 --> 00:47:28,424
+Non è una classe C++, è una classe Java.
+
+429
+00:47:28,484 --> 00:47:32,107
+Perché voglio vedere la classe C++?
+
+430
+00:47:32,147 --> 00:47:34,909
+Basta una volta.
+
+431
+00:47:34,949 --> 00:47:35,890
+Basta una volta.
+
+432
+00:47:43,148 --> 00:47:55,854
+Di pubblici e non c'è bisogno di tenere tutto pubblico, ma questo vale per tutti. Per il Java no, ve lo devo dire sempre, chiaro?
+
+433
+00:47:56,254 --> 00:48:03,298
+E quindi già questa è una piccola differenza che crea problemi, specialmente quando passo da C++ al Java, no?
+
+434
+00:48:03,318 --> 00:48:04,218
+Ma c'è anche un'altra
+
+435
+00:48:17,602 --> 00:48:25,786
+Se non scrivo 'pubblico', in informatica, se non specifico qualcosa, evidentemente c'è un default.
+
+436
+00:48:26,746 --> 00:48:27,947
+Cos'è il default?
+
+437
+00:48:28,167 --> 00:48:30,968
+Ok, la visibilità di default.
+
+438
+00:48:32,649 --> 00:48:34,189
+Allora, praticamente, bene.
+
+439
+00:48:35,830 --> 00:48:42,513
+Non c'è più questa cosa di funzionare, perché il default è privato.
+
+440
+00:48:51,624 --> 00:49:03,152
+Semplicemente perché ho usato l'interfaccia e non ho esplicitato, in effetti, per non sbagliare mai la visibilità, ho detto 'chiaro'?
+
+441
+00:49:04,273 --> 00:49:20,444
+E quindi chiaramente, io lo scrivo sempre per non sbagliare mai. Attenzione, l'ho detto: se non facciamo, conosciamo la classe, anche lì c'è una cosa pubblica, privata e protetta.
+
+442
+00:49:24,309 --> 00:49:50,389
+Le classi usate in particolare nei piccoli linguaggi e qui cominciamo a vedere le piccole grandi differenze: ci sono i costruttori perché ti ho detto, da teorico, tutte le classi hanno i costruttori e io vi ho detto anche un'altra cosa: tutte le classi possono avere più costruttori. Siete qui?
+
+443
+00:49:52,451 --> 00:49:53,312
+Allora tu dici no?
+
+444
+00:49:54,580 --> 00:50:11,330
+Ci ha detto lui: in conseguenza, lo uso. Comincio a stendere la classe e applico la regola, dicendo che i costruttori sono riconosciuti dal nome della classe e non ce ne sono altri.
+
+445
+00:50:12,391 --> 00:50:12,651
+Perché?
+
+446
+00:50:14,052 --> 00:50:22,957
+Perché la regola del PHP è che il costruttore non ha il nome della classe, ha un'altra parola, chiaro?
+
+447
+00:50:24,940 --> 00:50:32,182
+Prima differenza.
+
+448
+00:50:32,542 --> 00:50:40,544
+Il PHP non prevede i distruttori, non prevede altro.
+
+449
+00:50:40,584 --> 00:50:52,987
+Quindi, se voi scoprite come si crea il distruttore, in base a quello che mi hai detto, ce n'era un altro che può essere replicato, quindi copriamo questo, gli metto qualche parametro, no?
+
+450
+00:50:55,441 --> 00:50:57,562
+Perché lui ammette un parametro.
+
+451
+00:50:57,622 --> 00:51:01,383
+Ci si vede?
+
+452
+00:51:01,423 --> 00:51:04,884
+Allora, con questo cosa sto cercando di dirvi in pratica?
+
+453
+00:51:05,924 --> 00:51:10,305
+Io vi ho dato delle regole teoriche, non pratiche, non concettuali.
+
+454
+00:51:11,005 --> 00:51:13,686
+Un certo libro che ho messo su un oggetto ha queste regole.
+
+455
+00:51:13,946 --> 00:51:17,807
+Poi, dopo aver considerato che l'ho messo su un oggetto, si rispetta quel tipo di dettaglio.
+
+456
+00:51:19,168 --> 00:51:23,349
+Poi ci sono i linguaggi che implementano questi concetti.
+
+457
+00:51:24,801 --> 00:51:26,422
+E mettono a disposizione le proprie regole.
+
+458
+00:51:28,604 --> 00:51:31,526
+Le regole del Java vanno a coincidere con quelle del C++.
+
+459
+00:51:33,367 --> 00:51:34,168
+Vedete che finora?
+
+460
+00:51:36,509 --> 00:51:41,573
+Prima del punto.
+
+461
+00:51:42,113 --> 00:51:42,453
+Come?
+
+462
+00:51:43,995 --> 00:51:44,375
+Come?
+
+463
+00:51:45,175 --> 00:51:45,376
+Perché?
+
+464
+00:51:45,396 --> 00:51:49,138
+Non è vero.
+
+465
+00:51:49,178 --> 00:51:50,119
+Se dovesse essere in crisi,
+
+466
+00:51:51,331 --> 00:51:53,032
+E anche queste sono affermazioni pericolose.
+
+467
+00:51:53,312 --> 00:51:57,874
+Io ho detto una cosa sui costruttori. Se ci riflettiamo, ti do una risposta.
+
+468
+00:52:02,375 --> 00:52:03,876
+Allora, o parliamo di oggetti?
+
+469
+00:52:05,477 --> 00:52:09,398
+Allora, a questo punto c'è l'universo, il mondo, scrivo oggetti.
+
+470
+00:52:11,339 --> 00:52:16,341
+Ma se io devo, quindi praticamente, io non uso le classi,
+
+471
+00:52:18,534 --> 00:52:21,695
+e io mi costruisco, mi personalizzo gli oggetti, no?
+
+472
+00:52:22,115 --> 00:52:24,116
+Quindi, se io ti dico: non c'è il concetto di classe.
+
+473
+00:52:25,196 --> 00:52:26,257
+Quello che scrivo sono oggetti.
+
+474
+00:52:27,877 --> 00:52:30,738
+Se quello che scrivo sono oggetti, mi salta un passaggio.
+
+475
+00:52:31,858 --> 00:52:32,559
+La dichiarazione.
+
+476
+00:52:34,179 --> 00:52:41,001
+E quindi, siccome la dichiarazione significa costruzione, non costruisco niente, perché ti sto dicendo qualcosa che ho detto.
+
+477
+00:52:41,061 --> 00:52:46,003
+Chiaro il senso.
+
+478
+00:52:48,103 --> 00:52:49,544
+Non ha senso.
+
+479
+00:52:49,564 --> 00:52:52,026
+Ma tant'è vero, non c'è mai quella classe, concettualmente.
+
+480
+00:52:52,086 --> 00:52:53,607
+Potrebbe anche non esserci la classe.
+
+481
+00:52:53,808 --> 00:52:55,309
+Perché non gli importa della classe.
+
+482
+00:52:55,749 --> 00:52:56,850
+Sto dicendo sempre di classi.
+
+483
+00:52:59,752 --> 00:53:02,715
+Perché io ti dico: tutti gli oggetti hanno la classe.
+
+484
+00:53:02,735 --> 00:53:05,797
+Tu prima prendi la classe e poi prendi l'oggetto.
+
+485
+00:53:06,798 --> 00:53:08,239
+Tu vai a cercarti la classe.
+
+486
+00:53:12,282 --> 00:53:13,664
+Allora dici: come creare gli oggetti.
+
+487
+00:53:14,384 --> 00:53:15,885
+Che poi ti puoi creare, no?
+
+488
+00:53:15,945 --> 00:53:16,045
+Bene.
+
+489
+00:53:17,403 --> 00:53:37,010
+A questo punto, io sono il creatore degli oggetti. Lo scrivo. So che è strano, però in effetti chi viene da una programmazione pura degli oggetti è chiaro che fa fatica ad assicurare queste cose all'inizio. Ma stiamo parlando di Python?
+
+490
+00:53:37,330 --> 00:53:41,072
+Eh, perché mi stanno andando un po' a fare male, perché non riesco proprio a farcela.
+
+491
+00:53:42,233 --> 00:53:57,417
+È lì che ti va in pappa il cervello perché dici: ho consolidato queste basi concettuali di programmazione ad oggetti, i principi li ho assimilati, vado a vedere le implementazioni di vari linguaggi e vedo che praticamente le hanno violate, in effetti le hanno violate.
+
+492
+00:53:58,438 --> 00:53:58,878
+Perché?
+
+493
+00:53:59,438 --> 00:54:06,740
+Per una questione pratica è più comodo non fare queste cose, quindi bypassare la teoria, il concetto, inventarmi una mia versione di oggetto già fatta e tu la usi.
+
+494
+00:54:07,999 --> 00:54:12,282
+Una mia versione di oggetto è già fatta e tu la usi.
+
+495
+00:54:14,003 --> 00:54:24,068
+Torni indietro nella scrittura, perché potresti avere la necessità di costruire i tuoi oggetti e quindi devi avere la regola di no.
+
+496
+00:54:24,168 --> 00:54:24,929
+Sì, ma quale?
+
+497
+00:54:25,069 --> 00:54:25,429
+Come?
+
+498
+00:54:28,131 --> 00:54:29,251
+Non ti devi mai fermare.
+
+499
+00:54:29,431 --> 00:54:30,272
+Cioè, della serie.
+
+500
+00:54:31,012 --> 00:54:31,913
+Allora, te lo dico.
+
+501
+00:54:32,762 --> 00:54:38,725
+Il discorso del Python è già tutto pronto. Il framework di Python, pensa a una cosa: c'è, lo prendi e lo usi.
+
+502
+00:54:38,825 --> 00:54:41,687
+Basta, devi imparare come usarlo e tu lo usi.
+
+503
+00:54:41,727 --> 00:54:42,447
+Documentazione.
+
+504
+00:54:42,487 --> 00:54:44,628
+Detto questo, no, basta seguire un paio di passi.
+
+505
+00:54:45,088 --> 00:54:53,132
+Detto questo, il problema è, diamo per scontato, è che è praticamente, vabbè, da lì.
+
+506
+00:54:54,053 --> 00:54:56,274
+La domanda che ti pongo è: sì, ma chi l'ha scritto?
+
+507
+00:54:57,595 --> 00:54:59,256
+Il problema è che qualcuno l'ha scritto.
+
+508
+00:55:03,484 --> 00:55:04,684
+Allora, tu cosa vuoi essere?
+
+509
+00:55:06,725 --> 00:55:10,225
+Vuoi essere uno che usa gli oggetti o vuoi essere uno che progetta gli oggetti?
+
+510
+00:55:11,286 --> 00:55:15,547
+No, no, non è ironia, nel senso che prima te l'ho detto.
+
+511
+00:55:16,367 --> 00:55:22,348
+Quando ho detto la parola team, ho detto: tu progetti l'oggetto, tu usi l'oggetto, tu testi l'oggetto.
+
+512
+00:55:22,428 --> 00:55:26,829
+Il messaggio è attenzione, sono figure e profili differenti.
+
+513
+00:55:26,849 --> 00:55:31,090
+Quando tu mi dici Python, uso l'oggetto.
+
+514
+00:55:33,681 --> 00:55:48,333
+È uno dei tre, perché l'uso significa che progetto un'applicazione dove utilizzo gli oggetti che qualcuno ha fatto. Ok, se ti chiedessi di progettare tu un oggetto che dovrà essere usato, da dove cominci?
+
+515
+00:55:50,554 --> 00:55:58,841
+È chiaro, la visione di chi usa, per capirci. Ma lo potevo fare anche adesso, ma già funziona con Java,
+
+516
+00:56:02,654 --> 00:56:11,401
+Non si aggira in legge, cioè non come paese, non un po' più in C++, puramente non come paese.
+
+517
+00:56:11,901 --> 00:56:13,122
+Vuoi usare l'oggetto?
+
+518
+00:56:22,590 --> 00:56:23,490
+Sai cosa è questo?
+
+519
+00:56:24,311 --> 00:56:24,931
+Che mi riguarda?
+
+520
+00:56:26,733 --> 00:56:27,794
+No, dimmi.
+
+521
+00:56:28,674 --> 00:56:30,356
+No, è... Sì, maiuscola.
+
+522
+00:56:32,375 --> 00:56:35,916
+No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+
+523
+00:56:57,791 --> 00:57:03,954
+E se è un oggetto C++ e se è un oggetto Java, come si costruisce un oggetto?
+
+524
+00:57:05,534 --> 00:57:09,996
+Per poterlo costruire, bisogna dire: class, quali sono i costruttori della classe?
+
+525
+00:57:10,617 --> 00:57:17,000
+Quanti tipi di costruttori ci sono?
+
+526
+00:57:17,040 --> 00:57:22,202
+Vai sulla documentazione e scopri quanti ce ne sono del tipo: questo è uno.
+
+527
+00:57:30,503 --> 00:57:53,372
+Da quando tu stai cercando di dire "chi", tu non sai come fare la classe string, devi sapere solamente quanti costruttori ci sono, come e quando usarli. Chi sviluppa le applicazioni non ha detto come fare la classe, quindi la visione di chi sviluppa le applicazioni è completamente diversa.
+
+528
+00:57:58,075 --> 00:57:58,456
+Perché?
+
+529
+00:57:58,476 --> 00:58:00,658
+Che ci siano delle ereditarietà.
+
+530
+00:58:01,419 --> 00:58:02,881
+A te non ne credo niente.
+
+531
+00:58:06,105 --> 00:58:06,625
+Perché?
+
+532
+00:58:06,946 --> 00:58:08,367
+Perché lo sviluppo non è quello.
+
+533
+00:58:08,548 --> 00:58:13,173
+Lo sviluppo è che io devo scrivere la mia applicazione e devo usare gli oggetti in maniera molto più semplice.
+
+534
+00:58:13,393 --> 00:58:16,037
+Quindi io studio semplicemente l'interfaccia.
+
+535
+00:58:16,613 --> 00:58:17,653
+Metodi che mi servono.
+
+536
+00:58:17,673 --> 00:58:23,836
+La prima cosa, la prima cosa che dovete studiare è l'elenco dei costruttori.
+
+537
+00:58:24,396 --> 00:58:33,700
+Perché se non dichiarate l'oggetto, è inutile che mi invento tutti quanti progetti, cioè tutte le chiamate ai metodi, non c'è l'oggetto.
+
+538
+00:58:36,661 --> 00:58:42,024
+Quindi lo devo creare, poterlo creare lo devo dichiarare e poi istanziare.
+
+539
+00:58:43,204 --> 00:58:44,005
+Sì, con quali regole?
+
+540
+00:58:47,756 --> 00:59:16,797
+Dipende dai costruttori che da lì si mette a disposizione. Non è che te lo inventi, è che vai successivamente e vedo che il tizio usa... ti faccio un esempio di classe, cioè di applicazione che usa la classe string non parte con l'esempio: nel costruttore c'era l'inizializzazione di variabili senza parametri e niente.
+
+541
+00:59:17,742 --> 00:59:45,114
+Automaticamente tu associ ogni volta che bisogna inizializzare una variabile con un metodo che ti ha sempre detto come fare, non è identificato se puoi inizializzare. Ma questo significa che c'è un altro costruttore che funziona in maniera diversa. Il vero studio del programmatore o dello sviluppatore lo fa sul manuale.
+
+542
+00:59:47,176 --> 00:59:50,078
+Devo imparare a usare una classe.
+
+543
+00:59:50,238 --> 00:59:52,419
+La prima cosa che devo imparare è l'uso dei costruttori.
+
+544
+00:59:56,181 --> 00:59:58,922
+Per creare gli oggetti.
+
+545
+01:00:00,543 --> 01:00:04,525
+Perché sono i costruttori che mi dicono: puoi usare questo, questo, questo, questo.
+
+546
+01:00:05,746 --> 01:00:08,647
+E tu dici: "Ok, nella mia applicazione mi serve questo."
+
+547
+01:00:09,648 --> 01:00:10,808
+Non ti serve quello.
+
+548
+01:00:16,109 --> 01:00:16,509
+È chiaro?
+
+549
+01:00:16,769 --> 01:00:19,230
+Quindi il discorso è: ok, questo?
+
+550
+01:00:19,730 --> 01:00:45,178
+Bene, questo vuole essere C++, questo vuole essere Java. La cosa certa è che questa non è una "T", questa è una classe in una software house dove progetta una classe. L'uso è infatti di test, ma quella è un'altra persona che
+
+551
+01:00:46,630 --> 01:01:08,860
+Se tu devi progettare una classe, devi usare le regole di progettazione delle classi. Scelto il percorso, usi la classe perché, e se poi dici a un certo punto della mia vita: "Vabbè, ma io voglio creare il mio pacchetto di attrezzi di oggetti, come lo faccio?"
+
+552
+01:01:12,825 --> 01:01:18,069
+Il modo di ragionare di chi usa Python è quello di usare gli strumenti.
+
+553
+01:01:18,149 --> 01:01:18,950
+Ma mi va bene!
+
+554
+01:01:19,150 --> 01:01:19,830
+Ed evadio!
+
+555
+01:01:21,151 --> 01:01:24,034
+Il discorso è: cosa vuoi fare da grande?
+
+556
+01:01:24,934 --> 01:01:25,975
+Vuoi solo usarli?
+
+557
+01:01:26,075 --> 01:01:27,636
+Va bene, facciamo solo quello.
+
+558
+01:01:28,897 --> 01:01:33,080
+Oppure vuoi progettare quelle cose che qualcuno andrà a usare?
+
+559
+01:01:34,361 --> 01:01:35,842
+Non l'applicazione.
+
+560
+01:01:37,544 --> 01:01:40,286
+Sì, sì, però il mio modo di ragionare è diverso.
+
+561
+01:01:41,749 --> 01:01:49,754
+Devo mettere a disposizione tutte quelle funzionalità che verranno utilizzate, a poi le classi sono ridondanti.
+
+562
+01:01:51,616 --> 01:02:05,365
+Hai detto che questa è una libreria che fa questo, questo è un elenco di metodi del programma.
+
+563
+01:02:06,266 --> 01:02:07,547
+In effetti, se andate su C++ c'è un problema.
+
+564
+01:02:09,940 --> 01:02:33,895
+La classe stringa e lui, quando comincia a spiegarla, ti dice la prima cosa che ti dice: "Ok, questa è la dichiarazione che dovevi utilizzare. Quando devi mostrare l'oggetto, è chiaro: se non è l'oggetto, non ti spiego il metodo. È chiaro: quindi questo è un oggetto, cioè questa è una classe, questa è una classe S, è l'oggetto inizializzato."
+
+565
+01:02:39,901 --> 01:02:40,201
+Chiaro?
+
+566
+01:02:40,721 --> 01:02:43,502
+La possibilità è questa, tutto il resto è la riproduzione.
+
+567
+01:02:46,762 --> 01:02:50,003
+Sono concentrato sull'applicazione, ma qual è l'uso?
+
+568
+01:02:51,543 --> 01:02:52,243
+Cosa vuoi fare?
+
+569
+01:02:53,723 --> 01:02:54,764
+Progettare l'applicazione?
+
+570
+01:02:54,884 --> 01:02:55,584
+Beh, ok.
+
+571
+01:02:56,964 --> 01:02:59,844
+Non ti faccio la programmazione, perché non tenete voi i caschi.
+
+572
+01:03:01,785 --> 01:03:08,626
+Andiamo direttamente alle librerie. Ho detto che questa è una libreria che fa questo, questo è un elenco di metodi del programma.
+
+573
+01:03:14,377 --> 01:03:23,399
+Quando arrivo a questo punto, e quello che volevo fare con voi, devo parlare di intelligenza artificiale?
+
+574
+01:03:24,899 --> 01:03:27,599
+Devo dirti quali sono le librerie che devono essere utilizzate?
+
+575
+01:03:27,619 --> 01:03:32,760
+E tu non ti interessa di come si dichiara la classe?
+
+576
+01:03:32,800 --> 01:03:37,021
+Ti interessa capire qual è la funzionalità, qual è l'uso e come si scrivono i metodi?
+
+577
+01:03:38,421 --> 01:03:43,802
+Perché l'obiettivo è scrivere quel programma di intelligenza artificiale.
+
+578
+01:03:45,772 --> 01:03:54,876
+Qui l'obiettivo è imparare la programmazione ad oggetti e imparare a utilizzare quegli oggetti in una mia applicazione, in modi diversi.
+
+579
+01:03:57,277 --> 01:03:57,857
+Sono chiaro?
+
+580
+01:04:01,238 --> 01:04:02,098
+Questo è il punto.
+
+581
+01:04:03,339 --> 01:04:04,519
+Quindi, torniamo a noi.
+
+582
+01:04:05,700 --> 01:04:07,480
+Devo scrivere la classe.
+
+583
+01:04:07,560 --> 01:04:11,262
+Benissimo, fate una classe C++, un po' più strutturata.
+
+584
+01:04:12,073 --> 01:04:16,094
+Poi non potete studiare un distruttore e metterlo in Java; cambia i linguaggi.
+
+585
+01:04:17,434 --> 01:04:20,015
+Però non succederà niente perché mancherà il main.
+
+586
+01:04:20,835 --> 01:04:26,636
+E lì il main di Java è un po' diverso, leggermente diverso.
+
+587
+01:04:27,876 --> 01:04:35,558
+Perché il C++ è un'estensione del C. E quindi, nell'anima, è chiaro che c'è il C++.
+
+588
+01:04:38,887 --> 01:04:49,252
+C++ chiaramente è fondamentalmente un'estensione, quindi ha ancora la lezione. Tanto è vero che se voglio testare gli oggetti, uso... Cos'è il main?
+
+589
+01:04:50,033 --> 01:04:50,513
+La funzione.
+
+590
+01:04:52,494 --> 01:04:53,614
+E quindi esterno?
+
+591
+01:04:55,295 --> 01:05:01,178
+Nel momento in cui lavoro con Java, il main non è esterno, no.
+
+592
+01:05:02,239 --> 01:05:05,941
+C'è una classe speciale che contiene, proprio internamente,
+
+593
+01:05:06,802 --> 01:05:15,545
+un metodo speciale. E cosa ha di speciale ogni volta che viene eseguito la classe, cioè l'oggetto parte per primo.
+
+594
+01:05:16,825 --> 01:05:21,007
+È una sorta di costruttore, no, ma il punto di lancio dell'applicazione.
+
+595
+01:05:23,828 --> 01:05:24,148
+Chiaro?
+
+596
+01:05:25,208 --> 01:05:27,269
+È una filosofia leggermente diversa, no?
+
+597
+01:05:27,469 --> 01:05:32,931
+Perché è ad oggetti, il C++ non è completamente ad oggetti.
+
+598
+01:05:34,171 --> 01:05:36,152
+È la dimostrazione, c'è un metodo speciale,
+
+599
+01:05:36,527 --> 01:06:04,599
+la parte di un oggetto, no. La parte di un oggetto, no. La parte di un oggetto, no.
+
+600
+01:06:05,347 --> 01:06:08,230
+Ok, questa è la stessa rivelazione di un intero in Java.
+
+601
+01:06:10,212 --> 01:06:11,133
+Manca il Java Spring.
+
+602
+01:06:14,136 --> 01:06:15,657
+Hm, sbagliatelo.
+
+603
+01:06:16,178 --> 01:06:28,230
+In Java Spring, let, let, let, let, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+
+604
+01:06:48,706 --> 01:07:15,841
+Ecco perché era inizialmente... cioè, per ricorsi... in maniera implicita... dici che è una variabile ma non è più... dici che... in base all'approccio dell'attenzione, si calcola quanto spazio ha l'uomo, so così... allora, non è una variabile, non metti in quello piccolo modo. Io a me piace dire che un segno è posto, è una manifestazione di un utente, un'intenzione di usare una variabile, ma quella cosa diventa una variabile...
+
+605
+01:07:22,603 --> 01:07:25,085
+Allora posso dire che ha una variabile utile intera?
+
+606
+01:07:25,605 --> 01:07:30,388
+È il valore che decide praticamente cosa diventerà.
+
+607
+01:07:31,729 --> 01:07:42,316
+E nello stesso tempo... Perché non viene allocato, però non è allocato in memoria.
+
+608
+01:07:42,336 --> 01:07:43,697
+A questo punto, cosa fa?
+
+609
+01:07:43,777 --> 01:07:50,562
+Dice: ok, insomma, in questa situazione il valore ti dice: quella variabile dovrà diventare, di conseguenza distrugge quello che era,
+
+610
+01:07:51,519 --> 01:07:56,340
+e lo leggiamo praticamente con il nuovo titolo.
+
+611
+01:07:59,281 --> 01:08:04,582
+Ma questo è ovviamente un altro mondo, nel senso che è un'altra distorsione sull'inguale.
+
+612
+01:08:05,022 --> 01:08:20,925
+Torniamo... No, no, ripeto: se no poi andiamo a fare un'interazione, abbiamo perso il focus. Il focus è questo esempio che abbiamo messo, perché il Java diceva: non è ad oggetti, perché?
+
+613
+01:08:23,379 --> 01:08:29,101
+Un uguale che ammetterà un'imparazione di questo genere di variabili non è l'oggetto.
+
+614
+01:08:30,661 --> 01:08:31,142
+Perché?
+
+615
+01:08:31,682 --> 01:08:46,467
+No, no, nel senso che il concetto di tipo, l'implementazione dell'oggetto, è la classe che crea oggetti che poi sono in superclasse.
+
+616
+01:08:58,433 --> 01:08:59,434
+Questo è in Java?
+
+617
+01:08:59,634 --> 01:09:01,195
+È in Java!
+
+618
+01:09:01,976 --> 01:09:05,399
+È in Java, secondo che l'altro... qual'era la differenza?
+
+619
+01:09:06,660 --> 01:09:13,846
+Vedo cose di Pascal e mi viene in mente Pascal.
+
+620
+01:09:29,477 --> 01:09:33,259
+Allora, in Java si istanziano le due questioni.
+
+621
+01:09:34,420 --> 01:09:35,240
+Scusami un attimo.
+
+622
+01:09:35,300 --> 01:09:35,981
+Cos'è A?
+
+623
+01:09:36,761 --> 01:09:37,361
+Un intero.
+
+624
+01:09:39,623 --> 01:09:40,363
+Cos'è D?
+
+625
+01:09:40,943 --> 01:09:44,205
+Un intero, concettualmente.
+
+626
+01:09:44,505 --> 01:09:58,353
+Realmente, il contenitore che dovrà contenere un numero intero è il settore degli oggetti.
+
+627
+01:09:59,768 --> 01:10:03,231
+Se è un oggetto, ci sono metodi e proprietà.
+
+628
+01:10:04,392 --> 01:10:06,153
+È chiaro?
+
+629
+01:10:06,894 --> 01:10:10,656
+Quindi non dovrò mai fare questo.
+
+630
+01:10:18,342 --> 01:10:19,903
+Allora, perché?
+
+631
+01:10:20,824 --> 01:10:22,325
+Perché Adam è un oggetto.
+
+632
+01:10:22,385 --> 01:10:25,367
+Sono due tipi diversi.
+
+633
+01:10:25,387 --> 01:10:27,249
+Sono due concetti diversi.
+
+634
+01:10:29,707 --> 01:10:52,034
+Sono due realtà diverse, però esprimono questo: significa il tuo intero e l'intero. Il problema è che il nuovo è il puro in cui non c'è nulla che l'altro, e qui facciamo l'intero lavorano con gli interi però faccio un'assegnazione dai crisi ma anche.
+
+635
+01:11:07,995 --> 01:11:21,678
+Idealmente, uno era così, l'altro era semplice. Il punto di vista del C++ sembra un po' inizialmente sicilista, è una merda di carattere, un po' inizialmente bassa.
+
+636
+01:11:23,178 --> 01:11:26,679
+E questo è un modo di ragionare che dovreste suggerire se non fare cose.
+
+637
+01:11:26,719 --> 01:11:28,639
+Quindi torniamo a noi,
+
+638
+01:11:36,229 --> 01:11:37,250
+Cosa potete fare?
+
+639
+01:11:37,470 --> 01:11:43,173
+Niente, è possibile una classe semplice con uno... ...dovevo dire.
+
+640
+01:11:45,314 --> 01:11:49,236
+Copiare e incollare, per cercare di vedere cos'è che non potesse funzionare.
+
+641
+01:11:49,436 --> 01:11:53,078
+Una cosa che non avete, un'informazione che non avete, è come imparare una classe Java.
+
+642
+01:11:53,278 --> 01:12:01,822
+La classe Java praticamente presenta un metodo speciale e deve essere chiamato main.
+
+643
+01:12:04,727 --> 01:12:20,714
+E quindi lì sarà il punto di lancio di tutta l'applicazione. Se in C++ ci deve essere la funzione main ed è il punto di lancio di tutta l'applicazione e quindi... boom!
+
+644
+01:12:21,254 --> 01:12:33,460
+Torniamo a noi, alla programmazione ad oggetti. La lezione dicevamo: sì, va bene, ma questo significa che combiniamo quelle classi, oggetti. L'evoluzione da questo punto.
+
+645
+01:12:35,179 --> 01:12:48,905
+Per quanto riguarda il Neovascript, il Neovascript dell'OML. Ok, questo è un oggetto, ci siete?
+
+646
+01:12:48,945 --> 01:12:56,768
+Abbiamo detto che uno dei concetti della programmazione ad oggetti è il concetto di ereditarietà. Cos'è l'ereditarietà?
+
+647
+01:12:58,208 --> 01:13:04,311
+Dal punto di vista dell'OML, riconosco l'ereditarietà perché c'è questa rappresentazione.
+
+648
+01:13:17,111 --> 01:13:34,344
+Allora, il discorso è l'ereditarietà. Abbiamo detto che l'ereditarietà significa che
+
+649
+01:13:36,681 --> 01:13:39,702
+Ci deve essere qualcuno che ha qualcosa da dare a qualcun altro.
+
+650
+01:13:39,742 --> 01:13:50,025
+Quindi praticamente, se usiamo la metafora della famiglia, c'è un genitore che ha qualcosa da dare ai figli per vita.
+
+651
+01:13:50,065 --> 01:13:50,405
+Chiaro?
+
+652
+01:13:50,425 --> 01:13:52,186
+Ci siete?
+
+653
+01:13:52,266 --> 01:13:57,988
+Allora, qui abbiamo tre soggetti.
+
+654
+01:13:58,708 --> 01:14:00,109
+Allora, l'attività grafica.
+
+655
+01:14:00,329 --> 01:14:03,990
+Assumiamo, cioè diamo, significato, per fare
+
+656
+01:14:05,230 --> 01:14:12,654
+che ha qualcosa da dare e poi ci sono i figli. Ci siete?
+
+657
+01:14:12,914 --> 01:14:14,275
+Questo è il figlio che ha ricevuto.
+
+658
+01:14:34,068 --> 01:14:35,348
+Cosa stai cercando di diventare?
+
+659
+01:14:35,508 --> 01:14:40,649
+Attenzione alla posizione dei rapporti.
+
+660
+01:14:40,709 --> 01:14:46,030
+Il padre, se questo è la nostra idea, se questo è il padre, deve essere raggiunto dai rapporti.
+
+661
+01:14:46,851 --> 01:14:50,631
+Cambia l'ordine, il concetto cambia.
+
+662
+01:14:51,011 --> 01:14:57,773
+Mi chiarisci, attenzione ai rapporti.
+
+663
+01:14:57,793 --> 01:15:00,133
+Quindi c'è un altro concetto, un occhio interessante.
+
+664
+01:15:01,514 --> 01:15:02,894
+Quello significa che questo
+
+665
+01:15:03,635 --> 01:15:19,960
+Non è il padre, è il figlio, è l'illusione ottile, è più chiaro, ne penti istintivamente, vi sarei aspettato, ma è semplicemente l'attività, l'idea, l'idea, no?
+
+666
+01:15:23,901 --> 01:15:31,123
+I genitori, già vi ho detto, sono realmente gli amici che sono in questo istituto,
+
+667
+01:15:32,619 --> 01:15:34,000
+Che faccio con i rapporti?
+
+668
+01:15:35,120 --> 01:15:36,560
+La risposta, segni la treccia.
+
+669
+01:15:37,721 --> 01:15:38,741
+A che serve la treccia?
+
+670
+01:15:38,781 --> 01:15:47,184
+Scoprire che il genitore, quello che viene dal genitore della treccia, ma questo lo dicevo in mezzo, ci siete?
+
+671
+01:15:48,265 --> 01:15:49,905
+Ma vi sto dicendo anche altre cose.
+
+672
+01:15:50,866 --> 01:16:00,229
+Questo è un genitore che ha un figlio, però non è la realtà. Per avere un figlio bisogna dare due genitori, chiaro?
+
+673
+01:16:03,404 --> 01:16:23,331
+E quindi la lingua del genere si chiama ereditarietà multipla, che significa che il papà che ha qualcosa da dare al figlio, mentre la mamma è grande, trasferiscono qualcosa al figlio. Cosa?
+
+674
+01:16:28,201 --> 01:16:47,770
+No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+
+675
+01:17:09,505 --> 01:17:10,465
+Si definisce ereditarietà.
+
+676
+01:17:10,565 --> 01:17:12,426
+Tutto è più pubblico e tutto è più protetto.
+
+677
+01:17:13,646 --> 01:17:14,466
+Quella è ereditarietà.
+
+678
+01:17:14,766 --> 01:17:16,567
+Ma non c'è niente se sono metodi di ereditarietà.
+
+679
+01:17:16,607 --> 01:17:19,607
+Una cosa è cercare le parole, perché questo passa.
+
+680
+01:17:19,627 --> 01:17:21,208
+Aspetta, aspetta, aspetta.
+
+681
+01:17:21,628 --> 01:17:22,788
+Verifichiamo se avete capito.
+
+682
+01:17:23,748 --> 01:17:24,649
+Cos'è l'ereditarietà?
+
+683
+01:17:24,669 --> 01:17:25,009
+Non è l'ereditarietà.
+
+684
+01:17:28,852 --> 01:17:35,739
+Cos'è una realtà, tutti i membri privati.
+
+685
+01:17:36,040 --> 01:17:50,095
+Tanto è vero che quando parliamo di, giusto per avere un esempio chiaro, patrimonio genetico: se passa tutto dal padre e dalla madre, noi dovremmo praticamente mettere metà uno e metà l'altro,
+
+686
+01:17:52,556 --> 01:17:59,680
+Il nostro patrimonio genetico è una parte che arriva dalla madre, una parte che arriva dal padre, ma non tutti.
+
+687
+01:18:02,262 --> 01:18:09,646
+Perché se il padre non lo prende in considerazione, e invece il carattere della mamma magari si evolve, chiaro: è passata una cosa indesiderabile.
+
+688
+01:18:17,680 --> 01:18:28,305
+Il concetto: cerco di fare queste cose esasperate perché, per esempio, questo anno c'è Spoggio. Spero che ti aiuti a ricordare, a capire, a fare una distruzione.

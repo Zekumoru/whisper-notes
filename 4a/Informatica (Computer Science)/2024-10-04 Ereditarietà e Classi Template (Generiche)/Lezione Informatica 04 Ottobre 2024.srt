@@ -1,0 +1,2068 @@
+1
+00:00:00,349 --> 00:00:12,552
+E considera probabilmente una chiamata di sistema o interfaccia per dialogare con il sistema operativo.
+
+2
+00:00:13,332 --> 00:00:14,553
+Ecco perché cosa significa.
+
+3
+00:00:14,673 --> 00:00:18,353
+Noi la vogliamo ad altro rivelo, di conseguenza tutto quello che c'è sotto è nascosto.
+
+4
+00:00:20,194 --> 00:00:22,194
+Se io apro il codice puoi vedere cosa.
+
+5
+00:00:24,675 --> 00:00:26,455
+È chiaro, adesso siamo nella logica.
+
+6
+00:00:26,895 --> 00:00:28,576
+Mi interessa sapere cosa fa.
+
+7
+00:00:30,518 --> 00:00:33,459
+cos'ha a disegno dell'ingresso e cosa restituisce, basta.
+
+8
+00:00:34,359 --> 00:00:34,899
+Come lo fa?
+
+9
+00:00:34,919 --> 00:00:36,720
+Non ne frega niente.
+
+10
+00:00:36,800 --> 00:00:47,963
+Il motivo per cui vi ho detto, quando progettate, progettate in funzione di chi dovrà usare, o la classe o la funzione.
+
+11
+00:00:49,803 --> 00:00:55,725
+Perché chi userà quelle cose lì, a lui non gliene fregherà niente di come funziona, l'importante è che funziona.
+
+12
+00:00:58,027 --> 00:01:08,729
+e quindi dovete vestire due panni di chi usa quello che progettate e di chi sviluppa quello che c'è dentro.
+
+13
+00:01:09,450 --> 00:01:13,831
+Due visioni completamente diverse.
+
+14
+00:01:14,991 --> 00:01:20,172
+Quindi il discorso del capire il senso del sistema relativo è come un discorso di risorse.
+
+15
+00:01:20,192 --> 00:01:24,493
+Le risorse sono hardware, io ho messo tutto quanto hardware per dire ok, tutto passa
+
+16
+00:01:26,343 --> 00:01:32,628
+E lui, quando io gli dico per me prendere un'applicazione che sta di sopra, è lui che sa dove stanno i dischi.
+
+17
+00:01:34,069 --> 00:01:34,910
+No, non fa funzione.
+
+18
+00:01:35,030 --> 00:01:36,571
+Funzione è che bisogna mettere una richiesta.
+
+19
+00:01:37,712 --> 00:01:44,217
+Che viene trasformata, chiaro?
+
+20
+00:01:44,478 --> 00:01:51,503
+Cioè, l'assembla è da tanto che non si fa l'assembla seriamente.
+
+21
+00:01:55,473 --> 00:02:06,981
+L'hanno scolto e detto, ovviamente, ho parlato anche in terza, perché lo dico sempre, prima di cominciare a programmare devo sapere che praticamente che tutto quello che scrivono con un colleguaggio verrà tradotto.
+
+22
+00:02:08,122 --> 00:02:09,242
+Ve lo disse anche in seconda.
+
+23
+00:02:09,282 --> 00:02:13,365
+Ci sono i traduttori, e ci sono i tipi di traduttori, no?
+
+24
+00:02:14,406 --> 00:02:15,667
+Integrati, combinatori.
+
+25
+00:02:17,128 --> 00:02:18,569
+E poi c'è gli assemblatori.
+
+26
+00:02:19,389 --> 00:02:20,250
+Qual è la differenza?
+
+27
+00:02:20,410 --> 00:02:25,053
+Tutti traducono, perché si chiamano in maniera diversa, traducono in maniera diversa.
+
+28
+00:02:27,682 --> 00:02:28,102
+Ci siete?
+
+29
+00:02:29,203 --> 00:02:29,843
+C'è una cosa.
+
+30
+00:02:31,924 --> 00:02:35,987
+Tu sei in un'istruzione in C o ci vuole un traduttore?
+
+31
+00:02:36,227 --> 00:02:37,648
+Perché lui il C non lo capisce.
+
+32
+00:02:39,129 --> 00:02:48,854
+Evidentemente traduzione significa che ci vogliono due linguaggi che riferimentano un sorviente, un punto di partenza, e poi una traduzione.
+
+33
+00:02:51,416 --> 00:02:53,337
+La traduzione in cosa?
+
+34
+00:02:53,877 --> 00:02:54,858
+In un altro linguaggio.
+
+35
+00:02:55,338 --> 00:02:56,058
+Quale linguaggio?
+
+36
+00:03:00,940 --> 00:03:06,183
+Ci sono due risposte o linguaggio macchino o assembler.
+
+37
+00:03:11,005 --> 00:03:16,988
+Attenzione, nella risposta o linguaggio macchino o assembler c'è anche un'altra spiegazione.
+
+38
+00:03:17,008 --> 00:03:18,149
+C'è un'altra risposta.
+
+39
+00:03:21,230 --> 00:03:25,192
+Tra i traduttori c'è l'assemblatore che traduce in maniera diversa.
+
+40
+00:03:26,613 --> 00:03:28,694
+E in cosa consiste questa traduzione diversa?
+
+41
+00:03:31,129 --> 00:03:57,731
+quando faccio la traduzione di fatto io faccio una traduzione in assembler e l'assembler significa appunto quello che avete fatto, move il problema è che quel move accanto c'è il corrispondente codice a chino quindi ogni volta che c'è un'istruzione assembler automaticamente c'è un assemblatore
+
+42
+00:03:59,580 --> 00:04:28,126
+che va lì a ricavare il codice operativo, codice operativo e codice macchina e quindi c'è una traduzione, un'istruzione, un codice operativo 1 a 1 quando io vado a tradurre un if, beh, la traduzione è 1 a n tanto è vero che noi, tanto è vero che si vede meglio con il while il while in assegno non esiste
+
+43
+00:04:30,555 --> 00:04:58,976
+esiste il go-to o il jump non il go-to, il jump se voglio costruire un ciclo while devo usare il jump poi ti espongo un'interfaccia ti dico ok scrivo in questo modo while come la diciamo la traduzione è n e funzioni assembler per ciascuna c'è un codice macchina associato qual è la traduzione?
+
+44
+00:05:01,365 --> 00:05:02,266
+Ci siete?
+
+45
+00:05:03,126 --> 00:05:12,694
+Se lavorate in Assembler, se lavorate in Assembler, il DOS con sistema operativo DOS, il DOS espone e c'è ancora credo.
+
+46
+00:05:13,715 --> 00:05:15,957
+L'hanno rivolto per certi versi.
+
+47
+00:05:17,358 --> 00:05:21,562
+Questo per garantire la retrocompatibilità dei sistemi operativi.
+
+48
+00:05:21,642 --> 00:05:29,989
+C'è una cosa che viene nelle vostre routine, avrete sicuramente utilizzato,
+
+49
+00:05:33,633 --> 00:05:59,709
+l'interventone quella, adesso prima era questo per venire a quello che hai detto te diciamo le PI del DOS no questa era l'interfaccia che metteva a disposizione il DOS per accedere ai suoi servizi
+
+50
+00:06:01,173 --> 00:06:28,524
+e quindi ogni volta che usiamo int, attenzione int 21, la chiamata poi c'era ovviamente dovevo dire quale chiamata dovevo specializzarla quale servizio volevo di partiziana devo dire che il problema è chi gestiva questa chiamata questa è una chiamata un accollo, una chiamata di funzione, il problema è chi la gestiva si chiama con le tue
+
+51
+00:06:29,638 --> 00:06:31,760
+Questo significa, sistema operativo, pensateci.
+
+52
+00:06:33,582 --> 00:06:39,328
+Se apriti i vostri codici per lavorare nell'ambiente dosse, tipo l'INT, ci sono andate altissime.
+
+53
+00:06:39,848 --> 00:06:41,890
+Ci sono due tipologie specifiche.
+
+54
+00:06:42,130 --> 00:06:53,841
+Uno, l'INT 21, l'INT 21, l'interfaccia che metteva a disposizione il dossier, e poi c'era un altro, l'INT,
+
+55
+00:06:55,963 --> 00:07:22,735
+e c'era un hint che metteva a disposizione invece quello che ti consentiva di lavorare direttamente con Garbler che metteva a disposizione il BIOS e quindi esiste anche questa possibilità di raggiungere la rada direttamente passando attraverso dei servizi del BIOS
+
+56
+00:07:24,970 --> 00:07:35,579
+perché volevo realizzare un'applicazione svincolata dal sistema operativo.
+
+57
+00:07:37,900 --> 00:07:42,764
+A me non interessava utilizzare il DOS, volevo sviluppare un'applicazione specifica.
+
+58
+00:07:42,964 --> 00:07:48,048
+Allora a questo punto ci sono altri interface che potevi utilizzare
+
+59
+00:07:49,373 --> 00:07:54,916
+per poter interagire direttamente con un hardware.
+
+60
+00:07:56,757 --> 00:08:17,528
+Se passavo dall'inti 21 ci pensavo, se volevo andare su una scheda di rete, no, no, sulla porta seriale, allora avevo due possibilità, ho passato dall'inti 21, ho accettato le sue regole e poi mi facevo io una routine e programmavo le porte come dicevo io.
+
+61
+00:08:20,387 --> 00:08:21,628
+con l'assembler faccio tutto.
+
+62
+00:08:24,950 --> 00:08:32,755
+Tu stai a capire quanto è importante capire queste cose, ma sono di un'altra, sono un boomer.
+
+63
+00:08:34,236 --> 00:08:36,537
+Il problema è che con più ripetita funziona in questo modo.
+
+64
+00:08:37,998 --> 00:08:38,778
+No, non è boomer.
+
+65
+00:08:39,179 --> 00:08:41,160
+Non è ricordi della mia infanzia.
+
+66
+00:08:41,180 --> 00:08:41,500
+No, no.
+
+67
+00:08:41,540 --> 00:08:42,561
+Non è così.
+
+68
+00:08:42,641 --> 00:08:44,182
+Le cose sono state così.
+
+69
+00:08:44,322 --> 00:08:46,743
+Quindi c'è un problema.
+
+70
+00:08:47,744 --> 00:08:48,825
+Io boomer, certo.
+
+71
+00:08:50,940 --> 00:08:57,566
+Uno di ultima generazione imparerà la definizione fino a quando non ci mette mano, dopo di che la rimuove.
+
+72
+00:08:59,287 --> 00:09:02,170
+E tenderà a lavorare sempre a un livello molto più alto.
+
+73
+00:09:03,751 --> 00:09:07,214
+Quindi le informazioni sono abbastanza sfumate.
+
+74
+00:09:08,596 --> 00:09:12,699
+E' un po' difficile poi capire esattamente cosa succede sotto Tarci.
+
+75
+00:09:14,661 --> 00:09:17,763
+Perché lì diventi specialista, adesso la prima è specializzata.
+
+76
+00:09:19,993 --> 00:09:45,649
+chiaro, giusto per concludere quella cosa infatti io questo è stato usato usando Visual Studio, c'è la possibilità di vedere con il C puoi fare direttamente con il C prima si faceva, ecco che vi dicevo, prima si faceva nel video all'interno del C tu potevi fare delle chiamate dirette alle routine assembly quindi tutti scrivendo le routine assembly avanciate con
+
+77
+00:09:49,265 --> 00:09:53,888
+con un codice C. Perchè la scrivevi in assembler?
+
+78
+00:09:53,948 --> 00:10:01,594
+Perchè ti serviva l'efficienza dell'istruzione assembler, anche se molto vicino all'arvel non è come assembler.
+
+79
+00:10:02,755 --> 00:10:07,979
+Allora si scrivevano una volta delle routine specifiche, il problema dovevi inserire e poi chiamare dall'interno.
+
+80
+00:10:09,480 --> 00:10:13,844
+E lavoravi e interagivi, facendo interagire l'applicazione direttamente con la routine assembler.
+
+81
+00:10:15,189 --> 00:10:37,510
+e lui andava a fare tutti i lavori sull'arbre, come ad esempio con il cibo e anche il lino, lavorare sui singoli bit per fare il mascheramento, per fare tutto, perché c'è il tipo e ci sono gli operatori anche e ci sono gli operatori che lavorano con i singoli bit allora, perché vi dico questo?
+
+82
+00:10:37,850 --> 00:10:39,011
+perché effettivamente
+
+83
+00:10:41,136 --> 00:10:45,680
+Il ragazzo di terza mi ha fatto la domanda e gli diceva, vabbè, perché ci sono tre materie?
+
+84
+00:10:49,763 --> 00:10:54,527
+Perché ci sono tre, trovano coni completamente diversi, c'è un problema.
+
+85
+00:10:55,647 --> 00:10:59,591
+Io andrò in pensione, se io vuole, il problema resterà.
+
+86
+00:10:59,951 --> 00:11:01,272
+Le tre materie non si parlano?
+
+87
+00:11:01,472 --> 00:11:01,572
+No.
+
+88
+00:11:05,675 --> 00:11:08,938
+Perché, se tu mi chiedessi dove sei arrivato con la programmazione,
+
+89
+00:11:10,307 --> 00:11:22,090
+E la domanda me la fai perché dici ok, tu fai la parte iniziale, dimmi dove, arriva fino a questo punto, appena arriva a questo punto chiamami e lo usi.
+
+90
+00:11:25,892 --> 00:11:35,554
+A questo punto poi vengo da te e ti dico ok, quando arriverai qui, programmiamo, ci devi arrivare in due settimane, tre settimane, un mese.
+
+91
+00:11:36,415 --> 00:11:37,555
+Ok, fammelo servere.
+
+92
+00:11:38,231 --> 00:12:02,303
+poi entro io in questo modo io non c'è bisogno di che ti facciano la sintesi delle cose siccome una sintesi non te lo spieghi, ti dico questo è, queste cose le devi sapere poi tu mi chiedi come funziona, se no te le posso spiegare perché o ti spiego la cosa o ti spiego l'altro è un ingrediente, è un pre-requisito discorso è che le maderisi devono capire, discorso di la valentina
+
+93
+00:12:04,924 --> 00:12:32,200
+sono intrecciasissime assolutamente si ma tu ti stai ricordando il mio modo di pensare quindi per te adesso intrecciare perché lo faccio no è ovvio se tu vai in cuenta prendi quelli che vengono dal giorno sono dei monoleti sistemi sistemi informatica informatica ti piacere ti piacere perché ti fa quella materia non ci occupa delle altre due non si preoccupa proprio delle altre due
+
+94
+00:12:33,462 --> 00:12:35,464
+Anzi, non sa neanche cosa fa l'altro.
+
+95
+00:12:38,267 --> 00:12:47,776
+Allora, io ti faccio l'apertura con il C, ti arrivo su una lefunzione e ti avviso che da quel momento in poi tu hai un linguaggio già pronto da utilizzare nella tua materia.
+
+96
+00:12:48,797 --> 00:12:52,660
+E non esiste il linguaggio effatto da Alemanno.
+
+97
+00:12:54,462 --> 00:12:54,682
+No!
+
+98
+00:12:55,723 --> 00:12:57,845
+C'è un percorso che passa da tre materie
+
+99
+00:12:59,376 --> 00:13:08,384
+e quindi chiaramente dice anche ti avviso prima magari e non lo facciamo perché mentiremmo e l'avviso qual è?
+
+100
+00:13:08,664 --> 00:13:21,956
+Guarda che il percorso di quest'anno è la prima parte, lui arriva fino a questo punto, da quel momento in poi io prendo in gestione uso quello che ha fatto lui per fare la mia parte
+
+101
+00:13:23,362 --> 00:13:25,223
+in questo modo evito di fare.
+
+102
+00:13:25,283 --> 00:13:28,625
+Perché lui o loro non fanno, non usano mai il C?
+
+103
+00:13:28,986 --> 00:13:36,250
+Perché dici, vabbè, lo devi fare alle mani, coglione, ma se devi fare la programmazione multitasking e multitree, come cazzo faccio a farla io?
+
+104
+00:13:36,270 --> 00:13:40,272
+Il problema è, tu hai bisogno di me.
+
+105
+00:13:42,094 --> 00:13:47,317
+Ti dico fin dove arrivo, ti faccio tutto quello che ti serve, poi parti.
+
+106
+00:13:50,179 --> 00:13:50,739
+Non esiste.
+
+107
+00:13:52,906 --> 00:13:53,646
+Sisteme reti?
+
+108
+00:13:53,666 --> 00:13:54,607
+Sisteme reti.
+
+109
+00:13:55,747 --> 00:13:59,148
+Adesso sto spiegando l'architettura, come lo spiegate voi.
+
+110
+00:13:59,408 --> 00:14:01,108
+Perfetto.
+
+111
+00:14:03,229 --> 00:14:05,870
+A me serve che voi abbiate delle conoscenze di base.
+
+112
+00:14:08,630 --> 00:14:09,931
+A me informatica cosa serve?
+
+113
+00:14:10,471 --> 00:14:13,571
+Sto spiegando il sistema operativo.
+
+114
+00:14:14,892 --> 00:14:19,393
+Perchè la system la devi usare TPSI.
+
+115
+00:14:20,737 --> 00:14:21,718
+però gli serve?
+
+116
+00:14:21,758 --> 00:14:23,499
+Si.
+
+117
+00:14:23,539 --> 00:14:25,560
+Sennò tu mi chiamate di sistema?
+
+118
+00:14:26,181 --> 00:14:27,241
+Non mi hai fare vedere mai?
+
+119
+00:14:27,261 --> 00:14:28,302
+Non hai gli strumenti?
+
+120
+00:14:30,724 --> 00:14:32,365
+Chiaro?
+
+121
+00:14:32,405 --> 00:14:35,707
+Io faccio il sistema operativo, non me ne fate un cazzo della nuova informazione, questo?
+
+122
+00:14:35,807 --> 00:14:36,288
+Ok.
+
+123
+00:14:40,090 --> 00:14:40,690
+L'interfaccia c'è.
+
+124
+00:14:40,791 --> 00:14:43,232
+C'erano due interfacce.
+
+125
+00:14:44,733 --> 00:14:47,955
+Qui c'è l'Omino e siamo noi con i programmi
+
+126
+00:14:52,015 --> 00:15:17,834
+o meglio questo è quello che usa il programma, i click poi qui c'è un altro che sviluppa applicazioni e usa altri aspetti del sistema operativo basta fare questo, un sacco dà senso a quello che sta facendo faccio cosa vedo gente, assolutamente no quindi allora qui devo programmare
+
+127
+00:15:20,283 --> 00:15:25,146
+che abbiamo lo codice, qui devo programmare, non ho gli strumenti, cazzo, faccio questa.
+
+128
+00:15:25,626 --> 00:15:26,226
+Cos'è questa?
+
+129
+00:15:26,286 --> 00:15:26,786
+La scema.
+
+130
+00:15:29,848 --> 00:15:30,448
+La scema.
+
+131
+00:15:32,689 --> 00:15:47,297
+Cioè, ti sembra normale che uno che si spaccia per presunto diplomatica informatica, non conosci i comandi della scema, che non sono soltanto dir, cd, c'è dell'altro.
+
+132
+00:15:50,911 --> 00:15:53,073
+questo è il laboratorio?
+
+133
+00:15:53,093 --> 00:15:53,853
+Che arriva a Budan?
+
+134
+00:15:54,274 --> 00:15:54,974
+Ti taglio bene?
+
+135
+00:15:56,155 --> 00:15:59,398
+Anche perché, no, ma nello... Ci siamo togliati le vene.
+
+136
+00:15:59,438 --> 00:16:11,867
+Ma non lo voglio criticare, nel senso che se non hai mai adottato questo modo di ragionare... Cioè, della serie, io ti dico, fai la shell, tu prendi un libro e facci la shell.
+
+137
+00:16:11,987 --> 00:16:15,410
+Ma quando prendi un libro dove c'è scritto con la shell, come si usa la shell?
+
+138
+00:16:15,510 --> 00:16:16,551
+Cioè, ne recco dei comandi.
+
+139
+00:16:17,491 --> 00:16:19,032
+Il scorso è che non sai dare la priorità.
+
+140
+00:16:22,370 --> 00:16:24,372
+Ok, ci sono 200 comandi.
+
+141
+00:16:24,712 --> 00:16:25,493
+Che cazzo faccio?
+
+142
+00:16:25,553 --> 00:16:27,154
+Prego la testa della spela e cominciamo.
+
+143
+00:16:27,194 --> 00:16:31,638
+Vado in un'altra tabella.
+
+144
+00:16:31,998 --> 00:16:35,281
+E lì, ovviamente, lì è esperienza, no?
+
+145
+00:16:35,361 --> 00:16:36,722
+Ok, parli di questo.
+
+146
+00:16:37,943 --> 00:16:38,223
+Perché?
+
+147
+00:16:38,323 --> 00:16:39,584
+Devo imparare a gestire il disco?
+
+148
+00:16:39,604 --> 00:16:40,905
+Devo imparare a gestire i processi?
+
+149
+00:16:40,926 --> 00:16:42,227
+Devo imparare a gestire la memoria?
+
+150
+00:16:42,307 --> 00:16:43,788
+Ok, questi sono i comandi specifici.
+
+151
+00:16:44,068 --> 00:16:46,250
+Questi che sono i comandi specifici, parli di questi.
+
+152
+00:16:46,390 --> 00:16:48,372
+Queste sono le cose fondamentali.
+
+153
+00:16:52,763 --> 00:16:56,885
+La cosa che mi disturba della mia triste esistenza è cosa fa l'insegnante.
+
+154
+00:16:56,965 --> 00:17:02,426
+Mi hanno ragione.
+
+155
+00:17:02,506 --> 00:17:05,167
+Tutti siete convinti di poter fare l'insegnante.
+
+156
+00:17:05,987 --> 00:17:08,768
+L'universo è un mondo convinto di poter fare l'insegnante.
+
+157
+00:17:09,268 --> 00:17:12,429
+Prendo il libro, ti spiego il libro, ti faccio un assumo.
+
+158
+00:17:12,709 --> 00:17:13,990
+Bene, tutti lo possono fare.
+
+159
+00:17:14,710 --> 00:17:15,690
+C'è bisogno di laureazzi.
+
+160
+00:17:15,710 --> 00:17:18,791
+A differenza di un altro.
+
+161
+00:17:20,132 --> 00:17:21,152
+Quello che ti sto dicendo.
+
+162
+00:17:21,906 --> 00:17:23,028
+ma non c'è sicurità.
+
+163
+00:17:27,073 --> 00:17:35,784
+L'esperienza è capire, ovviamente, come si deve distinguere tra le cose più importanti e meno importanti, e dire dare più peso, questa è l'esperienza.
+
+164
+00:17:37,246 --> 00:17:39,069
+Se no, prendo il libro e vado in sequenza.
+
+165
+00:17:39,258 --> 00:17:42,999
+ma anche per contestualizzare, perché il libro non contestualizza niente.
+
+166
+00:17:43,020 --> 00:17:46,961
+Quindi è un altro livello, nel senso, perché faccio tutto questo?
+
+167
+00:17:47,001 --> 00:17:52,383
+Per 8 anni, i primi 8 anni sono stati sistemi, era la materia più cattiva.
+
+168
+00:17:53,864 --> 00:17:57,445
+In sistemi si faceva tutto.
+
+169
+00:17:57,545 --> 00:17:59,126
+Adesso stanno separati, no?
+
+170
+00:17:59,866 --> 00:18:06,089
+Assemble da una parte, si stiano per affidire da un'altra parte, e una volta assente,
+
+171
+00:18:08,457 --> 00:18:11,979
+sistemi operativi e poi c'erano i sistemi elettronici.
+
+172
+00:18:13,820 --> 00:18:18,303
+C'era una parte massiccia di ingegneria elettronica.
+
+173
+00:18:18,963 --> 00:18:20,944
+Io avevo fatto delle cose ma non tutto.
+
+174
+00:18:21,104 --> 00:18:22,865
+Cioè è chiaro il mio scopo era altro.
+
+175
+00:18:23,466 --> 00:18:24,907
+Facciamo un altro tipo di sistemi.
+
+176
+00:18:24,967 --> 00:18:29,289
+Basta andare a vedere i programmi telecomunicazioni che vedi che sono diversi.
+
+177
+00:18:30,690 --> 00:18:37,314
+Sistemi, retroazione, stabilità, anche le elettroniche, flip-flop,
+
+178
+00:18:38,257 --> 00:19:04,623
+multiplexer, dimultiplexer, configurazione... prima dovevo farlo con le elettroniche che spiegavano i condensatori che spiegavano l'elettronica, non la digitale perché erano di scuola analogica non erano ancora arrivati alla digitale
+
+179
+00:19:07,114 --> 00:19:09,516
+Ci è mancato poco che spiegassero ancora le barbure.
+
+180
+00:19:13,379 --> 00:19:14,559
+Mi lavorano, va bene.
+
+181
+00:19:15,080 --> 00:19:17,922
+Adesso ho detto, ok, se può fare.
+
+182
+00:19:19,163 --> 00:19:22,786
+Ma c'erano parte di insegnanti di informatica dell'epoca, erano tutti laureati di matematica.
+
+183
+00:19:23,346 --> 00:19:24,487
+Non c'erano informatici.
+
+184
+00:19:26,128 --> 00:19:28,830
+Non avete idea in che ambiente sono cresciuto.
+
+185
+00:19:30,231 --> 00:19:31,672
+L'ignoranza è più assoluta.
+
+186
+00:19:31,712 --> 00:19:34,955
+Avevano fatto l'esame di merda di programmazione, spiegavano qualunque cosa.
+
+187
+00:19:37,342 --> 00:19:41,583
+Se dicevi, guarda che forse c'è qualcosa che non funziona, è infattuto.
+
+188
+00:19:44,043 --> 00:19:47,244
+Poi, vabbè, torniamo a noi.
+
+189
+00:19:48,344 --> 00:19:57,086
+Noi ci siamo lasciati, praticamente, con eredità.
+
+190
+00:20:03,587 --> 00:20:04,027
+Eredità, no?
+
+191
+00:20:05,009 --> 00:20:11,854
+E quindi abbiamo detto sinteticamente le regole dell'eredità e l'età, cioè come si studia l'eredità.
+
+192
+00:20:11,974 --> 00:20:17,498
+Intanto devo dare forma all'eredità, abbiamo detto, ed edità significa... vabbè, siamo tutti noi, no?
+
+193
+00:20:19,279 --> 00:20:21,761
+Quindi sarà più veloce, di nuovo non c'è nessuno.
+
+194
+00:20:21,781 --> 00:20:24,963
+L'eredità significa che tutta la parte pubblica passa.
+
+195
+00:20:25,743 --> 00:20:26,544
+Pubblica e protesta.
+
+196
+00:20:28,865 --> 00:20:31,207
+Attenzione, cosa non passa?
+
+197
+00:20:31,367 --> 00:20:31,727
+Privata.
+
+198
+00:20:33,368 --> 00:20:46,518
+La protetta ha un livello di protezione simile alla privata, però mi dà la possibilità che tutto ciò che è privato, che è protetto, passa in realtà.
+
+199
+00:20:46,799 --> 00:20:50,862
+Quindi ciò che passa è un'interfaccia più una parte protetta.
+
+200
+00:20:52,543 --> 00:20:52,823
+Perché?
+
+201
+00:20:55,886 --> 00:21:04,572
+I genitori vogliono vedere delle cose protette che non vogliono far vedere all'esterno, ma che si appone al figlio, giusto per usare sempre la metaforia.
+
+202
+00:21:04,612 --> 00:21:08,915
+Così è il concetto, la cosa più importante in praliga.
+
+203
+00:21:10,176 --> 00:21:12,218
+O ci sono gli aspetti implementativi.
+
+204
+00:21:13,779 --> 00:21:16,701
+Vi ricordate, l'aspetto implementativo è legato al linguaggio.
+
+205
+00:21:18,643 --> 00:21:18,703
+No?
+
+206
+00:21:18,723 --> 00:21:18,803
+Dimi.
+
+207
+00:21:18,823 --> 00:21:19,744
+No, per il livello di tenta è una buona pratica.
+
+208
+00:21:19,764 --> 00:21:19,924
+Allora.
+
+209
+00:21:19,944 --> 00:21:22,087
+E' più possibile l'amico.
+
+210
+00:21:22,267 --> 00:21:23,909
+Intanto, allora.
+
+211
+00:21:23,969 --> 00:21:24,169
+Allora.
+
+212
+00:21:24,229 --> 00:21:26,772
+Prendiamo addirittura un'altra cosa.
+
+213
+00:21:26,812 --> 00:21:27,233
+Perché esiste.
+
+214
+00:21:40,191 --> 00:21:53,900
+Non è tanto come funzionano, ereditarità significa fondamentalmente, cioè prima capire cosa è la verità, capire cosa significa passare in eredità, capire cosa deve passare in eredità.
+
+215
+00:21:54,880 --> 00:22:02,745
+Il problema è un altro, abbiamo scorsato anche l'attenzione, abbiamo fatto una riflessione, ma perché esiste il concetto di ereditarità?
+
+216
+00:22:03,085 --> 00:22:06,728
+E' uno dei concetti cardini della programmazione ad oggetti.
+
+217
+00:22:09,194 --> 00:22:16,759
+io mi posso spacciare per uno che conosce la programmazione degli oggetti perché conosco uno dei pilastri, l'ereditarità.
+
+218
+00:22:17,980 --> 00:22:26,326
+L'ereditarità praticamente l'hanno inventata prima l'unice non c'era, qua l'estese c'è più e hanno cercato di aggiungere quelle parti agli oggetti.
+
+219
+00:22:27,767 --> 00:22:37,775
+Il punto è, perché l'hanno inventata poi il problema risolve, ci sei?
+
+220
+00:22:38,916 --> 00:22:59,836
+qui avevo detto, fate un approfondimento, perché questa è la chechierata che dovevate fare con Ciat e GPT perché, chiaramente, io ti dico le radicalità fondamentali per risolvere problemi tipo aggiornamento software
+
+221
+00:23:04,874 --> 00:23:11,521
+che significa in pratica, nello stesso tempo mantenendo la retrocontadibilità con il software.
+
+222
+00:23:12,482 --> 00:23:22,010
+Supponiamo che una classe generi oggetti che sono stati utilizzati in un'applicazione di qualche anno fa, supponiamo che io voglia aggiungere delle funzionalità.
+
+223
+00:23:23,252 --> 00:23:40,326
+ma nello stesso tempo voglio mantenere le funzionalità precedenti perché le modifiche possono interessare soltanto la parte del software a questo punto cosa devo rifare?
+
+224
+00:23:42,087 --> 00:23:51,695
+riscrivo la classe, però mi sono indicato gli oggetti di quella classe ho una classe A che mi dà delle funzionalità
+
+225
+00:23:52,671 --> 00:23:53,991
+le altre applicazioni usano.
+
+226
+00:23:58,833 --> 00:24:01,734
+Voglio migliorare il software, aggiungere delle funzionalità.
+
+227
+00:24:02,474 --> 00:24:19,719
+Funzionalità significa prendere la classe A, prendere la classe A e integrare delle altre funzionalità.
+
+228
+00:24:21,435 --> 00:24:25,478
+ma devo mettere in maniera per tutti i codici e poi devo ricompilare tutto.
+
+229
+00:24:26,439 --> 00:24:28,861
+A questo punto invece, l'idea qual'è stata?
+
+230
+00:24:28,881 --> 00:24:36,627
+Io mantengo la classe fase A e aggiungo tutta una serie di funzionalità alla classe figlio.
+
+231
+00:24:38,308 --> 00:24:46,995
+In più al figlio, con meccanismo dell'eredità, passo tutto quello che ha già il padre.
+
+232
+00:24:47,396 --> 00:24:49,897
+Non lo descrivo, ma lo passo nella verità.
+
+233
+00:24:51,682 --> 00:24:52,083
+Ci sei.
+
+234
+00:24:52,683 --> 00:24:56,406
+In conseguenza il vantaggio qual è in pratica?
+
+235
+00:24:56,426 --> 00:25:15,984
+Mantenere un genitore con le sue funzionalità, che mi garantiscono ovviamente la retrocompatibilità, ma nello stesso tempo creare una classe che ha le funzionalità del padre più quello che ho deciso di aggiungere
+
+236
+00:25:17,974 --> 00:25:26,340
+Quindi, l'aggiannamento e la manutenzione del software con uno strumento di questo genere, perché di strumento si tratta, è sicuramente efficiente.
+
+237
+00:25:28,542 --> 00:25:28,962
+Ti sei?
+
+238
+00:25:29,883 --> 00:25:30,683
+Sono stato chiaro?
+
+239
+00:25:31,724 --> 00:25:43,933
+Quindi, il discorso è, non è come si fa, ma vale il senso, giustamente le domande che mi hai fatice, ma perché la devi usare per forza?
+
+240
+00:25:44,508 --> 00:25:47,949
+L'alternativa, facciamo finta che tu non ce l'abbiai con questo strumento.
+
+241
+00:25:49,329 --> 00:26:11,056
+Quella classe fable dovresti riscrivere e quindi chiaramente dovresti fare la manutenzione che faresti manutenzione, a questo punto di vista potrei usare un termine molto riporrente, ecologico, riutilizzare il codice già presente, aggiungere quello che manca,
+
+242
+00:26:12,556 --> 00:26:19,019
+Ho bisogno di meccanismi particolari, di eredità di tramite che consente di svolgere questo compito.
+
+243
+00:26:20,499 --> 00:26:21,720
+Ti è soddisfatto la risposta?
+
+244
+00:26:24,081 --> 00:26:24,261
+Sì.
+
+245
+00:26:24,521 --> 00:26:33,165
+Lo so che sembra un po' di filosofica, ma neanche se ti faccio fare delle prove, il discorso è capire questa.
+
+246
+00:26:33,305 --> 00:26:35,726
+Questa è la cosa effettivamente importante da capire.
+
+247
+00:26:37,727 --> 00:26:40,748
+Perché il problema sai quando lo nasce?
+
+248
+00:26:41,810 --> 00:26:53,717
+nel momento in cui tu devi fare a portare delle modifiche quindi avendo un codice strutturato in un certo modo di stile C chiaro?
+
+249
+00:26:54,377 --> 00:27:10,686
+a questo punto ti rendi conto che se vuoi apportare delle modifiche ad un codice scritto in C o ad un modulo del codice scritto in C puoi fare però rischi di riscrivere il codice per intera
+
+250
+00:27:12,038 --> 00:27:20,801
+E quindi l'obiettivo è ridurre, cioè tenere quante più cose già fatte e aggiungere le cose nuove.
+
+251
+00:27:21,781 --> 00:27:25,342
+C'è proprio una filosofia, un modo di pensare.
+
+252
+00:27:25,763 --> 00:27:30,204
+Ecco perché è molto importante poter avere traccia dello schema.
+
+253
+00:27:34,906 --> 00:27:47,833
+Per esempio, io vorrei che cominciaste ad utilizzare, ve l'avevo chiesto l'anno scorso, perché lì ci vuole un altro modo di pensare.
+
+254
+00:27:51,855 --> 00:27:55,638
+Vi avevo detto una risposta, e se tiene la libreria standard,
+
+255
+00:28:13,943 --> 00:28:15,584
+Cosa c'è dentro, in pratica?
+
+256
+00:28:15,624 --> 00:28:16,765
+Ci sono una serie di classi?
+
+257
+00:28:20,307 --> 00:28:27,092
+Le classi che vorrei che cominciasse a guardare, e non scorto la roba che sto anche a voi, sono ovviamente la classe lector.
+
+258
+00:28:31,276 --> 00:28:32,637
+A meno partire da questa.
+
+259
+00:28:33,858 --> 00:28:34,798
+La classe string.
+
+260
+00:28:38,294 --> 00:28:43,836
+Io vi suggerisco di partire, anche perché poi le voglio riprendere.
+
+261
+00:28:44,977 --> 00:28:50,519
+Se mi anticipate sarà più agile poi l'aspirazione si sta appoggiando.
+
+262
+00:28:53,340 --> 00:28:59,622
+Quindi vorrei, se io vi chiedo, fate subito delle prove con l'utilizzo di vettori.
+
+263
+00:28:59,642 --> 00:29:03,484
+Mi dai un esempio, c'è degli esercizi dove utilizzare
+
+264
+00:29:07,722 --> 00:29:37,537
+qualsiasi vector giusto per avere uno spunto invece di darlo io chiederlo direttamente a lui l'obiettivo è prendere confidenza sull'uso della classe vector perchè con la classe vector noi abbiamo a disposizione una serie di strumenti tipo la classe vector mi consente ovviamente di intanto di partire con un vettore senza dimensione fisso
+
+265
+00:29:39,364 --> 00:29:54,667
+attenzione, cambiamo totalmente il modo di ragionare in quanto classe nasconde tutto la parte privata non so cosa funziona, so che funziona ci siete?
+
+266
+00:29:54,727 --> 00:29:56,988
+tipo, posso stabilire, calcolare?
+
+267
+00:29:58,808 --> 00:30:06,370
+per esempio, posso partire con un vettore senza dimensione, puoi fare delle aggiunte però mi servono delle operazioni specifiche
+
+268
+00:30:08,373 --> 00:30:36,116
+e in questo caso userò quell'oggetto con i metodi che sono stati previsti da classe vector tipo pushback e placeback intanto il suono pushback e placeback dovete metabolizzarli perchè li ritroveremo anche in altre classi
+
+269
+00:30:37,236 --> 00:30:42,938
+Prendere confidenza con quei termini significa ovviamente già riconoscerli ogni volta che li citerò.
+
+270
+00:30:46,079 --> 00:31:02,903
+E quindi c'è un altro modo di inserire i dati all'interno di un vettore, quindi sfrutta tutte le funzionalità della classe vettore, ricapisco un senso della programmazione del progetto.
+
+271
+00:31:03,003 --> 00:31:03,904
+Io non progetterò nulla.
+
+272
+00:31:06,182 --> 00:31:19,384
+perché vi è importante che approfondiate questo discorso primo motivo devo studiare una classe che hai consegnato tu da dove parto?
+
+273
+00:31:20,885 --> 00:31:23,045
+da dove si parte quando si studiano le classi?
+
+274
+00:31:23,065 --> 00:31:34,427
+costruttori prima cosa che dovete fare i costruttori perché i costruttori sono quelli che andrete ad utilizzare quando dovete distanziare un oggetto
+
+275
+00:31:35,729 --> 00:31:47,619
+e quindi ci sono diversi modi di dichiararli con valori iniziali, senza valori iniziali, con valori pazziali, ci siete?
+
+276
+00:31:49,100 --> 00:31:57,127
+e quindi già questo e dovete ovviamente, poco co, dicendo barbonate, però tutto motivato
+
+277
+00:31:58,970 --> 00:32:15,324
+E lì metterete in evidenza che dovete riflettere sulla presenza di più costruttori, sul motivo, quando vi dico che le classi non si scrivono, si progettano, la prima decisione che dovrò prendere è quanti costruttori ci devo mettere dentro.
+
+278
+00:32:16,405 --> 00:32:23,531
+E per rispondere a questa domanda devo calarmi nei panni di chi lo dovrà usare, un altro programmatore che usa la tua classe,
+
+279
+00:32:26,136 --> 00:32:33,401
+e immaginare tutti i vari modi che lui potrebbe avere a disposizione per poter lavorare con la tua classe.
+
+280
+00:32:34,881 --> 00:32:47,129
+La classe Vector non è fatta per risolvere un problema ma ha tanti problemi, la programmazione di oggetti è rigondante, tanti strumenti, però di questi ne usa soltanto una parte, quelli che mi servono.
+
+281
+00:32:49,830 --> 00:32:53,853
+Se io uso sempre la push non uso la pop, questo significa che c'è la pop
+
+282
+00:32:54,600 --> 00:33:01,144
+occupa spazio, cosa sto cercando di dirvi?
+
+283
+00:33:01,184 --> 00:33:14,971
+Quando progettare non mi preoccupate di mettere il minimo sindacale, pensate sempre che tutto quello che c'è è sempre una risorsa per qualcun altro che andrà ad utilizzare la vostra classe.
+
+284
+00:33:15,311 --> 00:33:22,295
+Quindi pensate sempre ai possibili usi, non all'applicazione che vi ho chiesto di fare costruendo quella classe.
+
+285
+00:33:23,095 --> 00:33:45,848
+il progetto della classe è un progetto di classe il progetto dell'applicazione che usa la classe è un'altra cosa motivo se tu usi la classe vector e decidi di dichiarare nel tuo main un oggetto a cui assegnare una dimensione beh, è perché c'è il costruttore se non ci fosse stato è chiaro?
+
+286
+00:33:46,909 --> 00:33:49,511
+se puoi decidere di partire con un vettore vuoto
+
+287
+00:33:50,928 --> 00:34:15,545
+benissimo, tu parti con un vettore vuoto, non ti puoi il problema, lui ti dà la possibilità che prendi la sintassi e usa la per costruire l'oggetto se vuoi costruire un oggetto con un'inizializzazione tutto zero non c'è bisogno di impostare il ciclo fuori è sufficiente dichiarare ovviamente un vettore con il valore di riferimento 0,0,0,-1,-1,-1
+
+288
+00:34:19,173 --> 00:34:39,413
+lo scrivo una volta, lui lo fa in automatico, noi sappiamo, potremmo non saperlo, sappiamo che dentro c'è un metodo che fa questo lavoro, i famosi metodi di servizio, il metodo che fa praticamente è proprio questo, inizializzazione.
+
+289
+00:34:41,327 --> 00:35:04,821
+sarebbe bello l'ideale per me dice ok, l'ho fatta fare buona discorso progettate voi una classe vector nel senso implementate le stesse funzionalità e lì scoprirete che ci sono tanti metodi privati
+
+290
+00:35:09,277 --> 00:35:13,598
+A questo punto fanno il lavoro... automatizzano tanto le azioni, no?
+
+291
+00:35:15,918 --> 00:35:19,739
+Tipo... Vedo come esercizio, come fate voi.
+
+292
+00:35:20,379 --> 00:35:22,360
+Fate una grazia del vettore con tre produttori.
+
+293
+00:35:24,200 --> 00:35:29,321
+Uno, vi dà la possibilità di creare un vettore vuoto.
+
+294
+00:35:30,301 --> 00:35:35,222
+Due, vi dà la possibilità di creare il vettore con una certa dimensione.
+
+295
+00:35:36,389 --> 00:35:43,710
+prego, vi darò la possibilità di creare un vettore con un'inizializzazione quali sono gli strumenti di guerra che bisogna?
+
+296
+00:35:45,531 --> 00:35:59,853
+questa è una provocazione senza contattare non fare più cazzo per forza per forza e quindi la provocazione, vi ricordate come funzionavano i contattori?
+
+297
+00:35:59,953 --> 00:36:04,994
+oi e questa è la dimostrazione di cosa si nasconde dietro la classica
+
+298
+00:36:06,053 --> 00:36:07,534
+Quanti concetti sono nascosti?
+
+299
+00:36:07,634 --> 00:36:23,545
+Eppure, quando dichiaro un vettore, il nome del vettore, classe vettore, il nome del vettore è virgola.
+
+300
+00:36:24,506 --> 00:36:25,707
+Tanta roba è nascosta.
+
+301
+00:36:27,408 --> 00:36:28,689
+Quindi, la sfida qual è?
+
+302
+00:36:29,209 --> 00:36:34,473
+Io uso i due punti di vista, progetto la mia classe, in prospettiva di un uso,
+
+303
+00:36:35,627 --> 00:36:40,849
+Uso una classe simile e lì non c'è prospettiva.
+
+304
+00:36:41,869 --> 00:36:44,430
+Devo usarla per sviluppare la mia applicazione.
+
+305
+00:36:45,690 --> 00:36:49,092
+Due punti di vista diversi, due modi di ragionare diversi.
+
+306
+00:36:49,772 --> 00:36:50,352
+Chi siete?
+
+307
+00:36:52,933 --> 00:36:53,333
+È chiaro?
+
+308
+00:36:53,673 --> 00:36:55,954
+Non so che vi sembra una lezione filosofica.
+
+309
+00:36:56,014 --> 00:36:58,055
+Il problema è, ho capito il senso delle cose?
+
+310
+00:36:58,235 --> 00:37:01,556
+O se no, praticamente erano grossi 50, sta già succedendo.
+
+311
+00:37:03,550 --> 00:37:32,632
+avete perso tutto quanto a loro nel quarto anno perché cambierò argomento non parlerò più di programmazione chi vuole imparare a programmare può farlo in quattro dopodiché vi servirà solo un pezzo della programmazione programmerlo un pochino e sposteremo l'attenzione su un altro modo di ragionare quindi se dovete fare il lavoro fatelo adesso e sfruttate il chat GPT
+
+312
+00:37:33,882 --> 00:37:34,963
+Ci siete?
+
+313
+00:37:35,123 --> 00:37:47,493
+Allora, quindi, poi c'è l'altro mondo che vorrei che esploraste, la classe string, che vi consentirà di venire a fare solo delle tante vincenze.
+
+314
+00:37:47,773 --> 00:37:51,936
+Ormai tutti quanti obiettivi, cioè, ricordate, tutti gli obiettivi ce l'hanno una classe string.
+
+315
+00:37:52,937 --> 00:37:59,423
+Tipo, io non posso essere lì, cioè, il C mi dice, ok, non può, cos'è una string da me C?
+
+316
+00:38:01,718 --> 00:38:28,625
+è un array di caratteri e il cimi dice non puoi confrontare due array di caratteri direttamente come operatori o le stringhe si o la classe stringhe si il cimi dice tu non puoi assegnare una stringa ad un'altra stringa non puoi usare uguali simbolo di assegnazione con la classe stringhe si
+
+317
+00:38:33,758 --> 00:38:40,940
+E' chiaro che, mi chiedo, la classe stringo lo può fare?
+
+318
+00:38:43,301 --> 00:38:43,762
+E come lo fa?
+
+319
+00:38:46,383 --> 00:38:48,043
+Quella è la popolazione avanzata.
+
+320
+00:38:48,303 --> 00:38:57,587
+Cioè, la differenza tra violenzerare, tra chi prende cento, e chi non prende cento, alzerare.
+
+321
+00:39:00,675 --> 00:39:04,199
+Chi sa programmare, chi non sa programmare.
+
+322
+00:39:04,219 --> 00:39:09,304
+Questo mi strada, perché il venditore è diventato il migliore.
+
+323
+00:39:09,344 --> 00:39:11,166
+Se qualcuno che conosca... Vedi?
+
+324
+00:39:11,246 --> 00:39:12,328
+Le porte sono bucate.
+
+325
+00:39:26,611 --> 00:39:28,952
+che l'hai lasciato là al dente?
+
+326
+00:39:29,012 --> 00:39:30,853
+perché te lo sei dimenticato?
+
+327
+00:39:31,533 --> 00:39:51,461
+perfetto assoluto c'è tutti mi aspettavano, però non me l'entresti però lo aspettava te non me lo aspettavamo, stavo dimenticando ieri, ci sono venuti ieri, l'ho distrutto eh no, però... magari vuole sentire come stai?
+
+328
+00:39:52,021 --> 00:39:55,423
+eh forza sì, ti torno... capisco come sei uscito
+
+329
+00:40:01,403 --> 00:40:30,947
+valui se valui vado altrimenti no e quindi dicevo la stringa, lavorare con il tipo stringa quindi classe stringa e classe rete quindi fate qualcosa e poi vi volevo ascoltare nel senso di dirmi cosa avete capito i punti di partenza restano sempre ok devo imparare a studiare le classi
+
+330
+00:40:32,586 --> 00:40:39,710
+Il riferimento resta... Il riferimento resta... Quelli di Belogno?
+
+331
+00:40:40,931 --> 00:40:55,359
+No, la documentazione penso, C++.com Il riferimento resta... No, C++.com E quindi no, questi lavori non vengono fatti con...
+
+332
+00:40:57,370 --> 00:41:02,393
+artefatti, si va direttamente sul manuale e la documentazione ufficiale.
+
+333
+00:41:03,334 --> 00:41:05,255
+L'obiettivo qual è in pratica?
+
+334
+00:41:06,356 --> 00:41:19,003
+Non trascurate, non vi sto chiedendo di fare una cosa tanto facile, è impegnativa perché l'obiettivo è, non me ne frega un cazzo degli esempi che farete, perché saranno esempi banali.
+
+335
+00:41:19,223 --> 00:41:26,828
+A me interessa come esponete cosa vi è rimasto di questa esperienza, è un'esperienza non esercitazione del cazzo,
+
+336
+00:41:27,990 --> 00:41:29,091
+perché di questo si tratta.
+
+337
+00:41:29,891 --> 00:41:32,032
+L'esperienza quale dovrebbe essere?
+
+338
+00:41:32,052 --> 00:41:32,032
+1.
+
+339
+00:41:32,412 --> 00:41:35,834
+Come ho studiato la classe, da dove ho pronunciato.
+
+340
+00:41:36,674 --> 00:41:40,776
+Quindi il discorso di lavorare sull'interfaccia.
+
+341
+00:41:40,816 --> 00:41:46,339
+Quando studio una classe io non studio la classe con tutto quello che c'è dentro, solamente l'interfaccia.
+
+342
+00:41:46,359 --> 00:41:46,339
+1.
+
+343
+00:41:48,660 --> 00:41:50,861
+L'interfaccia sono tutti i metodi esposti.
+
+344
+00:41:52,654 --> 00:42:21,532
+due, la prima cosa che devo fare sono i costruttori perché mi dicono come usarli come creare gli oggetti e le tipologie e le differenze tra i vari costruttori e quello ovviamente è lo scopo dell'instituto del laboratorio che viene inserito all'interno delle costruttore detto questo poi entro nel merito dei metodi
+
+345
+00:42:22,782 --> 00:42:51,254
+però di metodi fate quelli più importanti, quelli più importanti sono pusce pop e anche qui ci sono delle pusce pop un po' diverse e c'è un motivo puntini puntini puntini voi vi dovrete dire qual è la differenza e tentare di motivarlo secondo voi perché c'è questo pusce specialmente per quanto riguarda Vittorio
+
+346
+00:42:52,779 --> 00:43:21,634
+c'è un'operazione che si può fare ma è costosissima con i vettori ed è l'inserimento di un valore in mezzo ad un vettore fate un'ipotesi sul motivo per cui viene definita operazione costosa costosa significa che non si possa fare i termini, il costo lo stabiliscono in tempo in più o in troppo tempo
+
+347
+00:43:22,227 --> 00:43:46,461
+è un po' come il fronte il fronte è un'altra cosa, si, si, si anche il fronte, non parliamo di vestogli, si è un inserimento in mezzo perchè per fare il fronte devi spostare tutto perchè fronte non significa che aggiungo una cerchia se non c'è spazio
+
+348
+00:43:48,874 --> 00:44:01,238
+e quindi io non voglio parlare di un'altra cosa front significa c'è un indirizzo di partenza che non può cambiare e che è associato alla variabile al contenitore quindi che faccio?
+
+349
+00:44:01,258 --> 00:44:13,301
+mi posso fare aggiunte le aggiunte le posso fare solamente con i puntatori ma se mantengo quella struttura questo significa aver capito le cose capisci?
+
+350
+00:44:13,561 --> 00:44:18,283
+cioè il front è devastante pure anzi diciamo l'inserimento in mezzo peggiore no?
+
+351
+00:44:19,316 --> 00:44:43,851
+perché se lo metti in mezzo ancora sposti la parte ma se sposti il front devi spostare tutti e quindi è on a rose quindi le riflessioni sono queste l'ultima riflessione, l'obiettivo ok come studia una classe abbiamo detto, no?
+
+352
+00:44:44,111 --> 00:44:45,132
+è i vari metodi
+
+353
+00:44:46,019 --> 00:45:13,901
+dopodichè partiamo con l'implementazione per vedere praticamente come ci ho capito bene come si usa l'evoluzione per chi volesse però questa impegnativa mi interessa di meno perchè è più complessa se spostate l'attenzione sulla cosa più complessa non c'è ancora contento se prima non mi dimostrate di aver capito
+
+354
+00:45:14,684 --> 00:45:16,064
+per parte iniziale, cioè lo studio delle singole classi.
+
+355
+00:45:16,084 --> 00:45:20,546
+Le classi sono due.
+
+356
+00:45:20,566 --> 00:45:22,166
+Dicevo, c'è un altro aspetto.
+
+357
+00:45:22,866 --> 00:45:33,129
+Soffermarvi sulla documentazione il modo che C++ usa per documentare le classi.
+
+358
+00:45:34,490 --> 00:45:42,372
+Perché quando costruirete le vostre classi dovrete utilizzare lo stesso stile di documentazione.
+
+359
+00:45:44,508 --> 00:46:10,875
+e quello che dovrà essere documentato sarà fondamentalmente l'interfaccia e i presentatori e lui usa un altro strumento per aggiungere chiarezza e sono degli esempi di riferimento in questo modo uno dice sì ok ho visto ah sì vedo come si fa gli esempi che usa sono sempre semplici
+
+360
+00:46:14,730 --> 00:46:25,057
+che mettono in risalto la cosa che stai studiando e tutto il resto, un dettaglio, serve ovviamente per creare qualcosa di significativo.
+
+361
+00:46:26,498 --> 00:46:42,209
+Quindi C++ Ok Tutorial
+
+362
+00:46:45,904 --> 00:46:47,886
+Ok, una nuova ripulgimento.
+
+363
+00:46:48,006 --> 00:47:00,357
+Anche a me non interessa, vabbè, i piedi, queste linee.
+
+364
+00:47:00,397 --> 00:47:03,380
+Ma lo so perché vado un po' che non ci passa.
+
+365
+00:47:03,420 --> 00:47:05,282
+Quindi le mie ricerche qui saranno un po' più lunghe.
+
+366
+00:47:05,302 --> 00:47:07,263
+Eccoli qua, vedete?
+
+367
+00:47:09,542 --> 00:47:13,886
+Riscoprite anche questo stile di documentazione, vedete?
+
+368
+00:47:13,906 --> 00:47:23,213
+La prima cosa che mi fa è descrivere cosa è la classe, cosa fa, nel senso delle classe, lo scopo delle classe.
+
+369
+00:47:23,273 --> 00:47:29,777
+Quindi la cosa importante, in realtà che devo usare queste classe, bene, te lo dico io, no?
+
+370
+00:47:30,738 --> 00:47:38,304
+E quindi è molto importante a questo punto fornire una buona descrizione di quello che è lo scopo
+
+371
+00:47:39,130 --> 00:47:47,193
+della classe, in maniera tale da decidere se usarlo o meno, se è compatibile con i nostri fondi.
+
+372
+00:47:48,334 --> 00:48:02,820
+Poi i tipi di membri, la parola membro che vi ho detto, come fatto una classe da membri, poi abbiamo detto c'è la classificazione, i membri si sono classificati in meta di proprietà classi, oggetti,
+
+373
+00:48:04,651 --> 00:48:33,279
+e quindi lui dice che ci sono i membri della nostra classe che andiamo a prendere in considerazione attenzione la cosa imperiativa che dà professionalità e lì dobbiamo perdere del tempo sono gli iteratori in tutti i linguaggi esistono gli iteratori abbinati alle classi ci sono due concetti pesanti nella classe non String, ma classe Vector
+
+374
+00:48:35,507 --> 00:48:39,090
+La classe Vector non è una classe volume, è una classe template.
+
+375
+00:48:40,391 --> 00:48:42,933
+La classe template significa classe modello.
+
+376
+00:48:42,953 --> 00:48:49,498
+La classe modello significa che se io uso soltanto la classe Vector e poi ci metto il nome dell'oggetto mi dà l'errore.
+
+377
+00:48:50,959 --> 00:48:52,220
+E' un motivo molto semplice.
+
+378
+00:48:53,961 --> 00:49:00,706
+Essendo template, essendo modello, questa è la programmazione generica.
+
+379
+00:49:01,307 --> 00:49:02,968
+Perché esiste la classe Vector?
+
+380
+00:49:04,542 --> 00:49:08,923
+Noi sappiamo che i Vector sono delle raccolte di elementi dello stesso tipo, no?
+
+381
+00:49:09,823 --> 00:49:14,444
+E' chiaro che la cosa più importante che devo fare, sì, ok, tu vuoi che crei un oggetto, no?
+
+382
+00:49:14,724 --> 00:49:16,244
+Ma dentro che ci devo mettere?
+
+383
+00:49:17,304 --> 00:49:19,525
+E quindi devo specializzare quel Vector, no?
+
+384
+00:49:21,485 --> 00:49:29,947
+Di conseguenza devo dire un Vector di interi, un Vector di plot, un Vector di classi, un Vector di oggetti, un Vector di qualcosa.
+
+385
+00:49:32,291 --> 00:49:37,556
+e quindi anche lì la domanda è ma come si progettano?
+
+386
+00:49:38,857 --> 00:49:42,920
+come si progettano le classi template?
+
+387
+00:49:43,020 --> 00:49:45,142
+voi userete una classe template?
+
+388
+00:49:45,602 --> 00:49:47,104
+e la regola qual è in pratica?
+
+389
+00:49:47,884 --> 00:49:51,387
+fare intesi angolare e dentro il tipo?
+
+390
+00:49:51,447 --> 00:49:51,908
+e il nome?
+
+391
+00:49:52,308 --> 00:49:52,728
+basta?
+
+392
+00:49:54,930 --> 00:49:57,893
+ok, vi chiederò di progettare la classe template
+
+393
+00:49:59,529 --> 00:50:22,936
+e qui entriamo nel merito di come si progetta una classe template ma anche un'idea cioè da dove parte l'idea del template a cosa serve ragazzi vi vedo sfumiti oggi, non ho capito... no, ma io mi agito di te quello che mi collassa, lui invece... no, vai tranquillo, si, si cioè volete che mi fermi?
+
+394
+00:50:22,976 --> 00:50:23,436
+no, no, no
+
+395
+00:50:24,940 --> 00:50:34,613
+Non vorrei che fossi io a... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+
+396
+00:50:44,096 --> 00:50:48,840
+Ci sono tante tecniche, tante cose che devono essere inserite.
+
+397
+00:50:49,160 --> 00:50:51,201
+Adesso la userete, la classe template.
+
+398
+00:50:52,142 --> 00:50:56,846
+Quindi vorrei che facesse l'esperienza di chiusa qualcosa senza sapere come funziona.
+
+399
+00:50:57,566 --> 00:50:58,607
+Poi entriamo nel merito.
+
+400
+00:51:00,568 --> 00:51:03,751
+Allo scorso per la Q io l'avevo fatto template.
+
+401
+00:51:05,672 --> 00:51:13,418
+Sì, ma perché poi ci sono le altre classiche template, la Vista, la Q, la Q. Allora la Q che ci avevi fatto fare scrivere a noi.
+
+402
+00:51:13,980 --> 00:51:17,461
+però faccio una trattazione abbastanza rapida.
+
+403
+00:51:17,481 --> 00:51:23,924
+Adesso cercherò di fare una trattazione leggermente più precisa.
+
+404
+00:51:28,065 --> 00:51:33,207
+Per gli iteratori mi serve l'ingrediente, l'ingrediente che mi serve a puntatori è chiaro.
+
+405
+00:51:37,720 --> 00:51:40,421
+Il costruttore, l'instruttore è qui.
+
+406
+00:51:40,461 --> 00:51:45,903
+Poi c'è un'altra cosa che dovrei fare con voi, vorremmo fare anche con voi quest'anno.
+
+407
+00:51:46,803 --> 00:51:50,144
+Ho ascoltato Ceri, abbiamo fatto la ridefinizione degli operatori?
+
+408
+00:51:50,384 --> 00:51:50,524
+Sì.
+
+409
+00:51:51,885 --> 00:51:55,126
+E quelli che si uniranno?
+
+410
+00:51:55,206 --> 00:51:55,586
+Sì.
+
+411
+00:51:56,286 --> 00:51:58,667
+Esatto.
+
+412
+00:51:58,867 --> 00:51:59,447
+Esatto.
+
+413
+00:51:59,587 --> 00:52:05,429
+Quindi la sola posizione, cioè quindi una creazione utilizzando degli operatori tipo
+
+414
+00:52:08,211 --> 00:52:36,588
+qui è stato ridefinito l'operatore uguale quindi stiamo parlando di stringhe e grazie a quella magia che io posso fare stringhe 1 uguale a stringhe 2 perché al simbolo uguale è stato attribuito un altro significato ma non a parole, c'è l'impenettazione quindi di solito io prendo come ferimento la plasso e la frazione
+
+415
+00:52:37,919 --> 00:53:07,551
+ma anche una classe intera e poi a questo punto lavorare con una classe una classe di questo genere in pratica, cioè la classe frazione io sono abito, le frazioni sono numeri strutturati in un certo modo però poi tecnicamente c'è un numeratore dell'ordinatore una delle cose che non posso fare frazione 1 minore di frazione 2 quel minore in natura non esiste
+
+416
+00:53:09,534 --> 00:53:13,417
+e quindi lo dobbiamo ridefinire, ma anche lo uguale dobbiamo ridefinire.
+
+417
+00:53:15,298 --> 00:53:16,138
+Ci siete?
+
+418
+00:53:16,178 --> 00:53:17,980
+Sì, sì, ma ricordo la classe nazionale.
+
+419
+00:53:18,080 --> 00:53:21,042
+Quindi questi sono gli iteratori, lascia destare.
+
+420
+00:53:21,662 --> 00:53:26,245
+Bene, questi sono i metodi che ci consentono di fare delle cose.
+
+421
+00:53:28,607 --> 00:53:34,791
+Per capirci, questi metodi in C, no, sono la libreria string.ac.
+
+422
+00:53:35,831 --> 00:53:38,233
+Qui la libreria che dovete utilizzare, la C string,
+
+423
+00:53:39,520 --> 00:53:45,362
+faccio vector per le stringe stringe vector?
+
+424
+00:53:45,742 --> 00:54:06,371
+C sì, questo è giusto quando c'è C time string senza punto o string col punto string.h e del C string è quella del C++ è lui che fa
+
+425
+00:54:08,178 --> 00:54:12,660
+ma questo poi ovviamente lo vedrete voi, vedete?
+
+426
+00:54:13,501 --> 00:54:36,872
+c'è un altro literatore interessante che è Henry Tormé però questo è abbinato solitamente è abbinato al no, a literatori, sì sì e no, quest'et prestate attenzione al metodo et string.et
+
+427
+00:54:38,924 --> 00:54:49,329
+et mi dà la possibilità in pratica di accedere in base alla posizione che gli metto tra parentesi.
+
+428
+00:54:52,030 --> 00:54:53,451
+Lo posso fare con le parentesi quadre?
+
+429
+00:54:55,572 --> 00:55:01,855
+La domanda più riguardante è perché devo usare il metodo et quando c'è le parentesi quadre?
+
+430
+00:55:02,215 --> 00:55:04,636
+Perché il metodo et fa un controllo sulla dimensione.
+
+431
+00:55:06,617 --> 00:55:07,298
+Quindi se io
+
+432
+00:55:10,948 --> 00:55:16,630
+Chiedo di accedere a un certo elemento, lo apprezzerete con i vettori, no?
+
+433
+00:55:18,451 --> 00:55:35,636
+Voglio raggiungere un elemento di cui credo di ricordare la posizione e mi accorgo, io non mi accorgo, e questo elemento non è il mio vettore perché la dimensione è cambiata, è diventata più piccola, perché è diventata più piccola?
+
+434
+00:55:35,696 --> 00:55:40,258
+Perché i vettori, i vettori del C++ sono dinamici
+
+435
+00:55:42,109 --> 00:56:00,385
+e quindi posso perdere il conto, dice ok vai su quel elemento, quel elemento non c'è più perchè ha cambiato la dimensione ci vado con la valentesi qua a andare a migliorare con l'etni dice no succede qualcosa ci siete?
+
+436
+00:56:02,147 --> 00:56:05,069
+quindi altri operatori più uguali, e qui
+
+437
+00:56:10,600 --> 00:56:12,441
+Ci sono i metodi di interfaccia.
+
+438
+00:56:23,270 --> 00:56:24,190
+Questo è interessante.
+
+439
+00:56:27,633 --> 00:56:28,373
+Non so, è freme?
+
+440
+00:56:31,035 --> 00:56:32,877
+Che esistono tanto in ciclone.
+
+441
+00:56:35,158 --> 00:56:38,401
+Questa è una cosa che dovremmo pure, no?
+
+442
+00:56:39,540 --> 00:57:08,133
+di solito non l'ho fatto le funzioni friend la definizione di funzione friend che è una funzione che non appartiene alle classi il paradosso apparente è perché la inserisco all'interno della classe ve lo farò vedere se io voglio inserire una funzione friend amica
+
+443
+00:57:10,859 --> 00:57:16,961
+A questo punto, ok, il primo problema, dove la metto?
+
+444
+00:57:18,301 --> 00:57:19,481
+La metto davanti a un patto, no?
+
+445
+00:57:21,222 --> 00:57:24,342
+Risposta, la metto nel frontenitore classico.
+
+446
+00:57:26,083 --> 00:57:27,203
+Allora, lì vado in crisi.
+
+447
+00:57:28,523 --> 00:57:30,444
+È una persona neurobiologica, no?
+
+448
+00:57:31,984 --> 00:57:33,885
+Vado in crisi perché vado in crisi?
+
+449
+00:57:34,525 --> 00:57:34,905
+Perché
+
+450
+00:57:38,858 --> 00:58:08,179
+ti dirò dove mettere la friend all'interno della classe ma nello stesso tempo ti dirò non fa parte della classe e questo è un apparente paradossimo se sta dentro allora è della classe ma il concetto di appartenenza è un po' diverso la dichiarazione è un po' diverso in pratica nel senso non vi perdete in questo intanto lui lo dice queste sono tutte
+
+451
+00:58:09,895 --> 00:58:17,596
+non membro non sono membro della classe però ti dici anche un'altra cosa dove sono?
+
+452
+00:58:18,357 --> 00:58:31,799
+nella classe posizionamento fisico le metto lì le metto lì perché le devo mettere da qualche parte le vedo dentro e dici allora è dentro no?
+
+453
+00:58:33,279 --> 00:58:36,420
+logicamente non faccio la classe diciamo che sono
+
+454
+00:58:39,201 --> 00:58:44,043
+negli infiltrati, senza i quali tanti problemi non li possono risolvere.
+
+455
+00:58:44,063 --> 00:58:50,886
+Allora si sono inventati queste friend, che sono un ibrido, una cosa sporca.
+
+456
+00:58:50,966 --> 00:59:00,250
+Questa è l'aspetto perché la presenza di queste funzioni inducono a dire ovviamente che c'è più non è totalmente ad oggetti, perché fa questo lavoro sporco.
+
+457
+00:59:00,351 --> 00:59:02,071
+Le friend in Java non ci sono.
+
+458
+00:59:03,992 --> 00:59:05,653
+Negli altri linguaggi ad oggetti non ci sono.
+
+459
+00:59:07,527 --> 00:59:33,346
+lo hanno dovuto inventare in C++ perchè è nato in un modo che si stava crescendo ci sono stati dei problemi e si sono inventati queste nuove tipi di funzioni che fanno un lavoro sporco il problema è sempre l'operatore, l'ha incontrato il problema se tu vuoi provare a fare l'overload di un operatore e vuoi mettere due parametri se non è una friend non lo puoi fare
+
+460
+00:59:38,627 --> 00:59:43,312
+E quindi, niente, questo per dirvi, è interessante questa getty line.
+
+461
+00:59:44,933 --> 00:59:52,140
+La getty line è un strumento che risolve tanti problemi che... Fai!
+
+462
+00:59:53,521 --> 00:59:54,061
+...problemi.
+
+463
+00:59:54,222 --> 01:00:01,208
+Però, diciamo, vedete, di questa classe la maggior parte di noi userà il 10%.
+
+464
+01:00:04,352 --> 01:00:12,056
+Tutte queste funzionalità, i termini di metodi, di proprietà, questa è soltanto l'interfaccia.
+
+465
+01:00:13,376 --> 01:00:15,678
+Immaginate quante brosa fa essere Stirlinga.
+
+466
+01:00:17,158 --> 01:00:26,343
+Eppure praticamente, per parte di noi, usa soltanto le operazioni fondamentali, l'interimento, il confronto, la sedimensione, tutto il resto non lo usa.
+
+467
+01:00:28,101 --> 01:00:44,155
+Questo significa che nel momento in cui io uso le altre funzionalità, evidentemente voglio rendere più professionale e lì la differenza è fra neofita e chi usa il C++ tutti i giorni, lui le usa la maggior parte.
+
+468
+01:00:45,936 --> 01:00:51,821
+L'assoluta non esiste, le usa molte più rispetto a quelle che potremmo utilizzare noi, no?
+
+469
+01:00:53,503 --> 01:00:54,664
+Quindi il senso è questo.
+
+470
+01:00:55,754 --> 01:01:23,840
+attenzione, quando progetterete i vostri oggetti non pensate al problema che dovete risolvere sul momento pensate in grande, tutte le volte che verrà usata quella classe ci sarà una funzione, c'è un metodo che svolgerà un compito se l'ho previsto bene o se no chi scrive in mente lo deve creare lui
+
+471
+01:01:25,302 --> 01:01:44,338
+quindi sono delle funzionalità che aggiungo aggiungo un'altra cosa supponiamo che voglio fare delle stringhe specializzate delle stringhe con delle funzionalità più specifiche ti rispondo alla domanda di prima questa è la classe stringa
+
+472
+01:01:45,906 --> 01:02:03,360
+ma supponiamo che io voglia fare un gestore di string soltanto di carattere di maiuscola un gestore di string o una classe stringa soltanto per gestire le tene minuscole ma io ho già una cosa che significa?
+
+473
+01:02:03,440 --> 01:02:10,085
+che avere una classe stringa per le maiuscole significa una specializzazione no?
+
+474
+01:02:11,627 --> 01:02:13,128
+la stessa cosa vale per le minuscole?
+
+475
+01:02:14,798 --> 01:02:20,682
+Luiz, io voglio dei classi specializzati.
+
+476
+01:02:20,842 --> 01:02:21,263
+Che faccio?
+
+477
+01:02:21,323 --> 01:02:24,745
+Le vostre risconte a quante vere interi?
+
+478
+01:02:24,885 --> 01:02:36,373
+Allora a questo punto vado sul padre, gli dico ok, prendo in eredità quello che fa lui e aggiungo quello che manca.
+
+479
+01:02:37,734 --> 01:02:44,399
+In effetti l'ereditalità raccoglie il concetto di generalizzazione specializzazione.
+
+480
+01:02:47,426 --> 01:03:09,252
+la classe automobile, cioè la classe veicolo con la E o la classe figura, il concetto generico e quello specializzo prendo la parte comune a tutti gli oggetti e aggiungo tutte le varie forme di specializzazione.
+
+481
+01:03:13,132 --> 01:03:13,352
+Sì?
+
+482
+01:03:14,432 --> 01:03:15,472
+Ah, secondo me non è così.
+
+483
+01:03:15,872 --> 01:03:31,155
+Ma lì, questo è un'altra cosa, ti ripeto, ho un concetto, siamo partiti da un concetto genetico, lo voglio specializzare, proprio sulla domanda che mi hai fatto prima, lo voglio specializzare, che faccio?
+
+484
+01:03:31,195 --> 01:03:32,455
+Mi crea un'altra classe?
+
+485
+01:03:32,635 --> 01:03:32,835
+No.
+
+486
+01:03:34,816 --> 01:03:39,636
+Tieni buona la parte in comune e aggiungi quello che manca.
+
+487
+01:03:40,497 --> 01:03:41,917
+Capisci?
+
+488
+01:03:42,057 --> 01:03:42,357
+Quindi,
+
+489
+01:03:43,564 --> 01:03:57,267
+Heredità significa, segnalatela questa cosa, perché è uno degli elementi più caratterizzanti, il concetto generico padre, la metapola diversa, il concetto figlio specializzazione.
+
+490
+01:03:58,447 --> 01:04:05,129
+Quindi significa che il padre ha delle funzionalità, il figlio ha quello che eredita più altre cose.
+
+491
+01:04:07,305 --> 01:04:12,307
+C'è un altro principio che vi devo spiegare, ve l'ho spiegato velocemente, ve lo spiegare.
+
+492
+01:04:12,327 --> 01:04:14,268
+Il principio di sola posizione.
+
+493
+01:04:18,830 --> 01:04:19,510
+E' esempio.
+
+494
+01:04:21,311 --> 01:04:31,515
+Il padre, supponiamo che il padre abbia un metodo, il metodo stampa.
+
+495
+01:04:33,507 --> 01:04:33,767
+Chiaro?
+
+496
+01:04:34,728 --> 01:04:39,611
+Supponiamo che l'implementazione prevede l'uso di una stampante a dagli.
+
+497
+01:04:41,513 --> 01:04:41,913
+Ci sei?
+
+498
+01:04:43,254 --> 01:04:55,842
+Supponiamo che il figlio stampi, non debba più stampare su una stampante a dagli, ma su una stampante laser.
+
+499
+01:04:58,107 --> 01:05:03,432
+io gli do stampa in eredità, perché tutti li devono stampare.
+
+500
+01:05:04,453 --> 01:05:18,266
+Però a questo punto, come c'è quella stampa del padre, stampa da una stampante ad anni, è chiaro che, se per eredità un figlio non va bene, mi serve qualcosa di più specializzato.
+
+501
+01:05:18,306 --> 01:05:23,070
+Allora gli scrivo un altro momento di stampa, con le stesse caratteristiche,
+
+502
+01:05:24,820 --> 01:05:39,669
+e mi ritroverò in una situazione di avere due funzioni con lo stesso nome, lo stesso prototipo, con la stessa firma, una che viene ereditata, l'altra che è del figlio, sulla posizione.
+
+503
+01:05:42,451 --> 01:05:51,997
+La regola è, la funzione che viene utilizzata è quella del figlio, quindi anche se viene andata una in eredità,
+
+504
+01:05:54,060 --> 01:06:01,245
+quella che vi arriverà dal padre, verrà sostituita con quella del figlio.
+
+505
+01:06:02,787 --> 01:06:15,476
+Perché se nella generalizzazione c'è qualcosa di obsoleto ed è pubblico, quindi passa come reddità, io gli sto passando una cosa vecchia.
+
+506
+01:06:17,046 --> 01:06:17,166
+No?
+
+507
+01:06:18,127 --> 01:06:22,288
+Quindi, se gli passa una cosa vecchia, il figlio userà la stessa cosa vecchia del padre.
+
+508
+01:06:23,489 --> 01:06:28,871
+Come risolvo questo problema, gli scrivo un altro metodo identico con un'implementazione diversa.
+
+509
+01:06:29,031 --> 01:06:31,432
+Arriva l'eredità, stampa.
+
+510
+01:06:32,613 --> 01:06:45,098
+C'è un'altra stampa del figlio, domina l'ultimo, cioè quella del figlio.
+
+511
+01:06:46,327 --> 01:06:49,068
+e quindi in questo caso c'è proposta istituzione.
+
+512
+01:06:49,809 --> 01:06:51,229
+Perché non la tolgo al padre?
+
+513
+01:06:51,269 --> 01:06:54,711
+Perché evidentemente c'è un'afficcazione che sta usando un'altra stampata d'ani.
+
+514
+01:06:57,412 --> 01:07:14,699
+Cioè, sono sfumature, iddo la definizione, la conoscete, lo sto dicendo a noi grossi, e dimenticherei queste cose, perché ho imparato a ragionare, e la metabolizzate, e com'è andata a fare l'esame della scuola guida.
+
+515
+01:07:16,148 --> 01:07:18,791
+Inutile andare a fare l'esame e poi guidare dopo due anni.
+
+516
+01:07:20,432 --> 01:07:26,498
+Eppure ho fatto tutto, non mi sono allenato, non ho guidato, dimentico, devo riconunciare.
+
+517
+01:07:26,879 --> 01:07:30,602
+Quindi abituatevi a ragionare ad oggetti.
+

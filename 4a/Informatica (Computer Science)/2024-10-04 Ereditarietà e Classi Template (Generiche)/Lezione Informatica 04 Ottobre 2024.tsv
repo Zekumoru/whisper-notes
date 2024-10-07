@@ -1,0 +1,518 @@
+start	end	text
+349	12552	E considera probabilmente una chiamata di sistema o interfaccia per dialogare con il sistema operativo.
+13332	14553	Ecco perché cosa significa.
+14673	18353	Noi la vogliamo ad altro rivelo, di conseguenza tutto quello che c'è sotto è nascosto.
+20194	22194	Se io apro il codice puoi vedere cosa.
+24675	26455	È chiaro, adesso siamo nella logica.
+26895	28576	Mi interessa sapere cosa fa.
+30518	33459	cos'ha a disegno dell'ingresso e cosa restituisce, basta.
+34359	34899	Come lo fa?
+34919	36720	Non ne frega niente.
+36800	47963	Il motivo per cui vi ho detto, quando progettate, progettate in funzione di chi dovrà usare, o la classe o la funzione.
+49803	55725	Perché chi userà quelle cose lì, a lui non gliene fregherà niente di come funziona, l'importante è che funziona.
+58027	68729	e quindi dovete vestire due panni di chi usa quello che progettate e di chi sviluppa quello che c'è dentro.
+69450	73831	Due visioni completamente diverse.
+74991	80172	Quindi il discorso del capire il senso del sistema relativo è come un discorso di risorse.
+80192	84493	Le risorse sono hardware, io ho messo tutto quanto hardware per dire ok, tutto passa
+86343	92628	E lui, quando io gli dico per me prendere un'applicazione che sta di sopra, è lui che sa dove stanno i dischi.
+94069	94910	No, non fa funzione.
+95030	96571	Funzione è che bisogna mettere una richiesta.
+97712	104217	Che viene trasformata, chiaro?
+104478	111503	Cioè, l'assembla è da tanto che non si fa l'assembla seriamente.
+115473	126981	L'hanno scolto e detto, ovviamente, ho parlato anche in terza, perché lo dico sempre, prima di cominciare a programmare devo sapere che praticamente che tutto quello che scrivono con un colleguaggio verrà tradotto.
+128122	129242	Ve lo disse anche in seconda.
+129282	133365	Ci sono i traduttori, e ci sono i tipi di traduttori, no?
+134406	135667	Integrati, combinatori.
+137128	138569	E poi c'è gli assemblatori.
+139389	140250	Qual è la differenza?
+140410	145053	Tutti traducono, perché si chiamano in maniera diversa, traducono in maniera diversa.
+147682	148102	Ci siete?
+149203	149843	C'è una cosa.
+151924	155987	Tu sei in un'istruzione in C o ci vuole un traduttore?
+156227	157648	Perché lui il C non lo capisce.
+159129	168854	Evidentemente traduzione significa che ci vogliono due linguaggi che riferimentano un sorviente, un punto di partenza, e poi una traduzione.
+171416	173337	La traduzione in cosa?
+173877	174858	In un altro linguaggio.
+175338	176058	Quale linguaggio?
+180940	186183	Ci sono due risposte o linguaggio macchino o assembler.
+191005	196988	Attenzione, nella risposta o linguaggio macchino o assembler c'è anche un'altra spiegazione.
+197008	198149	C'è un'altra risposta.
+201230	205192	Tra i traduttori c'è l'assemblatore che traduce in maniera diversa.
+206613	208694	E in cosa consiste questa traduzione diversa?
+211129	237731	quando faccio la traduzione di fatto io faccio una traduzione in assembler e l'assembler significa appunto quello che avete fatto, move il problema è che quel move accanto c'è il corrispondente codice a chino quindi ogni volta che c'è un'istruzione assembler automaticamente c'è un assemblatore
+239580	268126	che va lì a ricavare il codice operativo, codice operativo e codice macchina e quindi c'è una traduzione, un'istruzione, un codice operativo 1 a 1 quando io vado a tradurre un if, beh, la traduzione è 1 a n tanto è vero che noi, tanto è vero che si vede meglio con il while il while in assegno non esiste
+270555	298976	esiste il go-to o il jump non il go-to, il jump se voglio costruire un ciclo while devo usare il jump poi ti espongo un'interfaccia ti dico ok scrivo in questo modo while come la diciamo la traduzione è n e funzioni assembler per ciascuna c'è un codice macchina associato qual è la traduzione?
+301365	302266	Ci siete?
+303126	312694	Se lavorate in Assembler, se lavorate in Assembler, il DOS con sistema operativo DOS, il DOS espone e c'è ancora credo.
+313715	315957	L'hanno rivolto per certi versi.
+317358	321562	Questo per garantire la retrocompatibilità dei sistemi operativi.
+321642	329989	C'è una cosa che viene nelle vostre routine, avrete sicuramente utilizzato,
+333633	359709	l'interventone quella, adesso prima era questo per venire a quello che hai detto te diciamo le PI del DOS no questa era l'interfaccia che metteva a disposizione il DOS per accedere ai suoi servizi
+361173	388524	e quindi ogni volta che usiamo int, attenzione int 21, la chiamata poi c'era ovviamente dovevo dire quale chiamata dovevo specializzarla quale servizio volevo di partiziana devo dire che il problema è chi gestiva questa chiamata questa è una chiamata un accollo, una chiamata di funzione, il problema è chi la gestiva si chiama con le tue
+389638	391760	Questo significa, sistema operativo, pensateci.
+393582	399328	Se apriti i vostri codici per lavorare nell'ambiente dosse, tipo l'INT, ci sono andate altissime.
+399848	401890	Ci sono due tipologie specifiche.
+402130	413841	Uno, l'INT 21, l'INT 21, l'interfaccia che metteva a disposizione il dossier, e poi c'era un altro, l'INT,
+415963	442735	e c'era un hint che metteva a disposizione invece quello che ti consentiva di lavorare direttamente con Garbler che metteva a disposizione il BIOS e quindi esiste anche questa possibilità di raggiungere la rada direttamente passando attraverso dei servizi del BIOS
+444970	455579	perché volevo realizzare un'applicazione svincolata dal sistema operativo.
+457900	462764	A me non interessava utilizzare il DOS, volevo sviluppare un'applicazione specifica.
+462964	468048	Allora a questo punto ci sono altri interface che potevi utilizzare
+469373	474916	per poter interagire direttamente con un hardware.
+476757	497528	Se passavo dall'inti 21 ci pensavo, se volevo andare su una scheda di rete, no, no, sulla porta seriale, allora avevo due possibilità, ho passato dall'inti 21, ho accettato le sue regole e poi mi facevo io una routine e programmavo le porte come dicevo io.
+500387	501628	con l'assembler faccio tutto.
+504950	512755	Tu stai a capire quanto è importante capire queste cose, ma sono di un'altra, sono un boomer.
+514236	516537	Il problema è che con più ripetita funziona in questo modo.
+517998	518778	No, non è boomer.
+519179	521160	Non è ricordi della mia infanzia.
+521180	521500	No, no.
+521540	522561	Non è così.
+522641	524182	Le cose sono state così.
+524322	526743	Quindi c'è un problema.
+527744	528825	Io boomer, certo.
+530940	537566	Uno di ultima generazione imparerà la definizione fino a quando non ci mette mano, dopo di che la rimuove.
+539287	542170	E tenderà a lavorare sempre a un livello molto più alto.
+543751	547214	Quindi le informazioni sono abbastanza sfumate.
+548596	552699	E' un po' difficile poi capire esattamente cosa succede sotto Tarci.
+554661	557763	Perché lì diventi specialista, adesso la prima è specializzata.
+559993	585649	chiaro, giusto per concludere quella cosa infatti io questo è stato usato usando Visual Studio, c'è la possibilità di vedere con il C puoi fare direttamente con il C prima si faceva, ecco che vi dicevo, prima si faceva nel video all'interno del C tu potevi fare delle chiamate dirette alle routine assembly quindi tutti scrivendo le routine assembly avanciate con
+589265	593888	con un codice C. Perchè la scrivevi in assembler?
+593948	601594	Perchè ti serviva l'efficienza dell'istruzione assembler, anche se molto vicino all'arvel non è come assembler.
+602755	607979	Allora si scrivevano una volta delle routine specifiche, il problema dovevi inserire e poi chiamare dall'interno.
+609480	613844	E lavoravi e interagivi, facendo interagire l'applicazione direttamente con la routine assembler.
+615189	637510	e lui andava a fare tutti i lavori sull'arbre, come ad esempio con il cibo e anche il lino, lavorare sui singoli bit per fare il mascheramento, per fare tutto, perché c'è il tipo e ci sono gli operatori anche e ci sono gli operatori che lavorano con i singoli bit allora, perché vi dico questo?
+637850	639011	perché effettivamente
+641136	645680	Il ragazzo di terza mi ha fatto la domanda e gli diceva, vabbè, perché ci sono tre materie?
+649763	654527	Perché ci sono tre, trovano coni completamente diversi, c'è un problema.
+655647	659591	Io andrò in pensione, se io vuole, il problema resterà.
+659951	661272	Le tre materie non si parlano?
+661472	661572	No.
+665675	668938	Perché, se tu mi chiedessi dove sei arrivato con la programmazione,
+670307	682090	E la domanda me la fai perché dici ok, tu fai la parte iniziale, dimmi dove, arriva fino a questo punto, appena arriva a questo punto chiamami e lo usi.
+685892	695554	A questo punto poi vengo da te e ti dico ok, quando arriverai qui, programmiamo, ci devi arrivare in due settimane, tre settimane, un mese.
+696415	697555	Ok, fammelo servere.
+698231	722303	poi entro io in questo modo io non c'è bisogno di che ti facciano la sintesi delle cose siccome una sintesi non te lo spieghi, ti dico questo è, queste cose le devi sapere poi tu mi chiedi come funziona, se no te le posso spiegare perché o ti spiego la cosa o ti spiego l'altro è un ingrediente, è un pre-requisito discorso è che le maderisi devono capire, discorso di la valentina
+724924	752200	sono intrecciasissime assolutamente si ma tu ti stai ricordando il mio modo di pensare quindi per te adesso intrecciare perché lo faccio no è ovvio se tu vai in cuenta prendi quelli che vengono dal giorno sono dei monoleti sistemi sistemi informatica informatica ti piacere ti piacere perché ti fa quella materia non ci occupa delle altre due non si preoccupa proprio delle altre due
+753462	755464	Anzi, non sa neanche cosa fa l'altro.
+758267	767776	Allora, io ti faccio l'apertura con il C, ti arrivo su una lefunzione e ti avviso che da quel momento in poi tu hai un linguaggio già pronto da utilizzare nella tua materia.
+768797	772660	E non esiste il linguaggio effatto da Alemanno.
+774462	774682	No!
+775723	777845	C'è un percorso che passa da tre materie
+779376	788384	e quindi chiaramente dice anche ti avviso prima magari e non lo facciamo perché mentiremmo e l'avviso qual è?
+788664	801956	Guarda che il percorso di quest'anno è la prima parte, lui arriva fino a questo punto, da quel momento in poi io prendo in gestione uso quello che ha fatto lui per fare la mia parte
+803362	805223	in questo modo evito di fare.
+805283	808625	Perché lui o loro non fanno, non usano mai il C?
+808986	816250	Perché dici, vabbè, lo devi fare alle mani, coglione, ma se devi fare la programmazione multitasking e multitree, come cazzo faccio a farla io?
+816270	820272	Il problema è, tu hai bisogno di me.
+822094	827317	Ti dico fin dove arrivo, ti faccio tutto quello che ti serve, poi parti.
+830179	830739	Non esiste.
+832906	833646	Sisteme reti?
+833666	834607	Sisteme reti.
+835747	839148	Adesso sto spiegando l'architettura, come lo spiegate voi.
+839408	841108	Perfetto.
+843229	845870	A me serve che voi abbiate delle conoscenze di base.
+848630	849931	A me informatica cosa serve?
+850471	853571	Sto spiegando il sistema operativo.
+854892	859393	Perchè la system la devi usare TPSI.
+860737	861718	però gli serve?
+861758	863499	Si.
+863539	865560	Sennò tu mi chiamate di sistema?
+866181	867241	Non mi hai fare vedere mai?
+867261	868302	Non hai gli strumenti?
+870724	872365	Chiaro?
+872405	875707	Io faccio il sistema operativo, non me ne fate un cazzo della nuova informazione, questo?
+875807	876288	Ok.
+880090	880690	L'interfaccia c'è.
+880791	883232	C'erano due interfacce.
+884733	887955	Qui c'è l'Omino e siamo noi con i programmi
+892015	917834	o meglio questo è quello che usa il programma, i click poi qui c'è un altro che sviluppa applicazioni e usa altri aspetti del sistema operativo basta fare questo, un sacco dà senso a quello che sta facendo faccio cosa vedo gente, assolutamente no quindi allora qui devo programmare
+920283	925146	che abbiamo lo codice, qui devo programmare, non ho gli strumenti, cazzo, faccio questa.
+925626	926226	Cos'è questa?
+926286	926786	La scema.
+929848	930448	La scema.
+932689	947297	Cioè, ti sembra normale che uno che si spaccia per presunto diplomatica informatica, non conosci i comandi della scema, che non sono soltanto dir, cd, c'è dell'altro.
+950911	953073	questo è il laboratorio?
+953093	953853	Che arriva a Budan?
+954274	954974	Ti taglio bene?
+956155	959398	Anche perché, no, ma nello... Ci siamo togliati le vene.
+959438	971867	Ma non lo voglio criticare, nel senso che se non hai mai adottato questo modo di ragionare... Cioè, della serie, io ti dico, fai la shell, tu prendi un libro e facci la shell.
+971987	975410	Ma quando prendi un libro dove c'è scritto con la shell, come si usa la shell?
+975510	976551	Cioè, ne recco dei comandi.
+977491	979032	Il scorso è che non sai dare la priorità.
+982370	984372	Ok, ci sono 200 comandi.
+984712	985493	Che cazzo faccio?
+985553	987154	Prego la testa della spela e cominciamo.
+987194	991638	Vado in un'altra tabella.
+991998	995281	E lì, ovviamente, lì è esperienza, no?
+995361	996722	Ok, parli di questo.
+997943	998223	Perché?
+998323	999584	Devo imparare a gestire il disco?
+999604	1000905	Devo imparare a gestire i processi?
+1000926	1002227	Devo imparare a gestire la memoria?
+1002307	1003788	Ok, questi sono i comandi specifici.
+1004068	1006250	Questi che sono i comandi specifici, parli di questi.
+1006390	1008372	Queste sono le cose fondamentali.
+1012763	1016885	La cosa che mi disturba della mia triste esistenza è cosa fa l'insegnante.
+1016965	1022426	Mi hanno ragione.
+1022506	1025167	Tutti siete convinti di poter fare l'insegnante.
+1025987	1028768	L'universo è un mondo convinto di poter fare l'insegnante.
+1029268	1032429	Prendo il libro, ti spiego il libro, ti faccio un assumo.
+1032709	1033990	Bene, tutti lo possono fare.
+1034710	1035690	C'è bisogno di laureazzi.
+1035710	1038791	A differenza di un altro.
+1040132	1041152	Quello che ti sto dicendo.
+1041906	1043028	ma non c'è sicurità.
+1047073	1055784	L'esperienza è capire, ovviamente, come si deve distinguere tra le cose più importanti e meno importanti, e dire dare più peso, questa è l'esperienza.
+1057246	1059069	Se no, prendo il libro e vado in sequenza.
+1059258	1062999	ma anche per contestualizzare, perché il libro non contestualizza niente.
+1063020	1066961	Quindi è un altro livello, nel senso, perché faccio tutto questo?
+1067001	1072383	Per 8 anni, i primi 8 anni sono stati sistemi, era la materia più cattiva.
+1073864	1077445	In sistemi si faceva tutto.
+1077545	1079126	Adesso stanno separati, no?
+1079866	1086089	Assemble da una parte, si stiano per affidire da un'altra parte, e una volta assente,
+1088457	1091979	sistemi operativi e poi c'erano i sistemi elettronici.
+1093820	1098303	C'era una parte massiccia di ingegneria elettronica.
+1098963	1100944	Io avevo fatto delle cose ma non tutto.
+1101104	1102865	Cioè è chiaro il mio scopo era altro.
+1103466	1104907	Facciamo un altro tipo di sistemi.
+1104967	1109289	Basta andare a vedere i programmi telecomunicazioni che vedi che sono diversi.
+1110690	1117314	Sistemi, retroazione, stabilità, anche le elettroniche, flip-flop,
+1118257	1144623	multiplexer, dimultiplexer, configurazione... prima dovevo farlo con le elettroniche che spiegavano i condensatori che spiegavano l'elettronica, non la digitale perché erano di scuola analogica non erano ancora arrivati alla digitale
+1147114	1149516	Ci è mancato poco che spiegassero ancora le barbure.
+1153379	1154559	Mi lavorano, va bene.
+1155080	1157922	Adesso ho detto, ok, se può fare.
+1159163	1162786	Ma c'erano parte di insegnanti di informatica dell'epoca, erano tutti laureati di matematica.
+1163346	1164487	Non c'erano informatici.
+1166128	1168830	Non avete idea in che ambiente sono cresciuto.
+1170231	1171672	L'ignoranza è più assoluta.
+1171712	1174955	Avevano fatto l'esame di merda di programmazione, spiegavano qualunque cosa.
+1177342	1181583	Se dicevi, guarda che forse c'è qualcosa che non funziona, è infattuto.
+1184043	1187244	Poi, vabbè, torniamo a noi.
+1188344	1197086	Noi ci siamo lasciati, praticamente, con eredità.
+1203587	1204027	Eredità, no?
+1205009	1211854	E quindi abbiamo detto sinteticamente le regole dell'eredità e l'età, cioè come si studia l'eredità.
+1211974	1217498	Intanto devo dare forma all'eredità, abbiamo detto, ed edità significa... vabbè, siamo tutti noi, no?
+1219279	1221761	Quindi sarà più veloce, di nuovo non c'è nessuno.
+1221781	1224963	L'eredità significa che tutta la parte pubblica passa.
+1225743	1226544	Pubblica e protesta.
+1228865	1231207	Attenzione, cosa non passa?
+1231367	1231727	Privata.
+1233368	1246518	La protetta ha un livello di protezione simile alla privata, però mi dà la possibilità che tutto ciò che è privato, che è protetto, passa in realtà.
+1246799	1250862	Quindi ciò che passa è un'interfaccia più una parte protetta.
+1252543	1252823	Perché?
+1255886	1264572	I genitori vogliono vedere delle cose protette che non vogliono far vedere all'esterno, ma che si appone al figlio, giusto per usare sempre la metaforia.
+1264612	1268915	Così è il concetto, la cosa più importante in praliga.
+1270176	1272218	O ci sono gli aspetti implementativi.
+1273779	1276701	Vi ricordate, l'aspetto implementativo è legato al linguaggio.
+1278643	1278703	No?
+1278723	1278803	Dimi.
+1278823	1279744	No, per il livello di tenta è una buona pratica.
+1279764	1279924	Allora.
+1279944	1282087	E' più possibile l'amico.
+1282267	1283909	Intanto, allora.
+1283969	1284169	Allora.
+1284229	1286772	Prendiamo addirittura un'altra cosa.
+1286812	1287233	Perché esiste.
+1300191	1313900	Non è tanto come funzionano, ereditarità significa fondamentalmente, cioè prima capire cosa è la verità, capire cosa significa passare in eredità, capire cosa deve passare in eredità.
+1314880	1322745	Il problema è un altro, abbiamo scorsato anche l'attenzione, abbiamo fatto una riflessione, ma perché esiste il concetto di ereditarità?
+1323085	1326728	E' uno dei concetti cardini della programmazione ad oggetti.
+1329194	1336759	io mi posso spacciare per uno che conosce la programmazione degli oggetti perché conosco uno dei pilastri, l'ereditarità.
+1337980	1346326	L'ereditarità praticamente l'hanno inventata prima l'unice non c'era, qua l'estese c'è più e hanno cercato di aggiungere quelle parti agli oggetti.
+1347767	1357775	Il punto è, perché l'hanno inventata poi il problema risolve, ci sei?
+1358916	1379836	qui avevo detto, fate un approfondimento, perché questa è la chechierata che dovevate fare con Ciat e GPT perché, chiaramente, io ti dico le radicalità fondamentali per risolvere problemi tipo aggiornamento software
+1384874	1391521	che significa in pratica, nello stesso tempo mantenendo la retrocontadibilità con il software.
+1392482	1402010	Supponiamo che una classe generi oggetti che sono stati utilizzati in un'applicazione di qualche anno fa, supponiamo che io voglia aggiungere delle funzionalità.
+1403252	1420326	ma nello stesso tempo voglio mantenere le funzionalità precedenti perché le modifiche possono interessare soltanto la parte del software a questo punto cosa devo rifare?
+1422087	1431695	riscrivo la classe, però mi sono indicato gli oggetti di quella classe ho una classe A che mi dà delle funzionalità
+1432671	1433991	le altre applicazioni usano.
+1438833	1441734	Voglio migliorare il software, aggiungere delle funzionalità.
+1442474	1459719	Funzionalità significa prendere la classe A, prendere la classe A e integrare delle altre funzionalità.
+1461435	1465478	ma devo mettere in maniera per tutti i codici e poi devo ricompilare tutto.
+1466439	1468861	A questo punto invece, l'idea qual'è stata?
+1468881	1476627	Io mantengo la classe fase A e aggiungo tutta una serie di funzionalità alla classe figlio.
+1478308	1486995	In più al figlio, con meccanismo dell'eredità, passo tutto quello che ha già il padre.
+1487396	1489897	Non lo descrivo, ma lo passo nella verità.
+1491682	1492083	Ci sei.
+1492683	1496406	In conseguenza il vantaggio qual è in pratica?
+1496426	1515984	Mantenere un genitore con le sue funzionalità, che mi garantiscono ovviamente la retrocompatibilità, ma nello stesso tempo creare una classe che ha le funzionalità del padre più quello che ho deciso di aggiungere
+1517974	1526340	Quindi, l'aggiannamento e la manutenzione del software con uno strumento di questo genere, perché di strumento si tratta, è sicuramente efficiente.
+1528542	1528962	Ti sei?
+1529883	1530683	Sono stato chiaro?
+1531724	1543933	Quindi, il discorso è, non è come si fa, ma vale il senso, giustamente le domande che mi hai fatice, ma perché la devi usare per forza?
+1544508	1547949	L'alternativa, facciamo finta che tu non ce l'abbiai con questo strumento.
+1549329	1571056	Quella classe fable dovresti riscrivere e quindi chiaramente dovresti fare la manutenzione che faresti manutenzione, a questo punto di vista potrei usare un termine molto riporrente, ecologico, riutilizzare il codice già presente, aggiungere quello che manca,
+1572556	1579019	Ho bisogno di meccanismi particolari, di eredità di tramite che consente di svolgere questo compito.
+1580499	1581720	Ti è soddisfatto la risposta?
+1584081	1584261	Sì.
+1584521	1593165	Lo so che sembra un po' di filosofica, ma neanche se ti faccio fare delle prove, il discorso è capire questa.
+1593305	1595726	Questa è la cosa effettivamente importante da capire.
+1597727	1600748	Perché il problema sai quando lo nasce?
+1601810	1613717	nel momento in cui tu devi fare a portare delle modifiche quindi avendo un codice strutturato in un certo modo di stile C chiaro?
+1614377	1630686	a questo punto ti rendi conto che se vuoi apportare delle modifiche ad un codice scritto in C o ad un modulo del codice scritto in C puoi fare però rischi di riscrivere il codice per intera
+1632038	1640801	E quindi l'obiettivo è ridurre, cioè tenere quante più cose già fatte e aggiungere le cose nuove.
+1641781	1645342	C'è proprio una filosofia, un modo di pensare.
+1645763	1650204	Ecco perché è molto importante poter avere traccia dello schema.
+1654906	1667833	Per esempio, io vorrei che cominciaste ad utilizzare, ve l'avevo chiesto l'anno scorso, perché lì ci vuole un altro modo di pensare.
+1671855	1675638	Vi avevo detto una risposta, e se tiene la libreria standard,
+1693943	1695584	Cosa c'è dentro, in pratica?
+1695624	1696765	Ci sono una serie di classi?
+1700307	1707092	Le classi che vorrei che cominciasse a guardare, e non scorto la roba che sto anche a voi, sono ovviamente la classe lector.
+1711276	1712637	A meno partire da questa.
+1713858	1714798	La classe string.
+1718294	1723836	Io vi suggerisco di partire, anche perché poi le voglio riprendere.
+1724977	1730519	Se mi anticipate sarà più agile poi l'aspirazione si sta appoggiando.
+1733340	1739622	Quindi vorrei, se io vi chiedo, fate subito delle prove con l'utilizzo di vettori.
+1739642	1743484	Mi dai un esempio, c'è degli esercizi dove utilizzare
+1747722	1777537	qualsiasi vector giusto per avere uno spunto invece di darlo io chiederlo direttamente a lui l'obiettivo è prendere confidenza sull'uso della classe vector perchè con la classe vector noi abbiamo a disposizione una serie di strumenti tipo la classe vector mi consente ovviamente di intanto di partire con un vettore senza dimensione fisso
+1779364	1794667	attenzione, cambiamo totalmente il modo di ragionare in quanto classe nasconde tutto la parte privata non so cosa funziona, so che funziona ci siete?
+1794727	1796988	tipo, posso stabilire, calcolare?
+1798808	1806370	per esempio, posso partire con un vettore senza dimensione, puoi fare delle aggiunte però mi servono delle operazioni specifiche
+1808373	1836116	e in questo caso userò quell'oggetto con i metodi che sono stati previsti da classe vector tipo pushback e placeback intanto il suono pushback e placeback dovete metabolizzarli perchè li ritroveremo anche in altre classi
+1837236	1842938	Prendere confidenza con quei termini significa ovviamente già riconoscerli ogni volta che li citerò.
+1846079	1862903	E quindi c'è un altro modo di inserire i dati all'interno di un vettore, quindi sfrutta tutte le funzionalità della classe vettore, ricapisco un senso della programmazione del progetto.
+1863003	1863904	Io non progetterò nulla.
+1866182	1879384	perché vi è importante che approfondiate questo discorso primo motivo devo studiare una classe che hai consegnato tu da dove parto?
+1880885	1883045	da dove si parte quando si studiano le classi?
+1883065	1894427	costruttori prima cosa che dovete fare i costruttori perché i costruttori sono quelli che andrete ad utilizzare quando dovete distanziare un oggetto
+1895729	1907619	e quindi ci sono diversi modi di dichiararli con valori iniziali, senza valori iniziali, con valori pazziali, ci siete?
+1909100	1917127	e quindi già questo e dovete ovviamente, poco co, dicendo barbonate, però tutto motivato
+1918970	1935324	E lì metterete in evidenza che dovete riflettere sulla presenza di più costruttori, sul motivo, quando vi dico che le classi non si scrivono, si progettano, la prima decisione che dovrò prendere è quanti costruttori ci devo mettere dentro.
+1936405	1943531	E per rispondere a questa domanda devo calarmi nei panni di chi lo dovrà usare, un altro programmatore che usa la tua classe,
+1946136	1953401	e immaginare tutti i vari modi che lui potrebbe avere a disposizione per poter lavorare con la tua classe.
+1954881	1967129	La classe Vector non è fatta per risolvere un problema ma ha tanti problemi, la programmazione di oggetti è rigondante, tanti strumenti, però di questi ne usa soltanto una parte, quelli che mi servono.
+1969830	1973853	Se io uso sempre la push non uso la pop, questo significa che c'è la pop
+1974600	1981144	occupa spazio, cosa sto cercando di dirvi?
+1981184	1994971	Quando progettare non mi preoccupate di mettere il minimo sindacale, pensate sempre che tutto quello che c'è è sempre una risorsa per qualcun altro che andrà ad utilizzare la vostra classe.
+1995311	2002295	Quindi pensate sempre ai possibili usi, non all'applicazione che vi ho chiesto di fare costruendo quella classe.
+2003095	2025848	il progetto della classe è un progetto di classe il progetto dell'applicazione che usa la classe è un'altra cosa motivo se tu usi la classe vector e decidi di dichiarare nel tuo main un oggetto a cui assegnare una dimensione beh, è perché c'è il costruttore se non ci fosse stato è chiaro?
+2026909	2029511	se puoi decidere di partire con un vettore vuoto
+2030928	2055545	benissimo, tu parti con un vettore vuoto, non ti puoi il problema, lui ti dà la possibilità che prendi la sintassi e usa la per costruire l'oggetto se vuoi costruire un oggetto con un'inizializzazione tutto zero non c'è bisogno di impostare il ciclo fuori è sufficiente dichiarare ovviamente un vettore con il valore di riferimento 0,0,0,-1,-1,-1
+2059173	2079413	lo scrivo una volta, lui lo fa in automatico, noi sappiamo, potremmo non saperlo, sappiamo che dentro c'è un metodo che fa questo lavoro, i famosi metodi di servizio, il metodo che fa praticamente è proprio questo, inizializzazione.
+2081327	2104821	sarebbe bello l'ideale per me dice ok, l'ho fatta fare buona discorso progettate voi una classe vector nel senso implementate le stesse funzionalità e lì scoprirete che ci sono tanti metodi privati
+2109277	2113598	A questo punto fanno il lavoro... automatizzano tanto le azioni, no?
+2115918	2119739	Tipo... Vedo come esercizio, come fate voi.
+2120379	2122360	Fate una grazia del vettore con tre produttori.
+2124200	2129321	Uno, vi dà la possibilità di creare un vettore vuoto.
+2130301	2135222	Due, vi dà la possibilità di creare il vettore con una certa dimensione.
+2136389	2143710	prego, vi darò la possibilità di creare un vettore con un'inizializzazione quali sono gli strumenti di guerra che bisogna?
+2145531	2159853	questa è una provocazione senza contattare non fare più cazzo per forza per forza e quindi la provocazione, vi ricordate come funzionavano i contattori?
+2159953	2164994	oi e questa è la dimostrazione di cosa si nasconde dietro la classica
+2166053	2167534	Quanti concetti sono nascosti?
+2167634	2183545	Eppure, quando dichiaro un vettore, il nome del vettore, classe vettore, il nome del vettore è virgola.
+2184506	2185707	Tanta roba è nascosta.
+2187408	2188689	Quindi, la sfida qual è?
+2189209	2194473	Io uso i due punti di vista, progetto la mia classe, in prospettiva di un uso,
+2195627	2200849	Uso una classe simile e lì non c'è prospettiva.
+2201869	2204430	Devo usarla per sviluppare la mia applicazione.
+2205690	2209092	Due punti di vista diversi, due modi di ragionare diversi.
+2209772	2210352	Chi siete?
+2212933	2213333	È chiaro?
+2213673	2215954	Non so che vi sembra una lezione filosofica.
+2216014	2218055	Il problema è, ho capito il senso delle cose?
+2218235	2221556	O se no, praticamente erano grossi 50, sta già succedendo.
+2223550	2252632	avete perso tutto quanto a loro nel quarto anno perché cambierò argomento non parlerò più di programmazione chi vuole imparare a programmare può farlo in quattro dopodiché vi servirà solo un pezzo della programmazione programmerlo un pochino e sposteremo l'attenzione su un altro modo di ragionare quindi se dovete fare il lavoro fatelo adesso e sfruttate il chat GPT
+2253882	2254963	Ci siete?
+2255123	2267493	Allora, quindi, poi c'è l'altro mondo che vorrei che esploraste, la classe string, che vi consentirà di venire a fare solo delle tante vincenze.
+2267773	2271936	Ormai tutti quanti obiettivi, cioè, ricordate, tutti gli obiettivi ce l'hanno una classe string.
+2272937	2279423	Tipo, io non posso essere lì, cioè, il C mi dice, ok, non può, cos'è una string da me C?
+2281718	2308625	è un array di caratteri e il cimi dice non puoi confrontare due array di caratteri direttamente come operatori o le stringhe si o la classe stringhe si il cimi dice tu non puoi assegnare una stringa ad un'altra stringa non puoi usare uguali simbolo di assegnazione con la classe stringhe si
+2313758	2320940	E' chiaro che, mi chiedo, la classe stringo lo può fare?
+2323301	2323762	E come lo fa?
+2326383	2328043	Quella è la popolazione avanzata.
+2328303	2337587	Cioè, la differenza tra violenzerare, tra chi prende cento, e chi non prende cento, alzerare.
+2340675	2344199	Chi sa programmare, chi non sa programmare.
+2344219	2349304	Questo mi strada, perché il venditore è diventato il migliore.
+2349344	2351166	Se qualcuno che conosca... Vedi?
+2351246	2352328	Le porte sono bucate.
+2366611	2368952	che l'hai lasciato là al dente?
+2369012	2370853	perché te lo sei dimenticato?
+2371533	2391461	perfetto assoluto c'è tutti mi aspettavano, però non me l'entresti però lo aspettava te non me lo aspettavamo, stavo dimenticando ieri, ci sono venuti ieri, l'ho distrutto eh no, però... magari vuole sentire come stai?
+2392021	2395423	eh forza sì, ti torno... capisco come sei uscito
+2401403	2430947	valui se valui vado altrimenti no e quindi dicevo la stringa, lavorare con il tipo stringa quindi classe stringa e classe rete quindi fate qualcosa e poi vi volevo ascoltare nel senso di dirmi cosa avete capito i punti di partenza restano sempre ok devo imparare a studiare le classi
+2432586	2439710	Il riferimento resta... Il riferimento resta... Quelli di Belogno?
+2440931	2455359	No, la documentazione penso, C++.com Il riferimento resta... No, C++.com E quindi no, questi lavori non vengono fatti con...
+2457370	2462393	artefatti, si va direttamente sul manuale e la documentazione ufficiale.
+2463334	2465255	L'obiettivo qual è in pratica?
+2466356	2479003	Non trascurate, non vi sto chiedendo di fare una cosa tanto facile, è impegnativa perché l'obiettivo è, non me ne frega un cazzo degli esempi che farete, perché saranno esempi banali.
+2479223	2486828	A me interessa come esponete cosa vi è rimasto di questa esperienza, è un'esperienza non esercitazione del cazzo,
+2487990	2489091	perché di questo si tratta.
+2489891	2492032	L'esperienza quale dovrebbe essere?
+2492052	2492032	1.
+2492412	2495834	Come ho studiato la classe, da dove ho pronunciato.
+2496674	2500776	Quindi il discorso di lavorare sull'interfaccia.
+2500816	2506339	Quando studio una classe io non studio la classe con tutto quello che c'è dentro, solamente l'interfaccia.
+2506359	2506339	1.
+2508660	2510861	L'interfaccia sono tutti i metodi esposti.
+2512654	2541532	due, la prima cosa che devo fare sono i costruttori perché mi dicono come usarli come creare gli oggetti e le tipologie e le differenze tra i vari costruttori e quello ovviamente è lo scopo dell'instituto del laboratorio che viene inserito all'interno delle costruttore detto questo poi entro nel merito dei metodi
+2542782	2571254	però di metodi fate quelli più importanti, quelli più importanti sono pusce pop e anche qui ci sono delle pusce pop un po' diverse e c'è un motivo puntini puntini puntini voi vi dovrete dire qual è la differenza e tentare di motivarlo secondo voi perché c'è questo pusce specialmente per quanto riguarda Vittorio
+2572779	2601634	c'è un'operazione che si può fare ma è costosissima con i vettori ed è l'inserimento di un valore in mezzo ad un vettore fate un'ipotesi sul motivo per cui viene definita operazione costosa costosa significa che non si possa fare i termini, il costo lo stabiliscono in tempo in più o in troppo tempo
+2602227	2626461	è un po' come il fronte il fronte è un'altra cosa, si, si, si anche il fronte, non parliamo di vestogli, si è un inserimento in mezzo perchè per fare il fronte devi spostare tutto perchè fronte non significa che aggiungo una cerchia se non c'è spazio
+2628874	2641238	e quindi io non voglio parlare di un'altra cosa front significa c'è un indirizzo di partenza che non può cambiare e che è associato alla variabile al contenitore quindi che faccio?
+2641258	2653301	mi posso fare aggiunte le aggiunte le posso fare solamente con i puntatori ma se mantengo quella struttura questo significa aver capito le cose capisci?
+2653561	2658283	cioè il front è devastante pure anzi diciamo l'inserimento in mezzo peggiore no?
+2659316	2683851	perché se lo metti in mezzo ancora sposti la parte ma se sposti il front devi spostare tutti e quindi è on a rose quindi le riflessioni sono queste l'ultima riflessione, l'obiettivo ok come studia una classe abbiamo detto, no?
+2684111	2685132	è i vari metodi
+2686019	2713901	dopodichè partiamo con l'implementazione per vedere praticamente come ci ho capito bene come si usa l'evoluzione per chi volesse però questa impegnativa mi interessa di meno perchè è più complessa se spostate l'attenzione sulla cosa più complessa non c'è ancora contento se prima non mi dimostrate di aver capito
+2714684	2716064	per parte iniziale, cioè lo studio delle singole classi.
+2716084	2720546	Le classi sono due.
+2720566	2722166	Dicevo, c'è un altro aspetto.
+2722866	2733129	Soffermarvi sulla documentazione il modo che C++ usa per documentare le classi.
+2734490	2742372	Perché quando costruirete le vostre classi dovrete utilizzare lo stesso stile di documentazione.
+2744508	2770875	e quello che dovrà essere documentato sarà fondamentalmente l'interfaccia e i presentatori e lui usa un altro strumento per aggiungere chiarezza e sono degli esempi di riferimento in questo modo uno dice sì ok ho visto ah sì vedo come si fa gli esempi che usa sono sempre semplici
+2774730	2785057	che mettono in risalto la cosa che stai studiando e tutto il resto, un dettaglio, serve ovviamente per creare qualcosa di significativo.
+2786498	2802209	Quindi C++ Ok Tutorial
+2805904	2807886	Ok, una nuova ripulgimento.
+2808006	2820357	Anche a me non interessa, vabbè, i piedi, queste linee.
+2820397	2823380	Ma lo so perché vado un po' che non ci passa.
+2823420	2825282	Quindi le mie ricerche qui saranno un po' più lunghe.
+2825302	2827263	Eccoli qua, vedete?
+2829542	2833886	Riscoprite anche questo stile di documentazione, vedete?
+2833906	2843213	La prima cosa che mi fa è descrivere cosa è la classe, cosa fa, nel senso delle classe, lo scopo delle classe.
+2843273	2849777	Quindi la cosa importante, in realtà che devo usare queste classe, bene, te lo dico io, no?
+2850738	2858304	E quindi è molto importante a questo punto fornire una buona descrizione di quello che è lo scopo
+2859130	2867193	della classe, in maniera tale da decidere se usarlo o meno, se è compatibile con i nostri fondi.
+2868334	2882820	Poi i tipi di membri, la parola membro che vi ho detto, come fatto una classe da membri, poi abbiamo detto c'è la classificazione, i membri si sono classificati in meta di proprietà classi, oggetti,
+2884651	2913279	e quindi lui dice che ci sono i membri della nostra classe che andiamo a prendere in considerazione attenzione la cosa imperiativa che dà professionalità e lì dobbiamo perdere del tempo sono gli iteratori in tutti i linguaggi esistono gli iteratori abbinati alle classi ci sono due concetti pesanti nella classe non String, ma classe Vector
+2915507	2919090	La classe Vector non è una classe volume, è una classe template.
+2920391	2922933	La classe template significa classe modello.
+2922953	2929498	La classe modello significa che se io uso soltanto la classe Vector e poi ci metto il nome dell'oggetto mi dà l'errore.
+2930959	2932220	E' un motivo molto semplice.
+2933961	2940706	Essendo template, essendo modello, questa è la programmazione generica.
+2941307	2942968	Perché esiste la classe Vector?
+2944542	2948923	Noi sappiamo che i Vector sono delle raccolte di elementi dello stesso tipo, no?
+2949823	2954444	E' chiaro che la cosa più importante che devo fare, sì, ok, tu vuoi che crei un oggetto, no?
+2954724	2956244	Ma dentro che ci devo mettere?
+2957304	2959525	E quindi devo specializzare quel Vector, no?
+2961485	2969947	Di conseguenza devo dire un Vector di interi, un Vector di plot, un Vector di classi, un Vector di oggetti, un Vector di qualcosa.
+2972291	2977556	e quindi anche lì la domanda è ma come si progettano?
+2978857	2982920	come si progettano le classi template?
+2983020	2985142	voi userete una classe template?
+2985602	2987104	e la regola qual è in pratica?
+2987884	2991387	fare intesi angolare e dentro il tipo?
+2991447	2991908	e il nome?
+2992308	2992728	basta?
+2994930	2997893	ok, vi chiederò di progettare la classe template
+2999529	3022936	e qui entriamo nel merito di come si progetta una classe template ma anche un'idea cioè da dove parte l'idea del template a cosa serve ragazzi vi vedo sfumiti oggi, non ho capito... no, ma io mi agito di te quello che mi collassa, lui invece... no, vai tranquillo, si, si cioè volete che mi fermi?
+3022976	3023436	no, no, no
+3024940	3034613	Non vorrei che fossi io a... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+3044096	3048840	Ci sono tante tecniche, tante cose che devono essere inserite.
+3049160	3051201	Adesso la userete, la classe template.
+3052142	3056846	Quindi vorrei che facesse l'esperienza di chiusa qualcosa senza sapere come funziona.
+3057566	3058607	Poi entriamo nel merito.
+3060568	3063751	Allo scorso per la Q io l'avevo fatto template.
+3065672	3073418	Sì, ma perché poi ci sono le altre classiche template, la Vista, la Q, la Q. Allora la Q che ci avevi fatto fare scrivere a noi.
+3073980	3077461	però faccio una trattazione abbastanza rapida.
+3077481	3083924	Adesso cercherò di fare una trattazione leggermente più precisa.
+3088065	3093207	Per gli iteratori mi serve l'ingrediente, l'ingrediente che mi serve a puntatori è chiaro.
+3097720	3100421	Il costruttore, l'instruttore è qui.
+3100461	3105903	Poi c'è un'altra cosa che dovrei fare con voi, vorremmo fare anche con voi quest'anno.
+3106803	3110144	Ho ascoltato Ceri, abbiamo fatto la ridefinizione degli operatori?
+3110384	3110524	Sì.
+3111885	3115126	E quelli che si uniranno?
+3115206	3115586	Sì.
+3116286	3118667	Esatto.
+3118867	3119447	Esatto.
+3119587	3125429	Quindi la sola posizione, cioè quindi una creazione utilizzando degli operatori tipo
+3128211	3156588	qui è stato ridefinito l'operatore uguale quindi stiamo parlando di stringhe e grazie a quella magia che io posso fare stringhe 1 uguale a stringhe 2 perché al simbolo uguale è stato attribuito un altro significato ma non a parole, c'è l'impenettazione quindi di solito io prendo come ferimento la plasso e la frazione
+3157919	3187551	ma anche una classe intera e poi a questo punto lavorare con una classe una classe di questo genere in pratica, cioè la classe frazione io sono abito, le frazioni sono numeri strutturati in un certo modo però poi tecnicamente c'è un numeratore dell'ordinatore una delle cose che non posso fare frazione 1 minore di frazione 2 quel minore in natura non esiste
+3189534	3193417	e quindi lo dobbiamo ridefinire, ma anche lo uguale dobbiamo ridefinire.
+3195298	3196138	Ci siete?
+3196178	3197980	Sì, sì, ma ricordo la classe nazionale.
+3198080	3201042	Quindi questi sono gli iteratori, lascia destare.
+3201662	3206245	Bene, questi sono i metodi che ci consentono di fare delle cose.
+3208607	3214791	Per capirci, questi metodi in C, no, sono la libreria string.ac.
+3215831	3218233	Qui la libreria che dovete utilizzare, la C string,
+3219520	3225362	faccio vector per le stringe stringe vector?
+3225742	3246371	C sì, questo è giusto quando c'è C time string senza punto o string col punto string.h e del C string è quella del C++ è lui che fa
+3248178	3252660	ma questo poi ovviamente lo vedrete voi, vedete?
+3253501	3276872	c'è un altro literatore interessante che è Henry Tormé però questo è abbinato solitamente è abbinato al no, a literatori, sì sì e no, quest'et prestate attenzione al metodo et string.et
+3278924	3289329	et mi dà la possibilità in pratica di accedere in base alla posizione che gli metto tra parentesi.
+3292030	3293451	Lo posso fare con le parentesi quadre?
+3295572	3301855	La domanda più riguardante è perché devo usare il metodo et quando c'è le parentesi quadre?
+3302215	3304636	Perché il metodo et fa un controllo sulla dimensione.
+3306617	3307298	Quindi se io
+3310948	3316630	Chiedo di accedere a un certo elemento, lo apprezzerete con i vettori, no?
+3318451	3335636	Voglio raggiungere un elemento di cui credo di ricordare la posizione e mi accorgo, io non mi accorgo, e questo elemento non è il mio vettore perché la dimensione è cambiata, è diventata più piccola, perché è diventata più piccola?
+3335696	3340258	Perché i vettori, i vettori del C++ sono dinamici
+3342109	3360385	e quindi posso perdere il conto, dice ok vai su quel elemento, quel elemento non c'è più perchè ha cambiato la dimensione ci vado con la valentesi qua a andare a migliorare con l'etni dice no succede qualcosa ci siete?
+3362147	3365069	quindi altri operatori più uguali, e qui
+3370600	3372441	Ci sono i metodi di interfaccia.
+3383270	3384190	Questo è interessante.
+3387633	3388373	Non so, è freme?
+3391035	3392877	Che esistono tanto in ciclone.
+3395158	3398401	Questa è una cosa che dovremmo pure, no?
+3399540	3428133	di solito non l'ho fatto le funzioni friend la definizione di funzione friend che è una funzione che non appartiene alle classi il paradosso apparente è perché la inserisco all'interno della classe ve lo farò vedere se io voglio inserire una funzione friend amica
+3430859	3436961	A questo punto, ok, il primo problema, dove la metto?
+3438301	3439481	La metto davanti a un patto, no?
+3441222	3444342	Risposta, la metto nel frontenitore classico.
+3446083	3447203	Allora, lì vado in crisi.
+3448523	3450444	È una persona neurobiologica, no?
+3451984	3453885	Vado in crisi perché vado in crisi?
+3454525	3454905	Perché
+3458858	3488179	ti dirò dove mettere la friend all'interno della classe ma nello stesso tempo ti dirò non fa parte della classe e questo è un apparente paradossimo se sta dentro allora è della classe ma il concetto di appartenenza è un po' diverso la dichiarazione è un po' diverso in pratica nel senso non vi perdete in questo intanto lui lo dice queste sono tutte
+3489895	3497596	non membro non sono membro della classe però ti dici anche un'altra cosa dove sono?
+3498357	3511799	nella classe posizionamento fisico le metto lì le metto lì perché le devo mettere da qualche parte le vedo dentro e dici allora è dentro no?
+3513279	3516420	logicamente non faccio la classe diciamo che sono
+3519201	3524043	negli infiltrati, senza i quali tanti problemi non li possono risolvere.
+3524063	3530886	Allora si sono inventati queste friend, che sono un ibrido, una cosa sporca.
+3530966	3540250	Questa è l'aspetto perché la presenza di queste funzioni inducono a dire ovviamente che c'è più non è totalmente ad oggetti, perché fa questo lavoro sporco.
+3540351	3542071	Le friend in Java non ci sono.
+3543992	3545653	Negli altri linguaggi ad oggetti non ci sono.
+3547527	3573346	lo hanno dovuto inventare in C++ perchè è nato in un modo che si stava crescendo ci sono stati dei problemi e si sono inventati queste nuove tipi di funzioni che fanno un lavoro sporco il problema è sempre l'operatore, l'ha incontrato il problema se tu vuoi provare a fare l'overload di un operatore e vuoi mettere due parametri se non è una friend non lo puoi fare
+3578627	3583312	E quindi, niente, questo per dirvi, è interessante questa getty line.
+3584933	3592140	La getty line è un strumento che risolve tanti problemi che... Fai!
+3593521	3594061	...problemi.
+3594222	3601208	Però, diciamo, vedete, di questa classe la maggior parte di noi userà il 10%.
+3604352	3612056	Tutte queste funzionalità, i termini di metodi, di proprietà, questa è soltanto l'interfaccia.
+3613376	3615678	Immaginate quante brosa fa essere Stirlinga.
+3617158	3626343	Eppure praticamente, per parte di noi, usa soltanto le operazioni fondamentali, l'interimento, il confronto, la sedimensione, tutto il resto non lo usa.
+3628101	3644155	Questo significa che nel momento in cui io uso le altre funzionalità, evidentemente voglio rendere più professionale e lì la differenza è fra neofita e chi usa il C++ tutti i giorni, lui le usa la maggior parte.
+3645936	3651821	L'assoluta non esiste, le usa molte più rispetto a quelle che potremmo utilizzare noi, no?
+3653503	3654664	Quindi il senso è questo.
+3655754	3683840	attenzione, quando progetterete i vostri oggetti non pensate al problema che dovete risolvere sul momento pensate in grande, tutte le volte che verrà usata quella classe ci sarà una funzione, c'è un metodo che svolgerà un compito se l'ho previsto bene o se no chi scrive in mente lo deve creare lui
+3685302	3704338	quindi sono delle funzionalità che aggiungo aggiungo un'altra cosa supponiamo che voglio fare delle stringhe specializzate delle stringhe con delle funzionalità più specifiche ti rispondo alla domanda di prima questa è la classe stringa
+3705906	3723360	ma supponiamo che io voglia fare un gestore di string soltanto di carattere di maiuscola un gestore di string o una classe stringa soltanto per gestire le tene minuscole ma io ho già una cosa che significa?
+3723440	3730085	che avere una classe stringa per le maiuscole significa una specializzazione no?
+3731627	3733128	la stessa cosa vale per le minuscole?
+3734798	3740682	Luiz, io voglio dei classi specializzati.
+3740842	3741263	Che faccio?
+3741323	3744745	Le vostre risconte a quante vere interi?
+3744885	3756373	Allora a questo punto vado sul padre, gli dico ok, prendo in eredità quello che fa lui e aggiungo quello che manca.
+3757734	3764399	In effetti l'ereditalità raccoglie il concetto di generalizzazione specializzazione.
+3767426	3789252	la classe automobile, cioè la classe veicolo con la E o la classe figura, il concetto generico e quello specializzo prendo la parte comune a tutti gli oggetti e aggiungo tutte le varie forme di specializzazione.
+3793132	3793352	Sì?
+3794432	3795472	Ah, secondo me non è così.
+3795872	3811155	Ma lì, questo è un'altra cosa, ti ripeto, ho un concetto, siamo partiti da un concetto genetico, lo voglio specializzare, proprio sulla domanda che mi hai fatto prima, lo voglio specializzare, che faccio?
+3811195	3812455	Mi crea un'altra classe?
+3812635	3812835	No.
+3814816	3819636	Tieni buona la parte in comune e aggiungi quello che manca.
+3820497	3821917	Capisci?
+3822057	3822357	Quindi,
+3823564	3837267	Heredità significa, segnalatela questa cosa, perché è uno degli elementi più caratterizzanti, il concetto generico padre, la metapola diversa, il concetto figlio specializzazione.
+3838447	3845129	Quindi significa che il padre ha delle funzionalità, il figlio ha quello che eredita più altre cose.
+3847305	3852307	C'è un altro principio che vi devo spiegare, ve l'ho spiegato velocemente, ve lo spiegare.
+3852327	3854268	Il principio di sola posizione.
+3858830	3859510	E' esempio.
+3861311	3871515	Il padre, supponiamo che il padre abbia un metodo, il metodo stampa.
+3873507	3873767	Chiaro?
+3874728	3879611	Supponiamo che l'implementazione prevede l'uso di una stampante a dagli.
+3881513	3881913	Ci sei?
+3883254	3895842	Supponiamo che il figlio stampi, non debba più stampare su una stampante a dagli, ma su una stampante laser.
+3898107	3903432	io gli do stampa in eredità, perché tutti li devono stampare.
+3904453	3918266	Però a questo punto, come c'è quella stampa del padre, stampa da una stampante ad anni, è chiaro che, se per eredità un figlio non va bene, mi serve qualcosa di più specializzato.
+3918306	3923070	Allora gli scrivo un altro momento di stampa, con le stesse caratteristiche,
+3924820	3939669	e mi ritroverò in una situazione di avere due funzioni con lo stesso nome, lo stesso prototipo, con la stessa firma, una che viene ereditata, l'altra che è del figlio, sulla posizione.
+3942451	3951997	La regola è, la funzione che viene utilizzata è quella del figlio, quindi anche se viene andata una in eredità,
+3954060	3961245	quella che vi arriverà dal padre, verrà sostituita con quella del figlio.
+3962787	3975476	Perché se nella generalizzazione c'è qualcosa di obsoleto ed è pubblico, quindi passa come reddità, io gli sto passando una cosa vecchia.
+3977046	3977166	No?
+3978127	3982288	Quindi, se gli passa una cosa vecchia, il figlio userà la stessa cosa vecchia del padre.
+3983489	3988871	Come risolvo questo problema, gli scrivo un altro metodo identico con un'implementazione diversa.
+3989031	3991432	Arriva l'eredità, stampa.
+3992613	4005098	C'è un'altra stampa del figlio, domina l'ultimo, cioè quella del figlio.
+4006327	4009068	e quindi in questo caso c'è proposta istituzione.
+4009809	4011229	Perché non la tolgo al padre?
+4011269	4014711	Perché evidentemente c'è un'afficcazione che sta usando un'altra stampata d'ani.
+4017412	4034699	Cioè, sono sfumature, iddo la definizione, la conoscete, lo sto dicendo a noi grossi, e dimenticherei queste cose, perché ho imparato a ragionare, e la metabolizzate, e com'è andata a fare l'esame della scuola guida.
+4036148	4038791	Inutile andare a fare l'esame e poi guidare dopo due anni.
+4040432	4046498	Eppure ho fatto tutto, non mi sono allenato, non ho guidato, dimentico, devo riconunciare.
+4046879	4050602	Quindi abituatevi a ragionare ad oggetti.

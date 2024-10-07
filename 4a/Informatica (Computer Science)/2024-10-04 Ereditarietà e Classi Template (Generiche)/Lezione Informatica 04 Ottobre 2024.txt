@@ -1,0 +1,517 @@
+E considera probabilmente una chiamata di sistema o interfaccia per dialogare con il sistema operativo.
+Ecco perché cosa significa.
+Noi la vogliamo ad altro rivelo, di conseguenza tutto quello che c'è sotto è nascosto.
+Se io apro il codice puoi vedere cosa.
+È chiaro, adesso siamo nella logica.
+Mi interessa sapere cosa fa.
+cos'ha a disegno dell'ingresso e cosa restituisce, basta.
+Come lo fa?
+Non ne frega niente.
+Il motivo per cui vi ho detto, quando progettate, progettate in funzione di chi dovrà usare, o la classe o la funzione.
+Perché chi userà quelle cose lì, a lui non gliene fregherà niente di come funziona, l'importante è che funziona.
+e quindi dovete vestire due panni di chi usa quello che progettate e di chi sviluppa quello che c'è dentro.
+Due visioni completamente diverse.
+Quindi il discorso del capire il senso del sistema relativo è come un discorso di risorse.
+Le risorse sono hardware, io ho messo tutto quanto hardware per dire ok, tutto passa
+E lui, quando io gli dico per me prendere un'applicazione che sta di sopra, è lui che sa dove stanno i dischi.
+No, non fa funzione.
+Funzione è che bisogna mettere una richiesta.
+Che viene trasformata, chiaro?
+Cioè, l'assembla è da tanto che non si fa l'assembla seriamente.
+L'hanno scolto e detto, ovviamente, ho parlato anche in terza, perché lo dico sempre, prima di cominciare a programmare devo sapere che praticamente che tutto quello che scrivono con un colleguaggio verrà tradotto.
+Ve lo disse anche in seconda.
+Ci sono i traduttori, e ci sono i tipi di traduttori, no?
+Integrati, combinatori.
+E poi c'è gli assemblatori.
+Qual è la differenza?
+Tutti traducono, perché si chiamano in maniera diversa, traducono in maniera diversa.
+Ci siete?
+C'è una cosa.
+Tu sei in un'istruzione in C o ci vuole un traduttore?
+Perché lui il C non lo capisce.
+Evidentemente traduzione significa che ci vogliono due linguaggi che riferimentano un sorviente, un punto di partenza, e poi una traduzione.
+La traduzione in cosa?
+In un altro linguaggio.
+Quale linguaggio?
+Ci sono due risposte o linguaggio macchino o assembler.
+Attenzione, nella risposta o linguaggio macchino o assembler c'è anche un'altra spiegazione.
+C'è un'altra risposta.
+Tra i traduttori c'è l'assemblatore che traduce in maniera diversa.
+E in cosa consiste questa traduzione diversa?
+quando faccio la traduzione di fatto io faccio una traduzione in assembler e l'assembler significa appunto quello che avete fatto, move il problema è che quel move accanto c'è il corrispondente codice a chino quindi ogni volta che c'è un'istruzione assembler automaticamente c'è un assemblatore
+che va lì a ricavare il codice operativo, codice operativo e codice macchina e quindi c'è una traduzione, un'istruzione, un codice operativo 1 a 1 quando io vado a tradurre un if, beh, la traduzione è 1 a n tanto è vero che noi, tanto è vero che si vede meglio con il while il while in assegno non esiste
+esiste il go-to o il jump non il go-to, il jump se voglio costruire un ciclo while devo usare il jump poi ti espongo un'interfaccia ti dico ok scrivo in questo modo while come la diciamo la traduzione è n e funzioni assembler per ciascuna c'è un codice macchina associato qual è la traduzione?
+Ci siete?
+Se lavorate in Assembler, se lavorate in Assembler, il DOS con sistema operativo DOS, il DOS espone e c'è ancora credo.
+L'hanno rivolto per certi versi.
+Questo per garantire la retrocompatibilità dei sistemi operativi.
+C'è una cosa che viene nelle vostre routine, avrete sicuramente utilizzato,
+l'interventone quella, adesso prima era questo per venire a quello che hai detto te diciamo le PI del DOS no questa era l'interfaccia che metteva a disposizione il DOS per accedere ai suoi servizi
+e quindi ogni volta che usiamo int, attenzione int 21, la chiamata poi c'era ovviamente dovevo dire quale chiamata dovevo specializzarla quale servizio volevo di partiziana devo dire che il problema è chi gestiva questa chiamata questa è una chiamata un accollo, una chiamata di funzione, il problema è chi la gestiva si chiama con le tue
+Questo significa, sistema operativo, pensateci.
+Se apriti i vostri codici per lavorare nell'ambiente dosse, tipo l'INT, ci sono andate altissime.
+Ci sono due tipologie specifiche.
+Uno, l'INT 21, l'INT 21, l'interfaccia che metteva a disposizione il dossier, e poi c'era un altro, l'INT,
+e c'era un hint che metteva a disposizione invece quello che ti consentiva di lavorare direttamente con Garbler che metteva a disposizione il BIOS e quindi esiste anche questa possibilità di raggiungere la rada direttamente passando attraverso dei servizi del BIOS
+perché volevo realizzare un'applicazione svincolata dal sistema operativo.
+A me non interessava utilizzare il DOS, volevo sviluppare un'applicazione specifica.
+Allora a questo punto ci sono altri interface che potevi utilizzare
+per poter interagire direttamente con un hardware.
+Se passavo dall'inti 21 ci pensavo, se volevo andare su una scheda di rete, no, no, sulla porta seriale, allora avevo due possibilità, ho passato dall'inti 21, ho accettato le sue regole e poi mi facevo io una routine e programmavo le porte come dicevo io.
+con l'assembler faccio tutto.
+Tu stai a capire quanto è importante capire queste cose, ma sono di un'altra, sono un boomer.
+Il problema è che con più ripetita funziona in questo modo.
+No, non è boomer.
+Non è ricordi della mia infanzia.
+No, no.
+Non è così.
+Le cose sono state così.
+Quindi c'è un problema.
+Io boomer, certo.
+Uno di ultima generazione imparerà la definizione fino a quando non ci mette mano, dopo di che la rimuove.
+E tenderà a lavorare sempre a un livello molto più alto.
+Quindi le informazioni sono abbastanza sfumate.
+E' un po' difficile poi capire esattamente cosa succede sotto Tarci.
+Perché lì diventi specialista, adesso la prima è specializzata.
+chiaro, giusto per concludere quella cosa infatti io questo è stato usato usando Visual Studio, c'è la possibilità di vedere con il C puoi fare direttamente con il C prima si faceva, ecco che vi dicevo, prima si faceva nel video all'interno del C tu potevi fare delle chiamate dirette alle routine assembly quindi tutti scrivendo le routine assembly avanciate con
+con un codice C. Perchè la scrivevi in assembler?
+Perchè ti serviva l'efficienza dell'istruzione assembler, anche se molto vicino all'arvel non è come assembler.
+Allora si scrivevano una volta delle routine specifiche, il problema dovevi inserire e poi chiamare dall'interno.
+E lavoravi e interagivi, facendo interagire l'applicazione direttamente con la routine assembler.
+e lui andava a fare tutti i lavori sull'arbre, come ad esempio con il cibo e anche il lino, lavorare sui singoli bit per fare il mascheramento, per fare tutto, perché c'è il tipo e ci sono gli operatori anche e ci sono gli operatori che lavorano con i singoli bit allora, perché vi dico questo?
+perché effettivamente
+Il ragazzo di terza mi ha fatto la domanda e gli diceva, vabbè, perché ci sono tre materie?
+Perché ci sono tre, trovano coni completamente diversi, c'è un problema.
+Io andrò in pensione, se io vuole, il problema resterà.
+Le tre materie non si parlano?
+No.
+Perché, se tu mi chiedessi dove sei arrivato con la programmazione,
+E la domanda me la fai perché dici ok, tu fai la parte iniziale, dimmi dove, arriva fino a questo punto, appena arriva a questo punto chiamami e lo usi.
+A questo punto poi vengo da te e ti dico ok, quando arriverai qui, programmiamo, ci devi arrivare in due settimane, tre settimane, un mese.
+Ok, fammelo servere.
+poi entro io in questo modo io non c'è bisogno di che ti facciano la sintesi delle cose siccome una sintesi non te lo spieghi, ti dico questo è, queste cose le devi sapere poi tu mi chiedi come funziona, se no te le posso spiegare perché o ti spiego la cosa o ti spiego l'altro è un ingrediente, è un pre-requisito discorso è che le maderisi devono capire, discorso di la valentina
+sono intrecciasissime assolutamente si ma tu ti stai ricordando il mio modo di pensare quindi per te adesso intrecciare perché lo faccio no è ovvio se tu vai in cuenta prendi quelli che vengono dal giorno sono dei monoleti sistemi sistemi informatica informatica ti piacere ti piacere perché ti fa quella materia non ci occupa delle altre due non si preoccupa proprio delle altre due
+Anzi, non sa neanche cosa fa l'altro.
+Allora, io ti faccio l'apertura con il C, ti arrivo su una lefunzione e ti avviso che da quel momento in poi tu hai un linguaggio già pronto da utilizzare nella tua materia.
+E non esiste il linguaggio effatto da Alemanno.
+No!
+C'è un percorso che passa da tre materie
+e quindi chiaramente dice anche ti avviso prima magari e non lo facciamo perché mentiremmo e l'avviso qual è?
+Guarda che il percorso di quest'anno è la prima parte, lui arriva fino a questo punto, da quel momento in poi io prendo in gestione uso quello che ha fatto lui per fare la mia parte
+in questo modo evito di fare.
+Perché lui o loro non fanno, non usano mai il C?
+Perché dici, vabbè, lo devi fare alle mani, coglione, ma se devi fare la programmazione multitasking e multitree, come cazzo faccio a farla io?
+Il problema è, tu hai bisogno di me.
+Ti dico fin dove arrivo, ti faccio tutto quello che ti serve, poi parti.
+Non esiste.
+Sisteme reti?
+Sisteme reti.
+Adesso sto spiegando l'architettura, come lo spiegate voi.
+Perfetto.
+A me serve che voi abbiate delle conoscenze di base.
+A me informatica cosa serve?
+Sto spiegando il sistema operativo.
+Perchè la system la devi usare TPSI.
+però gli serve?
+Si.
+Sennò tu mi chiamate di sistema?
+Non mi hai fare vedere mai?
+Non hai gli strumenti?
+Chiaro?
+Io faccio il sistema operativo, non me ne fate un cazzo della nuova informazione, questo?
+Ok.
+L'interfaccia c'è.
+C'erano due interfacce.
+Qui c'è l'Omino e siamo noi con i programmi
+o meglio questo è quello che usa il programma, i click poi qui c'è un altro che sviluppa applicazioni e usa altri aspetti del sistema operativo basta fare questo, un sacco dà senso a quello che sta facendo faccio cosa vedo gente, assolutamente no quindi allora qui devo programmare
+che abbiamo lo codice, qui devo programmare, non ho gli strumenti, cazzo, faccio questa.
+Cos'è questa?
+La scema.
+La scema.
+Cioè, ti sembra normale che uno che si spaccia per presunto diplomatica informatica, non conosci i comandi della scema, che non sono soltanto dir, cd, c'è dell'altro.
+questo è il laboratorio?
+Che arriva a Budan?
+Ti taglio bene?
+Anche perché, no, ma nello... Ci siamo togliati le vene.
+Ma non lo voglio criticare, nel senso che se non hai mai adottato questo modo di ragionare... Cioè, della serie, io ti dico, fai la shell, tu prendi un libro e facci la shell.
+Ma quando prendi un libro dove c'è scritto con la shell, come si usa la shell?
+Cioè, ne recco dei comandi.
+Il scorso è che non sai dare la priorità.
+Ok, ci sono 200 comandi.
+Che cazzo faccio?
+Prego la testa della spela e cominciamo.
+Vado in un'altra tabella.
+E lì, ovviamente, lì è esperienza, no?
+Ok, parli di questo.
+Perché?
+Devo imparare a gestire il disco?
+Devo imparare a gestire i processi?
+Devo imparare a gestire la memoria?
+Ok, questi sono i comandi specifici.
+Questi che sono i comandi specifici, parli di questi.
+Queste sono le cose fondamentali.
+La cosa che mi disturba della mia triste esistenza è cosa fa l'insegnante.
+Mi hanno ragione.
+Tutti siete convinti di poter fare l'insegnante.
+L'universo è un mondo convinto di poter fare l'insegnante.
+Prendo il libro, ti spiego il libro, ti faccio un assumo.
+Bene, tutti lo possono fare.
+C'è bisogno di laureazzi.
+A differenza di un altro.
+Quello che ti sto dicendo.
+ma non c'è sicurità.
+L'esperienza è capire, ovviamente, come si deve distinguere tra le cose più importanti e meno importanti, e dire dare più peso, questa è l'esperienza.
+Se no, prendo il libro e vado in sequenza.
+ma anche per contestualizzare, perché il libro non contestualizza niente.
+Quindi è un altro livello, nel senso, perché faccio tutto questo?
+Per 8 anni, i primi 8 anni sono stati sistemi, era la materia più cattiva.
+In sistemi si faceva tutto.
+Adesso stanno separati, no?
+Assemble da una parte, si stiano per affidire da un'altra parte, e una volta assente,
+sistemi operativi e poi c'erano i sistemi elettronici.
+C'era una parte massiccia di ingegneria elettronica.
+Io avevo fatto delle cose ma non tutto.
+Cioè è chiaro il mio scopo era altro.
+Facciamo un altro tipo di sistemi.
+Basta andare a vedere i programmi telecomunicazioni che vedi che sono diversi.
+Sistemi, retroazione, stabilità, anche le elettroniche, flip-flop,
+multiplexer, dimultiplexer, configurazione... prima dovevo farlo con le elettroniche che spiegavano i condensatori che spiegavano l'elettronica, non la digitale perché erano di scuola analogica non erano ancora arrivati alla digitale
+Ci è mancato poco che spiegassero ancora le barbure.
+Mi lavorano, va bene.
+Adesso ho detto, ok, se può fare.
+Ma c'erano parte di insegnanti di informatica dell'epoca, erano tutti laureati di matematica.
+Non c'erano informatici.
+Non avete idea in che ambiente sono cresciuto.
+L'ignoranza è più assoluta.
+Avevano fatto l'esame di merda di programmazione, spiegavano qualunque cosa.
+Se dicevi, guarda che forse c'è qualcosa che non funziona, è infattuto.
+Poi, vabbè, torniamo a noi.
+Noi ci siamo lasciati, praticamente, con eredità.
+Eredità, no?
+E quindi abbiamo detto sinteticamente le regole dell'eredità e l'età, cioè come si studia l'eredità.
+Intanto devo dare forma all'eredità, abbiamo detto, ed edità significa... vabbè, siamo tutti noi, no?
+Quindi sarà più veloce, di nuovo non c'è nessuno.
+L'eredità significa che tutta la parte pubblica passa.
+Pubblica e protesta.
+Attenzione, cosa non passa?
+Privata.
+La protetta ha un livello di protezione simile alla privata, però mi dà la possibilità che tutto ciò che è privato, che è protetto, passa in realtà.
+Quindi ciò che passa è un'interfaccia più una parte protetta.
+Perché?
+I genitori vogliono vedere delle cose protette che non vogliono far vedere all'esterno, ma che si appone al figlio, giusto per usare sempre la metaforia.
+Così è il concetto, la cosa più importante in praliga.
+O ci sono gli aspetti implementativi.
+Vi ricordate, l'aspetto implementativo è legato al linguaggio.
+No?
+Dimi.
+No, per il livello di tenta è una buona pratica.
+Allora.
+E' più possibile l'amico.
+Intanto, allora.
+Allora.
+Prendiamo addirittura un'altra cosa.
+Perché esiste.
+Non è tanto come funzionano, ereditarità significa fondamentalmente, cioè prima capire cosa è la verità, capire cosa significa passare in eredità, capire cosa deve passare in eredità.
+Il problema è un altro, abbiamo scorsato anche l'attenzione, abbiamo fatto una riflessione, ma perché esiste il concetto di ereditarità?
+E' uno dei concetti cardini della programmazione ad oggetti.
+io mi posso spacciare per uno che conosce la programmazione degli oggetti perché conosco uno dei pilastri, l'ereditarità.
+L'ereditarità praticamente l'hanno inventata prima l'unice non c'era, qua l'estese c'è più e hanno cercato di aggiungere quelle parti agli oggetti.
+Il punto è, perché l'hanno inventata poi il problema risolve, ci sei?
+qui avevo detto, fate un approfondimento, perché questa è la chechierata che dovevate fare con Ciat e GPT perché, chiaramente, io ti dico le radicalità fondamentali per risolvere problemi tipo aggiornamento software
+che significa in pratica, nello stesso tempo mantenendo la retrocontadibilità con il software.
+Supponiamo che una classe generi oggetti che sono stati utilizzati in un'applicazione di qualche anno fa, supponiamo che io voglia aggiungere delle funzionalità.
+ma nello stesso tempo voglio mantenere le funzionalità precedenti perché le modifiche possono interessare soltanto la parte del software a questo punto cosa devo rifare?
+riscrivo la classe, però mi sono indicato gli oggetti di quella classe ho una classe A che mi dà delle funzionalità
+le altre applicazioni usano.
+Voglio migliorare il software, aggiungere delle funzionalità.
+Funzionalità significa prendere la classe A, prendere la classe A e integrare delle altre funzionalità.
+ma devo mettere in maniera per tutti i codici e poi devo ricompilare tutto.
+A questo punto invece, l'idea qual'è stata?
+Io mantengo la classe fase A e aggiungo tutta una serie di funzionalità alla classe figlio.
+In più al figlio, con meccanismo dell'eredità, passo tutto quello che ha già il padre.
+Non lo descrivo, ma lo passo nella verità.
+Ci sei.
+In conseguenza il vantaggio qual è in pratica?
+Mantenere un genitore con le sue funzionalità, che mi garantiscono ovviamente la retrocompatibilità, ma nello stesso tempo creare una classe che ha le funzionalità del padre più quello che ho deciso di aggiungere
+Quindi, l'aggiannamento e la manutenzione del software con uno strumento di questo genere, perché di strumento si tratta, è sicuramente efficiente.
+Ti sei?
+Sono stato chiaro?
+Quindi, il discorso è, non è come si fa, ma vale il senso, giustamente le domande che mi hai fatice, ma perché la devi usare per forza?
+L'alternativa, facciamo finta che tu non ce l'abbiai con questo strumento.
+Quella classe fable dovresti riscrivere e quindi chiaramente dovresti fare la manutenzione che faresti manutenzione, a questo punto di vista potrei usare un termine molto riporrente, ecologico, riutilizzare il codice già presente, aggiungere quello che manca,
+Ho bisogno di meccanismi particolari, di eredità di tramite che consente di svolgere questo compito.
+Ti è soddisfatto la risposta?
+Sì.
+Lo so che sembra un po' di filosofica, ma neanche se ti faccio fare delle prove, il discorso è capire questa.
+Questa è la cosa effettivamente importante da capire.
+Perché il problema sai quando lo nasce?
+nel momento in cui tu devi fare a portare delle modifiche quindi avendo un codice strutturato in un certo modo di stile C chiaro?
+a questo punto ti rendi conto che se vuoi apportare delle modifiche ad un codice scritto in C o ad un modulo del codice scritto in C puoi fare però rischi di riscrivere il codice per intera
+E quindi l'obiettivo è ridurre, cioè tenere quante più cose già fatte e aggiungere le cose nuove.
+C'è proprio una filosofia, un modo di pensare.
+Ecco perché è molto importante poter avere traccia dello schema.
+Per esempio, io vorrei che cominciaste ad utilizzare, ve l'avevo chiesto l'anno scorso, perché lì ci vuole un altro modo di pensare.
+Vi avevo detto una risposta, e se tiene la libreria standard,
+Cosa c'è dentro, in pratica?
+Ci sono una serie di classi?
+Le classi che vorrei che cominciasse a guardare, e non scorto la roba che sto anche a voi, sono ovviamente la classe lector.
+A meno partire da questa.
+La classe string.
+Io vi suggerisco di partire, anche perché poi le voglio riprendere.
+Se mi anticipate sarà più agile poi l'aspirazione si sta appoggiando.
+Quindi vorrei, se io vi chiedo, fate subito delle prove con l'utilizzo di vettori.
+Mi dai un esempio, c'è degli esercizi dove utilizzare
+qualsiasi vector giusto per avere uno spunto invece di darlo io chiederlo direttamente a lui l'obiettivo è prendere confidenza sull'uso della classe vector perchè con la classe vector noi abbiamo a disposizione una serie di strumenti tipo la classe vector mi consente ovviamente di intanto di partire con un vettore senza dimensione fisso
+attenzione, cambiamo totalmente il modo di ragionare in quanto classe nasconde tutto la parte privata non so cosa funziona, so che funziona ci siete?
+tipo, posso stabilire, calcolare?
+per esempio, posso partire con un vettore senza dimensione, puoi fare delle aggiunte però mi servono delle operazioni specifiche
+e in questo caso userò quell'oggetto con i metodi che sono stati previsti da classe vector tipo pushback e placeback intanto il suono pushback e placeback dovete metabolizzarli perchè li ritroveremo anche in altre classi
+Prendere confidenza con quei termini significa ovviamente già riconoscerli ogni volta che li citerò.
+E quindi c'è un altro modo di inserire i dati all'interno di un vettore, quindi sfrutta tutte le funzionalità della classe vettore, ricapisco un senso della programmazione del progetto.
+Io non progetterò nulla.
+perché vi è importante che approfondiate questo discorso primo motivo devo studiare una classe che hai consegnato tu da dove parto?
+da dove si parte quando si studiano le classi?
+costruttori prima cosa che dovete fare i costruttori perché i costruttori sono quelli che andrete ad utilizzare quando dovete distanziare un oggetto
+e quindi ci sono diversi modi di dichiararli con valori iniziali, senza valori iniziali, con valori pazziali, ci siete?
+e quindi già questo e dovete ovviamente, poco co, dicendo barbonate, però tutto motivato
+E lì metterete in evidenza che dovete riflettere sulla presenza di più costruttori, sul motivo, quando vi dico che le classi non si scrivono, si progettano, la prima decisione che dovrò prendere è quanti costruttori ci devo mettere dentro.
+E per rispondere a questa domanda devo calarmi nei panni di chi lo dovrà usare, un altro programmatore che usa la tua classe,
+e immaginare tutti i vari modi che lui potrebbe avere a disposizione per poter lavorare con la tua classe.
+La classe Vector non è fatta per risolvere un problema ma ha tanti problemi, la programmazione di oggetti è rigondante, tanti strumenti, però di questi ne usa soltanto una parte, quelli che mi servono.
+Se io uso sempre la push non uso la pop, questo significa che c'è la pop
+occupa spazio, cosa sto cercando di dirvi?
+Quando progettare non mi preoccupate di mettere il minimo sindacale, pensate sempre che tutto quello che c'è è sempre una risorsa per qualcun altro che andrà ad utilizzare la vostra classe.
+Quindi pensate sempre ai possibili usi, non all'applicazione che vi ho chiesto di fare costruendo quella classe.
+il progetto della classe è un progetto di classe il progetto dell'applicazione che usa la classe è un'altra cosa motivo se tu usi la classe vector e decidi di dichiarare nel tuo main un oggetto a cui assegnare una dimensione beh, è perché c'è il costruttore se non ci fosse stato è chiaro?
+se puoi decidere di partire con un vettore vuoto
+benissimo, tu parti con un vettore vuoto, non ti puoi il problema, lui ti dà la possibilità che prendi la sintassi e usa la per costruire l'oggetto se vuoi costruire un oggetto con un'inizializzazione tutto zero non c'è bisogno di impostare il ciclo fuori è sufficiente dichiarare ovviamente un vettore con il valore di riferimento 0,0,0,-1,-1,-1
+lo scrivo una volta, lui lo fa in automatico, noi sappiamo, potremmo non saperlo, sappiamo che dentro c'è un metodo che fa questo lavoro, i famosi metodi di servizio, il metodo che fa praticamente è proprio questo, inizializzazione.
+sarebbe bello l'ideale per me dice ok, l'ho fatta fare buona discorso progettate voi una classe vector nel senso implementate le stesse funzionalità e lì scoprirete che ci sono tanti metodi privati
+A questo punto fanno il lavoro... automatizzano tanto le azioni, no?
+Tipo... Vedo come esercizio, come fate voi.
+Fate una grazia del vettore con tre produttori.
+Uno, vi dà la possibilità di creare un vettore vuoto.
+Due, vi dà la possibilità di creare il vettore con una certa dimensione.
+prego, vi darò la possibilità di creare un vettore con un'inizializzazione quali sono gli strumenti di guerra che bisogna?
+questa è una provocazione senza contattare non fare più cazzo per forza per forza e quindi la provocazione, vi ricordate come funzionavano i contattori?
+oi e questa è la dimostrazione di cosa si nasconde dietro la classica
+Quanti concetti sono nascosti?
+Eppure, quando dichiaro un vettore, il nome del vettore, classe vettore, il nome del vettore è virgola.
+Tanta roba è nascosta.
+Quindi, la sfida qual è?
+Io uso i due punti di vista, progetto la mia classe, in prospettiva di un uso,
+Uso una classe simile e lì non c'è prospettiva.
+Devo usarla per sviluppare la mia applicazione.
+Due punti di vista diversi, due modi di ragionare diversi.
+Chi siete?
+È chiaro?
+Non so che vi sembra una lezione filosofica.
+Il problema è, ho capito il senso delle cose?
+O se no, praticamente erano grossi 50, sta già succedendo.
+avete perso tutto quanto a loro nel quarto anno perché cambierò argomento non parlerò più di programmazione chi vuole imparare a programmare può farlo in quattro dopodiché vi servirà solo un pezzo della programmazione programmerlo un pochino e sposteremo l'attenzione su un altro modo di ragionare quindi se dovete fare il lavoro fatelo adesso e sfruttate il chat GPT
+Ci siete?
+Allora, quindi, poi c'è l'altro mondo che vorrei che esploraste, la classe string, che vi consentirà di venire a fare solo delle tante vincenze.
+Ormai tutti quanti obiettivi, cioè, ricordate, tutti gli obiettivi ce l'hanno una classe string.
+Tipo, io non posso essere lì, cioè, il C mi dice, ok, non può, cos'è una string da me C?
+è un array di caratteri e il cimi dice non puoi confrontare due array di caratteri direttamente come operatori o le stringhe si o la classe stringhe si il cimi dice tu non puoi assegnare una stringa ad un'altra stringa non puoi usare uguali simbolo di assegnazione con la classe stringhe si
+E' chiaro che, mi chiedo, la classe stringo lo può fare?
+E come lo fa?
+Quella è la popolazione avanzata.
+Cioè, la differenza tra violenzerare, tra chi prende cento, e chi non prende cento, alzerare.
+Chi sa programmare, chi non sa programmare.
+Questo mi strada, perché il venditore è diventato il migliore.
+Se qualcuno che conosca... Vedi?
+Le porte sono bucate.
+che l'hai lasciato là al dente?
+perché te lo sei dimenticato?
+perfetto assoluto c'è tutti mi aspettavano, però non me l'entresti però lo aspettava te non me lo aspettavamo, stavo dimenticando ieri, ci sono venuti ieri, l'ho distrutto eh no, però... magari vuole sentire come stai?
+eh forza sì, ti torno... capisco come sei uscito
+valui se valui vado altrimenti no e quindi dicevo la stringa, lavorare con il tipo stringa quindi classe stringa e classe rete quindi fate qualcosa e poi vi volevo ascoltare nel senso di dirmi cosa avete capito i punti di partenza restano sempre ok devo imparare a studiare le classi
+Il riferimento resta... Il riferimento resta... Quelli di Belogno?
+No, la documentazione penso, C++.com Il riferimento resta... No, C++.com E quindi no, questi lavori non vengono fatti con...
+artefatti, si va direttamente sul manuale e la documentazione ufficiale.
+L'obiettivo qual è in pratica?
+Non trascurate, non vi sto chiedendo di fare una cosa tanto facile, è impegnativa perché l'obiettivo è, non me ne frega un cazzo degli esempi che farete, perché saranno esempi banali.
+A me interessa come esponete cosa vi è rimasto di questa esperienza, è un'esperienza non esercitazione del cazzo,
+perché di questo si tratta.
+L'esperienza quale dovrebbe essere?
+1.
+Come ho studiato la classe, da dove ho pronunciato.
+Quindi il discorso di lavorare sull'interfaccia.
+Quando studio una classe io non studio la classe con tutto quello che c'è dentro, solamente l'interfaccia.
+1.
+L'interfaccia sono tutti i metodi esposti.
+due, la prima cosa che devo fare sono i costruttori perché mi dicono come usarli come creare gli oggetti e le tipologie e le differenze tra i vari costruttori e quello ovviamente è lo scopo dell'instituto del laboratorio che viene inserito all'interno delle costruttore detto questo poi entro nel merito dei metodi
+però di metodi fate quelli più importanti, quelli più importanti sono pusce pop e anche qui ci sono delle pusce pop un po' diverse e c'è un motivo puntini puntini puntini voi vi dovrete dire qual è la differenza e tentare di motivarlo secondo voi perché c'è questo pusce specialmente per quanto riguarda Vittorio
+c'è un'operazione che si può fare ma è costosissima con i vettori ed è l'inserimento di un valore in mezzo ad un vettore fate un'ipotesi sul motivo per cui viene definita operazione costosa costosa significa che non si possa fare i termini, il costo lo stabiliscono in tempo in più o in troppo tempo
+è un po' come il fronte il fronte è un'altra cosa, si, si, si anche il fronte, non parliamo di vestogli, si è un inserimento in mezzo perchè per fare il fronte devi spostare tutto perchè fronte non significa che aggiungo una cerchia se non c'è spazio
+e quindi io non voglio parlare di un'altra cosa front significa c'è un indirizzo di partenza che non può cambiare e che è associato alla variabile al contenitore quindi che faccio?
+mi posso fare aggiunte le aggiunte le posso fare solamente con i puntatori ma se mantengo quella struttura questo significa aver capito le cose capisci?
+cioè il front è devastante pure anzi diciamo l'inserimento in mezzo peggiore no?
+perché se lo metti in mezzo ancora sposti la parte ma se sposti il front devi spostare tutti e quindi è on a rose quindi le riflessioni sono queste l'ultima riflessione, l'obiettivo ok come studia una classe abbiamo detto, no?
+è i vari metodi
+dopodichè partiamo con l'implementazione per vedere praticamente come ci ho capito bene come si usa l'evoluzione per chi volesse però questa impegnativa mi interessa di meno perchè è più complessa se spostate l'attenzione sulla cosa più complessa non c'è ancora contento se prima non mi dimostrate di aver capito
+per parte iniziale, cioè lo studio delle singole classi.
+Le classi sono due.
+Dicevo, c'è un altro aspetto.
+Soffermarvi sulla documentazione il modo che C++ usa per documentare le classi.
+Perché quando costruirete le vostre classi dovrete utilizzare lo stesso stile di documentazione.
+e quello che dovrà essere documentato sarà fondamentalmente l'interfaccia e i presentatori e lui usa un altro strumento per aggiungere chiarezza e sono degli esempi di riferimento in questo modo uno dice sì ok ho visto ah sì vedo come si fa gli esempi che usa sono sempre semplici
+che mettono in risalto la cosa che stai studiando e tutto il resto, un dettaglio, serve ovviamente per creare qualcosa di significativo.
+Quindi C++ Ok Tutorial
+Ok, una nuova ripulgimento.
+Anche a me non interessa, vabbè, i piedi, queste linee.
+Ma lo so perché vado un po' che non ci passa.
+Quindi le mie ricerche qui saranno un po' più lunghe.
+Eccoli qua, vedete?
+Riscoprite anche questo stile di documentazione, vedete?
+La prima cosa che mi fa è descrivere cosa è la classe, cosa fa, nel senso delle classe, lo scopo delle classe.
+Quindi la cosa importante, in realtà che devo usare queste classe, bene, te lo dico io, no?
+E quindi è molto importante a questo punto fornire una buona descrizione di quello che è lo scopo
+della classe, in maniera tale da decidere se usarlo o meno, se è compatibile con i nostri fondi.
+Poi i tipi di membri, la parola membro che vi ho detto, come fatto una classe da membri, poi abbiamo detto c'è la classificazione, i membri si sono classificati in meta di proprietà classi, oggetti,
+e quindi lui dice che ci sono i membri della nostra classe che andiamo a prendere in considerazione attenzione la cosa imperiativa che dà professionalità e lì dobbiamo perdere del tempo sono gli iteratori in tutti i linguaggi esistono gli iteratori abbinati alle classi ci sono due concetti pesanti nella classe non String, ma classe Vector
+La classe Vector non è una classe volume, è una classe template.
+La classe template significa classe modello.
+La classe modello significa che se io uso soltanto la classe Vector e poi ci metto il nome dell'oggetto mi dà l'errore.
+E' un motivo molto semplice.
+Essendo template, essendo modello, questa è la programmazione generica.
+Perché esiste la classe Vector?
+Noi sappiamo che i Vector sono delle raccolte di elementi dello stesso tipo, no?
+E' chiaro che la cosa più importante che devo fare, sì, ok, tu vuoi che crei un oggetto, no?
+Ma dentro che ci devo mettere?
+E quindi devo specializzare quel Vector, no?
+Di conseguenza devo dire un Vector di interi, un Vector di plot, un Vector di classi, un Vector di oggetti, un Vector di qualcosa.
+e quindi anche lì la domanda è ma come si progettano?
+come si progettano le classi template?
+voi userete una classe template?
+e la regola qual è in pratica?
+fare intesi angolare e dentro il tipo?
+e il nome?
+basta?
+ok, vi chiederò di progettare la classe template
+e qui entriamo nel merito di come si progetta una classe template ma anche un'idea cioè da dove parte l'idea del template a cosa serve ragazzi vi vedo sfumiti oggi, non ho capito... no, ma io mi agito di te quello che mi collassa, lui invece... no, vai tranquillo, si, si cioè volete che mi fermi?
+no, no, no
+Non vorrei che fossi io a... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+Ci sono tante tecniche, tante cose che devono essere inserite.
+Adesso la userete, la classe template.
+Quindi vorrei che facesse l'esperienza di chiusa qualcosa senza sapere come funziona.
+Poi entriamo nel merito.
+Allo scorso per la Q io l'avevo fatto template.
+Sì, ma perché poi ci sono le altre classiche template, la Vista, la Q, la Q. Allora la Q che ci avevi fatto fare scrivere a noi.
+però faccio una trattazione abbastanza rapida.
+Adesso cercherò di fare una trattazione leggermente più precisa.
+Per gli iteratori mi serve l'ingrediente, l'ingrediente che mi serve a puntatori è chiaro.
+Il costruttore, l'instruttore è qui.
+Poi c'è un'altra cosa che dovrei fare con voi, vorremmo fare anche con voi quest'anno.
+Ho ascoltato Ceri, abbiamo fatto la ridefinizione degli operatori?
+Sì.
+E quelli che si uniranno?
+Sì.
+Esatto.
+Esatto.
+Quindi la sola posizione, cioè quindi una creazione utilizzando degli operatori tipo
+qui è stato ridefinito l'operatore uguale quindi stiamo parlando di stringhe e grazie a quella magia che io posso fare stringhe 1 uguale a stringhe 2 perché al simbolo uguale è stato attribuito un altro significato ma non a parole, c'è l'impenettazione quindi di solito io prendo come ferimento la plasso e la frazione
+ma anche una classe intera e poi a questo punto lavorare con una classe una classe di questo genere in pratica, cioè la classe frazione io sono abito, le frazioni sono numeri strutturati in un certo modo però poi tecnicamente c'è un numeratore dell'ordinatore una delle cose che non posso fare frazione 1 minore di frazione 2 quel minore in natura non esiste
+e quindi lo dobbiamo ridefinire, ma anche lo uguale dobbiamo ridefinire.
+Ci siete?
+Sì, sì, ma ricordo la classe nazionale.
+Quindi questi sono gli iteratori, lascia destare.
+Bene, questi sono i metodi che ci consentono di fare delle cose.
+Per capirci, questi metodi in C, no, sono la libreria string.ac.
+Qui la libreria che dovete utilizzare, la C string,
+faccio vector per le stringe stringe vector?
+C sì, questo è giusto quando c'è C time string senza punto o string col punto string.h e del C string è quella del C++ è lui che fa
+ma questo poi ovviamente lo vedrete voi, vedete?
+c'è un altro literatore interessante che è Henry Tormé però questo è abbinato solitamente è abbinato al no, a literatori, sì sì e no, quest'et prestate attenzione al metodo et string.et
+et mi dà la possibilità in pratica di accedere in base alla posizione che gli metto tra parentesi.
+Lo posso fare con le parentesi quadre?
+La domanda più riguardante è perché devo usare il metodo et quando c'è le parentesi quadre?
+Perché il metodo et fa un controllo sulla dimensione.
+Quindi se io
+Chiedo di accedere a un certo elemento, lo apprezzerete con i vettori, no?
+Voglio raggiungere un elemento di cui credo di ricordare la posizione e mi accorgo, io non mi accorgo, e questo elemento non è il mio vettore perché la dimensione è cambiata, è diventata più piccola, perché è diventata più piccola?
+Perché i vettori, i vettori del C++ sono dinamici
+e quindi posso perdere il conto, dice ok vai su quel elemento, quel elemento non c'è più perchè ha cambiato la dimensione ci vado con la valentesi qua a andare a migliorare con l'etni dice no succede qualcosa ci siete?
+quindi altri operatori più uguali, e qui
+Ci sono i metodi di interfaccia.
+Questo è interessante.
+Non so, è freme?
+Che esistono tanto in ciclone.
+Questa è una cosa che dovremmo pure, no?
+di solito non l'ho fatto le funzioni friend la definizione di funzione friend che è una funzione che non appartiene alle classi il paradosso apparente è perché la inserisco all'interno della classe ve lo farò vedere se io voglio inserire una funzione friend amica
+A questo punto, ok, il primo problema, dove la metto?
+La metto davanti a un patto, no?
+Risposta, la metto nel frontenitore classico.
+Allora, lì vado in crisi.
+È una persona neurobiologica, no?
+Vado in crisi perché vado in crisi?
+Perché
+ti dirò dove mettere la friend all'interno della classe ma nello stesso tempo ti dirò non fa parte della classe e questo è un apparente paradossimo se sta dentro allora è della classe ma il concetto di appartenenza è un po' diverso la dichiarazione è un po' diverso in pratica nel senso non vi perdete in questo intanto lui lo dice queste sono tutte
+non membro non sono membro della classe però ti dici anche un'altra cosa dove sono?
+nella classe posizionamento fisico le metto lì le metto lì perché le devo mettere da qualche parte le vedo dentro e dici allora è dentro no?
+logicamente non faccio la classe diciamo che sono
+negli infiltrati, senza i quali tanti problemi non li possono risolvere.
+Allora si sono inventati queste friend, che sono un ibrido, una cosa sporca.
+Questa è l'aspetto perché la presenza di queste funzioni inducono a dire ovviamente che c'è più non è totalmente ad oggetti, perché fa questo lavoro sporco.
+Le friend in Java non ci sono.
+Negli altri linguaggi ad oggetti non ci sono.
+lo hanno dovuto inventare in C++ perchè è nato in un modo che si stava crescendo ci sono stati dei problemi e si sono inventati queste nuove tipi di funzioni che fanno un lavoro sporco il problema è sempre l'operatore, l'ha incontrato il problema se tu vuoi provare a fare l'overload di un operatore e vuoi mettere due parametri se non è una friend non lo puoi fare
+E quindi, niente, questo per dirvi, è interessante questa getty line.
+La getty line è un strumento che risolve tanti problemi che... Fai!
+...problemi.
+Però, diciamo, vedete, di questa classe la maggior parte di noi userà il 10%.
+Tutte queste funzionalità, i termini di metodi, di proprietà, questa è soltanto l'interfaccia.
+Immaginate quante brosa fa essere Stirlinga.
+Eppure praticamente, per parte di noi, usa soltanto le operazioni fondamentali, l'interimento, il confronto, la sedimensione, tutto il resto non lo usa.
+Questo significa che nel momento in cui io uso le altre funzionalità, evidentemente voglio rendere più professionale e lì la differenza è fra neofita e chi usa il C++ tutti i giorni, lui le usa la maggior parte.
+L'assoluta non esiste, le usa molte più rispetto a quelle che potremmo utilizzare noi, no?
+Quindi il senso è questo.
+attenzione, quando progetterete i vostri oggetti non pensate al problema che dovete risolvere sul momento pensate in grande, tutte le volte che verrà usata quella classe ci sarà una funzione, c'è un metodo che svolgerà un compito se l'ho previsto bene o se no chi scrive in mente lo deve creare lui
+quindi sono delle funzionalità che aggiungo aggiungo un'altra cosa supponiamo che voglio fare delle stringhe specializzate delle stringhe con delle funzionalità più specifiche ti rispondo alla domanda di prima questa è la classe stringa
+ma supponiamo che io voglia fare un gestore di string soltanto di carattere di maiuscola un gestore di string o una classe stringa soltanto per gestire le tene minuscole ma io ho già una cosa che significa?
+che avere una classe stringa per le maiuscole significa una specializzazione no?
+la stessa cosa vale per le minuscole?
+Luiz, io voglio dei classi specializzati.
+Che faccio?
+Le vostre risconte a quante vere interi?
+Allora a questo punto vado sul padre, gli dico ok, prendo in eredità quello che fa lui e aggiungo quello che manca.
+In effetti l'ereditalità raccoglie il concetto di generalizzazione specializzazione.
+la classe automobile, cioè la classe veicolo con la E o la classe figura, il concetto generico e quello specializzo prendo la parte comune a tutti gli oggetti e aggiungo tutte le varie forme di specializzazione.
+Sì?
+Ah, secondo me non è così.
+Ma lì, questo è un'altra cosa, ti ripeto, ho un concetto, siamo partiti da un concetto genetico, lo voglio specializzare, proprio sulla domanda che mi hai fatto prima, lo voglio specializzare, che faccio?
+Mi crea un'altra classe?
+No.
+Tieni buona la parte in comune e aggiungi quello che manca.
+Capisci?
+Quindi,
+Heredità significa, segnalatela questa cosa, perché è uno degli elementi più caratterizzanti, il concetto generico padre, la metapola diversa, il concetto figlio specializzazione.
+Quindi significa che il padre ha delle funzionalità, il figlio ha quello che eredita più altre cose.
+C'è un altro principio che vi devo spiegare, ve l'ho spiegato velocemente, ve lo spiegare.
+Il principio di sola posizione.
+E' esempio.
+Il padre, supponiamo che il padre abbia un metodo, il metodo stampa.
+Chiaro?
+Supponiamo che l'implementazione prevede l'uso di una stampante a dagli.
+Ci sei?
+Supponiamo che il figlio stampi, non debba più stampare su una stampante a dagli, ma su una stampante laser.
+io gli do stampa in eredità, perché tutti li devono stampare.
+Però a questo punto, come c'è quella stampa del padre, stampa da una stampante ad anni, è chiaro che, se per eredità un figlio non va bene, mi serve qualcosa di più specializzato.
+Allora gli scrivo un altro momento di stampa, con le stesse caratteristiche,
+e mi ritroverò in una situazione di avere due funzioni con lo stesso nome, lo stesso prototipo, con la stessa firma, una che viene ereditata, l'altra che è del figlio, sulla posizione.
+La regola è, la funzione che viene utilizzata è quella del figlio, quindi anche se viene andata una in eredità,
+quella che vi arriverà dal padre, verrà sostituita con quella del figlio.
+Perché se nella generalizzazione c'è qualcosa di obsoleto ed è pubblico, quindi passa come reddità, io gli sto passando una cosa vecchia.
+No?
+Quindi, se gli passa una cosa vecchia, il figlio userà la stessa cosa vecchia del padre.
+Come risolvo questo problema, gli scrivo un altro metodo identico con un'implementazione diversa.
+Arriva l'eredità, stampa.
+C'è un'altra stampa del figlio, domina l'ultimo, cioè quella del figlio.
+e quindi in questo caso c'è proposta istituzione.
+Perché non la tolgo al padre?
+Perché evidentemente c'è un'afficcazione che sta usando un'altra stampata d'ani.
+Cioè, sono sfumature, iddo la definizione, la conoscete, lo sto dicendo a noi grossi, e dimenticherei queste cose, perché ho imparato a ragionare, e la metabolizzate, e com'è andata a fare l'esame della scuola guida.
+Inutile andare a fare l'esame e poi guidare dopo due anni.
+Eppure ho fatto tutto, non mi sono allenato, non ho guidato, dimentico, devo riconunciare.
+Quindi abituatevi a ragionare ad oggetti.

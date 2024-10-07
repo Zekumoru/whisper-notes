@@ -1,0 +1,2548 @@
+1
+00:00:01,447 --> 00:00:29,657
+la questione fisica non leggete non leggete anche perchè con le registrazioni specialmente già con le immagini non leggete per non avere il metodo di ore con le immagini peggio lui ha fatto una cosa carina perchè quella è una cosa che potrà essere utile un po' per tutti anzi ti dirò di più allora aggiungila
+
+2
+00:00:30,640 --> 00:00:55,812
+aggiungila o nell'ipotetico blog o anche nel github come documentazione del tipo perché non ci è spiegata la lezione però il lavoro che credo che tu abbia fatto è l'ha registrato, l'ha trasformato in testo e poi ha fatto fare sintesi al chat gpt e quindi il chat gpt ha
+
+3
+00:00:57,153 --> 00:01:00,696
+Fatto sintesi, anche lì poi bisogna vedere che tipo di domande gli ha fatto.
+
+4
+00:01:01,997 --> 00:01:13,446
+Lui, l'importanza di saper fare le domande per ottenere le risposte che ho intenzione di riceverle.
+
+5
+00:01:15,528 --> 00:01:17,369
+E quindi è stato interessante.
+
+6
+00:01:17,389 --> 00:01:26,717
+Quindi velocemente passiamo un attimo a quello che ha fatto lui, un po' come quello che ha fatto l'autoconversazione.
+
+7
+00:01:27,614 --> 00:01:31,536
+quella che mi hai mandato, perché quella è stata una cosa interessante.
+
+8
+00:01:32,497 --> 00:01:40,021
+E poi anche le altre cose che mi avete mandato.
+
+9
+00:01:41,782 --> 00:01:43,383
+Dipendentemente poi ripeto.
+
+10
+00:01:47,585 --> 00:01:55,889
+Allora, lezione... Ma lei non ha visto quello di prima?
+
+11
+00:01:55,929 --> 00:01:57,110
+No, io ho visto il testo.
+
+12
+00:01:58,344 --> 00:01:59,705
+C'è un altro email proprio sopra.
+
+13
+00:02:01,206 --> 00:02:02,127
+E' quello lì, è quello lì.
+
+14
+00:02:03,247 --> 00:02:03,628
+Questo?
+
+15
+00:02:03,908 --> 00:02:04,708
+Sì, questo.
+
+16
+00:02:05,549 --> 00:02:06,169
+Questo è il primo.
+
+17
+00:02:07,030 --> 00:02:09,091
+È da cliccare il primo proprio.
+
+18
+00:02:09,251 --> 00:02:14,074
+Il primo adellante.
+
+19
+00:02:14,154 --> 00:02:14,594
+Sì, sì, sì.
+
+20
+00:02:14,754 --> 00:02:19,417
+Io ho visto praticamente, non questo, però ho letto un'altra cosa.
+
+21
+00:02:19,557 --> 00:02:21,198
+Ti riconto che l'ho letta sullo smartphone.
+
+22
+00:02:21,659 --> 00:02:26,302
+Quindi, qui c'è una distribuzione in
+
+23
+00:02:27,861 --> 00:02:39,928
+il time è fatto l'indice in pratica però avevo detto un'altra cosa dove c'era una sintesi delle cose che abbiamo detto ti ricordi qual'era?
+
+24
+00:02:39,948 --> 00:02:40,849
+questo è un SRT
+
+25
+00:02:53,132 --> 00:02:55,252
+Vabbè, tanto si apre anche con Block No.
+
+26
+00:02:55,292 --> 00:03:00,934
+Io ripeto, l'ho guardato con lo Smart e l'ho letto con lo Smart.
+
+27
+00:03:01,954 --> 00:03:02,774
+Magari è l'ultimo?
+
+28
+00:03:03,094 --> 00:03:03,874
+Forse è questo.
+
+29
+00:03:04,954 --> 00:03:06,755
+È in lezione informatica TXT.
+
+30
+00:03:12,716 --> 00:03:14,696
+No, era tutto organizzato.
+
+31
+00:03:15,296 --> 00:03:16,257
+Allora era il primo?
+
+32
+00:03:17,297 --> 00:03:21,738
+No, era organizzato praticamente dove... Ci sono i tempi.
+
+33
+00:03:22,178 --> 00:03:22,238
+Sì.
+
+34
+00:03:23,570 --> 00:03:26,632
+Non soltanto, ma anche gli argomenti trattati.
+
+35
+00:03:26,752 --> 00:03:28,652
+Allora, ritorniamo un attimo.
+
+36
+00:03:29,053 --> 00:03:30,633
+Allora quello di sopra, però.
+
+37
+00:03:30,673 --> 00:03:31,174
+Questa?
+
+38
+00:03:31,194 --> 00:03:32,814
+No, no, ancora sopra.
+
+39
+00:03:33,055 --> 00:03:33,435
+Questo.
+
+40
+00:03:34,015 --> 00:03:40,738
+Ah, sì, sì, sì, sì, giusto, giusto, giusto, giusto, giusto.
+
+41
+00:03:42,939 --> 00:03:46,101
+Si sotterrina, come l'ho detto, agistisca.
+
+42
+00:03:49,534 --> 00:03:56,339
+interamente gli errori e le eccezioni offrendo un'interfaccia pulita all'utente senza sforza del taglio interno.
+
+43
+00:03:56,359 --> 00:04:02,064
+Questa cosa è interessante e poi poi ne parliamo meglio di queste cose.
+
+44
+00:04:02,084 --> 00:04:05,146
+In effetti mi ha colpito questo modo di fare sintesi, no?
+
+45
+00:04:06,007 --> 00:04:06,467
+Perchè?
+
+46
+00:04:10,010 --> 00:04:15,834
+Ho fatto dei siti, perché poi in un diverso mondo può essere che ci sia qualcosa di diverso, però cosa fanno?
+
+47
+00:04:15,994 --> 00:04:17,115
+Spiegano una lezione?
+
+48
+00:04:17,941 --> 00:04:31,511
+ti dicono il titolo, gli argomenti però in effetti spiegano i contenuti della lezione qui ci è spiegato come io ho condotto la lezione e allora a questo punto il target in questo caso chi è?
+
+49
+00:04:34,052 --> 00:04:39,616
+l'insegnante che vuole imparare a fare l'insegnante non lo sanno?
+
+50
+00:04:41,357 --> 00:04:44,720
+infatti è stato interessante proprio questo perché poi
+
+51
+00:04:45,521 --> 00:05:07,459
+si introduce il progetto di metodi protetti che servono come funzioni di servizio all'interno delle classi per assicurare il corretto funzionamento della variazione che questa è la cosa, ti spiego cosa sono, nello stesso tempo faccio sintesi però se io leggo tutto c'è un modo di conduzione
+
+52
+00:05:09,085 --> 00:05:22,935
+io ho condotto la lezione non facendo il riassunto degli argomenti tipo cos'è la classe, cos'è un metodo, cos'è la funzione, ho detto altre cose che sono state scritte queste altre cose.
+
+53
+00:05:25,157 --> 00:05:28,980
+Ti sottolinea come l'obiettivo gestisco e interamente l'errore dell'eccezione.
+
+54
+00:05:29,160 --> 00:05:32,242
+Si discutono gli elementi fondamentali di una classe, metodi.
+
+55
+00:05:33,043 --> 00:05:38,227
+La parola chiave che effettivamente manca nella lezione, il discorso è si discutono
+
+56
+00:05:39,193 --> 00:05:44,215
+non si riproducono nella migliore delle ipotesi, no?
+
+57
+00:05:45,435 --> 00:05:54,178
+Quindi praticamente in effetti è quello che cerco di fare sempre, non tanto dire cos'è, però te lo dico, ma quello è facile.
+
+58
+00:05:54,198 --> 00:06:04,621
+Il discorso e la discussione servono ovviamente per chi sa leggere, per cercare ovviamente di rendere più coinvolgente la lezione e far partecipare
+
+59
+00:06:07,052 --> 00:06:23,415
+le persone che si sono all'impati, in termini di discussione si ripete più volte, ha tirato la mia attenzione, perché effettivamente ha descritto come è stata fatta la lezione.
+
+60
+00:06:25,215 --> 00:06:33,117
+Quindi ci sono due aspetti, uno i contenuti che sono stati affrontati, l'altro il modo in cui è stata gestita e condotta la lezione.
+
+61
+00:06:34,448 --> 00:06:42,670
+Il discorso è, puoi essere il Dio dell'informatica, ma se fai l'insegnante l'obiettivo è non dimostrare quanto informatica sai.
+
+62
+00:06:44,290 --> 00:06:56,593
+Ma come, se non potessi perferirla... Cioè, deve avere un altro obiettivo, l'obiettivo è ovviamente, ma neanche essere chiari, perché la chiarezza è una mantra, così.
+
+63
+00:06:56,613 --> 00:06:59,133
+Il problema è, alla persona che ascolta, cosa testa?
+
+64
+00:07:00,814 --> 00:07:01,514
+Della lezione.
+
+65
+00:07:03,041 --> 00:07:22,640
+Sì, ho capito tutto, però in effetti comprendere e avere la convinzione di aver capito e essere in grado di applicare per un'altra cosa, per non parlare ovviamente del senso delle cose.
+
+66
+00:07:22,700 --> 00:07:25,903
+Uno dei punti a cui ci siamo soffermati era
+
+67
+00:07:26,856 --> 00:07:38,438
+Una cosa automatica, banale, apparentemente, è che con la storia, la presenza dei metodi privati, c'è un'altra cosa che ho fatto il confronto tra moduli, oggetti o classi.
+
+68
+00:07:40,199 --> 00:07:42,639
+Perché esistono i metodi di proprietà private?
+
+69
+00:07:42,719 --> 00:07:52,181
+La definizione dice che sono membri o ingredienti di servizio.
+
+70
+00:07:54,932 --> 00:08:22,786
+servono per il coletto di un seramento, però neanche lì mi sono soffermato dicendo ok e lì c'è stato un esempio di riferimento del tipo di inserire un test a questo test io non faccio caso all'inserimento se io però rifletto sull'inserimento mi rendo conto che la fase di inserimento di un test all'interno della resella quindi un input
+
+71
+00:08:24,076 --> 00:08:33,163
+è fonte di potenziale problema perché posso inserire un numero, posso inserire uno spazio, è previsto?
+
+72
+00:08:34,223 --> 00:08:43,930
+puoi dire no, non potevi farlo e quindi se tu lo prevedi prima ti organizzi e come ti organizzi?
+
+73
+00:08:43,990 --> 00:08:53,397
+beh, attivi una serie di funzionalità che servono a fare quei controlli quei controlli non sono pubblici servono per far funzionare quella parte lì
+
+74
+00:08:55,177 --> 00:09:01,963
+e quindi il motivo per cui l'importanza di discutere questi aspetti.
+
+75
+00:09:02,083 --> 00:09:11,150
+Eppure è sufficiente dire una classe composta da membri pubblici, privati e protetti.
+
+76
+00:09:11,450 --> 00:09:13,932
+Cosa sono pubblici, privati e protetti?
+
+77
+00:09:14,033 --> 00:09:14,853
+La visibilità.
+
+78
+00:09:16,535 --> 00:09:17,736
+Che significa visibilità?
+
+79
+00:09:17,896 --> 00:09:19,537
+Il pubblico è visto dall'esterno.
+
+80
+00:09:21,699 --> 00:09:22,720
+Il protetto e il privato
+
+81
+00:09:24,637 --> 00:09:26,417
+è visto soltanto all'interno.
+
+82
+00:09:27,178 --> 00:09:29,038
+Basta, ti ho detto quello che ti dovevo dire.
+
+83
+00:09:29,058 --> 00:09:30,638
+I tuoi libri ti dicono questa cosa.
+
+84
+00:09:30,658 --> 00:09:31,739
+Il problema è un altro.
+
+85
+00:09:34,019 --> 00:09:35,280
+Devo progettare una classe.
+
+86
+00:09:35,300 --> 00:09:38,660
+È lì che poi nasce il problema del saper progettare.
+
+87
+00:09:39,381 --> 00:09:40,701
+Devo progettare una classe.
+
+88
+00:09:41,001 --> 00:09:44,382
+Allora, a questo punto devo decidere che è pubblico e che è privato.
+
+89
+00:09:44,602 --> 00:09:48,263
+Sì, sulla base di parecchitene, della visibilità.
+
+90
+00:09:50,823 --> 00:09:53,984
+Non è un elemento che mi aiuta a progettare una classe.
+
+91
+00:09:55,083 --> 00:09:56,263
+Qual è la conseguenza?
+
+92
+00:09:58,644 --> 00:10:05,166
+No, è la conseguenza, praticamente, dell'aver deciso, no, quello è privato.
+
+93
+00:10:05,727 --> 00:10:13,329
+Privato significa che io lo so già, no, che non deve essere, sì, ma perché ce lo metto?
+
+94
+00:10:13,369 --> 00:10:21,472
+Quindi devo capire il senso delle cose, non capire perché, non tanto, c'è, te l'ho detto, non li vedi?
+
+95
+00:10:23,813 --> 00:10:40,388
+E a tal proposito, cioè in mio modo prima, quando ho cominciato a spiegare la programazione, ho detto che chiaro, non essendo poi padrone della situazione, davi tanto cose per scontate, del tipo, una classe è composta da membri pubblici, privati e protetti.
+
+96
+00:10:40,829 --> 00:10:46,354
+Il pubblico, l'interfaccia, il privato e il protetto, non può essere raggiunto.
+
+97
+00:10:46,574 --> 00:10:47,014
+Basta!
+
+98
+00:10:48,876 --> 00:10:49,917
+Non dicevo mai
+
+99
+00:10:52,645 --> 00:11:18,625
+non la conseguenza, ma perché quando c'è, fami un esempio che dimostri che tu hai capito e in effetti poi rispetto alle interventazioni, non voglio le riproduzioni, ti dico ok, vedete una classe qualunque e ti dico che devono essere membri pubblici, privati e protetti e tu devi essere in grado
+
+100
+00:11:19,460 --> 00:11:27,747
+di decidere che pubblico privato e protetto, non semplicemente mettendo appunto privato o protetto.
+
+101
+00:11:31,030 --> 00:11:32,731
+Dire ok, poi me lo giustifichi.
+
+102
+00:11:33,492 --> 00:11:34,313
+Perché privato?
+
+103
+00:11:35,654 --> 00:11:37,996
+Non quale è la conseguenza.
+
+104
+00:11:40,158 --> 00:11:40,999
+Perché lo hai messo dito?
+
+105
+00:11:42,360 --> 00:11:43,781
+Perché hai detto che è privato?
+
+106
+00:11:44,161 --> 00:11:45,623
+E quindi questa è la
+
+107
+00:11:47,938 --> 00:11:49,999
+discorso dell'interpretazione anche delle cose.
+
+108
+00:11:50,579 --> 00:11:59,684
+E quindi sì, da questo tipo di, ripeto, documentazione si ricava anche il modo in cui è stata fatta la lezione.
+
+109
+00:11:59,844 --> 00:12:11,970
+Forse qualcuno deve fare un corso, dice che è un pacchetto di lezioni su come si conduce una lezione relativamente ad un argomento.
+
+110
+00:12:14,660 --> 00:12:18,381
+Quindi io l'ho riscontrato che si sa che è così una classe.
+
+111
+00:12:20,562 --> 00:12:34,125
+Il problema è che oggi con il ministero, anche per voi, tutti possono fare insegnanti, tanto spiegare cose, fare gli assunti del libro, un tipo di percorso di insegnatene che grazie.
+
+112
+00:12:36,586 --> 00:12:43,008
+Invece no, queste cose, ripeto, dico adesso, ma 10 anni fa stava un altro linguaggio,
+
+113
+00:12:44,617 --> 00:12:48,638
+perché aveva un'altra missione e perché poi nessuno me l'ha mai spiegato.
+
+114
+00:12:50,679 --> 00:12:53,800
+Tutti dicono, vai lì, prendi il registro, spiega le cose.
+
+115
+00:12:53,920 --> 00:12:54,700
+Come si spiega?
+
+116
+00:12:54,740 --> 00:12:59,862
+Prendo il libro, mi ricordo l'ultimo insegnante, quello faceva lì e sotto, lo faceva lui e lo faccio io.
+
+117
+00:13:01,682 --> 00:13:04,023
+Facevano le slide, lo faceva lui e le faccio io.
+
+118
+00:13:05,401 --> 00:13:09,724
+Sì, perché poi è riferimento all'esperienza che uno ha avuto più i colleghi che ti ritornano.
+
+119
+00:13:09,744 --> 00:13:14,446
+Non basta, non è lì... No, dico, è a livello di... No, sei rosa.
+
+120
+00:13:14,707 --> 00:13:18,729
+Il discorso è che c'è tanta gente che ha anche 30 anni di servizio.
+
+121
+00:13:18,849 --> 00:13:21,531
+Il problema è che per 30 anni non si è mai posto il problema.
+
+122
+00:13:21,771 --> 00:13:23,192
+Il problema qual è in pratica?
+
+123
+00:13:23,432 --> 00:13:26,874
+Ma quello che faccio passa?
+
+124
+00:13:27,634 --> 00:13:28,135
+È utile?
+
+125
+00:13:29,656 --> 00:13:30,016
+Serve?
+
+126
+00:13:34,007 --> 00:13:56,724
+scatti il meccanismo della presunzione, tanto è vero che è una delle cose che è raro sentirvi io voglio credere che ci siano e io ti rispondo sinceramente io personalmente non l'ho mai sentita questa cosa tutti lo dicono, anche i contratti cosa dicono?
+
+127
+00:13:57,065 --> 00:14:01,128
+le lezioni vanno preparate le metode VGE
+
+128
+00:14:01,846 --> 00:14:16,359
+di dati che vanno studiate, vanno non solamente studiate, vanno applicate e quindi praticamente non batte soltanto conoscere la notte, si prese solo che tu la conosca.
+
+129
+00:14:17,920 --> 00:14:26,247
+Quindi se devo fare un concorso io non faccio sulle conoscenze informatiche, ma sulle tue tecniche, le metodologie che tu conosci.
+
+130
+00:14:28,717 --> 00:14:37,703
+Questo modo dice ok, potresti spiegare qualunque cosa, non è il contenuto, ma il modo di condurre ovviamente la lezione.
+
+131
+00:14:40,205 --> 00:14:53,154
+Per tanti illuminati, c'è tanta gente che non è compresa, c'è tanta gente che finalmente chiede, come si fa, come posso condurre la lezione, quali un po' più coscienziosi,
+
+132
+00:14:55,567 --> 00:15:23,620
+i vecchi come me non te lo sono mai posto quelli di mia conoscenza come poi non sono niente, non c'è l'assoluto sicuramente ci sarà qualcuno che verrà fatto e fa altre cose però effettivamente così, per conto e medio non preparare le lezioni se no rinfresco l'argomento perché ci sono dei dettagli che mi sfuggo e quello non significa preparare
+
+133
+00:15:24,676 --> 00:15:27,017
+No, ripassare le cose che devo dire.
+
+134
+00:15:30,097 --> 00:15:30,417
+Chiuso.
+
+135
+00:15:31,858 --> 00:15:45,541
+Chiuso questo, e quindi chiaro, questo lavoro, attenzione, per te, per te, per te, per l'universo, al mondo, questo lavoro, di cosa ho fatto?
+
+136
+00:15:45,601 --> 00:15:48,762
+Continuo anche sulla linea della registrazione?
+
+137
+00:15:48,782 --> 00:15:48,902
+Sì, sì.
+
+138
+00:15:48,962 --> 00:15:50,242
+Ok, perfetto.
+
+139
+00:15:50,282 --> 00:15:52,943
+Atenzione, per fare questo tipo di lavoro,
+
+140
+00:15:54,542 --> 00:16:02,545
+Lui ha registrato, ha trasformato, la qualità della trasformazione lo conosciamo.
+
+141
+00:16:04,165 --> 00:16:18,370
+I tempi lo dicevi a volta scorta, un time di un'ora, due ore, un registrato che sa che tu non lo fai in cinque minuti o in un istante, il che significa che lui ci ha dedicato del tempo.
+
+142
+00:16:18,510 --> 00:16:23,452
+Uno per trasformare la voce in testa, due
+
+143
+00:16:24,703 --> 00:16:34,786
+Ha fatto anche un'altra cosa, di fatto lì coinvolge all'intelligenza artificiale di chiedergli di fare sintesi e lì dipende poi da quante domande e quali domande gli fanno.
+
+144
+00:16:36,267 --> 00:16:39,528
+Perché con quella lezione io posso ricavare tante altre informazioni, no?
+
+145
+00:16:41,268 --> 00:16:47,890
+L'importante è chiedere, fare la domanda giusta e tradurlo in sintesi indistillato.
+
+146
+00:16:48,210 --> 00:16:50,931
+Cioè, non l'ho fatto in cinque minuti questa cosa.
+
+147
+00:16:53,766 --> 00:17:23,109
+però uno deve sapere quindi nel momento in cui vengono consegnati i lavori di questo genere, in cui la persona ci ha dedicato del tempo, ma anche la conversazione, questo lì sparo quattro cinque domande a raffica giusto per anche no questo si chiama lavoro cosa c'è rispetto alla differenza rispetto agli altri, l'altro modo di fare le cose, beh puoi riprendere
+
+148
+00:17:24,636 --> 00:17:39,942
+è ok, sono stanco, ricominciare, cioè agganciare, quindi se qui ci devi dedicare un'ora, che tu non hai un'ora, dici ok, fammi un pezzo o fammi delle cose, poi lo riprendo.
+
+149
+00:17:41,323 --> 00:17:45,164
+Questo significa che puoi anche diluire il lavoro che fai a casa.
+
+150
+00:17:45,865 --> 00:17:52,547
+La cosa è certa, in un momento in cui tu lo consegni, la somma dice tanto tempo.
+
+151
+00:17:55,922 --> 00:18:11,633
+5 più 5 più 5 più 5 e tu mi consegni tutto alla fine dove hai terminato gli ultimi 5 minuti chiaro quindi anche se poi non sono istantaneo però venendo a scuola mi preferisco no?
+
+152
+00:18:11,833 --> 00:18:22,541
+dirtelo ok, lo ho guardato no, lo ho guardato, lo ho guardato anzi, no, lo ho studiato perché c'erano delle cose interessanti e...
+
+153
+00:18:26,440 --> 00:18:28,941
+Bom, questo, c'era un'altra cosa.
+
+154
+00:18:29,561 --> 00:18:47,987
+Quindi abbiamo parlato di, fondamentalmente, come progettare, ma come progettare, siccome l'hai detto te, è un po' sintetico, troppo sintetico anche perché poi il tempo maggiore è stato dedicato a capire cosa significa progettare, perché bisogna progettare.
+
+155
+00:18:48,827 --> 00:18:50,868
+E lì è molto importante ovviamente avere, no?
+
+156
+00:18:52,395 --> 00:18:56,318
+un esempio di riferimento che mette nei risalti, perché l'obiettivo qual è?
+
+157
+00:18:57,139 --> 00:19:19,679
+Non è tanto ricordare che i metodi siano pubblici privati e protetti, è capire o avere un'idea di quando si usano, non come si usano, come si usano non dici ok è quello, non si possono salvare l'esterno, il problema è che quando tu progetti, dovrai decidere
+
+158
+00:19:20,585 --> 00:19:26,246
+E' com'è l'azienda della scelta dei parametri da fornire ad un altro tipo di una funzione.
+
+159
+00:19:27,867 --> 00:19:33,068
+Quanti sono, in che ordine e in che modalità.
+
+160
+00:19:34,608 --> 00:19:36,808
+Se io non faccio un vestigacolo, io faccio cosa?
+
+161
+00:19:38,349 --> 00:19:49,491
+Quindi è molto importante non soltanto dire, ok, ci sono le funzioni che prevedono la presenza di metodi, cioè di parametri
+
+162
+00:19:51,487 --> 00:20:07,830
+e quindi poi ci sono due tipi di modalità di passaggio pubblico, cioè valore per il verimento il problema è che sto progettando una funzione ok io so che c'è tutta questa opzione, ci sono delle opzioni di scelta quale scelgo?
+
+163
+00:20:10,231 --> 00:20:16,672
+se non conosco, se non ho un'idea di cosa metterci, chiaramente
+
+164
+00:20:17,659 --> 00:20:27,227
+Come dicevo, la parte degli studenti che vengono da scuola, e non solo, fanno funzioni senza parametri.
+
+165
+00:20:28,328 --> 00:20:28,548
+Perché?
+
+166
+00:20:28,628 --> 00:20:29,529
+Mettere un parametro?
+
+167
+00:20:29,569 --> 00:20:31,170
+Mettere un parametro è la stessa cosa.
+
+168
+00:20:31,190 --> 00:20:34,553
+L'importante è che faccia la chiamata.
+
+169
+00:20:34,573 --> 00:20:39,137
+Anzi è più facile perché poi non mi devo ricordare quanti parametri devo mettere dentro.
+
+170
+00:20:41,363 --> 00:20:47,627
+Quindi queste sono le cose che io ritengo fondamentali per capire il senso delle cose, altrimenti facciamo cose.
+
+171
+00:20:48,888 --> 00:21:04,598
+Detto quello, quindi riprendo a questo punto, quindi l'importante dei materiali che mi consegnate, avete fatto una ricerca con un certo GPT, ok giratela, vi ho chiesto di impostare una conversazione, fatela.
+
+172
+00:21:05,450 --> 00:21:17,499
+fare una conversazione non è una cosa, ti metto la faccia, saranno 3-4 domande e gli otterli si vede subito, mentre in quel faccio qualcosa di serio si vede anche quello.
+
+173
+00:21:20,401 --> 00:21:24,825
+Quindi è un modo di lavorare perché
+
+174
+00:21:28,312 --> 00:21:30,414
+dovete acquisire.
+
+175
+00:21:32,095 --> 00:21:35,357
+Noi ci siamo lasciati in pratica con questa cosa.
+
+176
+00:21:35,558 --> 00:21:39,240
+L'organo che volevo trattare, abbiamo detto come è fatto Pachido?
+
+177
+00:21:42,082 --> 00:21:49,428
+Abbiamo cominciato così a rimpescare il concetto, però stiamo aggiungendo un po' di pieno di cose in più rispetto alle cose dette l'anno scorso.
+
+178
+00:21:49,448 --> 00:21:53,691
+L'anno scorso abbiamo, il tempo che ci ha dedicato è stato in piena parte del lato.
+
+179
+00:21:53,711 --> 00:21:55,792
+Sto aggiungendo un po'
+
+180
+00:21:57,306 --> 00:22:00,409
+di dettagli, è chiaro che di grossa c'è, mancano i dettagli.
+
+181
+00:22:01,990 --> 00:22:22,726
+Dicevamo, quando, secondo me, io intenzione appunto di utilizzare, cioè, lavorare con affrontare l'argomento di OML, però vorrei affrontarlo a questo punto, avendo sempre degli esempi di ricordi.
+
+182
+00:22:22,766 --> 00:22:25,548
+La cosa che dico a chi non c'è, uno e due,
+
+183
+00:22:29,128 --> 00:22:35,589
+2ML è la cosa più sciocca che possa essersi quando guarda i disegni.
+
+184
+00:22:37,049 --> 00:22:47,111
+Il problema è, quando sei detto di retagori, quello è il linguaggio grafico fatto di regole.
+
+185
+00:22:48,132 --> 00:22:53,673
+Quando spieghiamo il linguaggio di 2ML, che non è un linguaggio, una rapporta di linguaggi,
+
+186
+00:22:55,000 --> 00:23:10,927
+motivo per cui vi ho chiesto di chiedere al chat di GPT quanti erano questi famigerati linguaggi e a quale versione di UML siamo arrivati che significa che ci sono state per le aggiunte ma cosa sono questi linguaggi?
+
+187
+00:23:10,967 --> 00:23:15,589
+abbiamo detto anche cos'è un linguaggio che tipo di linguaggio?
+
+188
+00:23:15,609 --> 00:23:23,093
+linguaggio di supporto alla presentazione questo è lo scopo è un linguaggio grafico di
+
+189
+00:23:23,911 --> 00:23:25,211
+descrizione e documentazione.
+
+190
+00:23:25,471 --> 00:23:31,693
+Però, ripeto, che avevo detto, accogliete le domande, chiedetelo a lui e confrontatele con le cose che vi dico io.
+
+191
+00:23:32,733 --> 00:23:40,775
+Detto questo, uno dei diagrammi che viene molto utilizzato è il diagramma delle classi.
+
+192
+00:23:40,875 --> 00:23:44,396
+Questo è il diagramma delle classi, non è un rettangolo.
+
+193
+00:23:47,717 --> 00:24:05,627
+perché, a volta scorta, abbiamo detto che ci sono anche dei simboli grafici che hanno un significato molto preciso, tipo più, meno, e significa in pratica, se c'è un pezzo di velocello inizialmente, si perde una lezione emotiva per gli insegnanti.
+
+194
+00:24:05,967 --> 00:24:11,190
+Però è arrivato il collegano di sostegno, per cui dovrò sostegnare.
+
+195
+00:24:12,091 --> 00:24:13,992
+Allora mandalo qui, questo deve essere il valore.
+
+196
+00:24:16,864 --> 00:24:17,585
+Allora è arrivato?
+
+197
+00:24:17,605 --> 00:24:23,089
+I miei non arrivano mai, i miei vanno sempre o intorno a me.
+
+198
+00:24:23,249 --> 00:24:26,372
+Non c'è più la segnata.
+
+199
+00:24:28,353 --> 00:24:38,882
+Quindi sono simbolici grafici che hanno il significato più preciso, che vanno ovviamente utilizzati ovviamente in un certo modo.
+
+200
+00:24:38,962 --> 00:24:41,204
+Che in un certo modo ti significa, ci sono delle regole, no?
+
+201
+00:24:42,285 --> 00:24:42,985
+Perché lo metto qui.
+
+202
+00:24:45,639 --> 00:24:47,060
+un simbolo, non ha senso.
+
+203
+00:24:47,901 --> 00:24:50,323
+Allora questo significa che ci stanno anche le sintassi, no?
+
+204
+00:24:52,544 --> 00:25:06,855
+E quindi i simboli, teatrici, ci sono delle sintassi, ci sono delle regole che vanno rispettate se vuole, documentare, rispettate se e perché le devo rispettare come media, in linguaggio internazionale, come la matematica.
+
+205
+00:25:08,396 --> 00:25:10,437
+E quindi praticamente in linguaggio scientifico, tecnico,
+
+206
+00:25:12,529 --> 00:25:17,112
+In conseguenza dall'altro capo del mondo usano gli stessi simboli, c'è sbaglio simbolo.
+
+207
+00:25:18,372 --> 00:25:22,395
+E la mia è una multinazionale che collabora con altre sedie.
+
+208
+00:25:22,635 --> 00:25:24,536
+Esatto, ma che mi invento i simboli?
+
+209
+00:25:26,457 --> 00:25:41,045
+Il discorso è che i simboli hanno il significato perché il linguaggio è fatto da simboli particolari, specifici, che può attribuire un significato ben preciso, ma anche una sintassi.
+
+210
+00:25:43,348 --> 00:25:46,069
+e quindi avevano letto il Prado.
+
+211
+00:25:46,770 --> 00:25:57,935
+Questi simboli, quindi la visibilità pubblica privata del proletto, però a questo punto gli pubblici privati del proletto sono variabili ma sono anche funzioni.
+
+212
+00:25:58,395 --> 00:26:02,177
+Anche lì ci sono funzioni
+
+213
+00:26:05,101 --> 00:26:23,627
+c'erano parametri, perché il parametro era l'unico riusciato e avevano anche riciso delle regole e dicevamo, insomma, questo modo, questo argomento teorico non c'entra niente con il CC, perché?
+
+214
+00:26:24,728 --> 00:26:25,528
+cosa ve le faccio?
+
+215
+00:26:25,628 --> 00:26:34,291
+una volta che arriva la schema gli OML, il programmatore, riconosce i simboli e li trasforma in codice
+
+216
+00:26:35,123 --> 00:26:36,443
+E allora, cosa mi ha messo?
+
+217
+00:26:36,483 --> 00:26:54,049
+Come trasformare, in pratica, questa rappresentazione grafica, chiamiamola, questa è la classe, che abbiamo detto trofittà, che abbiamo detto le metodi, come trasformare questo, nei vari linguaggi.
+
+218
+00:26:54,069 --> 00:27:03,872
+Abbiamo fatto riferimento, appunto, a CQB, abbiamo fatto riferimento a Giau, abbiamo fatto riferimento... Il problema è, quando parliamo di OML, noi non stiamo parlando di
+
+219
+00:27:05,234 --> 00:27:19,417
+linguaggio, ma di progettare una classe che poi verrà trasformata e quindi il programmatore deve riuscire ad ottenere materiale legate del linguaggio che l'azienda gli chiede di utilizzare.
+
+220
+00:27:20,937 --> 00:27:31,600
+Quindi, un'altra cosa a proposito di UML, allora a questo punto, ok, UML nello specifico diagramma delle classi, a questo punto noi abbiamo
+
+221
+00:27:35,670 --> 00:27:50,322
+Questa rappresentazione grafica ha un significato che esprime uno dei concetti fondamentali della programmazione, programmazione ad oggetti.
+
+222
+00:27:52,163 --> 00:28:03,712
+Quando parliamo di programmazione ad oggetti non sto pensando al civile, non sto pensando già, non sto pensando al linguaggio, io sto parlando di concetti, programmazione ad oggetti non è il civile,
+
+223
+00:28:06,505 --> 00:28:26,729
+sono insieme di concetti, tra concetti chiave quindi se uno dice conosco la programmazione di oggetti deve dire C++ perché se io uso C++ come uso i C io non conosco il C++ lo uso come i C eppure uso il C++ è chiaro?
+
+224
+00:28:27,209 --> 00:28:31,890
+ma se io dico programmazione di oggetti sto dando per scontato
+
+225
+00:28:33,203 --> 00:28:38,945
+come è fatto un oggetto, come è fatto una classe, distingue i concetti indipendentemente dal linguaggio.
+
+226
+00:28:40,105 --> 00:28:52,329
+Uno dei concetti presenti all'interno della formazione dell'oggetto è quello più oppuesto.
+
+227
+00:28:52,529 --> 00:28:57,050
+Questa rappresentazione grafica non significa nulla, esprime il concetto di
+
+228
+00:29:07,886 --> 00:29:08,126
+Chiaro?
+
+229
+00:29:08,927 --> 00:29:13,711
+Quindi, eredità, eredità, eredità, eredità.
+
+230
+00:29:14,551 --> 00:29:22,798
+E a questo punto, come voi avete quegli effettuali momenti di cui vi ho parlato, ci sono le domande di rivelimento.
+
+231
+00:29:23,879 --> 00:29:25,180
+Questo è quello che dovete studiare.
+
+232
+00:29:27,702 --> 00:29:29,964
+Il discorso è il concetto di eredità.
+
+233
+00:29:31,765 --> 00:29:35,027
+vi dico come funziona e quindi la mia, no?
+
+234
+00:29:35,728 --> 00:30:00,004
+la parte del bravo insegnante poi la concludiamo poi vi dico quello che il bravo insegnante solitamente non dice questa è la redditarietà intanto cerchiamo di vedere cosa significa redditarietà e della redditarietà, redditarietà significa che ci sono due soggetti la metafora che stiamo utilizzando, la metafora della famiglia attenzione
+
+235
+00:30:01,796 --> 00:30:28,565
+metafora della famiglia, non significa che stiamo parlando di famiglia stiamo cercando ovviamente di dare forma ad un disegno di quel genere perché devo descrivere il concetto di eredità e quando si parla di eredità è chiaramente chiaro che pensi alla maturazione familiare ma quella è la metafora non necessariamente ci dovrebbe essere un papà o un figlio detto questo
+
+236
+00:30:30,581 --> 00:30:34,784
+Diciamo che, facciamo la metafora, c'è la classe padre.
+
+237
+00:30:35,464 --> 00:30:38,847
+Se padre si presume che abbia dei figli, questo è il caso del padre al figlio.
+
+238
+00:30:40,268 --> 00:30:40,528
+Chiaro?
+
+239
+00:30:41,388 --> 00:30:47,152
+Come faccio a distinguere se ho due classi e tra queste due classi esiste questo legame?
+
+240
+00:30:48,854 --> 00:30:49,574
+Famigiale?
+
+241
+00:30:50,395 --> 00:30:59,261
+E' chiaro che, vedi che ti metto due classi qui, hai li.
+
+242
+00:31:01,623 --> 00:31:14,349
+e ti dico, uno è padre, uno è figlio, tu devi prenderlo appunto e scrivere che è padre, che è figlio, quindi praticamente la presentazione grafica non aiuta a distinguere il padre e il figlio.
+
+243
+00:31:16,390 --> 00:31:29,096
+Se però ti faccio la presentazione grafica di questo genere, evidentemente, sono la parola che sto per dire, io visivamente impisco subito che è padre, che è figlio.
+
+244
+00:31:29,316 --> 00:31:30,877
+In questo caso, chi è il padre?
+
+245
+00:31:32,499 --> 00:31:56,205
+Dipendentemente dal nome, P potevo mettere A, padre, F potevo mettere D, perché il discorso è, io voglio aiutarvi a associarlo al concetto di famiglia, ma non dovete concentrarmi soltanto, e sono una metafora, soltanto un esempio
+
+246
+00:31:57,267 --> 00:32:12,702
+Il discorso, infatti, la professionalità consiste nel fatto di realizzare dei sistemi della presentazione classica, dove c'è una classe principale e poi ci sono le classiche delle case.
+
+247
+00:32:14,964 --> 00:32:16,405
+Perché dico che questo è il padre?
+
+248
+00:32:17,166 --> 00:32:20,649
+Perché dico che questo è il padre?
+
+249
+00:32:20,669 --> 00:32:20,969
+Perché...
+
+250
+00:32:24,628 --> 00:32:26,509
+Perchè c'è la freccia che lo indica?
+
+251
+00:32:28,371 --> 00:32:36,116
+Questo significa che se avessi fatto lo abbiamo fatto la volta scorsa.
+
+252
+00:32:36,916 --> 00:32:47,043
+Eppure, siamo abituati a un momento di immaginare o vedere ovviamente la cosa che non ti vale in alto, distintivamente io dico che in quello che è nato è il padre.
+
+253
+00:32:47,063 --> 00:32:53,788
+Invece no, la cosa su cui mi devo concentrare è la freccia, la direzione della freccia.
+
+254
+00:32:55,035 --> 00:32:56,996
+Quindi praticamente questo è il padre.
+
+255
+00:32:58,216 --> 00:33:09,739
+Sai verito che tra le classi generiche esiste un legame di parentela tipo rapporto padre-figlio?
+
+256
+00:33:09,859 --> 00:33:11,859
+Perché ci sono anche i fratelli, no?
+
+257
+00:33:13,060 --> 00:33:17,621
+E a questo punto nel 70-80 facciamo un'ipotesi di fratello.
+
+258
+00:33:31,003 --> 00:33:34,867
+E quindi io posso creare un albero con un capostifite e poi una serie di derivazioni
+
+259
+00:33:58,166 --> 00:34:01,569
+l'albero genealogico, però sono sempre usando la stessa metafora.
+
+260
+00:34:01,669 --> 00:34:09,114
+Il discorso è solo una metafora, non significa che la realtà sia quella.
+
+261
+00:34:10,215 --> 00:34:11,936
+Questo serve per far capire il senso.
+
+262
+00:34:13,017 --> 00:34:13,437
+Ci siete?
+
+263
+00:34:14,738 --> 00:34:16,700
+A questo punto c'è un'altra cosa importante.
+
+264
+00:34:17,760 --> 00:34:22,144
+Ti va bene che mi parli di la parola magica nonché chiave e eredità.
+
+265
+00:34:26,440 --> 00:34:28,561
+Dove la metto a dire, ma cos'è l'eredità?
+
+266
+00:34:31,603 --> 00:34:38,948
+Eredità, ovviamente, se penso a padre e figlio, dico che è il padre, ma chi ha l'eredità tra padre e figlio?
+
+267
+00:34:41,289 --> 00:34:44,151
+Si parla di eredità perché il padre vuole smettere il figlio, no?
+
+268
+00:34:45,933 --> 00:34:48,134
+E la domanda, a questo punto, è sì.
+
+269
+00:34:49,735 --> 00:34:51,316
+Diamo forma al concetto di eredità.
+
+270
+00:34:53,257 --> 00:34:54,058
+Cos'è l'eredità?
+
+271
+00:34:54,955 --> 00:35:00,782
+L'eredità ha praticamente tutto ciò che è pubblico e protetto.
+
+272
+00:35:04,166 --> 00:35:11,234
+Quindi tutti i membri pubblici e protetti considerano un'eredità, quindi possiamo dire
+
+273
+00:35:42,632 --> 00:35:56,197
+In questo modo è chiaro che io ho detto semplicemente che l'eredità uguale pubblico ti protegge, non detto le variabili, i metodi, tutto ciò che il pubblico ti protegge, è chiaro?
+
+274
+00:35:58,417 --> 00:35:59,378
+C'è un'altra cosa?
+
+275
+00:35:59,738 --> 00:36:06,600
+E quindi io ho dato forma al concetto di eredità, ho materializzato l'eredità, tutto ciò che
+
+276
+00:36:27,743 --> 00:36:38,228
+questo significa che quello che ti becca la punta è quello che trasmette qualcosa è chiaro?
+
+277
+00:36:41,689 --> 00:36:43,390
+quindi sappiamo cosa passa
+
+278
+00:36:44,525 --> 00:36:46,846
+riflettendo ancora, ci accogliamo di una cosa.
+
+279
+00:36:48,287 --> 00:36:55,931
+Allora, so cosa è l'eredità, quindi il padre trasmette un'eredità qui.
+
+280
+00:36:57,151 --> 00:37:02,294
+E poi abbiamo un altro, quindi cos'è che viene trasmesso?
+
+281
+00:37:02,314 --> 00:37:04,375
+Tutto ciò che è pubblico e tutto ciò che è prodotto.
+
+282
+00:37:05,596 --> 00:37:10,518
+Ci sono, a questo punto, e qui è che fa cosa che si fa interessante, e qui è la cosa su cui dovete riflettere.
+
+283
+00:37:18,029 --> 00:37:22,051
+Ti chiaro su cosa dovete riflettere, dire ok.
+
+284
+00:37:25,452 --> 00:37:32,515
+Ho capito cosa è reddito, il problema, ma in prima cosa deve fare l'eredità?
+
+285
+00:37:33,616 --> 00:37:36,717
+E cosa significa far passare, no?
+
+286
+00:37:36,777 --> 00:37:38,778
+Trasmettere una eredità?
+
+287
+00:37:40,199 --> 00:37:44,941
+Beh, la risposta è che tra l'eredità, praticamente, prima non c'era l'eredità, adesso ce l'hai.
+
+288
+00:37:48,280 --> 00:37:58,302
+perché sono chiaro, eredità significa appunto, infatti che è ricco, molto ricco, o eredita, o ruota, il lavoro non diventa ricco.
+
+289
+00:38:00,903 --> 00:38:03,183
+E quindi, perché diventa ricco?
+
+290
+00:38:03,363 --> 00:38:06,564
+Perché prima non ce l'aveva, adesso ce l'aveva.
+
+291
+00:38:06,584 --> 00:38:11,085
+A vedere, eredità significa fondamentalmente, appunto, ricevere qualcosa in più,
+
+292
+00:38:14,790 --> 00:38:17,951
+e qui di conseguenza F riceve le verità.
+
+293
+00:38:26,453 --> 00:38:34,856
+Tu le verità del padre, chiaro?
+
+294
+00:38:38,917 --> 00:38:41,478
+Quindi, voi fate anche qualche foto perché
+
+295
+00:38:45,364 --> 00:38:48,465
+Se li guardate subito, capite subito di cosa stiamo parlando.
+
+296
+00:38:48,525 --> 00:38:52,587
+Se li dovete fare voi per studiarli, potete essere che non capirete la serie.
+
+297
+00:38:56,009 --> 00:39:04,333
+E quindi, praticamente, l'editarità significa trasmettere qualcosa.
+
+298
+00:39:04,373 --> 00:39:06,154
+Ma cosa significa trasmettere?
+
+299
+00:39:06,434 --> 00:39:11,336
+Significa che, praticamente, tutta questa parte del padre possa utilizzare il figlio.
+
+300
+00:39:14,071 --> 00:39:17,313
+Quindi il figlio la può usare.
+
+301
+00:39:19,014 --> 00:39:21,736
+C'è ciò che è significativo, riflettendo ancora.
+
+302
+00:39:21,976 --> 00:39:31,322
+Il padre aveva delle cose, le passa al figlio, quindi praticamente le sa che il figlio deve utilizzare quelle cose.
+
+303
+00:39:32,623 --> 00:39:34,444
+Se non c'è il padre, ci sarà il figlio.
+
+304
+00:39:35,625 --> 00:39:36,105
+Ci siete?
+
+305
+00:39:37,646 --> 00:39:38,326
+Metafora.
+
+306
+00:39:38,346 --> 00:39:42,189
+Il discorso è capire il senso delle cose.
+
+307
+00:39:42,967 --> 00:39:43,407
+Invece ci siete?
+
+308
+00:39:47,931 --> 00:39:48,431
+Domanda, eh?
+
+309
+00:39:50,272 --> 00:39:55,156
+Tu sei andato a carriare, quindi ti riconto che hai avuto un diritto di 5 minuti.
+
+310
+00:39:55,196 --> 00:39:56,557
+Dimmi.
+
+311
+00:39:58,018 --> 00:40:07,445
+Ma se solamente guida il figlio... Ma alla fine, ad esempio, il figlio può avere qualcosa in più rispetto al padre?
+
+312
+00:40:07,505 --> 00:40:10,727
+Cioè il padre gli dà... Io ho parlato di cosa in più?
+
+313
+00:40:13,268 --> 00:40:17,109
+Chiedo, quindi limitati a quello che ti sto dicendo.
+
+314
+00:40:17,949 --> 00:40:26,630
+La cosa che mi premia adesso è che tu sei il mio direttore chiaramente, perché chiaramente io non ho mai solito il concetto di verità.
+
+315
+00:40:27,670 --> 00:40:34,032
+Fino a noi è passato il concetto, perché se non passi il concetto non direi che vada avanti.
+
+316
+00:40:36,012 --> 00:40:36,292
+Per voi?
+
+317
+00:40:43,390 --> 00:40:47,513
+Ok, a questo punto raffiniamo il concetto.
+
+318
+00:40:47,553 --> 00:40:54,878
+Nel senso che io potrei anche dire a questo punto fare quello che tutti quanti fanno, i libri compresi, perché l'argumento è questo, questo è il concetto.
+
+319
+00:40:57,700 --> 00:41:00,642
+A questo punto potrei spostare l'attenzione sull'implementazione, no?
+
+320
+00:41:03,104 --> 00:41:08,667
+Però, però, per esperienza il discorso è
+
+321
+00:41:10,603 --> 00:41:17,110
+Quello che voi avete capito è soltanto, credeteli per capire l'oretica, mancano dei pezzi ancora.
+
+322
+00:41:17,870 --> 00:41:18,931
+E i pezzi sono questi.
+
+323
+00:41:19,952 --> 00:41:21,054
+Ripetiamo insieme.
+
+324
+00:41:22,575 --> 00:41:23,836
+Io so cosa è la verità.
+
+325
+00:41:27,780 --> 00:41:32,405
+Se una classe è fatta da un altro linguaggio, funzioni variabili,
+
+326
+00:41:33,467 --> 00:41:42,191
+L'eredità è un pacchetto di funzioni variabili, l'importante è che abbiano una disabilità pubblica e privata, cioè pubblica e protetta, chiaro?
+
+327
+00:41:44,633 --> 00:42:00,821
+Però riflettendo, riflettendo a questo punto vi ho detto anche un'altra cosa interessante, è passata a liscia, è passata a liscia ma mica tanto.
+
+328
+00:42:02,418 --> 00:42:05,319
+Quale è la differenza fra il prodetto e il privato?
+
+329
+00:42:06,759 --> 00:42:08,860
+Non possono essere raggiunti dall'esterno.
+
+330
+00:42:11,381 --> 00:42:11,781
+È chiaro?
+
+331
+00:42:13,581 --> 00:42:14,462
+Questo lo dice, no?
+
+332
+00:42:14,482 --> 00:42:15,362
+La definiziamo.
+
+333
+00:42:16,562 --> 00:42:21,844
+Però a questo punto diceva, vabbè, entrambi non possono essere raggiunti dall'esterno.
+
+334
+00:42:23,744 --> 00:42:24,945
+Perché esiste il prodetto?
+
+335
+00:42:26,265 --> 00:42:27,305
+Facciamo il prodotto privato?
+
+336
+00:42:27,325 --> 00:42:29,686
+È chiaro?
+
+337
+00:42:31,618 --> 00:42:47,468
+Dall'esterno non vengono visti, quindi a questo punto, perché non so, non c'è grande parola, che rappresenta qualcosa di raggiungibile, quindi praticamente tu lavori con protetti pubblici, cioè privati e protetti, e io non li posso usare, che sono all'esterno.
+
+338
+00:42:49,409 --> 00:42:50,790
+E il senso proprio è l'ereditarietà.
+
+339
+00:42:52,951 --> 00:42:56,714
+Con l'ereditarietà io ho la possibilità di far transitare
+
+340
+00:42:57,847 --> 00:43:02,850
+trasmettere in eredità anche quella parte raggiungibile dall'esterno.
+
+341
+00:43:07,233 --> 00:43:15,779
+E quindi, praticamente, quella parte raggiungibile dall'esterno viene anche trasmessa in ereditarietà ai figli.
+
+342
+00:43:17,940 --> 00:43:21,463
+A questo punto la domanda è ovvia, deve partire la domanda.
+
+343
+00:43:30,880 --> 00:43:35,003
+Sì, non è stato chiaro il legionamento, serve di servito legionamento.
+
+344
+00:43:36,585 --> 00:43:39,467
+Quando usare protetto, quando usiamo il privato.
+
+345
+00:43:39,587 --> 00:43:40,668
+Oppure in un altro mondo.
+
+346
+00:43:43,250 --> 00:43:46,312
+Che visibilità assumono quando vengono passati in un luogo di carità?
+
+347
+00:43:47,453 --> 00:43:49,575
+Diremmo che era semplificata.
+
+348
+00:43:50,976 --> 00:43:54,578
+Quale sarà la nuova visibilità?
+
+349
+00:43:54,598 --> 00:43:55,659
+Avete capito cosa hai detto?
+
+350
+00:43:56,860 --> 00:43:57,381
+Prova a spiegare.
+
+351
+00:43:59,599 --> 00:44:26,254
+Sì, allora, cioè, se nel passaggio, cioè, è variato di dire il passaggio, il passaggio dal... Sì, ti ripeto, non siamo ancora formalmente corretto, cioè, dilo come ti viene, cioè, l'importante è che poi fai capire, di base di aver carnito, e usi praticamente tutte le menune che hai a disposizione, le menune che hai a disposizione,
+
+352
+00:44:28,334 --> 00:44:29,775
+Tu mi faccia capire.
+
+353
+00:44:30,335 --> 00:44:31,315
+Tu hai capito.
+
+354
+00:44:33,036 --> 00:44:34,577
+Prova a tirare quello che hai capito.
+
+355
+00:44:36,578 --> 00:44:37,879
+Così come ti viene, eh?
+
+356
+00:44:37,899 --> 00:44:38,439
+Perfetto.
+
+357
+00:44:38,459 --> 00:44:39,700
+C'è comunque un po' di politica.
+
+358
+00:44:39,720 --> 00:44:43,581
+Sulla base che è in mezzo di quello che ha detto lui.
+
+359
+00:44:43,641 --> 00:44:46,583
+Si entra la classe madre e la classe figlio.
+
+360
+00:44:55,929 --> 00:45:03,454
+Appunto il pubblico più alto, che protetti più alto, si rimane lo stesso.
+
+361
+00:45:06,375 --> 00:45:08,536
+Questo non lo capisco.
+
+362
+00:45:08,576 --> 00:45:11,798
+Cioè sono io che non sto capendo la cosa.
+
+363
+00:45:11,818 --> 00:45:13,319
+Non ti sto dicendo di sbagliare.
+
+364
+00:45:13,459 --> 00:45:14,660
+Certo.
+
+365
+00:45:14,680 --> 00:45:15,240
+Dila meglio.
+
+366
+00:45:18,447 --> 00:45:25,532
+Posso dirti, intudisco, posso intudere delle cose, ma io non riesco a capire cosa vuoi dirmi.
+
+367
+00:45:25,552 --> 00:45:27,834
+Ti stai spiegando male?
+
+368
+00:45:30,175 --> 00:45:38,321
+Ma non ti preoccupare, cioè, al più ti dico questa cosa, quella meglio, però dilo.
+
+369
+00:45:40,623 --> 00:45:45,306
+Cioè, sforzati di dire quello che credi di aver capito.
+
+370
+00:45:48,769 --> 00:46:09,700
+il lavoro è quello traduco supponiamo che tu avevi visto questo è il progetto cioè trasformare quello che c'è in testa con quello che vorresti dire ma non dire parole, allora provaci
+
+371
+00:46:21,326 --> 00:46:30,788
+Ripeti quello che hai detto prima, così non rinflexiamo.
+
+372
+00:46:30,908 --> 00:46:37,929
+Capire la nuova visibilità degli attivisti.
+
+373
+00:46:38,769 --> 00:46:48,951
+Allora, non c'eravamo lasciati, la verità praticamente è tutto ciò più pubblico è tutto ciò che è prodotto.
+
+374
+00:46:50,819 --> 00:47:06,689
+La considerazione che ho fatto è, siccome il protetto si comporta come il privato, nel senso, è raggiungibile dall'esterno, allora, se guardo il problema dall'esterno, non posso raggiungere il protetto, non posso raggiungere il privato.
+
+375
+00:47:07,990 --> 00:47:14,294
+Quindi, dal mio punto di vista, o lo chiami protetto, o lo chiami privato, non lo posso raggiungere.
+
+376
+00:47:16,776 --> 00:47:19,738
+Allora, la domanda è, perché esistono?
+
+377
+00:47:28,157 --> 00:47:31,458
+Questa differenza è chiaro?
+
+378
+00:47:31,518 --> 00:47:36,440
+La risposta è evidentemente.
+
+379
+00:47:38,400 --> 00:47:42,722
+Cosa non passa al figlio?
+
+380
+00:47:43,242 --> 00:47:50,064
+Tutto è privato, quindi se tutti fossero privati non passerebbe nulla.
+
+381
+00:47:52,325 --> 00:47:53,825
+Cosa passa al figlio?
+
+382
+00:47:55,367 --> 00:47:56,467
+pubblico e protetto.
+
+383
+00:47:56,907 --> 00:48:10,434
+Allora a questo punto il protetto non può essere raggiunto dall'esterno, però può essere passato ad un figlio.
+
+384
+00:48:13,195 --> 00:48:22,220
+La mia idea qual'era l'intenzione di far passare delle cose riservate
+
+385
+00:48:25,436 --> 00:48:44,761
+anche a mio figlio non so come fare se lo metto privato non passa hanno inventato la formula a questo punto protetto perché io dico ok voglio dare anche questa parte nascosta al mio figlio ma allo stesso tempo non voglio che gli altri la usino è chiaro?
+
+386
+00:48:48,361 --> 00:48:54,703
+a questo punto c'è ancora un problema ancora non si è capito cosa ne fa il figlio
+
+387
+00:48:55,345 --> 00:48:56,365
+di questa eredità.
+
+388
+00:48:57,305 --> 00:48:59,766
+Cosa significa proprio il senso dell'eredità?
+
+389
+00:49:00,406 --> 00:49:14,949
+Il senso dell'eredità coincide nel fatto che tutto ci che pubblica è privato, quindi supponiamo che sia la variabile di nome A con le regole di passaggio, la funzione di nome F. Questa è l'eredità.
+
+390
+00:49:14,969 --> 00:49:23,771
+Nel momento in cui il figlio la riceve come eredità, non è sua, è di suo padre,
+
+391
+00:49:26,681 --> 00:49:32,243
+non c'è nella sua classe, perché nel padre, lui cosa può fare?
+
+392
+00:49:32,783 --> 00:49:39,465
+La può usare, come se fosse su, chiaro?
+
+393
+00:49:41,865 --> 00:49:52,548
+Quindi se il figlio aveva due funzioni e due variabili e arriva l'eredità le funzioni che può usare il figlio sono tre.
+
+394
+00:49:55,768 --> 00:49:59,830
+più tre variabili, usando il linguaggio, ovviamente, da no?
+
+395
+00:50:01,791 --> 00:50:09,996
+Per far capire, è chiaro che nel verbo tecnico è chiaro di usare i termini appropriati, ma giusto per capirci, il problema è dare forma, no?
+
+396
+00:50:10,016 --> 00:50:16,940
+A questa identità, ma anche per capire cosa se ne fa il figlio, come può usare il figlio con questa identità.
+
+397
+00:50:18,701 --> 00:50:21,523
+Poi c'è l'altro aspetto, come fatto la classe?
+
+398
+00:50:24,535 --> 00:50:43,030
+da membri e a questo punto questi membri hanno una loro visibilità tutti?
+
+399
+00:50:43,270 --> 00:50:52,698
+se lui eredita qualcosa dal padre gli arriva la funzione gli arriva la variabile
+
+400
+00:50:53,769 --> 00:50:56,430
+problema.
+
+401
+00:50:56,470 --> 00:51:11,535
+Come prima abbiamo detto che tutto quello che c'è in una classe ha una sua visibilità, la domanda è, se ho capito, ti ho dato la visibilità, ma quando arriva nel figlio cosa diventa?
+
+402
+00:51:13,616 --> 00:51:18,338
+Che grado di visibilità avrà?
+
+403
+00:51:18,358 --> 00:51:18,538
+Chi sei?
+
+404
+00:51:19,733 --> 00:51:47,417
+è vero che c'è una funzione in più, è vero che c'è una variabile in più però è passata un pubblico la funzione è passata un protetto la variabile passa il protetto, la variabile
+
+405
+00:51:48,703 --> 00:51:53,385
+una volta che arriva il figlio o... cosa diventa?
+
+406
+00:51:53,485 --> 00:51:56,226
+pubblico privato fratello ci siete?
+
+407
+00:51:56,246 --> 00:52:08,472
+non puoi dire c'è no, nel momento in cui arriva un po' diventa deve diventare è chiaro?
+
+408
+00:52:09,092 --> 00:52:09,453
+sì o no?
+
+409
+00:52:09,473 --> 00:52:11,053
+stai fermo?
+
+410
+00:52:11,313 --> 00:52:11,714
+sì o no?
+
+411
+00:52:12,094 --> 00:52:14,495
+sì è chiaro?
+
+412
+00:52:17,248 --> 00:52:22,250
+Quindi, se io faccio passare un pubblico, cosa diventerà quando arriva il figlio?
+
+413
+00:52:22,510 --> 00:52:22,970
+Pubblico?
+
+414
+00:52:23,471 --> 00:52:36,016
+Ho fieta di te, e quindi non mi hai detto nulla.
+
+415
+00:52:36,656 --> 00:52:44,399
+La domanda è, se io ti mando un'eredità pubblica, poi la dò a te che sei figlio, no?
+
+416
+00:52:45,589 --> 00:52:47,630
+A questo punto, questa è l'edità pubblica.
+
+417
+00:52:47,830 --> 00:52:48,570
+Cosa diventerà?
+
+418
+00:52:49,130 --> 00:52:51,191
+Deve diventare o pubblico, privato o protetto.
+
+419
+00:52:52,892 --> 00:52:53,332
+Ci sei?
+
+420
+00:52:53,892 --> 00:52:54,153
+Si.
+
+421
+00:52:54,213 --> 00:52:54,733
+Tu pensare.
+
+422
+00:52:55,213 --> 00:52:55,473
+Sei.
+
+423
+00:52:58,154 --> 00:52:58,654
+Domanda.
+
+424
+00:52:59,055 --> 00:52:59,935
+Cosa diventerà?
+
+425
+00:53:01,355 --> 00:53:03,376
+Ma non è una domanda che sto facendo a voi.
+
+426
+00:53:04,937 --> 00:53:06,898
+È sicuramente un problema che dovrò risolvere.
+
+427
+00:53:07,918 --> 00:53:11,720
+Se io ti mando un protetto e mando il protetto al figlio,
+
+428
+00:53:13,988 --> 00:53:15,069
+Nasce protetto?
+
+429
+00:53:15,529 --> 00:53:17,731
+Sì, ma una volta che arriva cosa diventerà?
+
+430
+00:53:19,572 --> 00:53:20,073
+Ci siete?
+
+431
+00:53:20,353 --> 00:53:21,954
+Perché deve diventare qualcosa.
+
+432
+00:53:26,878 --> 00:53:28,079
+E la risposta è questa.
+
+433
+00:53:28,099 --> 00:53:36,766
+Allora, proviamo il padre.
+
+434
+00:53:39,087 --> 00:53:40,308
+Proviamo il figlio.
+
+435
+00:53:43,988 --> 00:53:46,970
+Ok, la risposta è questa.
+
+436
+00:54:08,664 --> 00:54:13,187
+Ok, questa è la retta.
+
+437
+00:54:20,058 --> 00:54:20,398
+Va bene?
+
+438
+00:54:21,239 --> 00:54:25,642
+Questa è l'eredità che si sposta dal padre e dal marito.
+
+439
+00:54:26,442 --> 00:54:26,843
+Va bene?
+
+440
+00:54:30,185 --> 00:54:34,068
+A questo punto il canale che viene utilizzato è questo segmento.
+
+441
+00:54:35,328 --> 00:54:38,811
+E a questo punto quello che c'è scritto lì significa.
+
+442
+00:54:40,532 --> 00:54:41,513
+Noi c'eravamo lasciati.
+
+443
+00:54:41,773 --> 00:54:44,214
+Ti mando un metodo pubblico.
+
+444
+00:54:44,755 --> 00:54:47,817
+Ti mando la proprietà privata
+
+445
+00:54:49,051 --> 00:54:52,814
+Arriva il figlio, cosa diventa?
+
+446
+00:54:54,675 --> 00:54:57,537
+O meglio, che grado di visibilità ha?
+
+447
+00:54:59,178 --> 00:55:00,238
+Pubblico, privato o protetto?
+
+448
+00:55:00,318 --> 00:55:01,559
+O manchina quello del padre?
+
+449
+00:55:02,200 --> 00:55:02,700
+Ci siete?
+
+450
+00:55:03,841 --> 00:55:10,045
+La risposta è... Dipende.
+
+451
+00:55:19,855 --> 00:55:20,255
+È chiaro?
+
+452
+00:55:21,316 --> 00:55:21,836
+Dipende.
+
+453
+00:55:22,697 --> 00:55:23,798
+Da cosa dipende?
+
+454
+00:55:25,138 --> 00:55:25,799
+Da come?
+
+455
+00:55:30,342 --> 00:55:33,504
+Queste si chiamano regole di passaggio.
+
+456
+00:55:45,191 --> 00:55:45,691
+Ci siete?
+
+457
+00:55:46,672 --> 00:55:48,113
+Questa è una regola di passaggio.
+
+458
+00:55:50,545 --> 00:55:55,590
+Io, il genitore, ti trasmetto la mia verità a questa immondizione.
+
+459
+00:55:56,851 --> 00:55:57,491
+E sono tre.
+
+460
+00:56:01,655 --> 00:56:06,900
+Chiaro?
+
+461
+00:56:07,160 --> 00:56:07,680
+Come dire?
+
+462
+00:56:08,481 --> 00:56:16,308
+Il genitore sa che deve trasmettere la verità verità, ma a questo punto il genitore, mica tanto il genitore,
+
+463
+00:56:18,397 --> 00:56:47,275
+il progettista decide praticamente o il notario che ha appunto indicazioni dice ok io ti passo le reddità però a queste condizioni per usare le metà, per esempio e ok questa reddità la puoi usare i primi due anni questa reddità è vincolata, li puoi usare al cumplimento del tuottesimo anno sempre reddità è però l'uso cambia a seconda delle condizioni
+
+464
+00:56:48,757 --> 00:56:49,278
+Ci siete?
+
+465
+00:56:50,278 --> 00:56:51,480
+Poca ragionamento sempre.
+
+466
+00:56:52,380 --> 00:56:58,446
+Benissimo, questo se fossimo in presenza di un notario, ma lui c'è un notario, però a questo punto le bandizioni che ci sono.
+
+467
+00:56:59,867 --> 00:57:14,441
+Se le regole di passaggio è, io ti passo la mia eredità con la condizione public, condizione, non confondete, la visibilità con la condizione.
+
+468
+00:57:18,078 --> 00:57:25,962
+Se la regola di passaggio del pacchetto è pubblico, tutto quello che arriva mantiene la stessa visibilità, il significato è questo.
+
+469
+00:57:30,264 --> 00:57:30,745
+Ci siete?
+
+470
+00:57:33,426 --> 00:57:35,807
+Cosa che si è messo preso?
+
+471
+00:57:35,987 --> 00:57:42,551
+Non ho capito bene, quindi il padre mette la condizione che il concetto del pacchetto è pubblico?
+
+472
+00:57:42,591 --> 00:57:44,452
+No, il padre ovviamente mette le reti tante.
+
+473
+00:57:46,505 --> 00:58:00,231
+Poi a questo punto qualcuno decide l'eredità che io te la devo dare, però a questo punto diciamo che c'è un terzo soggetto che decide come te la devo dare.
+
+474
+00:58:01,011 --> 00:58:05,053
+Come te la devo dare significa cosa diventerà quell'eredità quando avremo.
+
+475
+00:58:05,673 --> 00:58:09,935
+L'eredità parte sempre, capisci?
+
+476
+00:58:11,145 --> 00:58:17,007
+La funzione è la variabile, parte sempre, quelle eredità che non possono bloccare, parte.
+
+477
+00:58:18,267 --> 00:58:22,669
+La regola è, tutto ciò che è pubblico parte, tutto ciò che è protetto parte.
+
+478
+00:58:24,149 --> 00:58:25,810
+Il problema è cosa diventa.
+
+479
+00:58:29,011 --> 00:58:29,751
+Resta pubblico?
+
+480
+00:58:30,351 --> 00:58:31,232
+Resta protetto?
+
+481
+00:58:33,152 --> 00:58:35,273
+Il pubblico diventa protetto?
+
+482
+00:58:37,124 --> 00:58:38,684
+diventa privato.
+
+483
+00:58:38,704 --> 00:58:44,145
+La cosa è certa, quando io ti do l'eredità, poi a questo punto, quella eredità deve diventare qualcosa, no?
+
+484
+00:58:45,165 --> 00:58:45,726
+Ci siete?
+
+485
+00:58:46,926 --> 00:58:50,086
+Non lo dimenticate, perché questa è una cosa che dimenticate.
+
+486
+00:58:51,787 --> 00:58:54,707
+E quindi io devo decidere cosa deve passare.
+
+487
+00:58:54,787 --> 00:59:05,009
+Cioè, io sono intermediario, diciamo che è per il Pista del Men che fa sta roba, io devo decidere praticamente che tipo
+
+488
+00:59:06,431 --> 00:59:11,355
+non quale eredità, ma cosa diventerà l'eredità quando arriva.
+
+489
+00:59:13,236 --> 00:59:13,777
+Ci siete?
+
+490
+00:59:17,279 --> 00:59:17,519
+Sì.
+
+491
+00:59:19,060 --> 00:59:19,481
+È chiaro?
+
+492
+00:59:20,261 --> 00:59:34,312
+E quindi, se la regola di passaggio è tutto quello che c'è nell'eredità viene passato con la regola public, mantiene la stessa invisibilità.
+
+493
+00:59:39,184 --> 00:59:44,665
+Se la regola è privata, bene, le cose sono diverse.
+
+494
+00:59:46,025 --> 00:59:50,546
+Ti arriva l'eredità, però cambia con su.
+
+495
+00:59:51,947 --> 00:59:52,747
+Che ne puoi fare?
+
+496
+00:59:54,287 --> 00:59:56,788
+Quindi privato può diventare tutto privato.
+
+497
+01:00:00,048 --> 01:00:02,069
+E cosa succede con la regola di passaggio?
+
+498
+01:00:02,129 --> 01:00:03,889
+Quindi sono regole di passaggio
+
+499
+01:00:06,553 --> 01:00:21,278
+La cosa su cui voglio transisto, cercando di insistere, attenzione a mediamente, mediamente, per non vogliare mai, passate sempre per pubblico.
+
+500
+01:00:23,139 --> 01:00:29,601
+Quello che è la pubblico resta pubblico, quello che è la protetta resta protetta.
+
+501
+01:00:30,001 --> 01:00:32,302
+Il problema è quando comincio ad usare il protetta privato.
+
+502
+01:00:33,881 --> 01:00:50,105
+lì cambiano le cose, l'eredita arriva, la cosa è certa, il pubblico non resterà pubblico e quindi cosa voglio dire?
+
+503
+01:00:51,065 --> 01:00:56,126
+Voglio dire questo, il concetto
+
+504
+01:00:58,565 --> 01:01:08,413
+E' chiaro, più che il concetto del problema, so cosa è l'eredità, la riconosco, deve passare, il problema c'è uno sbaglamento.
+
+505
+01:01:08,834 --> 01:01:12,617
+Io devo stabilire come deve arrivare.
+
+506
+01:01:14,038 --> 01:01:19,222
+Come deve arrivare significa, se ti mandi una cosa pubblica cosa diventerà quando raggiungerai il figlio?
+
+507
+01:01:20,823 --> 01:01:24,026
+Al figlio arriva, il problema è cosa diventerà.
+
+508
+01:01:26,124 --> 01:01:45,398
+e qui mi riferisco a questo se incrociate le dita no, le dita sono ancora sotto ok
+
+509
+01:01:55,206 --> 01:01:57,807
+E qui ci sono gli argomenti relativi alla verità.
+
+510
+01:02:00,648 --> 01:02:01,968
+Ok, questa è la verità.
+
+511
+01:02:09,730 --> 01:02:10,870
+Leggiamo questa tabella.
+
+512
+01:02:14,711 --> 01:02:15,391
+Questo è il padre.
+
+513
+01:02:16,692 --> 01:02:17,052
+Chi siete?
+
+514
+01:02:18,346 --> 01:02:24,508
+Il padre è dotato di membri privati, protetti e pubblici.
+
+515
+01:02:26,009 --> 01:02:26,309
+Bene?
+
+516
+01:02:29,310 --> 01:02:31,471
+Queste sono le regole di passaggi.
+
+517
+01:02:35,512 --> 01:02:35,992
+Ci siete?
+
+518
+01:02:36,613 --> 01:02:37,953
+Ma come puzzare il piano?
+
+519
+01:02:37,973 --> 01:02:39,834
+Perché non c'è un aggravato con queste cose?
+
+520
+01:02:39,934 --> 01:02:40,654
+E' proprio questo?
+
+521
+01:02:41,229 --> 01:02:52,332
+discorso questi usori apparentemente ricondate della parola pubblica che ho detto e quindi c'è una parente confusione in quel ci siete?
+
+522
+01:02:54,813 --> 01:03:08,097
+supponiamo che passi un membro e anche qui non parliamo di variabili di funzioni parliamo di membri perché può succedere che all'interno ci sia un'altra classe
+
+523
+01:03:10,009 --> 01:03:21,034
+Quindi, se io mi abito, funzioni variabili, funzioni variabili, funzioni variabili, vedo la classe, non so, non riesco neanche ad immaginare perché esiste.
+
+524
+01:03:22,515 --> 01:03:22,915
+È chiaro?
+
+525
+01:03:24,316 --> 01:03:34,020
+Quindi, usiamo un linguaggio, lo uso in maniera strumentale, una variabile pubblica, una proprietà pubblica.
+
+526
+01:03:34,620 --> 01:03:35,061
+Ci siete?
+
+527
+01:03:35,921 --> 01:03:37,982
+Sto ascoltando il padre, cos'è il padre?
+
+528
+01:03:39,053 --> 01:03:45,995
+A questo punto la regola di passaggio è privata.
+
+529
+01:03:48,695 --> 01:03:49,195
+Ci siete?
+
+530
+01:03:50,296 --> 01:03:59,038
+A questo punto cosa diventerà la variabile che nel padre era pubblica quando raggiunge il figlio?
+
+531
+01:04:01,178 --> 01:04:07,680
+La regola è pubblico diventa, con il passaggio privato,
+
+532
+01:04:16,715 --> 01:04:17,515
+siete?
+
+533
+01:04:22,397 --> 01:04:24,818
+E se la regola di passaggio è protetta?
+
+534
+01:04:28,800 --> 01:04:37,924
+Il pubblico viene passato con la regola protetta e diventa protetto.
+
+535
+01:04:39,525 --> 01:04:39,905
+Ci siete?
+
+536
+01:04:43,519 --> 01:04:44,980
+pageremo sempre sul pubblico.
+
+537
+01:04:45,420 --> 01:05:05,287
+Se invece la regola è pubblica, tutto ciò che era pubblico, la variabile, diventerà pubblico, o resterà pubblico.
+
+538
+01:05:05,447 --> 01:05:06,327
+Questo è che significa.
+
+539
+01:05:07,728 --> 01:05:10,729
+Questo è il passato, il padre, e questo è il futuro.
+
+540
+01:05:13,104 --> 01:05:14,486
+con le relative condizioni.
+
+541
+01:05:15,527 --> 01:05:18,129
+Ci siete?
+
+542
+01:05:18,149 --> 01:05:23,394
+Andiamo a vedere cosa succede ai membri protetti.
+
+543
+01:05:25,236 --> 01:05:28,359
+Io c'ho un protetto, una variabile protetta.
+
+544
+01:05:29,460 --> 01:05:31,181
+La regola di passaggio è privata.
+
+545
+01:05:31,341 --> 01:05:32,042
+Cosa diventa?
+
+546
+01:05:32,062 --> 01:05:33,423
+Chiaro?
+
+547
+01:05:38,908 --> 01:05:56,222
+se la variabile è sempre protetta e la regola di passaggio di protetta mantiene la sua identità di protetto protetto col pubblico mantiene l'identità del protetto ci siete?
+
+548
+01:05:59,424 --> 01:06:05,369
+domani e se ci sono i privati?
+
+549
+01:06:09,971 --> 01:06:16,155
+Non mi fanno il problema perché l'accessibile non passa niente, l'eredità non passa.
+
+550
+01:06:16,195 --> 01:06:17,575
+Posso usare tutto quello che ho portato?
+
+551
+01:06:17,595 --> 01:06:18,056
+Non passa.
+
+552
+01:06:18,776 --> 01:06:23,179
+In effetti poi la partita è questa, l'eredità è questa.
+
+553
+01:06:24,039 --> 01:06:25,000
+Quindi ripiro gani.
+
+554
+01:06:26,180 --> 01:06:30,563
+Se veramente il pubblico lo passa con regola privata, diventa
+
+555
+01:06:32,513 --> 01:06:47,044
+privato quindi poi se è pubblico e lo mando come protetto diventa protetto se è pubblico e lo mando come pubblico è chiaro?
+
+556
+01:06:49,489 --> 01:06:54,675
+Se invece protesto e lo mando come privato, diventa privato.
+
+557
+01:06:54,755 --> 01:07:02,664
+Quindi ogni volta che lo passo, le veredità, con una regola di privato, tutto diventa privato.
+
+558
+01:07:02,784 --> 01:07:10,053
+Questo significa che tutti gli elementi sono brindati, sono irraggiungibili dall'esterno, ma non solo.
+
+559
+01:07:10,816 --> 01:07:15,899
+Non solo, guardate, riflettete su questo, quanto è pubblico, no?
+
+560
+01:07:16,520 --> 01:07:20,742
+La regola di passaggio è protetta, diventa protetto.
+
+561
+01:07:20,782 --> 01:07:39,134
+Ma questo significa anche un'altra cosa, se questo diventerà, da pubblico diventerà protetto, beh, questa è una potenziale eredità per i suoi figli, nonché un nipoti, il padre, è chiaro?
+
+562
+01:07:41,303 --> 01:07:43,804
+Ecco il motivo per cui esistono i protetti.
+
+563
+01:07:43,824 --> 01:07:51,106
+I protetti sono praticamente un'eredità pubbice, è un'eredità che può passare a nipoti, eh, per nipoti.
+
+564
+01:07:52,767 --> 01:07:53,127
+È chiaro?
+
+565
+01:07:57,748 --> 01:07:59,509
+Fermare sta andata la regola di passaggio.
+
+566
+01:08:00,289 --> 01:08:08,312
+Se poi ovviamente metto una regola di passaggio durante la catena privata, c'è santo, affinità, gerardia,
+
+567
+01:08:10,188 --> 01:08:11,749
+quel pezzo della vita non passa.
+
+568
+01:08:13,530 --> 01:08:14,051
+Ci siete?
+
+569
+01:08:14,631 --> 01:08:14,751
+Da.
+
+570
+01:08:14,891 --> 01:08:15,131
+Sì.
+
+571
+01:08:15,552 --> 01:08:16,893
+Ultimo ma non ultimo.
+
+572
+01:08:18,754 --> 01:08:24,918
+Il senso di servizio è chiaro che cosa manca, ma anche l'esempio fragile.
+
+573
+01:08:28,241 --> 01:08:30,322
+A proposito degli insegnanti che mancano.
+
+574
+01:08:31,963 --> 01:08:38,328
+Qui sarebbe stato l'unico senso dell'insegnante di lavoratorio, perché qualcuno dice
+
+575
+01:08:39,415 --> 01:08:40,636
+Ma qual'è il mio mestiere?
+
+576
+01:08:42,097 --> 01:08:45,760
+Qual'è la differenza tra teorico e lavoratorio?
+
+577
+01:08:46,060 --> 01:08:47,101
+Perché questo è il mio.
+
+578
+01:08:49,743 --> 01:08:50,103
+La sua?
+
+579
+01:08:50,744 --> 01:08:51,264
+O il suo?
+
+580
+01:09:00,871 --> 01:09:02,333
+E' questa, la politica.
+
+581
+01:09:04,054 --> 01:09:07,837
+E in effetti cosa vi sta mancando nella conversione che vi ho dato io?
+
+582
+01:09:08,490 --> 01:09:11,451
+L'impanettazione, l'ipotetazione.
+
+583
+01:09:11,491 --> 01:09:15,132
+La parte di la propria cosa è quella.
+
+584
+01:09:16,653 --> 01:09:19,694
+C'è una domanda che non mi avete fatta e che vorrei che facesse a lui.
+
+585
+01:09:20,014 --> 01:09:23,715
+Adesso voglio una batteria di domande da girare a chat di EPT.
+
+586
+01:09:24,236 --> 01:09:30,158
+Perché se scatta la presunzione, tutto quello che hai detto è esaustivo, vi siete sbagliati.
+
+587
+01:09:31,598 --> 01:09:36,620
+La vera domanda è sì, ok, ci hai spiegato come funziona la mentalità.
+
+588
+01:09:37,836 --> 01:09:48,240
+ci hai spiegato cos'è l'eredità, ci hai spiegato le regole di passaggio, c'è una cosa che non vi ho detto, perché esiste?
+
+589
+01:09:51,461 --> 01:09:56,764
+Perché esiste tutto questo cosiddetto, tra tutto, quando lo usa?
+
+590
+01:09:57,824 --> 01:09:59,345
+Perché lo hanno inventato?
+
+591
+01:10:00,805 --> 01:10:05,027
+Perché lo hanno... io ti ho detto come funziona, no?
+
+592
+01:10:09,064 --> 01:10:10,544
+1.
+
+593
+01:10:09,384 --> 01:10:10,544
+Perché l'hanno inventato?
+
+594
+01:10:11,885 --> 01:10:12,845
+Perché c'era un problema.
+
+595
+01:10:13,045 --> 01:10:14,445
+Quale era il problema che c'era?
+
+596
+01:10:18,866 --> 01:10:20,347
+Devo progettare un'applicazione.
+
+597
+01:10:22,807 --> 01:10:26,768
+Quando mi conviene di risolvere le vitalità, quale problema mi risolve le vitalità?
+
+598
+01:10:26,808 --> 01:10:29,669
+Perché se non mi risolvo in cazzo, perché l'hanno inventato?
+
+599
+01:10:29,829 --> 01:10:31,989
+Hanno chiesto il tempo per fare cosa.
+
+600
+01:10:34,010 --> 01:10:34,430
+E' chiaro?
+
+601
+01:10:35,551 --> 01:11:04,225
+queste sono le tre domande, ovviamente, la bozza di domande che dovete rivolgere a lui perché voi sapete come funziona sapete cosa è l'eredità, come passarla, quello che succede non sapete usarlo e quindi vi do l'aiutino l'eredità risolve tanti problemi tipo esprime il concetto
+
+602
+01:11:05,111 --> 01:11:12,397
+Prendetela appunto, questa parola frase, questa parola chiave, è importante per fare le altre domande.
+
+603
+01:11:12,977 --> 01:11:30,952
+Esprime il concetto di specializzazione e generalizzazione, che significa in pratica, io ho una classe generica che ha delle funzionalità di base che mi bassano nella maggior parte delle volte.
+
+604
+01:11:33,562 --> 01:11:42,745
+Poi ad un certo punto mi rendo conto voglio potenziare questo vecchio oggetto aggiungendo delle nuove funzionalità.
+
+605
+01:11:43,905 --> 01:11:49,067
+Distinto prendo il vecchio oggetto e lo ripostruisco.
+
+606
+01:11:49,907 --> 01:11:55,489
+Però poi mi rendo conto che quelle funzioni, le vecchie funzionalità fanno funzionare altre applicazioni.
+
+607
+01:11:56,789 --> 01:12:03,231
+Quindi se lo smantello e lo sostituisco le altre applicazioni potrebbero non funzionare correttamente.
+
+608
+01:12:05,282 --> 01:12:33,491
+e allora a questo punto una cosa a cui penso è ok voglio mantenere le due cose però voglio anche quindi voglio mantenere il vecchio e voglio aggiungere delle nuove funzionalità oppure voglio modificare alcune funzionalità del paio che sono diventate obsolete e aggiungere delle nuove funzionalità però quelle vecchie funzionalità
+
+609
+01:12:35,026 --> 01:12:47,509
+servono per garantire, raffine il concetto, la compotibilità verso il passato o le vecchie versioni, cosa che succede con gli sistemi Windows.
+
+610
+01:12:49,809 --> 01:12:58,631
+Quando fanno l'aggiornamento, quelli dei Windows, non pensano solamente alle nuove funzionalità, pensano a tutti i vecchi computer che lavorano con le vecchie funzionalità.
+
+611
+01:12:59,751 --> 01:13:03,892
+E quindi, a questo punto, dino ok, devo garantire il passato
+
+612
+01:13:04,517 --> 01:13:17,340
+esiste e migliorare il futuro perché esiste quindi retro compatibilità futuro presente e futuro.
+
+613
+01:13:18,940 --> 01:13:33,403
+Nel momento in cui io progetto quando decido di aggiungere una funzionalità mi chiedo ho un pacchetto di classi che mi fa funzionare la mia applicazione mi rendo conto che dovrò fare degli aggiornamenti che faccio
+
+614
+01:13:35,322 --> 01:13:37,485
+Questo significa che posso.
+
+615
+01:13:38,967 --> 01:13:41,851
+Il termine tecnico è scalabilità del software.
+
+616
+01:13:43,233 --> 01:13:52,066
+Scalabilità che significa aggiungo delle funzionalità mantenendo quello che c'era già e garantendomi la compatibilità con il passato.
+
+617
+01:13:54,778 --> 01:13:56,959
+Le domande che vorrei che facesse sono queste.
+
+618
+01:13:57,199 --> 01:13:59,940
+Ci avete un giorno, ci vediamo dopo domani.
+
+619
+01:14:00,500 --> 01:14:07,043
+Perché la sfida non è capire queste cose, ripeto, che potremmo fare anche in 10 minuti.
+
+620
+01:14:07,063 --> 01:14:08,103
+In 10 minuti.
+
+621
+01:14:08,163 --> 01:14:13,065
+La cosa più complicata è come cazzo si usa.
+
+622
+01:14:14,746 --> 01:14:20,708
+E quindi nella migliore delle ipotesi voi mi date la definizione, mi dico bravi.
+
+623
+01:14:20,768 --> 01:14:24,510
+Ok, avete la nozione, ma non sapete a che cazzo servono?
+
+624
+01:14:25,842 --> 01:14:27,443
+E' lei lo sforzo che deve essere fatto.
+
+625
+01:14:27,883 --> 01:14:29,844
+E quindi riprendiamo da qui.
+
+626
+01:14:31,205 --> 01:14:31,906
+Perché esiste?
+
+627
+01:14:33,267 --> 01:14:33,947
+Quale è lo scopo?
+
+628
+01:14:34,207 --> 01:14:35,488
+Quale problema risolve?
+
+629
+01:14:38,250 --> 01:14:41,371
+Quando è vantaggioso, è sempre vantaggioso, non sanno.
+
+630
+01:14:42,592 --> 01:14:44,393
+Quando mi conviene, quando non mi conviene.
+
+631
+01:14:44,473 --> 01:14:48,796
+Quali sono i casi in cui, vi sto facendo un elenco di domande, è ancora aperto?
+
+632
+01:14:49,997 --> 01:14:55,380
+Quando mi conviene far nascere un figlio, agganciarlo al padre,
+
+633
+01:14:57,301 --> 01:14:58,441
+Quali sono queste situazioni?
+
+634
+01:14:58,581 --> 01:15:17,767
+A me interessano quegli esempi e quella la vera differenza fra dare un'opzione e capire il senso delle cose perché quel senso mi serve per poi progettare un'applicazione che funzioni correttamente, che sfrutta la potenzialità altrimenti farò sempre funzioni senza parametri.
+
+635
+01:15:20,067 --> 01:15:20,607
+E i membri?
+
+636
+01:15:20,808 --> 01:15:25,909
+Sono tutti pubblici perché non so come scegliere
+
+637
+01:15:27,822 --> 01:15:30,427
+e vi scelgo tutti i pubblici, è chiaro?
+
