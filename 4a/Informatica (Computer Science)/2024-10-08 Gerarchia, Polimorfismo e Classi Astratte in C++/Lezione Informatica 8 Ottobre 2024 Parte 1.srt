@@ -1,0 +1,3108 @@
+1
+00:00:03,476 --> 00:00:07,937
+Ti conosce anche il Sandro?
+
+2
+00:00:08,037 --> 00:00:12,958
+Adesso non lo so niente.
+
+3
+00:00:13,138 --> 00:00:13,758
+Anche quella sì?
+
+4
+00:00:14,279 --> 00:00:14,839
+No, non so.
+
+5
+00:00:16,699 --> 00:00:17,219
+Vector?
+
+6
+00:00:17,879 --> 00:00:19,040
+No, no, no.
+
+7
+00:00:19,780 --> 00:00:20,700
+Dicci di no?
+
+8
+00:00:21,100 --> 00:00:27,722
+No, no, mette un puntatore per la morte di Dio.
+
+9
+00:00:27,922 --> 00:00:29,502
+Ma aggiungi overhead così per niente?
+
+10
+00:00:31,643 --> 00:00:32,783
+Tanto devi gestire te quello.
+
+11
+00:00:38,834 --> 00:00:40,475
+A parte che non ha senso così.
+
+12
+00:00:46,859 --> 00:00:46,919
+No.
+
+13
+00:00:47,299 --> 00:00:47,499
+Sì?
+
+14
+00:00:48,099 --> 00:00:48,840
+È giusto qua.
+
+15
+00:00:49,080 --> 00:00:51,221
+No, non è giusto.
+
+16
+00:00:51,761 --> 00:00:57,765
+Perché è un puntatore e al Ciaro non è un back-trick.
+
+17
+00:00:57,865 --> 00:00:59,205
+Ti rende la vita più difficile, vedi?
+
+18
+00:00:59,266 --> 00:00:59,366
+Sì.
+
+19
+00:00:59,986 --> 00:01:06,229
+Ma perché tu hai batto in questa maniera?
+
+20
+00:01:06,249 --> 00:01:06,350
+Cosa?
+
+21
+00:01:07,790 --> 00:01:14,974
+C'è un'idea, poi mi dico... Ah, mi è andato a corsa
+
+22
+00:01:38,420 --> 00:01:39,732
+che cazzo ci ha a roba io
+
+23
+00:02:13,695 --> 00:02:17,177
+Guarda.
+
+24
+00:02:18,778 --> 00:02:22,421
+Ha usato... Sì.
+
+25
+00:02:22,461 --> 00:02:23,722
+No, cosa avevi usato?
+
+26
+00:02:23,782 --> 00:02:24,382
+C'è il GPS.
+
+27
+00:02:26,203 --> 00:02:36,110
+Ah, vero che mi hai chiesto.
+
+28
+00:02:37,111 --> 00:02:37,251
+Chi è?
+
+29
+00:02:37,371 --> 00:02:38,392
+Daniele Salvati?
+
+30
+00:02:39,207 --> 00:02:44,990
+Nel senso di niente.
+
+31
+00:02:45,030 --> 00:02:51,014
+Dice che con le diverse società non è affrontata un'altra.
+
+32
+00:02:52,835 --> 00:02:54,236
+Non ho detto quasi quasi.
+
+33
+00:02:55,176 --> 00:02:55,657
+Fanno venire?
+
+34
+00:02:58,098 --> 00:03:03,421
+Sì e no, nel senso che non voglio capire se è il caso di farlo venire
+
+35
+00:03:05,718 --> 00:03:11,839
+Voglio farlo parlare con voi, voglio capire quello che me l'ha mandato ieri sera.
+
+36
+00:03:15,140 --> 00:03:28,722
+Poi mi ha detto, e lo conosce anche Alessandro, mi ha detto che da un pochino non ci sentiamo e mi ha detto questa cosa.
+
+37
+00:03:29,342 --> 00:03:32,163
+Mi ha girato con diverse aziende internazionali
+
+38
+00:03:34,711 --> 00:03:42,638
+Questo è uno di quegli studenti che ha fatto tutto nella vita, no?
+
+39
+00:03:44,840 --> 00:04:02,075
+In bianchino, guarda giurata, mercati e poi praticamente adesso l'hanno lasciato ridestila con team e erano tutti ingegneri.
+
+40
+00:04:04,532 --> 00:04:27,169
+e l'avevo mandato anche delle persone quando si sono accordati per questione di distanza, che era lontana l'azienda e poi niente, non potevo, non ci senti tanto volevo così e ho intenzione di
+
+41
+00:04:32,931 --> 00:04:57,146
+un'intenzione di organizzare un incontro e vedere se ci sono delle possibilità si occupa di tantissime cose
+
+42
+00:05:02,219 --> 00:05:30,688
+e quindi è un'opportunità, anche per fare cose un po' diverse mi sta cominciando a nuogliare quindi ho bisogno di rigenerarmi almeno assenso un po' di cose, un po' di cose nuove ue Giancarlo io non ti ho ancora mandato niente, però... su github c'è tutto, qua sto facendo anche la documentazione
+
+43
+00:05:33,113 --> 00:05:34,234
+Le cose non le ha finite?
+
+44
+00:05:34,254 --> 00:05:35,135
+No, no, no.
+
+45
+00:05:36,796 --> 00:05:40,139
+Io stavo all'uoto.
+
+46
+00:05:40,180 --> 00:05:44,424
+Facciamo le cose istituzionali.
+
+47
+00:05:45,304 --> 00:05:49,348
+La tua il mio gli ha buttato un occhio?
+
+48
+00:05:50,770 --> 00:05:53,332
+L'ho visto, ho guardato.
+
+49
+00:05:54,714 --> 00:05:55,975
+Però non l'ho chiata.
+
+50
+00:05:56,075 --> 00:05:56,996
+E' molto semplice.
+
+51
+00:05:58,627 --> 00:06:00,708
+Ce l'avevo guardato quando avevo fatto il mio.
+
+52
+00:06:01,888 --> 00:06:07,090
+Sì, ho visto che hai fatto... Dove era quello?
+
+53
+00:06:07,110 --> 00:06:07,670
+Questo qua.
+
+54
+00:06:09,271 --> 00:06:12,152
+M size of type and M first, M team.
+
+55
+00:06:13,072 --> 00:06:14,392
+Cioè, cosa intendi con questi?
+
+56
+00:06:14,472 --> 00:06:17,613
+Allora, li ho messi lì, però potrei anche non usarli.
+
+57
+00:06:19,294 --> 00:06:26,516
+Size of type è la dimensione del tipo che poi... Ah, ho capito, lì, questo qua.
+
+58
+00:06:27,577 --> 00:06:27,957
+Esatto.
+
+59
+00:06:29,117 --> 00:06:30,157
+Per esempio?
+
+60
+00:06:30,477 --> 00:06:31,998
+Sarebbe il primo slot libero.
+
+61
+00:06:33,698 --> 00:06:35,679
+Sarebbe anche, in realtà sarebbe size.
+
+62
+00:06:36,379 --> 00:06:39,220
+Ah, questo sto dicendo se... No, aspetta, perché?
+
+63
+00:06:39,720 --> 00:06:45,401
+No, non ho capito.
+
+64
+00:06:48,462 --> 00:06:51,363
+C'è il vettore, no?
+
+65
+00:06:51,403 --> 00:06:54,924
+Il primo slot libero deve essere libero dalla fine.
+
+66
+00:06:55,364 --> 00:06:55,684
+È quello.
+
+67
+00:06:57,429 --> 00:07:01,273
+Però è la stessa cosa di size.
+
+68
+00:07:04,036 --> 00:07:05,897
+Ma quindi alla fine vuole a size?
+
+69
+00:07:06,178 --> 00:07:08,780
+Sì, alla fine sì, normalmente hanno lo stesso valore.
+
+70
+00:07:09,781 --> 00:07:13,745
+Però se magari modifico size ho quello da usare.
+
+71
+00:07:14,305 --> 00:07:16,347
+Ah, è tipo un tempo diciamo.
+
+72
+00:07:16,608 --> 00:07:16,948
+Esatto.
+
+73
+00:07:17,128 --> 00:07:19,711
+Ma non è mica che devi sempre sincronizzare questi due?
+
+74
+00:07:19,731 --> 00:07:19,771
+Sì.
+
+75
+00:07:23,397 --> 00:07:27,280
+Però c'è un overhead che non serve a niente, alla fine potrei anche evitarlo.
+
+76
+00:07:27,840 --> 00:07:37,567
+Un overhead... Preventive Memorization.
+
+77
+00:07:37,587 --> 00:07:41,050
+Infatti questo qua lo sapevo prima, lo avevo visto.
+
+78
+00:07:41,710 --> 00:07:47,515
+Che lo cambia solo se... Ma no, questa è una cosa che fai tu da utente, che lo usi.
+
+79
+00:07:48,628 --> 00:08:17,595
+tu dici al posto magari se hai già che avrai almeno mille elementi allora ti fai riserva mille così sai già che hai poi se hai già tipo 1000 e puoi fare 100 non puoi più farlo perchè hai già 100 in realtà ci sono già 100 che serve quindi non cambia nulla poi ho notato anche che hai proprio usato come si dice
+
+80
+00:08:19,921 --> 00:08:22,443
+Il stile del C sharp.
+
+81
+00:08:24,244 --> 00:08:25,305
+Ah.
+
+82
+00:08:25,345 --> 00:08:28,207
+Sì, io metto le facce con la lettera maiusca.
+
+83
+00:08:29,048 --> 00:08:29,888
+Questo C sharp.
+
+84
+00:08:30,189 --> 00:08:30,549
+Oh no.
+
+85
+00:08:30,769 --> 00:08:31,169
+Oh no.
+
+86
+00:08:31,250 --> 00:08:32,150
+Oh no.
+
+87
+00:08:32,711 --> 00:08:33,411
+Oh no.
+
+88
+00:08:33,671 --> 00:08:34,032
+Oh no.
+
+89
+00:08:34,132 --> 00:08:34,432
+Oh no.
+
+90
+00:08:35,933 --> 00:08:36,233
+Oh no.
+
+91
+00:08:36,313 --> 00:08:36,634
+Oh no.
+
+92
+00:08:36,694 --> 00:08:36,874
+Oh no.
+
+93
+00:08:36,934 --> 00:08:37,294
+Oh no.
+
+94
+00:08:37,414 --> 00:08:38,075
+Oh no.
+
+95
+00:08:38,715 --> 00:08:39,376
+Oh no.
+
+96
+00:08:48,595 --> 00:09:01,199
+io devo guardare qui come funziona un po' più guarda dove si mette la 1% come l'hai detto nooo si viene qua sono più abituato a vedere questo qua ma dove l'hai visto?
+
+97
+00:09:02,199 --> 00:09:12,062
+è una abitudine ma è una pessima abitudine perchè il riferimento è sul tipo non sul nome della funzione allora cosa che avete fatto?
+
+98
+00:09:12,082 --> 00:09:13,722
+vi avete mandato?
+
+99
+00:09:13,942 --> 00:09:15,663
+io vi avevo chiesto di cominciare a guardare la
+
+100
+00:09:17,828 --> 00:09:19,632
+a liberia standard, particolari vettor e stringhi, guardate?
+
+101
+00:09:29,855 --> 00:09:32,456
+Sì, no, non l'ho guardata.
+
+102
+00:09:32,836 --> 00:09:35,557
+Non l'ho guardata.
+
+103
+00:09:36,257 --> 00:09:38,438
+Tu l'hai guardata?
+
+104
+00:09:38,838 --> 00:09:38,938
+Sì.
+
+105
+00:09:38,958 --> 00:09:41,599
+Sto facendo qualcosa.
+
+106
+00:09:41,659 --> 00:09:45,280
+Non devi fare qualcosa, non fare grandi cose.
+
+107
+00:09:45,940 --> 00:09:50,581
+Ho guardato un po' insieme alla libreria Vector e le stringo ben ancora.
+
+108
+00:09:53,202 --> 00:09:54,122
+Parti alle stringhe.
+
+109
+00:09:55,563 --> 00:09:58,164
+Perché le stringhe puoi usare anche le stringhe.
+
+110
+00:09:59,941 --> 00:10:09,143
+Poi, quindi cominci a prendere l'infidenza, perché le puoi usare anche in un codice cino.
+
+111
+00:10:11,543 --> 00:10:20,625
+Vector, sì, c'è un concetto in più, e quindi... Guarda un po' più, dopo.
+
+112
+00:10:21,626 --> 00:10:23,326
+Prima prendi l'infidenza in estrella.
+
+113
+00:10:23,746 --> 00:10:25,346
+Invece la liberia tegue?
+
+114
+00:10:27,007 --> 00:10:28,227
+La liberia tegue.
+
+115
+00:10:29,309 --> 00:10:57,365
+No, no, no, no, quella no perché vi devo spiegare delle cose infatti adesso andiamo avanti un pochettino con la programmazione questa è un'attività fondamentalmente spostiamo l'attenzione verso i laboratori abbiamo un po' di strumenti in prospettiva che arrivi qualcuno così almeno avrete qualcosa
+
+116
+00:10:58,334 --> 00:11:15,505
+sono delle cose teoriche che devo spiegare e quindi già il fatto di fare un OML è teoria poi si tratta di trovare il punto di incontro con il linguaggio e di trasformare poi quel OML in codice
+
+117
+00:11:21,969 --> 00:11:49,662
+e quindi vorrevo riprendere c'è tutto il mondo delle strutture dati che dovremmo riprenderle mi riferisco alle strutture dinamiche in particolare puntatori soltanto che per voi per certi versi recupero o ripresa il problema è che chi non ce l'ha
+
+118
+00:11:53,915 --> 00:11:56,237
+faranno così, avranno qualche problema.
+
+119
+00:11:56,297 --> 00:11:57,398
+Comunque, torniamo a noi.
+
+120
+00:11:58,999 --> 00:12:13,910
+Facciamo un pochettino di C++ e quindi i concetti fondamentali della programmazione degli oggetti, quindi riprendiamo il concetto delle di Caritano, quindi penso che sia chiaro.
+
+121
+00:12:16,172 --> 00:12:21,856
+Quando fate queste esercitazioni poi, a questo punto dovreste fare lo scopo, l'idea è questa,
+
+122
+00:12:24,352 --> 00:12:28,535
+Nel momento in cui mi serve un vettore, a questo punto uso la classe vettore.
+
+123
+00:12:28,555 --> 00:12:32,699
+Nel momento in cui mi serve una stringa, uso la classe stringa.
+
+124
+00:12:34,220 --> 00:12:36,281
+Questi sono strumenti ulteriori, no?
+
+125
+00:12:39,484 --> 00:12:49,111
+Però, chiaramente, sono solo strumenti, perché a volte la possiamo considerare prevalentemente una mezza attività laboratoriale.
+
+126
+00:12:51,253 --> 00:12:52,414
+Qual è il senso?
+
+127
+00:12:53,263 --> 00:13:17,842
+usare un classi esistente e quindi l'obiettivo qual è in pratica non è tanto l'esercitazione quanto il fatto che se tu mi dici mi sono guardato la classe stringere come vi disse l'ultima volta la cosa più importante è come si studia una classe e quindi dicevamo primi costruttori
+
+128
+00:13:19,949 --> 00:13:23,351
+poi l'interfaccia, per l'interfaccia intendiamo tutto ciò che è pubblico.
+
+129
+00:13:24,652 --> 00:13:27,953
+Poi, a questo punto, lo scopo della classe, poi comincia il salmo.
+
+130
+00:13:30,735 --> 00:13:39,480
+Quindi, ogni volta che incrocio una nuova classe, la cosa che devo, ovviamente, conoscere è da dove comincio.
+
+131
+00:13:40,380 --> 00:13:47,764
+Quindi l'idea, ecco perché, questo lavoro è un lavoro laboratoriale che serve ovviamente a acquisire una tecnica di studio
+
+132
+00:13:50,270 --> 00:14:00,536
+Perché per parte della realtà sono nove classi che mettono a disposizione delle funzionalità e quindi mi faccio studiare una classe.
+
+133
+00:14:00,556 --> 00:14:19,906
+Poi ho detto successivo, costruisco la mia classe e allora ho subito cerco di documentarla, documentarla in pratica così come ho visto in C++ in un documento più formale.
+
+134
+00:14:22,452 --> 00:14:27,896
+L'anno scorso con te avevamo accennato, però avevo accennato un po' tutti, no?
+
+135
+00:14:27,956 --> 00:14:50,010
+C'è Doxigen, che sarebbe l'instrumento di documentazione delle classi e quindi sono strumenti che c'è, non ha senso, dico che il fatto di esercitazione lo dimentiche, come la storia di GitHub
+
+136
+00:14:51,371 --> 00:15:17,548
+cioè github non ha senso, cioè fare la lezione su github dico che ho fatto l'esercitazione, l'obiettivo è una volta che ho imparato ad usare github, tutto il lavoro lo faccio usando github allora all'inizio lo userò con delle funzioni di base di che ogni tanto aggiungo la funzione di github, l'importante è abituarsi a lavorare in quel modo quindi github
+
+137
+00:15:19,424 --> 00:15:20,225
+deve essere come?
+
+138
+00:15:20,265 --> 00:15:21,245
+Devo scrivere qualcosa?
+
+139
+00:15:21,265 --> 00:15:22,926
+È normale che io sa più usare la penna.
+
+140
+00:15:24,688 --> 00:15:40,918
+E quindi Doxygen diventa un strumento automatico, nel senso, è distinto di ciò che ho fatto una classe parte da Doxygen e faccio fare la documentazione, produco la documentazione attraverso Doxygen.
+
+141
+00:15:42,621 --> 00:15:59,052
+Quindi sono strumenti, diciamo, che rientrano nella professionalità, tanto è vero che è molto probabile che, se io scrivo un curriculum, mi dimentichi di citare l'uso di chitano, l'uso di oxygen, perché è talmente scontato.
+
+142
+00:15:59,953 --> 00:16:02,654
+Sui curriculum non scriviamo, non so usare la penna.
+
+143
+00:16:03,895 --> 00:16:06,637
+Non so te intessere, no?
+
+144
+00:16:06,737 --> 00:16:09,199
+O so leggere, non so te intessere.
+
+145
+00:16:10,791 --> 00:16:11,731
+E quindi, perché?
+
+146
+00:16:11,872 --> 00:16:12,672
+Perché lo facciamo?
+
+147
+00:16:14,393 --> 00:16:17,054
+Tutti i giorni, e quindi chiaramente è normale.
+
+148
+00:16:18,035 --> 00:16:31,221
+Non è normale in un contesto aziendale, in un contesto in cui ci si presenta, è chiaro che il fatto di trovare, di fronte alle persone che usano questi strumenti, è chiaro.
+
+149
+00:16:32,401 --> 00:16:37,744
+Ci sono delle persone che non solo sanno quello che devono sapere, ma anche hanno un metodo di lavoro, no?
+
+150
+00:16:38,692 --> 00:16:44,314
+e quindi sono molto più produttivi e quindi più immediati di inserire.
+
+151
+00:16:44,354 --> 00:16:46,595
+Detto questo, torniamo.
+
+152
+00:16:47,895 --> 00:16:49,755
+Noi abbiamo parlato di alimentarietà.
+
+153
+00:16:50,976 --> 00:16:53,317
+Vorrei che facesse subito un esempio idiota.
+
+154
+00:16:53,337 --> 00:16:54,757
+Io sono lento a scrivere.
+
+155
+00:16:56,798 --> 00:16:57,858
+Quindi lo possiamo fare.
+
+156
+00:16:59,879 --> 00:17:07,061
+Allora, uso la lavagna per farvi capire una cosa.
+
+157
+00:17:10,595 --> 00:17:26,368
+si tutti voi tenete la tastiera perché siete più veloci uno dice boomer, no sempre è stato così, anche la wak allora dicevamo, abbiamo fatto
+
+158
+00:17:38,386 --> 00:17:40,687
+Ok?
+
+159
+00:17:40,707 --> 00:17:46,810
+Questa è l'eresitalità, no?
+
+160
+00:17:46,870 --> 00:17:51,391
+Pare, figlio, a questo punto, qual è la sintassi?
+
+161
+00:17:51,411 --> 00:17:55,933
+Avete fatto prove di sintassi di classi derivati?
+
+162
+00:17:57,114 --> 00:17:59,835
+La sintassi, dal punto di vista del C, è questa, no?
+
+163
+00:18:00,955 --> 00:18:01,516
+La ossima.
+
+164
+00:18:03,296 --> 00:18:03,696
+In questo caso,
+
+165
+00:18:06,000 --> 00:18:15,962
+B è derivata, 2 punti, derivata, pubblico, privato, protetto, passaggio che vogliamo fare.
+
+166
+00:18:28,604 --> 00:18:31,425
+Pubblico, privato, protetto, derivata,
+
+167
+00:18:33,381 --> 00:18:42,389
+e a questo punto dentro ci mettiamo delle cose, quindi bisogna usare la sintassi, la sintassi del CPT.
+
+168
+00:18:45,051 --> 00:19:02,365
+Facendo ancora sintesi, eredità significa che ci sono dei membri che possono essere delle, della classe generica, che possono essere passati, non è privata, alla classe derivata,
+
+169
+00:19:04,093 --> 00:19:31,409
+quindi dal generale co-specializzato è chiaro che a questo punto è chiaro che qui abbiamo detto abbiamo detto dipende dal tipo di passaggio, la modalità di passaggio quindi se io passo secondo modalità pubblica succede qualcosa
+
+170
+00:19:32,472 --> 00:19:36,794
+protetta, succede altre cose, privato, succede altre cose.
+
+171
+00:19:38,274 --> 00:19:39,095
+Cosa succede?
+
+172
+00:19:40,075 --> 00:19:46,678
+Il problema è, io devo trasferire qualcosa alla classe specializzata.
+
+173
+00:19:48,338 --> 00:19:54,561
+Quello che posso trasferire sono, possono essere metodi, possono essere proprietà, possono essere classi.
+
+174
+00:19:58,424 --> 00:20:06,227
+È chiaro che nel momento in cui i membri raggiungono la classe B, il problema qual è in pratica?
+
+175
+00:20:06,367 --> 00:20:07,347
+Cosa diventeranno?
+
+176
+00:20:07,407 --> 00:20:08,227
+Cosa diventeranno?
+
+177
+00:20:08,287 --> 00:20:09,247
+Che significa?
+
+178
+00:20:10,088 --> 00:20:12,829
+Quale visibilità avranno?
+
+179
+00:20:14,489 --> 00:20:26,273
+E quindi abbiamo detto che all'interno della classe ci sono, sì, i membri, però in effetti succede ogni singolo membro, devo anche determinare un livello di visibilità.
+
+180
+00:20:27,046 --> 00:20:35,531
+pubblica significa che tutti possono usare quel membro, tutti intesi all'esterno della classe e dell'oggetto.
+
+181
+00:20:38,393 --> 00:20:39,034
+Protetto?
+
+182
+00:20:39,574 --> 00:20:39,734
+No.
+
+183
+00:20:40,955 --> 00:20:42,576
+Solo membre all'interno.
+
+184
+00:20:43,176 --> 00:20:43,716
+Privato?
+
+185
+00:20:43,957 --> 00:20:45,618
+No, solo membre all'interno.
+
+186
+00:20:47,759 --> 00:20:51,922
+E quindi, chiaramente, sapendo questo, quel sito qual è?
+
+187
+00:20:51,942 --> 00:20:54,103
+Una volta che ho trasferito l'eredità, cosa diventa?
+
+188
+00:20:54,855 --> 00:20:56,757
+quale grado di visibilità avrà.
+
+189
+00:20:59,699 --> 00:21:10,228
+E poi abbiamo visto lì, sul percorso, abbiamo visto quali sono le regole in pratica.
+
+190
+00:21:11,669 --> 00:21:20,277
+Quindi, discorso, trasferisco la modalità pubblica a mantenere lanterate ovviamente le visibilità.
+
+191
+00:21:22,559 --> 00:21:48,750
+nell'eredità o dell'eredità non fa parte tutta la componente private quindi praticamente resta una caratteristica della classe generica della generalizzazione passa dell'eredità praticamente composta da membri pubblici e membri protetti
+
+192
+00:21:52,370 --> 00:22:18,699
+quindi in brady la cosa interessante sul membro protetto dicevamo perché mantiene diciamo un grado di protezione e di visibilità praticamente minima quindi soltanto relativa all'interno della classe e non consente a soggetti esterni di utilizzare
+
+193
+00:22:20,755 --> 00:22:21,736
+quel membro.
+
+194
+00:22:25,078 --> 00:22:29,622
+Il privato ha un'altra caratteristica, non passa come levità, vero?
+
+195
+00:22:31,103 --> 00:22:39,949
+Può succedere, gli abbi hanno la necessità di far passare anche componenti, diciamo, inaccessibili all'esterno.
+
+196
+00:22:42,271 --> 00:22:44,152
+Questo ha introdotto questo nuovo concetto, no?
+
+197
+00:22:45,793 --> 00:22:47,315
+Il concetto di protetta, in pratica.
+
+198
+00:22:48,639 --> 00:22:50,980
+delle funzionalità che trattano anche prima.
+
+199
+00:22:52,281 --> 00:23:02,966
+Detto questo, il discorso dell'eredità, c'è un altro concetto di cui non abbiamo parlato, il corona effetti, lo vediamo adesso.
+
+200
+00:23:10,490 --> 00:23:12,571
+Scrivo quello in minima indispensabile.
+
+201
+00:23:14,812 --> 00:23:14,852
+Ok.
+
+202
+00:23:17,837 --> 00:23:43,062
+La classe B, che è la classe specializzata, ha un'opinione e supponiamo che la classe A, per esempio, abbia un'opinione.
+
+203
+00:23:43,222 --> 00:23:45,302
+Qui è possibile apprezzare la prima cosa.
+
+204
+00:23:46,966 --> 00:23:50,727
+è cosa che possiamo apprezzare, tanto cosa succede.
+
+205
+00:23:53,108 --> 00:23:54,708
+Quale è il significato di questo esempio?
+
+206
+00:23:56,429 --> 00:24:16,415
+C'è la classe derivata, che è la classe generica, hanno un membro, hanno un metodo con le stesse caratteristiche, con la stessa firma, e quindi, in pratica, stesso nome, stessi, parametri, questo dato non ci sono fatte.
+
+207
+00:24:18,954 --> 00:24:30,463
+Sapendo che questo è un membro pubblico, verrà trasmesso in eredità indipendentemente dalla modalità.
+
+208
+00:24:30,923 --> 00:24:36,548
+La cosa è certa, è pubblico, quindi quella è un'eredità che arriverà sicuramente al figlio.
+
+209
+00:24:36,588 --> 00:24:40,531
+Ci ritroviamo con una situazione di questo genere, cioè abbiamo due funzioni.
+
+210
+00:24:40,551 --> 00:24:46,176
+A un momento in cui io dichiaro
+
+211
+00:24:48,058 --> 00:25:17,607
+crea un'istanza dell'oggetto di classe B del tipo E chiamo il metodo F il problema è quale F parte cioè quello del figlio e quello ovviamente del padre sono arrivate entrambe la regola è soprapposizione
+
+212
+00:25:18,744 --> 00:25:19,905
+parte quella del figlio.
+
+213
+00:25:21,887 --> 00:25:22,387
+Ci siete?
+
+214
+00:25:22,947 --> 00:25:24,549
+E quindi in principio sì.
+
+215
+00:25:26,850 --> 00:25:28,992
+Sì, diciamo di sovrapposizione.
+
+216
+00:25:31,134 --> 00:25:33,315
+E questo è un primo aspetto.
+
+217
+00:25:35,157 --> 00:25:44,444
+Ci sono altre considerazioni del tipo, e qui poi dovremo aprire un'altra parentesi, perché c'è un altro aspetto interessante.
+
+218
+00:25:46,556 --> 00:26:15,455
+che è legato ovviamente alla gestione dei costruttori nel senso che è chiaro che quando io dichiaro, c'è una cosa ovvia, quando io dichiaro un'istanza di B e B ha una classe generica per poter utilizzare la funzionalità della classe generica quel metodo deve esistere
+
+219
+00:26:19,870 --> 00:26:20,770
+Cosa intendo dire?
+
+220
+00:26:22,851 --> 00:26:37,737
+Supponiamo che ci sia anche G. Ci siete?
+
+221
+00:26:38,957 --> 00:26:40,457
+Allora, l'eredità cos'è?
+
+222
+00:26:42,318 --> 00:26:43,659
+Passa G e passa F, no?
+
+223
+00:26:43,999 --> 00:26:44,219
+Perché?
+
+224
+00:26:45,216 --> 00:26:46,016
+che sono pubbliche.
+
+225
+00:26:46,556 --> 00:26:46,877
+Ok.
+
+226
+00:26:47,537 --> 00:26:59,880
+Allora, a questo punto io con la necessità di far partire G posso fare, supponendo che il passaggio sia stato pubblico, no?
+
+227
+00:27:02,241 --> 00:27:14,045
+Il problema è, per fare questa chiamata è chiaro che quella funzione, questa funzione, io sto lavorando non tanto con il figlio, eh,
+
+228
+00:27:16,471 --> 00:27:20,073
+Non ho dirato il padre, quindi da qualche parte ci deve essere.
+
+229
+00:27:20,793 --> 00:27:31,680
+Questo significa che in cui io crea un'istanza di B, automaticamente ne prego anche una per il padre, per andare ad affiggere, per elevare.
+
+230
+00:27:31,841 --> 00:27:32,941
+Il problema è questo.
+
+231
+00:27:42,402 --> 00:27:55,106
+Per far partire il padre, in questo caso, abbiamo un costruttore che richiede ovviamente il parametro.
+
+232
+00:27:57,007 --> 00:27:57,807
+Ci siete?
+
+233
+00:27:59,608 --> 00:28:00,468
+Quindi cosa succede?
+
+234
+00:28:00,548 --> 00:28:05,270
+Io dichiaro B, provo a chiamare G, è chiaro che ci sarà un problema, no?
+
+235
+00:28:08,271 --> 00:28:08,591
+Perché?
+
+236
+00:28:11,033 --> 00:28:13,235
+Il costruttore di A non è partito.
+
+237
+00:28:13,995 --> 00:28:14,416
+Perchè?
+
+238
+00:28:14,816 --> 00:28:21,381
+Per partire è necessario avere a questo punto, fornire un parametro.
+
+239
+00:28:22,621 --> 00:28:27,085
+Quindi, chi ha il problema?
+
+240
+00:28:28,906 --> 00:28:30,907
+Lo avete affrontato questo problema?
+
+241
+00:28:31,168 --> 00:28:31,948
+Ti chiedo, eh?
+
+242
+00:28:32,969 --> 00:28:33,649
+Sì, hanno scolto.
+
+243
+00:28:37,472 --> 00:28:37,652
+Voi?
+
+244
+00:28:38,573 --> 00:28:38,613
+Tu?
+
+245
+00:28:40,939 --> 00:28:44,300
+Poi ho avuto a che fare con un costruttore di default e non c'era bisogno.
+
+246
+00:28:44,340 --> 00:28:45,140
+Chiaro il problema.
+
+247
+00:28:45,320 --> 00:28:49,281
+Il discorso non è tanto quello che sto dicendo quanto il problema.
+
+248
+00:28:49,421 --> 00:28:54,241
+Cioè, partiamo dal problema e aggiungiamo tutto quello che sto dicendo, ma facciamo l'inverso.
+
+249
+00:28:55,002 --> 00:28:59,742
+Quello che sto dicendo non ha molto senso, è semplicemente una lozione, può succedere.
+
+250
+00:29:00,583 --> 00:29:02,263
+Non è così che possono succedere tante cose.
+
+251
+00:29:02,283 --> 00:29:05,304
+Il problema è, a volte, ci sono situazioni che succedono.
+
+252
+00:29:06,704 --> 00:29:07,564
+Ci sono delle classi
+
+253
+00:29:08,374 --> 00:29:12,856
+che partono con dei costruttori specifici, nel senso che richiedono dei parametri.
+
+254
+00:29:13,716 --> 00:29:29,842
+Mentre in cui esiste una gerarchia, attenzione quando imposto quella gerarchia, perché se basta usare il figlio poi il padre deve partire e quindi se il padre richiede un parametro, domanda, il parametro chi glielo dà?
+
+255
+00:29:31,802 --> 00:29:32,803
+È chiaro?
+
+256
+00:29:34,643 --> 00:29:35,824
+È chiaro il problema?
+
+257
+00:29:36,570 --> 00:29:41,432
+Quindi il problema, la reticità è, ok, quello deve partire chi gli dà il parametro.
+
+258
+00:29:42,732 --> 00:29:49,855
+Di fatto, quello che vi ho detto è chiaro, posso costruire la risposta?
+
+259
+00:29:49,875 --> 00:30:02,419
+La risposta è, se rifletto, qual è il primo metodo che parte quando un consultore, e quindi a questo punto, all'interno del consultore del figlio,
+
+260
+00:30:04,030 --> 00:30:17,833
+per edispongo la chiamata al costruttore del Padre fornendo tutto quanto è necessario affinché il Padre parta correttamente.
+
+261
+00:30:18,453 --> 00:30:18,833
+Siete?
+
+262
+00:30:20,973 --> 00:30:32,215
+E quindi suggerimento io a questo punto mi dovrei fermare a dirvi fate subito la prova perché se avete capito bene il problema è che
+
+263
+00:30:33,931 --> 00:30:38,253
+Se non fissate quello che avete fatto, chiaramente la cosa si perde.
+
+264
+00:30:38,373 --> 00:30:39,954
+Quindi, partiamo dal problema.
+
+265
+00:30:41,175 --> 00:30:43,716
+Abbiamo detto cos'è una gerarchia.
+
+266
+00:30:45,097 --> 00:30:50,360
+Abbiamo fissato le regole per poter riconoscere una gerarchia.
+
+267
+00:30:50,680 --> 00:30:55,742
+Cosa accade quando abbiamo una generalizzazione specializzazione?
+
+268
+00:30:55,822 --> 00:30:58,844
+Le serie precedente abbiamo motivato
+
+269
+00:31:00,216 --> 00:31:28,875
+abbiamo parlato ovviamente di padre e figlio però in effetti un altro concetto che possiamo abbinare all'aspetto familiare generalizzazione specializzazione c'è una classe generica che fornisce delle funzionalità di base e poi delle classi specializzate che hanno ovviamente ogni una la propria specializzazione questo significa tutta una serie di membri
+
+270
+00:31:29,966 --> 00:31:37,752
+che la rendono specializzata, quindi la funzionalità generica più la funzionalità e i figli, ovviamente, delle specializzazioni.
+
+271
+00:31:38,893 --> 00:31:43,897
+Detto questo, abbiamo detto qual è il concetto di derrattiva.
+
+272
+00:31:44,918 --> 00:31:55,066
+Attenzione, l'uso del C++ è strumentale, nel senso che almeno mi interessa in questo momento fare C++.
+
+273
+00:31:55,126 --> 00:31:58,189
+Mi interessa che passi questo concetto.
+
+274
+00:31:59,973 --> 00:32:26,501
+capire il senso della gerarchia perché la gerarchia praticamente come la ritrovo è un concetto fondamentale della programmazione dell'oggetto che prescinde dai linguaggi, cioè sono i linguaggi che si devono adeguare a queste regole quindi tutti i linguaggi dovranno essere progettati tenendo conto le regole della programmazione dell'oggetto.
+
+275
+00:32:26,561 --> 00:32:27,241
+Detto questo
+
+276
+00:32:29,535 --> 00:32:57,668
+può succedere che il genitore qui ci sono ovviamente le sfumature le sfumature quali sono in pratica ci sono dei casi particolari il genitore o la classe generica per partire a bisogno ovviamente di costruttori come tutti gli altri però in questo caso potrebbe non esserci
+
+277
+00:32:59,285 --> 00:33:06,391
+un costruttore generico, perché i costruttori lo ho previsti io e questi prevedono appena di passare dei parametri.
+
+278
+00:33:06,411 --> 00:33:08,333
+Il problema è chi gli dà i parametri.
+
+279
+00:33:09,594 --> 00:33:12,497
+E' sufficiente questa domanda per regalare la risposta.
+
+280
+00:33:12,837 --> 00:33:13,878
+Qualcuno gli deve dare.
+
+281
+00:33:15,479 --> 00:33:17,020
+Non gli posso dare il mail.
+
+282
+00:33:19,463 --> 00:33:24,147
+Devo stabilire sempre, mantenere la gerarchia e il concetto di avedità
+
+283
+00:33:25,097 --> 00:33:51,428
+e quindi è inevitabile se usa il figlio, sarà il figlio che gli dovrà passare quando, dove e qui prende forma l'altro concetto una classe può essere dotata di più costruttori e i costruttori sono quelli che creano il progetto quindi praticamente è chiaro che questi costruttori dovranno essere richiamati
+
+284
+00:33:54,464 --> 00:33:54,844
+Da chi?
+
+285
+00:33:55,904 --> 00:33:56,865
+Da un altro costruttore.
+
+286
+00:33:57,105 --> 00:34:04,367
+Il costruttore del figlio chiama il costruttore del padre, il quale poi trasmette quanto serve al figlio.
+
+287
+00:34:04,707 --> 00:34:08,888
+Questo è quello che abbiamo fatto adesso.
+
+288
+00:34:09,268 --> 00:34:12,089
+Io vi suggerisco, ripeto, poi di fare subito una prova.
+
+289
+00:34:13,009 --> 00:34:14,190
+Vado un attimo avanti.
+
+290
+00:34:15,610 --> 00:34:19,211
+Questa è la prima prova che dovete fare, ma per consolidare il concetto
+
+291
+00:34:21,591 --> 00:34:21,951
+E' chiaro?
+
+292
+00:34:22,892 --> 00:34:27,556
+Perché se voi non mi dite, non mi dite niente, l'avete capito.
+
+293
+00:34:29,017 --> 00:34:31,999
+Il problema è che chi non ha fatto proprio, non l'ha imparato.
+
+294
+00:34:32,820 --> 00:34:44,969
+Imparare è un'altra cosa, bisogna fare una prova per consolidare la cosa, perché sennò appena usciamo dalla porta, fino a quando stiamo parlando dell'argomento, siamo qui dentro, tutto resta in testa.
+
+295
+00:34:45,209 --> 00:34:47,291
+Usciamo, è finita, ve lo chiedo,
+
+296
+00:34:49,176 --> 00:34:53,600
+usciranno dei suoni introponibili.
+
+297
+00:34:53,940 --> 00:34:55,181
+Ci siete?
+
+298
+00:34:55,322 --> 00:34:58,965
+Mi sento sempre tirato in casa con la storia dei suoni.
+
+299
+00:34:59,245 --> 00:35:01,187
+No, io sto pensando di un'altra persona.
+
+300
+00:35:01,427 --> 00:35:05,450
+Sono introponibili.
+
+301
+00:35:07,873 --> 00:35:08,253
+Ci siete?
+
+302
+00:35:08,493 --> 00:35:12,897
+Quindi vi chiedo di fare questa prova, cioè inventare un esempio anche stupido.
+
+303
+00:35:12,917 --> 00:35:13,537
+L'importante è che
+
+304
+00:35:15,672 --> 00:35:24,599
+l'obiettivo è provocare l'errore il figlio muona il costruttore del padre che succede?
+
+305
+00:35:27,642 --> 00:35:43,575
+ovviamente il costruttore del padre deve prevedere un parametro e quindi chiaramente e se lo volete fare di appunti questo è se non lo faccio succede questo se lo faccio risolve il problema se faccio questo risolve il problema
+
+306
+00:35:45,666 --> 00:35:47,308
+e così capito il senso.
+
+307
+00:35:47,708 --> 00:35:52,392
+Detto questo, noi abbiamo parlato adesso quindi di eredità.
+
+308
+00:35:55,495 --> 00:36:08,667
+Bene, sull'eredità possiamo dire sì, per il momento possiamo accontentarci.
+
+309
+00:36:09,468 --> 00:36:10,349
+L'evoluzione
+
+310
+00:36:11,650 --> 00:36:15,513
+L'eredità mi serve anche per implementare un altro concetto.
+
+311
+00:36:15,933 --> 00:36:16,834
+Moliporfismo.
+
+312
+00:36:17,554 --> 00:36:18,715
+E' il polimorfismo.
+
+313
+00:36:19,195 --> 00:36:20,816
+Altra cosa molto interessante.
+
+314
+00:36:21,697 --> 00:36:24,739
+Il polimorfismo praticamente cosa indica?
+
+315
+00:36:28,241 --> 00:36:30,623
+Usiamo un termine più specifico.
+
+316
+00:36:31,403 --> 00:36:33,204
+Qual è il senso del polimorfismo?
+
+317
+00:36:33,384 --> 00:36:34,425
+Qual è l'obiettivo?
+
+318
+00:36:35,045 --> 00:36:35,746
+Perché è nato?
+
+319
+00:36:37,267 --> 00:36:38,688
+Per risolvere quale problema?
+
+320
+00:36:40,742 --> 00:36:54,028
+Il problema che si è voluto risolvere è questo in pratica, avere, invece di avere tante classi, avere delle classi generiche.
+
+321
+00:36:54,288 --> 00:36:58,911
+Quindi praticamente entriamo nel mondo della programmazione generica.
+
+322
+00:37:00,251 --> 00:37:02,212
+Programmazione generica che significa?
+
+323
+00:37:03,933 --> 00:37:10,036
+Io imposto uno scheletro e quindi delle funzionalità di partenza
+
+324
+00:37:10,538 --> 00:37:12,680
+e poi di volta in volta le specializzo.
+
+325
+00:37:15,422 --> 00:37:36,457
+Questo che significa col polimorfismo io posso lavorare con classi generiche che possono essere specializzate quindi nasci in un modo e diventi tante altre cose quindi praticamente una classe, un oggetto che è una classe che è un oggetto che praticamente
+
+326
+00:37:39,409 --> 00:37:59,247
+è una specializzazione però come funziona gli ingredienti che non devono mancare sono l'ereditarietà quindi devo creare prima un sistema di gerarchia e poi
+
+327
+00:38:01,437 --> 00:38:04,119
+e poi a questo punto mi serve qualche altro strumento.
+
+328
+00:38:04,639 --> 00:38:13,165
+Attenzione al discorso dei puntatori, nel momento in cui io uso il termine puntatore, stiamo parlando del C e del C++.
+
+329
+00:38:13,265 --> 00:38:29,957
+Il concetto di polimorfismo prescindente dei puntatori è un'implementazione che abbiamo con il C, cioè lo strumento che viene messo a disposizione del C++, sono i puntatori
+
+330
+00:38:31,343 --> 00:38:34,285
+Sì, per gli altri linguaggi puntatori non esistono.
+
+331
+00:38:34,325 --> 00:38:35,886
+Non si vedono, eh?
+
+332
+00:38:35,906 --> 00:38:36,526
+Non si vedono.
+
+333
+00:38:37,427 --> 00:38:50,234
+Questo lo... No, non lo... Cioè, questo... Abbiamo detto... Io ti ho svelato quello che c'è dietro, il discorso è... Si vedono o non ti vedono, una cosa è certa, se li cerco non li trovo.
+
+334
+00:38:51,735 --> 00:38:54,937
+Quindi... No, sono un citica, se non lo svelano non c'è niente.
+
+335
+00:38:55,277 --> 00:38:58,439
+Il concetto, la cosa più importante è cosa si intende per poi rimaspire.
+
+336
+00:39:00,976 --> 00:39:02,637
+Cosa si intende per colimafismo?
+
+337
+00:39:03,338 --> 00:39:18,931
+Nel senso che, per capirci, se io ho due classi A e B, indipendenti, allora qualcuno potrebbe dire, ok, io voglio che A diventi B e voglio che B diventi A. Bene.
+
+338
+00:39:20,332 --> 00:39:23,154
+Si può fare ad una condizione, quello che ti ho detto prima?
+
+339
+00:39:25,556 --> 00:39:27,638
+Se non c'è un piano di leitità, chiaramente,
+
+340
+00:39:28,712 --> 00:39:35,514
+è chiaro che se voglio implementare il concetto di polimassismo devo avere quanto a meno una situazione di eredità.
+
+341
+00:39:36,694 --> 00:39:40,375
+Se mi manca questo, poi c'è l'implementazione.
+
+342
+00:39:40,895 --> 00:39:52,558
+L'implementazione dice, il C++ dice, ok, che la realità, sì, vuoi creare un effetto, sì, devi usare un altro ingrediente, che ti do io?
+
+343
+00:39:54,219 --> 00:39:54,519
+Io chi?
+
+344
+00:39:58,527 --> 00:39:58,867
+È chiaro?
+
+345
+00:39:58,887 --> 00:39:59,928
+Il linguaggio?
+
+346
+00:40:00,608 --> 00:40:13,752
+Quindi il linguaggio vi metto a disposizione un altro assoluto poi per rendere reale, a questo punto, per rendere reale il polimorfismo, per diventare una classe qualcos'altro.
+
+347
+00:40:13,812 --> 00:40:26,237
+E quindi, l'importante che faremo sarà questa, che è class A, class B, diciamo,
+
+348
+00:40:33,943 --> 00:41:00,127
+è derivata da la presentazione grafica è questa A e B in questo modo io sono ridondante però la ridondanza ha un scopo ricordare sempre che si serve per me perché esistono presentazioni grafica in pratica che
+
+349
+00:41:01,488 --> 00:41:05,170
+io lo devo tenere in considerazione.
+
+350
+00:41:05,230 --> 00:41:07,451
+Quindi, ho creato la diorarchia.
+
+351
+00:41:07,891 --> 00:41:24,180
+A questo punto, per poter avere applicato un concetto di polimorfismo, mi serve, detta così, praticamente ho creato semplicemente tutta la scena.
+
+352
+00:41:26,041 --> 00:41:29,443
+Per poter avere la funzionalità ho bisogno di un punto di lancio.
+
+353
+00:41:33,557 --> 00:41:53,862
+e il punto di lancio è a questo punto ok, supponiamo che io lancio il lavoro in questo modo facciamo un'ipotesi qui ho semplicemente creato due oggetti differenti, no?
+
+354
+00:41:55,342 --> 00:41:59,363
+ma non si parla di polimerfino quindi
+
+355
+00:42:01,075 --> 00:42:05,078
+Per poter implementare il polimorchismo bisogna un presto scenario.
+
+356
+00:42:13,343 --> 00:42:18,227
+Un puntatore che punta alla classe generale, generica.
+
+357
+00:42:20,668 --> 00:42:28,333
+Ma anche qui non mi dice niente, è semplicemente una regola sintattica del C++, quando vedo l'asterisco quello è un puntatore
+
+358
+00:42:30,244 --> 00:42:33,527
+ripasso, ricordate cosa è un contatore?
+
+359
+00:42:34,208 --> 00:42:40,093
+Una variabile che contiene un indirizzo.
+
+360
+00:42:40,113 --> 00:42:40,774
+Qualcos'altro?
+
+361
+00:42:42,435 --> 00:42:52,184
+Fa riferimento un'area di memoria, la possiamo utilizzare per allocare un'area di memoria di un certo tipo.
+
+362
+00:42:53,123 --> 00:43:15,974
+ovviamente ogni puntatore praticamente punta ad un'area di memoria, tutti i puntatori puntano ad un'area di memoria, la differenza è che un'area di memoria è troppo generica, ogni area di memoria ha una sua dimensione che è legata, quindi lui punterà ad un'area di memoria sì, però
+
+363
+00:43:18,166 --> 00:43:24,091
+Quella era di memoria, ovviamente, le dimensioni di quella era di memoria sono dettate dal tipo.
+
+364
+00:43:25,512 --> 00:43:40,705
+Quindi, a questo punto, un puntatore è chiaro che da questo momento in poi io posso applicare tutte quante le regole, le regole dei puntatori.
+
+365
+00:43:42,446 --> 00:43:45,909
+Regole dei puntatori, che cos'è una class?
+
+366
+00:43:48,032 --> 00:43:49,013
+in un tema di metodi, no?
+
+367
+00:43:49,313 --> 00:43:55,899
+Però noi l'abbiamo associato anche al concetto, c'è un altro concetto che viaggia sulle classi.
+
+368
+00:43:57,360 --> 00:44:00,703
+Apparentemente non c'entra niente con le classi, perché è una classe speciale.
+
+369
+00:44:03,325 --> 00:44:04,786
+Ed è praticamente cosa?
+
+370
+00:44:05,426 --> 00:44:07,808
+Sono le strutture greco-pedecine, no?
+
+371
+00:44:10,643 --> 00:44:12,324
+Perché faccio riferimento a questo?
+
+372
+00:44:12,384 --> 00:44:21,650
+Perché se io a questo punto volessi richiamare un membro dovrei utilizzare la notazione puntata.
+
+373
+00:44:23,311 --> 00:44:24,372
+In questo caso sarebbe
+
+374
+00:44:40,758 --> 00:44:44,340
+Questo è chiaro?
+
+375
+00:44:46,561 --> 00:45:00,748
+Questo significa che questo è un puntatore a questo punto che punta ad un'area compatibile delle classi A.
+
+376
+00:45:04,355 --> 00:45:10,379
+A questo punto torniamo al discoteco del politico del FISMO.
+
+377
+00:45:10,859 --> 00:45:12,100
+Dov'è l'intervatazione?
+
+378
+00:45:14,581 --> 00:45:17,903
+Io qui ho semplicemente dichiarato un contatore della classe.
+
+379
+00:45:19,264 --> 00:45:28,050
+Abbiamo detto quali sono le regole di accesso ai membri della classe, ma non abbiamo appena detto in funzione il politico del FISMO.
+
+380
+00:45:29,190 --> 00:45:30,391
+Dovremo istanziare proprio.
+
+381
+00:45:30,411 --> 00:45:30,791
+Ci siete?
+
+382
+00:45:31,092 --> 00:45:33,113
+E quindi?
+
+383
+00:45:37,299 --> 00:45:38,479
+Voi cosa vi proponete?
+
+384
+00:45:38,859 --> 00:45:40,820
+Ben creare l'oggetto, la memoria.
+
+385
+00:45:44,221 --> 00:45:44,661
+Perché R.B.
+
+386
+00:45:44,781 --> 00:45:45,621
+va a metterlo là?
+
+387
+00:45:45,921 --> 00:46:01,105
+No, io ho dichiarato una portata che si chiama che punta ad un'area di memoria pari alla classe A. Io ho lamentato le regole di accesso
+
+388
+00:46:02,515 --> 00:46:03,976
+e poter accedere a questo punto.
+
+389
+00:46:04,036 --> 00:46:17,902
+Esterisco a il nome dell'oggetto tra parentesi, punto, il nome del modulo, cioè del metodo o della variabile che voglio richiamare.
+
+390
+00:46:17,942 --> 00:46:23,124
+Però dire questo non significa dire polimorfismo.
+
+391
+00:46:23,144 --> 00:46:30,468
+Non significa dire polimorfismo, ma semplicemente significa dire o dichiarare un puntatore.
+
+392
+00:46:31,681 --> 00:46:38,105
+Si può fare per le classiche, si, si può fare per gli interi, si può fare anche per le classiche, e lo abbiamo fatto.
+
+393
+00:46:38,145 --> 00:46:48,272
+Il punto è un altro, quella portione di codice in pratica, quella riga di codice, non dimostra nulla in merito al polimorfismo, perché manca un pezzo.
+
+394
+00:46:49,493 --> 00:46:50,753
+Qual è il pezzo che manca?
+
+395
+00:46:51,434 --> 00:46:51,794
+Manca B.
+
+396
+00:47:19,056 --> 00:47:22,218
+Questa è la mia risposta, ho un sacco di messaggi che vi mandate.
+
+397
+00:47:23,998 --> 00:47:22,218
+1.
+
+398
+00:47:24,539 --> 00:47:32,442
+Avete già rimoso, avete fatto olore, avete dimenticato come funziona il polimorfismo.
+
+399
+00:47:32,462 --> 00:47:32,442
+2.
+
+400
+00:47:32,482 --> 00:47:34,203
+Avete anche dimenticato come funzionano i puntatori.
+
+401
+00:47:45,024 --> 00:47:53,046
+L'ho detto, puntatori, una scorsa abbiamo giocato.
+
+402
+00:47:55,746 --> 00:48:01,547
+Il fatto che abbiate rimosso quell'età di masterazione pratica di cosa significa appunto, cosa significano quelle cose.
+
+403
+00:48:04,728 --> 00:48:08,729
+Quindi, aver sentito e ricordare il titolo significa
+
+404
+00:48:10,705 --> 00:48:11,345
+di gestire.
+
+405
+00:48:13,046 --> 00:48:15,827
+Allora, ricaviamo la risposta.
+
+406
+00:48:17,488 --> 00:48:18,929
+Polimorfismo che significa?
+
+407
+00:48:20,330 --> 00:48:25,612
+Che abbiamo un oggetto genetico che può diventare comunque altra cosa.
+
+408
+00:48:26,792 --> 00:48:28,493
+Può diventare altri oggetti, no?
+
+409
+00:48:29,734 --> 00:48:34,416
+Attenzione, quando io sto usando il termine può, non deve.
+
+410
+00:48:36,037 --> 00:48:39,098
+È chiaro, la dimostrazione
+
+411
+00:48:43,297 --> 00:48:49,958
+Qui ho istanziato l'oggetto a piccolo, chiaro?
+
+412
+00:48:50,699 --> 00:49:05,802
+Di classe, il puntatore ha un oggetto di classe A se vuole raggiungere i metodi di usare questa sintascia.
+
+413
+00:49:05,822 --> 00:49:10,663
+Ma questo non c'entra niente col poligorfismo, semplicemente soppligando le regole del puntatore per accedere
+
+414
+00:49:11,708 --> 00:49:13,549
+ai membri di una classe.
+
+415
+00:49:17,330 --> 00:49:17,631
+Chiaro?
+
+416
+00:49:18,571 --> 00:49:37,879
+Ripeto, generico, generico quindi ha una sua identità, nel senso che se mi serve il generico non è che mi devo necessariamente, devo pensare al polimorfismo, mi serve questa classe generica, uso quella classe generica, cioè non è che la uso soltanto per costruire il polimorfismo,
+
+417
+00:49:39,574 --> 00:49:48,678
+se serve il polimorfismo la uso, se però chiaramente ho bisogno del polimorfismo questa riga non mi basta.
+
+418
+00:49:50,799 --> 00:49:52,600
+Detto questo, perché non mi basta?
+
+419
+00:49:52,740 --> 00:49:56,622
+Perché devo far diventare questa cosa generica, la devo far diventare qualcos'altro.
+
+420
+00:49:59,111 --> 00:50:24,564
+Usandolo il puntatore a questo punto con questa riga io faccio diventare l'oggetto di classe A, il puntatore dell'oggetto di classe A, lo faccio diventare il puntatore ad un oggetto di classe B. E' qui che avviene la magia.
+
+421
+00:50:29,727 --> 00:50:45,933
+ma questo è il punto, non solo questo la magia che consiste nel fatto, questo puntatore che dovrebbe puntare a questa classe punta ad un'altra classe è chiaro?
+
+422
+00:50:45,973 --> 00:50:46,554
+cosa vuoi dire?
+
+423
+00:50:47,074 --> 00:50:56,758
+facciamo un esempio questa classe ha 10 membri questa classe ne ha 50
+
+424
+00:50:59,232 --> 00:51:27,026
+lui sta puntando in qualcosa di molto più grande ho fatto l'esempio esagerato per dire attenzione l'area di memoria è completamente diversa quindi lui in questo preciso momento nasce come puntatore da A ma è diventato puntatore da B ok, immagina è quello è chiaro?
+
+425
+00:51:27,727 --> 00:51:28,367
+detto questo
+
+426
+00:51:30,163 --> 00:51:33,184
+C'è un problema?
+
+427
+00:51:33,224 --> 00:51:33,664
+Ci siete?
+
+428
+00:51:36,386 --> 00:51:37,086
+Finchè ci siete?
+
+429
+00:51:37,506 --> 00:51:38,967
+Ok, torno indietro.
+
+430
+00:51:42,828 --> 00:51:46,770
+A è dotata, cioè, A è dotata di?
+
+431
+00:51:47,890 --> 00:51:48,971
+Non so come stiamo a fare.
+
+432
+00:51:51,232 --> 00:51:54,753
+Nel senso, cioè, abbiamo risposto che ci siamo costruito alle senza parametri.
+
+433
+00:51:55,373 --> 00:51:56,054
+Quindi parte.
+
+434
+00:52:00,565 --> 00:52:02,506
+Esaminiamo questa situazione.
+
+435
+00:52:04,228 --> 00:52:09,771
+Questa situazione dicevamo prima, c'è un problema.
+
+436
+00:52:09,931 --> 00:52:23,680
+Nel senso che c'è questa F che è della A, ma c'è anche questa F che è di B. A questo punto, cosa succede?
+
+437
+00:52:25,622 --> 00:52:26,803
+Essendo F pubblica,
+
+438
+00:52:28,566 --> 00:52:39,572
+passa in eredità e mi ritrovo praticamente qui con due elf siete chiaro?
+
+439
+00:52:40,172 --> 00:52:53,699
+ok tenete a mente questo scenario abbiamo due elf che hanno raggiunto, presenti all'interno della classe B una è di B, l'altra è l'eredità
+
+440
+00:52:59,773 --> 00:53:17,981
+a questo punto A è diventato B diventato B quindi mettiamo F con la F parte che è la F di B che parla?
+
+441
+00:53:18,201 --> 00:53:26,004
+no, perchè non è vera si è proprio in JavaScript
+
+442
+00:53:29,155 --> 00:53:40,143
+Prima novità, intanto avrei dovuto utilizzare questa notazione.
+
+443
+00:53:40,683 --> 00:53:51,050
+Ma siccome praticamente la classe è una struttura, quando c'è la struttura io posso evitare di utilizzare questa notazione sostituendola con questa notazione.
+
+444
+00:53:51,151 --> 00:53:53,232
+Ci siete?
+
+445
+00:53:53,252 --> 00:53:53,732
+Perfetto.
+
+446
+00:53:54,813 --> 00:53:58,636
+A questo punto voglio richiamare il metodo
+
+447
+00:53:59,373 --> 00:54:02,916
+F. Ma di F ce ne sono due.
+
+448
+00:54:03,536 --> 00:54:04,016
+Ci siete?
+
+449
+00:54:04,477 --> 00:54:05,077
+Chi parte?
+
+450
+00:54:06,858 --> 00:54:08,960
+E questa è una cosa che dovete scoprire.
+
+451
+00:54:10,161 --> 00:54:11,281
+Vi do la risposta.
+
+452
+00:54:11,461 --> 00:54:14,644
+Quello che parte è la F. Di A?
+
+453
+00:54:14,984 --> 00:54:15,124
+Sì.
+
+454
+00:54:17,886 --> 00:54:21,548
+Non parte quella del F. Capiamoci.
+
+455
+00:54:24,190 --> 00:54:28,053
+La A è diventata un puntatore a B.
+
+456
+00:54:30,134 --> 00:54:46,825
+nella cazzo di B ci sono due F quella di B e quella che è arrivata nell'edità io sto chiamando questa F evidentemente io voglio richiamare la F di B no?
+
+457
+00:54:47,386 --> 00:54:59,714
+perché lui sta nella mia idea A sta puntando ad un oggetto B e quindi voglio che porta
+
+458
+00:55:02,303 --> 00:55:03,744
+F di B, ci siete?
+
+459
+00:55:03,944 --> 00:55:06,646
+Per capire, vi faccio un altro esempio qui.
+
+460
+00:55:06,706 --> 00:55:15,151
+Se io mi dichiaro un oggetto di classe B, ci siete?
+
+461
+00:55:17,672 --> 00:55:20,854
+C punto F, chi parte?
+
+462
+00:55:20,914 --> 00:55:24,096
+La F di B. La F di B, perché?
+
+463
+00:55:24,256 --> 00:55:31,080
+Per il principio di sorrapposizione, quello che abbiamo detto prima, l'ultimo, quello del figlio, domina, quello del padre,
+
+464
+00:55:31,877 --> 00:55:34,098
+Quindi, anche se ce ne sono due, parte quella del figlio.
+
+465
+00:55:34,998 --> 00:55:39,020
+Ecco perché vi ho detto, dovete fare la prova, perché sennò vi confondete.
+
+466
+00:55:41,081 --> 00:55:41,821
+Ci siete?
+
+467
+00:55:41,861 --> 00:55:47,923
+Quindi, se lo sto usando come oggetto di B, io mi aspetto che parte la cosa di B, no?
+
+468
+00:55:48,963 --> 00:55:54,946
+Però parte sempre quella di A. Anche quando vado in crisi, e quindi,
+
+469
+00:55:56,515 --> 00:56:10,807
+Il polimorfismo, attenzione, non basta questa riga, non basta questo puntatore, ma dobbiamo apportare questa maniera.
+
+470
+00:56:11,667 --> 00:56:18,353
+La cosa che dobbiamo apportare è il vittorio.
+
+471
+00:56:21,916 --> 00:56:22,516
+Il vittorio.
+
+472
+00:56:27,122 --> 00:56:42,248
+Quindi praticamente la funzione che fare deve essere indicata come funzione virtual, cioè che significa in pratica una funzione che può essere sobrascritta.
+
+473
+00:56:45,624 --> 00:56:57,169
+Caro, attenzione, anche qui ci sono sempre condimenti, se li volete fare, c'è rin, rin, rin, rin, c'è una tabella di funzioni virtuali, c'è tutta una teoria dietro.
+
+474
+00:56:58,870 --> 00:56:59,190
+E' chiaro?
+
+475
+00:56:59,930 --> 00:57:09,814
+Nel momento in cui io apporto questa notifica, a questo punto questa parte quella di B.
+
+476
+00:57:12,066 --> 00:57:12,346
+Chiaro?
+
+477
+00:57:12,947 --> 00:57:16,569
+In conseguenza gli ingredienti per il polivorpismo quali sono?
+
+478
+00:57:16,589 --> 00:57:16,569
+1.
+
+479
+00:57:17,449 --> 00:57:19,010
+Ragionando in termini di più.
+
+480
+00:57:19,670 --> 00:57:19,010
+1.
+
+481
+00:57:19,930 --> 00:57:20,751
+Una chiararpia.
+
+482
+00:57:23,332 --> 00:57:20,751
+2.
+
+483
+00:57:23,993 --> 00:57:25,033
+Metodo di virtua.
+
+484
+00:57:26,674 --> 00:57:27,255
+Puntatori.
+
+485
+00:57:27,275 --> 00:57:28,735
+2 puntatori.
+
+486
+00:57:29,316 --> 00:57:29,756
+L'ultimo?
+
+487
+00:57:30,356 --> 00:57:31,237
+Metodo virtua.
+
+488
+00:57:31,257 --> 00:57:31,717
+Leuda.
+
+489
+00:57:31,737 --> 00:57:34,459
+Metodo virtua.
+
+490
+00:57:34,499 --> 00:57:34,779
+Chiaro?
+
+491
+00:57:35,519 --> 00:57:36,360
+Un metodo virtua.
+
+492
+00:57:38,330 --> 00:57:42,532
+attenzione a quel metodo di Virta, perché tu ce lo troveremo in un altro scenario.
+
+493
+00:57:42,592 --> 00:57:44,273
+Ti siete?
+
+494
+00:57:45,173 --> 00:58:00,559
+Ok, allora, dite da questo esempio, questo esempio ovviamente, giudato, dove voi dovete praticamente convincere i ricordi in pratica.
+
+495
+00:58:01,560 --> 00:58:02,320
+L'obiettivo è
+
+496
+00:58:06,773 --> 00:58:19,777
+questo è del figlio, cioè questo è del padre, questo è del figlio, questo arriva in eredità, che ritorniamo con due f, chiamo il metodo f, quale metodo parte?
+
+497
+00:58:19,937 --> 00:58:21,518
+Quello di eredità o quello del figlio?
+
+498
+00:58:21,558 --> 00:58:22,818
+Abbiamo detto quello del figlio.
+
+499
+00:58:23,859 --> 00:58:30,901
+Cioè quello del figlio sarebbe praticamente la specializzazione che anche lì forse vogliamo dare un significato.
+
+500
+00:58:31,792 --> 00:58:50,246
+come lo possiamo utilizzare evidentemente appunto considero quel metodo del padre obsoleto per quella classe e quindi mantengo l'identità del metodo del padre e a questo punto apporto le modifiche soltanto aggiungo delle funzionalità a quel metodo del figlio.
+
+501
+00:58:52,527 --> 00:58:56,891
+Perché sto mantenendo in vita il metodo del padre?
+
+502
+00:58:57,771 --> 00:58:58,592
+Per una questione di comprensione
+
+503
+00:59:02,027 --> 00:59:15,896
+altre applicazioni usano quel metodo e quindi praticamente se lo sostituissi se lo sostituissi potrei creare problemi alle altre applicazioni è chiaro?
+
+504
+00:59:16,396 --> 00:59:28,183
+quindi e quindi questo per apportare il concetto di chi viene cioè di come viene gestita una eredità di questo genere in pratica
+
+505
+00:59:29,877 --> 00:59:30,337
+Ci siete?
+
+506
+00:59:31,058 --> 00:59:38,180
+L'evoluzione sarà, a questo punto, spostare l'attenzione sul polimorfismo, per capire il senso del polimorfismo.
+
+507
+00:59:38,520 --> 00:59:45,102
+Io non voglio un codice in trenta secondi, io voglio un codice scritto, riflettendo rica per rica.
+
+508
+00:59:46,243 --> 00:59:47,183
+Lo studio è quello.
+
+509
+00:59:49,444 --> 00:59:49,884
+A me è ok.
+
+510
+00:59:50,724 --> 00:59:51,504
+Stai registrando?
+
+511
+00:59:52,965 --> 00:59:53,465
+A me è ok.
+
+512
+00:59:54,705 --> 00:59:56,606
+Non vi andate a leggere quello che
+
+513
+00:59:57,843 --> 01:00:01,326
+la sua trascrizione, ho andato a studiare direttamente sui documenti.
+
+514
+01:00:02,767 --> 01:00:04,949
+Ma questo significa che non siano nozioni?
+
+515
+01:00:07,451 --> 01:00:12,276
+E la nozione è indovinare una scorsa esatta, ma non sapere necessariamente come usare.
+
+516
+01:00:12,876 --> 01:00:18,401
+Quindi l'obiettivo è ok, ho capito, so usarlo, se mi dovesse capitare l'occasione so come mi devo comportare.
+
+517
+01:00:20,442 --> 01:00:20,703
+Chiaro?
+
+518
+01:00:21,303 --> 01:00:22,044
+Dai, fatela provare.
+
+519
+01:00:23,869 --> 01:00:27,470
+Provate questo scenario, voi spostiamo attenzione.
+
+520
+01:00:27,490 --> 01:00:33,572
+Lo faccio qua?
+
+521
+01:00:33,692 --> 01:00:49,856
+No, vorrei che lo scrivessero loro, perché loro sono... le hanno risposte... e per loro è un'occasione per rimprescare almeno i fondamentali sui puntatori.
+
+522
+01:00:51,562 --> 01:00:56,543
+A questo punto io ti potrei anche dire un'altra cosa, ma a questo punto se volete fare un film fresco.
+
+523
+01:00:57,643 --> 01:01:12,466
+Noi abbiamo utilizzato la GNU, la GNU che è un'instrumento che mi diamo a disposizione dal CQP1 per allocare spazio da segnare, da associare ad un puntato.
+
+524
+01:01:13,647 --> 01:01:19,568
+Ma l'instrumento principale è la malloc, quindi
+
+525
+01:01:21,235 --> 01:01:36,777
+rinfrescare e fare le diverse versioni e non serve per l'esercitazione, anzi ti dirò che più zionerei la linea, cioè se hai C++ io uso gli strumenti di C++
+
+526
+01:01:39,987 --> 01:01:53,834
+e quindi se vi chiedo di farlo è semplicemente mantenere allenata la mente anche sulla malloc o qualora vi dovreste trovare nel frattempo per iniziare a lavorare in C. Attenzione, c'è un'altra cosa che lì non c'è.
+
+527
+01:01:55,395 --> 01:02:00,558
+La cosa che qui non c'è in pratica è il direct.
+
+528
+01:02:02,763 --> 01:02:23,876
+ogni volta che ho un puntatore devo sempre albinarlo a un distruttore di puntatori quindi l'agno si alloca spazio però devo abituarmi sempre perchè attenzione ecco perchè ragionare al puntatore e pensare in termini di puntatori significa questo, questo significa che tu hai
+
+529
+01:02:26,191 --> 01:02:27,492
+Tutta la macchina a disposizione.
+
+530
+01:02:27,993 --> 01:02:33,877
+Quindi occupi spazio, spazio, spazio, però il carico di lavoro non c'è niente gli automati.
+
+531
+01:02:35,198 --> 01:02:43,124
+Quindi la dialocazione dello spazio è a carico e quindi abituatevi sempre ad usare le due funzionalità.
+
+532
+01:02:44,825 --> 01:02:45,245
+Va bene?
+
+533
+01:02:46,927 --> 01:02:47,607
+Dai, fate...
+
+534
+01:02:52,446 --> 01:02:55,069
+la Keyword Override è super?
+
+535
+01:02:55,129 --> 01:02:58,173
+No, lo so, però volete l'allumentazione?
+
+536
+01:03:03,373 --> 01:03:05,034
+Non è obbligatorio ma è buona pratica.
+
+537
+01:03:05,054 --> 01:03:05,635
+L'obiettivo è
+
+538
+01:03:28,093 --> 01:03:30,054
+metabolizzare il concetto.
+
+539
+01:03:30,094 --> 01:03:38,999
+Quindi, dal punto di vista, il miglior modo è ridurre al minimo, per quanto possibile, il pronice e mantenere gli ingredienti fondamentali.
+
+540
+01:03:39,999 --> 01:03:43,221
+Poi, per perfezionarli, sempre attento.
+
+541
+01:03:48,524 --> 01:03:49,825
+Quindi, ritiro grandio.
+
+542
+01:03:51,926 --> 01:03:51,986
+Sì.
+
+543
+01:03:59,722 --> 01:04:06,045
+C'era quello, l'altro argomento che volevo trattare, però quello è un altro argomento importante e impegnativo.
+
+544
+01:04:06,325 --> 01:04:06,785
+Che cosa?
+
+545
+01:04:07,726 --> 01:04:08,486
+Le eccezioni.
+
+546
+01:04:08,526 --> 01:04:14,849
+Quello è un altro mondo.
+
+547
+01:04:17,530 --> 01:04:23,253
+Quello è un altro mondo che va trattato
+
+548
+01:04:24,517 --> 01:04:30,925
+E poi tra l'altro io ignorantemente pensavo che gli assert e le eccezioni fossero la stessa cosa.
+
+549
+01:04:31,346 --> 01:04:32,387
+Sono due cose diverse.
+
+550
+01:04:32,867 --> 01:04:35,471
+Uno verifica le condizioni e l'altro invece...
+
+551
+01:04:44,343 --> 01:04:49,626
+più... tira fuori la roba che poi va gestita dopo.
+
+552
+01:04:49,666 --> 01:04:58,151
+Sì, tanto è vero che poi le assezioni puoi rimetti sotto il momento perché inizierai a fare i corpi, ma ti si tratta come punti di riscontro.
+
+553
+01:04:58,171 --> 01:05:01,433
+Bellasta parola del macro, senza stare a commentare tutto.
+
+554
+01:05:04,834 --> 01:05:08,597
+Quello, cioè, è esperienza.
+
+555
+01:05:09,077 --> 01:05:10,197
+Ormai...
+
+556
+01:05:16,817 --> 01:05:17,718
+No, aspetta che te lo ripero, perché se no...
+
+557
+01:05:58,006 --> 01:05:59,511
+Dobbiamo fare quattro classi.
+
+558
+01:07:36,305 --> 01:07:36,466
+No, no.
+
+559
+01:08:04,974 --> 01:08:07,356
+Grazie, signora Presidente.
+
+560
+01:08:36,937 --> 01:08:37,097
+Grazie.
+
+561
+01:09:36,135 --> 01:09:36,175
+No.
+
+562
+01:10:03,988 --> 01:10:05,049
+Ah no, non l'ho cancellato.
+
+563
+01:10:05,069 --> 01:10:05,669
+Sì, io lo so f***ing slow.
+
+564
+01:10:05,689 --> 01:10:06,070
+Finito, lei.
+
+565
+01:10:06,110 --> 01:10:07,971
+Però se non ci hai fatto cosa?
+
+566
+01:10:43,575 --> 01:10:44,695
+Sto pensando come in JavaScript C'è JavaScript
+
+567
+01:11:48,288 --> 01:11:48,470
+Grazie
+
+568
+01:12:23,285 --> 01:12:23,565
+Grazie.
+
+569
+01:13:08,319 --> 01:13:08,779
+Pater?
+
+570
+01:13:08,839 --> 01:13:13,680
+Non hai visto questo... Hai visto questo sito che ha?
+
+571
+01:13:13,700 --> 01:13:14,240
+No, non so.
+
+572
+01:13:14,420 --> 01:13:15,080
+No, non so.
+
+573
+01:13:15,100 --> 01:13:15,860
+Che bellissimo.
+
+574
+01:13:15,920 --> 01:13:17,241
+Ti ho fatto insegnare Pater.
+
+575
+01:13:36,357 --> 01:13:45,185
+Poi ci sono 3 tpd, 1 tpd, 2 tpd, 3 tpd, 4 tpd, 5 tpd, 6 tpd, 7 tpd, 8 tpd, 9 tpd, 10 tpd, 11 tpd, 12 tpd, 13 tpd, 14 tpd, 15 tpd, 16 tpd, 17 tpd, 18 tpd, 19 tpd, 20 tpd, 21 tpd, 22 tpd, 23 tpd, 24 tpd, 25 tpd, 26 tpd, 27 tpd, 27 tpd, 28 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd,
+
+576
+01:14:16,490 --> 01:14:23,577
+Anche l'internet è in grado, perché questo, si chiama Publisher's Observer, è in grado.
+
+577
+01:14:23,597 --> 01:14:24,799
+E gli eventi è basato su questo.
+
+578
+01:14:44,616 --> 01:14:46,057
+Si è andato qui?
+
+579
+01:14:46,097 --> 01:14:47,697
+Si è andato su questo?
+
+580
+01:14:47,757 --> 01:14:49,578
+Si è andato su questo?
+
+581
+01:14:49,698 --> 01:14:51,639
+Si è andato su questo?
+
+582
+01:14:51,659 --> 01:14:53,440
+Si è andato su questo?
+
+583
+01:14:53,460 --> 01:14:55,401
+Si è andato su questo?
+
+584
+01:14:55,521 --> 01:14:56,301
+Si è andato su questo?
+
+585
+01:14:56,681 --> 01:14:57,482
+Si è andato su questo?
+
+586
+01:14:57,522 --> 01:14:58,542
+Si è andato su questo?
+
+587
+01:14:58,602 --> 01:14:59,403
+Si è andato su questo?
+
+588
+01:14:59,423 --> 01:15:00,443
+Si è andato su questo?
+
+589
+01:15:00,803 --> 01:15:02,644
+Si è andato su questo?
+
+590
+01:15:02,784 --> 01:15:03,944
+Si è andato su questo?
+
+591
+01:15:03,965 --> 01:15:05,505
+Si è andato su questo?
+
+592
+01:15:05,525 --> 01:15:08,186
+Si è andato su questo?
+
+593
+01:15:14,633 --> 01:15:14,953
+Stai ritornando.
+
+594
+01:15:14,973 --> 01:15:15,614
+Sto diventando stupido, basta.
+
+595
+01:15:15,634 --> 01:15:16,054
+Non hai stati?
+
+596
+01:15:16,094 --> 01:15:16,214
+Qua?
+
+597
+01:15:16,234 --> 01:15:16,614
+Ah, ok, ho capito.
+
+598
+01:15:56,162 --> 01:15:57,222
+Quanto ti resta?
+
+599
+01:15:57,262 --> 01:16:01,783
+Perchè il disso non esiste, è un sacchetto.
+
+600
+01:16:02,103 --> 01:16:02,703
+Ma, quali?
+
+601
+01:16:03,724 --> 01:16:05,524
+Mari, fai la sigla.
+
+602
+01:16:05,564 --> 01:16:06,384
+Bene, sono stato qua.
+
+603
+01:16:06,404 --> 01:16:08,505
+Dove sei arrivato?
+
+604
+01:16:08,745 --> 01:16:09,865
+Ah, sì.
+
+605
+01:16:11,945 --> 01:16:17,887
+Gabri, tagliare la mano.
+
+606
+01:16:17,927 --> 01:16:19,027
+Viva di fare un risultato.
+
+607
+01:16:20,418 --> 01:16:20,722
+Non è successo?
+
+608
+01:16:48,729 --> 01:16:49,150
+Non è vero?
+
+609
+01:16:49,170 --> 01:16:49,490
+Sì, è vero.
+
+610
+01:16:49,530 --> 01:16:49,751
+Non è vero?
+
+611
+01:16:49,771 --> 01:16:49,991
+Sì, è vero.
+
+612
+01:17:09,670 --> 01:17:12,493
+Sì, è molto bello.
+
+613
+01:17:39,497 --> 01:17:43,278
+questo quando fai android adouter,factor,repeat,decorato il composite,questo il composite prototype su java,se li usano con la donna
+
+614
+01:18:10,128 --> 01:18:17,370
+Scusi, dei giochi che è l'ECS, Entity System Component.
+
+615
+01:18:19,811 --> 01:18:20,871
+Entity System Component.
+
+616
+01:18:20,891 --> 01:18:22,891
+E che tipo di pattern?
+
+617
+01:18:23,692 --> 01:18:24,972
+Entity System Component.
+
+618
+01:18:25,232 --> 01:18:32,494
+E le entità che hanno delle componenti sono giustite dagli sistemi.
+
+619
+01:18:37,888 --> 01:18:47,971
+Ci sono delle entità a cui puoi collegare le componenti e ci sono i sistemi che gestiscono il comportamento delle entità.
+
+620
+01:18:54,352 --> 01:18:55,713
+C'è una descrizione
+
+621
+01:19:02,621 --> 01:19:23,256
+perché sennò diventano naturalmente strumenti che si vede fare, però c'è una motivazione, c'è una parte un po' di concettuale, c'è una sintesi della libreria standard
+
+622
+01:19:27,028 --> 01:19:28,269
+Ah, ma tutto va?
+
+623
+01:19:28,329 --> 01:19:29,391
+È una paginetta questa via?
+
+624
+01:19:29,431 --> 01:19:30,532
+Sì, sì, sì.
+
+625
+01:19:31,152 --> 01:19:32,274
+Sì, ma fa sintesi.
+
+626
+01:19:34,336 --> 01:19:37,739
+Fa sintesi e poi c'è quest'altra cosa.
+
+627
+01:19:37,759 --> 01:19:38,240
+Bene?
+
+628
+01:19:38,941 --> 01:19:42,544
+Ecco, sono i container e le librerie.
+
+629
+01:19:43,025 --> 01:19:45,287
+Ah, container e librerie.
+
+630
+01:19:45,508 --> 01:19:46,489
+Sì, sì, sì, sì.
+
+631
+01:19:54,993 --> 01:19:58,314
+Function è bellissima, registra i puntatori e funziona.
+
+632
+01:20:03,535 --> 01:20:06,296
+No, però non è vero.
+
+633
+01:20:06,356 --> 01:20:06,696
+Cosa?
+
+634
+01:20:06,716 --> 01:20:07,296
+Non è vero.
+
+635
+01:20:07,316 --> 01:20:09,377
+Ah, hai guardato quel regolo di intervenzione?
+
+636
+01:20:09,457 --> 01:20:11,558
+Sì, sapevo già che era vero senza saperne il nome.
+
+637
+01:20:12,858 --> 01:20:15,979
+L'anno scorso quando avevamo parlato della ricorsione ne avevi fatto un discorso su
+
+638
+01:20:17,273 --> 01:20:21,416
+come partono le chiamate in memoria e lì mi è rimasto impresso da quel giorno.
+
+639
+01:20:21,856 --> 01:20:27,159
+Infatti quella cosa che ti avevo detto era rudimentale, ma confezionale.
+
+640
+01:20:27,199 --> 01:20:35,204
+Mi interessava tanto farti capire come avvenivano le chiamate materialmente.
+
+641
+01:20:35,244 --> 01:20:43,510
+Poi è chiaro, un singolo descrittore di chiamate caratterizzato da una serie di erogienti
+
+642
+01:20:45,123 --> 01:20:47,744
+che sarebbe praticamente l'organizzazione dell'Area di Memoria, no?
+
+643
+01:20:47,804 --> 01:21:03,992
+Sì, infatti quando la ragazza diceva che quando scriva un programma me lo vedo come va in memoria, era per quel discorso di... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+
+644
+01:21:11,405 --> 01:21:18,171
+significa, lo so, soltanto che non mi sarebbe dare di nome e non so come, cioè, mi mancava che pezzo per fare un'interazione completa.
+
+645
+01:21:18,191 --> 01:21:24,216
+Anche soprattutto per capire il tempo di vita delle variabili che secondo me fondava in casa.
+
+646
+01:21:24,497 --> 01:21:35,346
+Lì vedi, ma vedi... Poi, ripeto, ci fosse più collaborazione tra le materie, sempre diversi.
+
+647
+01:21:35,546 --> 01:21:38,329
+Ma anche i ragazzi ieri quando hanno visto un po' di
+
+648
+01:21:39,602 --> 01:21:56,210
+mi sono avvicinato da uno sguardo gli ho fatto vedere delle cose, quello che serviva e hanno dato senso
+
+649
+01:21:59,248 --> 01:22:08,111
+Quelle cose che avevano infollato in testere che sarebbero collate dopo tre secondi dall'interrogazione.
+
+650
+01:22:08,911 --> 01:22:11,792
+Invece un'ora importante è infatti avvisso.
+
+651
+01:22:13,053 --> 01:22:18,995
+Sono importantissime queste cose anche perché soprattutto se devi scrivere dei programmi che
+
+652
+01:22:20,499 --> 01:22:27,546
+hanno dei limiti hardware o cose del genere, devi sapere perfettamente come muovere l'assaggio.
+
+653
+01:22:27,787 --> 01:22:35,655
+Nel discorso, il discorso è avere i formamenti, perché non puoi fare tutto, ma se tu
+
+654
+01:22:37,007 --> 01:22:39,089
+Hai una buona base.
+
+655
+01:22:39,149 --> 01:22:46,936
+Si, ma formamenti, perché ci possono essere tante cose che non riesciamo a fare per pensare di tempo, per tanti motivi.
+
+656
+01:22:48,078 --> 01:22:52,241
+Il discorso è che io ti posso dire che manca questo, tipo l'equipazione.
+
+657
+01:22:55,705 --> 01:22:58,427
+A questo punto dice che non lo posso fare.
+
+658
+01:22:58,627 --> 01:23:01,750
+Tu lo leggi, hai i fondamentali, tu costruisci
+
+659
+01:23:03,625 --> 01:23:10,492
+i pezzi che ti mangi, aggiungi i pezzi che ti mangi, però un metodo ce l'hai, no?
+
+660
+01:23:10,632 --> 01:23:20,221
+Una conoscenza, che la conoscenza non fa altro che accumulare, accumulare nozioni su nozioni su nozioni, cioè pesantisci la memoria, no?
+
+661
+01:23:22,464 --> 01:23:24,606
+Ma se tu hai un metodo, tu già lo contestori e ti dici ok,
+
+662
+01:23:27,472 --> 01:23:36,399
+immagini c'è l'obiettivo, lo uso in questo modo, lo uso in questo altro modo ho capito come funzionava quel modo, quel metodo o quell'applicazione.
+
+663
+01:23:38,561 --> 01:23:42,044
+Poi le vedi le cose, capisci?
+
+664
+01:23:43,125 --> 01:23:47,668
+Non la vedi, prendo vino, è insopportabile.
+
+665
+01:23:52,221 --> 01:23:58,026
+E sai quanto mi è servito quest'estate, mentre lavoravo con OpenTL, sapere queste cose?
+
+666
+01:23:58,967 --> 01:24:05,532
+Perché lì devi gestire la memoria della scheda video.
+
+667
+01:24:05,572 --> 01:24:19,464
+Lì devi praticamente gestire la comunicazione tra processore, scheda video, sapere quanto gli hai mandato, cosa li hai mandato, cosa ti deve tornare... Con due concetti che sapevo,
+
+668
+01:24:20,842 --> 01:24:34,214
+mi hanno tirato su u, perché sennò... Ma sì, se avessi avuto altre conoscenze... La cosa insopportabile per me è che siamo arrivati tra un po', è da un mese che dobbiamo cominciare la scuola.
+
+669
+01:24:36,155 --> 01:24:41,420
+Cioè, quel mente gatto ancora deve trovare il supplente e non so che arriverà.
+
+670
+01:24:42,161 --> 01:24:46,705
+Tipo, per chi piace tipo per il laboratorio?
+
+671
+01:24:48,867 --> 01:25:16,541
+ha detto... ieri ho parlato con un romano e domani... ieri se l'avrebbe chiamato... si, si, si, si, si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si
+
+672
+01:25:18,980 --> 01:25:24,061
+Noi domani ad esempio alla seconda ora abbiamo il TPS, che cazzo facciamo?
+
+673
+01:25:25,101 --> 01:25:26,101
+Siamo qua a perdere un'ora.
+
+674
+01:25:26,402 --> 01:25:28,362
+Io scrivo il tema, mi faccio alza.
+
+675
+01:25:28,422 --> 01:25:32,343
+Aspetta, io domani posso giovedì 5 ore?
+
+676
+01:25:32,423 --> 01:25:35,143
+No, domani c'è 2 ore.
+
+677
+01:25:36,223 --> 01:25:40,204
+Sì, è il giorno più... No, giovedì c'è ora, la seconda ora sono ieri.
+
+678
+01:25:40,744 --> 01:25:44,225
+Se non sei stato in riusa avrei fatto suplenza.
+
+679
+01:25:47,073 --> 01:25:48,894
+Quale è sbagliata quella roba lì?
+
+680
+01:25:48,914 --> 01:25:50,155
+La Vector.
+
+681
+01:25:52,917 --> 01:25:54,799
+La Vector e il Ray sono due oggetti diversi.
+
+682
+01:25:55,399 --> 01:25:58,281
+Sì, sono due... Due oggetti diversi.
+
+683
+01:25:58,302 --> 01:25:59,242
+Sono due oggetti diversi.
+
+684
+01:25:59,262 --> 01:25:59,983
+Sono due classi.
+
+685
+01:26:00,363 --> 01:26:08,509
+Ti ricordo che questo è un po' datato, quindi un po' di pezzi... Allora...
+
+686
+01:26:12,802 --> 01:26:21,212
+Invece, qui in alto, la ridefinizione degli operatori è interessante.
+
+687
+01:26:22,153 --> 01:26:23,835
+Sai che si può ridefinire anche lì?
+
+688
+01:26:25,097 --> 01:26:27,500
+Sì, infatti.
+
+689
+01:26:27,540 --> 01:26:28,100
+Per fare le prove.
+
+690
+01:26:31,159 --> 01:26:43,951
+Sì, ma infatti la ridefinizione è una cosa che non ho mai chiesto di fare, la ridefinizione della parentesi quale di RL.
+
+691
+01:26:43,991 --> 01:26:46,433
+L'ho fatto per forza, per fare vector?
+
+692
+01:26:47,174 --> 01:26:48,975
+Sì, per uscire alle RL associative.
+
+693
+01:26:49,821 --> 01:26:51,362
+C'è sempre una tabella di riferimento, però l'associativo
+
+694
+01:27:14,556 --> 01:27:25,878
+Ok.
+
+695
+01:27:26,098 --> 01:27:30,919
+Ok.
+
+696
+01:27:32,459 --> 01:27:34,960
+E poi dimettici la posizione.
+
+697
+01:27:36,420 --> 01:27:37,500
+Ok.
+
+698
+01:27:37,580 --> 01:27:41,741
+Ci metti il nome, perché la posizione non ti dice assolutamente niente.
+
+699
+01:27:44,582 --> 01:27:46,584
+Ti dice semplicemente dove si trova con l'aramento, il problema è non ti aiuta a ricordare e a capire.
+
+700
+01:27:46,604 --> 01:27:50,909
+Adesso c'è il tipo al pottaglio che ti dà la possibilità di assegnare un nome ad un indice
+
+701
+01:28:07,519 --> 01:28:13,661
+Davi un'identità, e quindi, ecco, ecco, sì, eh, va be', ma quella è un'altra cosa.
+
+702
+01:28:13,801 --> 01:28:16,662
+Cioè, sì, te l'ho detto, c'è una tabella.
+
+703
+01:28:18,282 --> 01:28:19,842
+Perché poi cosa significa?
+
+704
+01:28:19,862 --> 01:28:33,806
+A momenti in cui io faccio, utilizzo una vera associativo, automaticamente voi non potrete più utilizzare il Ciclo4 perché li aprevi un indice che va sempre incrementato e incrementato, no?
+
+705
+01:28:34,206 --> 01:28:34,686
+Io ho un nome.
+
+706
+01:28:37,073 --> 01:28:48,717
+Sì, però hanno creato degli altri fori e quindi mi dà la possibilità di volere dei compiti.
+
+707
+01:28:48,777 --> 01:28:50,198
+Quelli che hai utilizzato al literatore?
+
+708
+01:28:51,718 --> 01:28:53,079
+Più o meno, sì.
+
+709
+01:28:53,679 --> 01:28:54,139
+For each?
+
+710
+01:28:54,379 --> 01:28:55,199
+No, va bene.
+
+711
+01:28:55,780 --> 01:28:58,260
+Queste reassociativi li trovi con Piaccappina.
+
+712
+01:28:59,641 --> 01:29:00,941
+Con Piaccappina ti dici ok.
+
+713
+01:29:04,676 --> 01:29:09,077
+Per lui l'estract non esistono, esistono solamente gli aerei.
+
+714
+01:29:09,678 --> 01:29:13,719
+Quindi tu l'estract, cioè il record, ti ricostiglisci con il record.
+
+715
+01:29:15,079 --> 01:29:31,004
+È chiaro che, detto questo, dico che il primo elemento è il nome, il secondo elemento è il cognome, e quindi descrivi una persona attraverso una serie di informazioni detti in cognome, cognome età.
+
+716
+01:29:34,127 --> 01:29:39,131
+A te non interessa la posizione del nome?
+
+717
+01:29:39,472 --> 01:29:42,574
+A te interessa cosa c'è nella variabile nome?
+
+718
+01:29:43,475 --> 01:29:53,983
+Perché lui dice A è il contenitore, nome è la variabile che contiene il dato, cognome contiene un altro dato ed A contiene un altro dato.
+
+719
+01:29:54,003 --> 01:29:56,865
+Allora a questo punto io cosa faccio in pratica?
+
+720
+01:29:58,115 --> 01:30:05,001
+a me non interessa la tua proposizione non interessa quella parte che sta all'interno, cosa faccio?
+
+721
+01:30:06,482 --> 01:30:15,570
+Voglio il nome, in questo caso vi assegno il nome, la dimostrazione del fatto che lo posso usare non è se...
+
+722
+01:30:25,759 --> 01:30:29,382
+Posso usare dei due modi, no?
+
+723
+01:30:29,462 --> 01:30:38,128
+O con l'indice, che ha ovviamente le funzioni che mi possono servire, oppure attraverso attribuendo un nome.
+
+724
+01:30:39,108 --> 01:30:45,473
+E' chiaro che c'è tutto un discorso di dichiarare... Il nome dell'indice.
+
+725
+01:30:45,533 --> 01:30:48,715
+Devi informare le due informazioni.
+
+726
+01:30:49,035 --> 01:30:50,977
+La quotizione è automatica.
+
+727
+01:30:52,518 --> 01:30:53,879
+Il discorso è fornire il nome.
+
+728
+01:30:54,709 --> 01:30:59,272
+e eventualmente in fase di miniaturizzazione assegnarli anche un valore.
+
+729
+01:30:59,712 --> 01:31:00,452
+Sì, sì, sì.
+
+730
+01:31:00,853 --> 01:31:01,153
+Capito?
+
+731
+01:31:01,193 --> 01:31:01,973
+Sì, sì, sì.
+
+732
+01:31:02,193 --> 01:31:07,576
+E tutto questo lo puoi fare con la ridefinizione.
+
+733
+01:31:07,757 --> 01:31:12,359
+Cioè, come posso costruire un vettore associativo?
+
+734
+01:31:12,379 --> 01:31:17,302
+Sì, faccio un overload, prendo come parametro una strada.
+
+735
+01:31:17,322 --> 01:31:20,183
+I vettori associativi per Python sono i dizionari.
+
+736
+01:31:26,770 --> 01:31:55,093
+qua sono le mappe si, l'ha usata, bellissima mi serviva di ordinare delle cose per distanza dalla telecamera per dire la chiave era la distanza quindi io poi sono andato a chiamarle in ordine di distanza perchè lì le mette già in ordine esatto, la chiave è la distanza e poi ovviamente poi c'erano i valori
+
+737
+01:31:56,425 --> 01:32:12,795
+Questa sera è molto bella, infatti sono andato a vedere come funzionano, sono andato subito a vedere come funzionano perché non capivo, ho detto ma come è possibile e c'è tutta una roba dietro, a fine un vettore, fondamentalmente.
+
+738
+01:32:13,495 --> 01:32:16,477
+Ti ricordi che tu l'hai trovato a Siverno?
+
+739
+01:32:26,323 --> 01:32:26,783
+Si si, ho visto la voce.
+
+740
+01:32:26,803 --> 01:32:27,103
+Vai giù, vai giù.
+
+741
+01:32:55,583 --> 01:32:56,543
+C'è scritto a Reassociativi?
+
+742
+01:32:56,583 --> 01:32:59,784
+Sì, sì, sì, eh, sì.
+
+743
+01:32:59,804 --> 01:33:01,385
+Volevo arrivare e filmare.
+
+744
+01:33:01,445 --> 01:33:12,588
+Eh, vai giù, vai giù, vai giù, c'è ancora... No, c'è proprio il titolo a Reassociativi, più in basso.
+
+745
+01:33:12,828 --> 01:33:17,330
+Cioè, l'ho visto prima mentre ha cliccato... Vai, vai, vai, vai.
+
+746
+01:33:17,390 --> 01:33:18,150
+Era verso la fine.
+
+747
+01:33:18,970 --> 01:33:22,891
+Vai, vai, vai, vai, vai, vai.
+
+748
+01:33:23,151 --> 01:33:23,711
+C'è ancora metà.
+
+749
+01:33:26,891 --> 01:33:27,851
+Eccolo qua.
+
+750
+01:33:27,911 --> 01:33:30,792
+Eccolo qua.
+
+751
+01:33:30,832 --> 01:33:31,452
+Cosa dice lui?
+
+752
+01:33:55,061 --> 01:34:14,152
+ha un campo di applicazione molto vasto e generalizzato in un normale array infatti non esiste nessuna regola che obblighi il secondo operando ad essere un intero il primo operando è solo la 45a il secondo operando è il 50a
+
+753
+01:34:20,064 --> 01:34:22,025
+come l'indice di una re.
+
+754
+01:34:22,205 --> 01:34:44,596
+Al contrario, lo si può definire di un qualsiasi tipo, anche astratto, e ciò permette di stabilire una corrispondenza o come tabola, come talvolta si dice, un'associazione fra gli oggetti di un re.
+
+755
+01:34:44,676 --> 01:34:46,837
+Un re associativo spesso
+
+756
+01:34:48,227 --> 01:35:11,574
+chiamato Mappan o anche Dizionario memorizza coppie di valori dà un valore la chiave si può accedere si, all'altro il valore si può accedere all'altro
+
+757
+01:35:16,846 --> 01:35:18,287
+Vabbè, comunque, io ho capito.
+
+758
+01:35:18,407 --> 01:35:18,687
+No, no.
+
+759
+01:35:18,707 --> 01:35:22,010
+Cazzo di denti.
+
+760
+01:35:22,050 --> 01:35:38,621
+No, l'ultima cosa... La funzione che implementa l'overloader, servitore indice, fornisce un algoritmo di un appartamento.
+
+761
+01:35:38,981 --> 01:35:39,622
+Lashing.
+
+762
+01:35:40,222 --> 01:35:41,703
+Lashing è un altro.
+
+763
+01:35:41,903 --> 01:35:42,764
+No, lashing.
+
+764
+01:35:43,772 --> 01:35:47,074
+Praticamente prende la chiave, la trasforma nell'indice.
+
+765
+01:35:47,875 --> 01:35:50,596
+No, lascing è un po' diverso.
+
+766
+01:35:50,636 --> 01:35:53,938
+E però la mappe fa così?
+
+767
+01:35:54,499 --> 01:36:00,542
+Lui con la chiave la trasforma in un indice attraverso il modulo della dimensione della regola.
+
+768
+01:36:00,642 --> 01:36:02,684
+Però lascing è un po' diverso.
+
+769
+01:36:03,184 --> 01:36:06,726
+Secondo lascing o in mezzo tipo per la sicurezza?
+
+770
+01:36:06,866 --> 01:36:06,926
+Sì.
+
+771
+01:36:08,291 --> 01:36:13,334
+Sì, sì, sì, però la no, questo poi, quello che ho visto io.
+
+772
+01:36:13,994 --> 01:36:16,795
+No, completamente diverso.
+
+773
+01:36:18,016 --> 01:36:22,138
+Il concetto è diverso, è una funzione intanto.
+
+774
+01:36:22,158 --> 01:36:22,438
+Esatto.
+
+775
+01:36:22,458 --> 01:36:25,660
+Dalle caratteristiche specifiche.
+
+776
+01:36:26,761 --> 01:36:29,622
+Che dovrebbe dare un risultato univoco in base a lì.
+
+777
+01:36:29,722 --> 01:36:37,186
+Se tu vai a scaricare Linux, se te lo vai a scaricare dal sito qualunque
+

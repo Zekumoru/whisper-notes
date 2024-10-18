@@ -1,0 +1,950 @@
+WEBVTT
+
+00:00.562 --> 00:01.203
+che dici te.
+
+00:01.243 --> 00:27.038
+Ma ho capito anche quello che dici te, non hai sbagliato il discorso perché chiaramente come partiamo, non è un problema mio, nel senso che direi che per me è un mondo, per te
+
+00:27.941 --> 00:29.782
+E' una battuta.
+
+00:29.802 --> 00:35.505
+Per me è un mondo perché sapevo anche questa cosa che hai raccontato te, che tu prendi un file e ti tiri fuori la chiave del file.
+
+00:35.785 --> 00:48.332
+Sì, è semplicemente un concetto matematico che è stato utilizzato dall'informatica in vari contesti.
+
+00:49.972 --> 00:54.055
+Uno dei contesti è la generazione di indici e c'è un motivo.
+
+00:55.435 --> 00:56.196
+C'è un motivo.
+
+00:56.616 --> 01:03.800
+Il discorso è che l'esce, perfetto, non esiste in natura e quindi ci sono dei problemi.
+
+01:04.641 --> 01:11.425
+Sono delle cose che avevo in mente in passato di spiegarle, però...
+
+01:16.071 --> 01:29.817
+Sì, non ho cervelli che funzionano e tempo perso perché ti ripeto, quando tu usi quella parola automaticamente mi si apre un mondo e ho detto no, non è solamente quello.
+
+01:29.857 --> 01:36.040
+Lo so che non è solamente quello, è una cosa abbastanza complessa.
+
+01:36.920 --> 01:44.083
+Diciamo che è un modo di... è un'operazione matematica che dà un risultato, dato un input
+
+01:46.001 --> 01:51.724
+Un input che può essere qualsiasi cosa, lui ricava un qualcosa altro.
+
+01:51.784 --> 01:58.328
+Sì, in effetti poi queste funzioni esce poi nella realtà.
+
+02:00.509 --> 02:02.550
+Nella realtà sono algoritmi.
+
+02:03.030 --> 02:03.510
+Esatto.
+
+02:04.531 --> 02:08.753
+E quindi che hanno un obiettivo ben preciso.
+
+02:09.153 --> 02:09.514
+Esatto.
+
+02:10.934 --> 02:11.435
+Ti ripeto,
+
+02:15.620 --> 02:40.869
+lascia perdere l'esce, cioè lascia perdere, te l'ho detto, no, lascia perdere il ruolo, cioè usare quel termine poi per chi ti ascolta se quella persona sa cosa c'è dietro a questo punto dice ok allora a questo punto ci sono delle basi andiamo oltre
+
+02:42.279 --> 02:46.120
+il problema è no, sei semplicemente uno strumento che... ciao!
+
+02:46.900 --> 02:48.801
+se ci sei tu, non ci sono noi!
+
+02:48.861 --> 02:48.961
+no!
+
+02:49.261 --> 02:50.682
+e abbiamo l'ultima volta!
+
+02:50.762 --> 02:58.664
+allora vado a vedere come sono!
+
+02:58.724 --> 03:07.867
+allora io lo spio solo come concetto... lo sconsiglio, cioè tienilo come un postit se cade non ti preoccupare, l'importante è che tu capisca
+
+03:09.827 --> 03:12.249
+Cosa si intende per reassocettivo?
+
+03:14.430 --> 03:14.550
+Sì.
+
+03:14.590 --> 03:23.556
+Invece di utilizzare un indice numerico che non ha contenuti informativi, puoi utilizzare a questo punto un altro indicatore?
+
+03:23.576 --> 03:24.996
+Sì.
+
+03:25.056 --> 03:29.699
+Che può aiutarmi... È come se mi scegliesse io l'indice.
+
+03:30.280 --> 03:31.820
+Sì.
+
+03:32.781 --> 03:33.001
+Sì.
+
+03:34.102 --> 03:37.644
+L'implementazione con quelle funzioni particolari va bene.
+
+03:39.480 --> 04:06.932
+capisci però basta c'è che sennò ma lì mi sono fermato anche perché c'è andare a aprire dentro la funzione di ashing non ho le competenze per fare no no no è complicato Roby non lo fare ma non l'ho fatto allora invece mi aggancio alle cose che ti ho fatto
+
+04:10.976 --> 04:15.982
+le cose che abbiamo fatto, qui è andato via ed è arrivato
+
+04:35.486 --> 04:36.128
+Ok, il totale questo senso vuole?
+
+05:00.523 --> 05:04.985
+ma non c'è neanche al cinico non vuoi sentire scuole?
+
+05:05.005 --> 05:06.786
+le hai già segnate tutte e tre?
+
+05:07.746 --> 05:09.207
+perché le hai segnate già?
+
+05:10.447 --> 05:11.568
+si, vedo ma le vedo solo?
+
+05:11.588 --> 05:14.849
+ah eccola no no no vedevo queste due si si le ho segnate tutte e tre
+
+05:31.904 --> 05:35.585
+Allora, continuiamo un attimo con quello che stavamo facendo.
+
+05:38.446 --> 05:42.287
+Quindi la scaletta, la scaletta praticamente sarà questa.
+
+05:43.907 --> 05:44.627
+Gerarchia.
+
+05:55.530 --> 05:58.491
+Poi, il polimorfismo.
+
+06:08.028 --> 06:13.490
+Poi, a questo punto, andate all'ultimo step, l'ultimo step, l'ultima sensazione che ti hai perso due occasioni.
+
+06:13.711 --> 06:15.951
+Questa è quella dell'altra lezione.
+
+06:19.053 --> 06:20.233
+L'essenziale.
+
+06:20.253 --> 06:23.054
+L'essenziale è che da solo tu non le capirai mai queste cose.
+
+06:24.975 --> 06:27.556
+Ma capo mai, mai.
+
+06:27.596 --> 06:30.858
+Mi dispiace, però, se ripeto, non è... Non posso bere milanio.
+
+06:32.138 --> 06:34.319
+Non è anche io.
+
+06:34.339 --> 06:35.339
+Non ci credo, non so.
+
+06:35.900 --> 06:36.800
+Non è anche io.
+
+06:40.047 --> 07:05.657
+Detto questo, dinarchia, polimorfismo a compenso, l'evoluzione, il discorso di capire bene questo percorso e capire bene il punto di partenza, e spero che abbiate fatto quelle prove che vi ho detto, poi dopo di che trascrivetele, perché sennò anche per voi diventa una cosa così, sparisce.
+
+07:09.215 --> 07:11.256
+Dalla gerarchia passiamo al polimorfismo.
+
+07:11.597 --> 07:14.478
+L'evoluzione come è avvenuta in pratica?
+
+07:15.539 --> 07:27.146
+Per avere il polimorfismo io devo avere una gerarchia ma nello stesso tempo devo, per quanto riguarda l'implementazione abbiamo detto con il C++, devo avere un altro strumento.
+
+07:28.667 --> 07:34.230
+Gli strumenti che abbiamo visto per quanto riguarda il C++ sono i puntatori
+
+07:40.078 --> 07:57.287
+Però, abbiamo detto un'altra cosa, con i puntatori non trovo il problema, cioè non implemento il concetto di pori martilli, un bisogno di un altro strumento altrimenti io avrò delle funzionalità inaspettate, chiaro?
+
+07:57.888 --> 08:01.330
+Allora, puntatori e quindi abbiamo detto
+
+08:04.362 --> 08:05.743
+Ho delle funzioni particolari.
+
+08:05.983 --> 08:19.469
+Io le chiamo, a questo punto tutti le chiamiamo funzioni virtual, le funzioni virtual sono quelle che mi garantiscono di avere un polimorfismo reale.
+
+08:20.329 --> 08:30.534
+Il polimorfismo significa in pratica un oggetto che può diventare un altro oggetto in pratica, può cambiare forma.
+
+08:31.454 --> 08:33.395
+Questo è il concetto rozzo, grezzo.
+
+08:34.053 --> 08:39.635
+di polimorfismo.
+
+08:39.975 --> 08:54.121
+Quindi se voglio che un oggetto diventi un altro oggetto con tutte le funzionalità dell'altro oggetto, a questo punto è chiaro che ho bisogno di queste funzioni particolari chiamate funzioni virtuelle.
+
+08:54.141 --> 09:00.804
+La funzione virtual non è soltanto l'aggiunta della parola funzione virtual, c'è tutta una teoria alle spalle.
+
+09:04.019 --> 09:21.632
+Noi semplificheremo semplicemente dicendo che ci sono le funzioni virtual, quindi mi devo soltanto ricordare di aggiungere la parola virtual, per ottenere un effetto atteso in termini di polimorfia.
+
+09:24.354 --> 09:27.217
+Per chi volesse approfondire, lì c'è NL,
+
+09:32.017 --> 10:00.676
+il sito spiega cosa c'è dietro una funzione virtuale non è soltanto una parola è spiegata anche bene però ripeto non voglio fare proprio una lezione magistrale universitaria per chi volesse approfondirlo è semplicemente una curiosità in più che uno ti vuole repare a noi basta in questo se voglio ottenere l'effetto sperato quindi
+
+10:01.348 --> 10:06.630
+la trasformazione di un oggetto in un altro oggetto con tutte le funzionalità, devo usare la parola virtual.
+
+10:07.170 --> 10:10.932
+Le funzioni, alcune funzioni devono essere virtual, alcune.
+
+10:13.553 --> 10:25.058
+A questo punto c'è un altro concetto potente, relativo alla programmazione ad oggetti, e li entriamo nel mondo
+
+10:27.310 --> 10:34.816
+Nel mondo ovviamente sempre l'obiettivo resta sempre quello di avere una programmazione sempre più generica.
+
+10:37.378 --> 10:38.779
+Che significa generica?
+
+10:40.640 --> 10:47.785
+Io ho un'applicazione generica e poi la specializzo di volta in volta.
+
+10:47.885 --> 10:56.572
+Quindi anche lì, vedendo le classi, io costruisco delle classi generiche che poi di volta in volta vado a specializzare.
+
+10:58.331 --> 11:02.213
+Tenete presente questo concetto perché altrimenti facciamo cosa?
+
+11:04.174 --> 11:07.535
+E continuiamo ovviamente a riprodurre la nozione.
+
+11:09.576 --> 11:12.118
+C'è questo obiettivo, programmazione generica.
+
+11:12.898 --> 11:16.340
+Programmazione generica, ripeto, programmazione generica.
+
+11:18.781 --> 11:23.643
+Andiamo a vedere questo mondo, quest'altro pezzo di programmazione generica.
+
+11:31.035 --> 11:32.496
+sono classi astrati.
+
+11:39.220 --> 11:41.882
+Ok, cosa hanno di particolare le classi astrati?
+
+11:41.942 --> 11:43.723
+Intanto come si implementano?
+
+11:46.985 --> 11:50.387
+Si implementano praticamente intanto
+
+11:59.088 --> 12:09.176
+ok utilizzando le funzioni virtual alle quali assegno il valore 0 ci siete?
+
+12:09.696 --> 12:27.189
+si ma il problema non è lo 0 il problema non è lo 0 il problema è un'altra cosa le funzioni quasi non sono più funzioni virtual o meglio c'è una componente virtual
+
+12:27.774 --> 12:30.194
+alla quale assegno il valore zero.
+
+12:32.575 --> 12:37.916
+Tutti insieme si chiamano funzioni pure.
+
+12:44.057 --> 12:45.717
+Quindi cosa è una funzione pure?
+
+12:46.137 --> 12:48.418
+Una funzione dietro alla quale assegno il valore zero.
+
+12:57.789 --> 13:22.042
+no perché non è sufficiente che io assegni il valore 0 è il concetto di funzione pure, la funzione pure è una funzione senza corpo la funzione senza corpo quindi praticamente tutte le funzioni quando abbiamo fatto le funzioni abbiamo detto caratterizzata da una firma da un prototipo più il corpo bene le funzioni pure
+
+13:23.528 --> 13:26.971
+hanno il prototipo ma non hanno il corpo.
+
+13:27.771 --> 13:29.212
+Che senso hanno?
+
+13:30.853 --> 13:34.035
+No, che senso ha avere una funzione che non ha corpo?
+
+13:34.555 --> 13:37.457
+Perché se una funzione non ha corpo non fa niente.
+
+13:37.477 --> 13:40.039
+È chiaro?
+
+13:42.180 --> 13:46.263
+E a questo punto lo scopo è proprio questo, in pratica.
+
+13:47.364 --> 13:50.326
+Sono dei segni a posto, nel senso che
+
+13:51.610 --> 14:18.716
+è chiaro che quando le uso se qualche parte c'è l'implementazione non solo c'è l'implementazione l'implementazione è obbligatoria però c'è anche un'altra cosa è chiaro che ci deve essere un legame tra due soggetti la classe astratta che contiene almeno una funzione pura
+
+14:20.808 --> 14:23.569
+e l'altro soggetto, cos'è l'altro soggetto, un'altra classe?
+
+14:24.789 --> 14:25.289
+Qualunque?
+
+14:26.430 --> 14:42.154
+No, perché a questo punto deve avere anche lì, una gerarchia, l'importanza del capire il senso delle gerarchie e il significato di gerarchia.
+
+14:42.194 --> 14:42.915
+L'idea qual è in pratica?
+
+14:44.914 --> 15:00.445
+io ho una classe austratta composta da metodi virtual che non fanno niente perché non ha senso che facciano niente in quel contesto e allora perché ce li metto dentro?
+
+15:01.946 --> 15:10.432
+sono ingredienti fondamentali invece per tutta una serie di classi che derivano dalla classe principale
+
+15:13.204 --> 15:13.484
+Chiaro?
+
+15:14.405 --> 15:31.332
+Quindi le classi vere non sono le classi astratte, ma sono ovviamente le classi derivate alle quali passo in eredità questi metodi puri e che sono obbligati a implementare.
+
+15:31.352 --> 15:33.312
+Implementare significa aggiungere il corpo.
+
+15:35.973 --> 15:37.014
+E cosa significa?
+
+15:37.214 --> 15:39.735
+Beh, ognuno aggiunge la propria specializzazione.
+
+15:42.432 --> 15:43.793
+Ci siete?
+
+15:43.833 --> 15:46.735
+Quindi il concetto teorico è questo.
+
+15:48.637 --> 15:54.141
+Attenzione, c'è un altro associato, un altro concetto.
+
+15:55.202 --> 16:03.729
+Se all'interno della classe c'è una funzione pura, quella diventa una grassa strata.
+
+16:06.150 --> 16:10.494
+Se tutte le funzioni sono pure, quello diventa un'interfaccia.
+
+16:15.251 --> 16:17.191
+Se è una classe, ragionate.
+
+16:18.492 --> 16:22.192
+Se è una classe, è dotata di metodi puri.
+
+16:26.053 --> 16:27.933
+Supponete, ok?
+
+16:28.754 --> 16:29.614
+Questa è la situazione.
+
+16:35.895 --> 16:39.636
+Classa Z, la generazione.
+
+16:39.676 --> 16:40.376
+Allora, supponiamo
+
+16:51.392 --> 16:59.414
+virtual a questo punto gli diamo una F e ok e questa è la questione pura no?
+
+17:00.395 --> 17:20.941
+perchè è virtual più è valore 0 poi abbiamo G questa è una funzione, un metodo
+
+17:22.358 --> 17:27.881
+Qualunque il significato è semplicemente una funzione che fa qualcosa.
+
+17:43.068 --> 17:44.069
+Questa è una funzione virtua.
+
+17:46.070 --> 17:47.490
+Qual è lo scopo di questo esempio?
+
+17:48.151 --> 17:50.432
+Una classe che ha al proprio interno
+
+17:51.448 --> 18:04.118
+una funzione pura una funzione normale, generica una funzione virtual che non è pura perché?
+
+18:04.418 --> 18:18.549
+per due motivi uno non è uguale a zero ma la cosa più importante c'è un corpo quindi fa qualcosa, bene?
+
+18:22.119 --> 18:23.579
+bene, cosa non posso fare?
+
+18:23.699 --> 18:39.043
+questa benedetta classe astratta pertiene perché c'è una funzione virtue chiaro?
+
+18:40.764 --> 18:42.724
+cosa non posso fare con la classe astratta?
+
+18:43.644 --> 18:45.625
+se ci pensate, se ci riflettete
+
+18:47.347 --> 18:50.611
+Questa è la classe, con le classi cosa posso fare?
+
+19:01.462 --> 19:02.923
+Qual'è lo scopo della classe?
+
+19:03.203 --> 19:05.125
+La classe è semplicemente un progetto, no?
+
+19:05.585 --> 19:10.009
+Quindi, che mi serve per creare oggetti.
+
+19:10.229 --> 19:10.729
+Ci siete?
+
+19:11.570 --> 19:21.217
+Sendo che in termini, ad esempio, la funzione pura è, anzi, non capite il contenuto vuoto, la classe stratta.
+
+19:28.263 --> 19:28.403
+Poi?
+
+19:31.865 --> 20:00.848
+sempre semplicemente... sempre il mio rilagionamento perché stavo parlando, quindi... la classe è fatta da... membri membri, da valpacifico ma io avevo i... attributi e metodi proprietà più metodi metodi più metodi, ok a questo punto questa sera abbiamo introdotto
+
+20:02.264 --> 20:05.185
+le funzioni virtuali.
+
+20:05.225 --> 20:08.187
+Questa è una classa che ha metodi e proprietà.
+
+20:08.207 --> 20:17.191
+A questo punto alcuni metodi sono dei metodi specializzati.
+
+20:18.212 --> 20:23.394
+Questo metodo è un metodo, lo abbiamo chiamato?
+
+20:35.796 --> 20:51.108
+Questo è un metodo generico e questo è un metodo, no non è generico, è virtual, dovete leggere, è un metodo virtual, va bene?
+
+20:53.290 --> 20:54.011
+Perfetto.
+
+20:55.512 --> 20:56.793
+A cosa servono le classi?
+
+20:59.215 --> 21:00.396
+Non come spartano le classi.
+
+21:06.363 --> 21:08.205
+Per creare un oggetto.
+
+21:08.845 --> 21:09.826
+Per creare un oggetto?
+
+21:09.866 --> 21:10.867
+Come si crea un oggetto?
+
+21:14.570 --> 21:17.953
+Utilizzando i membri della classe.
+
+21:20.615 --> 21:21.156
+Eccomi fare.
+
+21:27.401 --> 21:29.262
+Ragazzi, il nome della classe
+
+21:32.058 --> 21:38.222
+dove ti scelgo io?
+
+21:38.242 --> 21:38.582
+te virgola?
+
+21:38.602 --> 22:00.554
+lì dichiaro ragazzi queste sono cose serie se sono troppo difficili io abbasso il livello ci riduciamo a fare le cose dal giorno io non mi voglio, mi voglio bene però se mi sto spingendo in alto è perché voglio di più per voi ma se non ce l'ha fatto per qualunque motivo
+
+22:01.169 --> 22:30.483
+a basso livello perché se le faccio le cose alte io voglio da voi risposte alte non banale sennò le faccio più la ducu o studiate queste cose la cosa che non potete fare con questa classe è creare oggetti
+
+22:32.918 --> 22:39.442
+le classi servono per creare oggetti come se creano oggetti classe più nome dell'oggetto chiaro?
+
+22:40.363 --> 23:02.097
+questa è una classe ma questa classe contiene al tuo interno una funzione virtual la funzione virtual è caratterizzata da baller zero ma non è la cosa più importante quella che non ha corpo e se non ha corpo non lo posso usare e quindi
+
+23:02.862 --> 23:12.226
+Quindi, al momento in cui io tento di creare un oggetto ricavato da una cosa estratta, lui mi dà le flore.
+
+23:13.426 --> 23:13.787
+Perchè?
+
+23:14.247 --> 23:17.868
+Perchè, dice, c'è un metodo virtual tra l'altro.
+
+23:19.809 --> 23:20.770
+L'ho messo anche pubblico.
+
+23:23.291 --> 23:24.291
+Ma poco importa.
+
+23:24.931 --> 23:28.913
+Appena si accorge che esiste un metodo puro, lui dice, cos'è che vuoi?
+
+23:30.532 --> 23:58.244
+la classe astratta non serve per creare oggetti se non capite questo è inutile darmi la definizione di classe astratta con la funzione pura il problema è perché esistono il concetto sono delle classi che io utilizzerò non per creare oggetti non le uso per creare oggetti
+
+24:00.211 --> 24:02.693
+Se le voglio usare, la cosa che devo fare?
+
+24:04.174 --> 24:05.656
+Creare classi specializzati.
+
+24:09.779 --> 24:14.243
+Creare gerarchie con classi specializzati.
+
+24:16.605 --> 24:23.290
+Se saltate questo passaggio, avete saltato il senso della classe stretta, perché esistono.
+
+24:24.426 --> 24:51.712
+e voi mi rispondete perché c'è una pensione in verito e io vi risponderò avete sbagliato le risposte io non ti ho chiesto come hai fatto ti ho chiesto come si usa non puoi creare oggetti e le puoi usare solamente per creare gerarchia se non c'è una gerarchia io questo strato la tengo lì
+
+24:52.535 --> 24:54.516
+E non fa niente, non la posso usare.
+
+24:56.557 --> 24:56.977
+E' chiaro?
+
+24:59.519 --> 25:00.099
+Dimmi Marco.
+
+25:01.760 --> 25:02.781
+Diciamo che dobbiamo dare.
+
+25:03.941 --> 25:07.003
+Ma adesso ci sono, ma... Scusa che ti spugno.
+
+25:07.043 --> 25:12.386
+C'era una domanda che avrei potuto ancora spostare.
+
+25:13.006 --> 25:13.807
+Dimmi.
+
+25:13.887 --> 25:14.167
+Prova.
+
+25:15.448 --> 25:17.709
+La domanda è che se non la posso usare.
+
+25:24.645 --> 25:28.248
+Allora, segui gli alternamenti.
+
+25:28.789 --> 25:31.031
+La cosa importante è gli alternamenti, non è la risposta.
+
+25:33.153 --> 25:34.614
+Io so così una classe astratta.
+
+25:36.456 --> 25:39.999
+Se c'è un metodo puro, siamo in presenza di una classe astratta.
+
+25:40.479 --> 25:41.080
+Va bene?
+
+25:41.761 --> 25:48.447
+Io ti ho detto, la cosa che ti ho detto è cosa non puoi fare con una classe astratta?
+
+25:49.848 --> 25:50.308
+Costruire oggetti.
+
+25:52.345 --> 26:00.129
+allora la domanda è ovvia se non posso costruire oggetti tutte le classi servono per costruire oggetti ma che serve?
+
+26:02.230 --> 26:18.858
+la risposta è se vuoi utilizzare una classe astratta devi impostare una gerottia ma gerottia significa che ci deve essere una classe specializzata che prendi in eredità
+
+26:22.385 --> 26:27.409
+Cosa è previsto?
+
+26:28.109 --> 26:29.350
+L'eredità come è fatta?
+
+26:33.413 --> 26:40.698
+In generale, un'eredità in termini di programmazione degli oggetti, come è fatta?
+
+26:41.619 --> 26:42.740
+Si, è troppo generica.
+
+26:52.934 --> 27:20.648
+abbiamo detto all'inizio della lezione dal progetto figlio che evita la parte pubblica del padre la condivisione della parte pubblica della classe madre
+
+27:23.206 --> 27:23.366
+No.
+
+27:25.807 --> 27:28.247
+Perché nelle reddità ci sono anche le parti protette.
+
+27:31.308 --> 27:31.829
+Non private.
+
+27:35.290 --> 27:40.971
+Se non so cosa passa, faccio fatica a scrivere una reddità.
+
+27:42.912 --> 27:43.912
+Abbiamo del giovane inizio.
+
+27:45.793 --> 27:47.333
+La reddità è composta da reparti.
+
+27:48.293 --> 27:50.494
+Membri pubblici e membri protetti.
+
+27:52.626 --> 27:55.046
+Questo è il concetto di eredità, quello che passa.
+
+27:56.907 --> 27:58.167
+Non passa, è privato.
+
+28:01.728 --> 28:18.750
+Quindi, a questo punto io faccio passare le eredità della classe astratta e tra le cose che passeranno sicuramente le classi pure arriva la classe dura.
+
+28:21.451 --> 28:21.671
+Chiaro?
+
+28:23.092 --> 28:45.091
+Nel momento in cui arriva la classe pura, la classe figlio che prende in eredità l'obbligo, l'obbligo di aggiungere questo corpo, che manca nella classe padre, se non lo fa, è compiuto la migliaia d'errore, perché la regola è questa.
+
+28:48.857 --> 28:48.977
+Da?
+
+28:49.478 --> 28:52.420
+La pura, il termine più o meno specializzato.
+
+28:52.460 --> 28:52.821
+Certo.
+
+28:53.441 --> 28:54.322
+E lo scopo è questo.
+
+28:55.463 --> 28:57.645
+Ok.
+
+28:57.665 --> 28:58.806
+Chiaro?
+
+28:58.826 --> 29:01.608
+Fate una domanda subito, e accettate il GPT.
+
+29:05.872 --> 29:15.320
+C'è un semplice esempio di uso di una prassata.
+
+29:19.642 --> 29:21.343
+Dovete vedere la sintasi?
+
+29:21.363 --> 29:24.084
+Dovete vedere praticamente il coso che vi genera.
+
+29:24.164 --> 29:28.545
+Come vi ho sempre detto, chiedete cose facili, specificatelo.
+
+29:28.846 --> 29:37.089
+Voglio un esempio in cui si usano, si utilizzi una classe stratta del cipipio.
+
+29:41.150 --> 29:43.991
+Quello che dovrebbe fare lui è questo.
+
+29:44.011 --> 29:44.311
+Quando finite
+
+29:49.931 --> 29:57.373
+Guardatemi.
+
+29:57.413 --> 29:58.953
+Le chiama metodi concreti.
+
+30:01.034 --> 30:03.414
+Le chiama metodi generici.
+
+30:03.434 --> 30:05.315
+Le chiama metodi generici.
+
+30:05.415 --> 30:05.595
+Ah.
+
+30:05.855 --> 30:18.358
+Hai fatto una domanda?
+
+30:22.459 --> 30:23.500
+vi ha generato il codice?
+
+30:25.481 --> 30:30.225
+te l'ha dato il codice?
+
+30:30.565 --> 30:46.098
+io ti ho detto, dà la risposta e guardami, anche per prima tra un po' sono, quello che ha fatto lui è, uno ha creato una cosa stratta, la riconosco perché ha almeno un metodo puro, va bene?
+
+30:50.329 --> 30:57.714
+ha creato una gerarchia di conseguenze dove la questa è tratta di padre.
+
+30:59.736 --> 31:00.536
+Va bene?
+
+31:01.877 --> 31:05.620
+Il metodo puro, o è puro più,
+
+31:11.042 --> 31:16.045
+deve essere un membro dell'interfaccia, cioè della verità.
+
+31:17.086 --> 31:24.229
+E quindi, la verità, o è pubblico, o è trattato.
+
+31:24.249 --> 31:27.191
+99% è pubblico, in quel caso.
+
+31:27.231 --> 31:27.551
+Certo?
+
+31:28.091 --> 31:29.292
+Ok.
+
+31:29.332 --> 31:29.552
+Bene.
+
+31:31.393 --> 31:33.654
+La grossa strata serve a questo.
+
+31:34.274 --> 31:37.656
+Cioè, serve a questo aspetto, siamo più precisi,
+
+31:38.996 --> 31:40.717
+Come usa una classe stratta?
+
+31:41.218 --> 31:45.461
+Risposta per costruire una eredità.
+
+31:47.323 --> 31:50.765
+Da sola la classe stratta non può essere utilizzata.
+
+31:52.667 --> 32:00.613
+Quindi ogni volta che incrocio la classe stratta devo guardare attentamente perché accanto c'è la costruzione di una diorchia.
+
+32:02.034 --> 32:03.436
+Andiamo a vedere la classe fine.
+
+32:04.476 --> 32:07.419
+La classe fine è una cosa caratterizzata in pratica.
+
+32:12.754 --> 32:26.201
+dall'implementazione la funzione pura che non aveva corpo a questo punto io me la ritrovo nel figlio con un corpo chiaro?
+
+32:27.262 --> 32:35.526
+nella classe astratta non c'è corpo è uguale a zero nella classe figlio c'è il corpo è chiaro?
+
+32:36.867 --> 32:40.449
+e quindi praticamente il senso quale è in pratica?
+
+32:41.989 --> 33:08.754
+io costruisco una classe astratta con l'obiettivo di fare specializzare le classi a tutti gli utenti che la vogliono utilizzare come promemoria, come segnaposto tipo non so che esempio vi hadde fatto un esempio che potrebbe essere stampa tonda, virtual stampa tonda uguale a 0
+
+33:11.522 --> 33:14.203
+Questa è una classe astratta con una funzione stampa.
+
+33:15.584 --> 33:19.486
+Poi mi dichiaro una classe specialità.
+
+33:20.727 --> 33:31.193
+Gli arriva e ci sarà una funzione stampa con un corpo, sono i figli.
+
+33:32.794 --> 33:34.374
+E' chiaro?
+
+33:35.155 --> 33:40.478
+Se non aggiungete il corpo, lui vi darà il direttore.
+
+33:42.260 --> 33:57.404
+perché il senso è, io ti do una funzione senza corpo e tu sei obbligato ad aggiungere il corpo se non aggiungi il corpo stai usando male la classe astratta è chiaro?
+
+34:00.164 --> 34:07.226
+chiedeteli qual è lo scopo delle classi astratte tanto è partito e quindi già è partito nella chat
+
+34:27.085 --> 34:29.627
+Mi hai risposto?
+
+34:39.073 --> 34:42.035
+Seconda domanda, quando si usano le glasse astratte?
+
+34:45.197 --> 34:45.657
+Non come.
+
+34:46.738 --> 34:47.599
+Il come lo sappiamo.
+
+34:47.979 --> 34:49.000
+Il problema è quando.
+
+34:58.464 --> 34:59.044
+si è scaricato?
+
+34:59.064 --> 35:00.885
+si è scaricato?
+
+35:01.206 --> 35:11.731
+no, io ho finito la prova di gpt4, quindi sta ancora generando la normativa allora, la prima domanda?
+
+35:11.751 --> 35:14.833
+è ancora la prima?
+
+35:14.893 --> 35:15.694
+è ancora la prima?
+
+35:16.754 --> 35:23.318
+perché sapete tutti gli esempi, mi sono dimenticato di non farmi gli esempi prima domanda?
+
+35:25.879 --> 35:27.360
+fornire una struttura comune
+
+35:28.288 --> 35:45.514
+consentire il polimorfismo, incoraggiare la reusabilità del codice, impedire l'istanza di una classe base generica, definire un'interfaccia per le classi derivate, favorire l'estendibilità del codice e basta.
+
+35:47.635 --> 35:49.656
+Questa è la potenza della classe astratta.
+
+35:51.376 --> 35:55.178
+La possibilità, praticamente,
+
+35:59.119 --> 36:04.382
+avere delle classi generiche che di volta in volta io vado a specializzare a seconda del mio bisogno.
+
+36:06.023 --> 36:11.267
+Però la base di tutto è, ovviamente, l'astrumento di riferimento è la creazione della diararchia.
+
+36:11.327 --> 36:21.213
+La creazione della diararchia è, ovviamente, l'assimilazione del concetto di eredità, perché è lì che ci giochiamo la partita, no?
+
+36:23.314 --> 36:28.017
+Sulle eredità e i metodi puri passano come eredità.
+
+36:29.434 --> 36:32.015
+Poi c'era la seconda domanda, no?
+
+36:32.415 --> 36:32.595
+Sì.
+
+36:34.015 --> 36:34.735
+Sto fabbricando.
+
+36:37.436 --> 36:57.082
+Quando si usano le classi astratte definire un'interfaccia comune per una gerarchia di classi poi poi gestire classi diversi in modo uniforme poi forzare l'implementazione di metri nelle sottoclassi, ridere le istantizzazioni
+
+36:59.412 --> 37:03.415
+l'istanzazione di classi generiche evitare?
+
+37:04.275 --> 37:04.876
+evitare?
+
+37:05.936 --> 37:23.949
+evitare l'istanzazione di classi generiche poi integrazione con il disegno, con l'interfaccia progettare il framework con i livelli utilizzabili aderire al principio di sostituzioni ok, cosa non posso fare con gli astrati?
+
+37:25.229 --> 37:26.730
+non posso creare oggetti
+
+37:37.563 --> 37:42.506
+Non fare i ringhi, perché... No, no, no, discoltatevi, l'esempio è importante.
+
+37:42.766 --> 37:46.187
+Adesso alla prossima domanda mi dai un esercizio?
+
+37:46.827 --> 37:51.970
+Ok, chiedeteli di farvi un esercizio che risolverete voi.
+
+37:55.071 --> 37:58.012
+Vi dai un esercizio in cui devo utilizzare una calza astratta?
+
+38:02.074 --> 38:04.015
+Come non posso utilizzarlo, però detto prima, no?
+
+38:05.794 --> 38:07.135
+non posso creare oggetti.
+
+38:12.119 --> 38:30.012
+Pensate, pensate... Gli argomenti di questa sera sono stati gerarchia, ereditarità, gerarchia con eredità e polimorfismo, adesso le si astratte.
+
+38:30.252 --> 38:32.934
+La cosa, l'ingrediente che è più importante
+
+38:34.981 --> 38:38.023
+esercizi.
+
+38:38.063 --> 38:41.165
+Voglio una batteria di esercizi con soluzione.
+
+38:45.707 --> 38:49.170
+Provateci, provateci.
+
+38:49.470 --> 38:54.092
+Dovete verificare se avete capito la lezione di questa sera, altrimenti abbiamo buttato tre ore.
+
+38:55.914 --> 38:59.976
+Quindi partite, eventualmente stabilite il vostro limite
+
+39:02.119 --> 39:21.253
+quindi chiedete ovviamente degli esercizi semplici inizialmente e vedete se riuscite subito ad applicare i concetti chiedete eventualmente a lui la soluzione ma a me non mi interessa la soluzione mi interessa chiaramente che voi prendiate coscienza su... l'ho capito o non l'ho capito?
+
+39:24.116 --> 39:25.276
+lo so fare o non lo so fare?
+
+39:27.418 --> 39:28.659
+sapete come funziona, no?
+
+39:28.739 --> 39:29.720
+se non mi interessa la...
+
+39:30.367 --> 39:31.167
+il codice.
+
+39:31.187 --> 39:32.588
+Voglio che ci proviate.
+
+39:33.489 --> 39:34.729
+I messaggi sono chiari.
+
+39:35.150 --> 39:37.151
+Ragazzi, non state ancora studiando seriamente?
+
+39:39.172 --> 39:48.617
+La quarta è l'anno più importante, perché quando arriviamo in quinta, queste cose, o le sapete, non le riparete più.
+
+39:50.578 --> 39:53.660
+Quindi fate quello che dovete fare adesso, scrittate questo tempo.
+
+39:53.720 --> 39:58.802
+Siamo quattro gatti, cerchiamo di essere
+
+40:00.683 --> 40:01.325
+e cementi.
+
+40:03.649 --> 40:07.818
+Be' bene, capite una cosa?
+

@@ -1,0 +1,777 @@
+Ti conosce anche il Sandro?
+Adesso non lo so niente.
+Anche quella sì?
+No, non so.
+Vector?
+No, no, no.
+Dicci di no?
+No, no, mette un puntatore per la morte di Dio.
+Ma aggiungi overhead così per niente?
+Tanto devi gestire te quello.
+A parte che non ha senso così.
+No.
+Sì?
+È giusto qua.
+No, non è giusto.
+Perché è un puntatore e al Ciaro non è un back-trick.
+Ti rende la vita più difficile, vedi?
+Sì.
+Ma perché tu hai batto in questa maniera?
+Cosa?
+C'è un'idea, poi mi dico... Ah, mi è andato a corsa
+che cazzo ci ha a roba io
+Guarda.
+Ha usato... Sì.
+No, cosa avevi usato?
+C'è il GPS.
+Ah, vero che mi hai chiesto.
+Chi è?
+Daniele Salvati?
+Nel senso di niente.
+Dice che con le diverse società non è affrontata un'altra.
+Non ho detto quasi quasi.
+Fanno venire?
+Sì e no, nel senso che non voglio capire se è il caso di farlo venire
+Voglio farlo parlare con voi, voglio capire quello che me l'ha mandato ieri sera.
+Poi mi ha detto, e lo conosce anche Alessandro, mi ha detto che da un pochino non ci sentiamo e mi ha detto questa cosa.
+Mi ha girato con diverse aziende internazionali
+Questo è uno di quegli studenti che ha fatto tutto nella vita, no?
+In bianchino, guarda giurata, mercati e poi praticamente adesso l'hanno lasciato ridestila con team e erano tutti ingegneri.
+e l'avevo mandato anche delle persone quando si sono accordati per questione di distanza, che era lontana l'azienda e poi niente, non potevo, non ci senti tanto volevo così e ho intenzione di
+un'intenzione di organizzare un incontro e vedere se ci sono delle possibilità si occupa di tantissime cose
+e quindi è un'opportunità, anche per fare cose un po' diverse mi sta cominciando a nuogliare quindi ho bisogno di rigenerarmi almeno assenso un po' di cose, un po' di cose nuove ue Giancarlo io non ti ho ancora mandato niente, però... su github c'è tutto, qua sto facendo anche la documentazione
+Le cose non le ha finite?
+No, no, no.
+Io stavo all'uoto.
+Facciamo le cose istituzionali.
+La tua il mio gli ha buttato un occhio?
+L'ho visto, ho guardato.
+Però non l'ho chiata.
+E' molto semplice.
+Ce l'avevo guardato quando avevo fatto il mio.
+Sì, ho visto che hai fatto... Dove era quello?
+Questo qua.
+M size of type and M first, M team.
+Cioè, cosa intendi con questi?
+Allora, li ho messi lì, però potrei anche non usarli.
+Size of type è la dimensione del tipo che poi... Ah, ho capito, lì, questo qua.
+Esatto.
+Per esempio?
+Sarebbe il primo slot libero.
+Sarebbe anche, in realtà sarebbe size.
+Ah, questo sto dicendo se... No, aspetta, perché?
+No, non ho capito.
+C'è il vettore, no?
+Il primo slot libero deve essere libero dalla fine.
+È quello.
+Però è la stessa cosa di size.
+Ma quindi alla fine vuole a size?
+Sì, alla fine sì, normalmente hanno lo stesso valore.
+Però se magari modifico size ho quello da usare.
+Ah, è tipo un tempo diciamo.
+Esatto.
+Ma non è mica che devi sempre sincronizzare questi due?
+Sì.
+Però c'è un overhead che non serve a niente, alla fine potrei anche evitarlo.
+Un overhead... Preventive Memorization.
+Infatti questo qua lo sapevo prima, lo avevo visto.
+Che lo cambia solo se... Ma no, questa è una cosa che fai tu da utente, che lo usi.
+tu dici al posto magari se hai già che avrai almeno mille elementi allora ti fai riserva mille così sai già che hai poi se hai già tipo 1000 e puoi fare 100 non puoi più farlo perchè hai già 100 in realtà ci sono già 100 che serve quindi non cambia nulla poi ho notato anche che hai proprio usato come si dice
+Il stile del C sharp.
+Ah.
+Sì, io metto le facce con la lettera maiusca.
+Questo C sharp.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+Oh no.
+io devo guardare qui come funziona un po' più guarda dove si mette la 1% come l'hai detto nooo si viene qua sono più abituato a vedere questo qua ma dove l'hai visto?
+è una abitudine ma è una pessima abitudine perchè il riferimento è sul tipo non sul nome della funzione allora cosa che avete fatto?
+vi avete mandato?
+io vi avevo chiesto di cominciare a guardare la
+a liberia standard, particolari vettor e stringhi, guardate?
+Sì, no, non l'ho guardata.
+Non l'ho guardata.
+Tu l'hai guardata?
+Sì.
+Sto facendo qualcosa.
+Non devi fare qualcosa, non fare grandi cose.
+Ho guardato un po' insieme alla libreria Vector e le stringo ben ancora.
+Parti alle stringhe.
+Perché le stringhe puoi usare anche le stringhe.
+Poi, quindi cominci a prendere l'infidenza, perché le puoi usare anche in un codice cino.
+Vector, sì, c'è un concetto in più, e quindi... Guarda un po' più, dopo.
+Prima prendi l'infidenza in estrella.
+Invece la liberia tegue?
+La liberia tegue.
+No, no, no, no, quella no perché vi devo spiegare delle cose infatti adesso andiamo avanti un pochettino con la programmazione questa è un'attività fondamentalmente spostiamo l'attenzione verso i laboratori abbiamo un po' di strumenti in prospettiva che arrivi qualcuno così almeno avrete qualcosa
+sono delle cose teoriche che devo spiegare e quindi già il fatto di fare un OML è teoria poi si tratta di trovare il punto di incontro con il linguaggio e di trasformare poi quel OML in codice
+e quindi vorrevo riprendere c'è tutto il mondo delle strutture dati che dovremmo riprenderle mi riferisco alle strutture dinamiche in particolare puntatori soltanto che per voi per certi versi recupero o ripresa il problema è che chi non ce l'ha
+faranno così, avranno qualche problema.
+Comunque, torniamo a noi.
+Facciamo un pochettino di C++ e quindi i concetti fondamentali della programmazione degli oggetti, quindi riprendiamo il concetto delle di Caritano, quindi penso che sia chiaro.
+Quando fate queste esercitazioni poi, a questo punto dovreste fare lo scopo, l'idea è questa,
+Nel momento in cui mi serve un vettore, a questo punto uso la classe vettore.
+Nel momento in cui mi serve una stringa, uso la classe stringa.
+Questi sono strumenti ulteriori, no?
+Però, chiaramente, sono solo strumenti, perché a volte la possiamo considerare prevalentemente una mezza attività laboratoriale.
+Qual è il senso?
+usare un classi esistente e quindi l'obiettivo qual è in pratica non è tanto l'esercitazione quanto il fatto che se tu mi dici mi sono guardato la classe stringere come vi disse l'ultima volta la cosa più importante è come si studia una classe e quindi dicevamo primi costruttori
+poi l'interfaccia, per l'interfaccia intendiamo tutto ciò che è pubblico.
+Poi, a questo punto, lo scopo della classe, poi comincia il salmo.
+Quindi, ogni volta che incrocio una nuova classe, la cosa che devo, ovviamente, conoscere è da dove comincio.
+Quindi l'idea, ecco perché, questo lavoro è un lavoro laboratoriale che serve ovviamente a acquisire una tecnica di studio
+Perché per parte della realtà sono nove classi che mettono a disposizione delle funzionalità e quindi mi faccio studiare una classe.
+Poi ho detto successivo, costruisco la mia classe e allora ho subito cerco di documentarla, documentarla in pratica così come ho visto in C++ in un documento più formale.
+L'anno scorso con te avevamo accennato, però avevo accennato un po' tutti, no?
+C'è Doxigen, che sarebbe l'instrumento di documentazione delle classi e quindi sono strumenti che c'è, non ha senso, dico che il fatto di esercitazione lo dimentiche, come la storia di GitHub
+cioè github non ha senso, cioè fare la lezione su github dico che ho fatto l'esercitazione, l'obiettivo è una volta che ho imparato ad usare github, tutto il lavoro lo faccio usando github allora all'inizio lo userò con delle funzioni di base di che ogni tanto aggiungo la funzione di github, l'importante è abituarsi a lavorare in quel modo quindi github
+deve essere come?
+Devo scrivere qualcosa?
+È normale che io sa più usare la penna.
+E quindi Doxygen diventa un strumento automatico, nel senso, è distinto di ciò che ho fatto una classe parte da Doxygen e faccio fare la documentazione, produco la documentazione attraverso Doxygen.
+Quindi sono strumenti, diciamo, che rientrano nella professionalità, tanto è vero che è molto probabile che, se io scrivo un curriculum, mi dimentichi di citare l'uso di chitano, l'uso di oxygen, perché è talmente scontato.
+Sui curriculum non scriviamo, non so usare la penna.
+Non so te intessere, no?
+O so leggere, non so te intessere.
+E quindi, perché?
+Perché lo facciamo?
+Tutti i giorni, e quindi chiaramente è normale.
+Non è normale in un contesto aziendale, in un contesto in cui ci si presenta, è chiaro che il fatto di trovare, di fronte alle persone che usano questi strumenti, è chiaro.
+Ci sono delle persone che non solo sanno quello che devono sapere, ma anche hanno un metodo di lavoro, no?
+e quindi sono molto più produttivi e quindi più immediati di inserire.
+Detto questo, torniamo.
+Noi abbiamo parlato di alimentarietà.
+Vorrei che facesse subito un esempio idiota.
+Io sono lento a scrivere.
+Quindi lo possiamo fare.
+Allora, uso la lavagna per farvi capire una cosa.
+si tutti voi tenete la tastiera perché siete più veloci uno dice boomer, no sempre è stato così, anche la wak allora dicevamo, abbiamo fatto
+Ok?
+Questa è l'eresitalità, no?
+Pare, figlio, a questo punto, qual è la sintassi?
+Avete fatto prove di sintassi di classi derivati?
+La sintassi, dal punto di vista del C, è questa, no?
+La ossima.
+In questo caso,
+B è derivata, 2 punti, derivata, pubblico, privato, protetto, passaggio che vogliamo fare.
+Pubblico, privato, protetto, derivata,
+e a questo punto dentro ci mettiamo delle cose, quindi bisogna usare la sintassi, la sintassi del CPT.
+Facendo ancora sintesi, eredità significa che ci sono dei membri che possono essere delle, della classe generica, che possono essere passati, non è privata, alla classe derivata,
+quindi dal generale co-specializzato è chiaro che a questo punto è chiaro che qui abbiamo detto abbiamo detto dipende dal tipo di passaggio, la modalità di passaggio quindi se io passo secondo modalità pubblica succede qualcosa
+protetta, succede altre cose, privato, succede altre cose.
+Cosa succede?
+Il problema è, io devo trasferire qualcosa alla classe specializzata.
+Quello che posso trasferire sono, possono essere metodi, possono essere proprietà, possono essere classi.
+È chiaro che nel momento in cui i membri raggiungono la classe B, il problema qual è in pratica?
+Cosa diventeranno?
+Cosa diventeranno?
+Che significa?
+Quale visibilità avranno?
+E quindi abbiamo detto che all'interno della classe ci sono, sì, i membri, però in effetti succede ogni singolo membro, devo anche determinare un livello di visibilità.
+pubblica significa che tutti possono usare quel membro, tutti intesi all'esterno della classe e dell'oggetto.
+Protetto?
+No.
+Solo membre all'interno.
+Privato?
+No, solo membre all'interno.
+E quindi, chiaramente, sapendo questo, quel sito qual è?
+Una volta che ho trasferito l'eredità, cosa diventa?
+quale grado di visibilità avrà.
+E poi abbiamo visto lì, sul percorso, abbiamo visto quali sono le regole in pratica.
+Quindi, discorso, trasferisco la modalità pubblica a mantenere lanterate ovviamente le visibilità.
+nell'eredità o dell'eredità non fa parte tutta la componente private quindi praticamente resta una caratteristica della classe generica della generalizzazione passa dell'eredità praticamente composta da membri pubblici e membri protetti
+quindi in brady la cosa interessante sul membro protetto dicevamo perché mantiene diciamo un grado di protezione e di visibilità praticamente minima quindi soltanto relativa all'interno della classe e non consente a soggetti esterni di utilizzare
+quel membro.
+Il privato ha un'altra caratteristica, non passa come levità, vero?
+Può succedere, gli abbi hanno la necessità di far passare anche componenti, diciamo, inaccessibili all'esterno.
+Questo ha introdotto questo nuovo concetto, no?
+Il concetto di protetta, in pratica.
+delle funzionalità che trattano anche prima.
+Detto questo, il discorso dell'eredità, c'è un altro concetto di cui non abbiamo parlato, il corona effetti, lo vediamo adesso.
+Scrivo quello in minima indispensabile.
+Ok.
+La classe B, che è la classe specializzata, ha un'opinione e supponiamo che la classe A, per esempio, abbia un'opinione.
+Qui è possibile apprezzare la prima cosa.
+è cosa che possiamo apprezzare, tanto cosa succede.
+Quale è il significato di questo esempio?
+C'è la classe derivata, che è la classe generica, hanno un membro, hanno un metodo con le stesse caratteristiche, con la stessa firma, e quindi, in pratica, stesso nome, stessi, parametri, questo dato non ci sono fatte.
+Sapendo che questo è un membro pubblico, verrà trasmesso in eredità indipendentemente dalla modalità.
+La cosa è certa, è pubblico, quindi quella è un'eredità che arriverà sicuramente al figlio.
+Ci ritroviamo con una situazione di questo genere, cioè abbiamo due funzioni.
+A un momento in cui io dichiaro
+crea un'istanza dell'oggetto di classe B del tipo E chiamo il metodo F il problema è quale F parte cioè quello del figlio e quello ovviamente del padre sono arrivate entrambe la regola è soprapposizione
+parte quella del figlio.
+Ci siete?
+E quindi in principio sì.
+Sì, diciamo di sovrapposizione.
+E questo è un primo aspetto.
+Ci sono altre considerazioni del tipo, e qui poi dovremo aprire un'altra parentesi, perché c'è un altro aspetto interessante.
+che è legato ovviamente alla gestione dei costruttori nel senso che è chiaro che quando io dichiaro, c'è una cosa ovvia, quando io dichiaro un'istanza di B e B ha una classe generica per poter utilizzare la funzionalità della classe generica quel metodo deve esistere
+Cosa intendo dire?
+Supponiamo che ci sia anche G. Ci siete?
+Allora, l'eredità cos'è?
+Passa G e passa F, no?
+Perché?
+che sono pubbliche.
+Ok.
+Allora, a questo punto io con la necessità di far partire G posso fare, supponendo che il passaggio sia stato pubblico, no?
+Il problema è, per fare questa chiamata è chiaro che quella funzione, questa funzione, io sto lavorando non tanto con il figlio, eh,
+Non ho dirato il padre, quindi da qualche parte ci deve essere.
+Questo significa che in cui io crea un'istanza di B, automaticamente ne prego anche una per il padre, per andare ad affiggere, per elevare.
+Il problema è questo.
+Per far partire il padre, in questo caso, abbiamo un costruttore che richiede ovviamente il parametro.
+Ci siete?
+Quindi cosa succede?
+Io dichiaro B, provo a chiamare G, è chiaro che ci sarà un problema, no?
+Perché?
+Il costruttore di A non è partito.
+Perchè?
+Per partire è necessario avere a questo punto, fornire un parametro.
+Quindi, chi ha il problema?
+Lo avete affrontato questo problema?
+Ti chiedo, eh?
+Sì, hanno scolto.
+Voi?
+Tu?
+Poi ho avuto a che fare con un costruttore di default e non c'era bisogno.
+Chiaro il problema.
+Il discorso non è tanto quello che sto dicendo quanto il problema.
+Cioè, partiamo dal problema e aggiungiamo tutto quello che sto dicendo, ma facciamo l'inverso.
+Quello che sto dicendo non ha molto senso, è semplicemente una lozione, può succedere.
+Non è così che possono succedere tante cose.
+Il problema è, a volte, ci sono situazioni che succedono.
+Ci sono delle classi
+che partono con dei costruttori specifici, nel senso che richiedono dei parametri.
+Mentre in cui esiste una gerarchia, attenzione quando imposto quella gerarchia, perché se basta usare il figlio poi il padre deve partire e quindi se il padre richiede un parametro, domanda, il parametro chi glielo dà?
+È chiaro?
+È chiaro il problema?
+Quindi il problema, la reticità è, ok, quello deve partire chi gli dà il parametro.
+Di fatto, quello che vi ho detto è chiaro, posso costruire la risposta?
+La risposta è, se rifletto, qual è il primo metodo che parte quando un consultore, e quindi a questo punto, all'interno del consultore del figlio,
+per edispongo la chiamata al costruttore del Padre fornendo tutto quanto è necessario affinché il Padre parta correttamente.
+Siete?
+E quindi suggerimento io a questo punto mi dovrei fermare a dirvi fate subito la prova perché se avete capito bene il problema è che
+Se non fissate quello che avete fatto, chiaramente la cosa si perde.
+Quindi, partiamo dal problema.
+Abbiamo detto cos'è una gerarchia.
+Abbiamo fissato le regole per poter riconoscere una gerarchia.
+Cosa accade quando abbiamo una generalizzazione specializzazione?
+Le serie precedente abbiamo motivato
+abbiamo parlato ovviamente di padre e figlio però in effetti un altro concetto che possiamo abbinare all'aspetto familiare generalizzazione specializzazione c'è una classe generica che fornisce delle funzionalità di base e poi delle classi specializzate che hanno ovviamente ogni una la propria specializzazione questo significa tutta una serie di membri
+che la rendono specializzata, quindi la funzionalità generica più la funzionalità e i figli, ovviamente, delle specializzazioni.
+Detto questo, abbiamo detto qual è il concetto di derrattiva.
+Attenzione, l'uso del C++ è strumentale, nel senso che almeno mi interessa in questo momento fare C++.
+Mi interessa che passi questo concetto.
+capire il senso della gerarchia perché la gerarchia praticamente come la ritrovo è un concetto fondamentale della programmazione dell'oggetto che prescinde dai linguaggi, cioè sono i linguaggi che si devono adeguare a queste regole quindi tutti i linguaggi dovranno essere progettati tenendo conto le regole della programmazione dell'oggetto.
+Detto questo
+può succedere che il genitore qui ci sono ovviamente le sfumature le sfumature quali sono in pratica ci sono dei casi particolari il genitore o la classe generica per partire a bisogno ovviamente di costruttori come tutti gli altri però in questo caso potrebbe non esserci
+un costruttore generico, perché i costruttori lo ho previsti io e questi prevedono appena di passare dei parametri.
+Il problema è chi gli dà i parametri.
+E' sufficiente questa domanda per regalare la risposta.
+Qualcuno gli deve dare.
+Non gli posso dare il mail.
+Devo stabilire sempre, mantenere la gerarchia e il concetto di avedità
+e quindi è inevitabile se usa il figlio, sarà il figlio che gli dovrà passare quando, dove e qui prende forma l'altro concetto una classe può essere dotata di più costruttori e i costruttori sono quelli che creano il progetto quindi praticamente è chiaro che questi costruttori dovranno essere richiamati
+Da chi?
+Da un altro costruttore.
+Il costruttore del figlio chiama il costruttore del padre, il quale poi trasmette quanto serve al figlio.
+Questo è quello che abbiamo fatto adesso.
+Io vi suggerisco, ripeto, poi di fare subito una prova.
+Vado un attimo avanti.
+Questa è la prima prova che dovete fare, ma per consolidare il concetto
+E' chiaro?
+Perché se voi non mi dite, non mi dite niente, l'avete capito.
+Il problema è che chi non ha fatto proprio, non l'ha imparato.
+Imparare è un'altra cosa, bisogna fare una prova per consolidare la cosa, perché sennò appena usciamo dalla porta, fino a quando stiamo parlando dell'argomento, siamo qui dentro, tutto resta in testa.
+Usciamo, è finita, ve lo chiedo,
+usciranno dei suoni introponibili.
+Ci siete?
+Mi sento sempre tirato in casa con la storia dei suoni.
+No, io sto pensando di un'altra persona.
+Sono introponibili.
+Ci siete?
+Quindi vi chiedo di fare questa prova, cioè inventare un esempio anche stupido.
+L'importante è che
+l'obiettivo è provocare l'errore il figlio muona il costruttore del padre che succede?
+ovviamente il costruttore del padre deve prevedere un parametro e quindi chiaramente e se lo volete fare di appunti questo è se non lo faccio succede questo se lo faccio risolve il problema se faccio questo risolve il problema
+e così capito il senso.
+Detto questo, noi abbiamo parlato adesso quindi di eredità.
+Bene, sull'eredità possiamo dire sì, per il momento possiamo accontentarci.
+L'evoluzione
+L'eredità mi serve anche per implementare un altro concetto.
+Moliporfismo.
+E' il polimorfismo.
+Altra cosa molto interessante.
+Il polimorfismo praticamente cosa indica?
+Usiamo un termine più specifico.
+Qual è il senso del polimorfismo?
+Qual è l'obiettivo?
+Perché è nato?
+Per risolvere quale problema?
+Il problema che si è voluto risolvere è questo in pratica, avere, invece di avere tante classi, avere delle classi generiche.
+Quindi praticamente entriamo nel mondo della programmazione generica.
+Programmazione generica che significa?
+Io imposto uno scheletro e quindi delle funzionalità di partenza
+e poi di volta in volta le specializzo.
+Questo che significa col polimorfismo io posso lavorare con classi generiche che possono essere specializzate quindi nasci in un modo e diventi tante altre cose quindi praticamente una classe, un oggetto che è una classe che è un oggetto che praticamente
+è una specializzazione però come funziona gli ingredienti che non devono mancare sono l'ereditarietà quindi devo creare prima un sistema di gerarchia e poi
+e poi a questo punto mi serve qualche altro strumento.
+Attenzione al discorso dei puntatori, nel momento in cui io uso il termine puntatore, stiamo parlando del C e del C++.
+Il concetto di polimorfismo prescindente dei puntatori è un'implementazione che abbiamo con il C, cioè lo strumento che viene messo a disposizione del C++, sono i puntatori
+Sì, per gli altri linguaggi puntatori non esistono.
+Non si vedono, eh?
+Non si vedono.
+Questo lo... No, non lo... Cioè, questo... Abbiamo detto... Io ti ho svelato quello che c'è dietro, il discorso è... Si vedono o non ti vedono, una cosa è certa, se li cerco non li trovo.
+Quindi... No, sono un citica, se non lo svelano non c'è niente.
+Il concetto, la cosa più importante è cosa si intende per poi rimaspire.
+Cosa si intende per colimafismo?
+Nel senso che, per capirci, se io ho due classi A e B, indipendenti, allora qualcuno potrebbe dire, ok, io voglio che A diventi B e voglio che B diventi A. Bene.
+Si può fare ad una condizione, quello che ti ho detto prima?
+Se non c'è un piano di leitità, chiaramente,
+è chiaro che se voglio implementare il concetto di polimassismo devo avere quanto a meno una situazione di eredità.
+Se mi manca questo, poi c'è l'implementazione.
+L'implementazione dice, il C++ dice, ok, che la realità, sì, vuoi creare un effetto, sì, devi usare un altro ingrediente, che ti do io?
+Io chi?
+È chiaro?
+Il linguaggio?
+Quindi il linguaggio vi metto a disposizione un altro assoluto poi per rendere reale, a questo punto, per rendere reale il polimorfismo, per diventare una classe qualcos'altro.
+E quindi, l'importante che faremo sarà questa, che è class A, class B, diciamo,
+è derivata da la presentazione grafica è questa A e B in questo modo io sono ridondante però la ridondanza ha un scopo ricordare sempre che si serve per me perché esistono presentazioni grafica in pratica che
+io lo devo tenere in considerazione.
+Quindi, ho creato la diorarchia.
+A questo punto, per poter avere applicato un concetto di polimorfismo, mi serve, detta così, praticamente ho creato semplicemente tutta la scena.
+Per poter avere la funzionalità ho bisogno di un punto di lancio.
+e il punto di lancio è a questo punto ok, supponiamo che io lancio il lavoro in questo modo facciamo un'ipotesi qui ho semplicemente creato due oggetti differenti, no?
+ma non si parla di polimerfino quindi
+Per poter implementare il polimorchismo bisogna un presto scenario.
+Un puntatore che punta alla classe generale, generica.
+Ma anche qui non mi dice niente, è semplicemente una regola sintattica del C++, quando vedo l'asterisco quello è un puntatore
+ripasso, ricordate cosa è un contatore?
+Una variabile che contiene un indirizzo.
+Qualcos'altro?
+Fa riferimento un'area di memoria, la possiamo utilizzare per allocare un'area di memoria di un certo tipo.
+ovviamente ogni puntatore praticamente punta ad un'area di memoria, tutti i puntatori puntano ad un'area di memoria, la differenza è che un'area di memoria è troppo generica, ogni area di memoria ha una sua dimensione che è legata, quindi lui punterà ad un'area di memoria sì, però
+Quella era di memoria, ovviamente, le dimensioni di quella era di memoria sono dettate dal tipo.
+Quindi, a questo punto, un puntatore è chiaro che da questo momento in poi io posso applicare tutte quante le regole, le regole dei puntatori.
+Regole dei puntatori, che cos'è una class?
+in un tema di metodi, no?
+Però noi l'abbiamo associato anche al concetto, c'è un altro concetto che viaggia sulle classi.
+Apparentemente non c'entra niente con le classi, perché è una classe speciale.
+Ed è praticamente cosa?
+Sono le strutture greco-pedecine, no?
+Perché faccio riferimento a questo?
+Perché se io a questo punto volessi richiamare un membro dovrei utilizzare la notazione puntata.
+In questo caso sarebbe
+Questo è chiaro?
+Questo significa che questo è un puntatore a questo punto che punta ad un'area compatibile delle classi A.
+A questo punto torniamo al discoteco del politico del FISMO.
+Dov'è l'intervatazione?
+Io qui ho semplicemente dichiarato un contatore della classe.
+Abbiamo detto quali sono le regole di accesso ai membri della classe, ma non abbiamo appena detto in funzione il politico del FISMO.
+Dovremo istanziare proprio.
+Ci siete?
+E quindi?
+Voi cosa vi proponete?
+Ben creare l'oggetto, la memoria.
+Perché R.B.
+va a metterlo là?
+No, io ho dichiarato una portata che si chiama che punta ad un'area di memoria pari alla classe A. Io ho lamentato le regole di accesso
+e poter accedere a questo punto.
+Esterisco a il nome dell'oggetto tra parentesi, punto, il nome del modulo, cioè del metodo o della variabile che voglio richiamare.
+Però dire questo non significa dire polimorfismo.
+Non significa dire polimorfismo, ma semplicemente significa dire o dichiarare un puntatore.
+Si può fare per le classiche, si, si può fare per gli interi, si può fare anche per le classiche, e lo abbiamo fatto.
+Il punto è un altro, quella portione di codice in pratica, quella riga di codice, non dimostra nulla in merito al polimorfismo, perché manca un pezzo.
+Qual è il pezzo che manca?
+Manca B.
+Questa è la mia risposta, ho un sacco di messaggi che vi mandate.
+1.
+Avete già rimoso, avete fatto olore, avete dimenticato come funziona il polimorfismo.
+2.
+Avete anche dimenticato come funzionano i puntatori.
+L'ho detto, puntatori, una scorsa abbiamo giocato.
+Il fatto che abbiate rimosso quell'età di masterazione pratica di cosa significa appunto, cosa significano quelle cose.
+Quindi, aver sentito e ricordare il titolo significa
+di gestire.
+Allora, ricaviamo la risposta.
+Polimorfismo che significa?
+Che abbiamo un oggetto genetico che può diventare comunque altra cosa.
+Può diventare altri oggetti, no?
+Attenzione, quando io sto usando il termine può, non deve.
+È chiaro, la dimostrazione
+Qui ho istanziato l'oggetto a piccolo, chiaro?
+Di classe, il puntatore ha un oggetto di classe A se vuole raggiungere i metodi di usare questa sintascia.
+Ma questo non c'entra niente col poligorfismo, semplicemente soppligando le regole del puntatore per accedere
+ai membri di una classe.
+Chiaro?
+Ripeto, generico, generico quindi ha una sua identità, nel senso che se mi serve il generico non è che mi devo necessariamente, devo pensare al polimorfismo, mi serve questa classe generica, uso quella classe generica, cioè non è che la uso soltanto per costruire il polimorfismo,
+se serve il polimorfismo la uso, se però chiaramente ho bisogno del polimorfismo questa riga non mi basta.
+Detto questo, perché non mi basta?
+Perché devo far diventare questa cosa generica, la devo far diventare qualcos'altro.
+Usandolo il puntatore a questo punto con questa riga io faccio diventare l'oggetto di classe A, il puntatore dell'oggetto di classe A, lo faccio diventare il puntatore ad un oggetto di classe B. E' qui che avviene la magia.
+ma questo è il punto, non solo questo la magia che consiste nel fatto, questo puntatore che dovrebbe puntare a questa classe punta ad un'altra classe è chiaro?
+cosa vuoi dire?
+facciamo un esempio questa classe ha 10 membri questa classe ne ha 50
+lui sta puntando in qualcosa di molto più grande ho fatto l'esempio esagerato per dire attenzione l'area di memoria è completamente diversa quindi lui in questo preciso momento nasce come puntatore da A ma è diventato puntatore da B ok, immagina è quello è chiaro?
+detto questo
+C'è un problema?
+Ci siete?
+Finchè ci siete?
+Ok, torno indietro.
+A è dotata, cioè, A è dotata di?
+Non so come stiamo a fare.
+Nel senso, cioè, abbiamo risposto che ci siamo costruito alle senza parametri.
+Quindi parte.
+Esaminiamo questa situazione.
+Questa situazione dicevamo prima, c'è un problema.
+Nel senso che c'è questa F che è della A, ma c'è anche questa F che è di B. A questo punto, cosa succede?
+Essendo F pubblica,
+passa in eredità e mi ritrovo praticamente qui con due elf siete chiaro?
+ok tenete a mente questo scenario abbiamo due elf che hanno raggiunto, presenti all'interno della classe B una è di B, l'altra è l'eredità
+a questo punto A è diventato B diventato B quindi mettiamo F con la F parte che è la F di B che parla?
+no, perchè non è vera si è proprio in JavaScript
+Prima novità, intanto avrei dovuto utilizzare questa notazione.
+Ma siccome praticamente la classe è una struttura, quando c'è la struttura io posso evitare di utilizzare questa notazione sostituendola con questa notazione.
+Ci siete?
+Perfetto.
+A questo punto voglio richiamare il metodo
+F. Ma di F ce ne sono due.
+Ci siete?
+Chi parte?
+E questa è una cosa che dovete scoprire.
+Vi do la risposta.
+Quello che parte è la F. Di A?
+Sì.
+Non parte quella del F. Capiamoci.
+La A è diventata un puntatore a B.
+nella cazzo di B ci sono due F quella di B e quella che è arrivata nell'edità io sto chiamando questa F evidentemente io voglio richiamare la F di B no?
+perché lui sta nella mia idea A sta puntando ad un oggetto B e quindi voglio che porta
+F di B, ci siete?
+Per capire, vi faccio un altro esempio qui.
+Se io mi dichiaro un oggetto di classe B, ci siete?
+C punto F, chi parte?
+La F di B. La F di B, perché?
+Per il principio di sorrapposizione, quello che abbiamo detto prima, l'ultimo, quello del figlio, domina, quello del padre,
+Quindi, anche se ce ne sono due, parte quella del figlio.
+Ecco perché vi ho detto, dovete fare la prova, perché sennò vi confondete.
+Ci siete?
+Quindi, se lo sto usando come oggetto di B, io mi aspetto che parte la cosa di B, no?
+Però parte sempre quella di A. Anche quando vado in crisi, e quindi,
+Il polimorfismo, attenzione, non basta questa riga, non basta questo puntatore, ma dobbiamo apportare questa maniera.
+La cosa che dobbiamo apportare è il vittorio.
+Il vittorio.
+Quindi praticamente la funzione che fare deve essere indicata come funzione virtual, cioè che significa in pratica una funzione che può essere sobrascritta.
+Caro, attenzione, anche qui ci sono sempre condimenti, se li volete fare, c'è rin, rin, rin, rin, c'è una tabella di funzioni virtuali, c'è tutta una teoria dietro.
+E' chiaro?
+Nel momento in cui io apporto questa notifica, a questo punto questa parte quella di B.
+Chiaro?
+In conseguenza gli ingredienti per il polivorpismo quali sono?
+1.
+Ragionando in termini di più.
+1.
+Una chiararpia.
+2.
+Metodo di virtua.
+Puntatori.
+2 puntatori.
+L'ultimo?
+Metodo virtua.
+Leuda.
+Metodo virtua.
+Chiaro?
+Un metodo virtua.
+attenzione a quel metodo di Virta, perché tu ce lo troveremo in un altro scenario.
+Ti siete?
+Ok, allora, dite da questo esempio, questo esempio ovviamente, giudato, dove voi dovete praticamente convincere i ricordi in pratica.
+L'obiettivo è
+questo è del figlio, cioè questo è del padre, questo è del figlio, questo arriva in eredità, che ritorniamo con due f, chiamo il metodo f, quale metodo parte?
+Quello di eredità o quello del figlio?
+Abbiamo detto quello del figlio.
+Cioè quello del figlio sarebbe praticamente la specializzazione che anche lì forse vogliamo dare un significato.
+come lo possiamo utilizzare evidentemente appunto considero quel metodo del padre obsoleto per quella classe e quindi mantengo l'identità del metodo del padre e a questo punto apporto le modifiche soltanto aggiungo delle funzionalità a quel metodo del figlio.
+Perché sto mantenendo in vita il metodo del padre?
+Per una questione di comprensione
+altre applicazioni usano quel metodo e quindi praticamente se lo sostituissi se lo sostituissi potrei creare problemi alle altre applicazioni è chiaro?
+quindi e quindi questo per apportare il concetto di chi viene cioè di come viene gestita una eredità di questo genere in pratica
+Ci siete?
+L'evoluzione sarà, a questo punto, spostare l'attenzione sul polimorfismo, per capire il senso del polimorfismo.
+Io non voglio un codice in trenta secondi, io voglio un codice scritto, riflettendo rica per rica.
+Lo studio è quello.
+A me è ok.
+Stai registrando?
+A me è ok.
+Non vi andate a leggere quello che
+la sua trascrizione, ho andato a studiare direttamente sui documenti.
+Ma questo significa che non siano nozioni?
+E la nozione è indovinare una scorsa esatta, ma non sapere necessariamente come usare.
+Quindi l'obiettivo è ok, ho capito, so usarlo, se mi dovesse capitare l'occasione so come mi devo comportare.
+Chiaro?
+Dai, fatela provare.
+Provate questo scenario, voi spostiamo attenzione.
+Lo faccio qua?
+No, vorrei che lo scrivessero loro, perché loro sono... le hanno risposte... e per loro è un'occasione per rimprescare almeno i fondamentali sui puntatori.
+A questo punto io ti potrei anche dire un'altra cosa, ma a questo punto se volete fare un film fresco.
+Noi abbiamo utilizzato la GNU, la GNU che è un'instrumento che mi diamo a disposizione dal CQP1 per allocare spazio da segnare, da associare ad un puntato.
+Ma l'instrumento principale è la malloc, quindi
+rinfrescare e fare le diverse versioni e non serve per l'esercitazione, anzi ti dirò che più zionerei la linea, cioè se hai C++ io uso gli strumenti di C++
+e quindi se vi chiedo di farlo è semplicemente mantenere allenata la mente anche sulla malloc o qualora vi dovreste trovare nel frattempo per iniziare a lavorare in C. Attenzione, c'è un'altra cosa che lì non c'è.
+La cosa che qui non c'è in pratica è il direct.
+ogni volta che ho un puntatore devo sempre albinarlo a un distruttore di puntatori quindi l'agno si alloca spazio però devo abituarmi sempre perchè attenzione ecco perchè ragionare al puntatore e pensare in termini di puntatori significa questo, questo significa che tu hai
+Tutta la macchina a disposizione.
+Quindi occupi spazio, spazio, spazio, però il carico di lavoro non c'è niente gli automati.
+Quindi la dialocazione dello spazio è a carico e quindi abituatevi sempre ad usare le due funzionalità.
+Va bene?
+Dai, fate...
+la Keyword Override è super?
+No, lo so, però volete l'allumentazione?
+Non è obbligatorio ma è buona pratica.
+L'obiettivo è
+metabolizzare il concetto.
+Quindi, dal punto di vista, il miglior modo è ridurre al minimo, per quanto possibile, il pronice e mantenere gli ingredienti fondamentali.
+Poi, per perfezionarli, sempre attento.
+Quindi, ritiro grandio.
+Sì.
+C'era quello, l'altro argomento che volevo trattare, però quello è un altro argomento importante e impegnativo.
+Che cosa?
+Le eccezioni.
+Quello è un altro mondo.
+Quello è un altro mondo che va trattato
+E poi tra l'altro io ignorantemente pensavo che gli assert e le eccezioni fossero la stessa cosa.
+Sono due cose diverse.
+Uno verifica le condizioni e l'altro invece...
+più... tira fuori la roba che poi va gestita dopo.
+Sì, tanto è vero che poi le assezioni puoi rimetti sotto il momento perché inizierai a fare i corpi, ma ti si tratta come punti di riscontro.
+Bellasta parola del macro, senza stare a commentare tutto.
+Quello, cioè, è esperienza.
+Ormai...
+No, aspetta che te lo ripero, perché se no...
+Dobbiamo fare quattro classi.
+No, no.
+Grazie, signora Presidente.
+Grazie.
+No.
+Ah no, non l'ho cancellato.
+Sì, io lo so f***ing slow.
+Finito, lei.
+Però se non ci hai fatto cosa?
+Sto pensando come in JavaScript C'è JavaScript
+Grazie
+Grazie.
+Pater?
+Non hai visto questo... Hai visto questo sito che ha?
+No, non so.
+No, non so.
+Che bellissimo.
+Ti ho fatto insegnare Pater.
+Poi ci sono 3 tpd, 1 tpd, 2 tpd, 3 tpd, 4 tpd, 5 tpd, 6 tpd, 7 tpd, 8 tpd, 9 tpd, 10 tpd, 11 tpd, 12 tpd, 13 tpd, 14 tpd, 15 tpd, 16 tpd, 17 tpd, 18 tpd, 19 tpd, 20 tpd, 21 tpd, 22 tpd, 23 tpd, 24 tpd, 25 tpd, 26 tpd, 27 tpd, 27 tpd, 28 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd,
+Anche l'internet è in grado, perché questo, si chiama Publisher's Observer, è in grado.
+E gli eventi è basato su questo.
+Si è andato qui?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Si è andato su questo?
+Stai ritornando.
+Sto diventando stupido, basta.
+Non hai stati?
+Qua?
+Ah, ok, ho capito.
+Quanto ti resta?
+Perchè il disso non esiste, è un sacchetto.
+Ma, quali?
+Mari, fai la sigla.
+Bene, sono stato qua.
+Dove sei arrivato?
+Ah, sì.
+Gabri, tagliare la mano.
+Viva di fare un risultato.
+Non è successo?
+Non è vero?
+Sì, è vero.
+Non è vero?
+Sì, è vero.
+Sì, è molto bello.
+questo quando fai android adouter,factor,repeat,decorato il composite,questo il composite prototype su java,se li usano con la donna
+Scusi, dei giochi che è l'ECS, Entity System Component.
+Entity System Component.
+E che tipo di pattern?
+Entity System Component.
+E le entità che hanno delle componenti sono giustite dagli sistemi.
+Ci sono delle entità a cui puoi collegare le componenti e ci sono i sistemi che gestiscono il comportamento delle entità.
+C'è una descrizione
+perché sennò diventano naturalmente strumenti che si vede fare, però c'è una motivazione, c'è una parte un po' di concettuale, c'è una sintesi della libreria standard
+Ah, ma tutto va?
+È una paginetta questa via?
+Sì, sì, sì.
+Sì, ma fa sintesi.
+Fa sintesi e poi c'è quest'altra cosa.
+Bene?
+Ecco, sono i container e le librerie.
+Ah, container e librerie.
+Sì, sì, sì, sì.
+Function è bellissima, registra i puntatori e funziona.
+No, però non è vero.
+Cosa?
+Non è vero.
+Ah, hai guardato quel regolo di intervenzione?
+Sì, sapevo già che era vero senza saperne il nome.
+L'anno scorso quando avevamo parlato della ricorsione ne avevi fatto un discorso su
+come partono le chiamate in memoria e lì mi è rimasto impresso da quel giorno.
+Infatti quella cosa che ti avevo detto era rudimentale, ma confezionale.
+Mi interessava tanto farti capire come avvenivano le chiamate materialmente.
+Poi è chiaro, un singolo descrittore di chiamate caratterizzato da una serie di erogienti
+che sarebbe praticamente l'organizzazione dell'Area di Memoria, no?
+Sì, infatti quando la ragazza diceva che quando scriva un programma me lo vedo come va in memoria, era per quel discorso di... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+significa, lo so, soltanto che non mi sarebbe dare di nome e non so come, cioè, mi mancava che pezzo per fare un'interazione completa.
+Anche soprattutto per capire il tempo di vita delle variabili che secondo me fondava in casa.
+Lì vedi, ma vedi... Poi, ripeto, ci fosse più collaborazione tra le materie, sempre diversi.
+Ma anche i ragazzi ieri quando hanno visto un po' di
+mi sono avvicinato da uno sguardo gli ho fatto vedere delle cose, quello che serviva e hanno dato senso
+Quelle cose che avevano infollato in testere che sarebbero collate dopo tre secondi dall'interrogazione.
+Invece un'ora importante è infatti avvisso.
+Sono importantissime queste cose anche perché soprattutto se devi scrivere dei programmi che
+hanno dei limiti hardware o cose del genere, devi sapere perfettamente come muovere l'assaggio.
+Nel discorso, il discorso è avere i formamenti, perché non puoi fare tutto, ma se tu
+Hai una buona base.
+Si, ma formamenti, perché ci possono essere tante cose che non riesciamo a fare per pensare di tempo, per tanti motivi.
+Il discorso è che io ti posso dire che manca questo, tipo l'equipazione.
+A questo punto dice che non lo posso fare.
+Tu lo leggi, hai i fondamentali, tu costruisci
+i pezzi che ti mangi, aggiungi i pezzi che ti mangi, però un metodo ce l'hai, no?
+Una conoscenza, che la conoscenza non fa altro che accumulare, accumulare nozioni su nozioni su nozioni, cioè pesantisci la memoria, no?
+Ma se tu hai un metodo, tu già lo contestori e ti dici ok,
+immagini c'è l'obiettivo, lo uso in questo modo, lo uso in questo altro modo ho capito come funzionava quel modo, quel metodo o quell'applicazione.
+Poi le vedi le cose, capisci?
+Non la vedi, prendo vino, è insopportabile.
+E sai quanto mi è servito quest'estate, mentre lavoravo con OpenTL, sapere queste cose?
+Perché lì devi gestire la memoria della scheda video.
+Lì devi praticamente gestire la comunicazione tra processore, scheda video, sapere quanto gli hai mandato, cosa li hai mandato, cosa ti deve tornare... Con due concetti che sapevo,
+mi hanno tirato su u, perché sennò... Ma sì, se avessi avuto altre conoscenze... La cosa insopportabile per me è che siamo arrivati tra un po', è da un mese che dobbiamo cominciare la scuola.
+Cioè, quel mente gatto ancora deve trovare il supplente e non so che arriverà.
+Tipo, per chi piace tipo per il laboratorio?
+ha detto... ieri ho parlato con un romano e domani... ieri se l'avrebbe chiamato... si, si, si, si, si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si
+Noi domani ad esempio alla seconda ora abbiamo il TPS, che cazzo facciamo?
+Siamo qua a perdere un'ora.
+Io scrivo il tema, mi faccio alza.
+Aspetta, io domani posso giovedì 5 ore?
+No, domani c'è 2 ore.
+Sì, è il giorno più... No, giovedì c'è ora, la seconda ora sono ieri.
+Se non sei stato in riusa avrei fatto suplenza.
+Quale è sbagliata quella roba lì?
+La Vector.
+La Vector e il Ray sono due oggetti diversi.
+Sì, sono due... Due oggetti diversi.
+Sono due oggetti diversi.
+Sono due classi.
+Ti ricordo che questo è un po' datato, quindi un po' di pezzi... Allora...
+Invece, qui in alto, la ridefinizione degli operatori è interessante.
+Sai che si può ridefinire anche lì?
+Sì, infatti.
+Per fare le prove.
+Sì, ma infatti la ridefinizione è una cosa che non ho mai chiesto di fare, la ridefinizione della parentesi quale di RL.
+L'ho fatto per forza, per fare vector?
+Sì, per uscire alle RL associative.
+C'è sempre una tabella di riferimento, però l'associativo
+Ok.
+Ok.
+E poi dimettici la posizione.
+Ok.
+Ci metti il nome, perché la posizione non ti dice assolutamente niente.
+Ti dice semplicemente dove si trova con l'aramento, il problema è non ti aiuta a ricordare e a capire.
+Adesso c'è il tipo al pottaglio che ti dà la possibilità di assegnare un nome ad un indice
+Davi un'identità, e quindi, ecco, ecco, sì, eh, va be', ma quella è un'altra cosa.
+Cioè, sì, te l'ho detto, c'è una tabella.
+Perché poi cosa significa?
+A momenti in cui io faccio, utilizzo una vera associativo, automaticamente voi non potrete più utilizzare il Ciclo4 perché li aprevi un indice che va sempre incrementato e incrementato, no?
+Io ho un nome.
+Sì, però hanno creato degli altri fori e quindi mi dà la possibilità di volere dei compiti.
+Quelli che hai utilizzato al literatore?
+Più o meno, sì.
+For each?
+No, va bene.
+Queste reassociativi li trovi con Piaccappina.
+Con Piaccappina ti dici ok.
+Per lui l'estract non esistono, esistono solamente gli aerei.
+Quindi tu l'estract, cioè il record, ti ricostiglisci con il record.
+È chiaro che, detto questo, dico che il primo elemento è il nome, il secondo elemento è il cognome, e quindi descrivi una persona attraverso una serie di informazioni detti in cognome, cognome età.
+A te non interessa la posizione del nome?
+A te interessa cosa c'è nella variabile nome?
+Perché lui dice A è il contenitore, nome è la variabile che contiene il dato, cognome contiene un altro dato ed A contiene un altro dato.
+Allora a questo punto io cosa faccio in pratica?
+a me non interessa la tua proposizione non interessa quella parte che sta all'interno, cosa faccio?
+Voglio il nome, in questo caso vi assegno il nome, la dimostrazione del fatto che lo posso usare non è se...
+Posso usare dei due modi, no?
+O con l'indice, che ha ovviamente le funzioni che mi possono servire, oppure attraverso attribuendo un nome.
+E' chiaro che c'è tutto un discorso di dichiarare... Il nome dell'indice.
+Devi informare le due informazioni.
+La quotizione è automatica.
+Il discorso è fornire il nome.
+e eventualmente in fase di miniaturizzazione assegnarli anche un valore.
+Sì, sì, sì.
+Capito?
+Sì, sì, sì.
+E tutto questo lo puoi fare con la ridefinizione.
+Cioè, come posso costruire un vettore associativo?
+Sì, faccio un overload, prendo come parametro una strada.
+I vettori associativi per Python sono i dizionari.
+qua sono le mappe si, l'ha usata, bellissima mi serviva di ordinare delle cose per distanza dalla telecamera per dire la chiave era la distanza quindi io poi sono andato a chiamarle in ordine di distanza perchè lì le mette già in ordine esatto, la chiave è la distanza e poi ovviamente poi c'erano i valori
+Questa sera è molto bella, infatti sono andato a vedere come funzionano, sono andato subito a vedere come funzionano perché non capivo, ho detto ma come è possibile e c'è tutta una roba dietro, a fine un vettore, fondamentalmente.
+Ti ricordi che tu l'hai trovato a Siverno?
+Si si, ho visto la voce.
+Vai giù, vai giù.
+C'è scritto a Reassociativi?
+Sì, sì, sì, eh, sì.
+Volevo arrivare e filmare.
+Eh, vai giù, vai giù, vai giù, c'è ancora... No, c'è proprio il titolo a Reassociativi, più in basso.
+Cioè, l'ho visto prima mentre ha cliccato... Vai, vai, vai, vai.
+Era verso la fine.
+Vai, vai, vai, vai, vai, vai.
+C'è ancora metà.
+Eccolo qua.
+Eccolo qua.
+Cosa dice lui?
+ha un campo di applicazione molto vasto e generalizzato in un normale array infatti non esiste nessuna regola che obblighi il secondo operando ad essere un intero il primo operando è solo la 45a il secondo operando è il 50a
+come l'indice di una re.
+Al contrario, lo si può definire di un qualsiasi tipo, anche astratto, e ciò permette di stabilire una corrispondenza o come tabola, come talvolta si dice, un'associazione fra gli oggetti di un re.
+Un re associativo spesso
+chiamato Mappan o anche Dizionario memorizza coppie di valori dà un valore la chiave si può accedere si, all'altro il valore si può accedere all'altro
+Vabbè, comunque, io ho capito.
+No, no.
+Cazzo di denti.
+No, l'ultima cosa... La funzione che implementa l'overloader, servitore indice, fornisce un algoritmo di un appartamento.
+Lashing.
+Lashing è un altro.
+No, lashing.
+Praticamente prende la chiave, la trasforma nell'indice.
+No, lascing è un po' diverso.
+E però la mappe fa così?
+Lui con la chiave la trasforma in un indice attraverso il modulo della dimensione della regola.
+Però lascing è un po' diverso.
+Secondo lascing o in mezzo tipo per la sicurezza?
+Sì.
+Sì, sì, sì, però la no, questo poi, quello che ho visto io.
+No, completamente diverso.
+Il concetto è diverso, è una funzione intanto.
+Esatto.
+Dalle caratteristiche specifiche.
+Che dovrebbe dare un risultato univoco in base a lì.
+Se tu vai a scaricare Linux, se te lo vai a scaricare dal sito qualunque

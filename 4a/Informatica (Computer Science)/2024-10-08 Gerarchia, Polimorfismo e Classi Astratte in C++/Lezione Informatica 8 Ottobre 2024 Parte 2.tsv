@@ -1,0 +1,317 @@
+start	end	text
+562	1203	che dici te.
+1243	27038	Ma ho capito anche quello che dici te, non hai sbagliato il discorso perché chiaramente come partiamo, non è un problema mio, nel senso che direi che per me è un mondo, per te
+27941	29782	E' una battuta.
+29802	35505	Per me è un mondo perché sapevo anche questa cosa che hai raccontato te, che tu prendi un file e ti tiri fuori la chiave del file.
+35785	48332	Sì, è semplicemente un concetto matematico che è stato utilizzato dall'informatica in vari contesti.
+49972	54055	Uno dei contesti è la generazione di indici e c'è un motivo.
+55435	56196	C'è un motivo.
+56616	63800	Il discorso è che l'esce, perfetto, non esiste in natura e quindi ci sono dei problemi.
+64641	71425	Sono delle cose che avevo in mente in passato di spiegarle, però...
+76071	89817	Sì, non ho cervelli che funzionano e tempo perso perché ti ripeto, quando tu usi quella parola automaticamente mi si apre un mondo e ho detto no, non è solamente quello.
+89857	96040	Lo so che non è solamente quello, è una cosa abbastanza complessa.
+96920	104083	Diciamo che è un modo di... è un'operazione matematica che dà un risultato, dato un input
+106001	111724	Un input che può essere qualsiasi cosa, lui ricava un qualcosa altro.
+111784	118328	Sì, in effetti poi queste funzioni esce poi nella realtà.
+120509	122550	Nella realtà sono algoritmi.
+123030	123510	Esatto.
+124531	128753	E quindi che hanno un obiettivo ben preciso.
+129153	129514	Esatto.
+130934	131435	Ti ripeto,
+135620	160869	lascia perdere l'esce, cioè lascia perdere, te l'ho detto, no, lascia perdere il ruolo, cioè usare quel termine poi per chi ti ascolta se quella persona sa cosa c'è dietro a questo punto dice ok allora a questo punto ci sono delle basi andiamo oltre
+162279	166120	il problema è no, sei semplicemente uno strumento che... ciao!
+166900	168801	se ci sei tu, non ci sono noi!
+168861	168961	no!
+169261	170682	e abbiamo l'ultima volta!
+170762	178664	allora vado a vedere come sono!
+178724	187867	allora io lo spio solo come concetto... lo sconsiglio, cioè tienilo come un postit se cade non ti preoccupare, l'importante è che tu capisca
+189827	192249	Cosa si intende per reassocettivo?
+194430	194550	Sì.
+194590	203556	Invece di utilizzare un indice numerico che non ha contenuti informativi, puoi utilizzare a questo punto un altro indicatore?
+203576	204996	Sì.
+205056	209699	Che può aiutarmi... È come se mi scegliesse io l'indice.
+210280	211820	Sì.
+212781	213001	Sì.
+214102	217644	L'implementazione con quelle funzioni particolari va bene.
+219480	246932	capisci però basta c'è che sennò ma lì mi sono fermato anche perché c'è andare a aprire dentro la funzione di ashing non ho le competenze per fare no no no è complicato Roby non lo fare ma non l'ho fatto allora invece mi aggancio alle cose che ti ho fatto
+250976	255982	le cose che abbiamo fatto, qui è andato via ed è arrivato
+275486	276128	Ok, il totale questo senso vuole?
+300523	304985	ma non c'è neanche al cinico non vuoi sentire scuole?
+305005	306786	le hai già segnate tutte e tre?
+307746	309207	perché le hai segnate già?
+310447	311568	si, vedo ma le vedo solo?
+311588	314849	ah eccola no no no vedevo queste due si si le ho segnate tutte e tre
+331904	335585	Allora, continuiamo un attimo con quello che stavamo facendo.
+338446	342287	Quindi la scaletta, la scaletta praticamente sarà questa.
+343907	344627	Gerarchia.
+355530	358491	Poi, il polimorfismo.
+368028	373490	Poi, a questo punto, andate all'ultimo step, l'ultimo step, l'ultima sensazione che ti hai perso due occasioni.
+373711	375951	Questa è quella dell'altra lezione.
+379053	380233	L'essenziale.
+380253	383054	L'essenziale è che da solo tu non le capirai mai queste cose.
+384975	387556	Ma capo mai, mai.
+387596	390858	Mi dispiace, però, se ripeto, non è... Non posso bere milanio.
+392138	394319	Non è anche io.
+394339	395339	Non ci credo, non so.
+395900	396800	Non è anche io.
+400047	425657	Detto questo, dinarchia, polimorfismo a compenso, l'evoluzione, il discorso di capire bene questo percorso e capire bene il punto di partenza, e spero che abbiate fatto quelle prove che vi ho detto, poi dopo di che trascrivetele, perché sennò anche per voi diventa una cosa così, sparisce.
+429215	431256	Dalla gerarchia passiamo al polimorfismo.
+431597	434478	L'evoluzione come è avvenuta in pratica?
+435539	447146	Per avere il polimorfismo io devo avere una gerarchia ma nello stesso tempo devo, per quanto riguarda l'implementazione abbiamo detto con il C++, devo avere un altro strumento.
+448667	454230	Gli strumenti che abbiamo visto per quanto riguarda il C++ sono i puntatori
+460078	477287	Però, abbiamo detto un'altra cosa, con i puntatori non trovo il problema, cioè non implemento il concetto di pori martilli, un bisogno di un altro strumento altrimenti io avrò delle funzionalità inaspettate, chiaro?
+477888	481330	Allora, puntatori e quindi abbiamo detto
+484362	485743	Ho delle funzioni particolari.
+485983	499469	Io le chiamo, a questo punto tutti le chiamiamo funzioni virtual, le funzioni virtual sono quelle che mi garantiscono di avere un polimorfismo reale.
+500329	510534	Il polimorfismo significa in pratica un oggetto che può diventare un altro oggetto in pratica, può cambiare forma.
+511454	513395	Questo è il concetto rozzo, grezzo.
+514053	519635	di polimorfismo.
+519975	534121	Quindi se voglio che un oggetto diventi un altro oggetto con tutte le funzionalità dell'altro oggetto, a questo punto è chiaro che ho bisogno di queste funzioni particolari chiamate funzioni virtuelle.
+534141	540804	La funzione virtual non è soltanto l'aggiunta della parola funzione virtual, c'è tutta una teoria alle spalle.
+544019	561632	Noi semplificheremo semplicemente dicendo che ci sono le funzioni virtual, quindi mi devo soltanto ricordare di aggiungere la parola virtual, per ottenere un effetto atteso in termini di polimorfia.
+564354	567217	Per chi volesse approfondire, lì c'è NL,
+572017	600676	il sito spiega cosa c'è dietro una funzione virtuale non è soltanto una parola è spiegata anche bene però ripeto non voglio fare proprio una lezione magistrale universitaria per chi volesse approfondirlo è semplicemente una curiosità in più che uno ti vuole repare a noi basta in questo se voglio ottenere l'effetto sperato quindi
+601348	606630	la trasformazione di un oggetto in un altro oggetto con tutte le funzionalità, devo usare la parola virtual.
+607170	610932	Le funzioni, alcune funzioni devono essere virtual, alcune.
+613553	625058	A questo punto c'è un altro concetto potente, relativo alla programmazione ad oggetti, e li entriamo nel mondo
+627310	634816	Nel mondo ovviamente sempre l'obiettivo resta sempre quello di avere una programmazione sempre più generica.
+637378	638779	Che significa generica?
+640640	647785	Io ho un'applicazione generica e poi la specializzo di volta in volta.
+647885	656572	Quindi anche lì, vedendo le classi, io costruisco delle classi generiche che poi di volta in volta vado a specializzare.
+658331	662213	Tenete presente questo concetto perché altrimenti facciamo cosa?
+664174	667535	E continuiamo ovviamente a riprodurre la nozione.
+669576	672118	C'è questo obiettivo, programmazione generica.
+672898	676340	Programmazione generica, ripeto, programmazione generica.
+678781	683643	Andiamo a vedere questo mondo, quest'altro pezzo di programmazione generica.
+691035	692496	sono classi astrati.
+699220	701882	Ok, cosa hanno di particolare le classi astrati?
+701942	703723	Intanto come si implementano?
+706985	710387	Si implementano praticamente intanto
+719088	729176	ok utilizzando le funzioni virtual alle quali assegno il valore 0 ci siete?
+729696	747189	si ma il problema non è lo 0 il problema non è lo 0 il problema è un'altra cosa le funzioni quasi non sono più funzioni virtual o meglio c'è una componente virtual
+747774	750194	alla quale assegno il valore zero.
+752575	757916	Tutti insieme si chiamano funzioni pure.
+764057	765717	Quindi cosa è una funzione pure?
+766137	768418	Una funzione dietro alla quale assegno il valore zero.
+777789	802042	no perché non è sufficiente che io assegni il valore 0 è il concetto di funzione pure, la funzione pure è una funzione senza corpo la funzione senza corpo quindi praticamente tutte le funzioni quando abbiamo fatto le funzioni abbiamo detto caratterizzata da una firma da un prototipo più il corpo bene le funzioni pure
+803528	806971	hanno il prototipo ma non hanno il corpo.
+807771	809212	Che senso hanno?
+810853	814035	No, che senso ha avere una funzione che non ha corpo?
+814555	817457	Perché se una funzione non ha corpo non fa niente.
+817477	820039	È chiaro?
+822180	826263	E a questo punto lo scopo è proprio questo, in pratica.
+827364	830326	Sono dei segni a posto, nel senso che
+831610	858716	è chiaro che quando le uso se qualche parte c'è l'implementazione non solo c'è l'implementazione l'implementazione è obbligatoria però c'è anche un'altra cosa è chiaro che ci deve essere un legame tra due soggetti la classe astratta che contiene almeno una funzione pura
+860808	863569	e l'altro soggetto, cos'è l'altro soggetto, un'altra classe?
+864789	865289	Qualunque?
+866430	882154	No, perché a questo punto deve avere anche lì, una gerarchia, l'importanza del capire il senso delle gerarchie e il significato di gerarchia.
+882194	882915	L'idea qual è in pratica?
+884914	900445	io ho una classe austratta composta da metodi virtual che non fanno niente perché non ha senso che facciano niente in quel contesto e allora perché ce li metto dentro?
+901946	910432	sono ingredienti fondamentali invece per tutta una serie di classi che derivano dalla classe principale
+913204	913484	Chiaro?
+914405	931332	Quindi le classi vere non sono le classi astratte, ma sono ovviamente le classi derivate alle quali passo in eredità questi metodi puri e che sono obbligati a implementare.
+931352	933312	Implementare significa aggiungere il corpo.
+935973	937014	E cosa significa?
+937214	939735	Beh, ognuno aggiunge la propria specializzazione.
+942432	943793	Ci siete?
+943833	946735	Quindi il concetto teorico è questo.
+948637	954141	Attenzione, c'è un altro associato, un altro concetto.
+955202	963729	Se all'interno della classe c'è una funzione pura, quella diventa una grassa strata.
+966150	970494	Se tutte le funzioni sono pure, quello diventa un'interfaccia.
+975251	977191	Se è una classe, ragionate.
+978492	982192	Se è una classe, è dotata di metodi puri.
+986053	987933	Supponete, ok?
+988754	989614	Questa è la situazione.
+995895	999636	Classa Z, la generazione.
+999676	1000376	Allora, supponiamo
+1011392	1019414	virtual a questo punto gli diamo una F e ok e questa è la questione pura no?
+1020395	1040941	perchè è virtual più è valore 0 poi abbiamo G questa è una funzione, un metodo
+1042358	1047881	Qualunque il significato è semplicemente una funzione che fa qualcosa.
+1063068	1064069	Questa è una funzione virtua.
+1066070	1067490	Qual è lo scopo di questo esempio?
+1068151	1070432	Una classe che ha al proprio interno
+1071448	1084118	una funzione pura una funzione normale, generica una funzione virtual che non è pura perché?
+1084418	1098549	per due motivi uno non è uguale a zero ma la cosa più importante c'è un corpo quindi fa qualcosa, bene?
+1102119	1103579	bene, cosa non posso fare?
+1103699	1119043	questa benedetta classe astratta pertiene perché c'è una funzione virtue chiaro?
+1120764	1122724	cosa non posso fare con la classe astratta?
+1123644	1125625	se ci pensate, se ci riflettete
+1127347	1130611	Questa è la classe, con le classi cosa posso fare?
+1141462	1142923	Qual'è lo scopo della classe?
+1143203	1145125	La classe è semplicemente un progetto, no?
+1145585	1150009	Quindi, che mi serve per creare oggetti.
+1150229	1150729	Ci siete?
+1151570	1161217	Sendo che in termini, ad esempio, la funzione pura è, anzi, non capite il contenuto vuoto, la classe stratta.
+1168263	1168403	Poi?
+1171865	1200848	sempre semplicemente... sempre il mio rilagionamento perché stavo parlando, quindi... la classe è fatta da... membri membri, da valpacifico ma io avevo i... attributi e metodi proprietà più metodi metodi più metodi, ok a questo punto questa sera abbiamo introdotto
+1202264	1205185	le funzioni virtuali.
+1205225	1208187	Questa è una classa che ha metodi e proprietà.
+1208207	1217191	A questo punto alcuni metodi sono dei metodi specializzati.
+1218212	1223394	Questo metodo è un metodo, lo abbiamo chiamato?
+1235796	1251108	Questo è un metodo generico e questo è un metodo, no non è generico, è virtual, dovete leggere, è un metodo virtual, va bene?
+1253290	1254011	Perfetto.
+1255512	1256793	A cosa servono le classi?
+1259215	1260396	Non come spartano le classi.
+1266363	1268205	Per creare un oggetto.
+1268845	1269826	Per creare un oggetto?
+1269866	1270867	Come si crea un oggetto?
+1274570	1277953	Utilizzando i membri della classe.
+1280615	1281156	Eccomi fare.
+1287401	1289262	Ragazzi, il nome della classe
+1292058	1298222	dove ti scelgo io?
+1298242	1298582	te virgola?
+1298602	1320554	lì dichiaro ragazzi queste sono cose serie se sono troppo difficili io abbasso il livello ci riduciamo a fare le cose dal giorno io non mi voglio, mi voglio bene però se mi sto spingendo in alto è perché voglio di più per voi ma se non ce l'ha fatto per qualunque motivo
+1321169	1350483	a basso livello perché se le faccio le cose alte io voglio da voi risposte alte non banale sennò le faccio più la ducu o studiate queste cose la cosa che non potete fare con questa classe è creare oggetti
+1352918	1359442	le classi servono per creare oggetti come se creano oggetti classe più nome dell'oggetto chiaro?
+1360363	1382097	questa è una classe ma questa classe contiene al tuo interno una funzione virtual la funzione virtual è caratterizzata da baller zero ma non è la cosa più importante quella che non ha corpo e se non ha corpo non lo posso usare e quindi
+1382862	1392226	Quindi, al momento in cui io tento di creare un oggetto ricavato da una cosa estratta, lui mi dà le flore.
+1393426	1393787	Perchè?
+1394247	1397868	Perchè, dice, c'è un metodo virtual tra l'altro.
+1399809	1400770	L'ho messo anche pubblico.
+1403291	1404291	Ma poco importa.
+1404931	1408913	Appena si accorge che esiste un metodo puro, lui dice, cos'è che vuoi?
+1410532	1438244	la classe astratta non serve per creare oggetti se non capite questo è inutile darmi la definizione di classe astratta con la funzione pura il problema è perché esistono il concetto sono delle classi che io utilizzerò non per creare oggetti non le uso per creare oggetti
+1440211	1442693	Se le voglio usare, la cosa che devo fare?
+1444174	1445656	Creare classi specializzati.
+1449779	1454243	Creare gerarchie con classi specializzati.
+1456605	1463290	Se saltate questo passaggio, avete saltato il senso della classe stretta, perché esistono.
+1464426	1491712	e voi mi rispondete perché c'è una pensione in verito e io vi risponderò avete sbagliato le risposte io non ti ho chiesto come hai fatto ti ho chiesto come si usa non puoi creare oggetti e le puoi usare solamente per creare gerarchia se non c'è una gerarchia io questo strato la tengo lì
+1492535	1494516	E non fa niente, non la posso usare.
+1496557	1496977	E' chiaro?
+1499519	1500099	Dimmi Marco.
+1501760	1502781	Diciamo che dobbiamo dare.
+1503941	1507003	Ma adesso ci sono, ma... Scusa che ti spugno.
+1507043	1512386	C'era una domanda che avrei potuto ancora spostare.
+1513006	1513807	Dimmi.
+1513887	1514167	Prova.
+1515448	1517709	La domanda è che se non la posso usare.
+1524645	1528248	Allora, segui gli alternamenti.
+1528789	1531031	La cosa importante è gli alternamenti, non è la risposta.
+1533153	1534614	Io so così una classe astratta.
+1536456	1539999	Se c'è un metodo puro, siamo in presenza di una classe astratta.
+1540479	1541080	Va bene?
+1541761	1548447	Io ti ho detto, la cosa che ti ho detto è cosa non puoi fare con una classe astratta?
+1549848	1550308	Costruire oggetti.
+1552345	1560129	allora la domanda è ovvia se non posso costruire oggetti tutte le classi servono per costruire oggetti ma che serve?
+1562230	1578858	la risposta è se vuoi utilizzare una classe astratta devi impostare una gerottia ma gerottia significa che ci deve essere una classe specializzata che prendi in eredità
+1582385	1587409	Cosa è previsto?
+1588109	1589350	L'eredità come è fatta?
+1593413	1600698	In generale, un'eredità in termini di programmazione degli oggetti, come è fatta?
+1601619	1602740	Si, è troppo generica.
+1612934	1640648	abbiamo detto all'inizio della lezione dal progetto figlio che evita la parte pubblica del padre la condivisione della parte pubblica della classe madre
+1643206	1643366	No.
+1645807	1648247	Perché nelle reddità ci sono anche le parti protette.
+1651308	1651829	Non private.
+1655290	1660971	Se non so cosa passa, faccio fatica a scrivere una reddità.
+1662912	1663912	Abbiamo del giovane inizio.
+1665793	1667333	La reddità è composta da reparti.
+1668293	1670494	Membri pubblici e membri protetti.
+1672626	1675046	Questo è il concetto di eredità, quello che passa.
+1676907	1678167	Non passa, è privato.
+1681728	1698750	Quindi, a questo punto io faccio passare le eredità della classe astratta e tra le cose che passeranno sicuramente le classi pure arriva la classe dura.
+1701451	1701671	Chiaro?
+1703092	1725091	Nel momento in cui arriva la classe pura, la classe figlio che prende in eredità l'obbligo, l'obbligo di aggiungere questo corpo, che manca nella classe padre, se non lo fa, è compiuto la migliaia d'errore, perché la regola è questa.
+1728857	1728977	Da?
+1729478	1732420	La pura, il termine più o meno specializzato.
+1732460	1732821	Certo.
+1733441	1734322	E lo scopo è questo.
+1735463	1737645	Ok.
+1737665	1738806	Chiaro?
+1738826	1741608	Fate una domanda subito, e accettate il GPT.
+1745872	1755320	C'è un semplice esempio di uso di una prassata.
+1759642	1761343	Dovete vedere la sintasi?
+1761363	1764084	Dovete vedere praticamente il coso che vi genera.
+1764164	1768545	Come vi ho sempre detto, chiedete cose facili, specificatelo.
+1768846	1777089	Voglio un esempio in cui si usano, si utilizzi una classe stratta del cipipio.
+1781150	1783991	Quello che dovrebbe fare lui è questo.
+1784011	1784311	Quando finite
+1789931	1797373	Guardatemi.
+1797413	1798953	Le chiama metodi concreti.
+1801034	1803414	Le chiama metodi generici.
+1803434	1805315	Le chiama metodi generici.
+1805415	1805595	Ah.
+1805855	1818358	Hai fatto una domanda?
+1822459	1823500	vi ha generato il codice?
+1825481	1830225	te l'ha dato il codice?
+1830565	1846098	io ti ho detto, dà la risposta e guardami, anche per prima tra un po' sono, quello che ha fatto lui è, uno ha creato una cosa stratta, la riconosco perché ha almeno un metodo puro, va bene?
+1850329	1857714	ha creato una gerarchia di conseguenze dove la questa è tratta di padre.
+1859736	1860536	Va bene?
+1861877	1865620	Il metodo puro, o è puro più,
+1871042	1876045	deve essere un membro dell'interfaccia, cioè della verità.
+1877086	1884229	E quindi, la verità, o è pubblico, o è trattato.
+1884249	1887191	99% è pubblico, in quel caso.
+1887231	1887551	Certo?
+1888091	1889292	Ok.
+1889332	1889552	Bene.
+1891393	1893654	La grossa strata serve a questo.
+1894274	1897656	Cioè, serve a questo aspetto, siamo più precisi,
+1898996	1900717	Come usa una classe stratta?
+1901218	1905461	Risposta per costruire una eredità.
+1907323	1910765	Da sola la classe stratta non può essere utilizzata.
+1912667	1920613	Quindi ogni volta che incrocio la classe stratta devo guardare attentamente perché accanto c'è la costruzione di una diorchia.
+1922034	1923436	Andiamo a vedere la classe fine.
+1924476	1927419	La classe fine è una cosa caratterizzata in pratica.
+1932754	1946201	dall'implementazione la funzione pura che non aveva corpo a questo punto io me la ritrovo nel figlio con un corpo chiaro?
+1947262	1955526	nella classe astratta non c'è corpo è uguale a zero nella classe figlio c'è il corpo è chiaro?
+1956867	1960449	e quindi praticamente il senso quale è in pratica?
+1961989	1988754	io costruisco una classe astratta con l'obiettivo di fare specializzare le classi a tutti gli utenti che la vogliono utilizzare come promemoria, come segnaposto tipo non so che esempio vi hadde fatto un esempio che potrebbe essere stampa tonda, virtual stampa tonda uguale a 0
+1991522	1994203	Questa è una classe astratta con una funzione stampa.
+1995584	1999486	Poi mi dichiaro una classe specialità.
+2000727	2011193	Gli arriva e ci sarà una funzione stampa con un corpo, sono i figli.
+2012794	2014374	E' chiaro?
+2015155	2020478	Se non aggiungete il corpo, lui vi darà il direttore.
+2022260	2037404	perché il senso è, io ti do una funzione senza corpo e tu sei obbligato ad aggiungere il corpo se non aggiungi il corpo stai usando male la classe astratta è chiaro?
+2040164	2047226	chiedeteli qual è lo scopo delle classi astratte tanto è partito e quindi già è partito nella chat
+2067085	2069627	Mi hai risposto?
+2079073	2082035	Seconda domanda, quando si usano le glasse astratte?
+2085197	2085657	Non come.
+2086738	2087599	Il come lo sappiamo.
+2087979	2089000	Il problema è quando.
+2098464	2099044	si è scaricato?
+2099064	2100885	si è scaricato?
+2101206	2111731	no, io ho finito la prova di gpt4, quindi sta ancora generando la normativa allora, la prima domanda?
+2111751	2114833	è ancora la prima?
+2114893	2115694	è ancora la prima?
+2116754	2123318	perché sapete tutti gli esempi, mi sono dimenticato di non farmi gli esempi prima domanda?
+2125879	2127360	fornire una struttura comune
+2128288	2145514	consentire il polimorfismo, incoraggiare la reusabilità del codice, impedire l'istanza di una classe base generica, definire un'interfaccia per le classi derivate, favorire l'estendibilità del codice e basta.
+2147635	2149656	Questa è la potenza della classe astratta.
+2151376	2155178	La possibilità, praticamente,
+2159119	2164382	avere delle classi generiche che di volta in volta io vado a specializzare a seconda del mio bisogno.
+2166023	2171267	Però la base di tutto è, ovviamente, l'astrumento di riferimento è la creazione della diararchia.
+2171327	2181213	La creazione della diararchia è, ovviamente, l'assimilazione del concetto di eredità, perché è lì che ci giochiamo la partita, no?
+2183314	2188017	Sulle eredità e i metodi puri passano come eredità.
+2189434	2192015	Poi c'era la seconda domanda, no?
+2192415	2192595	Sì.
+2194015	2194735	Sto fabbricando.
+2197436	2217082	Quando si usano le classi astratte definire un'interfaccia comune per una gerarchia di classi poi poi gestire classi diversi in modo uniforme poi forzare l'implementazione di metri nelle sottoclassi, ridere le istantizzazioni
+2219412	2223415	l'istanzazione di classi generiche evitare?
+2224275	2224876	evitare?
+2225936	2243949	evitare l'istanzazione di classi generiche poi integrazione con il disegno, con l'interfaccia progettare il framework con i livelli utilizzabili aderire al principio di sostituzioni ok, cosa non posso fare con gli astrati?
+2245229	2246730	non posso creare oggetti
+2257563	2262506	Non fare i ringhi, perché... No, no, no, discoltatevi, l'esempio è importante.
+2262766	2266187	Adesso alla prossima domanda mi dai un esercizio?
+2266827	2271970	Ok, chiedeteli di farvi un esercizio che risolverete voi.
+2275071	2278012	Vi dai un esercizio in cui devo utilizzare una calza astratta?
+2282074	2284015	Come non posso utilizzarlo, però detto prima, no?
+2285794	2287135	non posso creare oggetti.
+2292119	2310012	Pensate, pensate... Gli argomenti di questa sera sono stati gerarchia, ereditarità, gerarchia con eredità e polimorfismo, adesso le si astratte.
+2310252	2312934	La cosa, l'ingrediente che è più importante
+2314981	2318023	esercizi.
+2318063	2321165	Voglio una batteria di esercizi con soluzione.
+2325707	2329170	Provateci, provateci.
+2329470	2334092	Dovete verificare se avete capito la lezione di questa sera, altrimenti abbiamo buttato tre ore.
+2335914	2339976	Quindi partite, eventualmente stabilite il vostro limite
+2342119	2361253	quindi chiedete ovviamente degli esercizi semplici inizialmente e vedete se riuscite subito ad applicare i concetti chiedete eventualmente a lui la soluzione ma a me non mi interessa la soluzione mi interessa chiaramente che voi prendiate coscienza su... l'ho capito o non l'ho capito?
+2364116	2365276	lo so fare o non lo so fare?
+2367418	2368659	sapete come funziona, no?
+2368739	2369720	se non mi interessa la...
+2370367	2371167	il codice.
+2371187	2372588	Voglio che ci proviate.
+2373489	2374729	I messaggi sono chiari.
+2375150	2377151	Ragazzi, non state ancora studiando seriamente?
+2379172	2388617	La quarta è l'anno più importante, perché quando arriviamo in quinta, queste cose, o le sapete, non le riparete più.
+2390578	2393660	Quindi fate quello che dovete fare adesso, scrittate questo tempo.
+2393720	2398802	Siamo quattro gatti, cerchiamo di essere
+2400683	2401325	e cementi.
+2403649	2407818	Be' bene, capite una cosa?

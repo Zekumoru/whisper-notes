@@ -1,0 +1,778 @@
+start	end	text
+3476	7937	Ti conosce anche il Sandro?
+8037	12958	Adesso non lo so niente.
+13138	13758	Anche quella sì?
+14279	14839	No, non so.
+16699	17219	Vector?
+17879	19040	No, no, no.
+19780	20700	Dicci di no?
+21100	27722	No, no, mette un puntatore per la morte di Dio.
+27922	29502	Ma aggiungi overhead così per niente?
+31643	32783	Tanto devi gestire te quello.
+38834	40475	A parte che non ha senso così.
+46859	46919	No.
+47299	47499	Sì?
+48099	48840	È giusto qua.
+49080	51221	No, non è giusto.
+51761	57765	Perché è un puntatore e al Ciaro non è un back-trick.
+57865	59205	Ti rende la vita più difficile, vedi?
+59266	59366	Sì.
+59986	66229	Ma perché tu hai batto in questa maniera?
+66249	66350	Cosa?
+67790	74974	C'è un'idea, poi mi dico... Ah, mi è andato a corsa
+98420	99732	che cazzo ci ha a roba io
+133695	137177	Guarda.
+138778	142421	Ha usato... Sì.
+142461	143722	No, cosa avevi usato?
+143782	144382	C'è il GPS.
+146203	156110	Ah, vero che mi hai chiesto.
+157111	157251	Chi è?
+157371	158392	Daniele Salvati?
+159207	164990	Nel senso di niente.
+165030	171014	Dice che con le diverse società non è affrontata un'altra.
+172835	174236	Non ho detto quasi quasi.
+175176	175657	Fanno venire?
+178098	183421	Sì e no, nel senso che non voglio capire se è il caso di farlo venire
+185718	191839	Voglio farlo parlare con voi, voglio capire quello che me l'ha mandato ieri sera.
+195140	208722	Poi mi ha detto, e lo conosce anche Alessandro, mi ha detto che da un pochino non ci sentiamo e mi ha detto questa cosa.
+209342	212163	Mi ha girato con diverse aziende internazionali
+214711	222638	Questo è uno di quegli studenti che ha fatto tutto nella vita, no?
+224840	242075	In bianchino, guarda giurata, mercati e poi praticamente adesso l'hanno lasciato ridestila con team e erano tutti ingegneri.
+244532	267169	e l'avevo mandato anche delle persone quando si sono accordati per questione di distanza, che era lontana l'azienda e poi niente, non potevo, non ci senti tanto volevo così e ho intenzione di
+272931	297146	un'intenzione di organizzare un incontro e vedere se ci sono delle possibilità si occupa di tantissime cose
+302219	330688	e quindi è un'opportunità, anche per fare cose un po' diverse mi sta cominciando a nuogliare quindi ho bisogno di rigenerarmi almeno assenso un po' di cose, un po' di cose nuove ue Giancarlo io non ti ho ancora mandato niente, però... su github c'è tutto, qua sto facendo anche la documentazione
+333113	334234	Le cose non le ha finite?
+334254	335135	No, no, no.
+336796	340139	Io stavo all'uoto.
+340180	344424	Facciamo le cose istituzionali.
+345304	349348	La tua il mio gli ha buttato un occhio?
+350770	353332	L'ho visto, ho guardato.
+354714	355975	Però non l'ho chiata.
+356075	356996	E' molto semplice.
+358627	360708	Ce l'avevo guardato quando avevo fatto il mio.
+361888	367090	Sì, ho visto che hai fatto... Dove era quello?
+367110	367670	Questo qua.
+369271	372152	M size of type and M first, M team.
+373072	374392	Cioè, cosa intendi con questi?
+374472	377613	Allora, li ho messi lì, però potrei anche non usarli.
+379294	386516	Size of type è la dimensione del tipo che poi... Ah, ho capito, lì, questo qua.
+387577	387957	Esatto.
+389117	390157	Per esempio?
+390477	391998	Sarebbe il primo slot libero.
+393698	395679	Sarebbe anche, in realtà sarebbe size.
+396379	399220	Ah, questo sto dicendo se... No, aspetta, perché?
+399720	405401	No, non ho capito.
+408462	411363	C'è il vettore, no?
+411403	414924	Il primo slot libero deve essere libero dalla fine.
+415364	415684	È quello.
+417429	421273	Però è la stessa cosa di size.
+424036	425897	Ma quindi alla fine vuole a size?
+426178	428780	Sì, alla fine sì, normalmente hanno lo stesso valore.
+429781	433745	Però se magari modifico size ho quello da usare.
+434305	436347	Ah, è tipo un tempo diciamo.
+436608	436948	Esatto.
+437128	439711	Ma non è mica che devi sempre sincronizzare questi due?
+439731	439771	Sì.
+443397	447280	Però c'è un overhead che non serve a niente, alla fine potrei anche evitarlo.
+447840	457567	Un overhead... Preventive Memorization.
+457587	461050	Infatti questo qua lo sapevo prima, lo avevo visto.
+461710	467515	Che lo cambia solo se... Ma no, questa è una cosa che fai tu da utente, che lo usi.
+468628	497595	tu dici al posto magari se hai già che avrai almeno mille elementi allora ti fai riserva mille così sai già che hai poi se hai già tipo 1000 e puoi fare 100 non puoi più farlo perchè hai già 100 in realtà ci sono già 100 che serve quindi non cambia nulla poi ho notato anche che hai proprio usato come si dice
+499921	502443	Il stile del C sharp.
+504244	505305	Ah.
+505345	508207	Sì, io metto le facce con la lettera maiusca.
+509048	509888	Questo C sharp.
+510189	510549	Oh no.
+510769	511169	Oh no.
+511250	512150	Oh no.
+512711	513411	Oh no.
+513671	514032	Oh no.
+514132	514432	Oh no.
+515933	516233	Oh no.
+516313	516634	Oh no.
+516694	516874	Oh no.
+516934	517294	Oh no.
+517414	518075	Oh no.
+518715	519376	Oh no.
+528595	541199	io devo guardare qui come funziona un po' più guarda dove si mette la 1% come l'hai detto nooo si viene qua sono più abituato a vedere questo qua ma dove l'hai visto?
+542199	552062	è una abitudine ma è una pessima abitudine perchè il riferimento è sul tipo non sul nome della funzione allora cosa che avete fatto?
+552082	553722	vi avete mandato?
+553942	555663	io vi avevo chiesto di cominciare a guardare la
+557828	559632	a liberia standard, particolari vettor e stringhi, guardate?
+569855	572456	Sì, no, non l'ho guardata.
+572836	575557	Non l'ho guardata.
+576257	578438	Tu l'hai guardata?
+578838	578938	Sì.
+578958	581599	Sto facendo qualcosa.
+581659	585280	Non devi fare qualcosa, non fare grandi cose.
+585940	590581	Ho guardato un po' insieme alla libreria Vector e le stringo ben ancora.
+593202	594122	Parti alle stringhe.
+595563	598164	Perché le stringhe puoi usare anche le stringhe.
+599941	609143	Poi, quindi cominci a prendere l'infidenza, perché le puoi usare anche in un codice cino.
+611543	620625	Vector, sì, c'è un concetto in più, e quindi... Guarda un po' più, dopo.
+621626	623326	Prima prendi l'infidenza in estrella.
+623746	625346	Invece la liberia tegue?
+627007	628227	La liberia tegue.
+629309	657365	No, no, no, no, quella no perché vi devo spiegare delle cose infatti adesso andiamo avanti un pochettino con la programmazione questa è un'attività fondamentalmente spostiamo l'attenzione verso i laboratori abbiamo un po' di strumenti in prospettiva che arrivi qualcuno così almeno avrete qualcosa
+658334	675505	sono delle cose teoriche che devo spiegare e quindi già il fatto di fare un OML è teoria poi si tratta di trovare il punto di incontro con il linguaggio e di trasformare poi quel OML in codice
+681969	709662	e quindi vorrevo riprendere c'è tutto il mondo delle strutture dati che dovremmo riprenderle mi riferisco alle strutture dinamiche in particolare puntatori soltanto che per voi per certi versi recupero o ripresa il problema è che chi non ce l'ha
+713915	716237	faranno così, avranno qualche problema.
+716297	717398	Comunque, torniamo a noi.
+718999	733910	Facciamo un pochettino di C++ e quindi i concetti fondamentali della programmazione degli oggetti, quindi riprendiamo il concetto delle di Caritano, quindi penso che sia chiaro.
+736172	741856	Quando fate queste esercitazioni poi, a questo punto dovreste fare lo scopo, l'idea è questa,
+744352	748535	Nel momento in cui mi serve un vettore, a questo punto uso la classe vettore.
+748555	752699	Nel momento in cui mi serve una stringa, uso la classe stringa.
+754220	756281	Questi sono strumenti ulteriori, no?
+759484	769111	Però, chiaramente, sono solo strumenti, perché a volte la possiamo considerare prevalentemente una mezza attività laboratoriale.
+771253	772414	Qual è il senso?
+773263	797842	usare un classi esistente e quindi l'obiettivo qual è in pratica non è tanto l'esercitazione quanto il fatto che se tu mi dici mi sono guardato la classe stringere come vi disse l'ultima volta la cosa più importante è come si studia una classe e quindi dicevamo primi costruttori
+799949	803351	poi l'interfaccia, per l'interfaccia intendiamo tutto ciò che è pubblico.
+804652	807953	Poi, a questo punto, lo scopo della classe, poi comincia il salmo.
+810735	819480	Quindi, ogni volta che incrocio una nuova classe, la cosa che devo, ovviamente, conoscere è da dove comincio.
+820380	827764	Quindi l'idea, ecco perché, questo lavoro è un lavoro laboratoriale che serve ovviamente a acquisire una tecnica di studio
+830270	840536	Perché per parte della realtà sono nove classi che mettono a disposizione delle funzionalità e quindi mi faccio studiare una classe.
+840556	859906	Poi ho detto successivo, costruisco la mia classe e allora ho subito cerco di documentarla, documentarla in pratica così come ho visto in C++ in un documento più formale.
+862452	867896	L'anno scorso con te avevamo accennato, però avevo accennato un po' tutti, no?
+867956	890010	C'è Doxigen, che sarebbe l'instrumento di documentazione delle classi e quindi sono strumenti che c'è, non ha senso, dico che il fatto di esercitazione lo dimentiche, come la storia di GitHub
+891371	917548	cioè github non ha senso, cioè fare la lezione su github dico che ho fatto l'esercitazione, l'obiettivo è una volta che ho imparato ad usare github, tutto il lavoro lo faccio usando github allora all'inizio lo userò con delle funzioni di base di che ogni tanto aggiungo la funzione di github, l'importante è abituarsi a lavorare in quel modo quindi github
+919424	920225	deve essere come?
+920265	921245	Devo scrivere qualcosa?
+921265	922926	È normale che io sa più usare la penna.
+924688	940918	E quindi Doxygen diventa un strumento automatico, nel senso, è distinto di ciò che ho fatto una classe parte da Doxygen e faccio fare la documentazione, produco la documentazione attraverso Doxygen.
+942621	959052	Quindi sono strumenti, diciamo, che rientrano nella professionalità, tanto è vero che è molto probabile che, se io scrivo un curriculum, mi dimentichi di citare l'uso di chitano, l'uso di oxygen, perché è talmente scontato.
+959953	962654	Sui curriculum non scriviamo, non so usare la penna.
+963895	966637	Non so te intessere, no?
+966737	969199	O so leggere, non so te intessere.
+970791	971731	E quindi, perché?
+971872	972672	Perché lo facciamo?
+974393	977054	Tutti i giorni, e quindi chiaramente è normale.
+978035	991221	Non è normale in un contesto aziendale, in un contesto in cui ci si presenta, è chiaro che il fatto di trovare, di fronte alle persone che usano questi strumenti, è chiaro.
+992401	997744	Ci sono delle persone che non solo sanno quello che devono sapere, ma anche hanno un metodo di lavoro, no?
+998692	1004314	e quindi sono molto più produttivi e quindi più immediati di inserire.
+1004354	1006595	Detto questo, torniamo.
+1007895	1009755	Noi abbiamo parlato di alimentarietà.
+1010976	1013317	Vorrei che facesse subito un esempio idiota.
+1013337	1014757	Io sono lento a scrivere.
+1016798	1017858	Quindi lo possiamo fare.
+1019879	1027061	Allora, uso la lavagna per farvi capire una cosa.
+1030595	1046368	si tutti voi tenete la tastiera perché siete più veloci uno dice boomer, no sempre è stato così, anche la wak allora dicevamo, abbiamo fatto
+1058386	1060687	Ok?
+1060707	1066810	Questa è l'eresitalità, no?
+1066870	1071391	Pare, figlio, a questo punto, qual è la sintassi?
+1071411	1075933	Avete fatto prove di sintassi di classi derivati?
+1077114	1079835	La sintassi, dal punto di vista del C, è questa, no?
+1080955	1081516	La ossima.
+1083296	1083696	In questo caso,
+1086000	1095962	B è derivata, 2 punti, derivata, pubblico, privato, protetto, passaggio che vogliamo fare.
+1108604	1111425	Pubblico, privato, protetto, derivata,
+1113381	1122389	e a questo punto dentro ci mettiamo delle cose, quindi bisogna usare la sintassi, la sintassi del CPT.
+1125051	1142365	Facendo ancora sintesi, eredità significa che ci sono dei membri che possono essere delle, della classe generica, che possono essere passati, non è privata, alla classe derivata,
+1144093	1171409	quindi dal generale co-specializzato è chiaro che a questo punto è chiaro che qui abbiamo detto abbiamo detto dipende dal tipo di passaggio, la modalità di passaggio quindi se io passo secondo modalità pubblica succede qualcosa
+1172472	1176794	protetta, succede altre cose, privato, succede altre cose.
+1178274	1179095	Cosa succede?
+1180075	1186678	Il problema è, io devo trasferire qualcosa alla classe specializzata.
+1188338	1194561	Quello che posso trasferire sono, possono essere metodi, possono essere proprietà, possono essere classi.
+1198424	1206227	È chiaro che nel momento in cui i membri raggiungono la classe B, il problema qual è in pratica?
+1206367	1207347	Cosa diventeranno?
+1207407	1208227	Cosa diventeranno?
+1208287	1209247	Che significa?
+1210088	1212829	Quale visibilità avranno?
+1214489	1226273	E quindi abbiamo detto che all'interno della classe ci sono, sì, i membri, però in effetti succede ogni singolo membro, devo anche determinare un livello di visibilità.
+1227046	1235531	pubblica significa che tutti possono usare quel membro, tutti intesi all'esterno della classe e dell'oggetto.
+1238393	1239034	Protetto?
+1239574	1239734	No.
+1240955	1242576	Solo membre all'interno.
+1243176	1243716	Privato?
+1243957	1245618	No, solo membre all'interno.
+1247759	1251922	E quindi, chiaramente, sapendo questo, quel sito qual è?
+1251942	1254103	Una volta che ho trasferito l'eredità, cosa diventa?
+1254855	1256757	quale grado di visibilità avrà.
+1259699	1270228	E poi abbiamo visto lì, sul percorso, abbiamo visto quali sono le regole in pratica.
+1271669	1280277	Quindi, discorso, trasferisco la modalità pubblica a mantenere lanterate ovviamente le visibilità.
+1282559	1308750	nell'eredità o dell'eredità non fa parte tutta la componente private quindi praticamente resta una caratteristica della classe generica della generalizzazione passa dell'eredità praticamente composta da membri pubblici e membri protetti
+1312370	1338699	quindi in brady la cosa interessante sul membro protetto dicevamo perché mantiene diciamo un grado di protezione e di visibilità praticamente minima quindi soltanto relativa all'interno della classe e non consente a soggetti esterni di utilizzare
+1340755	1341736	quel membro.
+1345078	1349622	Il privato ha un'altra caratteristica, non passa come levità, vero?
+1351103	1359949	Può succedere, gli abbi hanno la necessità di far passare anche componenti, diciamo, inaccessibili all'esterno.
+1362271	1364152	Questo ha introdotto questo nuovo concetto, no?
+1365793	1367315	Il concetto di protetta, in pratica.
+1368639	1370980	delle funzionalità che trattano anche prima.
+1372281	1382966	Detto questo, il discorso dell'eredità, c'è un altro concetto di cui non abbiamo parlato, il corona effetti, lo vediamo adesso.
+1390490	1392571	Scrivo quello in minima indispensabile.
+1394812	1394852	Ok.
+1397837	1423062	La classe B, che è la classe specializzata, ha un'opinione e supponiamo che la classe A, per esempio, abbia un'opinione.
+1423222	1425302	Qui è possibile apprezzare la prima cosa.
+1426966	1430727	è cosa che possiamo apprezzare, tanto cosa succede.
+1433108	1434708	Quale è il significato di questo esempio?
+1436429	1456415	C'è la classe derivata, che è la classe generica, hanno un membro, hanno un metodo con le stesse caratteristiche, con la stessa firma, e quindi, in pratica, stesso nome, stessi, parametri, questo dato non ci sono fatte.
+1458954	1470463	Sapendo che questo è un membro pubblico, verrà trasmesso in eredità indipendentemente dalla modalità.
+1470923	1476548	La cosa è certa, è pubblico, quindi quella è un'eredità che arriverà sicuramente al figlio.
+1476588	1480531	Ci ritroviamo con una situazione di questo genere, cioè abbiamo due funzioni.
+1480551	1486176	A un momento in cui io dichiaro
+1488058	1517607	crea un'istanza dell'oggetto di classe B del tipo E chiamo il metodo F il problema è quale F parte cioè quello del figlio e quello ovviamente del padre sono arrivate entrambe la regola è soprapposizione
+1518744	1519905	parte quella del figlio.
+1521887	1522387	Ci siete?
+1522947	1524549	E quindi in principio sì.
+1526850	1528992	Sì, diciamo di sovrapposizione.
+1531134	1533315	E questo è un primo aspetto.
+1535157	1544444	Ci sono altre considerazioni del tipo, e qui poi dovremo aprire un'altra parentesi, perché c'è un altro aspetto interessante.
+1546556	1575455	che è legato ovviamente alla gestione dei costruttori nel senso che è chiaro che quando io dichiaro, c'è una cosa ovvia, quando io dichiaro un'istanza di B e B ha una classe generica per poter utilizzare la funzionalità della classe generica quel metodo deve esistere
+1579870	1580770	Cosa intendo dire?
+1582851	1597737	Supponiamo che ci sia anche G. Ci siete?
+1598957	1600457	Allora, l'eredità cos'è?
+1602318	1603659	Passa G e passa F, no?
+1603999	1604219	Perché?
+1605216	1606016	che sono pubbliche.
+1606556	1606877	Ok.
+1607537	1619880	Allora, a questo punto io con la necessità di far partire G posso fare, supponendo che il passaggio sia stato pubblico, no?
+1622241	1634045	Il problema è, per fare questa chiamata è chiaro che quella funzione, questa funzione, io sto lavorando non tanto con il figlio, eh,
+1636471	1640073	Non ho dirato il padre, quindi da qualche parte ci deve essere.
+1640793	1651680	Questo significa che in cui io crea un'istanza di B, automaticamente ne prego anche una per il padre, per andare ad affiggere, per elevare.
+1651841	1652941	Il problema è questo.
+1662402	1675106	Per far partire il padre, in questo caso, abbiamo un costruttore che richiede ovviamente il parametro.
+1677007	1677807	Ci siete?
+1679608	1680468	Quindi cosa succede?
+1680548	1685270	Io dichiaro B, provo a chiamare G, è chiaro che ci sarà un problema, no?
+1688271	1688591	Perché?
+1691033	1693235	Il costruttore di A non è partito.
+1693995	1694416	Perchè?
+1694816	1701381	Per partire è necessario avere a questo punto, fornire un parametro.
+1702621	1707085	Quindi, chi ha il problema?
+1708906	1710907	Lo avete affrontato questo problema?
+1711168	1711948	Ti chiedo, eh?
+1712969	1713649	Sì, hanno scolto.
+1717472	1717652	Voi?
+1718573	1718613	Tu?
+1720939	1724300	Poi ho avuto a che fare con un costruttore di default e non c'era bisogno.
+1724340	1725140	Chiaro il problema.
+1725320	1729281	Il discorso non è tanto quello che sto dicendo quanto il problema.
+1729421	1734241	Cioè, partiamo dal problema e aggiungiamo tutto quello che sto dicendo, ma facciamo l'inverso.
+1735002	1739742	Quello che sto dicendo non ha molto senso, è semplicemente una lozione, può succedere.
+1740583	1742263	Non è così che possono succedere tante cose.
+1742283	1745304	Il problema è, a volte, ci sono situazioni che succedono.
+1746704	1747564	Ci sono delle classi
+1748374	1752856	che partono con dei costruttori specifici, nel senso che richiedono dei parametri.
+1753716	1769842	Mentre in cui esiste una gerarchia, attenzione quando imposto quella gerarchia, perché se basta usare il figlio poi il padre deve partire e quindi se il padre richiede un parametro, domanda, il parametro chi glielo dà?
+1771802	1772803	È chiaro?
+1774643	1775824	È chiaro il problema?
+1776570	1781432	Quindi il problema, la reticità è, ok, quello deve partire chi gli dà il parametro.
+1782732	1789855	Di fatto, quello che vi ho detto è chiaro, posso costruire la risposta?
+1789875	1802419	La risposta è, se rifletto, qual è il primo metodo che parte quando un consultore, e quindi a questo punto, all'interno del consultore del figlio,
+1804030	1817833	per edispongo la chiamata al costruttore del Padre fornendo tutto quanto è necessario affinché il Padre parta correttamente.
+1818453	1818833	Siete?
+1820973	1832215	E quindi suggerimento io a questo punto mi dovrei fermare a dirvi fate subito la prova perché se avete capito bene il problema è che
+1833931	1838253	Se non fissate quello che avete fatto, chiaramente la cosa si perde.
+1838373	1839954	Quindi, partiamo dal problema.
+1841175	1843716	Abbiamo detto cos'è una gerarchia.
+1845097	1850360	Abbiamo fissato le regole per poter riconoscere una gerarchia.
+1850680	1855742	Cosa accade quando abbiamo una generalizzazione specializzazione?
+1855822	1858844	Le serie precedente abbiamo motivato
+1860216	1888875	abbiamo parlato ovviamente di padre e figlio però in effetti un altro concetto che possiamo abbinare all'aspetto familiare generalizzazione specializzazione c'è una classe generica che fornisce delle funzionalità di base e poi delle classi specializzate che hanno ovviamente ogni una la propria specializzazione questo significa tutta una serie di membri
+1889966	1897752	che la rendono specializzata, quindi la funzionalità generica più la funzionalità e i figli, ovviamente, delle specializzazioni.
+1898893	1903897	Detto questo, abbiamo detto qual è il concetto di derrattiva.
+1904918	1915066	Attenzione, l'uso del C++ è strumentale, nel senso che almeno mi interessa in questo momento fare C++.
+1915126	1918189	Mi interessa che passi questo concetto.
+1919973	1946501	capire il senso della gerarchia perché la gerarchia praticamente come la ritrovo è un concetto fondamentale della programmazione dell'oggetto che prescinde dai linguaggi, cioè sono i linguaggi che si devono adeguare a queste regole quindi tutti i linguaggi dovranno essere progettati tenendo conto le regole della programmazione dell'oggetto.
+1946561	1947241	Detto questo
+1949535	1977668	può succedere che il genitore qui ci sono ovviamente le sfumature le sfumature quali sono in pratica ci sono dei casi particolari il genitore o la classe generica per partire a bisogno ovviamente di costruttori come tutti gli altri però in questo caso potrebbe non esserci
+1979285	1986391	un costruttore generico, perché i costruttori lo ho previsti io e questi prevedono appena di passare dei parametri.
+1986411	1988333	Il problema è chi gli dà i parametri.
+1989594	1992497	E' sufficiente questa domanda per regalare la risposta.
+1992837	1993878	Qualcuno gli deve dare.
+1995479	1997020	Non gli posso dare il mail.
+1999463	2004147	Devo stabilire sempre, mantenere la gerarchia e il concetto di avedità
+2005097	2031428	e quindi è inevitabile se usa il figlio, sarà il figlio che gli dovrà passare quando, dove e qui prende forma l'altro concetto una classe può essere dotata di più costruttori e i costruttori sono quelli che creano il progetto quindi praticamente è chiaro che questi costruttori dovranno essere richiamati
+2034464	2034844	Da chi?
+2035904	2036865	Da un altro costruttore.
+2037105	2044367	Il costruttore del figlio chiama il costruttore del padre, il quale poi trasmette quanto serve al figlio.
+2044707	2048888	Questo è quello che abbiamo fatto adesso.
+2049268	2052089	Io vi suggerisco, ripeto, poi di fare subito una prova.
+2053009	2054190	Vado un attimo avanti.
+2055610	2059211	Questa è la prima prova che dovete fare, ma per consolidare il concetto
+2061591	2061951	E' chiaro?
+2062892	2067556	Perché se voi non mi dite, non mi dite niente, l'avete capito.
+2069017	2071999	Il problema è che chi non ha fatto proprio, non l'ha imparato.
+2072820	2084969	Imparare è un'altra cosa, bisogna fare una prova per consolidare la cosa, perché sennò appena usciamo dalla porta, fino a quando stiamo parlando dell'argomento, siamo qui dentro, tutto resta in testa.
+2085209	2087291	Usciamo, è finita, ve lo chiedo,
+2089176	2093600	usciranno dei suoni introponibili.
+2093940	2095181	Ci siete?
+2095322	2098965	Mi sento sempre tirato in casa con la storia dei suoni.
+2099245	2101187	No, io sto pensando di un'altra persona.
+2101427	2105450	Sono introponibili.
+2107873	2108253	Ci siete?
+2108493	2112897	Quindi vi chiedo di fare questa prova, cioè inventare un esempio anche stupido.
+2112917	2113537	L'importante è che
+2115672	2124599	l'obiettivo è provocare l'errore il figlio muona il costruttore del padre che succede?
+2127642	2143575	ovviamente il costruttore del padre deve prevedere un parametro e quindi chiaramente e se lo volete fare di appunti questo è se non lo faccio succede questo se lo faccio risolve il problema se faccio questo risolve il problema
+2145666	2147308	e così capito il senso.
+2147708	2152392	Detto questo, noi abbiamo parlato adesso quindi di eredità.
+2155495	2168667	Bene, sull'eredità possiamo dire sì, per il momento possiamo accontentarci.
+2169468	2170349	L'evoluzione
+2171650	2175513	L'eredità mi serve anche per implementare un altro concetto.
+2175933	2176834	Moliporfismo.
+2177554	2178715	E' il polimorfismo.
+2179195	2180816	Altra cosa molto interessante.
+2181697	2184739	Il polimorfismo praticamente cosa indica?
+2188241	2190623	Usiamo un termine più specifico.
+2191403	2193204	Qual è il senso del polimorfismo?
+2193384	2194425	Qual è l'obiettivo?
+2195045	2195746	Perché è nato?
+2197267	2198688	Per risolvere quale problema?
+2200742	2214028	Il problema che si è voluto risolvere è questo in pratica, avere, invece di avere tante classi, avere delle classi generiche.
+2214288	2218911	Quindi praticamente entriamo nel mondo della programmazione generica.
+2220251	2222212	Programmazione generica che significa?
+2223933	2230036	Io imposto uno scheletro e quindi delle funzionalità di partenza
+2230538	2232680	e poi di volta in volta le specializzo.
+2235422	2256457	Questo che significa col polimorfismo io posso lavorare con classi generiche che possono essere specializzate quindi nasci in un modo e diventi tante altre cose quindi praticamente una classe, un oggetto che è una classe che è un oggetto che praticamente
+2259409	2279247	è una specializzazione però come funziona gli ingredienti che non devono mancare sono l'ereditarietà quindi devo creare prima un sistema di gerarchia e poi
+2281437	2284119	e poi a questo punto mi serve qualche altro strumento.
+2284639	2293165	Attenzione al discorso dei puntatori, nel momento in cui io uso il termine puntatore, stiamo parlando del C e del C++.
+2293265	2309957	Il concetto di polimorfismo prescindente dei puntatori è un'implementazione che abbiamo con il C, cioè lo strumento che viene messo a disposizione del C++, sono i puntatori
+2311343	2314285	Sì, per gli altri linguaggi puntatori non esistono.
+2314325	2315886	Non si vedono, eh?
+2315906	2316526	Non si vedono.
+2317427	2330234	Questo lo... No, non lo... Cioè, questo... Abbiamo detto... Io ti ho svelato quello che c'è dietro, il discorso è... Si vedono o non ti vedono, una cosa è certa, se li cerco non li trovo.
+2331735	2334937	Quindi... No, sono un citica, se non lo svelano non c'è niente.
+2335277	2338439	Il concetto, la cosa più importante è cosa si intende per poi rimaspire.
+2340976	2342637	Cosa si intende per colimafismo?
+2343338	2358931	Nel senso che, per capirci, se io ho due classi A e B, indipendenti, allora qualcuno potrebbe dire, ok, io voglio che A diventi B e voglio che B diventi A. Bene.
+2360332	2363154	Si può fare ad una condizione, quello che ti ho detto prima?
+2365556	2367638	Se non c'è un piano di leitità, chiaramente,
+2368712	2375514	è chiaro che se voglio implementare il concetto di polimassismo devo avere quanto a meno una situazione di eredità.
+2376694	2380375	Se mi manca questo, poi c'è l'implementazione.
+2380895	2392558	L'implementazione dice, il C++ dice, ok, che la realità, sì, vuoi creare un effetto, sì, devi usare un altro ingrediente, che ti do io?
+2394219	2394519	Io chi?
+2398527	2398867	È chiaro?
+2398887	2399928	Il linguaggio?
+2400608	2413752	Quindi il linguaggio vi metto a disposizione un altro assoluto poi per rendere reale, a questo punto, per rendere reale il polimorfismo, per diventare una classe qualcos'altro.
+2413812	2426237	E quindi, l'importante che faremo sarà questa, che è class A, class B, diciamo,
+2433943	2460127	è derivata da la presentazione grafica è questa A e B in questo modo io sono ridondante però la ridondanza ha un scopo ricordare sempre che si serve per me perché esistono presentazioni grafica in pratica che
+2461488	2465170	io lo devo tenere in considerazione.
+2465230	2467451	Quindi, ho creato la diorarchia.
+2467891	2484180	A questo punto, per poter avere applicato un concetto di polimorfismo, mi serve, detta così, praticamente ho creato semplicemente tutta la scena.
+2486041	2489443	Per poter avere la funzionalità ho bisogno di un punto di lancio.
+2493557	2513862	e il punto di lancio è a questo punto ok, supponiamo che io lancio il lavoro in questo modo facciamo un'ipotesi qui ho semplicemente creato due oggetti differenti, no?
+2515342	2519363	ma non si parla di polimerfino quindi
+2521075	2525078	Per poter implementare il polimorchismo bisogna un presto scenario.
+2533343	2538227	Un puntatore che punta alla classe generale, generica.
+2540668	2548333	Ma anche qui non mi dice niente, è semplicemente una regola sintattica del C++, quando vedo l'asterisco quello è un puntatore
+2550244	2553527	ripasso, ricordate cosa è un contatore?
+2554208	2560093	Una variabile che contiene un indirizzo.
+2560113	2560774	Qualcos'altro?
+2562435	2572184	Fa riferimento un'area di memoria, la possiamo utilizzare per allocare un'area di memoria di un certo tipo.
+2573123	2595974	ovviamente ogni puntatore praticamente punta ad un'area di memoria, tutti i puntatori puntano ad un'area di memoria, la differenza è che un'area di memoria è troppo generica, ogni area di memoria ha una sua dimensione che è legata, quindi lui punterà ad un'area di memoria sì, però
+2598166	2604091	Quella era di memoria, ovviamente, le dimensioni di quella era di memoria sono dettate dal tipo.
+2605512	2620705	Quindi, a questo punto, un puntatore è chiaro che da questo momento in poi io posso applicare tutte quante le regole, le regole dei puntatori.
+2622446	2625909	Regole dei puntatori, che cos'è una class?
+2628032	2629013	in un tema di metodi, no?
+2629313	2635899	Però noi l'abbiamo associato anche al concetto, c'è un altro concetto che viaggia sulle classi.
+2637360	2640703	Apparentemente non c'entra niente con le classi, perché è una classe speciale.
+2643325	2644786	Ed è praticamente cosa?
+2645426	2647808	Sono le strutture greco-pedecine, no?
+2650643	2652324	Perché faccio riferimento a questo?
+2652384	2661650	Perché se io a questo punto volessi richiamare un membro dovrei utilizzare la notazione puntata.
+2663311	2664372	In questo caso sarebbe
+2680758	2684340	Questo è chiaro?
+2686561	2700748	Questo significa che questo è un puntatore a questo punto che punta ad un'area compatibile delle classi A.
+2704355	2710379	A questo punto torniamo al discoteco del politico del FISMO.
+2710859	2712100	Dov'è l'intervatazione?
+2714581	2717903	Io qui ho semplicemente dichiarato un contatore della classe.
+2719264	2728050	Abbiamo detto quali sono le regole di accesso ai membri della classe, ma non abbiamo appena detto in funzione il politico del FISMO.
+2729190	2730391	Dovremo istanziare proprio.
+2730411	2730791	Ci siete?
+2731092	2733113	E quindi?
+2737299	2738479	Voi cosa vi proponete?
+2738859	2740820	Ben creare l'oggetto, la memoria.
+2744221	2744661	Perché R.B.
+2744781	2745621	va a metterlo là?
+2745921	2761105	No, io ho dichiarato una portata che si chiama che punta ad un'area di memoria pari alla classe A. Io ho lamentato le regole di accesso
+2762515	2763976	e poter accedere a questo punto.
+2764036	2777902	Esterisco a il nome dell'oggetto tra parentesi, punto, il nome del modulo, cioè del metodo o della variabile che voglio richiamare.
+2777942	2783124	Però dire questo non significa dire polimorfismo.
+2783144	2790468	Non significa dire polimorfismo, ma semplicemente significa dire o dichiarare un puntatore.
+2791681	2798105	Si può fare per le classiche, si, si può fare per gli interi, si può fare anche per le classiche, e lo abbiamo fatto.
+2798145	2808272	Il punto è un altro, quella portione di codice in pratica, quella riga di codice, non dimostra nulla in merito al polimorfismo, perché manca un pezzo.
+2809493	2810753	Qual è il pezzo che manca?
+2811434	2811794	Manca B.
+2839056	2842218	Questa è la mia risposta, ho un sacco di messaggi che vi mandate.
+2843998	2842218	1.
+2844539	2852442	Avete già rimoso, avete fatto olore, avete dimenticato come funziona il polimorfismo.
+2852462	2852442	2.
+2852482	2854203	Avete anche dimenticato come funzionano i puntatori.
+2865024	2873046	L'ho detto, puntatori, una scorsa abbiamo giocato.
+2875746	2881547	Il fatto che abbiate rimosso quell'età di masterazione pratica di cosa significa appunto, cosa significano quelle cose.
+2884728	2888729	Quindi, aver sentito e ricordare il titolo significa
+2890705	2891345	di gestire.
+2893046	2895827	Allora, ricaviamo la risposta.
+2897488	2898929	Polimorfismo che significa?
+2900330	2905612	Che abbiamo un oggetto genetico che può diventare comunque altra cosa.
+2906792	2908493	Può diventare altri oggetti, no?
+2909734	2914416	Attenzione, quando io sto usando il termine può, non deve.
+2916037	2919098	È chiaro, la dimostrazione
+2923297	2929958	Qui ho istanziato l'oggetto a piccolo, chiaro?
+2930699	2945802	Di classe, il puntatore ha un oggetto di classe A se vuole raggiungere i metodi di usare questa sintascia.
+2945822	2950663	Ma questo non c'entra niente col poligorfismo, semplicemente soppligando le regole del puntatore per accedere
+2951708	2953549	ai membri di una classe.
+2957330	2957631	Chiaro?
+2958571	2977879	Ripeto, generico, generico quindi ha una sua identità, nel senso che se mi serve il generico non è che mi devo necessariamente, devo pensare al polimorfismo, mi serve questa classe generica, uso quella classe generica, cioè non è che la uso soltanto per costruire il polimorfismo,
+2979574	2988678	se serve il polimorfismo la uso, se però chiaramente ho bisogno del polimorfismo questa riga non mi basta.
+2990799	2992600	Detto questo, perché non mi basta?
+2992740	2996622	Perché devo far diventare questa cosa generica, la devo far diventare qualcos'altro.
+2999111	3024564	Usandolo il puntatore a questo punto con questa riga io faccio diventare l'oggetto di classe A, il puntatore dell'oggetto di classe A, lo faccio diventare il puntatore ad un oggetto di classe B. E' qui che avviene la magia.
+3029727	3045933	ma questo è il punto, non solo questo la magia che consiste nel fatto, questo puntatore che dovrebbe puntare a questa classe punta ad un'altra classe è chiaro?
+3045973	3046554	cosa vuoi dire?
+3047074	3056758	facciamo un esempio questa classe ha 10 membri questa classe ne ha 50
+3059232	3087026	lui sta puntando in qualcosa di molto più grande ho fatto l'esempio esagerato per dire attenzione l'area di memoria è completamente diversa quindi lui in questo preciso momento nasce come puntatore da A ma è diventato puntatore da B ok, immagina è quello è chiaro?
+3087727	3088367	detto questo
+3090163	3093184	C'è un problema?
+3093224	3093664	Ci siete?
+3096386	3097086	Finchè ci siete?
+3097506	3098967	Ok, torno indietro.
+3102828	3106770	A è dotata, cioè, A è dotata di?
+3107890	3108971	Non so come stiamo a fare.
+3111232	3114753	Nel senso, cioè, abbiamo risposto che ci siamo costruito alle senza parametri.
+3115373	3116054	Quindi parte.
+3120565	3122506	Esaminiamo questa situazione.
+3124228	3129771	Questa situazione dicevamo prima, c'è un problema.
+3129931	3143680	Nel senso che c'è questa F che è della A, ma c'è anche questa F che è di B. A questo punto, cosa succede?
+3145622	3146803	Essendo F pubblica,
+3148566	3159572	passa in eredità e mi ritrovo praticamente qui con due elf siete chiaro?
+3160172	3173699	ok tenete a mente questo scenario abbiamo due elf che hanno raggiunto, presenti all'interno della classe B una è di B, l'altra è l'eredità
+3179773	3197981	a questo punto A è diventato B diventato B quindi mettiamo F con la F parte che è la F di B che parla?
+3198201	3206004	no, perchè non è vera si è proprio in JavaScript
+3209155	3220143	Prima novità, intanto avrei dovuto utilizzare questa notazione.
+3220683	3231050	Ma siccome praticamente la classe è una struttura, quando c'è la struttura io posso evitare di utilizzare questa notazione sostituendola con questa notazione.
+3231151	3233232	Ci siete?
+3233252	3233732	Perfetto.
+3234813	3238636	A questo punto voglio richiamare il metodo
+3239373	3242916	F. Ma di F ce ne sono due.
+3243536	3244016	Ci siete?
+3244477	3245077	Chi parte?
+3246858	3248960	E questa è una cosa che dovete scoprire.
+3250161	3251281	Vi do la risposta.
+3251461	3254644	Quello che parte è la F. Di A?
+3254984	3255124	Sì.
+3257886	3261548	Non parte quella del F. Capiamoci.
+3264190	3268053	La A è diventata un puntatore a B.
+3270134	3286825	nella cazzo di B ci sono due F quella di B e quella che è arrivata nell'edità io sto chiamando questa F evidentemente io voglio richiamare la F di B no?
+3287386	3299714	perché lui sta nella mia idea A sta puntando ad un oggetto B e quindi voglio che porta
+3302303	3303744	F di B, ci siete?
+3303944	3306646	Per capire, vi faccio un altro esempio qui.
+3306706	3315151	Se io mi dichiaro un oggetto di classe B, ci siete?
+3317672	3320854	C punto F, chi parte?
+3320914	3324096	La F di B. La F di B, perché?
+3324256	3331080	Per il principio di sorrapposizione, quello che abbiamo detto prima, l'ultimo, quello del figlio, domina, quello del padre,
+3331877	3334098	Quindi, anche se ce ne sono due, parte quella del figlio.
+3334998	3339020	Ecco perché vi ho detto, dovete fare la prova, perché sennò vi confondete.
+3341081	3341821	Ci siete?
+3341861	3347923	Quindi, se lo sto usando come oggetto di B, io mi aspetto che parte la cosa di B, no?
+3348963	3354946	Però parte sempre quella di A. Anche quando vado in crisi, e quindi,
+3356515	3370807	Il polimorfismo, attenzione, non basta questa riga, non basta questo puntatore, ma dobbiamo apportare questa maniera.
+3371667	3378353	La cosa che dobbiamo apportare è il vittorio.
+3381916	3382516	Il vittorio.
+3387122	3402248	Quindi praticamente la funzione che fare deve essere indicata come funzione virtual, cioè che significa in pratica una funzione che può essere sobrascritta.
+3405624	3417169	Caro, attenzione, anche qui ci sono sempre condimenti, se li volete fare, c'è rin, rin, rin, rin, c'è una tabella di funzioni virtuali, c'è tutta una teoria dietro.
+3418870	3419190	E' chiaro?
+3419930	3429814	Nel momento in cui io apporto questa notifica, a questo punto questa parte quella di B.
+3432066	3432346	Chiaro?
+3432947	3436569	In conseguenza gli ingredienti per il polivorpismo quali sono?
+3436589	3436569	1.
+3437449	3439010	Ragionando in termini di più.
+3439670	3439010	1.
+3439930	3440751	Una chiararpia.
+3443332	3440751	2.
+3443993	3445033	Metodo di virtua.
+3446674	3447255	Puntatori.
+3447275	3448735	2 puntatori.
+3449316	3449756	L'ultimo?
+3450356	3451237	Metodo virtua.
+3451257	3451717	Leuda.
+3451737	3454459	Metodo virtua.
+3454499	3454779	Chiaro?
+3455519	3456360	Un metodo virtua.
+3458330	3462532	attenzione a quel metodo di Virta, perché tu ce lo troveremo in un altro scenario.
+3462592	3464273	Ti siete?
+3465173	3480559	Ok, allora, dite da questo esempio, questo esempio ovviamente, giudato, dove voi dovete praticamente convincere i ricordi in pratica.
+3481560	3482320	L'obiettivo è
+3486773	3499777	questo è del figlio, cioè questo è del padre, questo è del figlio, questo arriva in eredità, che ritorniamo con due f, chiamo il metodo f, quale metodo parte?
+3499937	3501518	Quello di eredità o quello del figlio?
+3501558	3502818	Abbiamo detto quello del figlio.
+3503859	3510901	Cioè quello del figlio sarebbe praticamente la specializzazione che anche lì forse vogliamo dare un significato.
+3511792	3530246	come lo possiamo utilizzare evidentemente appunto considero quel metodo del padre obsoleto per quella classe e quindi mantengo l'identità del metodo del padre e a questo punto apporto le modifiche soltanto aggiungo delle funzionalità a quel metodo del figlio.
+3532527	3536891	Perché sto mantenendo in vita il metodo del padre?
+3537771	3538592	Per una questione di comprensione
+3542027	3555896	altre applicazioni usano quel metodo e quindi praticamente se lo sostituissi se lo sostituissi potrei creare problemi alle altre applicazioni è chiaro?
+3556396	3568183	quindi e quindi questo per apportare il concetto di chi viene cioè di come viene gestita una eredità di questo genere in pratica
+3569877	3570337	Ci siete?
+3571058	3578180	L'evoluzione sarà, a questo punto, spostare l'attenzione sul polimorfismo, per capire il senso del polimorfismo.
+3578520	3585102	Io non voglio un codice in trenta secondi, io voglio un codice scritto, riflettendo rica per rica.
+3586243	3587183	Lo studio è quello.
+3589444	3589884	A me è ok.
+3590724	3591504	Stai registrando?
+3592965	3593465	A me è ok.
+3594705	3596606	Non vi andate a leggere quello che
+3597843	3601326	la sua trascrizione, ho andato a studiare direttamente sui documenti.
+3602767	3604949	Ma questo significa che non siano nozioni?
+3607451	3612276	E la nozione è indovinare una scorsa esatta, ma non sapere necessariamente come usare.
+3612876	3618401	Quindi l'obiettivo è ok, ho capito, so usarlo, se mi dovesse capitare l'occasione so come mi devo comportare.
+3620442	3620703	Chiaro?
+3621303	3622044	Dai, fatela provare.
+3623869	3627470	Provate questo scenario, voi spostiamo attenzione.
+3627490	3633572	Lo faccio qua?
+3633692	3649856	No, vorrei che lo scrivessero loro, perché loro sono... le hanno risposte... e per loro è un'occasione per rimprescare almeno i fondamentali sui puntatori.
+3651562	3656543	A questo punto io ti potrei anche dire un'altra cosa, ma a questo punto se volete fare un film fresco.
+3657643	3672466	Noi abbiamo utilizzato la GNU, la GNU che è un'instrumento che mi diamo a disposizione dal CQP1 per allocare spazio da segnare, da associare ad un puntato.
+3673647	3679568	Ma l'instrumento principale è la malloc, quindi
+3681235	3696777	rinfrescare e fare le diverse versioni e non serve per l'esercitazione, anzi ti dirò che più zionerei la linea, cioè se hai C++ io uso gli strumenti di C++
+3699987	3713834	e quindi se vi chiedo di farlo è semplicemente mantenere allenata la mente anche sulla malloc o qualora vi dovreste trovare nel frattempo per iniziare a lavorare in C. Attenzione, c'è un'altra cosa che lì non c'è.
+3715395	3720558	La cosa che qui non c'è in pratica è il direct.
+3722763	3743876	ogni volta che ho un puntatore devo sempre albinarlo a un distruttore di puntatori quindi l'agno si alloca spazio però devo abituarmi sempre perchè attenzione ecco perchè ragionare al puntatore e pensare in termini di puntatori significa questo, questo significa che tu hai
+3746191	3747492	Tutta la macchina a disposizione.
+3747993	3753877	Quindi occupi spazio, spazio, spazio, però il carico di lavoro non c'è niente gli automati.
+3755198	3763124	Quindi la dialocazione dello spazio è a carico e quindi abituatevi sempre ad usare le due funzionalità.
+3764825	3765245	Va bene?
+3766927	3767607	Dai, fate...
+3772446	3775069	la Keyword Override è super?
+3775129	3778173	No, lo so, però volete l'allumentazione?
+3783373	3785034	Non è obbligatorio ma è buona pratica.
+3785054	3785635	L'obiettivo è
+3808093	3810054	metabolizzare il concetto.
+3810094	3818999	Quindi, dal punto di vista, il miglior modo è ridurre al minimo, per quanto possibile, il pronice e mantenere gli ingredienti fondamentali.
+3819999	3823221	Poi, per perfezionarli, sempre attento.
+3828524	3829825	Quindi, ritiro grandio.
+3831926	3831986	Sì.
+3839722	3846045	C'era quello, l'altro argomento che volevo trattare, però quello è un altro argomento importante e impegnativo.
+3846325	3846785	Che cosa?
+3847726	3848486	Le eccezioni.
+3848526	3854849	Quello è un altro mondo.
+3857530	3863253	Quello è un altro mondo che va trattato
+3864517	3870925	E poi tra l'altro io ignorantemente pensavo che gli assert e le eccezioni fossero la stessa cosa.
+3871346	3872387	Sono due cose diverse.
+3872867	3875471	Uno verifica le condizioni e l'altro invece...
+3884343	3889626	più... tira fuori la roba che poi va gestita dopo.
+3889666	3898151	Sì, tanto è vero che poi le assezioni puoi rimetti sotto il momento perché inizierai a fare i corpi, ma ti si tratta come punti di riscontro.
+3898171	3901433	Bellasta parola del macro, senza stare a commentare tutto.
+3904834	3908597	Quello, cioè, è esperienza.
+3909077	3910197	Ormai...
+3916817	3917718	No, aspetta che te lo ripero, perché se no...
+3958006	3959511	Dobbiamo fare quattro classi.
+4056305	4056466	No, no.
+4084974	4087356	Grazie, signora Presidente.
+4116937	4117097	Grazie.
+4176135	4176175	No.
+4203988	4205049	Ah no, non l'ho cancellato.
+4205069	4205669	Sì, io lo so f***ing slow.
+4205689	4206070	Finito, lei.
+4206110	4207971	Però se non ci hai fatto cosa?
+4243575	4244695	Sto pensando come in JavaScript C'è JavaScript
+4308288	4308470	Grazie
+4343285	4343565	Grazie.
+4388319	4388779	Pater?
+4388839	4393680	Non hai visto questo... Hai visto questo sito che ha?
+4393700	4394240	No, non so.
+4394420	4395080	No, non so.
+4395100	4395860	Che bellissimo.
+4395920	4397241	Ti ho fatto insegnare Pater.
+4416357	4425185	Poi ci sono 3 tpd, 1 tpd, 2 tpd, 3 tpd, 4 tpd, 5 tpd, 6 tpd, 7 tpd, 8 tpd, 9 tpd, 10 tpd, 11 tpd, 12 tpd, 13 tpd, 14 tpd, 15 tpd, 16 tpd, 17 tpd, 18 tpd, 19 tpd, 20 tpd, 21 tpd, 22 tpd, 23 tpd, 24 tpd, 25 tpd, 26 tpd, 27 tpd, 27 tpd, 28 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd, 29 tpd,
+4456490	4463577	Anche l'internet è in grado, perché questo, si chiama Publisher's Observer, è in grado.
+4463597	4464799	E gli eventi è basato su questo.
+4484616	4486057	Si è andato qui?
+4486097	4487697	Si è andato su questo?
+4487757	4489578	Si è andato su questo?
+4489698	4491639	Si è andato su questo?
+4491659	4493440	Si è andato su questo?
+4493460	4495401	Si è andato su questo?
+4495521	4496301	Si è andato su questo?
+4496681	4497482	Si è andato su questo?
+4497522	4498542	Si è andato su questo?
+4498602	4499403	Si è andato su questo?
+4499423	4500443	Si è andato su questo?
+4500803	4502644	Si è andato su questo?
+4502784	4503944	Si è andato su questo?
+4503965	4505505	Si è andato su questo?
+4505525	4508186	Si è andato su questo?
+4514633	4514953	Stai ritornando.
+4514973	4515614	Sto diventando stupido, basta.
+4515634	4516054	Non hai stati?
+4516094	4516214	Qua?
+4516234	4516614	Ah, ok, ho capito.
+4556162	4557222	Quanto ti resta?
+4557262	4561783	Perchè il disso non esiste, è un sacchetto.
+4562103	4562703	Ma, quali?
+4563724	4565524	Mari, fai la sigla.
+4565564	4566384	Bene, sono stato qua.
+4566404	4568505	Dove sei arrivato?
+4568745	4569865	Ah, sì.
+4571945	4577887	Gabri, tagliare la mano.
+4577927	4579027	Viva di fare un risultato.
+4580418	4580722	Non è successo?
+4608729	4609150	Non è vero?
+4609170	4609490	Sì, è vero.
+4609530	4609751	Non è vero?
+4609771	4609991	Sì, è vero.
+4629670	4632493	Sì, è molto bello.
+4659497	4663278	questo quando fai android adouter,factor,repeat,decorato il composite,questo il composite prototype su java,se li usano con la donna
+4690128	4697370	Scusi, dei giochi che è l'ECS, Entity System Component.
+4699811	4700871	Entity System Component.
+4700891	4702891	E che tipo di pattern?
+4703692	4704972	Entity System Component.
+4705232	4712494	E le entità che hanno delle componenti sono giustite dagli sistemi.
+4717888	4727971	Ci sono delle entità a cui puoi collegare le componenti e ci sono i sistemi che gestiscono il comportamento delle entità.
+4734352	4735713	C'è una descrizione
+4742621	4763256	perché sennò diventano naturalmente strumenti che si vede fare, però c'è una motivazione, c'è una parte un po' di concettuale, c'è una sintesi della libreria standard
+4767028	4768269	Ah, ma tutto va?
+4768329	4769391	È una paginetta questa via?
+4769431	4770532	Sì, sì, sì.
+4771152	4772274	Sì, ma fa sintesi.
+4774336	4777739	Fa sintesi e poi c'è quest'altra cosa.
+4777759	4778240	Bene?
+4778941	4782544	Ecco, sono i container e le librerie.
+4783025	4785287	Ah, container e librerie.
+4785508	4786489	Sì, sì, sì, sì.
+4794993	4798314	Function è bellissima, registra i puntatori e funziona.
+4803535	4806296	No, però non è vero.
+4806356	4806696	Cosa?
+4806716	4807296	Non è vero.
+4807316	4809377	Ah, hai guardato quel regolo di intervenzione?
+4809457	4811558	Sì, sapevo già che era vero senza saperne il nome.
+4812858	4815979	L'anno scorso quando avevamo parlato della ricorsione ne avevi fatto un discorso su
+4817273	4821416	come partono le chiamate in memoria e lì mi è rimasto impresso da quel giorno.
+4821856	4827159	Infatti quella cosa che ti avevo detto era rudimentale, ma confezionale.
+4827199	4835204	Mi interessava tanto farti capire come avvenivano le chiamate materialmente.
+4835244	4843510	Poi è chiaro, un singolo descrittore di chiamate caratterizzato da una serie di erogienti
+4845123	4847744	che sarebbe praticamente l'organizzazione dell'Area di Memoria, no?
+4847804	4863992	Sì, infatti quando la ragazza diceva che quando scriva un programma me lo vedo come va in memoria, era per quel discorso di... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+4871405	4878171	significa, lo so, soltanto che non mi sarebbe dare di nome e non so come, cioè, mi mancava che pezzo per fare un'interazione completa.
+4878191	4884216	Anche soprattutto per capire il tempo di vita delle variabili che secondo me fondava in casa.
+4884497	4895346	Lì vedi, ma vedi... Poi, ripeto, ci fosse più collaborazione tra le materie, sempre diversi.
+4895546	4898329	Ma anche i ragazzi ieri quando hanno visto un po' di
+4899602	4916210	mi sono avvicinato da uno sguardo gli ho fatto vedere delle cose, quello che serviva e hanno dato senso
+4919248	4928111	Quelle cose che avevano infollato in testere che sarebbero collate dopo tre secondi dall'interrogazione.
+4928911	4931792	Invece un'ora importante è infatti avvisso.
+4933053	4938995	Sono importantissime queste cose anche perché soprattutto se devi scrivere dei programmi che
+4940499	4947546	hanno dei limiti hardware o cose del genere, devi sapere perfettamente come muovere l'assaggio.
+4947787	4955655	Nel discorso, il discorso è avere i formamenti, perché non puoi fare tutto, ma se tu
+4957007	4959089	Hai una buona base.
+4959149	4966936	Si, ma formamenti, perché ci possono essere tante cose che non riesciamo a fare per pensare di tempo, per tanti motivi.
+4968078	4972241	Il discorso è che io ti posso dire che manca questo, tipo l'equipazione.
+4975705	4978427	A questo punto dice che non lo posso fare.
+4978627	4981750	Tu lo leggi, hai i fondamentali, tu costruisci
+4983625	4990492	i pezzi che ti mangi, aggiungi i pezzi che ti mangi, però un metodo ce l'hai, no?
+4990632	5000221	Una conoscenza, che la conoscenza non fa altro che accumulare, accumulare nozioni su nozioni su nozioni, cioè pesantisci la memoria, no?
+5002464	5004606	Ma se tu hai un metodo, tu già lo contestori e ti dici ok,
+5007472	5016399	immagini c'è l'obiettivo, lo uso in questo modo, lo uso in questo altro modo ho capito come funzionava quel modo, quel metodo o quell'applicazione.
+5018561	5022044	Poi le vedi le cose, capisci?
+5023125	5027668	Non la vedi, prendo vino, è insopportabile.
+5032221	5038026	E sai quanto mi è servito quest'estate, mentre lavoravo con OpenTL, sapere queste cose?
+5038967	5045532	Perché lì devi gestire la memoria della scheda video.
+5045572	5059464	Lì devi praticamente gestire la comunicazione tra processore, scheda video, sapere quanto gli hai mandato, cosa li hai mandato, cosa ti deve tornare... Con due concetti che sapevo,
+5060842	5074214	mi hanno tirato su u, perché sennò... Ma sì, se avessi avuto altre conoscenze... La cosa insopportabile per me è che siamo arrivati tra un po', è da un mese che dobbiamo cominciare la scuola.
+5076155	5081420	Cioè, quel mente gatto ancora deve trovare il supplente e non so che arriverà.
+5082161	5086705	Tipo, per chi piace tipo per il laboratorio?
+5088867	5116541	ha detto... ieri ho parlato con un romano e domani... ieri se l'avrebbe chiamato... si, si, si, si, si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si si
+5118980	5124061	Noi domani ad esempio alla seconda ora abbiamo il TPS, che cazzo facciamo?
+5125101	5126101	Siamo qua a perdere un'ora.
+5126402	5128362	Io scrivo il tema, mi faccio alza.
+5128422	5132343	Aspetta, io domani posso giovedì 5 ore?
+5132423	5135143	No, domani c'è 2 ore.
+5136223	5140204	Sì, è il giorno più... No, giovedì c'è ora, la seconda ora sono ieri.
+5140744	5144225	Se non sei stato in riusa avrei fatto suplenza.
+5147073	5148894	Quale è sbagliata quella roba lì?
+5148914	5150155	La Vector.
+5152917	5154799	La Vector e il Ray sono due oggetti diversi.
+5155399	5158281	Sì, sono due... Due oggetti diversi.
+5158302	5159242	Sono due oggetti diversi.
+5159262	5159983	Sono due classi.
+5160363	5168509	Ti ricordo che questo è un po' datato, quindi un po' di pezzi... Allora...
+5172802	5181212	Invece, qui in alto, la ridefinizione degli operatori è interessante.
+5182153	5183835	Sai che si può ridefinire anche lì?
+5185097	5187500	Sì, infatti.
+5187540	5188100	Per fare le prove.
+5191159	5203951	Sì, ma infatti la ridefinizione è una cosa che non ho mai chiesto di fare, la ridefinizione della parentesi quale di RL.
+5203991	5206433	L'ho fatto per forza, per fare vector?
+5207174	5208975	Sì, per uscire alle RL associative.
+5209821	5211362	C'è sempre una tabella di riferimento, però l'associativo
+5234556	5245878	Ok.
+5246098	5250919	Ok.
+5252459	5254960	E poi dimettici la posizione.
+5256420	5257500	Ok.
+5257580	5261741	Ci metti il nome, perché la posizione non ti dice assolutamente niente.
+5264582	5266584	Ti dice semplicemente dove si trova con l'aramento, il problema è non ti aiuta a ricordare e a capire.
+5266604	5270909	Adesso c'è il tipo al pottaglio che ti dà la possibilità di assegnare un nome ad un indice
+5287519	5293661	Davi un'identità, e quindi, ecco, ecco, sì, eh, va be', ma quella è un'altra cosa.
+5293801	5296662	Cioè, sì, te l'ho detto, c'è una tabella.
+5298282	5299842	Perché poi cosa significa?
+5299862	5313806	A momenti in cui io faccio, utilizzo una vera associativo, automaticamente voi non potrete più utilizzare il Ciclo4 perché li aprevi un indice che va sempre incrementato e incrementato, no?
+5314206	5314686	Io ho un nome.
+5317073	5328717	Sì, però hanno creato degli altri fori e quindi mi dà la possibilità di volere dei compiti.
+5328777	5330198	Quelli che hai utilizzato al literatore?
+5331718	5333079	Più o meno, sì.
+5333679	5334139	For each?
+5334379	5335199	No, va bene.
+5335780	5338260	Queste reassociativi li trovi con Piaccappina.
+5339641	5340941	Con Piaccappina ti dici ok.
+5344676	5349077	Per lui l'estract non esistono, esistono solamente gli aerei.
+5349678	5353719	Quindi tu l'estract, cioè il record, ti ricostiglisci con il record.
+5355079	5371004	È chiaro che, detto questo, dico che il primo elemento è il nome, il secondo elemento è il cognome, e quindi descrivi una persona attraverso una serie di informazioni detti in cognome, cognome età.
+5374127	5379131	A te non interessa la posizione del nome?
+5379472	5382574	A te interessa cosa c'è nella variabile nome?
+5383475	5393983	Perché lui dice A è il contenitore, nome è la variabile che contiene il dato, cognome contiene un altro dato ed A contiene un altro dato.
+5394003	5396865	Allora a questo punto io cosa faccio in pratica?
+5398115	5405001	a me non interessa la tua proposizione non interessa quella parte che sta all'interno, cosa faccio?
+5406482	5415570	Voglio il nome, in questo caso vi assegno il nome, la dimostrazione del fatto che lo posso usare non è se...
+5425759	5429382	Posso usare dei due modi, no?
+5429462	5438128	O con l'indice, che ha ovviamente le funzioni che mi possono servire, oppure attraverso attribuendo un nome.
+5439108	5445473	E' chiaro che c'è tutto un discorso di dichiarare... Il nome dell'indice.
+5445533	5448715	Devi informare le due informazioni.
+5449035	5450977	La quotizione è automatica.
+5452518	5453879	Il discorso è fornire il nome.
+5454709	5459272	e eventualmente in fase di miniaturizzazione assegnarli anche un valore.
+5459712	5460452	Sì, sì, sì.
+5460853	5461153	Capito?
+5461193	5461973	Sì, sì, sì.
+5462193	5467576	E tutto questo lo puoi fare con la ridefinizione.
+5467757	5472359	Cioè, come posso costruire un vettore associativo?
+5472379	5477302	Sì, faccio un overload, prendo come parametro una strada.
+5477322	5480183	I vettori associativi per Python sono i dizionari.
+5486770	5515093	qua sono le mappe si, l'ha usata, bellissima mi serviva di ordinare delle cose per distanza dalla telecamera per dire la chiave era la distanza quindi io poi sono andato a chiamarle in ordine di distanza perchè lì le mette già in ordine esatto, la chiave è la distanza e poi ovviamente poi c'erano i valori
+5516425	5532795	Questa sera è molto bella, infatti sono andato a vedere come funzionano, sono andato subito a vedere come funzionano perché non capivo, ho detto ma come è possibile e c'è tutta una roba dietro, a fine un vettore, fondamentalmente.
+5533495	5536477	Ti ricordi che tu l'hai trovato a Siverno?
+5546323	5546783	Si si, ho visto la voce.
+5546803	5547103	Vai giù, vai giù.
+5575583	5576543	C'è scritto a Reassociativi?
+5576583	5579784	Sì, sì, sì, eh, sì.
+5579804	5581385	Volevo arrivare e filmare.
+5581445	5592588	Eh, vai giù, vai giù, vai giù, c'è ancora... No, c'è proprio il titolo a Reassociativi, più in basso.
+5592828	5597330	Cioè, l'ho visto prima mentre ha cliccato... Vai, vai, vai, vai.
+5597390	5598150	Era verso la fine.
+5598970	5602891	Vai, vai, vai, vai, vai, vai.
+5603151	5603711	C'è ancora metà.
+5606891	5607851	Eccolo qua.
+5607911	5610792	Eccolo qua.
+5610832	5611452	Cosa dice lui?
+5635061	5654152	ha un campo di applicazione molto vasto e generalizzato in un normale array infatti non esiste nessuna regola che obblighi il secondo operando ad essere un intero il primo operando è solo la 45a il secondo operando è il 50a
+5660064	5662025	come l'indice di una re.
+5662205	5684596	Al contrario, lo si può definire di un qualsiasi tipo, anche astratto, e ciò permette di stabilire una corrispondenza o come tabola, come talvolta si dice, un'associazione fra gli oggetti di un re.
+5684676	5686837	Un re associativo spesso
+5688227	5711574	chiamato Mappan o anche Dizionario memorizza coppie di valori dà un valore la chiave si può accedere si, all'altro il valore si può accedere all'altro
+5716846	5718287	Vabbè, comunque, io ho capito.
+5718407	5718687	No, no.
+5718707	5722010	Cazzo di denti.
+5722050	5738621	No, l'ultima cosa... La funzione che implementa l'overloader, servitore indice, fornisce un algoritmo di un appartamento.
+5738981	5739622	Lashing.
+5740222	5741703	Lashing è un altro.
+5741903	5742764	No, lashing.
+5743772	5747074	Praticamente prende la chiave, la trasforma nell'indice.
+5747875	5750596	No, lascing è un po' diverso.
+5750636	5753938	E però la mappe fa così?
+5754499	5760542	Lui con la chiave la trasforma in un indice attraverso il modulo della dimensione della regola.
+5760642	5762684	Però lascing è un po' diverso.
+5763184	5766726	Secondo lascing o in mezzo tipo per la sicurezza?
+5766866	5766926	Sì.
+5768291	5773334	Sì, sì, sì, però la no, questo poi, quello che ho visto io.
+5773994	5776795	No, completamente diverso.
+5778016	5782138	Il concetto è diverso, è una funzione intanto.
+5782158	5782438	Esatto.
+5782458	5785660	Dalle caratteristiche specifiche.
+5786761	5789622	Che dovrebbe dare un risultato univoco in base a lì.
+5789722	5797186	Se tu vai a scaricare Linux, se te lo vai a scaricare dal sito qualunque

@@ -1,0 +1,316 @@
+che dici te.
+Ma ho capito anche quello che dici te, non hai sbagliato il discorso perché chiaramente come partiamo, non è un problema mio, nel senso che direi che per me è un mondo, per te
+E' una battuta.
+Per me è un mondo perché sapevo anche questa cosa che hai raccontato te, che tu prendi un file e ti tiri fuori la chiave del file.
+Sì, è semplicemente un concetto matematico che è stato utilizzato dall'informatica in vari contesti.
+Uno dei contesti è la generazione di indici e c'è un motivo.
+C'è un motivo.
+Il discorso è che l'esce, perfetto, non esiste in natura e quindi ci sono dei problemi.
+Sono delle cose che avevo in mente in passato di spiegarle, però...
+Sì, non ho cervelli che funzionano e tempo perso perché ti ripeto, quando tu usi quella parola automaticamente mi si apre un mondo e ho detto no, non è solamente quello.
+Lo so che non è solamente quello, è una cosa abbastanza complessa.
+Diciamo che è un modo di... è un'operazione matematica che dà un risultato, dato un input
+Un input che può essere qualsiasi cosa, lui ricava un qualcosa altro.
+Sì, in effetti poi queste funzioni esce poi nella realtà.
+Nella realtà sono algoritmi.
+Esatto.
+E quindi che hanno un obiettivo ben preciso.
+Esatto.
+Ti ripeto,
+lascia perdere l'esce, cioè lascia perdere, te l'ho detto, no, lascia perdere il ruolo, cioè usare quel termine poi per chi ti ascolta se quella persona sa cosa c'è dietro a questo punto dice ok allora a questo punto ci sono delle basi andiamo oltre
+il problema è no, sei semplicemente uno strumento che... ciao!
+se ci sei tu, non ci sono noi!
+no!
+e abbiamo l'ultima volta!
+allora vado a vedere come sono!
+allora io lo spio solo come concetto... lo sconsiglio, cioè tienilo come un postit se cade non ti preoccupare, l'importante è che tu capisca
+Cosa si intende per reassocettivo?
+Sì.
+Invece di utilizzare un indice numerico che non ha contenuti informativi, puoi utilizzare a questo punto un altro indicatore?
+Sì.
+Che può aiutarmi... È come se mi scegliesse io l'indice.
+Sì.
+Sì.
+L'implementazione con quelle funzioni particolari va bene.
+capisci però basta c'è che sennò ma lì mi sono fermato anche perché c'è andare a aprire dentro la funzione di ashing non ho le competenze per fare no no no è complicato Roby non lo fare ma non l'ho fatto allora invece mi aggancio alle cose che ti ho fatto
+le cose che abbiamo fatto, qui è andato via ed è arrivato
+Ok, il totale questo senso vuole?
+ma non c'è neanche al cinico non vuoi sentire scuole?
+le hai già segnate tutte e tre?
+perché le hai segnate già?
+si, vedo ma le vedo solo?
+ah eccola no no no vedevo queste due si si le ho segnate tutte e tre
+Allora, continuiamo un attimo con quello che stavamo facendo.
+Quindi la scaletta, la scaletta praticamente sarà questa.
+Gerarchia.
+Poi, il polimorfismo.
+Poi, a questo punto, andate all'ultimo step, l'ultimo step, l'ultima sensazione che ti hai perso due occasioni.
+Questa è quella dell'altra lezione.
+L'essenziale.
+L'essenziale è che da solo tu non le capirai mai queste cose.
+Ma capo mai, mai.
+Mi dispiace, però, se ripeto, non è... Non posso bere milanio.
+Non è anche io.
+Non ci credo, non so.
+Non è anche io.
+Detto questo, dinarchia, polimorfismo a compenso, l'evoluzione, il discorso di capire bene questo percorso e capire bene il punto di partenza, e spero che abbiate fatto quelle prove che vi ho detto, poi dopo di che trascrivetele, perché sennò anche per voi diventa una cosa così, sparisce.
+Dalla gerarchia passiamo al polimorfismo.
+L'evoluzione come è avvenuta in pratica?
+Per avere il polimorfismo io devo avere una gerarchia ma nello stesso tempo devo, per quanto riguarda l'implementazione abbiamo detto con il C++, devo avere un altro strumento.
+Gli strumenti che abbiamo visto per quanto riguarda il C++ sono i puntatori
+Però, abbiamo detto un'altra cosa, con i puntatori non trovo il problema, cioè non implemento il concetto di pori martilli, un bisogno di un altro strumento altrimenti io avrò delle funzionalità inaspettate, chiaro?
+Allora, puntatori e quindi abbiamo detto
+Ho delle funzioni particolari.
+Io le chiamo, a questo punto tutti le chiamiamo funzioni virtual, le funzioni virtual sono quelle che mi garantiscono di avere un polimorfismo reale.
+Il polimorfismo significa in pratica un oggetto che può diventare un altro oggetto in pratica, può cambiare forma.
+Questo è il concetto rozzo, grezzo.
+di polimorfismo.
+Quindi se voglio che un oggetto diventi un altro oggetto con tutte le funzionalità dell'altro oggetto, a questo punto è chiaro che ho bisogno di queste funzioni particolari chiamate funzioni virtuelle.
+La funzione virtual non è soltanto l'aggiunta della parola funzione virtual, c'è tutta una teoria alle spalle.
+Noi semplificheremo semplicemente dicendo che ci sono le funzioni virtual, quindi mi devo soltanto ricordare di aggiungere la parola virtual, per ottenere un effetto atteso in termini di polimorfia.
+Per chi volesse approfondire, lì c'è NL,
+il sito spiega cosa c'è dietro una funzione virtuale non è soltanto una parola è spiegata anche bene però ripeto non voglio fare proprio una lezione magistrale universitaria per chi volesse approfondirlo è semplicemente una curiosità in più che uno ti vuole repare a noi basta in questo se voglio ottenere l'effetto sperato quindi
+la trasformazione di un oggetto in un altro oggetto con tutte le funzionalità, devo usare la parola virtual.
+Le funzioni, alcune funzioni devono essere virtual, alcune.
+A questo punto c'è un altro concetto potente, relativo alla programmazione ad oggetti, e li entriamo nel mondo
+Nel mondo ovviamente sempre l'obiettivo resta sempre quello di avere una programmazione sempre più generica.
+Che significa generica?
+Io ho un'applicazione generica e poi la specializzo di volta in volta.
+Quindi anche lì, vedendo le classi, io costruisco delle classi generiche che poi di volta in volta vado a specializzare.
+Tenete presente questo concetto perché altrimenti facciamo cosa?
+E continuiamo ovviamente a riprodurre la nozione.
+C'è questo obiettivo, programmazione generica.
+Programmazione generica, ripeto, programmazione generica.
+Andiamo a vedere questo mondo, quest'altro pezzo di programmazione generica.
+sono classi astrati.
+Ok, cosa hanno di particolare le classi astrati?
+Intanto come si implementano?
+Si implementano praticamente intanto
+ok utilizzando le funzioni virtual alle quali assegno il valore 0 ci siete?
+si ma il problema non è lo 0 il problema non è lo 0 il problema è un'altra cosa le funzioni quasi non sono più funzioni virtual o meglio c'è una componente virtual
+alla quale assegno il valore zero.
+Tutti insieme si chiamano funzioni pure.
+Quindi cosa è una funzione pure?
+Una funzione dietro alla quale assegno il valore zero.
+no perché non è sufficiente che io assegni il valore 0 è il concetto di funzione pure, la funzione pure è una funzione senza corpo la funzione senza corpo quindi praticamente tutte le funzioni quando abbiamo fatto le funzioni abbiamo detto caratterizzata da una firma da un prototipo più il corpo bene le funzioni pure
+hanno il prototipo ma non hanno il corpo.
+Che senso hanno?
+No, che senso ha avere una funzione che non ha corpo?
+Perché se una funzione non ha corpo non fa niente.
+È chiaro?
+E a questo punto lo scopo è proprio questo, in pratica.
+Sono dei segni a posto, nel senso che
+è chiaro che quando le uso se qualche parte c'è l'implementazione non solo c'è l'implementazione l'implementazione è obbligatoria però c'è anche un'altra cosa è chiaro che ci deve essere un legame tra due soggetti la classe astratta che contiene almeno una funzione pura
+e l'altro soggetto, cos'è l'altro soggetto, un'altra classe?
+Qualunque?
+No, perché a questo punto deve avere anche lì, una gerarchia, l'importanza del capire il senso delle gerarchie e il significato di gerarchia.
+L'idea qual è in pratica?
+io ho una classe austratta composta da metodi virtual che non fanno niente perché non ha senso che facciano niente in quel contesto e allora perché ce li metto dentro?
+sono ingredienti fondamentali invece per tutta una serie di classi che derivano dalla classe principale
+Chiaro?
+Quindi le classi vere non sono le classi astratte, ma sono ovviamente le classi derivate alle quali passo in eredità questi metodi puri e che sono obbligati a implementare.
+Implementare significa aggiungere il corpo.
+E cosa significa?
+Beh, ognuno aggiunge la propria specializzazione.
+Ci siete?
+Quindi il concetto teorico è questo.
+Attenzione, c'è un altro associato, un altro concetto.
+Se all'interno della classe c'è una funzione pura, quella diventa una grassa strata.
+Se tutte le funzioni sono pure, quello diventa un'interfaccia.
+Se è una classe, ragionate.
+Se è una classe, è dotata di metodi puri.
+Supponete, ok?
+Questa è la situazione.
+Classa Z, la generazione.
+Allora, supponiamo
+virtual a questo punto gli diamo una F e ok e questa è la questione pura no?
+perchè è virtual più è valore 0 poi abbiamo G questa è una funzione, un metodo
+Qualunque il significato è semplicemente una funzione che fa qualcosa.
+Questa è una funzione virtua.
+Qual è lo scopo di questo esempio?
+Una classe che ha al proprio interno
+una funzione pura una funzione normale, generica una funzione virtual che non è pura perché?
+per due motivi uno non è uguale a zero ma la cosa più importante c'è un corpo quindi fa qualcosa, bene?
+bene, cosa non posso fare?
+questa benedetta classe astratta pertiene perché c'è una funzione virtue chiaro?
+cosa non posso fare con la classe astratta?
+se ci pensate, se ci riflettete
+Questa è la classe, con le classi cosa posso fare?
+Qual'è lo scopo della classe?
+La classe è semplicemente un progetto, no?
+Quindi, che mi serve per creare oggetti.
+Ci siete?
+Sendo che in termini, ad esempio, la funzione pura è, anzi, non capite il contenuto vuoto, la classe stratta.
+Poi?
+sempre semplicemente... sempre il mio rilagionamento perché stavo parlando, quindi... la classe è fatta da... membri membri, da valpacifico ma io avevo i... attributi e metodi proprietà più metodi metodi più metodi, ok a questo punto questa sera abbiamo introdotto
+le funzioni virtuali.
+Questa è una classa che ha metodi e proprietà.
+A questo punto alcuni metodi sono dei metodi specializzati.
+Questo metodo è un metodo, lo abbiamo chiamato?
+Questo è un metodo generico e questo è un metodo, no non è generico, è virtual, dovete leggere, è un metodo virtual, va bene?
+Perfetto.
+A cosa servono le classi?
+Non come spartano le classi.
+Per creare un oggetto.
+Per creare un oggetto?
+Come si crea un oggetto?
+Utilizzando i membri della classe.
+Eccomi fare.
+Ragazzi, il nome della classe
+dove ti scelgo io?
+te virgola?
+lì dichiaro ragazzi queste sono cose serie se sono troppo difficili io abbasso il livello ci riduciamo a fare le cose dal giorno io non mi voglio, mi voglio bene però se mi sto spingendo in alto è perché voglio di più per voi ma se non ce l'ha fatto per qualunque motivo
+a basso livello perché se le faccio le cose alte io voglio da voi risposte alte non banale sennò le faccio più la ducu o studiate queste cose la cosa che non potete fare con questa classe è creare oggetti
+le classi servono per creare oggetti come se creano oggetti classe più nome dell'oggetto chiaro?
+questa è una classe ma questa classe contiene al tuo interno una funzione virtual la funzione virtual è caratterizzata da baller zero ma non è la cosa più importante quella che non ha corpo e se non ha corpo non lo posso usare e quindi
+Quindi, al momento in cui io tento di creare un oggetto ricavato da una cosa estratta, lui mi dà le flore.
+Perchè?
+Perchè, dice, c'è un metodo virtual tra l'altro.
+L'ho messo anche pubblico.
+Ma poco importa.
+Appena si accorge che esiste un metodo puro, lui dice, cos'è che vuoi?
+la classe astratta non serve per creare oggetti se non capite questo è inutile darmi la definizione di classe astratta con la funzione pura il problema è perché esistono il concetto sono delle classi che io utilizzerò non per creare oggetti non le uso per creare oggetti
+Se le voglio usare, la cosa che devo fare?
+Creare classi specializzati.
+Creare gerarchie con classi specializzati.
+Se saltate questo passaggio, avete saltato il senso della classe stretta, perché esistono.
+e voi mi rispondete perché c'è una pensione in verito e io vi risponderò avete sbagliato le risposte io non ti ho chiesto come hai fatto ti ho chiesto come si usa non puoi creare oggetti e le puoi usare solamente per creare gerarchia se non c'è una gerarchia io questo strato la tengo lì
+E non fa niente, non la posso usare.
+E' chiaro?
+Dimmi Marco.
+Diciamo che dobbiamo dare.
+Ma adesso ci sono, ma... Scusa che ti spugno.
+C'era una domanda che avrei potuto ancora spostare.
+Dimmi.
+Prova.
+La domanda è che se non la posso usare.
+Allora, segui gli alternamenti.
+La cosa importante è gli alternamenti, non è la risposta.
+Io so così una classe astratta.
+Se c'è un metodo puro, siamo in presenza di una classe astratta.
+Va bene?
+Io ti ho detto, la cosa che ti ho detto è cosa non puoi fare con una classe astratta?
+Costruire oggetti.
+allora la domanda è ovvia se non posso costruire oggetti tutte le classi servono per costruire oggetti ma che serve?
+la risposta è se vuoi utilizzare una classe astratta devi impostare una gerottia ma gerottia significa che ci deve essere una classe specializzata che prendi in eredità
+Cosa è previsto?
+L'eredità come è fatta?
+In generale, un'eredità in termini di programmazione degli oggetti, come è fatta?
+Si, è troppo generica.
+abbiamo detto all'inizio della lezione dal progetto figlio che evita la parte pubblica del padre la condivisione della parte pubblica della classe madre
+No.
+Perché nelle reddità ci sono anche le parti protette.
+Non private.
+Se non so cosa passa, faccio fatica a scrivere una reddità.
+Abbiamo del giovane inizio.
+La reddità è composta da reparti.
+Membri pubblici e membri protetti.
+Questo è il concetto di eredità, quello che passa.
+Non passa, è privato.
+Quindi, a questo punto io faccio passare le eredità della classe astratta e tra le cose che passeranno sicuramente le classi pure arriva la classe dura.
+Chiaro?
+Nel momento in cui arriva la classe pura, la classe figlio che prende in eredità l'obbligo, l'obbligo di aggiungere questo corpo, che manca nella classe padre, se non lo fa, è compiuto la migliaia d'errore, perché la regola è questa.
+Da?
+La pura, il termine più o meno specializzato.
+Certo.
+E lo scopo è questo.
+Ok.
+Chiaro?
+Fate una domanda subito, e accettate il GPT.
+C'è un semplice esempio di uso di una prassata.
+Dovete vedere la sintasi?
+Dovete vedere praticamente il coso che vi genera.
+Come vi ho sempre detto, chiedete cose facili, specificatelo.
+Voglio un esempio in cui si usano, si utilizzi una classe stratta del cipipio.
+Quello che dovrebbe fare lui è questo.
+Quando finite
+Guardatemi.
+Le chiama metodi concreti.
+Le chiama metodi generici.
+Le chiama metodi generici.
+Ah.
+Hai fatto una domanda?
+vi ha generato il codice?
+te l'ha dato il codice?
+io ti ho detto, dà la risposta e guardami, anche per prima tra un po' sono, quello che ha fatto lui è, uno ha creato una cosa stratta, la riconosco perché ha almeno un metodo puro, va bene?
+ha creato una gerarchia di conseguenze dove la questa è tratta di padre.
+Va bene?
+Il metodo puro, o è puro più,
+deve essere un membro dell'interfaccia, cioè della verità.
+E quindi, la verità, o è pubblico, o è trattato.
+99% è pubblico, in quel caso.
+Certo?
+Ok.
+Bene.
+La grossa strata serve a questo.
+Cioè, serve a questo aspetto, siamo più precisi,
+Come usa una classe stratta?
+Risposta per costruire una eredità.
+Da sola la classe stratta non può essere utilizzata.
+Quindi ogni volta che incrocio la classe stratta devo guardare attentamente perché accanto c'è la costruzione di una diorchia.
+Andiamo a vedere la classe fine.
+La classe fine è una cosa caratterizzata in pratica.
+dall'implementazione la funzione pura che non aveva corpo a questo punto io me la ritrovo nel figlio con un corpo chiaro?
+nella classe astratta non c'è corpo è uguale a zero nella classe figlio c'è il corpo è chiaro?
+e quindi praticamente il senso quale è in pratica?
+io costruisco una classe astratta con l'obiettivo di fare specializzare le classi a tutti gli utenti che la vogliono utilizzare come promemoria, come segnaposto tipo non so che esempio vi hadde fatto un esempio che potrebbe essere stampa tonda, virtual stampa tonda uguale a 0
+Questa è una classe astratta con una funzione stampa.
+Poi mi dichiaro una classe specialità.
+Gli arriva e ci sarà una funzione stampa con un corpo, sono i figli.
+E' chiaro?
+Se non aggiungete il corpo, lui vi darà il direttore.
+perché il senso è, io ti do una funzione senza corpo e tu sei obbligato ad aggiungere il corpo se non aggiungi il corpo stai usando male la classe astratta è chiaro?
+chiedeteli qual è lo scopo delle classi astratte tanto è partito e quindi già è partito nella chat
+Mi hai risposto?
+Seconda domanda, quando si usano le glasse astratte?
+Non come.
+Il come lo sappiamo.
+Il problema è quando.
+si è scaricato?
+si è scaricato?
+no, io ho finito la prova di gpt4, quindi sta ancora generando la normativa allora, la prima domanda?
+è ancora la prima?
+è ancora la prima?
+perché sapete tutti gli esempi, mi sono dimenticato di non farmi gli esempi prima domanda?
+fornire una struttura comune
+consentire il polimorfismo, incoraggiare la reusabilità del codice, impedire l'istanza di una classe base generica, definire un'interfaccia per le classi derivate, favorire l'estendibilità del codice e basta.
+Questa è la potenza della classe astratta.
+La possibilità, praticamente,
+avere delle classi generiche che di volta in volta io vado a specializzare a seconda del mio bisogno.
+Però la base di tutto è, ovviamente, l'astrumento di riferimento è la creazione della diararchia.
+La creazione della diararchia è, ovviamente, l'assimilazione del concetto di eredità, perché è lì che ci giochiamo la partita, no?
+Sulle eredità e i metodi puri passano come eredità.
+Poi c'era la seconda domanda, no?
+Sì.
+Sto fabbricando.
+Quando si usano le classi astratte definire un'interfaccia comune per una gerarchia di classi poi poi gestire classi diversi in modo uniforme poi forzare l'implementazione di metri nelle sottoclassi, ridere le istantizzazioni
+l'istanzazione di classi generiche evitare?
+evitare?
+evitare l'istanzazione di classi generiche poi integrazione con il disegno, con l'interfaccia progettare il framework con i livelli utilizzabili aderire al principio di sostituzioni ok, cosa non posso fare con gli astrati?
+non posso creare oggetti
+Non fare i ringhi, perché... No, no, no, discoltatevi, l'esempio è importante.
+Adesso alla prossima domanda mi dai un esercizio?
+Ok, chiedeteli di farvi un esercizio che risolverete voi.
+Vi dai un esercizio in cui devo utilizzare una calza astratta?
+Come non posso utilizzarlo, però detto prima, no?
+non posso creare oggetti.
+Pensate, pensate... Gli argomenti di questa sera sono stati gerarchia, ereditarità, gerarchia con eredità e polimorfismo, adesso le si astratte.
+La cosa, l'ingrediente che è più importante
+esercizi.
+Voglio una batteria di esercizi con soluzione.
+Provateci, provateci.
+Dovete verificare se avete capito la lezione di questa sera, altrimenti abbiamo buttato tre ore.
+Quindi partite, eventualmente stabilite il vostro limite
+quindi chiedete ovviamente degli esercizi semplici inizialmente e vedete se riuscite subito ad applicare i concetti chiedete eventualmente a lui la soluzione ma a me non mi interessa la soluzione mi interessa chiaramente che voi prendiate coscienza su... l'ho capito o non l'ho capito?
+lo so fare o non lo so fare?
+sapete come funziona, no?
+se non mi interessa la...
+il codice.
+Voglio che ci proviate.
+I messaggi sono chiari.
+Ragazzi, non state ancora studiando seriamente?
+La quarta è l'anno più importante, perché quando arriviamo in quinta, queste cose, o le sapete, non le riparete più.
+Quindi fate quello che dovete fare adesso, scrittate questo tempo.
+Siamo quattro gatti, cerchiamo di essere
+e cementi.
+Be' bene, capite una cosa?
