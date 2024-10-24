@@ -1,0 +1,1556 @@
+1
+00:00:06,923 --> 00:00:12,666
+Poi lo riprendiamo.
+
+2
+00:00:17,748 --> 00:00:35,238
+Dicevamo, il concetto di eccezione, prima di vedere come si implementa, perché non è complicato, il problema è capire perché esistono, in effetti vorrei, come appunti, gli appunti che mi suggeriscono di imprendere sono le domande da Faccia Filippiti.
+
+3
+00:00:36,693 --> 00:00:41,537
+del tipo, perché esiste il concetto di eccezione?
+
+4
+00:00:41,557 --> 00:00:42,998
+Come è stato introdotto?
+
+5
+00:00:43,078 --> 00:00:44,299
+C'è proprio la storia, no?
+
+6
+00:00:45,360 --> 00:00:52,185
+Il motivo per cui prima non c'era e poi a un certo punto hanno deciso di implementare questo concetto.
+
+7
+00:00:52,485 --> 00:00:57,489
+Evidentemente c'era una situazione critica, evidentemente c'era un problema, no?
+
+8
+00:00:58,750 --> 00:01:03,254
+E quindi capire quale è stato l'imnesso.
+
+9
+00:01:05,034 --> 00:01:14,240
+vi ho detto l'innesco, vi ho detto il motivo è separare la parte di controllo degli errori dallo sviluppo del pubblico.
+
+10
+00:01:14,280 --> 00:01:29,529
+Questa è la mia versione distillata, poi sarà più provvisto, sarà più dettagliato e quindi nel momento in cui, ma così a questo punto stimolate sempre con delle domande, il perché
+
+11
+00:01:31,149 --> 00:01:37,535
+Dovete avere voi un'idea, non una nozione, non una definizione.
+
+12
+00:01:38,175 --> 00:01:43,340
+Quindi è molto importante che abbiate un'idea bella solida.
+
+13
+00:01:45,222 --> 00:01:47,664
+Dicevamo, ok le parole chiavi.
+
+14
+00:01:59,810 --> 00:02:07,794
+Questa praticamente cosa si intende per quale è il significato, quale è il senso?
+
+15
+00:02:08,274 --> 00:02:16,698
+Dicevamo, l'eccezione dietro al concetto di eccezione c'è questo.
+
+16
+00:02:18,499 --> 00:02:27,624
+L'idea è, ho una situazione anomala da gestire, a questo punto io non la gestisco.
+
+17
+00:02:30,023 --> 00:02:32,444
+siano a cupere o un altro, ci siete?
+
+18
+00:02:34,325 --> 00:02:50,910
+Però io, che oggi lo pago l'applicazione, ti informo che all'interno della mia applicazione, funzione o classe ci sono delle situazioni anomenali che dovranno essere tu.
+
+19
+00:02:51,291 --> 00:02:58,173
+Quindi, chi progette la classe, chi progette l'applicazione avvisa tutti quelli che andranno ad utilizzarla
+
+20
+00:03:00,259 --> 00:03:02,840
+sulla presenza delle eccezioni.
+
+21
+00:03:03,660 --> 00:03:04,140
+Ci siete?
+
+22
+00:03:06,240 --> 00:03:07,421
+Quindi i soggetti sono due.
+
+23
+00:03:08,181 --> 00:03:14,542
+Chi usa una classe, facciamo un esempio di una classe, ma anche una funzione, no?
+
+24
+00:03:14,923 --> 00:03:21,144
+In effetti poi le eccezioni non sono legate alla programmazione degli oggetti, esistono a prescindere.
+
+25
+00:03:22,444 --> 00:03:28,766
+Sono state introdotte da un C++, però in effetti potrete sviluppare codice in C.
+
+26
+00:03:29,893 --> 00:03:32,294
+senza scomodare le classi e gli oggetti.
+
+27
+00:03:33,275 --> 00:03:33,675
+È chiaro?
+
+28
+00:03:34,935 --> 00:03:57,806
+Perché il senso è questo, io ho scritto una funzione, è previsto di utilizzare delle eccezioni, perfetto, la devo usare io con la funzione, la tua funzione l'ha inserita all'interno di una libreria, a questo punto tu mi dà la tua libreria e mi devi fornire una serie di informazioni elettive del tipo, guarda, la funzione 1 prevede
+
+29
+00:03:59,398 --> 00:04:04,281
+un'anomalia che dovrai gestire tu, un'eccezione che dovrai gestire tu.
+
+30
+00:04:05,482 --> 00:04:10,445
+La funzione 1 fa funzione 2, ne prevede un'altra, la funzione 3 ne prevede un'altra.
+
+31
+00:04:10,545 --> 00:04:26,916
+Quindi praticamente il codice dovrà essere documentato sia per quanto riguarda l'alimentazione classica del codice, ma anche per formare tutta una serie di informazioni relative alle anomalie non gestite.
+
+32
+00:04:29,062 --> 00:04:30,803
+ci siete?
+
+33
+00:04:30,843 --> 00:04:34,165
+riflettiamo sul concetto di anomalia quale può essere l'anomalia?
+
+34
+00:04:35,406 --> 00:04:38,488
+sviluppo un'applicazione va bene?
+
+35
+00:04:39,368 --> 00:04:44,171
+la mia applicazione preferisce ovviamente la stampa del documento no?
+
+36
+00:04:44,371 --> 00:04:54,457
+c'è una funzione c'è una voce di meno che dice ok, stampa documento, stampa su carta chiaro?
+
+37
+00:04:55,158 --> 00:04:58,500
+la mia applicazione funziona però poi succede che
+
+38
+00:05:00,231 --> 00:05:01,652
+Uno, la stampante è spenta.
+
+39
+00:05:04,014 --> 00:05:11,118
+Questo è un evento eccezionale, nel senso che questa anomalia non dipende dall'applicazione, dipende dal fatto che la stampante è spenta.
+
+40
+00:05:12,759 --> 00:05:15,381
+Manca la carta, manca il toner.
+
+41
+00:05:16,402 --> 00:05:16,902
+Ci siete?
+
+42
+00:05:17,903 --> 00:05:19,264
+Queste sono le criticità.
+
+43
+00:05:21,625 --> 00:05:29,871
+E quindi, chiaramente, cosa succede in un momento in cui poi manca la carta, poi non posso stampare, se non posso stampare, cosa succede?
+
+44
+00:05:30,947 --> 00:05:55,697
+ci blocca l'applicazione perché l'applicazione sequenziale non gli sta arrivando ovviamente la conferma di documento stampato e lui chiaramente si blocca allora a questo punto io dovrei, io, programmatore, dovrei prevedere questa eventualità e gli insegni tutta questa situazione anormal.
+
+45
+00:05:55,757 --> 00:05:59,059
+Io non voglio gestirla e a questo punto
+
+46
+00:06:01,370 --> 00:06:01,811
+Delegum.
+
+47
+00:06:02,111 --> 00:06:03,211
+Delegum che significa?
+
+48
+00:06:03,331 --> 00:06:09,415
+Ok, quando si verifica io ti dico l'ancio, questa è l'altra parola chiave, l'anxiale.
+
+49
+00:06:23,024 --> 00:06:23,884
+L'ancio è un'eccezione.
+
+50
+00:06:26,406 --> 00:06:29,828
+Effettivamente c'è un libro per cui si chiama L'Angello, chiamata
+
+51
+00:06:31,229 --> 00:06:38,912
+anche qui c'è un approfondimento quindi lancio un'eccezione, no?
+
+52
+00:06:39,432 --> 00:06:54,599
+lancio un'eccezione e ti dico ok non la gestisco io però non posso cadlocare l'applicazione però ti lancio un codice di riconoscimento ti lancio a te che stai usando quella applicazione chiaro?
+
+53
+00:06:55,943 --> 00:07:01,566
+Dovete sempre pensare a due soggetti, chi progetta e chi usa.
+
+54
+00:07:02,906 --> 00:07:04,627
+Se siete voi, farete fatica.
+
+55
+00:07:06,068 --> 00:07:10,430
+Se riuscite ad immaginare queste due figure, io sviluppo un'applicazione per qualcun altro.
+
+56
+00:07:10,610 --> 00:07:14,192
+Questo qualcun altro in questo mondo si ritroverà con queste situazioni critiche.
+
+57
+00:07:14,272 --> 00:07:16,333
+Tutto vero, tutto più normale, no?
+
+58
+00:07:17,593 --> 00:07:20,815
+Perché chiaramente, mi calo, nei panni, ciò che
+
+59
+00:07:21,660 --> 00:07:27,923
+l'applicazione che ha sviluppato ha delle difficilità, è chiaro che se le deve usare vi vuole avvisare.
+
+60
+00:07:29,543 --> 00:07:31,844
+Quindi le eccezioni vanno documentate.
+
+61
+00:07:33,045 --> 00:07:50,852
+Nepperti se voi andate anche sulla Libra di Instanza, è chiaro che scoprirete che ci sono anche riferimenti, non tutti, a delle eccezioni che devono essere gestite, o quanto venmo,
+
+62
+00:07:51,775 --> 00:07:56,459
+verrete informati o verremo informati delle eventualità che ci possano essere delle eccezioni.
+
+63
+00:07:58,360 --> 00:08:03,365
+L'altra applicazione prevede la stampa.
+
+64
+00:08:04,966 --> 00:08:06,627
+La stampante non è accesa.
+
+65
+00:08:08,169 --> 00:08:11,351
+Io non ho previsto controllo e gestione.
+
+66
+00:08:12,952 --> 00:08:15,735
+Gestione significa che ti mandi un messaggio, la stampante è spenta.
+
+67
+00:08:17,131 --> 00:08:21,655
+io non voglio andare in quella... il tradotto significa basta fare un info, no?
+
+68
+00:08:23,897 --> 00:08:28,221
+il problema è, io non c'ho voglia di fare quell'info è chiaro?
+
+69
+00:08:29,062 --> 00:08:41,913
+perché quell'info significa, sto controllando se succede questo, fai questo, altrimenti fai quest'altro chiediamo di andare al nocciolo della pacienza, è chiaro?
+
+70
+00:08:43,010 --> 00:08:43,891
+Non voglio fare quello.
+
+71
+00:08:44,091 --> 00:08:50,998
+Scrivere 3-4 righe di codice in più, sommare tutte le 3-4 righe, significa che io non sono produttivo.
+
+72
+00:08:53,941 --> 00:08:54,241
+Chiaro?
+
+73
+00:08:55,222 --> 00:08:59,286
+E distolgo l'attenzione dell'algoritmo di Ciballo.
+
+74
+00:09:01,848 --> 00:09:02,189
+Chiaro?
+
+75
+00:09:03,090 --> 00:09:07,093
+Quindi, detto ciò, quindi a questo punto io, lo so,
+
+76
+00:09:09,571 --> 00:09:17,673
+che c'è questo rischio, che non posso eliminare, se è spenta è spenta, se manca la carta manca la carta, cioè non c'è scampo.
+
+77
+00:09:18,674 --> 00:09:29,717
+La cosa che c'è, rilevo, devo trovare un modo ovviamente per rilevare questa numeria, perché la stampante mi dirà qualcosa, ovviamente accetta un po' che a questo punto senza tanto che si pegue via.
+
+78
+00:09:37,773 --> 00:09:56,640
+che ti userai o a te che userai la sua applicazione quindi io ti dico guarda che ti potrebbero arrivare questi codici questo codice ha questo significato carta mancante stampante spenta toner assente ok?
+
+79
+00:09:57,840 --> 00:10:06,984
+sarai tu che dovrai decidere se manderò meglio il messaggio o decidi di far passare che assolutamente lo hai spensato
+
+80
+00:10:08,985 --> 00:10:11,307
+C'è anche un discorso di assunzione di responsabilità.
+
+81
+00:10:11,387 --> 00:10:12,027
+Io ti avviso.
+
+82
+00:10:12,668 --> 00:10:13,088
+Perfettamente.
+
+83
+00:10:14,569 --> 00:10:16,891
+Se tu lo tieni in portata, i gestici lo hanno dimostrato.
+
+84
+00:10:17,071 --> 00:10:19,052
+Se no, lo tieni in portata e poi passi e vai oltre.
+
+85
+00:10:21,114 --> 00:10:26,678
+Questa è la cosa, sembra strana per la funzione.
+
+86
+00:10:26,698 --> 00:10:27,538
+E' chiaro?
+
+87
+00:10:27,879 --> 00:10:33,803
+Tu hai sviluppato un'applicazione che prevede ovviamente delle anomalie.
+
+88
+00:10:34,423 --> 00:10:37,205
+No, in l'ambito di eccezioni che segnalano
+
+89
+00:10:39,680 --> 00:10:44,384
+la presenza di un'anomalia di funzionamento o di un errore, anche critico.
+
+90
+00:10:47,586 --> 00:10:54,552
+Lui ha scritto, tu lo usi, e siccome ti ha avvisato, trai.
+
+91
+00:10:54,792 --> 00:10:55,793
+Cosa significa?
+
+92
+00:10:56,874 --> 00:11:08,443
+Ok, la parola serve per monitorare quella funzione che tu hai progettato, che contiene i generatori di chizia.
+
+93
+00:11:10,129 --> 00:11:18,434
+la funzione incriminata, la funzione pericolosa, la funzione che potrebbe innescare un'eccezione qualora si dovesse verificare una situazione.
+
+94
+00:11:19,955 --> 00:11:23,817
+Ci siete?
+
+95
+00:11:23,857 --> 00:11:29,360
+La metto sotto controllo e poi superiamo che sia una funzione.
+
+96
+00:11:31,001 --> 00:11:36,725
+A questo punto, sempre dal tuo punto di vista,
+
+97
+00:11:39,855 --> 00:12:07,442
+è chiaro che tu mi hai avvisato, tu decidi di gestirla siccome la tua applicazione può generare diverse eccezioni allora evidentemente ci sono diversi modi di gestire esempio, messaggi diversi in quale ci siete quindi il calico della gestione è tuo tra i tu metti sotto osservazione il codice Quitting
+
+98
+00:12:09,902 --> 00:12:11,804
+Lui può generare qualcosa?
+
+99
+00:12:11,824 --> 00:12:22,794
+E' lui il mio censore, perché è lui che mi massaggia.
+
+100
+00:12:24,876 --> 00:12:26,557
+Ma tu sei giovane ancora!
+
+101
+00:12:36,821 --> 00:12:43,785
+quindi io guardo e c'ho un lancio e ho detto tutta una minchiata, capito?
+
+102
+00:12:43,845 --> 00:12:51,889
+al contrario, non è abituato come sono io durante l'inglese?
+
+103
+00:12:51,929 --> 00:12:56,932
+se vengo io te consolli no, secondo me non te ne ho chiaro?
+
+104
+00:12:57,832 --> 00:12:59,593
+io so che significa in pratica, che è?
+
+105
+00:12:59,773 --> 00:13:00,834
+intercettare l'eccezione?
+
+106
+00:13:01,614 --> 00:13:02,895
+come si intercetta l'eccezione?
+
+107
+00:13:03,868 --> 00:13:07,229
+è chiaro che c'è un punto di intercettazione.
+
+108
+00:13:08,489 --> 00:13:09,749
+Come faccio ad intercettare?
+
+109
+00:13:09,789 --> 00:13:13,150
+Come viene l'intercettazione?
+
+110
+00:13:15,350 --> 00:13:27,453
+A questo punto la catch è, diciamo, stile e funzione e all'interno c'è il codice dell'intercettazione, il tipo di intercettazione che può essere intercettato.
+
+111
+00:13:28,413 --> 00:13:28,793
+Vi siete?
+
+112
+00:13:33,792 --> 00:13:35,533
+La funzione è pericolosa.
+
+113
+00:13:35,814 --> 00:13:36,774
+Lancio all'eccezione.
+
+114
+00:13:38,075 --> 00:13:40,077
+Se lancio all'eccezione c'è la nomaria.
+
+115
+00:13:41,898 --> 00:13:45,141
+Questo significa che non può svolgere il compito.
+
+116
+00:13:46,502 --> 00:13:46,822
+Ok?
+
+117
+00:13:47,223 --> 00:13:48,504
+Deve succedere qualcosa.
+
+118
+00:13:49,264 --> 00:13:51,266
+Nella migliore delle ipotesi, messaggio.
+
+119
+00:13:53,467 --> 00:13:54,268
+Manca la carta.
+
+120
+00:13:55,409 --> 00:13:55,789
+È chiaro?
+
+121
+00:13:56,330 --> 00:14:01,754
+Il problema è qual è il punto di lancio o di stampa del messaggio.
+
+122
+00:14:04,500 --> 00:14:11,123
+lui ti avvisa ma non lo fa chi fa la print?
+
+123
+00:14:12,744 --> 00:14:15,165
+chi gestisce?
+
+124
+00:14:15,725 --> 00:14:28,231
+lo farà sempre lo C-out che non è una catch questa è anche la cosa che vi risparmia no, mi sta sembrando irretinamente questo qui ti dice, ok manca la viata è sufficiente scrivere
+
+125
+00:14:29,800 --> 00:14:50,173
+mandare un messaggio di un tipo, avvisare l'utente manca la carta sullo schermo ma lui non lo fa lui ti dice codice codice 1 manca la carta codice 2 codice 2 manca la stampante codice 3 manca il tonere va bene?
+
+126
+00:14:51,214 --> 00:14:55,737
+a questo punto lui cerca di comunicare con te con questi 3 codici
+
+127
+00:14:56,900 --> 00:15:07,505
+io sto usando, sto semplificando il linguaggio, gli sto chiamando codici però il nome vero è eccezione uno non è un codice, è un'eccezione chiaro?
+
+128
+00:15:08,586 --> 00:15:21,352
+che poi possa essere un codice, questa è un'altra cosa però lui a funzione dice ok eccezione anomalia eccezione 1, eccezione 2, eccezione 3 chiaro?
+
+129
+00:15:22,532 --> 00:15:24,253
+lui a questo punto che succede?
+
+130
+00:15:24,673 --> 00:15:26,114
+ti faccio vedere un'altra cosa
+
+131
+00:15:35,162 --> 00:15:36,302
+Questa è una funzione critica.
+
+132
+00:15:37,022 --> 00:15:37,162
+Ok?
+
+133
+00:15:37,182 --> 00:15:39,523
+Questa è un'altra cosa importante.
+
+134
+00:15:39,563 --> 00:15:40,583
+Questa è una funzione critica.
+
+135
+00:15:42,144 --> 00:15:46,085
+Critica significa può rilevare anomalie.
+
+136
+00:15:47,265 --> 00:15:48,685
+Se le rileva.
+
+137
+00:15:49,425 --> 00:15:50,606
+Se le rileva.
+
+138
+00:15:53,746 --> 00:15:57,407
+A questo punto, cosa non farà?
+
+139
+00:15:59,028 --> 00:16:00,148
+Non andrà alla funzione.
+
+140
+00:16:00,748 --> 00:16:04,849
+Non andrà al soggetto e quindi uscirà subito da questo blocco.
+
+141
+00:16:06,319 --> 00:16:08,040
+E' chiaro?
+
+142
+00:16:08,700 --> 00:16:11,441
+Esce dal blocco Trial.
+
+143
+00:16:15,303 --> 00:16:15,763
+Ci siete?
+
+144
+00:16:16,303 --> 00:16:17,523
+Esce dal blocco Trial.
+
+145
+00:16:18,444 --> 00:16:19,004
+Che significa?
+
+146
+00:16:19,164 --> 00:16:23,085
+Interrompe l'esecuzione nel punto in cui si vede che la situazione è normale.
+
+147
+00:16:23,546 --> 00:16:24,306
+Non va oltre.
+
+148
+00:16:26,307 --> 00:16:26,707
+E' chiaro?
+
+149
+00:16:27,187 --> 00:16:28,007
+Ecco la figata.
+
+150
+00:16:28,788 --> 00:16:30,168
+Questa è l'altra cosa importante.
+
+151
+00:16:31,128 --> 00:16:35,150
+Lui interrompe l'esecuzione del codice e manda l'errore.
+
+152
+00:16:36,764 --> 00:16:47,173
+E' chiaro che quando mando l'errore le possibilità sono due o tu ti sei organizzato per intercettarlo o tu non lo intercetti.
+
+153
+00:16:48,694 --> 00:16:49,334
+Cosa succede?
+
+154
+00:16:49,414 --> 00:16:51,836
+Ti assume la responsabilità di tutto quello che potrebbe succedere?
+
+155
+00:16:52,597 --> 00:16:54,839
+E' chiaro?
+
+156
+00:16:56,060 --> 00:16:59,022
+Io ti avviso, poi fai te, chiaro?
+
+157
+00:17:00,283 --> 00:17:03,986
+Tu sei una buona persona che effettivamente vuoi fare tutte le cose correttamente,
+
+158
+00:17:06,650 --> 00:17:15,812
+di intercettare l'eccezionale, come si intercetta l'eccezionale, predisfondo dei catch.
+
+159
+00:17:15,832 --> 00:17:19,973
+Catch sono dei punti di intercettazione, è chiaro?
+
+160
+00:17:20,733 --> 00:17:35,817
+Ma qui di catch ce ne possono essere più di uno, che significa in pratica, posso avere diversi modi di gestire
+
+161
+00:17:37,060 --> 00:17:37,460
+Ci siete?
+
+162
+00:17:38,500 --> 00:17:46,303
+Il problema è... Mi ha mandato il codice 1, ha mandato il codice 2, ha mandato il codice 3.
+
+163
+00:17:46,443 --> 00:17:48,103
+Poi il codice 1, messaggio 1.
+
+164
+00:17:48,143 --> 00:17:49,924
+Poi il codice 2, messaggio 2.
+
+165
+00:17:49,984 --> 00:17:51,624
+Poi il codice 3, messaggio 3.
+
+166
+00:17:54,485 --> 00:17:55,986
+Il punto di uscita è unico.
+
+167
+00:17:56,886 --> 00:17:59,587
+Lo vedete?
+
+168
+00:17:59,627 --> 00:18:00,207
+Cos'è uscito?
+
+169
+00:18:00,227 --> 00:18:00,707
+1, 2 o 3?
+
+170
+00:18:05,288 --> 00:18:08,230
+Allora, per il secondo punto, questo è quello che gestisce 1.
+
+171
+00:18:08,330 --> 00:18:12,774
+Questo è quello che gestisce 2.
+
+172
+00:18:13,054 --> 00:18:14,735
+In vaso è quello che gestisce 3.
+
+173
+00:18:16,257 --> 00:18:21,541
+Quindi, ogni keche fa un'analisi dell'eccezione e dice che è mia.
+
+174
+00:18:23,062 --> 00:18:23,722
+Che pensi lì?
+
+175
+00:18:23,903 --> 00:18:31,508
+Infatti, keche è una funzione di ogni keche.
+
+176
+00:18:32,589 --> 00:18:33,290
+Ecco così.
+
+177
+00:18:34,736 --> 00:18:35,276
+Ci sei?
+
+178
+00:18:36,437 --> 00:18:37,677
+Il corpo cosa contiene?
+
+179
+00:18:37,937 --> 00:18:38,877
+Quello che deve cadere?
+
+180
+00:18:39,197 --> 00:18:39,978
+La gestione.
+
+181
+00:18:40,238 --> 00:18:40,638
+È chiaro?
+
+182
+00:18:42,438 --> 00:18:42,839
+Ci siete?
+
+183
+00:18:43,819 --> 00:18:44,519
+Ripilogando.
+
+184
+00:18:45,619 --> 00:18:46,160
+Anomalia.
+
+185
+00:18:47,360 --> 00:18:47,700
+Va bene?
+
+186
+00:18:49,701 --> 00:19:03,645
+L'anomalia può essere generata, può essere rilevata o meglio, da intanto all'interno di una funzione, per esempio, no?
+
+187
+00:19:04,645 --> 00:19:06,306
+una funzione che ha del codice critico.
+
+188
+00:19:06,426 --> 00:19:07,906
+Questo è detto codice critico, no?
+
+189
+00:19:09,127 --> 00:19:11,367
+Codice critico significa che c'è una mamma mia.
+
+190
+00:19:12,508 --> 00:19:18,230
+Se io so che un codice è critico, lo metto sotto i serviziani.
+
+191
+00:19:19,490 --> 00:19:19,970
+Ci siete?
+
+192
+00:19:21,951 --> 00:19:24,332
+Come si mette sotto i serviziani il codice critico?
+
+193
+00:19:25,212 --> 00:19:32,455
+Trai, parentesi graffa, e dentro ci metto il codice critico.
+
+194
+00:19:34,316 --> 00:19:41,001
+non solo il codice critico, il codice che mi serve per lo sgobbimento del compito prima e dopo, è chiaro?
+
+195
+00:19:43,342 --> 00:19:46,384
+A questo punto supponiamo che ci sia l'anomalia.
+
+196
+00:19:48,105 --> 00:19:49,386
+Cosa succede in pratica?
+
+197
+00:19:49,886 --> 00:20:02,975
+L'esecuzione di tutto il blocco si interrompe nel punto in cui avviene l'anomalia, la funzione F. E non viene più semplice la funzione, non ci stai cagando, non lo so?
+
+198
+00:20:04,468 --> 00:20:09,592
+Non ci stai cariando?
+
+199
+00:20:09,612 --> 00:20:11,313
+Sto facendo le domande... Sì?
+
+200
+00:20:11,734 --> 00:20:14,436
+Ma tu stai rubendo, perché queste cose a me non pensi a dire.
+
+201
+00:20:14,516 --> 00:20:15,517
+Lo so.
+
+202
+00:20:15,597 --> 00:20:15,817
+Sì?
+
+203
+00:20:16,437 --> 00:20:16,998
+Cioè, peggio.
+
+204
+00:20:17,238 --> 00:20:18,379
+Questa è la direvante, così.
+
+205
+00:20:18,479 --> 00:20:23,463
+Cioè, non sa chi non dirà le stesse cose, però è talmente minzione che le fa, capito?
+
+206
+00:20:23,743 --> 00:20:25,604
+Perché sennò poi vi dimentico di fare le domande.
+
+207
+00:20:25,624 --> 00:20:26,325
+Eccetto, a me non ha.
+
+208
+00:20:29,407 --> 00:20:29,868
+E' chiaro?
+
+209
+00:20:31,089 --> 00:20:31,529
+E' chiaro sì.
+
+210
+00:20:31,949 --> 00:20:32,229
+Quindi?
+
+211
+00:20:34,176 --> 00:20:50,700
+La cosa importante è che G non viene eseguita, quindi esco da quella sequenza e poi questo codice eccezione comincia a variare.
+
+212
+00:20:50,760 --> 00:20:55,281
+Ce n'è nulla di possibilità, ho deciso di intercettare o lo faccio variare.
+
+213
+00:20:58,541 --> 00:21:01,802
+Io ho detto variare, in effetti c'è un termine
+
+214
+00:21:03,604 --> 00:21:08,786
+tecnico, quindi un'eccezione si propaga.
+
+215
+00:21:10,487 --> 00:21:11,708
+Quale è il termine tecnico?
+
+216
+00:21:11,988 --> 00:21:14,929
+Si parla di propagazione dell'eccezione.
+
+217
+00:21:15,049 --> 00:21:16,910
+Propagazione che significa?
+
+218
+00:21:17,631 --> 00:21:22,733
+Questo è il punto di lancio, chiaro?
+
+219
+00:21:22,933 --> 00:21:26,034
+L'eccezione esce, si interrompe l'esecuzione,
+
+220
+00:21:27,899 --> 00:21:30,800
+e comincia a vagare nel codice.
+
+221
+00:21:31,381 --> 00:21:35,163
+Ci sono due possibilità, o l'intercetto o non l'intercetto.
+
+222
+00:21:36,003 --> 00:21:47,628
+Se l'intercetto, in questo momento dobbiamo utilizzare il cation, che è una funzione, con all'interno il codice di gestione della recezione.
+
+223
+00:21:50,310 --> 00:21:55,572
+E ovviamente anche il corpo che indica cosa deve succedere.
+
+224
+00:21:56,474 --> 00:21:57,195
+Ok, eccezione.
+
+225
+00:21:57,355 --> 00:21:59,177
+Chi ha riconosciuto, manda il suo messaggio.
+
+226
+00:21:59,537 --> 00:21:59,857
+Va bene?
+
+227
+00:22:00,098 --> 00:22:00,538
+Ciao.
+
+228
+00:22:01,679 --> 00:22:02,620
+Adesso ci chiamo.
+
+229
+00:22:03,541 --> 00:22:03,981
+È chiaro?
+
+230
+00:22:06,384 --> 00:22:07,144
+Prima ipotesi.
+
+231
+00:22:08,045 --> 00:22:10,127
+La voglio gestire e quindi l'intercetto.
+
+232
+00:22:10,668 --> 00:22:13,511
+Quello è la sintasi del beccano bloccato.
+
+233
+00:22:16,219 --> 00:22:23,126
+Seconda ipotesi, non la voglio intergetare, non ci metto perché è facile.
+
+234
+00:22:23,186 --> 00:22:23,967
+Il codice viaggia.
+
+235
+00:22:26,730 --> 00:22:32,235
+Viaggiare significa andare alla ricerca di un punto di intergetazione, una cage.
+
+236
+00:22:34,377 --> 00:22:34,857
+È chiaro?
+
+237
+00:22:36,099 --> 00:22:40,403
+E se non la trova, allora, poi è stato proiettato anche per perdersi,
+
+238
+00:22:42,626 --> 00:22:46,827
+oppure, aspettatevi così strane, tanto è vero che Giappa cosa dice, che non so che Giappa.
+
+239
+00:22:48,848 --> 00:22:57,291
+Qui c'è un'eccezione, la devi gestire, non la gestisci, ti dà l'errore da lì, non si schiota.
+
+240
+00:22:59,592 --> 00:23:01,892
+E' chiaro, questo che significa in pratica?
+
+241
+00:23:02,693 --> 00:23:09,455
+Lui lo sa, lui ti dice, guarda, dovrai gestire un'eccezione, quando sentite la parola, dovrai gestire
+
+242
+00:23:10,180 --> 00:23:14,382
+Preparatevi il trai subito, mettete dentro il punto critico.
+
+243
+00:23:15,583 --> 00:23:20,685
+Questo significa che ti sei preparato per l'intercettazione, per la divisione del codice.
+
+244
+00:23:21,245 --> 00:23:21,665
+Chiaro?
+
+245
+00:23:23,546 --> 00:23:28,649
+Figurati, se non ci metti il trai ti dà il problema sintatico perché hai detto che hai detto che devi controllare.
+
+246
+00:23:28,669 --> 00:23:32,911
+Se non ci metti un trai per lo osservare, ti sento da subito.
+
+247
+00:23:33,671 --> 00:23:35,212
+Allora, a questo punto che succede?
+
+248
+00:23:35,612 --> 00:23:39,534
+Ok, lo metti sotto osservazione, ma lui dice, aspetta, io ti ho detto che lo devi gestire.
+
+249
+00:23:41,048 --> 00:23:45,130
+e di conseguenza io mi aspetto ci sotto ci sia qualcos'altro, il punto di intercettazione.
+
+250
+00:23:47,872 --> 00:23:48,292
+Non c'è?
+
+251
+00:23:49,333 --> 00:23:50,393
+Va beh, vai vado?
+
+252
+00:23:51,574 --> 00:23:57,097
+Quella cosa tu la devi gestire e ti obbliga, è chiaro?
+
+253
+00:23:57,117 --> 00:24:04,281
+Come gli ha fatto il tuo, dice, usa queste parole, strike edge, strike edge, strike edge, dei linguaggi.
+
+254
+00:24:06,824 --> 00:24:10,967
+i linguaggi e il codice scritto in quei linguaggi.
+
+255
+00:24:12,027 --> 00:24:12,448
+È chiaro?
+
+256
+00:24:13,048 --> 00:24:13,708
+E quindi è chiaro.
+
+257
+00:24:13,808 --> 00:24:19,292
+Se tu hai delle chiavi direttore di codo significa che ogni volta che ritrovate questa combinazione, potrebbe significare.
+
+258
+00:24:19,732 --> 00:24:22,734
+Poi ci possono essere sfumature anche sulle parole chiave.
+
+259
+00:24:23,415 --> 00:24:24,935
+Però fondamentalmente sono due.
+
+260
+00:24:25,236 --> 00:24:29,258
+Che è la domanda che dovreste fare?
+
+261
+00:24:29,298 --> 00:24:29,839
+Che è questa?
+
+262
+00:24:31,980 --> 00:24:33,301
+Fin qua è chiaro?
+
+263
+00:24:33,861 --> 00:24:34,942
+Ma solo una cosa.
+
+264
+00:24:36,224 --> 00:24:42,725
+l'eccezione si propaga solo nel momento in cui facciamo try?
+
+265
+00:24:43,305 --> 00:25:03,629
+no, è passivo il try è il nostro momento che fa il monitoraggio e ti dà la possibilità di visualizzare visivamente il codice critico codice critico significa che può generare
+
+266
+00:25:04,224 --> 00:25:06,904
+quando si verificano certe situazioni no?
+
+267
+00:25:07,245 --> 00:25:30,448
+anche se mette una funzione critica non all'interno di un try comunque si propaga lo stesso ok perfetto si assolutamente si assolutamente si la propagazione avviene sempre però se lo metti fuori in un try ti dà errore, punto, si blocca il programma no, ma fino che io non trovo un catch si prende dal tipo di errore al di fuori di un try la logica è la stessa
+
+268
+00:25:34,784 --> 00:25:37,166
+Sì, sì, sì, cioè l'eccezione viene sempre sollevata.
+
+269
+00:25:38,307 --> 00:25:39,368
+Solo non viene sollevata?
+
+270
+00:25:39,488 --> 00:25:42,731
+Il problema è, il problema, il problema guarda è in pratica.
+
+271
+00:25:44,752 --> 00:25:46,834
+Tu non saprai mai da dove partire l'eccezione.
+
+272
+00:25:47,735 --> 00:25:47,855
+Sì.
+
+273
+00:25:47,895 --> 00:25:48,355
+Sai che c'è?
+
+274
+00:25:49,336 --> 00:25:50,838
+In Java ho visto questa cosa.
+
+275
+00:25:51,758 --> 00:25:53,480
+Non pensare, segui l'aggionamento.
+
+276
+00:25:53,800 --> 00:25:56,162
+Pochi arrivarono che non capivano col Java.
+
+277
+00:25:57,343 --> 00:26:03,068
+Se tu non metti il try, non è che dici l'eccezione è palla paga, cioè dici che va bene.
+
+278
+00:26:04,426 --> 00:26:06,228
+esce.
+
+279
+00:26:06,248 --> 00:26:07,028
+Sai qual è il problema?
+
+280
+00:26:07,429 --> 00:26:26,985
+Che se metti il trial ai punti di osservazione, no, ai punti di osservazione e di controllo, se non ce lo metti e non ti sei reso conto, non sei dell'esistenza e ne hai 4-5 di questa funzione senza trial, e ti danciano le eccezioni, tutti cominciano a capire le eccezioni.
+
+281
+00:26:27,005 --> 00:26:28,766
+Il problema è che non se la devono aprire.
+
+282
+00:26:31,188 --> 00:26:31,548
+È chiaro?
+
+283
+00:26:32,329 --> 00:26:32,830
+Perché se tu fai
+
+284
+00:26:34,009 --> 00:26:47,754
+F e sotto ci metti case per la gestione, tu sai che da qui ti arriva un'eccezione, qui c'è il codice, il tipo di eccezione, e tu sai esattamente chi è stato tu, è chiaro?
+
+285
+00:26:49,454 --> 00:26:59,738
+Io sto facendo, è chiaro che io sto facendo i ragionamenti con una funzione squalida, con tre ipotesi, ma molto semplificate per farvi arrivare a ragionare in un certo modo.
+
+286
+00:27:01,793 --> 00:27:04,796
+Poi, per complicarti la vita, vi ho sempre detto che ci sono dei tempi, no?
+
+287
+00:27:05,676 --> 00:27:11,021
+E' come se usi il metodo di una classe che non ho fatto io, classe string, no?
+
+288
+00:27:11,301 --> 00:27:20,348
+Vuole utilizzarne un metodo, ma invece di mettere una stringa come parametro, ci metto un booleano.
+
+289
+00:27:21,169 --> 00:27:24,712
+Ok, sarà la classe string all'angelo a mille eccezioni.
+
+290
+00:27:25,332 --> 00:27:31,097
+E io per vederla, l'unica cosa che posso fare è cliccare sull'errore e mi si apre il file per classe string dove c'è
+
+291
+00:27:36,857 --> 00:27:38,138
+Ma devi capire questo Giro?
+
+292
+00:27:38,798 --> 00:27:39,679
+Questo è un meccanismo?
+
+293
+00:27:40,639 --> 00:27:45,222
+Se lo capisci in un momento in cui tu leggi quel codice, non vai in crisi.
+
+294
+00:27:46,643 --> 00:27:48,604
+E anche, perché vi dico questo?
+
+295
+00:27:48,664 --> 00:27:53,107
+Perché mi trovate di fronte a una tirazione di questo genere?
+
+296
+00:27:54,608 --> 00:27:59,511
+In effetti la cosa più antipatica era, ok, premessa, devi gestire su un video delle eccezioni.
+
+297
+00:28:01,448 --> 00:28:09,131
+Cioè, della serie, se tu non ti predisponi per la gestione, immediata, in fase di compilazione, c'è subito l'errore.
+
+298
+00:28:09,151 --> 00:28:11,813
+E l'Iberna dice, ma perché cazzo le devo fare queste cose?
+
+299
+00:28:11,833 --> 00:28:14,374
+È chiaro che dietro c'è un mondo, no?
+
+300
+00:28:14,394 --> 00:28:16,355
+Infatti, c'è un mondo dietro l'eccezione.
+
+301
+00:28:18,135 --> 00:28:22,437
+Motivo per cui, il capitoletto, il paragrafetto, quello che cazzo è, è una cosa tanta.
+
+302
+00:28:23,778 --> 00:28:25,779
+Sì, però, hai voglia?
+
+303
+00:28:27,179 --> 00:28:30,801
+Quanto materiale di approfondimento, cioè, è materia di approfondimento.
+
+304
+00:28:32,521 --> 00:28:32,901
+E' chiaro?
+
+305
+00:28:33,281 --> 00:28:47,006
+Detto questo, qui ci siamo tra l'osservazione, il catch, i punti di gestione, l'intercetto e l'aggerizio.
+
+306
+00:28:48,867 --> 00:28:50,647
+Però c'è un altro che apre?
+
+307
+00:28:51,007 --> 00:28:53,208
+Tutto bene?
+
+308
+00:28:56,445 --> 00:29:01,288
+Il tro invece è un'altra cosa, questa è la famiglianata funzione F. Funzione F, un certo corpono, c'è una varia.
+
+309
+00:29:28,795 --> 00:29:30,336
+Ok, questo è il punto di lancio.
+
+310
+00:29:35,459 --> 00:29:35,699
+Chiaro?
+
+311
+00:29:37,200 --> 00:29:40,001
+E quindi, visto che siamo in guerra, chi è il lanciatore?
+
+312
+00:29:40,321 --> 00:29:41,162
+La funzione?
+
+313
+00:29:42,743 --> 00:29:43,423
+Credita?
+
+314
+00:29:44,764 --> 00:29:52,108
+Che rileva l'assenza di carta, non manda il massaggio, shout, e ti dice tro.
+
+315
+00:29:53,488 --> 00:29:54,149
+Tro cosa?
+
+316
+00:29:55,089 --> 00:29:56,310
+Il tro da solo non ha senso no?
+
+317
+00:29:57,511 --> 00:29:58,051
+Tro cosa?
+
+318
+00:29:59,101 --> 00:30:00,162
+Eccensione, gestisci.
+
+319
+00:30:00,182 --> 00:30:02,383
+Eccensione 1, stanco.
+
+320
+00:30:02,903 --> 00:30:04,204
+Cioè, casta.
+
+321
+00:30:04,224 --> 00:30:07,725
+Eccensione 2, un'altra cosa, eccetera eccetera.
+
+322
+00:30:08,026 --> 00:30:08,386
+E' chiaro?
+
+323
+00:30:09,426 --> 00:30:11,147
+Vedi che parola sono fondamentalmente 3.
+
+324
+00:30:13,748 --> 00:30:11,147
+3.
+
+325
+00:30:15,389 --> 00:30:16,229
+Faccio un monitoraggio.
+
+326
+00:30:16,650 --> 00:30:19,311
+Attenzione, io faccio un monitoraggio se sono avvisato.
+
+327
+00:30:19,911 --> 00:30:25,274
+Tu puoi monitorare il codice se lui ti avvisa e ti dice, guarda che c'è un'eccezione da gestire.
+
+328
+00:30:26,605 --> 00:30:30,726
+e ti devo anche documentare l'eccezione dicendo che questo è il codice di gestione dell'eccezione.
+
+329
+00:30:32,827 --> 00:30:33,187
+E' chiaro?
+
+330
+00:30:34,228 --> 00:30:37,449
+Quindi, praticamente, gli oggetti sono sempre due.
+
+331
+00:30:37,629 --> 00:30:43,091
+Chi progetta la classe, la funzione e chi usa il problema è per chi la usa.
+
+332
+00:30:44,991 --> 00:30:48,493
+Il problema è che se tu sei entrambe sai già come stanno le cose.
+
+333
+00:30:50,953 --> 00:30:51,334
+E' chiaro?
+
+334
+00:30:51,854 --> 00:30:55,135
+Quindi, se dovete collaborare, motivo per cui ecco, perché ho sempre detto
+
+335
+00:30:56,098 --> 00:31:22,589
+dovete collaborare quanto più possibile perchè tu scrivi una cosa e poi apprezzi queste cose a un momento in cui usi le cose sue è viceversa e fate esperienza altrimenti verrete andate a cantare da soli a un momento in cui interagite è lì che capirete quanto è difficile collaborare perchè fino a quando sono io stesso è l'attima
+
+336
+00:31:24,306 --> 00:31:49,622
+il problema è quando gli devo dare una cosa che lui dovrà usare, lui ci persa ecco il discorso del lavoro, allora si li sbagli, sbagli, sbagli, corregli e sbagli siamo a scuola fanno in azienda poi non vende più il prodotto perché i tempi si allungano e i costi aumentano è chiaro?
+
+337
+00:31:50,302 --> 00:31:52,624
+detto questo fin qua ci siete
+
+338
+00:31:54,036 --> 00:32:01,498
+ok se è vero che sono stato chiaro ci sono domande intanto sui concetti?
+
+339
+00:32:02,539 --> 00:32:20,565
+esatto spiegato su come spiegare perché ma non mi ricordo pro eccessione dovrei mettere uguale a 1 eccessione è una variabile dai quello dipende allora l'ultimo
+
+340
+00:32:27,631 --> 00:32:30,192
+Lui, chiaro?
+
+341
+00:32:30,653 --> 00:32:33,575
+Usa la tua funzione.
+
+342
+00:32:35,956 --> 00:32:41,420
+Tu, quando la progetti e la funziona, ti devi riguardare di usare la trova.
+
+343
+00:32:42,761 --> 00:32:46,083
+E dovrai decidere anche il tipo di eccezione.
+
+344
+00:32:47,284 --> 00:32:50,066
+Cos'è un'eccezione, abbiamo detto, un'anomalia?
+
+345
+00:32:50,086 --> 00:32:50,266
+Insoldoni.
+
+346
+00:32:54,150 --> 00:32:59,893
+Può essere un intero, può essere una stringa, può essere un plot, può essere un oggetto.
+
+347
+00:33:01,814 --> 00:33:05,936
+Una cosa certa deve essere qualcosa, oggetto compreso.
+
+348
+00:33:07,437 --> 00:33:15,120
+Quindi io posso anche lanciare, non 1, 2, 3, 4 interi, ma addirittura interi oggetti.
+
+349
+00:33:16,681 --> 00:33:20,343
+Per noi, tanto che gli avevo già dichiarati, è chiaro?
+
+350
+00:33:21,639 --> 00:33:29,421
+E lì scoprirete che il C++, come tutti i guanti, ha un albero delle eccezioni.
+
+351
+00:33:30,942 --> 00:33:40,325
+Ci sono delle classi, classi, exception, che gestiscono situazioni specifiche.
+
+352
+00:33:40,365 --> 00:33:41,465
+Quello è l'approfondimento.
+
+353
+00:33:44,266 --> 00:33:47,787
+Studiare quell'albero significa questo conto avere di strumenti pronti
+
+354
+00:33:49,136 --> 00:33:56,302
+che il CPU mette a disposizione per gestire delle situazioni specifiche, tipo per esempio una catalogazione di spazi in memoria.
+
+355
+00:33:58,124 --> 00:34:00,626
+Non la gestisco, lancio l'accezione.
+
+356
+00:34:01,426 --> 00:34:01,967
+Come?
+
+357
+00:34:02,027 --> 00:34:02,908
+Con quale codice?
+
+358
+00:34:03,008 --> 00:34:04,229
+Con quella che ti dà il CPU.
+
+359
+00:34:05,350 --> 00:34:09,253
+Ma questo, come un trasatore, cioè questo è l'approfondimento.
+
+360
+00:34:10,294 --> 00:34:12,896
+Come anche tutti gli uggagli, no?
+
+361
+00:34:12,936 --> 00:34:17,459
+L'accezione di appronte che gestiscono le situazioni specifiche.
+
+362
+00:34:19,384 --> 00:34:31,806
+tipo hai superato i limiti della base vector non puoi inserire più niente eccezione quando andrete a guardare, no?
+
+363
+00:34:32,946 --> 00:34:45,069
+la STL quando andate a vedere, cercate le eccezioni che è bravo, è bravo, è bravo adesso cominci a collegare le due
+
+364
+00:34:47,722 --> 00:34:54,512
+Tutte quelle parole che avete incrociato, adesso avete l'astrumento per poter fare il meglio e conderele.
+
+365
+00:34:54,952 --> 00:34:57,676
+E dire, mo capisco che cazzo volevano dire quelle cose.
+
+366
+00:34:59,339 --> 00:35:00,721
+Questo è il lavoro che vogliamo fare.
+
+367
+00:35:04,785 --> 00:35:23,360
+perché gli ho dato un compito, gli ho detto guardate le figure io gli ho fatto una richiesta se avete fatto quel lavoro sapete di cosa sto parlando, se non l'avete fatto siete nella merda non lo capirete mai, non lo capirete sempre
+
+368
+00:35:25,459 --> 00:35:31,280
+Perché l'obiettivo è chiaro, ve la do da studiare, ci saranno delle cose che non capirete.
+
+369
+00:35:31,640 --> 00:35:34,261
+Se non mi dite non ho capito questo, non l'avete letto.
+
+370
+00:35:35,981 --> 00:35:37,001
+No, non l'avete letto.
+
+371
+00:35:39,462 --> 00:35:43,263
+E se tu mi dici che l'hai letto, mi sta prendendo per il culo e mi gira in coglione.
+
+372
+00:35:45,143 --> 00:35:47,283
+Perché non puoi leggere una cosa che non capisci.
+
+373
+00:35:47,323 --> 00:35:48,324
+Che cazzo leggi a fare?
+
+374
+00:35:48,344 --> 00:35:49,584
+Non sta capisci il Cristo.
+
+375
+00:35:52,762 --> 00:35:55,404
+Allora mi prendi per il culo e poi diventi una bestia, no?
+
+376
+00:35:55,744 --> 00:36:02,350
+Ma l'anno scorso hai detto sì, ma io leggo queste cose, poi le dico template, non capisco un cazzo, te lo ricordi?
+
+377
+00:36:03,210 --> 00:36:09,875
+L'anno scorso abbiamo parlato del template appunto perché ho fatto questo intervento e faccio sì, ci hai dato la libreria da legge, ma poi mi trovo template, non so che cazzo vuol dire.
+
+378
+00:36:11,817 --> 00:36:12,237
+Certo.
+
+379
+00:36:12,878 --> 00:36:18,342
+Il discorso è, l'ho letto, io l'ho capito, sono andato in crisi, ok, e la prossima lezione?
+
+380
+00:36:20,891 --> 00:36:23,294
+però ti devi schiantare, ti devi fare male.
+
+381
+00:36:24,094 --> 00:36:28,959
+E' inutile che te lo spiego in sequenza, è chiaro che se io te lo spiego in sequenza tutto funziona.
+
+382
+00:36:45,035 --> 00:36:46,996
+Quindi, cosa vi chiedo di fare?
+
+383
+00:36:47,296 --> 00:36:55,538
+Ok, il modo che tornerà eccezionale, avete due modi da chistire, da esplorare.
+
+384
+00:36:55,698 --> 00:37:06,862
+Uno è il corso delle fasi dell'interfaccia, che è lo che si deve rendere appunto per la domanda di fare.
+
+385
+00:37:07,042 --> 00:37:13,604
+Volevo dire che c'è questa introduzione al mondo delle eccezioni.
+
+386
+00:37:14,423 --> 00:37:43,673
+avrei potuto ripetare questo mondo con un quarto d'ora e sarebbe stato sufficiente dire che tra il catch e il throw ad esempio il pilota mi avrebbe risposto ad esempio il pilota vi avrei chiesto qualcosa di sim da quello l'avreste fatto ma avreste ripetito il caso ma poi ho voluto dedicare un po' di tempo per fare questo riflettere
+
+387
+00:37:45,644 --> 00:38:01,758
+e dirgli c'è un mondo che lo volete esplorare bene altrimenti state tranquilli volete restare nel mondo della programmazione, chi crocerà di questo problema?
+
+388
+00:38:01,778 --> 00:38:08,524
+C'è un'altra cosa che vi ho detto, come poi l'abbiamo fatto adesso in tre anni tu stai registrando?
+
+389
+00:38:09,385 --> 00:38:10,706
+BIP BIP BIP BIP
+

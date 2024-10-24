@@ -1,0 +1,389 @@
+Poi lo riprendiamo.
+Dicevamo, il concetto di eccezione, prima di vedere come si implementa, perché non è complicato, il problema è capire perché esistono, in effetti vorrei, come appunti, gli appunti che mi suggeriscono di imprendere sono le domande da Faccia Filippiti.
+del tipo, perché esiste il concetto di eccezione?
+Come è stato introdotto?
+C'è proprio la storia, no?
+Il motivo per cui prima non c'era e poi a un certo punto hanno deciso di implementare questo concetto.
+Evidentemente c'era una situazione critica, evidentemente c'era un problema, no?
+E quindi capire quale è stato l'imnesso.
+vi ho detto l'innesco, vi ho detto il motivo è separare la parte di controllo degli errori dallo sviluppo del pubblico.
+Questa è la mia versione distillata, poi sarà più provvisto, sarà più dettagliato e quindi nel momento in cui, ma così a questo punto stimolate sempre con delle domande, il perché
+Dovete avere voi un'idea, non una nozione, non una definizione.
+Quindi è molto importante che abbiate un'idea bella solida.
+Dicevamo, ok le parole chiavi.
+Questa praticamente cosa si intende per quale è il significato, quale è il senso?
+Dicevamo, l'eccezione dietro al concetto di eccezione c'è questo.
+L'idea è, ho una situazione anomala da gestire, a questo punto io non la gestisco.
+siano a cupere o un altro, ci siete?
+Però io, che oggi lo pago l'applicazione, ti informo che all'interno della mia applicazione, funzione o classe ci sono delle situazioni anomenali che dovranno essere tu.
+Quindi, chi progette la classe, chi progette l'applicazione avvisa tutti quelli che andranno ad utilizzarla
+sulla presenza delle eccezioni.
+Ci siete?
+Quindi i soggetti sono due.
+Chi usa una classe, facciamo un esempio di una classe, ma anche una funzione, no?
+In effetti poi le eccezioni non sono legate alla programmazione degli oggetti, esistono a prescindere.
+Sono state introdotte da un C++, però in effetti potrete sviluppare codice in C.
+senza scomodare le classi e gli oggetti.
+È chiaro?
+Perché il senso è questo, io ho scritto una funzione, è previsto di utilizzare delle eccezioni, perfetto, la devo usare io con la funzione, la tua funzione l'ha inserita all'interno di una libreria, a questo punto tu mi dà la tua libreria e mi devi fornire una serie di informazioni elettive del tipo, guarda, la funzione 1 prevede
+un'anomalia che dovrai gestire tu, un'eccezione che dovrai gestire tu.
+La funzione 1 fa funzione 2, ne prevede un'altra, la funzione 3 ne prevede un'altra.
+Quindi praticamente il codice dovrà essere documentato sia per quanto riguarda l'alimentazione classica del codice, ma anche per formare tutta una serie di informazioni relative alle anomalie non gestite.
+ci siete?
+riflettiamo sul concetto di anomalia quale può essere l'anomalia?
+sviluppo un'applicazione va bene?
+la mia applicazione preferisce ovviamente la stampa del documento no?
+c'è una funzione c'è una voce di meno che dice ok, stampa documento, stampa su carta chiaro?
+la mia applicazione funziona però poi succede che
+Uno, la stampante è spenta.
+Questo è un evento eccezionale, nel senso che questa anomalia non dipende dall'applicazione, dipende dal fatto che la stampante è spenta.
+Manca la carta, manca il toner.
+Ci siete?
+Queste sono le criticità.
+E quindi, chiaramente, cosa succede in un momento in cui poi manca la carta, poi non posso stampare, se non posso stampare, cosa succede?
+ci blocca l'applicazione perché l'applicazione sequenziale non gli sta arrivando ovviamente la conferma di documento stampato e lui chiaramente si blocca allora a questo punto io dovrei, io, programmatore, dovrei prevedere questa eventualità e gli insegni tutta questa situazione anormal.
+Io non voglio gestirla e a questo punto
+Delegum.
+Delegum che significa?
+Ok, quando si verifica io ti dico l'ancio, questa è l'altra parola chiave, l'anxiale.
+L'ancio è un'eccezione.
+Effettivamente c'è un libro per cui si chiama L'Angello, chiamata
+anche qui c'è un approfondimento quindi lancio un'eccezione, no?
+lancio un'eccezione e ti dico ok non la gestisco io però non posso cadlocare l'applicazione però ti lancio un codice di riconoscimento ti lancio a te che stai usando quella applicazione chiaro?
+Dovete sempre pensare a due soggetti, chi progetta e chi usa.
+Se siete voi, farete fatica.
+Se riuscite ad immaginare queste due figure, io sviluppo un'applicazione per qualcun altro.
+Questo qualcun altro in questo mondo si ritroverà con queste situazioni critiche.
+Tutto vero, tutto più normale, no?
+Perché chiaramente, mi calo, nei panni, ciò che
+l'applicazione che ha sviluppato ha delle difficilità, è chiaro che se le deve usare vi vuole avvisare.
+Quindi le eccezioni vanno documentate.
+Nepperti se voi andate anche sulla Libra di Instanza, è chiaro che scoprirete che ci sono anche riferimenti, non tutti, a delle eccezioni che devono essere gestite, o quanto venmo,
+verrete informati o verremo informati delle eventualità che ci possano essere delle eccezioni.
+L'altra applicazione prevede la stampa.
+La stampante non è accesa.
+Io non ho previsto controllo e gestione.
+Gestione significa che ti mandi un messaggio, la stampante è spenta.
+io non voglio andare in quella... il tradotto significa basta fare un info, no?
+il problema è, io non c'ho voglia di fare quell'info è chiaro?
+perché quell'info significa, sto controllando se succede questo, fai questo, altrimenti fai quest'altro chiediamo di andare al nocciolo della pacienza, è chiaro?
+Non voglio fare quello.
+Scrivere 3-4 righe di codice in più, sommare tutte le 3-4 righe, significa che io non sono produttivo.
+Chiaro?
+E distolgo l'attenzione dell'algoritmo di Ciballo.
+Chiaro?
+Quindi, detto ciò, quindi a questo punto io, lo so,
+che c'è questo rischio, che non posso eliminare, se è spenta è spenta, se manca la carta manca la carta, cioè non c'è scampo.
+La cosa che c'è, rilevo, devo trovare un modo ovviamente per rilevare questa numeria, perché la stampante mi dirà qualcosa, ovviamente accetta un po' che a questo punto senza tanto che si pegue via.
+che ti userai o a te che userai la sua applicazione quindi io ti dico guarda che ti potrebbero arrivare questi codici questo codice ha questo significato carta mancante stampante spenta toner assente ok?
+sarai tu che dovrai decidere se manderò meglio il messaggio o decidi di far passare che assolutamente lo hai spensato
+C'è anche un discorso di assunzione di responsabilità.
+Io ti avviso.
+Perfettamente.
+Se tu lo tieni in portata, i gestici lo hanno dimostrato.
+Se no, lo tieni in portata e poi passi e vai oltre.
+Questa è la cosa, sembra strana per la funzione.
+E' chiaro?
+Tu hai sviluppato un'applicazione che prevede ovviamente delle anomalie.
+No, in l'ambito di eccezioni che segnalano
+la presenza di un'anomalia di funzionamento o di un errore, anche critico.
+Lui ha scritto, tu lo usi, e siccome ti ha avvisato, trai.
+Cosa significa?
+Ok, la parola serve per monitorare quella funzione che tu hai progettato, che contiene i generatori di chizia.
+la funzione incriminata, la funzione pericolosa, la funzione che potrebbe innescare un'eccezione qualora si dovesse verificare una situazione.
+Ci siete?
+La metto sotto controllo e poi superiamo che sia una funzione.
+A questo punto, sempre dal tuo punto di vista,
+è chiaro che tu mi hai avvisato, tu decidi di gestirla siccome la tua applicazione può generare diverse eccezioni allora evidentemente ci sono diversi modi di gestire esempio, messaggi diversi in quale ci siete quindi il calico della gestione è tuo tra i tu metti sotto osservazione il codice Quitting
+Lui può generare qualcosa?
+E' lui il mio censore, perché è lui che mi massaggia.
+Ma tu sei giovane ancora!
+quindi io guardo e c'ho un lancio e ho detto tutta una minchiata, capito?
+al contrario, non è abituato come sono io durante l'inglese?
+se vengo io te consolli no, secondo me non te ne ho chiaro?
+io so che significa in pratica, che è?
+intercettare l'eccezione?
+come si intercetta l'eccezione?
+è chiaro che c'è un punto di intercettazione.
+Come faccio ad intercettare?
+Come viene l'intercettazione?
+A questo punto la catch è, diciamo, stile e funzione e all'interno c'è il codice dell'intercettazione, il tipo di intercettazione che può essere intercettato.
+Vi siete?
+La funzione è pericolosa.
+Lancio all'eccezione.
+Se lancio all'eccezione c'è la nomaria.
+Questo significa che non può svolgere il compito.
+Ok?
+Deve succedere qualcosa.
+Nella migliore delle ipotesi, messaggio.
+Manca la carta.
+È chiaro?
+Il problema è qual è il punto di lancio o di stampa del messaggio.
+lui ti avvisa ma non lo fa chi fa la print?
+chi gestisce?
+lo farà sempre lo C-out che non è una catch questa è anche la cosa che vi risparmia no, mi sta sembrando irretinamente questo qui ti dice, ok manca la viata è sufficiente scrivere
+mandare un messaggio di un tipo, avvisare l'utente manca la carta sullo schermo ma lui non lo fa lui ti dice codice codice 1 manca la carta codice 2 codice 2 manca la stampante codice 3 manca il tonere va bene?
+a questo punto lui cerca di comunicare con te con questi 3 codici
+io sto usando, sto semplificando il linguaggio, gli sto chiamando codici però il nome vero è eccezione uno non è un codice, è un'eccezione chiaro?
+che poi possa essere un codice, questa è un'altra cosa però lui a funzione dice ok eccezione anomalia eccezione 1, eccezione 2, eccezione 3 chiaro?
+lui a questo punto che succede?
+ti faccio vedere un'altra cosa
+Questa è una funzione critica.
+Ok?
+Questa è un'altra cosa importante.
+Questa è una funzione critica.
+Critica significa può rilevare anomalie.
+Se le rileva.
+Se le rileva.
+A questo punto, cosa non farà?
+Non andrà alla funzione.
+Non andrà al soggetto e quindi uscirà subito da questo blocco.
+E' chiaro?
+Esce dal blocco Trial.
+Ci siete?
+Esce dal blocco Trial.
+Che significa?
+Interrompe l'esecuzione nel punto in cui si vede che la situazione è normale.
+Non va oltre.
+E' chiaro?
+Ecco la figata.
+Questa è l'altra cosa importante.
+Lui interrompe l'esecuzione del codice e manda l'errore.
+E' chiaro che quando mando l'errore le possibilità sono due o tu ti sei organizzato per intercettarlo o tu non lo intercetti.
+Cosa succede?
+Ti assume la responsabilità di tutto quello che potrebbe succedere?
+E' chiaro?
+Io ti avviso, poi fai te, chiaro?
+Tu sei una buona persona che effettivamente vuoi fare tutte le cose correttamente,
+di intercettare l'eccezionale, come si intercetta l'eccezionale, predisfondo dei catch.
+Catch sono dei punti di intercettazione, è chiaro?
+Ma qui di catch ce ne possono essere più di uno, che significa in pratica, posso avere diversi modi di gestire
+Ci siete?
+Il problema è... Mi ha mandato il codice 1, ha mandato il codice 2, ha mandato il codice 3.
+Poi il codice 1, messaggio 1.
+Poi il codice 2, messaggio 2.
+Poi il codice 3, messaggio 3.
+Il punto di uscita è unico.
+Lo vedete?
+Cos'è uscito?
+1, 2 o 3?
+Allora, per il secondo punto, questo è quello che gestisce 1.
+Questo è quello che gestisce 2.
+In vaso è quello che gestisce 3.
+Quindi, ogni keche fa un'analisi dell'eccezione e dice che è mia.
+Che pensi lì?
+Infatti, keche è una funzione di ogni keche.
+Ecco così.
+Ci sei?
+Il corpo cosa contiene?
+Quello che deve cadere?
+La gestione.
+È chiaro?
+Ci siete?
+Ripilogando.
+Anomalia.
+Va bene?
+L'anomalia può essere generata, può essere rilevata o meglio, da intanto all'interno di una funzione, per esempio, no?
+una funzione che ha del codice critico.
+Questo è detto codice critico, no?
+Codice critico significa che c'è una mamma mia.
+Se io so che un codice è critico, lo metto sotto i serviziani.
+Ci siete?
+Come si mette sotto i serviziani il codice critico?
+Trai, parentesi graffa, e dentro ci metto il codice critico.
+non solo il codice critico, il codice che mi serve per lo sgobbimento del compito prima e dopo, è chiaro?
+A questo punto supponiamo che ci sia l'anomalia.
+Cosa succede in pratica?
+L'esecuzione di tutto il blocco si interrompe nel punto in cui avviene l'anomalia, la funzione F. E non viene più semplice la funzione, non ci stai cagando, non lo so?
+Non ci stai cariando?
+Sto facendo le domande... Sì?
+Ma tu stai rubendo, perché queste cose a me non pensi a dire.
+Lo so.
+Sì?
+Cioè, peggio.
+Questa è la direvante, così.
+Cioè, non sa chi non dirà le stesse cose, però è talmente minzione che le fa, capito?
+Perché sennò poi vi dimentico di fare le domande.
+Eccetto, a me non ha.
+E' chiaro?
+E' chiaro sì.
+Quindi?
+La cosa importante è che G non viene eseguita, quindi esco da quella sequenza e poi questo codice eccezione comincia a variare.
+Ce n'è nulla di possibilità, ho deciso di intercettare o lo faccio variare.
+Io ho detto variare, in effetti c'è un termine
+tecnico, quindi un'eccezione si propaga.
+Quale è il termine tecnico?
+Si parla di propagazione dell'eccezione.
+Propagazione che significa?
+Questo è il punto di lancio, chiaro?
+L'eccezione esce, si interrompe l'esecuzione,
+e comincia a vagare nel codice.
+Ci sono due possibilità, o l'intercetto o non l'intercetto.
+Se l'intercetto, in questo momento dobbiamo utilizzare il cation, che è una funzione, con all'interno il codice di gestione della recezione.
+E ovviamente anche il corpo che indica cosa deve succedere.
+Ok, eccezione.
+Chi ha riconosciuto, manda il suo messaggio.
+Va bene?
+Ciao.
+Adesso ci chiamo.
+È chiaro?
+Prima ipotesi.
+La voglio gestire e quindi l'intercetto.
+Quello è la sintasi del beccano bloccato.
+Seconda ipotesi, non la voglio intergetare, non ci metto perché è facile.
+Il codice viaggia.
+Viaggiare significa andare alla ricerca di un punto di intergetazione, una cage.
+È chiaro?
+E se non la trova, allora, poi è stato proiettato anche per perdersi,
+oppure, aspettatevi così strane, tanto è vero che Giappa cosa dice, che non so che Giappa.
+Qui c'è un'eccezione, la devi gestire, non la gestisci, ti dà l'errore da lì, non si schiota.
+E' chiaro, questo che significa in pratica?
+Lui lo sa, lui ti dice, guarda, dovrai gestire un'eccezione, quando sentite la parola, dovrai gestire
+Preparatevi il trai subito, mettete dentro il punto critico.
+Questo significa che ti sei preparato per l'intercettazione, per la divisione del codice.
+Chiaro?
+Figurati, se non ci metti il trai ti dà il problema sintatico perché hai detto che hai detto che devi controllare.
+Se non ci metti un trai per lo osservare, ti sento da subito.
+Allora, a questo punto che succede?
+Ok, lo metti sotto osservazione, ma lui dice, aspetta, io ti ho detto che lo devi gestire.
+e di conseguenza io mi aspetto ci sotto ci sia qualcos'altro, il punto di intercettazione.
+Non c'è?
+Va beh, vai vado?
+Quella cosa tu la devi gestire e ti obbliga, è chiaro?
+Come gli ha fatto il tuo, dice, usa queste parole, strike edge, strike edge, strike edge, dei linguaggi.
+i linguaggi e il codice scritto in quei linguaggi.
+È chiaro?
+E quindi è chiaro.
+Se tu hai delle chiavi direttore di codo significa che ogni volta che ritrovate questa combinazione, potrebbe significare.
+Poi ci possono essere sfumature anche sulle parole chiave.
+Però fondamentalmente sono due.
+Che è la domanda che dovreste fare?
+Che è questa?
+Fin qua è chiaro?
+Ma solo una cosa.
+l'eccezione si propaga solo nel momento in cui facciamo try?
+no, è passivo il try è il nostro momento che fa il monitoraggio e ti dà la possibilità di visualizzare visivamente il codice critico codice critico significa che può generare
+quando si verificano certe situazioni no?
+anche se mette una funzione critica non all'interno di un try comunque si propaga lo stesso ok perfetto si assolutamente si assolutamente si la propagazione avviene sempre però se lo metti fuori in un try ti dà errore, punto, si blocca il programma no, ma fino che io non trovo un catch si prende dal tipo di errore al di fuori di un try la logica è la stessa
+Sì, sì, sì, cioè l'eccezione viene sempre sollevata.
+Solo non viene sollevata?
+Il problema è, il problema, il problema guarda è in pratica.
+Tu non saprai mai da dove partire l'eccezione.
+Sì.
+Sai che c'è?
+In Java ho visto questa cosa.
+Non pensare, segui l'aggionamento.
+Pochi arrivarono che non capivano col Java.
+Se tu non metti il try, non è che dici l'eccezione è palla paga, cioè dici che va bene.
+esce.
+Sai qual è il problema?
+Che se metti il trial ai punti di osservazione, no, ai punti di osservazione e di controllo, se non ce lo metti e non ti sei reso conto, non sei dell'esistenza e ne hai 4-5 di questa funzione senza trial, e ti danciano le eccezioni, tutti cominciano a capire le eccezioni.
+Il problema è che non se la devono aprire.
+È chiaro?
+Perché se tu fai
+F e sotto ci metti case per la gestione, tu sai che da qui ti arriva un'eccezione, qui c'è il codice, il tipo di eccezione, e tu sai esattamente chi è stato tu, è chiaro?
+Io sto facendo, è chiaro che io sto facendo i ragionamenti con una funzione squalida, con tre ipotesi, ma molto semplificate per farvi arrivare a ragionare in un certo modo.
+Poi, per complicarti la vita, vi ho sempre detto che ci sono dei tempi, no?
+E' come se usi il metodo di una classe che non ho fatto io, classe string, no?
+Vuole utilizzarne un metodo, ma invece di mettere una stringa come parametro, ci metto un booleano.
+Ok, sarà la classe string all'angelo a mille eccezioni.
+E io per vederla, l'unica cosa che posso fare è cliccare sull'errore e mi si apre il file per classe string dove c'è
+Ma devi capire questo Giro?
+Questo è un meccanismo?
+Se lo capisci in un momento in cui tu leggi quel codice, non vai in crisi.
+E anche, perché vi dico questo?
+Perché mi trovate di fronte a una tirazione di questo genere?
+In effetti la cosa più antipatica era, ok, premessa, devi gestire su un video delle eccezioni.
+Cioè, della serie, se tu non ti predisponi per la gestione, immediata, in fase di compilazione, c'è subito l'errore.
+E l'Iberna dice, ma perché cazzo le devo fare queste cose?
+È chiaro che dietro c'è un mondo, no?
+Infatti, c'è un mondo dietro l'eccezione.
+Motivo per cui, il capitoletto, il paragrafetto, quello che cazzo è, è una cosa tanta.
+Sì, però, hai voglia?
+Quanto materiale di approfondimento, cioè, è materia di approfondimento.
+E' chiaro?
+Detto questo, qui ci siamo tra l'osservazione, il catch, i punti di gestione, l'intercetto e l'aggerizio.
+Però c'è un altro che apre?
+Tutto bene?
+Il tro invece è un'altra cosa, questa è la famiglianata funzione F. Funzione F, un certo corpono, c'è una varia.
+Ok, questo è il punto di lancio.
+Chiaro?
+E quindi, visto che siamo in guerra, chi è il lanciatore?
+La funzione?
+Credita?
+Che rileva l'assenza di carta, non manda il massaggio, shout, e ti dice tro.
+Tro cosa?
+Il tro da solo non ha senso no?
+Tro cosa?
+Eccensione, gestisci.
+Eccensione 1, stanco.
+Cioè, casta.
+Eccensione 2, un'altra cosa, eccetera eccetera.
+E' chiaro?
+Vedi che parola sono fondamentalmente 3.
+3.
+Faccio un monitoraggio.
+Attenzione, io faccio un monitoraggio se sono avvisato.
+Tu puoi monitorare il codice se lui ti avvisa e ti dice, guarda che c'è un'eccezione da gestire.
+e ti devo anche documentare l'eccezione dicendo che questo è il codice di gestione dell'eccezione.
+E' chiaro?
+Quindi, praticamente, gli oggetti sono sempre due.
+Chi progetta la classe, la funzione e chi usa il problema è per chi la usa.
+Il problema è che se tu sei entrambe sai già come stanno le cose.
+E' chiaro?
+Quindi, se dovete collaborare, motivo per cui ecco, perché ho sempre detto
+dovete collaborare quanto più possibile perchè tu scrivi una cosa e poi apprezzi queste cose a un momento in cui usi le cose sue è viceversa e fate esperienza altrimenti verrete andate a cantare da soli a un momento in cui interagite è lì che capirete quanto è difficile collaborare perchè fino a quando sono io stesso è l'attima
+il problema è quando gli devo dare una cosa che lui dovrà usare, lui ci persa ecco il discorso del lavoro, allora si li sbagli, sbagli, sbagli, corregli e sbagli siamo a scuola fanno in azienda poi non vende più il prodotto perché i tempi si allungano e i costi aumentano è chiaro?
+detto questo fin qua ci siete
+ok se è vero che sono stato chiaro ci sono domande intanto sui concetti?
+esatto spiegato su come spiegare perché ma non mi ricordo pro eccessione dovrei mettere uguale a 1 eccessione è una variabile dai quello dipende allora l'ultimo
+Lui, chiaro?
+Usa la tua funzione.
+Tu, quando la progetti e la funziona, ti devi riguardare di usare la trova.
+E dovrai decidere anche il tipo di eccezione.
+Cos'è un'eccezione, abbiamo detto, un'anomalia?
+Insoldoni.
+Può essere un intero, può essere una stringa, può essere un plot, può essere un oggetto.
+Una cosa certa deve essere qualcosa, oggetto compreso.
+Quindi io posso anche lanciare, non 1, 2, 3, 4 interi, ma addirittura interi oggetti.
+Per noi, tanto che gli avevo già dichiarati, è chiaro?
+E lì scoprirete che il C++, come tutti i guanti, ha un albero delle eccezioni.
+Ci sono delle classi, classi, exception, che gestiscono situazioni specifiche.
+Quello è l'approfondimento.
+Studiare quell'albero significa questo conto avere di strumenti pronti
+che il CPU mette a disposizione per gestire delle situazioni specifiche, tipo per esempio una catalogazione di spazi in memoria.
+Non la gestisco, lancio l'accezione.
+Come?
+Con quale codice?
+Con quella che ti dà il CPU.
+Ma questo, come un trasatore, cioè questo è l'approfondimento.
+Come anche tutti gli uggagli, no?
+L'accezione di appronte che gestiscono le situazioni specifiche.
+tipo hai superato i limiti della base vector non puoi inserire più niente eccezione quando andrete a guardare, no?
+la STL quando andate a vedere, cercate le eccezioni che è bravo, è bravo, è bravo adesso cominci a collegare le due
+Tutte quelle parole che avete incrociato, adesso avete l'astrumento per poter fare il meglio e conderele.
+E dire, mo capisco che cazzo volevano dire quelle cose.
+Questo è il lavoro che vogliamo fare.
+perché gli ho dato un compito, gli ho detto guardate le figure io gli ho fatto una richiesta se avete fatto quel lavoro sapete di cosa sto parlando, se non l'avete fatto siete nella merda non lo capirete mai, non lo capirete sempre
+Perché l'obiettivo è chiaro, ve la do da studiare, ci saranno delle cose che non capirete.
+Se non mi dite non ho capito questo, non l'avete letto.
+No, non l'avete letto.
+E se tu mi dici che l'hai letto, mi sta prendendo per il culo e mi gira in coglione.
+Perché non puoi leggere una cosa che non capisci.
+Che cazzo leggi a fare?
+Non sta capisci il Cristo.
+Allora mi prendi per il culo e poi diventi una bestia, no?
+Ma l'anno scorso hai detto sì, ma io leggo queste cose, poi le dico template, non capisco un cazzo, te lo ricordi?
+L'anno scorso abbiamo parlato del template appunto perché ho fatto questo intervento e faccio sì, ci hai dato la libreria da legge, ma poi mi trovo template, non so che cazzo vuol dire.
+Certo.
+Il discorso è, l'ho letto, io l'ho capito, sono andato in crisi, ok, e la prossima lezione?
+però ti devi schiantare, ti devi fare male.
+E' inutile che te lo spiego in sequenza, è chiaro che se io te lo spiego in sequenza tutto funziona.
+Quindi, cosa vi chiedo di fare?
+Ok, il modo che tornerà eccezionale, avete due modi da chistire, da esplorare.
+Uno è il corso delle fasi dell'interfaccia, che è lo che si deve rendere appunto per la domanda di fare.
+Volevo dire che c'è questa introduzione al mondo delle eccezioni.
+avrei potuto ripetare questo mondo con un quarto d'ora e sarebbe stato sufficiente dire che tra il catch e il throw ad esempio il pilota mi avrebbe risposto ad esempio il pilota vi avrei chiesto qualcosa di sim da quello l'avreste fatto ma avreste ripetito il caso ma poi ho voluto dedicare un po' di tempo per fare questo riflettere
+e dirgli c'è un mondo che lo volete esplorare bene altrimenti state tranquilli volete restare nel mondo della programmazione, chi crocerà di questo problema?
+C'è un'altra cosa che vi ho detto, come poi l'abbiamo fatto adesso in tre anni tu stai registrando?
+BIP BIP BIP BIP

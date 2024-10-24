@@ -1,0 +1,390 @@
+start	end	text
+6923	12666	Poi lo riprendiamo.
+17748	35238	Dicevamo, il concetto di eccezione, prima di vedere come si implementa, perché non è complicato, il problema è capire perché esistono, in effetti vorrei, come appunti, gli appunti che mi suggeriscono di imprendere sono le domande da Faccia Filippiti.
+36693	41537	del tipo, perché esiste il concetto di eccezione?
+41557	42998	Come è stato introdotto?
+43078	44299	C'è proprio la storia, no?
+45360	52185	Il motivo per cui prima non c'era e poi a un certo punto hanno deciso di implementare questo concetto.
+52485	57489	Evidentemente c'era una situazione critica, evidentemente c'era un problema, no?
+58750	63254	E quindi capire quale è stato l'imnesso.
+65034	74240	vi ho detto l'innesco, vi ho detto il motivo è separare la parte di controllo degli errori dallo sviluppo del pubblico.
+74280	89529	Questa è la mia versione distillata, poi sarà più provvisto, sarà più dettagliato e quindi nel momento in cui, ma così a questo punto stimolate sempre con delle domande, il perché
+91149	97535	Dovete avere voi un'idea, non una nozione, non una definizione.
+98175	103340	Quindi è molto importante che abbiate un'idea bella solida.
+105222	107664	Dicevamo, ok le parole chiavi.
+119810	127794	Questa praticamente cosa si intende per quale è il significato, quale è il senso?
+128274	136698	Dicevamo, l'eccezione dietro al concetto di eccezione c'è questo.
+138499	147624	L'idea è, ho una situazione anomala da gestire, a questo punto io non la gestisco.
+150023	152444	siano a cupere o un altro, ci siete?
+154325	170910	Però io, che oggi lo pago l'applicazione, ti informo che all'interno della mia applicazione, funzione o classe ci sono delle situazioni anomenali che dovranno essere tu.
+171291	178173	Quindi, chi progette la classe, chi progette l'applicazione avvisa tutti quelli che andranno ad utilizzarla
+180259	182840	sulla presenza delle eccezioni.
+183660	184140	Ci siete?
+186240	187421	Quindi i soggetti sono due.
+188181	194542	Chi usa una classe, facciamo un esempio di una classe, ma anche una funzione, no?
+194923	201144	In effetti poi le eccezioni non sono legate alla programmazione degli oggetti, esistono a prescindere.
+202444	208766	Sono state introdotte da un C++, però in effetti potrete sviluppare codice in C.
+209893	212294	senza scomodare le classi e gli oggetti.
+213275	213675	È chiaro?
+214935	237806	Perché il senso è questo, io ho scritto una funzione, è previsto di utilizzare delle eccezioni, perfetto, la devo usare io con la funzione, la tua funzione l'ha inserita all'interno di una libreria, a questo punto tu mi dà la tua libreria e mi devi fornire una serie di informazioni elettive del tipo, guarda, la funzione 1 prevede
+239398	244281	un'anomalia che dovrai gestire tu, un'eccezione che dovrai gestire tu.
+245482	250445	La funzione 1 fa funzione 2, ne prevede un'altra, la funzione 3 ne prevede un'altra.
+250545	266916	Quindi praticamente il codice dovrà essere documentato sia per quanto riguarda l'alimentazione classica del codice, ma anche per formare tutta una serie di informazioni relative alle anomalie non gestite.
+269062	270803	ci siete?
+270843	274165	riflettiamo sul concetto di anomalia quale può essere l'anomalia?
+275406	278488	sviluppo un'applicazione va bene?
+279368	284171	la mia applicazione preferisce ovviamente la stampa del documento no?
+284371	294457	c'è una funzione c'è una voce di meno che dice ok, stampa documento, stampa su carta chiaro?
+295158	298500	la mia applicazione funziona però poi succede che
+300231	301652	Uno, la stampante è spenta.
+304014	311118	Questo è un evento eccezionale, nel senso che questa anomalia non dipende dall'applicazione, dipende dal fatto che la stampante è spenta.
+312759	315381	Manca la carta, manca il toner.
+316402	316902	Ci siete?
+317903	319264	Queste sono le criticità.
+321625	329871	E quindi, chiaramente, cosa succede in un momento in cui poi manca la carta, poi non posso stampare, se non posso stampare, cosa succede?
+330947	355697	ci blocca l'applicazione perché l'applicazione sequenziale non gli sta arrivando ovviamente la conferma di documento stampato e lui chiaramente si blocca allora a questo punto io dovrei, io, programmatore, dovrei prevedere questa eventualità e gli insegni tutta questa situazione anormal.
+355757	359059	Io non voglio gestirla e a questo punto
+361370	361811	Delegum.
+362111	363211	Delegum che significa?
+363331	369415	Ok, quando si verifica io ti dico l'ancio, questa è l'altra parola chiave, l'anxiale.
+383024	383884	L'ancio è un'eccezione.
+386406	389828	Effettivamente c'è un libro per cui si chiama L'Angello, chiamata
+391229	398912	anche qui c'è un approfondimento quindi lancio un'eccezione, no?
+399432	414599	lancio un'eccezione e ti dico ok non la gestisco io però non posso cadlocare l'applicazione però ti lancio un codice di riconoscimento ti lancio a te che stai usando quella applicazione chiaro?
+415943	421566	Dovete sempre pensare a due soggetti, chi progetta e chi usa.
+422906	424627	Se siete voi, farete fatica.
+426068	430430	Se riuscite ad immaginare queste due figure, io sviluppo un'applicazione per qualcun altro.
+430610	434192	Questo qualcun altro in questo mondo si ritroverà con queste situazioni critiche.
+434272	436333	Tutto vero, tutto più normale, no?
+437593	440815	Perché chiaramente, mi calo, nei panni, ciò che
+441660	447923	l'applicazione che ha sviluppato ha delle difficilità, è chiaro che se le deve usare vi vuole avvisare.
+449543	451844	Quindi le eccezioni vanno documentate.
+453045	470852	Nepperti se voi andate anche sulla Libra di Instanza, è chiaro che scoprirete che ci sono anche riferimenti, non tutti, a delle eccezioni che devono essere gestite, o quanto venmo,
+471775	476459	verrete informati o verremo informati delle eventualità che ci possano essere delle eccezioni.
+478360	483365	L'altra applicazione prevede la stampa.
+484966	486627	La stampante non è accesa.
+488169	491351	Io non ho previsto controllo e gestione.
+492952	495735	Gestione significa che ti mandi un messaggio, la stampante è spenta.
+497131	501655	io non voglio andare in quella... il tradotto significa basta fare un info, no?
+503897	508221	il problema è, io non c'ho voglia di fare quell'info è chiaro?
+509062	521913	perché quell'info significa, sto controllando se succede questo, fai questo, altrimenti fai quest'altro chiediamo di andare al nocciolo della pacienza, è chiaro?
+523010	523891	Non voglio fare quello.
+524091	530998	Scrivere 3-4 righe di codice in più, sommare tutte le 3-4 righe, significa che io non sono produttivo.
+533941	534241	Chiaro?
+535222	539286	E distolgo l'attenzione dell'algoritmo di Ciballo.
+541848	542189	Chiaro?
+543090	547093	Quindi, detto ciò, quindi a questo punto io, lo so,
+549571	557673	che c'è questo rischio, che non posso eliminare, se è spenta è spenta, se manca la carta manca la carta, cioè non c'è scampo.
+558674	569717	La cosa che c'è, rilevo, devo trovare un modo ovviamente per rilevare questa numeria, perché la stampante mi dirà qualcosa, ovviamente accetta un po' che a questo punto senza tanto che si pegue via.
+577773	596640	che ti userai o a te che userai la sua applicazione quindi io ti dico guarda che ti potrebbero arrivare questi codici questo codice ha questo significato carta mancante stampante spenta toner assente ok?
+597840	606984	sarai tu che dovrai decidere se manderò meglio il messaggio o decidi di far passare che assolutamente lo hai spensato
+608985	611307	C'è anche un discorso di assunzione di responsabilità.
+611387	612027	Io ti avviso.
+612668	613088	Perfettamente.
+614569	616891	Se tu lo tieni in portata, i gestici lo hanno dimostrato.
+617071	619052	Se no, lo tieni in portata e poi passi e vai oltre.
+621114	626678	Questa è la cosa, sembra strana per la funzione.
+626698	627538	E' chiaro?
+627879	633803	Tu hai sviluppato un'applicazione che prevede ovviamente delle anomalie.
+634423	637205	No, in l'ambito di eccezioni che segnalano
+639680	644384	la presenza di un'anomalia di funzionamento o di un errore, anche critico.
+647586	654552	Lui ha scritto, tu lo usi, e siccome ti ha avvisato, trai.
+654792	655793	Cosa significa?
+656874	668443	Ok, la parola serve per monitorare quella funzione che tu hai progettato, che contiene i generatori di chizia.
+670129	678434	la funzione incriminata, la funzione pericolosa, la funzione che potrebbe innescare un'eccezione qualora si dovesse verificare una situazione.
+679955	683817	Ci siete?
+683857	689360	La metto sotto controllo e poi superiamo che sia una funzione.
+691001	696725	A questo punto, sempre dal tuo punto di vista,
+699855	727442	è chiaro che tu mi hai avvisato, tu decidi di gestirla siccome la tua applicazione può generare diverse eccezioni allora evidentemente ci sono diversi modi di gestire esempio, messaggi diversi in quale ci siete quindi il calico della gestione è tuo tra i tu metti sotto osservazione il codice Quitting
+729902	731804	Lui può generare qualcosa?
+731824	742794	E' lui il mio censore, perché è lui che mi massaggia.
+744876	746557	Ma tu sei giovane ancora!
+756821	763785	quindi io guardo e c'ho un lancio e ho detto tutta una minchiata, capito?
+763845	771889	al contrario, non è abituato come sono io durante l'inglese?
+771929	776932	se vengo io te consolli no, secondo me non te ne ho chiaro?
+777832	779593	io so che significa in pratica, che è?
+779773	780834	intercettare l'eccezione?
+781614	782895	come si intercetta l'eccezione?
+783868	787229	è chiaro che c'è un punto di intercettazione.
+788489	789749	Come faccio ad intercettare?
+789789	793150	Come viene l'intercettazione?
+795350	807453	A questo punto la catch è, diciamo, stile e funzione e all'interno c'è il codice dell'intercettazione, il tipo di intercettazione che può essere intercettato.
+808413	808793	Vi siete?
+813792	815533	La funzione è pericolosa.
+815814	816774	Lancio all'eccezione.
+818075	820077	Se lancio all'eccezione c'è la nomaria.
+821898	825141	Questo significa che non può svolgere il compito.
+826502	826822	Ok?
+827223	828504	Deve succedere qualcosa.
+829264	831266	Nella migliore delle ipotesi, messaggio.
+833467	834268	Manca la carta.
+835409	835789	È chiaro?
+836330	841754	Il problema è qual è il punto di lancio o di stampa del messaggio.
+844500	851123	lui ti avvisa ma non lo fa chi fa la print?
+852744	855165	chi gestisce?
+855725	868231	lo farà sempre lo C-out che non è una catch questa è anche la cosa che vi risparmia no, mi sta sembrando irretinamente questo qui ti dice, ok manca la viata è sufficiente scrivere
+869800	890173	mandare un messaggio di un tipo, avvisare l'utente manca la carta sullo schermo ma lui non lo fa lui ti dice codice codice 1 manca la carta codice 2 codice 2 manca la stampante codice 3 manca il tonere va bene?
+891214	895737	a questo punto lui cerca di comunicare con te con questi 3 codici
+896900	907505	io sto usando, sto semplificando il linguaggio, gli sto chiamando codici però il nome vero è eccezione uno non è un codice, è un'eccezione chiaro?
+908586	921352	che poi possa essere un codice, questa è un'altra cosa però lui a funzione dice ok eccezione anomalia eccezione 1, eccezione 2, eccezione 3 chiaro?
+922532	924253	lui a questo punto che succede?
+924673	926114	ti faccio vedere un'altra cosa
+935162	936302	Questa è una funzione critica.
+937022	937162	Ok?
+937182	939523	Questa è un'altra cosa importante.
+939563	940583	Questa è una funzione critica.
+942144	946085	Critica significa può rilevare anomalie.
+947265	948685	Se le rileva.
+949425	950606	Se le rileva.
+953746	957407	A questo punto, cosa non farà?
+959028	960148	Non andrà alla funzione.
+960748	964849	Non andrà al soggetto e quindi uscirà subito da questo blocco.
+966319	968040	E' chiaro?
+968700	971441	Esce dal blocco Trial.
+975303	975763	Ci siete?
+976303	977523	Esce dal blocco Trial.
+978444	979004	Che significa?
+979164	983085	Interrompe l'esecuzione nel punto in cui si vede che la situazione è normale.
+983546	984306	Non va oltre.
+986307	986707	E' chiaro?
+987187	988007	Ecco la figata.
+988788	990168	Questa è l'altra cosa importante.
+991128	995150	Lui interrompe l'esecuzione del codice e manda l'errore.
+996764	1007173	E' chiaro che quando mando l'errore le possibilità sono due o tu ti sei organizzato per intercettarlo o tu non lo intercetti.
+1008694	1009334	Cosa succede?
+1009414	1011836	Ti assume la responsabilità di tutto quello che potrebbe succedere?
+1012597	1014839	E' chiaro?
+1016060	1019022	Io ti avviso, poi fai te, chiaro?
+1020283	1023986	Tu sei una buona persona che effettivamente vuoi fare tutte le cose correttamente,
+1026650	1035812	di intercettare l'eccezionale, come si intercetta l'eccezionale, predisfondo dei catch.
+1035832	1039973	Catch sono dei punti di intercettazione, è chiaro?
+1040733	1055817	Ma qui di catch ce ne possono essere più di uno, che significa in pratica, posso avere diversi modi di gestire
+1057060	1057460	Ci siete?
+1058500	1066303	Il problema è... Mi ha mandato il codice 1, ha mandato il codice 2, ha mandato il codice 3.
+1066443	1068103	Poi il codice 1, messaggio 1.
+1068143	1069924	Poi il codice 2, messaggio 2.
+1069984	1071624	Poi il codice 3, messaggio 3.
+1074485	1075986	Il punto di uscita è unico.
+1076886	1079587	Lo vedete?
+1079627	1080207	Cos'è uscito?
+1080227	1080707	1, 2 o 3?
+1085288	1088230	Allora, per il secondo punto, questo è quello che gestisce 1.
+1088330	1092774	Questo è quello che gestisce 2.
+1093054	1094735	In vaso è quello che gestisce 3.
+1096257	1101541	Quindi, ogni keche fa un'analisi dell'eccezione e dice che è mia.
+1103062	1103722	Che pensi lì?
+1103903	1111508	Infatti, keche è una funzione di ogni keche.
+1112589	1113290	Ecco così.
+1114736	1115276	Ci sei?
+1116437	1117677	Il corpo cosa contiene?
+1117937	1118877	Quello che deve cadere?
+1119197	1119978	La gestione.
+1120238	1120638	È chiaro?
+1122438	1122839	Ci siete?
+1123819	1124519	Ripilogando.
+1125619	1126160	Anomalia.
+1127360	1127700	Va bene?
+1129701	1143645	L'anomalia può essere generata, può essere rilevata o meglio, da intanto all'interno di una funzione, per esempio, no?
+1144645	1146306	una funzione che ha del codice critico.
+1146426	1147906	Questo è detto codice critico, no?
+1149127	1151367	Codice critico significa che c'è una mamma mia.
+1152508	1158230	Se io so che un codice è critico, lo metto sotto i serviziani.
+1159490	1159970	Ci siete?
+1161951	1164332	Come si mette sotto i serviziani il codice critico?
+1165212	1172455	Trai, parentesi graffa, e dentro ci metto il codice critico.
+1174316	1181001	non solo il codice critico, il codice che mi serve per lo sgobbimento del compito prima e dopo, è chiaro?
+1183342	1186384	A questo punto supponiamo che ci sia l'anomalia.
+1188105	1189386	Cosa succede in pratica?
+1189886	1202975	L'esecuzione di tutto il blocco si interrompe nel punto in cui avviene l'anomalia, la funzione F. E non viene più semplice la funzione, non ci stai cagando, non lo so?
+1204468	1209592	Non ci stai cariando?
+1209612	1211313	Sto facendo le domande... Sì?
+1211734	1214436	Ma tu stai rubendo, perché queste cose a me non pensi a dire.
+1214516	1215517	Lo so.
+1215597	1215817	Sì?
+1216437	1216998	Cioè, peggio.
+1217238	1218379	Questa è la direvante, così.
+1218479	1223463	Cioè, non sa chi non dirà le stesse cose, però è talmente minzione che le fa, capito?
+1223743	1225604	Perché sennò poi vi dimentico di fare le domande.
+1225624	1226325	Eccetto, a me non ha.
+1229407	1229868	E' chiaro?
+1231089	1231529	E' chiaro sì.
+1231949	1232229	Quindi?
+1234176	1250700	La cosa importante è che G non viene eseguita, quindi esco da quella sequenza e poi questo codice eccezione comincia a variare.
+1250760	1255281	Ce n'è nulla di possibilità, ho deciso di intercettare o lo faccio variare.
+1258541	1261802	Io ho detto variare, in effetti c'è un termine
+1263604	1268786	tecnico, quindi un'eccezione si propaga.
+1270487	1271708	Quale è il termine tecnico?
+1271988	1274929	Si parla di propagazione dell'eccezione.
+1275049	1276910	Propagazione che significa?
+1277631	1282733	Questo è il punto di lancio, chiaro?
+1282933	1286034	L'eccezione esce, si interrompe l'esecuzione,
+1287899	1290800	e comincia a vagare nel codice.
+1291381	1295163	Ci sono due possibilità, o l'intercetto o non l'intercetto.
+1296003	1307628	Se l'intercetto, in questo momento dobbiamo utilizzare il cation, che è una funzione, con all'interno il codice di gestione della recezione.
+1310310	1315572	E ovviamente anche il corpo che indica cosa deve succedere.
+1316474	1317195	Ok, eccezione.
+1317355	1319177	Chi ha riconosciuto, manda il suo messaggio.
+1319537	1319857	Va bene?
+1320098	1320538	Ciao.
+1321679	1322620	Adesso ci chiamo.
+1323541	1323981	È chiaro?
+1326384	1327144	Prima ipotesi.
+1328045	1330127	La voglio gestire e quindi l'intercetto.
+1330668	1333511	Quello è la sintasi del beccano bloccato.
+1336219	1343126	Seconda ipotesi, non la voglio intergetare, non ci metto perché è facile.
+1343186	1343967	Il codice viaggia.
+1346730	1352235	Viaggiare significa andare alla ricerca di un punto di intergetazione, una cage.
+1354377	1354857	È chiaro?
+1356099	1360403	E se non la trova, allora, poi è stato proiettato anche per perdersi,
+1362626	1366827	oppure, aspettatevi così strane, tanto è vero che Giappa cosa dice, che non so che Giappa.
+1368848	1377291	Qui c'è un'eccezione, la devi gestire, non la gestisci, ti dà l'errore da lì, non si schiota.
+1379592	1381892	E' chiaro, questo che significa in pratica?
+1382693	1389455	Lui lo sa, lui ti dice, guarda, dovrai gestire un'eccezione, quando sentite la parola, dovrai gestire
+1390180	1394382	Preparatevi il trai subito, mettete dentro il punto critico.
+1395583	1400685	Questo significa che ti sei preparato per l'intercettazione, per la divisione del codice.
+1401245	1401665	Chiaro?
+1403546	1408649	Figurati, se non ci metti il trai ti dà il problema sintatico perché hai detto che hai detto che devi controllare.
+1408669	1412911	Se non ci metti un trai per lo osservare, ti sento da subito.
+1413671	1415212	Allora, a questo punto che succede?
+1415612	1419534	Ok, lo metti sotto osservazione, ma lui dice, aspetta, io ti ho detto che lo devi gestire.
+1421048	1425130	e di conseguenza io mi aspetto ci sotto ci sia qualcos'altro, il punto di intercettazione.
+1427872	1428292	Non c'è?
+1429333	1430393	Va beh, vai vado?
+1431574	1437097	Quella cosa tu la devi gestire e ti obbliga, è chiaro?
+1437117	1444281	Come gli ha fatto il tuo, dice, usa queste parole, strike edge, strike edge, strike edge, dei linguaggi.
+1446824	1450967	i linguaggi e il codice scritto in quei linguaggi.
+1452027	1452448	È chiaro?
+1453048	1453708	E quindi è chiaro.
+1453808	1459292	Se tu hai delle chiavi direttore di codo significa che ogni volta che ritrovate questa combinazione, potrebbe significare.
+1459732	1462734	Poi ci possono essere sfumature anche sulle parole chiave.
+1463415	1464935	Però fondamentalmente sono due.
+1465236	1469258	Che è la domanda che dovreste fare?
+1469298	1469839	Che è questa?
+1471980	1473301	Fin qua è chiaro?
+1473861	1474942	Ma solo una cosa.
+1476224	1482725	l'eccezione si propaga solo nel momento in cui facciamo try?
+1483305	1503629	no, è passivo il try è il nostro momento che fa il monitoraggio e ti dà la possibilità di visualizzare visivamente il codice critico codice critico significa che può generare
+1504224	1506904	quando si verificano certe situazioni no?
+1507245	1530448	anche se mette una funzione critica non all'interno di un try comunque si propaga lo stesso ok perfetto si assolutamente si assolutamente si la propagazione avviene sempre però se lo metti fuori in un try ti dà errore, punto, si blocca il programma no, ma fino che io non trovo un catch si prende dal tipo di errore al di fuori di un try la logica è la stessa
+1534784	1537166	Sì, sì, sì, cioè l'eccezione viene sempre sollevata.
+1538307	1539368	Solo non viene sollevata?
+1539488	1542731	Il problema è, il problema, il problema guarda è in pratica.
+1544752	1546834	Tu non saprai mai da dove partire l'eccezione.
+1547735	1547855	Sì.
+1547895	1548355	Sai che c'è?
+1549336	1550838	In Java ho visto questa cosa.
+1551758	1553480	Non pensare, segui l'aggionamento.
+1553800	1556162	Pochi arrivarono che non capivano col Java.
+1557343	1563068	Se tu non metti il try, non è che dici l'eccezione è palla paga, cioè dici che va bene.
+1564426	1566228	esce.
+1566248	1567028	Sai qual è il problema?
+1567429	1586985	Che se metti il trial ai punti di osservazione, no, ai punti di osservazione e di controllo, se non ce lo metti e non ti sei reso conto, non sei dell'esistenza e ne hai 4-5 di questa funzione senza trial, e ti danciano le eccezioni, tutti cominciano a capire le eccezioni.
+1587005	1588766	Il problema è che non se la devono aprire.
+1591188	1591548	È chiaro?
+1592329	1592830	Perché se tu fai
+1594009	1607754	F e sotto ci metti case per la gestione, tu sai che da qui ti arriva un'eccezione, qui c'è il codice, il tipo di eccezione, e tu sai esattamente chi è stato tu, è chiaro?
+1609454	1619738	Io sto facendo, è chiaro che io sto facendo i ragionamenti con una funzione squalida, con tre ipotesi, ma molto semplificate per farvi arrivare a ragionare in un certo modo.
+1621793	1624796	Poi, per complicarti la vita, vi ho sempre detto che ci sono dei tempi, no?
+1625676	1631021	E' come se usi il metodo di una classe che non ho fatto io, classe string, no?
+1631301	1640348	Vuole utilizzarne un metodo, ma invece di mettere una stringa come parametro, ci metto un booleano.
+1641169	1644712	Ok, sarà la classe string all'angelo a mille eccezioni.
+1645332	1651097	E io per vederla, l'unica cosa che posso fare è cliccare sull'errore e mi si apre il file per classe string dove c'è
+1656857	1658138	Ma devi capire questo Giro?
+1658798	1659679	Questo è un meccanismo?
+1660639	1665222	Se lo capisci in un momento in cui tu leggi quel codice, non vai in crisi.
+1666643	1668604	E anche, perché vi dico questo?
+1668664	1673107	Perché mi trovate di fronte a una tirazione di questo genere?
+1674608	1679511	In effetti la cosa più antipatica era, ok, premessa, devi gestire su un video delle eccezioni.
+1681448	1689131	Cioè, della serie, se tu non ti predisponi per la gestione, immediata, in fase di compilazione, c'è subito l'errore.
+1689151	1691813	E l'Iberna dice, ma perché cazzo le devo fare queste cose?
+1691833	1694374	È chiaro che dietro c'è un mondo, no?
+1694394	1696355	Infatti, c'è un mondo dietro l'eccezione.
+1698135	1702437	Motivo per cui, il capitoletto, il paragrafetto, quello che cazzo è, è una cosa tanta.
+1703778	1705779	Sì, però, hai voglia?
+1707179	1710801	Quanto materiale di approfondimento, cioè, è materia di approfondimento.
+1712521	1712901	E' chiaro?
+1713281	1727006	Detto questo, qui ci siamo tra l'osservazione, il catch, i punti di gestione, l'intercetto e l'aggerizio.
+1728867	1730647	Però c'è un altro che apre?
+1731007	1733208	Tutto bene?
+1736445	1741288	Il tro invece è un'altra cosa, questa è la famiglianata funzione F. Funzione F, un certo corpono, c'è una varia.
+1768795	1770336	Ok, questo è il punto di lancio.
+1775459	1775699	Chiaro?
+1777200	1780001	E quindi, visto che siamo in guerra, chi è il lanciatore?
+1780321	1781162	La funzione?
+1782743	1783423	Credita?
+1784764	1792108	Che rileva l'assenza di carta, non manda il massaggio, shout, e ti dice tro.
+1793488	1794149	Tro cosa?
+1795089	1796310	Il tro da solo non ha senso no?
+1797511	1798051	Tro cosa?
+1799101	1800162	Eccensione, gestisci.
+1800182	1802383	Eccensione 1, stanco.
+1802903	1804204	Cioè, casta.
+1804224	1807725	Eccensione 2, un'altra cosa, eccetera eccetera.
+1808026	1808386	E' chiaro?
+1809426	1811147	Vedi che parola sono fondamentalmente 3.
+1813748	1811147	3.
+1815389	1816229	Faccio un monitoraggio.
+1816650	1819311	Attenzione, io faccio un monitoraggio se sono avvisato.
+1819911	1825274	Tu puoi monitorare il codice se lui ti avvisa e ti dice, guarda che c'è un'eccezione da gestire.
+1826605	1830726	e ti devo anche documentare l'eccezione dicendo che questo è il codice di gestione dell'eccezione.
+1832827	1833187	E' chiaro?
+1834228	1837449	Quindi, praticamente, gli oggetti sono sempre due.
+1837629	1843091	Chi progetta la classe, la funzione e chi usa il problema è per chi la usa.
+1844991	1848493	Il problema è che se tu sei entrambe sai già come stanno le cose.
+1850953	1851334	E' chiaro?
+1851854	1855135	Quindi, se dovete collaborare, motivo per cui ecco, perché ho sempre detto
+1856098	1882589	dovete collaborare quanto più possibile perchè tu scrivi una cosa e poi apprezzi queste cose a un momento in cui usi le cose sue è viceversa e fate esperienza altrimenti verrete andate a cantare da soli a un momento in cui interagite è lì che capirete quanto è difficile collaborare perchè fino a quando sono io stesso è l'attima
+1884306	1909622	il problema è quando gli devo dare una cosa che lui dovrà usare, lui ci persa ecco il discorso del lavoro, allora si li sbagli, sbagli, sbagli, corregli e sbagli siamo a scuola fanno in azienda poi non vende più il prodotto perché i tempi si allungano e i costi aumentano è chiaro?
+1910302	1912624	detto questo fin qua ci siete
+1914036	1921498	ok se è vero che sono stato chiaro ci sono domande intanto sui concetti?
+1922539	1940565	esatto spiegato su come spiegare perché ma non mi ricordo pro eccessione dovrei mettere uguale a 1 eccessione è una variabile dai quello dipende allora l'ultimo
+1947631	1950192	Lui, chiaro?
+1950653	1953575	Usa la tua funzione.
+1955956	1961420	Tu, quando la progetti e la funziona, ti devi riguardare di usare la trova.
+1962761	1966083	E dovrai decidere anche il tipo di eccezione.
+1967284	1970066	Cos'è un'eccezione, abbiamo detto, un'anomalia?
+1970086	1970266	Insoldoni.
+1974150	1979893	Può essere un intero, può essere una stringa, può essere un plot, può essere un oggetto.
+1981814	1985936	Una cosa certa deve essere qualcosa, oggetto compreso.
+1987437	1995120	Quindi io posso anche lanciare, non 1, 2, 3, 4 interi, ma addirittura interi oggetti.
+1996681	2000343	Per noi, tanto che gli avevo già dichiarati, è chiaro?
+2001639	2009421	E lì scoprirete che il C++, come tutti i guanti, ha un albero delle eccezioni.
+2010942	2020325	Ci sono delle classi, classi, exception, che gestiscono situazioni specifiche.
+2020365	2021465	Quello è l'approfondimento.
+2024266	2027787	Studiare quell'albero significa questo conto avere di strumenti pronti
+2029136	2036302	che il CPU mette a disposizione per gestire delle situazioni specifiche, tipo per esempio una catalogazione di spazi in memoria.
+2038124	2040626	Non la gestisco, lancio l'accezione.
+2041426	2041967	Come?
+2042027	2042908	Con quale codice?
+2043008	2044229	Con quella che ti dà il CPU.
+2045350	2049253	Ma questo, come un trasatore, cioè questo è l'approfondimento.
+2050294	2052896	Come anche tutti gli uggagli, no?
+2052936	2057459	L'accezione di appronte che gestiscono le situazioni specifiche.
+2059384	2071806	tipo hai superato i limiti della base vector non puoi inserire più niente eccezione quando andrete a guardare, no?
+2072946	2085069	la STL quando andate a vedere, cercate le eccezioni che è bravo, è bravo, è bravo adesso cominci a collegare le due
+2087722	2094512	Tutte quelle parole che avete incrociato, adesso avete l'astrumento per poter fare il meglio e conderele.
+2094952	2097676	E dire, mo capisco che cazzo volevano dire quelle cose.
+2099339	2100721	Questo è il lavoro che vogliamo fare.
+2104785	2123360	perché gli ho dato un compito, gli ho detto guardate le figure io gli ho fatto una richiesta se avete fatto quel lavoro sapete di cosa sto parlando, se non l'avete fatto siete nella merda non lo capirete mai, non lo capirete sempre
+2125459	2131280	Perché l'obiettivo è chiaro, ve la do da studiare, ci saranno delle cose che non capirete.
+2131640	2134261	Se non mi dite non ho capito questo, non l'avete letto.
+2135981	2137001	No, non l'avete letto.
+2139462	2143263	E se tu mi dici che l'hai letto, mi sta prendendo per il culo e mi gira in coglione.
+2145143	2147283	Perché non puoi leggere una cosa che non capisci.
+2147323	2148324	Che cazzo leggi a fare?
+2148344	2149584	Non sta capisci il Cristo.
+2152762	2155404	Allora mi prendi per il culo e poi diventi una bestia, no?
+2155744	2162350	Ma l'anno scorso hai detto sì, ma io leggo queste cose, poi le dico template, non capisco un cazzo, te lo ricordi?
+2163210	2169875	L'anno scorso abbiamo parlato del template appunto perché ho fatto questo intervento e faccio sì, ci hai dato la libreria da legge, ma poi mi trovo template, non so che cazzo vuol dire.
+2171817	2172237	Certo.
+2172878	2178342	Il discorso è, l'ho letto, io l'ho capito, sono andato in crisi, ok, e la prossima lezione?
+2180891	2183294	però ti devi schiantare, ti devi fare male.
+2184094	2188959	E' inutile che te lo spiego in sequenza, è chiaro che se io te lo spiego in sequenza tutto funziona.
+2205035	2206996	Quindi, cosa vi chiedo di fare?
+2207296	2215538	Ok, il modo che tornerà eccezionale, avete due modi da chistire, da esplorare.
+2215698	2226862	Uno è il corso delle fasi dell'interfaccia, che è lo che si deve rendere appunto per la domanda di fare.
+2227042	2233604	Volevo dire che c'è questa introduzione al mondo delle eccezioni.
+2234423	2263673	avrei potuto ripetare questo mondo con un quarto d'ora e sarebbe stato sufficiente dire che tra il catch e il throw ad esempio il pilota mi avrebbe risposto ad esempio il pilota vi avrei chiesto qualcosa di sim da quello l'avreste fatto ma avreste ripetito il caso ma poi ho voluto dedicare un po' di tempo per fare questo riflettere
+2265644	2281758	e dirgli c'è un mondo che lo volete esplorare bene altrimenti state tranquilli volete restare nel mondo della programmazione, chi crocerà di questo problema?
+2281778	2288524	C'è un'altra cosa che vi ho detto, come poi l'abbiamo fatto adesso in tre anni tu stai registrando?
+2289385	2290706	BIP BIP BIP BIP
