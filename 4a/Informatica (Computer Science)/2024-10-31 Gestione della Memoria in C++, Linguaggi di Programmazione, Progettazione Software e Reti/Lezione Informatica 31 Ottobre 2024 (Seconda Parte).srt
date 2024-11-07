@@ -1,0 +1,2571 @@
+1
+00:00:03,040 --> 00:00:06,000
+Se fosse andato, perché poi non sta andando,
+
+2
+00:00:07,960 --> 00:00:10,599
+con voi mi sarebbe piaciuto fare e ho
+
+3
+00:00:10,599 --> 00:00:15,060
+ancora intenzione di farle, no? Intanto c'è il
+
+4
+00:00:15,060 --> 00:00:20,400
+mondo delle applicazioni web, c'è il mondo delle
+
+5
+00:00:20,400 --> 00:00:26,560
+applicazioni dirette e c'è tanta roba da dire
+
+6
+00:00:27,900 --> 00:00:33,620
+e quindi tutti crei fondamentali altrimenti... Vedi l'esperienza
+
+7
+00:00:34,120 --> 00:00:36,760
+dei tre programmatori che abbiamo intetto ci sono
+
+8
+00:00:36,760 --> 00:00:41,280
+tre programmatori, questo significa che lavorano tutti I
+
+9
+00:00:41,280 --> 00:00:45,560
+giorni con programman infatti mi era venuto anche
+
+10
+00:00:45,560 --> 00:00:49,020
+per me mentre facevamo le scale, mi era
+
+11
+00:00:49,020 --> 00:00:51,440
+venuto pure il dubbio, ho detto ok, parlare
+
+12
+00:00:51,440 --> 00:00:55,739
+con Marlon e dire ok. Perché mi chiamate
+
+13
+00:00:55,739 --> 00:01:01,980
+Sherwin? Perché Marlon sta qui, ma non è
+
+14
+00:01:01,980 --> 00:01:05,280
+diplomato, si è fatto due corsi e poi
+
+15
+00:01:05,280 --> 00:01:10,560
+ovviamente ma anche il ragazzo cinese ma anche
+
+16
+00:01:10,560 --> 00:01:16,080
+l'altro, medici, e sviluppano ovviamente in Java Il
+
+17
+00:01:16,080 --> 00:01:19,160
+discorso è se loro vengono, si seguono le
+
+18
+00:01:19,160 --> 00:01:24,620
+lezioni di terza e imparano... C'è poca cosa
+
+19
+00:01:24,620 --> 00:01:26,280
+che non va... No, è che sono partiti
+
+20
+00:01:26,280 --> 00:01:32,080
+qua... Cioè, vanno... Capisci? Loro cominciano ad imparare
+
+21
+00:01:32,140 --> 00:01:35,520
+da questo livello in poi. Infatti il discorso
+
+22
+00:01:36,100 --> 00:01:40,300
+che si faceva l'altra sera con lui e
+
+23
+00:01:40,300 --> 00:01:43,060
+anche accennato a te il discorso dei pattern,
+
+24
+00:01:44,280 --> 00:01:48,300
+lui li usa tutti I giorni? Sì. Capisci?
+
+25
+00:01:48,540 --> 00:01:51,900
+Quindi Ecco perché mi piace il discorso della
+
+26
+00:01:51,900 --> 00:01:56,900
+vostra collaborazione, perché lui vi potrebbe spiegare. Infatti
+
+27
+00:01:57,460 --> 00:01:59,780
+mi era venuta pure la fantasia di postare
+
+28
+00:01:59,820 --> 00:02:02,479
+l'attenzione su Java e di fare già. E'
+
+29
+00:02:02,479 --> 00:02:06,580
+di fatto mi ero già scaricato clips. E
+
+30
+00:02:06,580 --> 00:02:12,020
+dire ok, questa sarebbe un'alternativa a questa situazione
+
+31
+00:02:12,200 --> 00:02:17,200
+triste, perché è triste, è tristissima. Però se
+
+32
+00:02:17,200 --> 00:02:22,240
+può aiutare perché no? Alla fine se serve
+
+33
+00:02:23,180 --> 00:02:24,800
+a fare così dei botti con il caso
+
+34
+00:02:26,400 --> 00:02:30,040
+no no no no allora io ho valutato
+
+35
+00:02:30,260 --> 00:02:35,760
+Java il perché perché Per cercare di trovare
+
+36
+00:02:35,760 --> 00:02:40,960
+un punto di equilibrio con tutti, con C++
+
+37
+00:02:41,200 --> 00:02:44,220
+e con la programmazione di oggetti, con... C'è
+
+38
+00:02:44,220 --> 00:02:49,700
+troppo sbilanciamento. L'unica possibilità è cominciare con un
+
+39
+00:02:49,700 --> 00:02:55,160
+nuovo linguaggio, anche lì l'idea qual è. Io
+
+40
+00:02:55,160 --> 00:02:58,320
+avevo intenzione di fare il linguaggio, il linguaggio
+
+41
+00:02:58,320 --> 00:03:00,840
+che avevo intenzione di fare era prima battuta
+
+42
+00:03:00,960 --> 00:03:05,280
+poi arrivare al PHP per l'applicazione web e
+
+43
+00:03:05,280 --> 00:03:09,500
+il back è un'anno al front e poi
+
+44
+00:03:09,560 --> 00:03:13,360
+eventualmente prendere in mano il Python per un
+
+45
+00:03:13,360 --> 00:03:17,560
+motivo molto semplice, cioè oggi è il linguaggio
+
+46
+00:03:17,900 --> 00:03:20,960
+dell'intelligenza artificiale. Allora a questo punto no, cominciamo.
+
+47
+00:03:21,640 --> 00:03:29,160
+Però, capito, devo riprendere le matrici. Senza matrici
+
+48
+00:03:29,160 --> 00:03:35,260
+non fai niente. Anche I grafi, ti spiego
+
+49
+00:03:35,260 --> 00:03:37,460
+I grafi, poi dici, va bene, ma lo
+
+50
+00:03:37,460 --> 00:03:44,840
+traduci in codice? C'è la matrice? Stiamo qui
+
+51
+00:03:44,840 --> 00:03:51,660
+ancora a dichiarare variabili, che cazzo facciano? E
+
+52
+00:03:51,660 --> 00:03:57,400
+avevo in mente questo tipo di soluzione. Il
+
+53
+00:03:57,400 --> 00:04:00,760
+Java sì, ma per me non era una
+
+54
+00:04:00,760 --> 00:04:07,880
+cosa su cui concentrarsi troppo, però mi serve
+
+55
+00:04:07,960 --> 00:04:11,400
+per una base di partenza, ti dovrò dire
+
+56
+00:04:11,400 --> 00:04:13,900
+come si dichiarano le variabili, così almeno te
+
+57
+00:04:13,900 --> 00:04:16,900
+lo spiego, ma per un altro linguaggio, no?
+
+58
+00:04:16,900 --> 00:04:21,180
+Troppo senso. Però anche lì, cominciavo a toccare
+
+59
+00:04:21,180 --> 00:04:26,640
+un pochettino di la costruzione degli oggetti in
+
+60
+00:04:26,640 --> 00:04:36,220
+Java, bene. Però aspetta, non mi... Cioè il
+
+61
+00:04:36,220 --> 00:04:38,040
+linguaggio che ti ho detto, ti ho detto
+
+62
+00:04:38,040 --> 00:04:45,760
+il discorso dell'OML e quella cosa che vi
+
+63
+00:04:45,760 --> 00:04:50,000
+dicevo che dovete fare... Relazioni... No no aspetta
+
+64
+00:04:50,000 --> 00:05:03,100
+un attimo... Non l'ho fatto... Aspetta... Ah c'è
+
+65
+00:05:03,100 --> 00:05:05,880
+un'altra cosa su cui sto lavorando però, vabbè,
+
+66
+00:05:06,260 --> 00:05:12,440
+fatti miei, te l'avevo cennato... Scopri quale cattivo
+
+67
+00:05:12,440 --> 00:05:28,780
+sei... Quali sono? Invece, ah, ti lo dico
+
+68
+00:05:28,780 --> 00:05:33,040
+anche a te, l'avevo detto anche anale, lo
+
+69
+00:05:33,040 --> 00:05:33,526
+chiedo anche a voi. Il canale e lo
+
+70
+00:05:33,526 --> 00:05:51,320
+chiedo anche a voi. Ce ne sono tanti,
+
+71
+00:05:51,580 --> 00:05:57,200
+però quelli che vanno usati... Aspetta, vediamo se
+
+72
+00:05:57,200 --> 00:06:16,760
+mi risponde con le... Se hai la cosa
+
+73
+00:06:16,760 --> 00:06:20,980
+su cui stavo riflettendo, tutti quanti, eccoli qua.
+
+74
+00:06:23,420 --> 00:06:27,600
+Eccoli qua, queste sono. Queste sono le cose
+
+75
+00:06:27,600 --> 00:06:30,100
+che dovete imparare a capire come la voi
+
+76
+00:06:30,100 --> 00:06:36,520
+Maria, I casi d'uso, il diagramma delle attività
+
+77
+00:06:38,080 --> 00:06:41,480
+e il diagramma delle sequenze. Questi sono gli
+
+78
+00:06:41,480 --> 00:06:44,100
+ingredienti, e ovviamente I diagrammi degli oggetti, no,
+
+79
+00:06:44,100 --> 00:06:48,480
+degli oggetti, delle classi. Questi quattro linguaggi, questi
+
+80
+00:06:48,480 --> 00:06:51,640
+vi aiuteranno tantissimo per quanto riguarda la progettazione.
+
+81
+00:06:53,620 --> 00:07:01,340
+Perché? Diagrammi questi, come aveva Maria anzi ho
+
+82
+00:07:01,340 --> 00:07:04,240
+cominciato a farlo subito ecco con voi volevo
+
+83
+00:07:04,240 --> 00:07:09,260
+scudere di no qualche progetto un po più...
+
+84
+00:07:09,480 --> 00:07:19,740
+Relativamente designati oggetti relativamente designati oggetti si ma
+
+85
+00:07:19,820 --> 00:07:25,060
+non sono quello sono strumenti per la progettazione
+
+86
+00:07:26,280 --> 00:07:28,420
+sono strumenti per la progettazione questi qua e
+
+87
+00:07:28,420 --> 00:07:36,740
+chiaro sono orientati agli oggetti alla progettazione appunto
+
+88
+00:07:36,740 --> 00:07:39,200
+di applicazioni basate sugli oggetti. Per esempio, per
+
+89
+00:07:39,200 --> 00:07:43,640
+quanto riguarda il costituzio, questo è fondamentale, io
+
+90
+00:07:43,640 --> 00:07:47,180
+lo farei anche in terza, disegnarli omini, sì,
+
+91
+00:07:47,620 --> 00:07:53,020
+perché chiaramente il discorso è importantissimo ed è
+
+92
+00:07:53,020 --> 00:07:55,660
+la cosa sulla quale praticamente non ci soffermiamo
+
+93
+00:07:57,000 --> 00:08:00,240
+però se devi realizzare un progetto, da dove
+
+94
+00:08:00,240 --> 00:08:08,020
+parti? Da cartofeno cioè, inizi a capire quali
+
+95
+00:08:08,020 --> 00:08:11,520
+sono le situazioni cosa ti serve, cosa può
+
+96
+00:08:11,520 --> 00:08:17,380
+succedere cosa no? L'interazione l'interazione che devi avere
+
+97
+00:08:17,380 --> 00:08:23,560
+con l'applicazione, cosa fare, a cosa serve facciamo
+
+98
+00:08:23,560 --> 00:08:27,340
+un'altra cosa, tanto siamo in bisogno protetta qual
+
+99
+00:08:27,340 --> 00:08:34,400
+è il bisogno che devi fare? Sì Dalla
+
+100
+00:08:34,400 --> 00:08:38,039
+user experience, cioè nel senso cosa deve fare
+
+101
+00:08:38,039 --> 00:08:42,200
+l'utente per arrivare a un certo risultato? Sì,
+
+102
+00:08:43,059 --> 00:08:52,140
+non state dicendo cose sbagliate... Aspetta... Aspetta... Fammi
+
+103
+00:08:52,140 --> 00:08:57,740
+ricordare... Ah, sì... Vi faccio vedere uno dei
+
+104
+00:08:57,740 --> 00:09:01,460
+siti più brutti della storia ah ok sito
+
+105
+00:09:01,460 --> 00:09:04,260
+più bello di sempre no quello più brutto
+
+106
+00:09:04,260 --> 00:09:14,020
+in assoluto perché ti devi impegnare. Però ti
+
+107
+00:09:14,020 --> 00:09:17,460
+posso garantire che, in effetti c'è stato un
+
+108
+00:09:17,460 --> 00:09:19,240
+momento della mia vita in cui ho detto
+
+109
+00:09:19,240 --> 00:09:21,580
+che voglio progettare il sito più brutto del
+
+110
+00:09:21,580 --> 00:09:24,140
+mondo è più difficile progettare quello più bello
+
+111
+00:09:25,520 --> 00:09:28,780
+perché I soliti abbiamo riferimenti sulla bellezza, non
+
+112
+00:09:28,780 --> 00:09:31,580
+abbiamo riferimenti sulla bruttezza o meglio ce l'abbiamo
+
+113
+00:09:31,660 --> 00:09:33,860
+però lo diciamo che è brutto soltanto quando
+
+114
+00:09:33,860 --> 00:09:36,740
+lo vediamo ma se devi progettare una cosa
+
+115
+00:09:36,740 --> 00:09:41,600
+brutta non è tanto semplice in effetti cosa
+
+116
+00:09:41,600 --> 00:09:44,760
+di particolare questo sito è brutto però state
+
+117
+00:09:44,760 --> 00:09:49,440
+tranquilli quella grafica è unica. Te lo ricordi?
+
+118
+00:09:50,020 --> 00:09:51,660
+Mi ricordo, hanno fatto il suo discorso l'anno
+
+119
+00:09:51,660 --> 00:09:55,320
+scorso. Cioè, capisci? Cioè, è chiaro che io
+
+120
+00:09:55,320 --> 00:09:59,100
+l'ho fatto, non aveva questo l'obiettivo, lui voleva
+
+121
+00:09:59,100 --> 00:10:03,460
+fare, questa insegnante, Voleva fare ovviamente un sito
+
+122
+00:10:03,520 --> 00:10:06,300
+dove raccogliere tutte queste... Di materiali ce ne
+
+123
+00:10:06,300 --> 00:10:11,000
+sono tantissimi, alcuni datati, però tanta roba, eccolo
+
+124
+00:10:11,000 --> 00:10:13,700
+qui. Informali, vieni a vederli anche I contenuti,
+
+125
+00:10:14,100 --> 00:10:17,540
+alcuni sono un po' datati, no? Però per
+
+126
+00:10:17,540 --> 00:10:20,020
+esempio in Quinta io vi darò questo sito,
+
+127
+00:10:21,140 --> 00:10:26,320
+per questo motivo. E quindi hanno cracchato, perché
+
+128
+00:10:26,320 --> 00:10:30,800
+chiaramente... Vedete lei cosa fa? Perché dovrebbe essere
+
+129
+00:10:30,800 --> 00:10:35,680
+una lei. Gestione di magazzino, banca dati. Magazzino
+
+130
+00:10:35,700 --> 00:10:40,280
+1, magazzino 2, banca dati. Abbonamenti, banca dati.
+
+131
+00:10:41,040 --> 00:10:46,480
+Comuni italiani, banca dati. Votiscolati, banca dati. Romanzi,
+
+132
+00:10:47,060 --> 00:10:53,720
+assicurazioni. E per ogni banca dati, così vostro
+
+133
+00:10:53,720 --> 00:10:56,700
+futuro in pratica, in Quinta, queste sono ovviamente
+
+134
+00:10:57,720 --> 00:11:00,660
+tutta una serie di richieste che possono fare
+
+135
+00:11:00,920 --> 00:11:02,660
+interlocazioni che faccio alle bacche delle manchere, le
+
+136
+00:11:02,660 --> 00:11:07,100
+bacche delle manchere nascono per essere interrogate e
+
+137
+00:11:07,100 --> 00:11:10,140
+quindi praticamente il risultato di interrogazione sono l'istrazione
+
+138
+00:11:10,440 --> 00:11:14,240
+dei gatti che soddisfano certe condizioni di gata
+
+139
+00:11:15,520 --> 00:11:20,580
+poi atterisco query complessa, richiesta complessa, richiesta impegnativa
+
+140
+00:11:21,020 --> 00:11:32,200
+ok, questa è una richiesta... Aspetta... Impegnativa Vedete?
+
+141
+00:11:32,980 --> 00:11:35,040
+Il discorso non è... Forse è la SQL,
+
+142
+00:11:36,100 --> 00:11:39,820
+Ah, per imparare la SQL... È caldiata. Non
+
+143
+00:11:40,140 --> 00:11:45,800
+è difficile. L'effetti puoi... Progettare, poi... La cosa
+
+144
+00:11:45,800 --> 00:11:55,000
+più impegnativa è arrivare all'abbarca dati, poi attenzione
+
+145
+00:11:55,660 --> 00:11:58,440
+quella select non è... Il problema è dove
+
+146
+00:11:58,620 --> 00:12:03,940
+sbaglierete. Voi sarete concentrati, vi concentrerete su questa
+
+147
+00:12:03,940 --> 00:12:07,400
+sintaxi, select from, e scoprirete che è facile
+
+148
+00:12:07,400 --> 00:12:09,760
+di ricordare infatti io vi potrei fare al
+
+149
+00:12:09,760 --> 00:12:13,000
+volo adesso, nel giro di un'ora l'intero corso
+
+150
+00:12:13,000 --> 00:12:20,880
+adesso è quello chiaro? Quindi subito, però, questo
+
+151
+00:12:20,880 --> 00:12:23,640
+è tutti I dati, infatti la cosa bella
+
+152
+00:12:23,760 --> 00:12:26,640
+di questo è che queste tabelle sono tutte
+
+153
+00:12:26,640 --> 00:12:30,340
+popolate ci sono I dati, adesso l'hanno tracato,
+
+154
+00:12:31,120 --> 00:12:35,360
+In effetti poi, una volta che ho selezionato...
+
+155
+00:12:46,460 --> 00:12:51,940
+Non pronuncia? Certo, perché è stato dannaggiato. Ma
+
+156
+00:12:51,940 --> 00:12:54,500
+prima, quando avremmo lì, dice che con nome,
+
+157
+00:12:54,500 --> 00:12:58,600
+nome, sesso, dei proprietari coinvolti in più incidenti.
+
+158
+00:12:59,820 --> 00:13:05,240
+Questa è solo la richiesta. Quella richiesta, tu
+
+159
+00:13:05,240 --> 00:13:07,460
+te la ritrovi nelle pagine web dove tu
+
+160
+00:13:07,460 --> 00:13:11,140
+praticamente dici ok, clic, pulsante, parte la richiesta,
+
+161
+00:13:11,320 --> 00:13:13,940
+dietro c'è lo script, lo script si collega
+
+162
+00:13:13,940 --> 00:13:18,160
+alla banca dati, la banca dati Gira l'SQL
+
+163
+00:13:20,500 --> 00:13:24,760
+al gestore, a DBMS, questo è un'altra cosa
+
+164
+00:13:24,760 --> 00:13:27,320
+che impiegherà un po' di tempo a mettere
+
+165
+00:13:27,900 --> 00:13:34,560
+mentalmente. Dopodiché, perché tutti sarete concentrati, se erano
+
+166
+00:13:34,560 --> 00:13:37,340
+abbandonati, Ti ricordi cosa era un file? Ecco
+
+167
+00:13:37,340 --> 00:13:42,540
+perché volevo rifare anche quelle cose. Raccogliettore di
+
+168
+00:13:42,540 --> 00:13:46,600
+dati. Ho organizzato in termini di byte, organizzato
+
+169
+00:13:47,360 --> 00:13:51,780
+in termini di caratteri. E' un contenitore. Quindi
+
+170
+00:13:51,800 --> 00:13:54,760
+progettare un abbandonamento significa progettare dei contenitori. Il
+
+171
+00:13:54,760 --> 00:13:57,080
+problema è che cazzo me ne faccio? Devo
+
+172
+00:13:57,080 --> 00:14:02,980
+interagire. Uno, come un contenitore c'è un problema
+
+173
+00:14:04,140 --> 00:14:07,960
+se non lo proteggo, dobbiamo entrare e chi
+
+174
+00:14:07,960 --> 00:14:12,700
+mi garantisce tutte le tutele e tutte le
+
+175
+00:14:12,700 --> 00:14:18,080
+protezioni chiaramente un sistema invisibile che si chiama
+
+176
+00:14:18,080 --> 00:14:21,520
+DBMS che è il gestore della banca dati
+
+177
+00:14:22,160 --> 00:14:25,060
+io vi dirò gestore gestore gestore gestore però
+
+178
+00:14:25,380 --> 00:14:28,540
+mi ripeterete gestore gestore gestore gestore dice ok
+
+179
+00:14:28,540 --> 00:14:31,060
+dimostrami che hai capito che cazzo significa gestore
+
+180
+00:14:31,120 --> 00:14:35,280
+gestore gestore risposta ok vuoi proteggere la banca
+
+181
+00:14:35,280 --> 00:14:39,760
+dati? Bene si può fare non puoi farlo
+
+182
+00:14:39,760 --> 00:14:41,800
+tu c'è il software che lo fa. Dai
+
+183
+00:14:41,800 --> 00:14:46,500
+a fare il gestore. Esempio? Interfaccia. Tu puoi
+
+184
+00:14:46,500 --> 00:14:51,900
+accedere a questa tabella, tu a questa, tu
+
+185
+00:14:52,400 --> 00:14:57,600
+a questa, tu a questa. Questa è una
+
+186
+00:14:57,600 --> 00:15:01,540
+regola che io ho deciso, ma se il
+
+187
+00:15:01,540 --> 00:15:03,500
+contenitore è quello, non c'è Santi, o c'è
+
+188
+00:15:03,500 --> 00:15:07,620
+qualcuno che ti riconosce e ti fa cedere?
+
+189
+00:15:08,440 --> 00:15:12,180
+Perché se non ti riconosce, tutti possono entrare
+
+190
+00:15:13,680 --> 00:15:17,900
+infatti, quando Sandro ti parlava di protezione del
+
+191
+00:15:17,900 --> 00:15:21,260
+sicurezza informatica, sicurezza informatica, e non lo capirete.
+
+192
+00:15:23,300 --> 00:15:26,840
+Attenzione, prima di pensare agli hacker cinesi e
+
+193
+00:15:26,840 --> 00:15:33,320
+russi, attenzione, Guardatevi dentro casa, perché l'amministratore di
+
+194
+00:15:33,320 --> 00:15:36,660
+quel sito vede tutto e vede anche le
+
+195
+00:15:36,660 --> 00:15:40,780
+coordinate bancarie giusto per ricordarci. E come faccio
+
+196
+00:15:40,780 --> 00:15:44,680
+a proteggermi da lui? Chi cazzo ti garantisce
+
+197
+00:15:44,760 --> 00:15:50,940
+che quel soggetto è una persona onesta? Ed
+
+198
+00:15:50,940 --> 00:15:53,620
+effettivamente tutti questi dati se li voglio proteggere
+
+199
+00:15:53,620 --> 00:16:00,340
+li devo criptare. Tu entri li guardi e
+
+200
+00:16:00,340 --> 00:16:04,860
+quindi chi ha la regola può a questo
+
+201
+00:16:04,860 --> 00:16:10,600
+punto accedere discorso di sicurezza e produzione sicurezza
+
+202
+00:16:10,600 --> 00:16:14,560
+e produzione e quindi praticamente si ok dbms
+
+203
+00:16:14,660 --> 00:16:19,160
+è quello che questi siamo noi, in mezzo
+
+204
+00:16:19,400 --> 00:16:25,080
+c'è questo, quest'anima invisibile, dietro c'è la banca
+
+205
+00:16:25,080 --> 00:16:30,060
+dati, quindi devi passare da lui, quindi devi,
+
+206
+00:16:30,560 --> 00:16:33,880
+tu da amministratore devi imparare a gestire lui.
+
+207
+00:16:34,180 --> 00:16:36,300
+A banca dati quello è un'altra cosa, infatti
+
+208
+00:16:36,300 --> 00:16:39,480
+ci sono persone che hanno accesso dalla banca
+
+209
+00:16:39,480 --> 00:16:41,720
+dati e fanno le interrogazioni perché tu hai
+
+210
+00:16:41,720 --> 00:16:46,420
+deciso di farli passare. E tu amministratore chiaramente
+
+211
+00:16:46,800 --> 00:16:50,860
+non riuscite a vedere le due figure uno
+
+212
+00:16:50,860 --> 00:16:55,340
+che amministra e l'altro che usa l'amministratore è
+
+213
+00:16:55,340 --> 00:16:57,100
+quello che ti dà I granti e I
+
+214
+00:16:57,100 --> 00:17:01,500
+privilegi? Si e dove li metto questi privilegi?
+
+215
+00:17:03,320 --> 00:17:06,740
+Ci sono I comandi di Dbms Quindi io
+
+216
+00:17:06,740 --> 00:17:09,920
+ti metto tutta una serie di grant Ti
+
+217
+00:17:09,920 --> 00:17:12,319
+dico che tu puoi fare questo, questo, questo,
+
+218
+00:17:12,319 --> 00:17:17,359
+tu no e questo significa interagire con DBMS
+
+219
+00:17:17,599 --> 00:17:26,099
+che ripeto database, cos'è MySQL? 90 su 100
+
+220
+00:17:26,099 --> 00:17:31,700
+database 90 su 100, sbagliato Non è il
+
+221
+00:17:31,700 --> 00:17:33,600
+linguaggio per fare le richieste. No, è un
+
+222
+00:17:33,600 --> 00:17:40,020
+Dbms. Cos'è ora quello? È un Dbms. Non
+
+223
+00:17:40,020 --> 00:17:42,600
+è un database. Il database è questo. E'
+
+224
+00:17:42,600 --> 00:17:47,380
+la top del... Del file? Sì. Peggio. Questo
+
+225
+00:17:47,380 --> 00:17:49,080
+ancora è il peggio. Che ho pietà di
+
+226
+00:17:49,080 --> 00:17:50,820
+te per questo. Vabbè io non so se...
+
+227
+00:17:50,820 --> 00:17:54,480
+No, no, no, spiegore. Dividi, spiegore. No, era
+
+228
+00:17:54,480 --> 00:17:57,900
+proprio per uno, poi se erano giusto le...
+
+229
+00:17:59,240 --> 00:18:04,980
+Dbms, SQL Server, dbms, MariaDB, dbms non database
+
+230
+00:18:05,820 --> 00:18:10,440
+questo è database e dbms è quello che
+
+231
+00:18:10,440 --> 00:18:13,440
+lo gestisce chi lo sta gestendo? Siamo noi
+
+232
+00:18:13,440 --> 00:18:18,340
+lo guardiamo andiamo lì con l'editor modifichiamo però
+
+233
+00:18:19,200 --> 00:18:25,010
+quando lancio questa query chi fa l'istrazione? VBMS.
+
+234
+00:18:26,720 --> 00:18:31,160
+L'interfaccia col database? Potrei anche dire un'altra cosa
+
+235
+00:18:31,160 --> 00:18:33,840
+siccome scritto in un certo linguaggio praticamente lo
+
+236
+00:18:33,840 --> 00:18:37,860
+potrebbe fare si quella e se quella e
+
+237
+00:18:37,860 --> 00:18:39,300
+se quella è un linguaggio, qual è il
+
+238
+00:18:39,300 --> 00:18:42,900
+linguaggio se quella? Quindi è lui l'interprete che
+
+239
+00:18:42,900 --> 00:18:51,220
+traduce, no? L'esecuzione la fa il DBMS io
+
+240
+00:18:51,220 --> 00:18:54,000
+formula la richiesta, suppone che tu non abbia
+
+241
+00:18:54,000 --> 00:19:00,660
+I privilegi, lui ti blocca il DBMS, tu
+
+242
+00:19:00,660 --> 00:19:03,140
+hai I privilegi, te lo fa fare, ti
+
+243
+00:19:03,140 --> 00:19:06,140
+fa passare, quindi sono delle cose che tu
+
+244
+00:19:06,140 --> 00:19:10,360
+puoi vedere solamente se crei la situazione. Una
+
+245
+00:19:10,360 --> 00:19:13,140
+delle cose che vi chiedeva di fare è
+
+246
+00:19:13,140 --> 00:19:19,460
+installare un parchetto Xampp, Xampp installa in automatico
+
+247
+00:19:20,980 --> 00:19:24,560
+lui ed è importante, è che ti puoi
+
+248
+00:19:24,560 --> 00:19:27,380
+un cazzo perché, ma è cazzo, ma apaci
+
+249
+00:19:29,280 --> 00:19:33,580
+ed è un web server poi, ma ti
+
+250
+00:19:33,580 --> 00:19:42,620
+incatta, attenzione, non si vede, ti installa l'interprete
+
+251
+00:19:43,400 --> 00:19:46,920
+PHP, installare il PHP non ha senso, installare
+
+252
+00:19:46,920 --> 00:19:49,240
+l'interpret e perché è lui il traduttore il
+
+253
+00:19:49,240 --> 00:19:54,660
+linguaggio non si installa, si applica. Ti installa
+
+254
+00:19:55,000 --> 00:20:02,200
+MariaDB come SQL, ti installa altri server, un
+
+255
+00:20:02,200 --> 00:20:06,640
+server di Cossa e un server di Falzilla
+
+256
+00:20:06,860 --> 00:20:12,320
+FTP. Io ho fatto una lezione su queste
+
+257
+00:20:12,320 --> 00:20:16,580
+cose però se siete scimmie, siete scimmie no
+
+258
+00:20:16,580 --> 00:20:18,900
+no no, non cazzo è una bestia mi
+
+259
+00:20:18,900 --> 00:20:21,600
+ha fatto scaricare alle anche io già ce
+
+260
+00:20:21,600 --> 00:20:24,100
+l'ho fatto anche a volte non c'è altro
+
+261
+00:20:24,100 --> 00:20:27,100
+cazzo, il discorso dello scaricamento non è questo,
+
+262
+00:20:27,100 --> 00:20:28,980
+il problema è saper leggere le cose, in
+
+263
+00:20:28,980 --> 00:20:32,960
+effetti io dà un'asplicazione, infatti la lezione l'ho
+
+264
+00:20:32,960 --> 00:20:37,100
+data semplicemente dalla console, quando lo installi lui
+
+265
+00:20:37,100 --> 00:20:41,480
+lo fa in automatico a voi cosa dico?
+
+266
+00:20:43,140 --> 00:20:45,920
+Vuole farvi del bene? Ok, createvi una macchina
+
+267
+00:20:45,920 --> 00:20:56,060
+virtuale linux ok fate le stesse installazioni che
+
+268
+00:20:56,060 --> 00:21:04,080
+fa una specie di installer lui installa 5-6
+
+269
+00:21:04,460 --> 00:21:10,940
+software vi volete esercitare? Fate un'installazione su Linux
+
+270
+00:21:11,400 --> 00:21:17,600
+una per volta, installate Apache, configurate, installate l'interprete,
+
+271
+00:21:18,580 --> 00:21:21,940
+configurate e fatelo vedere da Pace, perché tutto
+
+272
+00:21:21,940 --> 00:21:26,900
+deve passare da Pace installate MariaDB o MySQL
+
+273
+00:21:27,460 --> 00:21:32,840
+e fatelo vedere da Pace installate tutta una
+
+274
+00:21:32,840 --> 00:21:37,500
+serie di server e lì diventate sistemisti. Secondo
+
+275
+00:21:37,500 --> 00:21:40,520
+io devo si fare concentrando sulle applicazioni, a
+
+276
+00:21:40,520 --> 00:21:42,860
+me non me ne frega niente dell'installazione, ecco
+
+277
+00:21:42,860 --> 00:21:47,060
+perché ti dico scaricati Apache, cioè Xampp, fa
+
+278
+00:21:47,060 --> 00:21:48,960
+tutto lui, poi ti spiego come stanno le
+
+279
+00:21:48,960 --> 00:21:52,740
+cose e ti faccio la lezione di sistemi
+
+280
+00:21:52,840 --> 00:21:59,600
+e tu non capirai un cazzo apache server
+
+281
+00:22:00,385 --> 00:22:18,177
+MariaDB server MariaDB server, Faizilla server, Mercury e
+
+282
+00:22:18,177 --> 00:22:19,160
+Tomcat E' il server di post. Ok. Tomcat.
+
+283
+00:22:19,720 --> 00:22:25,380
+Il Tomcat server è un server web predisposto
+
+284
+00:22:26,280 --> 00:22:33,240
+per lanciare applicazioni Java. Tutti server? Allora, a
+
+285
+00:22:33,240 --> 00:22:37,620
+pace server. Ci puoi server? Sai che significa?
+
+286
+00:22:38,600 --> 00:22:40,680
+Che il concetto che avete voi di servere
+
+287
+00:22:40,680 --> 00:22:45,660
+è sbagliato il server non è il computer
+
+288
+00:22:45,700 --> 00:22:50,500
+potentissimo ma è il software tanto è vero
+
+289
+00:22:50,500 --> 00:22:54,400
+che queste 5 cose, questa dimostrazione, ve lo
+
+290
+00:22:54,400 --> 00:22:56,940
+farò questo esempio, e non dire che poi
+
+291
+00:22:56,940 --> 00:22:58,920
+ci li abbiamo fatte perché I menti gatti
+
+292
+00:22:58,920 --> 00:23:04,220
+non ci sono. Voi, e vi dirò, attenzione,
+
+293
+00:23:05,040 --> 00:23:07,500
+devo demolire la vostra idea di server con
+
+294
+00:23:07,500 --> 00:23:10,940
+più dir grandi capirisci potentissimo no le stesse
+
+295
+00:23:10,940 --> 00:23:14,840
+cose no le abbiamo fatte con raspberry si
+
+296
+00:23:15,080 --> 00:23:17,240
+anche il raspberry possono essere ma non è
+
+297
+00:23:17,240 --> 00:23:19,400
+raspberry ma non è raspberry si si in
+
+298
+00:23:19,400 --> 00:23:21,980
+senso sono tutte le applicazioni, queste applicazioni rendono
+
+299
+00:23:21,980 --> 00:23:25,160
+il raspberry? Tanto è vero che se io
+
+300
+00:23:25,160 --> 00:23:27,040
+non ti dico che c'è un raspberry e
+
+301
+00:23:27,040 --> 00:23:32,160
+tu ti connetti da casa, puoi immaginare tutte
+
+302
+00:23:32,160 --> 00:23:33,860
+le immagini di Red Dead Redemption e pensare
+
+303
+00:23:33,860 --> 00:23:38,720
+a... Ecco perché è importante fare quell'esperienza del
+
+304
+00:23:38,720 --> 00:23:41,520
+raspberry. Ti pensavo di fare un po' qualcosa
+
+305
+00:23:41,520 --> 00:23:45,960
+del genre. Della Berry a basso costo, a
+
+306
+00:23:45,960 --> 00:23:50,140
+basso consumo. Ti prendi la versione un po'
+
+307
+00:23:50,340 --> 00:23:52,540
+in che volete un'altra raspberry? Per farmi una
+
+308
+00:23:52,540 --> 00:23:55,360
+sorta di... Tra virgolette passami il termine cloud?
+
+309
+00:23:55,360 --> 00:23:57,940
+Ooo, non si fa tranquillo no, per fare
+
+310
+00:23:57,940 --> 00:23:59,340
+un sacco di cose si, si, no, no,
+
+311
+00:23:59,340 --> 00:24:02,280
+volevo partire da una cosa semplice oppure ultimamente
+
+312
+00:24:02,280 --> 00:24:04,280
+mi sono comprato un altro pc fisso a
+
+313
+00:24:04,280 --> 00:24:07,340
+casa però non mi va a lasciarlo acceso
+
+314
+00:24:07,340 --> 00:24:10,340
+a h24 vabbè ma il raspberry che cazzo
+
+315
+00:24:10,340 --> 00:24:13,500
+consuma? Il raspberry si ma il pc dico...
+
+316
+00:24:14,160 --> 00:24:15,900
+Non hai idea? Non è manco solo per
+
+317
+00:24:15,900 --> 00:24:18,180
+I consumi anche per il computer perché si
+
+318
+00:24:18,180 --> 00:24:23,340
+consuma si vediamo se mi dà questo... Non
+
+319
+00:24:23,340 --> 00:24:27,660
+sto cercando con... Sto cercando con... Ci sono
+
+320
+00:24:27,660 --> 00:24:29,720
+pure le rack per ciò che spiega Sì
+
+321
+00:24:29,720 --> 00:24:34,660
+voglio, ma infatti... Aspetta, no, perché siamo su
+
+322
+00:24:38,360 --> 00:24:45,720
+mi dovevi riprendere sulla y ma quel cazzo
+
+323
+00:24:45,720 --> 00:24:48,820
+di cosa per telecomunicazione mi rompe I coglioni
+
+324
+00:24:50,340 --> 00:24:53,480
+figura che c'è il 5, sono arrivati al
+
+325
+00:24:53,480 --> 00:24:57,960
+5 in effetti già col 4, col 5
+
+326
+00:24:57,960 --> 00:25:00,360
+già I consumi sono più importanti l'alimentatore è
+
+327
+00:25:00,360 --> 00:25:02,500
+un po' più potente perché sennò non vede
+
+328
+00:25:02,500 --> 00:25:10,520
+tutto il carico. Però... UCV recliver IP... Va
+
+329
+00:25:10,520 --> 00:25:21,040
+be'. Eccole qua. Cioè, questo per dirti giusto
+
+330
+00:25:21,040 --> 00:25:29,800
+per dirti, sai che significa? Posso mettere più
+
+331
+00:25:29,800 --> 00:25:35,340
+raspberry, ma tutto calcolo parabellum e lì ti
+
+332
+00:25:35,340 --> 00:25:38,360
+serve un sistema di specifico perché te li
+
+333
+00:25:38,360 --> 00:25:41,640
+devi sincronizzare tutti quanti allora tu hai 10
+
+334
+00:25:41,640 --> 00:25:46,240
+raspberry, ogni raspberry ha almeno 4 core fatevi
+
+335
+00:25:46,240 --> 00:25:50,640
+conti 40 core, se ti sei fatto tutto
+
+336
+00:25:50,640 --> 00:25:54,220
+con Fitter infatti ci sono anche tutte le
+
+337
+00:25:54,220 --> 00:26:00,340
+procedure per però questo, vabbò, tornando a noi
+
+338
+00:26:01,020 --> 00:26:09,220
+dicevo, Apache server web ovviamente nei container non
+
+339
+00:26:09,220 --> 00:26:12,980
+c'è più Apache c'è NG e un altro
+
+340
+00:26:16,660 --> 00:26:19,580
+server web C'è una logica di funzionamento diverso.
+
+341
+00:26:21,100 --> 00:26:24,300
+La Pace viene considerata un'ecchia generazione che lavora
+
+342
+00:26:24,300 --> 00:26:32,340
+con multitask. L'Engine X lavora con il thread.
+
+343
+00:26:33,340 --> 00:26:37,120
+Fa partire thread, non fa partire task. Ecco
+
+344
+00:26:37,120 --> 00:26:40,040
+perché è importante conoscere la differenza. Perché viene
+
+345
+00:26:40,040 --> 00:26:45,660
+considerato il migliore NGX rispetto a... Perché chiaramente
+
+346
+00:26:45,660 --> 00:26:51,600
+è un progetto più pesante del thread. Quindi
+
+347
+00:26:51,600 --> 00:26:58,660
+avere queste basi per capire, interpretare le cose
+
+348
+00:26:59,620 --> 00:27:03,380
+non fa fare cose per l'udiente perché se
+
+349
+00:27:03,380 --> 00:27:06,500
+no dici, vabbè, tanto alla fine ti riduci
+
+350
+00:27:06,500 --> 00:27:10,560
+sempre, tanto lo uso tutti lo uso perché
+
+351
+00:27:10,560 --> 00:27:12,680
+lo usano tutti impara a fare la configurazione
+
+352
+00:27:12,880 --> 00:27:17,800
+senza sapere un cazzo però dici ti fidi
+
+353
+00:27:19,460 --> 00:27:21,711
+anche un container cos'è un container? Una macchina
+
+354
+00:27:21,711 --> 00:27:25,880
+virtuale allora che cazzo, ma voi sapete cos'è
+
+355
+00:27:25,880 --> 00:27:28,760
+una macchina virtuale? È un'area di memoria dedicata,
+
+356
+00:27:30,080 --> 00:27:35,140
+così per hanno spiegato è come il coso
+
+357
+00:27:35,140 --> 00:27:39,400
+di, come si chiama, il crescendo nella ruota
+
+358
+00:27:40,160 --> 00:27:44,340
+la virtualizzazione di un sistema la? Virtualizzazione di
+
+359
+00:27:44,340 --> 00:27:46,620
+un sistema è tutto un mondo dietro la
+
+360
+00:27:46,680 --> 00:27:52,060
+virtualizzazione, ci sono vari tipi di virtualizzazioni. C'hai
+
+361
+00:27:52,060 --> 00:27:55,480
+dei livelli. Già il discorso di capire cosa
+
+362
+00:27:55,480 --> 00:27:59,540
+significa macchine virtuali e tanti server, non so
+
+363
+00:27:59,540 --> 00:28:04,740
+fisici, sono virtuali. E il disco e I
+
+364
+00:28:04,740 --> 00:28:08,280
+container, non sono altro che macchine virtuali all'interno
+
+365
+00:28:08,300 --> 00:28:17,660
+del quale girano server, I docker, docker no,
+
+366
+00:28:17,660 --> 00:28:19,500
+è la tecnologia che ti serve per costruire
+
+367
+00:28:19,500 --> 00:28:25,860
+I contenuti. Poi c'è anche Kubernetes che ti
+
+368
+00:28:25,860 --> 00:28:29,940
+fa la sincronizzazione delle cose che avevo fatto.
+
+369
+00:28:31,080 --> 00:28:35,180
+Poi te la sono, te la canti, ne
+
+370
+00:28:35,180 --> 00:28:37,560
+parlo con te, no, fai, facciamo cose, poi
+
+371
+00:28:37,560 --> 00:28:39,360
+te ne vai, ne arriva un altro sfigato
+
+372
+00:28:39,360 --> 00:28:43,280
+e poi arriva un'incilaccavo, non finisce mai. Però
+
+373
+00:28:43,280 --> 00:28:47,680
+però un progettino ci trova qua, no? Una
+
+374
+00:28:47,680 --> 00:28:49,700
+volta che ci da un progettino, un pezzettino
+
+375
+00:28:49,700 --> 00:28:52,840
+a testa, proviamo di implementare. Sì, sì, sì.
+
+376
+00:28:53,140 --> 00:28:55,680
+Nulla di trascendenziale, che magari non abbiamo tutto
+
+377
+00:28:55,680 --> 00:28:59,520
+questo tempo, però... Ripeto, questo forse rientra nei
+
+378
+00:28:59,520 --> 00:29:04,060
+miei limiti, cioè ho tante idee. Il problema
+
+379
+00:29:04,060 --> 00:29:08,860
+è... Ah beh, non le può dare a
+
+380
+00:29:08,860 --> 00:29:12,120
+tutti, ma qualcuno può... No, nel senso, il
+
+381
+00:29:12,120 --> 00:29:15,360
+discorso di avere... Ho tante idee, però questo
+
+382
+00:29:15,360 --> 00:29:18,320
+è il mio limite inventarmi un qualcosa che
+
+383
+00:29:18,320 --> 00:29:23,400
+possa io avevo pensato a voi avevo detto
+
+384
+00:29:23,420 --> 00:29:33,700
+createmi createmi un cosa no? Un carrello della
+
+385
+00:29:33,700 --> 00:29:38,680
+spesa perché avevate la programmazione di oggetti createvi
+
+386
+00:29:38,680 --> 00:29:43,540
+l'oggetto, la classe, il carrello e già cominci
+
+387
+00:29:43,540 --> 00:29:47,640
+a ragionare in termini di componentisti io ho
+
+388
+00:29:47,660 --> 00:29:50,460
+la classe, poi mi crea un'applicazione che usa
+
+389
+00:29:50,460 --> 00:29:54,680
+quella classe e interagisco con la classe, quindi
+
+390
+00:29:54,680 --> 00:29:58,820
+già questa idea di modularità, tipo con la
+
+391
+00:29:58,820 --> 00:30:00,700
+banca dati, mi faccio vedere perché vi ho
+
+392
+00:30:00,700 --> 00:30:11,380
+portato su... Allora vi dico vi dico no
+
+393
+00:30:11,380 --> 00:30:16,220
+volevo tornare un attimo su Xampp uno a
+
+394
+00:30:16,220 --> 00:30:21,940
+pace server la definizione corretta è tutti sono
+
+395
+00:30:21,940 --> 00:30:24,340
+server quindi la parola server non dice un
+
+396
+00:30:24,340 --> 00:30:29,440
+cazzo. Server di cosa? Server deve essere seguito
+
+397
+00:30:29,540 --> 00:30:32,840
+dall'altra parola, si chiamano server perché forniscono servizi.
+
+398
+00:30:34,580 --> 00:30:37,340
+E quindi server di cosa? Che tipo di
+
+399
+00:30:37,340 --> 00:30:40,560
+servizi? Web server e in effetti a Pace
+
+400
+00:30:40,560 --> 00:30:43,520
+viene detto un server web ma anche questo
+
+401
+00:30:44,180 --> 00:30:51,020
+che significa web? Siti web? No pagina web
+
+402
+00:30:52,520 --> 00:30:56,920
+no il server web come funziona? Dovete ricordare
+
+403
+00:30:56,920 --> 00:31:00,100
+la navigazione, come avviene la navigazione? Te la
+
+404
+00:31:00,100 --> 00:31:06,980
+faccio vedere, ok sto navigando, come avviene la
+
+405
+00:31:07,800 --> 00:31:11,630
+navigazione? Mi connetto al server web? Un clic
+
+406
+00:31:11,630 --> 00:31:18,640
+su di ah ok, proprio così appg appg
+
+407
+00:31:20,220 --> 00:31:23,660
+quella è la navigazione un clic oppure un
+
+408
+00:31:23,660 --> 00:31:26,640
+clic sul pulsante quando io faccio una compilazione
+
+409
+00:31:26,780 --> 00:31:31,600
+di una folder una post e lì quando
+
+410
+00:31:31,600 --> 00:31:36,780
+faccio click per capire il senso di quel
+
+411
+00:31:36,780 --> 00:31:41,520
+click, vado a vedere, dietro un click, dietro
+
+412
+00:31:41,520 --> 00:31:46,620
+un click c'è un href href significa appunto
+
+413
+00:31:46,620 --> 00:31:48,820
+il riferimento, un link, sì ma come è
+
+414
+00:31:48,820 --> 00:31:53,760
+fatto quel link? Se tu guardi come è
+
+415
+00:31:53,760 --> 00:31:56,680
+fatto quel link ti rendi conto che tu
+
+416
+00:31:56,680 --> 00:32:02,220
+stai chiedendo la pagina oppure stai lanciando un'applicazione
+
+417
+00:32:04,060 --> 00:32:06,300
+quindi il punto di lancio di un'applicazione è
+
+418
+00:32:06,300 --> 00:32:09,920
+il click così si naviga, il problema è,
+
+419
+00:32:09,920 --> 00:32:13,220
+ho fatto click, ti chiedo la pagina, poi
+
+420
+00:32:13,220 --> 00:32:16,700
+mi arriva chi me la spedita? Non si
+
+421
+00:32:16,700 --> 00:32:21,720
+serve? E se non c'è? E se non
+
+422
+00:32:21,720 --> 00:32:26,220
+c'è? E ti dà il codice d'errore? E
+
+423
+00:32:26,220 --> 00:32:28,820
+quella è un'altra pagina. Lui ha andato a
+
+424
+00:32:28,820 --> 00:32:31,160
+controllarla, ha verificato che non c'è niente. Sì,
+
+425
+00:32:31,160 --> 00:32:34,940
+ti sto dicendo, dovete essere lenti in informatica.
+
+426
+00:32:35,340 --> 00:32:37,940
+E lenti significa seguire passo passo tutto il
+
+427
+00:32:37,940 --> 00:32:42,420
+percorso che fa quel click, perché sennò siamo
+
+428
+00:32:42,420 --> 00:32:50,760
+talmente veloci. Siamo presuntuosi noi esseri umani, faccio
+
+429
+00:32:50,760 --> 00:32:55,640
+il click, seguo tutto quanto alla filiera noi
+
+430
+00:32:55,640 --> 00:32:59,380
+istantivamente faccio click vedo la pagina e mi
+
+431
+00:32:59,380 --> 00:33:03,000
+salta tutte le prezzi in mezzo parte, c'è
+
+432
+00:33:03,000 --> 00:33:06,660
+il server controlla, attenzione questa macchina è collegata
+
+433
+00:33:06,660 --> 00:33:11,800
+ad un server web, la pagina che gli
+
+434
+00:33:11,800 --> 00:33:14,960
+sto chiedendo potrebbe non averla e si annuncia
+
+435
+00:33:15,400 --> 00:33:21,960
+la pagina? Ci dà il codice d'errore? No,
+
+436
+00:33:22,700 --> 00:33:27,120
+gira la richiesta a qualche altro server e
+
+437
+00:33:27,120 --> 00:33:31,300
+qui è inclusi Navigliel e lì perché può
+
+438
+00:33:31,300 --> 00:33:33,260
+essere che questo server che è quello che
+
+439
+00:33:33,260 --> 00:33:39,600
+ha queste pagine è negli Stati Uniti server,
+
+440
+00:33:39,600 --> 00:33:42,940
+chiama server, chiama server, chiama server, vi navigui
+
+441
+00:33:43,780 --> 00:33:48,060
+questo è un tipo di navigazione, una visione
+
+442
+00:33:48,060 --> 00:33:51,280
+della navigazione Ogni server restituisce a chi gli
+
+443
+00:33:51,280 --> 00:33:53,940
+ha fatto la richiesta. Tipo una call stack
+
+444
+00:33:53,940 --> 00:33:58,040
+fondamentalmente. Sì, alla fine praticamente chi dovrà ricevere
+
+445
+00:33:58,260 --> 00:34:03,260
+tutto siamo noi. E vediamo, siamo noi che
+
+446
+00:34:03,260 --> 00:34:05,820
+abbiamo bisogno. È come se avesse fatto una
+
+447
+00:34:05,820 --> 00:34:13,320
+chiamata e... Ok, linguaggio tecnico, server, web, server,
+
+448
+00:34:13,580 --> 00:34:18,320
+HTTP. Questa è la definizione più corretta e
+
+449
+00:34:18,320 --> 00:34:21,300
+più tecnica. Se ne parlo col popolino mi
+
+450
+00:34:21,300 --> 00:34:24,520
+sputa in faccia se dico servo al web
+
+451
+00:34:26,139 --> 00:34:27,500
+e poi gli dico quello che mi dà
+
+452
+00:34:27,500 --> 00:34:32,020
+le pagine per forza non è che puoi
+
+453
+00:34:32,020 --> 00:34:36,100
+fare lo splendido con la gente certo, certo
+
+454
+00:34:36,100 --> 00:34:37,380
+però dal punto di vista tecnico, se è
+
+455
+00:34:37,380 --> 00:34:40,560
+la retcettivo HTTP, e cosa è HTTP? Protocollo,
+
+456
+00:34:40,659 --> 00:34:43,750
+e come funziona il protocollo? E voi? Non
+
+457
+00:34:43,750 --> 00:34:48,219
+lo sapete e non lo saprete mai non
+
+458
+00:34:48,219 --> 00:34:51,659
+lo saprete mai per cui cercherò di fare
+
+459
+00:34:51,659 --> 00:34:54,060
+un pochino di HTTP perché come cazzo fa
+
+460
+00:34:54,060 --> 00:34:57,080
+gli scrivono a sviluppare un'app che usa HTTP
+
+461
+00:34:57,120 --> 00:35:02,840
+senza conoscere l'HTTP? Si vive anche senza? È
+
+462
+00:35:02,840 --> 00:35:05,920
+chiaro? E quindi discorso dei programmi che state
+
+463
+00:35:05,920 --> 00:35:14,300
+facendo e l'app di TTP viene posizionato per
+
+464
+00:35:14,300 --> 00:35:20,180
+quinto livello l'applicazione è sul sesto livello ma
+
+465
+00:35:20,180 --> 00:35:20,420
+sono sette infatti L'applicazione è successo, ma sono
+
+466
+00:35:20,420 --> 00:35:25,160
+sette, infatti. La pila... 5, 6, 7 sono
+
+467
+00:35:25,160 --> 00:35:30,200
+tutte tre. La pila... Isoosi. Isoosi è solamente
+
+468
+00:35:30,200 --> 00:35:34,460
+teorica? Sì. O c'è la pila internet che
+
+469
+00:35:34,460 --> 00:35:36,660
+è quella de facto, che non è legale?
+
+470
+00:35:36,660 --> 00:35:43,520
+La TCP. La TCP. 2? 2. Solo 2.
+
+471
+00:35:43,520 --> 00:35:47,800
+Ecco perché si chiama TCP. IP. E poi
+
+472
+00:35:47,800 --> 00:35:51,460
+andiamo. La giovane donna sbaglia anche in segnarci,
+
+473
+00:35:51,460 --> 00:35:53,140
+ma per il CENETO 4 livelli. Noi lo
+
+474
+00:35:53,140 --> 00:35:57,540
+sappiamo con 4 livelli. Si e no. Non
+
+475
+00:35:57,540 --> 00:36:03,720
+sono 3. Applicazione, allora, trasporto. Rete host, rete.
+
+476
+00:36:04,080 --> 00:36:09,520
+Si e no. Tsp. Possiamo anche forzare. Forza
+
+477
+00:36:09,520 --> 00:36:10,400
+e capita. Possiamo anche forzare. Si e no!
+
+478
+00:36:10,400 --> 00:36:12,200
+Possiamo anche forzare, si e no! Possiamo anche
+
+479
+00:36:12,200 --> 00:36:15,120
+forzare, si e no! Affettivamente, trasporto e rete
+
+480
+00:36:15,120 --> 00:36:17,520
+fanno più o meno la stessa cosa. Cioè,
+
+481
+00:36:17,520 --> 00:36:19,900
+dal punto di vista scolastico posso anche dire
+
+482
+00:36:19,900 --> 00:36:28,180
+4, però sto tirando dentro lo strato fisico,
+
+483
+00:36:30,180 --> 00:36:36,140
+poi tirando dentro lo strato link e quello
+
+484
+00:36:36,140 --> 00:36:38,360
+che vi ho detto, fatele bene queste cose
+
+485
+00:36:39,280 --> 00:36:40,580
+se di fatto io ne sto rompendo I
+
+486
+00:36:40,580 --> 00:36:44,460
+coglioni ma... Decidere il protocollo da usare è
+
+487
+00:36:44,460 --> 00:36:46,860
+la rete naturalmente questi sono I due fattori
+
+488
+00:36:47,240 --> 00:36:51,080
+utili della viva? Allora la rete mi serve
+
+489
+00:36:51,080 --> 00:36:57,000
+per l'IP e poi ci sono ovviamente come
+
+490
+00:36:57,000 --> 00:37:01,340
+funzionano la cosa più importante è che il
+
+491
+00:37:01,340 --> 00:37:09,220
+TCP mi dà l'illusione di comunicare direttamente, perché
+
+492
+00:37:09,220 --> 00:37:11,440
+la connessione io non la faccio, cioè se
+
+493
+00:37:11,440 --> 00:37:15,480
+io devo chiamarti la faccio con te, appena
+
+494
+00:37:15,480 --> 00:37:18,920
+scendo di livello la comunicazione io non la
+
+495
+00:37:18,920 --> 00:37:21,040
+faccio direttamente col tuo computer, la faccio con
+
+496
+00:37:21,040 --> 00:37:24,220
+quello accanto, il quale la fa con quello
+
+497
+00:37:24,220 --> 00:37:29,340
+accanto, fino a quando tutta la catena si
+
+498
+00:37:31,100 --> 00:37:34,540
+è completata e è raggiunta a te, quindi
+
+499
+00:37:34,540 --> 00:37:36,440
+prima si forma la catena, quindi faccio una
+
+500
+00:37:36,440 --> 00:37:39,900
+serie di chiamate al vicino. E tu guarda
+
+501
+00:37:40,100 --> 00:37:43,500
+sei dove sta? C'è questa righefta, non sono
+
+502
+00:37:43,500 --> 00:37:50,580
+io, Poi lì ci sono le revoche di
+
+503
+00:37:50,580 --> 00:37:55,400
+protocollo che puoi dire. C'è il monte dietro.
+
+504
+00:37:55,400 --> 00:38:01,620
+Molto semplice, molto semplice. Ecco perché l'informatica non
+
+505
+00:38:01,620 --> 00:38:07,580
+mente. Se tu sei identificato, io sono identificato,
+
+506
+00:38:07,760 --> 00:38:11,020
+ma neanche le poste italiane il nostro indirizzo
+
+507
+00:38:11,040 --> 00:38:13,820
+per le poste italiane quello è non è
+
+508
+00:38:13,820 --> 00:38:15,600
+che dici che lo cambi? Cioè quello è
+
+509
+00:38:15,600 --> 00:38:21,380
+quello se ti deve arrivare una lettera tu
+
+510
+00:38:21,380 --> 00:38:24,920
+sei identificato attraverso l'indirizzo quindi tu sei la
+
+511
+00:38:24,920 --> 00:38:33,020
+macchina ip 192 162 eccetera eccetera quindi che
+
+512
+00:38:33,020 --> 00:38:37,180
+significa? Se ti arriva una lettera che non
+
+513
+00:38:37,180 --> 00:38:42,380
+è 192 162 5 41 e viene fuori
+
+514
+00:38:42,380 --> 00:38:52,720
+un 184 171 eccetera eccetera...tu macchina onesta...cioche non
+
+515
+00:38:52,720 --> 00:38:52,800
+è per me... 171 punto eccetera eccetera tu
+
+516
+00:38:52,800 --> 00:38:53,220
+macchina onesta dici ok non è per me,
+
+517
+00:38:53,220 --> 00:38:58,380
+la giro mi è piaciuto questo appunto macchina
+
+518
+00:38:58,380 --> 00:39:01,960
+onesta macchina onesta, si, perchè quello che sniffa
+
+519
+00:39:02,080 --> 00:39:05,860
+che loro credito no, chiaramente si limita, semplicemente
+
+520
+00:39:06,060 --> 00:39:09,240
+dino ok ok, io sono questo quello che
+
+521
+00:39:09,240 --> 00:39:11,820
+mi sta arrivando non è per me, non
+
+522
+00:39:11,820 --> 00:39:16,460
+è per me, la giro basta e quindi
+
+523
+00:39:16,460 --> 00:39:20,920
+si attiva, si innesca tutto questo percorso di
+
+524
+00:39:20,920 --> 00:39:25,980
+ricerca della macchina è chiaro, lo sento di
+
+525
+00:39:25,980 --> 00:39:29,700
+fico, perché poi ci sono ovviamente le tabere
+
+526
+00:39:29,700 --> 00:39:33,900
+di stradamento perché poi non è che poi
+
+527
+00:39:33,900 --> 00:39:37,840
+lui conosce il percorso poi spedisce a tutti
+
+528
+00:39:37,920 --> 00:39:42,420
+cioè attraverso le porte parte la richiesta e
+
+529
+00:39:42,420 --> 00:39:47,360
+poi chi la deve prendere la prende Una
+
+530
+00:39:47,360 --> 00:39:50,220
+volta che hai stabilito la connessione hai già
+
+531
+00:39:50,220 --> 00:39:52,940
+definito tutto quanto il percorso, cioè la traccia,
+
+532
+00:39:53,140 --> 00:39:56,880
+ok conosci il canale, cosa molto importante è
+
+533
+00:39:56,880 --> 00:40:00,800
+il ping. Infatti col ping cosa ti dice
+
+534
+00:40:00,800 --> 00:40:05,180
+anche gli hop? Si, se fai il race.
+
+535
+00:40:07,140 --> 00:40:09,440
+Quindi una volta che parte il ping già
+
+536
+00:40:09,440 --> 00:40:18,620
+quello c'è un tracciamento del percorso però stiamo
+
+537
+00:40:18,620 --> 00:40:21,900
+lavorando e poi salgo di livello e poi
+
+538
+00:40:21,900 --> 00:40:30,880
+mi trovo l'HTTP sul lac apache, htp filezilla,
+
+539
+00:40:31,620 --> 00:40:36,900
+il server non è htp, è ftp FTP?
+
+540
+00:40:38,300 --> 00:40:40,680
+Sì, ma FTP se vai a fare una
+
+541
+00:40:40,680 --> 00:40:44,720
+cronia o fai il transfer al protocol. Fai
+
+542
+00:40:44,720 --> 00:40:47,460
+un altro protocol per fare il transferimento fine.
+
+543
+00:40:47,460 --> 00:40:57,980
+FSMFP? No, FTP L'ho già sentito però quello
+
+544
+00:40:57,980 --> 00:41:04,840
+FSMTP Simple Mail No quello SMTP Simple Mail
+
+545
+00:41:04,840 --> 00:41:06,140
+Transfer L'SMTP quello invece è un server di
+
+546
+00:41:06,140 --> 00:41:09,340
+poste Si di poste, Simple Mail Transfer Proto
+
+547
+00:41:09,560 --> 00:41:11,720
+E allora qual è la differenza tra smtp
+
+548
+00:41:12,060 --> 00:41:18,040
+e pop3? Pop3 non è un protocol, pop3
+
+549
+00:41:18,040 --> 00:41:21,880
+è un protocol C'è un protocoli di postal
+
+550
+00:41:22,640 --> 00:41:28,113
+Allì ci sono due protocoli I server comunicano,
+
+551
+00:41:28,176 --> 00:41:32,618
+perché? Devo spedire una mail, ok? Non è
+
+552
+00:41:32,681 --> 00:41:36,400
+per me, è per qualcun altro, e quindi
+
+553
+00:41:36,400 --> 00:41:39,180
+chiaramente ci sono delle cose di comunicazione poi
+
+554
+00:41:39,180 --> 00:41:41,980
+c'è la comunicazione tra utente finale e il
+
+555
+00:41:41,980 --> 00:41:49,560
+mio server il POP3 un altro protocollo ufficio
+
+556
+00:41:49,560 --> 00:41:54,660
+al costale Se io volevo mandare una lettera
+
+557
+00:41:54,680 --> 00:41:57,740
+a te, scrivo la lettera e la metto
+
+558
+00:41:57,740 --> 00:42:01,480
+nella chersetta delle lettere. Quindi la regola di
+
+559
+00:42:01,480 --> 00:42:05,920
+comunicazione avviene tra me e l'ufficio postale della
+
+560
+00:42:05,920 --> 00:42:10,160
+mia città e come faccio a comunicare? Passando
+
+561
+00:42:10,160 --> 00:42:15,560
+attraverso il punto di raccolta delle lettere. Lui
+
+562
+00:42:15,560 --> 00:42:19,500
+cosa fa in pratica? Lui riceve la mia
+
+563
+00:42:19,500 --> 00:42:25,860
+lettera quindi io non parlo con lo servizio
+
+564
+00:42:26,120 --> 00:42:30,380
+postale del destinatario che sta in un altro
+
+565
+00:42:30,380 --> 00:42:34,780
+paese del mondo, parlo col mio. Quindi ognuno
+
+566
+00:42:34,780 --> 00:42:39,640
+ha le sue regole di comunicazione. Cliente, ufficio
+
+567
+00:42:39,640 --> 00:42:45,340
+costante, raccolta lettere, le raccoglie, dopodiché che smistra?
+
+568
+00:42:45,400 --> 00:42:50,100
+Fu. Parte l'aereo, parte il treno, parte il
+
+569
+00:42:50,100 --> 00:42:52,497
+calesse, parte la dirigenza. Io non so. Parte
+
+570
+00:42:52,497 --> 00:42:53,033
+l'aereo, il treno, il calesse, la divigenza... Io
+
+571
+00:42:53,033 --> 00:42:59,660
+non so però ci vuole ovviamente un'infrastruttura che
+
+572
+00:42:59,660 --> 00:43:02,380
+fa partire con le lettere un altro protocollo,
+
+573
+00:43:02,600 --> 00:43:06,300
+il secondo protocollo il primo tramette il secondo
+
+574
+00:43:06,300 --> 00:43:10,580
+trattette si, c'era un testo tra l'ufficio postale
+
+575
+00:43:10,580 --> 00:43:16,420
+e il destinatario si, si, si, in questo
+
+576
+00:43:16,420 --> 00:43:20,700
+caso praticamente quando io accedo al mio server
+
+577
+00:43:20,700 --> 00:43:24,340
+e il server dice ok un po' come
+
+578
+00:43:24,340 --> 00:43:29,240
+le cassette le cassette postali no? Dice ok
+
+579
+00:43:30,120 --> 00:43:34,080
+c'è posto per te, te lo scarichi. Esatto.
+
+580
+00:43:34,560 --> 00:43:38,960
+E quindi c'è una legola per consegnare le
+
+581
+00:43:38,960 --> 00:43:42,440
+lettere, un'altra legola per il C.R. Tipo ti
+
+582
+00:43:42,440 --> 00:43:46,040
+parte il postino. Non c'è il postino che
+
+583
+00:43:47,040 --> 00:43:50,260
+ritira la lettere. C'è il punto di raccolta.
+
+584
+00:43:51,040 --> 00:43:53,960
+Ma c'è il postino che consegna. Dove? Due
+
+585
+00:43:53,960 --> 00:43:57,720
+rovollini verdi. C'è due rovollini verdi. E il
+
+586
+00:43:57,720 --> 00:44:00,260
+postino non è quello che prende la posta,
+
+587
+00:44:00,720 --> 00:44:03,360
+cioè prende la lettera e ba nell'altro paese
+
+588
+00:44:04,920 --> 00:44:08,940
+e il punto, il ciccio postale consegna. Rimane
+
+589
+00:44:08,940 --> 00:44:11,520
+interno? E' quello un altro protocollo, il secondo
+
+590
+00:44:11,520 --> 00:44:16,240
+protocollo. L'abbiamo visto comunque nella pila TCP-P perché
+
+591
+00:44:16,240 --> 00:44:21,900
+ogni livello l'informazione raccoglie dati, dati che sono
+
+592
+00:44:21,900 --> 00:44:24,940
+ritornati da una fisica di discorso. L'esempio che
+
+593
+00:44:24,940 --> 00:44:29,520
+ti sta facendo ricostruire quella cosa? Il discorso
+
+594
+00:44:29,580 --> 00:44:34,460
+è per capire certe cose, Per capire certe
+
+595
+00:44:34,460 --> 00:44:39,200
+cose, di vedere anche degli esempi significativi, sennò
+
+596
+00:44:40,240 --> 00:44:42,900
+hai una nozione teorica. Infatti gli ho fatto
+
+597
+00:44:42,900 --> 00:44:45,700
+ripetere 14 volte le lezioni sulle lezioni. Mi
+
+598
+00:44:45,700 --> 00:44:50,140
+schiaccia per loro sui layer di isosi io
+
+599
+00:44:50,140 --> 00:44:54,420
+questo sto parlando di orizzontale FTP, per esperimento
+
+600
+00:44:54,580 --> 00:45:02,800
+file, altre regole domanda, tre produttori FTP, FTP,
+
+601
+00:45:03,720 --> 00:45:09,440
+SMTP, oppure POG3, SMTP in questo caso, perché
+
+602
+00:45:09,440 --> 00:45:14,760
+serve? A che stessa stanza? A quale livello?
+
+603
+00:45:15,200 --> 00:45:21,980
+Dove vedo immaginare? Applicativo, res, mtp e poi
+
+604
+00:45:23,760 --> 00:45:34,120
+forse il trasporto dove si appoggia? Htp dove
+
+605
+00:45:34,120 --> 00:45:39,700
+si appoggia? Op3 dove si appoggia? Smtp dove
+
+606
+00:45:39,700 --> 00:45:46,980
+si appogge? FTP dove si appogge? Tutti su
+
+607
+00:45:46,980 --> 00:45:55,206
+transport tren pop3 che sfrutta l'Http se faccio
+
+608
+00:45:55,206 --> 00:45:55,580
+un collegamento Tutti su transport Tranne, il pop3
+
+609
+00:45:55,580 --> 00:45:56,480
+che sfrutta la KTTP se faccio un collegamento
+
+610
+00:45:58,680 --> 00:46:01,260
+Se uso un client, sì, però passo sempre
+
+611
+00:46:01,260 --> 00:46:05,080
+dalla KTTP Perché ci sono... Nel momento in
+
+612
+00:46:05,080 --> 00:46:08,280
+cui io vedo una pagina web lì significa
+
+613
+00:46:08,340 --> 00:46:12,580
+c'è la HTTP poi a questo punto mi
+
+614
+00:46:12,580 --> 00:46:18,660
+nascondono mi nascondono cosa c'è nel browser? Il
+
+615
+00:46:18,660 --> 00:46:21,460
+browser non è solo HTTP, puoi anche fare
+
+616
+00:46:21,460 --> 00:46:31,320
+una richiesta FTP, basta, si? Te lo dice
+
+617
+00:46:31,320 --> 00:46:36,460
+questo, Http significa voglio lavorare con il protocollo
+
+618
+00:46:36,460 --> 00:46:40,660
+Http, se voglio un Fttp ci scrivo Fttp
+
+619
+00:46:42,740 --> 00:46:45,420
+e quindi scrivo due cose, ogni metto un
+
+620
+00:46:45,420 --> 00:46:49,820
+nome, ogni metto un IP, quindi parte con
+
+621
+00:46:49,820 --> 00:46:55,980
+le regole dell'FTP. Dico le cose, il discorso
+
+622
+00:46:56,000 --> 00:46:59,120
+è, prestare attenzione a quello che succede, presenza
+
+623
+00:46:59,120 --> 00:47:03,080
+e assenza della S, ha un significato ben
+
+624
+00:47:03,080 --> 00:47:09,000
+preciso, sicurezza se non c'è quella S tutto
+
+625
+00:47:09,000 --> 00:47:12,320
+il traffico è in chiaro io sono in
+
+626
+00:47:12,320 --> 00:47:15,680
+mezzo e ti spio o la S quando
+
+627
+00:47:15,680 --> 00:47:19,080
+parte è tutto griptato io ti spio, prendo
+
+628
+00:47:19,080 --> 00:47:21,540
+tutto ma non capisco niente a meno che
+
+629
+00:47:21,540 --> 00:47:27,820
+non c'è la chiave giusta che si chiamano
+
+630
+00:47:27,820 --> 00:47:33,380
+I certificati? Sarebbe bello vederlo noi come lo
+
+631
+00:47:33,380 --> 00:47:38,260
+vedi? Cioè alla fine è tutto... Sbagliato chiedilo
+
+632
+00:47:38,260 --> 00:47:42,940
+a cosa facci un esempio di certificato semplice
+
+633
+00:47:42,940 --> 00:47:48,420
+esempio chiavi a synchrone di questi due che
+
+634
+00:47:48,420 --> 00:47:53,360
+potenze sono costruttiva non per che ai doni
+
+635
+00:47:54,680 --> 00:47:57,600
+a fatiti perso e se vuol dire Chiavi
+
+636
+00:47:57,600 --> 00:47:57,680
+a sincrono? Hypertext? No ma le chiavi sono
+
+637
+00:47:57,680 --> 00:47:57,760
+a sincrono? Sono chiavi a sincrono? A fatiti
+
+638
+00:47:57,760 --> 00:47:59,580
+I test E se vuol dire secure? Si
+
+639
+00:47:59,580 --> 00:48:01,580
+ma le chiavi, io ho le chiavi private
+
+640
+00:48:01,580 --> 00:48:03,460
+e c'è anche una coppia con il discorso
+
+641
+00:48:03,480 --> 00:48:08,160
+di... Non lo sai? No, non lo so
+
+642
+00:48:08,160 --> 00:48:15,030
+allora, ci proviamo ah, è vero, a diventare
+
+643
+00:48:15,030 --> 00:48:16,610
+vai e ci vediamo alla prossima!
