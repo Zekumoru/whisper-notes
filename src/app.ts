@@ -3,7 +3,7 @@ import { createClient } from '@deepgram/sdk';
 import { srt } from '@deepgram/captions';
 import fs from 'fs/promises';
 import path from 'path';
-import logger from './logger';
+import logger from './utils/logger';
 import asyncErrorHandler from './utils/asyncErrorHandler';
 
 const deepgram = createClient(process.env.DEEPGRAM_API_KEY);
