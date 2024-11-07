@@ -1,0 +1,2343 @@
+1
+00:00:00,160 --> 00:00:07,180
+Se c'è valutare poi come impostare la soluzione
+
+2
+00:00:07,839 --> 00:00:11,139
+se vogliamo che sia soltanto l'oggetto se soltanto
+
+3
+00:00:11,200 --> 00:00:13,840
+l'oggetto a questo punto è chiaro che gli
+
+4
+00:00:13,840 --> 00:00:17,215
+dici ok lo tengo ogni volta che creo
+
+5
+00:00:17,215 --> 00:00:22,275
+un applicazione che bisogno di un gestore di
+
+6
+00:00:22,975 --> 00:00:28,275
+prenotazione a questo punto utilizzo il mio oggetto
+
+7
+00:00:29,660 --> 00:00:35,740
+quindi come anche c'è anche il gestore gestore
+
+8
+00:00:35,740 --> 00:00:41,260
+di account per la registrazione e la gestione
+
+9
+00:00:41,260 --> 00:00:46,595
+degli account però ci vuole diventare? Intanto devo
+
+10
+00:00:46,595 --> 00:00:48,675
+impostare l'applicazione che fa tutta una serie di
+
+11
+00:00:48,675 --> 00:00:53,255
+controlli chiaro che gli do semplicemente dei dati
+
+12
+00:00:54,915 --> 00:00:58,570
+di testo poi è chiaro se devo andare
+
+13
+00:00:58,570 --> 00:01:02,730
+a prelevare ovviamente se gli metto già la
+
+14
+00:01:02,730 --> 00:01:04,750
+banca dati già gli devo segnare il nome
+
+15
+00:01:06,330 --> 00:01:08,409
+e quindi quella è una parte del codice
+
+16
+00:01:08,409 --> 00:01:11,415
+che va sviluppata separatamente devi dare un nome
+
+17
+00:01:11,415 --> 00:01:13,975
+da un database devi dare delle regole di
+
+18
+00:01:13,975 --> 00:01:16,935
+connessione al database se non lo conosci se
+
+19
+00:01:16,935 --> 00:01:21,075
+no poi vincoli tutto alla presenza di quella
+
+20
+00:01:22,055 --> 00:01:24,780
+di quei particolari dati in questo caso tu
+
+21
+00:01:24,780 --> 00:01:27,040
+gli dai un dato di prova di test
+
+22
+00:01:27,420 --> 00:01:31,020
+memorizzato all'interno di una variabile come un'assegnazione con
+
+23
+00:01:31,020 --> 00:01:35,900
+la costante che poi diventerà variabile giusto per
+
+24
+00:01:35,900 --> 00:01:44,221
+testare tutte le operazioni Anche, anche Sì, così
+
+25
+00:01:44,274 --> 00:01:46,915
+Io trovo più comodo I file perché Ma
+
+26
+00:01:46,915 --> 00:01:48,515
+per quel tipo di situazione può essere proprio
+
+27
+00:01:48,515 --> 00:01:51,440
+magari più utile proprio per quel file. Ma
+
+28
+00:01:51,440 --> 00:01:53,235
+anche per fare le prove, perché nel file
+
+29
+00:01:53,235 --> 00:02:28,600
+mi sbatto A me hai fatto fare il
+
+30
+00:02:28,600 --> 00:02:32,840
+ripasso degli tiratori. Sì, queste erano le cose
+
+31
+00:02:32,840 --> 00:02:51,820
+quando No, perché poi avevo detto, avevo intenzione
+
+32
+00:02:51,820 --> 00:02:55,340
+di fare venerdì li incontro, no? Sì, ma
+
+33
+00:02:55,340 --> 00:03:02,220
+avevo pensato di farla per giovedì, la terza
+
+34
+00:03:02,220 --> 00:03:08,035
+deve fare la verifica perché volevo I tre
+
+35
+00:03:08,035 --> 00:03:13,815
+programmatori e poi magari mettere a disposizione il
+
+36
+00:03:13,875 --> 00:03:17,849
+mio tempo e farlo venire perché se lo
+
+37
+00:03:17,849 --> 00:03:20,030
+deve venire è chiaro che deve trovare qualcuno.
+
+38
+00:03:20,650 --> 00:03:25,549
+Si arriva, ciao un'altra Action. Ci saranno due
+
+39
+00:03:26,010 --> 00:03:29,790
+incontri: uno quello che faremo in maniera ristretta
+
+40
+00:03:30,745 --> 00:03:34,665
+diciamo è più tecnica perché lui interessato anche
+
+41
+00:03:34,665 --> 00:03:38,765
+alla parte tecnica e poi c'è la parte
+
+42
+00:03:38,825 --> 00:03:42,265
+a questo punto relativa agli argomenti di cui
+
+43
+00:03:42,265 --> 00:03:49,180
+si stanno occupando loro è una setup quindi
+
+44
+00:03:49,879 --> 00:03:52,360
+diciamo che per certi versi è chiaro in
+
+45
+00:03:52,360 --> 00:03:54,519
+quanto è startup o fare dei servizi di
+
+46
+00:03:54,519 --> 00:03:58,519
+formazione certo tipo di formazione e si avvale
+
+47
+00:03:58,519 --> 00:04:03,564
+ovviamente anche di software proprietario e software e
+
+48
+00:04:03,784 --> 00:04:09,224
+altri di conseguenza poi chiaramente sono cose che
+
+49
+00:04:09,224 --> 00:05:44,880
+poi si possono distruggere direttamente con loro Gamba
+
+50
+00:05:44,880 --> 00:05:51,280
+tesa? No, lì incessantemente il linguaggio di riferimento
+
+51
+00:05:51,280 --> 00:05:59,165
+del settanta. Quindi cominciare a passare l'attenzione dovremmo
+
+52
+00:05:59,305 --> 00:06:02,745
+sfruttare le sue competenze tecniche perché vedremo il
+
+53
+00:06:02,745 --> 00:06:08,525
+problema dall'interno non dall'esterno e quindi lui sicuramente
+
+54
+00:06:08,865 --> 00:06:11,885
+lui studia per lui però a questo punto
+
+55
+00:06:13,950 --> 00:06:18,290
+può darsi ovviamente delle dritte come poter lavorare
+
+56
+00:06:21,310 --> 00:06:30,315
+quindi può scambiare cifra qua che dite? Adesso
+
+57
+00:06:31,095 --> 00:06:36,075
+ho fatto perché avevo fatto un primo contatto
+
+58
+00:06:37,095 --> 00:06:39,335
+il discorso è non sapevo come si sarebbero
+
+59
+00:06:39,335 --> 00:06:42,760
+comportati gli altri Tipo le indicazioni che avrebbero
+
+60
+00:06:42,760 --> 00:06:49,840
+fornito gli altri sulla linea e quindi cioè
+
+61
+00:06:49,840 --> 00:06:52,680
+la linea che sta seguendo lui sulla carta
+
+62
+00:06:52,680 --> 00:06:57,936
+è perfetta solamente di una carta della serie
+
+63
+00:06:58,110 --> 00:07:05,505
+in questo contesto d'aula con la strategia non
+
+64
+00:07:05,505 --> 00:07:10,169
+porta niente Mi detto qualcosa. Infatti lui concluso
+
+65
+00:07:10,870 --> 00:07:14,790
+il percorso. Le concorrenze di non farle. No
+
+66
+00:07:14,790 --> 00:07:19,995
+assolutamente no. Con loro, con gli altri, tranquillo
+
+67
+00:07:19,995 --> 00:07:22,074
+si fa una verifica li inchioda subito con
+
+68
+00:07:22,074 --> 00:07:26,335
+seno in bianco e li chiudiamo lì non
+
+69
+00:07:26,715 --> 00:07:34,590
+hanno base non c'è scampo sarebbe bello poi
+
+70
+00:07:34,590 --> 00:07:40,110
+due alla settimana troppo pochi ecco perché ritornando
+
+71
+00:07:40,110 --> 00:07:43,710
+al discorso di ieri il discorso è la
+
+72
+00:07:43,710 --> 00:07:48,735
+loro base di conoscenza l'irregolarità nella presenza sono
+
+73
+00:07:49,275 --> 00:07:51,275
+argomenti che le fanno università ma il prete
+
+74
+00:07:51,275 --> 00:07:53,515
+li fanno alla volta e se non ci
+
+75
+00:07:53,515 --> 00:07:57,135
+sei son cazzi tuoi non è che qua
+
+76
+00:07:57,355 --> 00:08:16,625
+sta ripetiamo perché quello non c'è ripetiamo ma
+
+77
+00:08:16,625 --> 00:08:20,625
+da qui non usciamo altro scenario tutti I
+
+78
+00:08:20,625 --> 00:08:24,145
+malati chiamano nella scuola di stato facendo cioè
+
+79
+00:08:24,145 --> 00:08:27,925
+cazzo per Agevo come vi ho sempre detto
+
+80
+00:08:28,225 --> 00:08:35,120
+ci paga dazi quelli che vengono sempre questo
+
+81
+00:08:35,120 --> 00:08:39,600
+è il punto e allora dici va bene
+
+82
+00:08:39,600 --> 00:08:42,080
+provi a diversificare no ma lo faccio io
+
+83
+00:08:42,080 --> 00:08:44,420
+perché c'ho voglia però anch'io poi mi sfinisco
+
+84
+00:08:44,480 --> 00:08:53,095
+perché cambi per uno cambi per l'altro Niente
+
+85
+00:08:53,095 --> 00:08:56,235
+invece ho cercato di immaginare un nuovo scenario
+
+86
+00:08:57,335 --> 00:08:59,975
+il nuovo scenario è quello di cambiare il
+
+87
+00:08:59,975 --> 00:09:02,615
+linguaggio a questo punto per trovare un punto
+
+88
+00:09:02,615 --> 00:09:12,960
+d'incontro con tutti quanti io sarei tentato gli
+
+89
+00:09:12,960 --> 00:09:15,460
+ingredienti per quest'anno è la programmazione ad oggetti
+
+90
+00:09:15,680 --> 00:09:20,495
+quindi ho con qualunque linguaggio quindi praticamente o
+
+91
+00:09:20,495 --> 00:09:24,335
+sapete avete le emozioni della programmazione ad oggetto
+
+92
+00:09:24,335 --> 00:09:26,975
+o se no possiamo cambiare tutti I mali
+
+93
+00:09:26,975 --> 00:09:29,455
+che volete ma non faremo la somma di
+
+94
+00:09:29,455 --> 00:09:35,760
+due numeri dovete costruire prassi, dovete costruire oggetti
+
+95
+00:09:35,760 --> 00:09:38,399
+dovete lavorare con gli oggetti, dovete editare il
+
+96
+00:09:38,399 --> 00:09:43,615
+polimorfismo e poi nella seconda parte dell'anno c'è
+
+97
+00:09:43,615 --> 00:09:48,995
+la parte della programmazione di rete avevo pensato
+
+98
+00:09:49,135 --> 00:09:56,275
+anche di farla adesso, sì il problema lavorare
+
+99
+00:09:56,495 --> 00:10:15,625
+con PHP sappiate distinguere una classe ma lo
+
+100
+00:10:15,625 --> 00:10:21,225
+confondete come progetto comunque vediamo dai mi è
+
+101
+00:10:21,225 --> 00:10:24,745
+venuta un'idea non mi sono preparato nel senso
+
+102
+00:10:24,745 --> 00:10:27,610
+che ho cercato di prepararmi me l'ho detto
+
+103
+00:10:27,610 --> 00:10:29,290
+non sono oddio le cose è chiaro che
+
+104
+00:10:29,290 --> 00:10:33,610
+me le devo preparare e l'idea è quella
+
+105
+00:10:33,610 --> 00:10:39,129
+di spostare l'attenzione su diavolo e basta che
+
+106
+00:10:39,129 --> 00:10:41,629
+c'è successo non l'ho capito non so cos'è
+
+107
+00:11:14,785 --> 00:11:22,065
+Windows control shift B Riavvia I driver tasca
+
+108
+00:11:22,065 --> 00:11:42,065
+la scheda Windows control shift però devi fare
+
+109
+00:11:42,065 --> 00:12:25,680
+anche lo shift Niente da riavviare Mi sa
+
+110
+00:12:25,680 --> 00:12:29,445
+che dal tastino forse si riavvia, Si spegne?
+
+111
+00:13:50,080 --> 00:14:15,560
+Niente quindi a questo punto facciamo No, ricordami
+
+112
+00:14:15,560 --> 00:14:18,600
+l'ultima notizia Pizza due vestitino? Sì, abbiamo fatto
+
+113
+00:14:18,600 --> 00:14:24,745
+le liste monodirezionali e bidirezionali. Poi visto che
+
+114
+00:14:24,745 --> 00:14:27,465
+la gente non si ricordava I puntatori e
+
+115
+00:14:27,865 --> 00:15:45,475
+Perché è scoppiato il divieto. Noi non stiamo
+
+116
+00:15:45,475 --> 00:15:49,014
+facendo un cazzo, stiamo facendo in maniera disordinata,
+
+117
+00:15:49,235 --> 00:15:51,875
+non riesco a tirare, a tirare, cioè a
+
+118
+00:15:51,875 --> 00:15:58,295
+seguire un filo logico. Questa è una cosa
+
+119
+00:15:58,435 --> 00:16:21,135
+continuo Video demo? Minchia, iomo ottomila ottantasei. Scritto
+
+120
+00:16:21,135 --> 00:16:23,215
+un gradino in Assembly. Poi ho detto: Ok,
+
+121
+00:16:23,215 --> 00:17:15,255
+mi scrivi la stessa lezione. Vendete quello dell'anno
+
+122
+00:17:15,255 --> 00:17:22,395
+scorso? Sì. Come me mollato ieri l'anno scorso?
+
+123
+00:17:53,910 --> 00:17:56,470
+Da quanti anni che viene qua? Non lo
+
+124
+00:17:56,470 --> 00:17:58,570
+so, non lo so, me la fa pensare
+
+125
+00:20:15,010 --> 00:20:18,850
+Lo switch? So solo che ci colleghi I
+
+126
+00:20:18,850 --> 00:20:24,210
+computer in LAN e BUS. Fa da collegamento
+
+127
+00:20:24,210 --> 00:20:29,455
+per tutti gli End Device. No, io ve
+
+128
+00:20:29,455 --> 00:20:32,815
+lo dico se avete voglia. Andate a vedere
+
+129
+00:20:32,815 --> 00:20:35,455
+praticamente qual è la differenza tra hub e
+
+130
+00:20:35,455 --> 00:20:44,770
+switch e router. Perché l'hub è passivo lo
+
+131
+00:20:45,070 --> 00:20:52,590
+switch è attivo perché lavora nel modulo di
+
+132
+00:20:52,590 --> 00:20:56,635
+link quindi è al secondo livello il router
+
+133
+00:20:56,635 --> 00:21:00,735
+lavora a terzo livello a livello di p
+
+134
+00:21:01,355 --> 00:21:11,350
+quindi il discorso dello switch dovete decidere cioè
+
+135
+00:21:11,350 --> 00:21:17,670
+è molto importante che approfondite, fatevelo per fatti
+
+136
+00:21:17,670 --> 00:21:21,515
+vostri però in effetti lo dovete sempre associare
+
+137
+00:21:21,515 --> 00:21:26,115
+a livello link e capire il motivo per
+
+138
+00:21:26,115 --> 00:21:29,315
+cui c'è questa associazione e qual è lo
+
+139
+00:21:29,315 --> 00:21:34,429
+scopo perché sennò parlare di Abu, parlare di
+
+140
+00:21:34,429 --> 00:21:38,030
+Switch e parlare di router è la stessa
+
+141
+00:21:38,030 --> 00:21:40,530
+cosa anche perché le porte sono sempre quelle
+
+142
+00:21:41,789 --> 00:21:45,545
+mi dici va bene allora Quando uso uno
+
+143
+00:21:45,545 --> 00:21:48,825
+quando uso l'altro, quando uso l'altro. In effetti
+
+144
+00:21:48,825 --> 00:21:50,505
+una delle cose che potete fare è andare
+
+145
+00:21:50,505 --> 00:21:53,225
+direttamente lì sfruttando I certotipi di dire che
+
+146
+00:21:53,225 --> 00:21:56,185
+quando mi conviene può usare? Quello che ho
+
+147
+00:21:56,185 --> 00:21:59,220
+capito io è lo switch lo usiamo quando
+
+148
+00:21:59,220 --> 00:22:03,000
+la rete è interna quando dobbiamo andare fuori
+
+149
+00:22:03,340 --> 00:22:15,635
+ci serve il router. Il discorso è cosa
+
+150
+00:22:15,635 --> 00:22:25,475
+significa segmentare? No? Cioè in che termini? Cioè
+
+151
+00:22:25,475 --> 00:22:28,995
+come posso cioè poi va bene io sono
+
+152
+00:22:28,995 --> 00:22:32,240
+abituato a toccare le cose, io voglio vedere
+
+153
+00:22:32,240 --> 00:22:35,300
+il segmento perché questo lo considero un segmento
+
+154
+00:22:35,600 --> 00:22:38,320
+e quello lo considero un altro segmento. Quindi
+
+155
+00:22:38,320 --> 00:22:40,980
+quali sono le caratteristiche che identificano un inseguimento?
+
+156
+00:22:41,440 --> 00:22:44,965
+Penso ad una struttura adatta. Se la premessa
+
+157
+00:22:44,965 --> 00:22:48,645
+è penso, sto facendo delle ipotesi, però il
+
+158
+00:22:48,645 --> 00:22:51,285
+discorso è non so esattamente come stanno le
+
+159
+00:22:51,285 --> 00:22:57,649
+cose. Sì, sì, vero. Ma io ancora Isoosi
+
+160
+00:22:57,789 --> 00:23:03,230
+per me è ancora nebbioso. Cosa? Cos'è il
+
+161
+00:23:03,230 --> 00:23:06,509
+nebbioso? Nebbioso nel senso che il router lavora
+
+162
+00:23:06,509 --> 00:23:09,465
+a livello tre, ok. Cosa vuol dire? Lo
+
+163
+00:23:09,465 --> 00:23:11,465
+switch lavora a livello due, ok. Cosa vuol
+
+164
+00:23:11,465 --> 00:23:18,765
+dire? Ho capito che ci sono sette livelli,
+
+165
+00:23:18,825 --> 00:23:20,505
+ho capito che in realtà poi se ne
+
+166
+00:23:20,505 --> 00:23:23,960
+usano solo quattro, però ho capito che è
+
+167
+00:23:23,960 --> 00:23:28,440
+un parolone. Ti ripeto quello che c'è nel
+
+168
+00:23:28,440 --> 00:23:31,480
+mio cervello e so solo che il primo
+
+169
+00:23:31,480 --> 00:23:34,039
+livello sono I cavi fondamentalmente, cavi e il
+
+170
+00:23:34,039 --> 00:23:43,095
+wireless. Il secondo livello è il MACD. Il
+
+171
+00:23:43,095 --> 00:23:46,615
+Mezzo Trasmissivo. Ok, il Mezzo Trasmissivo. Va bene,
+
+172
+00:23:46,615 --> 00:23:49,274
+meglio ancora. Può essere un cavo che trasmette
+
+173
+00:23:49,975 --> 00:23:55,260
+e quindi chiaramente bisogno di caratteristiche meccaniche tipo
+
+174
+00:23:55,260 --> 00:23:57,920
+per esempio che tipo di materiale che utilizzo
+
+175
+00:24:00,300 --> 00:24:07,175
+il rame? Rame, fibra ottica, oppure uso la
+
+176
+00:24:07,175 --> 00:24:15,275
+fibra oppure uso l'etere PIL senza fili e
+
+177
+00:24:16,615 --> 00:24:20,360
+a questo punto ogni singolo mezzo trasmissivo poi
+
+178
+00:24:20,360 --> 00:24:23,420
+viene identificato e non la codifica viene codificato
+
+179
+00:24:23,480 --> 00:24:30,120
+in un certo modo del tipo come viene
+
+180
+00:24:30,120 --> 00:24:36,075
+identificato e riconosciuto il doppino O il cavo?
+
+181
+00:24:36,855 --> 00:24:41,015
+Come viene identificato la fibra? Va identificato da
+
+182
+00:24:41,015 --> 00:24:43,575
+chi? Il codice di identificazione per dire ok
+
+183
+00:24:43,575 --> 00:24:47,115
+questo è il protocollo che lavora in mezzo
+
+184
+00:24:47,335 --> 00:24:53,610
+è una fibra e quindi sono richieste delle
+
+185
+00:24:53,610 --> 00:24:56,890
+caratteristiche. Anche il tipo di connettore è completamente
+
+186
+00:24:56,890 --> 00:25:02,330
+diverso rispetto. Il connettore con il rame col
+
+187
+00:25:02,330 --> 00:25:06,095
+doppino delle caratteristiche no? C'è una regia quarantacinque
+
+188
+00:25:06,095 --> 00:25:08,195
+e c' il codice R45 già dice vabbè
+
+189
+00:25:09,055 --> 00:25:13,395
+allora dietro c'è c'è un cavo di rete
+
+190
+00:25:13,455 --> 00:25:18,000
+con delle caratteristiche particolari no? Per non parlare
+
+191
+00:25:18,000 --> 00:25:22,240
+ovviamente ma rientriamo nell'elettronica pura nel senso che
+
+192
+00:25:22,240 --> 00:25:25,920
+già I conduttori fanno un condensatore se c'è
+
+193
+00:25:25,920 --> 00:25:29,120
+un condensatore ci sono dispezioni se parlo di
+
+194
+00:25:29,120 --> 00:25:33,635
+luce e c'è riflessione non avrò quel problema
+
+195
+00:25:33,635 --> 00:25:36,995
+però avrò altri problemi che il capo deve
+
+196
+00:25:36,995 --> 00:25:41,315
+essere teso il problema è sulla curva e
+
+197
+00:25:41,315 --> 00:25:45,255
+quindi praticamente li posso avere l'ambitimento di segnale
+
+198
+00:25:47,179 --> 00:25:54,848
+ma sono caratteri questo diciamo è il primo
+
+199
+00:25:55,244 --> 00:25:58,480
+strato? Poi il secondo strato sono il McAdress.
+
+200
+00:25:58,860 --> 00:26:02,845
+I McAdress, sì. Però in che senso sono
+
+201
+00:26:02,845 --> 00:26:05,645
+il secondo strato? Nel senso che prima mi
+
+202
+00:26:05,645 --> 00:26:08,785
+preoccupo su il carattere che utilizzo per trasmettere
+
+203
+00:26:08,924 --> 00:26:12,465
+I dati. E quindi tutte le caratteristiche elettromeccaniche
+
+204
+00:26:12,845 --> 00:26:15,850
+fondamentali. I tipi di connettori, I tipi di
+
+205
+00:26:15,850 --> 00:26:17,870
+capi, I tipi di materiali che viene utilizzato.
+
+206
+00:26:19,290 --> 00:26:23,790
+Una volta che ho stabilito un contatto elettrico
+
+207
+00:26:24,650 --> 00:26:26,570
+a questo punto poi ti devo trasmettere I
+
+208
+00:26:26,570 --> 00:26:30,804
+dati, no? Allora a questo punto a livello
+
+209
+00:26:30,804 --> 00:26:35,924
+di McAdress, a livello di McAdress sicuramente, ma
+
+210
+00:26:35,924 --> 00:26:39,924
+a livello link stiamo parlando, è chiaro che
+
+211
+00:26:39,924 --> 00:26:44,029
+I dati in che formato? Digitale ok Che
+
+212
+00:26:44,029 --> 00:26:48,750
+significa trasmettere un treno di dati? Un treno
+
+213
+00:26:48,750 --> 00:26:55,950
+di bit? Uno, uno, uno, uno? In effetti
+
+214
+00:26:55,950 --> 00:26:58,385
+poi tu a livello di linked ti ritrovi
+
+215
+00:27:00,165 --> 00:27:05,145
+praticamente anche uso il termine in proprio il
+
+216
+00:27:05,485 --> 00:27:11,260
+frame e anche lì il frame deve essere
+
+217
+00:27:11,260 --> 00:27:13,580
+strutturato in un certo modo nel senso che
+
+218
+00:27:13,580 --> 00:27:16,080
+da quel momento cominciano a partire I bit
+
+219
+00:27:16,700 --> 00:27:20,700
+io mi garantisco il collegamento elettromeccanico e a
+
+220
+00:27:20,700 --> 00:27:23,020
+questo punto comincio a trasmettere tutti quanti I
+
+221
+00:27:23,020 --> 00:27:26,585
+dati come sono organizzati in frame come è
+
+222
+00:27:26,585 --> 00:27:30,405
+fatto il freno è strutturato in un certo
+
+223
+00:27:30,405 --> 00:27:32,745
+modo e lì qual è il problema? Nel
+
+224
+00:27:32,745 --> 00:27:35,351
+momento in cui io ti mando un treno
+
+225
+00:27:35,385 --> 00:27:37,705
+di bit un pacchetto di un frame di
+
+226
+00:27:37,705 --> 00:27:41,720
+bit il problema è è ci possono essere
+
+227
+00:27:41,720 --> 00:27:45,320
+delle forme di danneggiamento dei bit allora a
+
+228
+00:27:45,320 --> 00:27:47,879
+questo punto che faccio in pratica? Mi serve
+
+229
+00:27:47,879 --> 00:27:51,080
+uno strumento che mi consente di stabilire se
+
+230
+00:27:51,080 --> 00:27:54,195
+quel frame è corretto o sbagliato ma questo
+
+231
+00:27:54,195 --> 00:27:56,914
+significa che evidentemente in quel frame ci sono
+
+232
+00:27:56,914 --> 00:28:02,995
+dei bit giusti o sbagliati. Allora a questo
+
+233
+00:28:02,995 --> 00:28:05,315
+punto dici va bene qual è lo strumento
+
+234
+00:28:05,315 --> 00:28:08,695
+che mi consente di stabilire I vari codici.
+
+235
+00:28:10,330 --> 00:28:12,809
+Poi ci sono I codici della rilevazione che
+
+236
+00:28:12,809 --> 00:28:16,730
+rilevano l'errore e poi ci sono I codici
+
+237
+00:28:16,730 --> 00:28:24,815
+ad autocorrezione che correggono a questo punto il
+
+238
+00:28:24,815 --> 00:28:28,255
+bit danneggiato lo individuano e poi cercano appunto
+
+239
+00:28:28,255 --> 00:28:33,035
+di intervenire sennò parte la ritrasmissione vedi queste
+
+240
+00:28:33,535 --> 00:28:41,030
+sono tutte regole mi garantisco il collegamento fisico
+
+241
+00:28:41,330 --> 00:28:46,310
+dopodiché lavoro sui frame, vedi bit per me
+
+242
+00:28:47,570 --> 00:28:51,765
+il bit uno è un concetto, è un'astrazione
+
+243
+00:28:51,985 --> 00:28:55,105
+di impulso, io vedo solamente uno. Da quel
+
+244
+00:28:55,105 --> 00:28:56,865
+momento in poi vedo uno, non vedo la
+
+245
+00:28:56,865 --> 00:28:59,985
+corrente elettrica al flusso continuo o l'impulso. Per
+
+246
+00:28:59,985 --> 00:29:03,059
+me è uno 0 0 uno con tutte
+
+247
+00:29:03,059 --> 00:29:07,059
+le conseguenze. E perché il McAdress è su
+
+248
+00:29:07,059 --> 00:29:10,660
+quel livello lì? Perché fa tutto quel tipo
+
+249
+00:29:10,900 --> 00:29:15,140
+Allora l'algoritmo di autocorrezione deve essere implementato da
+
+250
+00:29:15,140 --> 00:29:18,585
+qualche parte. Nel momento in cui tu dici:
+
+251
+00:29:18,585 --> 00:29:21,525
+ok, il frema è così! Bene, io ti
+
+252
+00:29:21,525 --> 00:29:27,205
+metto. Parte dati, parte correzione. L'algoritmo che ti
+
+253
+00:29:27,205 --> 00:29:30,440
+va a fare il controllo deve essere implementato.
+
+254
+00:29:30,820 --> 00:29:35,720
+Dove? A quale livello? Sulla scheda di credito?
+
+255
+00:29:36,179 --> 00:29:39,460
+E' la scheda che chiaramente lui ti fa,
+
+256
+00:29:39,460 --> 00:29:42,500
+è implementato. Quindi non è solo il Mc
+
+257
+00:29:42,500 --> 00:29:49,515
+Address, c'è dell'altro. Il McAdress praticamente il codice
+
+258
+00:29:49,515 --> 00:29:54,015
+di conoscere la scheda, la scheda, ovviamente, anche
+
+259
+00:29:54,955 --> 00:29:59,920
+quella logica. Perchè ti ripeto nel momento in
+
+260
+00:29:59,920 --> 00:30:05,060
+cui devo verificare c'è un codice di autocorrezione,
+
+261
+00:30:05,520 --> 00:30:09,620
+c'è un codice di rilevazione. Si. Dove sta?
+
+262
+00:30:11,684 --> 00:30:15,044
+Okay. Cioè. Ma cosa dire c'è? Ma cosa
+
+263
+00:30:15,044 --> 00:30:18,565
+dire? Sì vabbè okay. C'è? Ma allora evidentemente
+
+264
+00:30:18,565 --> 00:30:20,885
+c'è una circuiteria che fa questo tipo di
+
+265
+00:30:20,885 --> 00:30:26,910
+di dove sta? Sul cavo non sta. I
+
+266
+00:30:26,910 --> 00:30:29,570
+bit sono semplicemente 0 e uno che viaggiano.
+
+267
+00:30:29,950 --> 00:30:32,270
+Beh qualcuno dovrà fare il controllo. Io pensavo
+
+268
+00:30:32,270 --> 00:30:34,770
+fosse al livello più alto. No, è McAdress.
+
+269
+00:30:36,924 --> 00:30:42,205
+Il discorso del CRC. Lì stiamo parlando di
+
+270
+00:30:42,205 --> 00:30:48,465
+link. Chiaro? Poi è chiaro, a seconda poi
+
+271
+00:30:48,605 --> 00:30:53,440
+del tipo, come ti dicevo del tipo di
+
+272
+00:30:53,440 --> 00:30:57,200
+mezzo trasmissivo poi ci sono il riferimento è
+
+273
+00:30:57,200 --> 00:31:05,075
+l'ottocentodue qual è il protocollo dello strato liquido?
+
+274
+00:31:05,075 --> 00:31:13,015
+Ottocentodue. Due. Undici e quell'estensione indica che tipo
+
+275
+00:31:14,755 --> 00:31:19,780
+di mezzo trasmissivo viene utilizzato per trasmettere I
+
+276
+00:31:19,780 --> 00:31:23,220
+dati. Se è fibra, fare un certo tipo
+
+277
+00:31:23,220 --> 00:31:26,660
+di controllo perché ci sarà ovviamente un problema
+
+278
+00:31:26,660 --> 00:31:29,700
+di trasmissione di impulso di luce. Se è
+
+279
+00:31:29,700 --> 00:31:34,915
+rame, ci saranno altri tipi di disturbi. Seggere
+
+280
+00:31:37,695 --> 00:31:43,375
+altri disturbi quindi distorsione ovviamente delle onde e
+
+281
+00:31:43,375 --> 00:31:45,875
+allora a questo punto a seconda del tipo
+
+282
+00:31:46,175 --> 00:31:51,559
+di mezzo io intervengo con un algoritmo che
+
+283
+00:31:51,559 --> 00:31:53,480
+va a fare quel tipo di controllo, cioè
+
+284
+00:31:53,480 --> 00:31:56,039
+che tipo di costrizione posso avere durante la
+
+285
+00:31:56,039 --> 00:32:04,945
+trasmissione via wifi. E tutte quelle caratteristiche vengono
+
+286
+00:32:04,945 --> 00:32:10,945
+sintetizzate dai protocolli ottocentodue. Tutti sono: ottocentodue, punto.
+
+287
+00:32:10,945 --> 00:32:14,225
+Ottocentodue identifica lo strato elettrico. Ok, quindi le
+
+288
+00:32:14,225 --> 00:32:17,600
+CMP è sempre quello a livello due. Il
+
+289
+00:32:18,860 --> 00:32:25,120
+ping. Il ping a livello due. Invece HTTP
+
+290
+00:32:26,140 --> 00:32:35,455
+è solo? Alto li si tratta a questo
+
+291
+00:32:35,455 --> 00:32:38,255
+punto io e te comunichiamo livello link lavora
+
+292
+00:32:38,255 --> 00:32:45,550
+su macchine adiacenti tipo per esempio io voglio
+
+293
+00:32:45,550 --> 00:32:48,270
+comunicare con lui e per quello che devo
+
+294
+00:32:48,270 --> 00:32:50,110
+fare passo da te passo da lui e
+
+295
+00:32:50,110 --> 00:32:54,429
+poi arriva lui attenzione l'ottocentodue con lui non
+
+296
+00:32:54,429 --> 00:32:57,090
+c'entra niente è con me e te ok
+
+297
+00:32:57,725 --> 00:33:00,285
+Quindi tu mi mandi dei dati, io ti
+
+298
+00:33:00,285 --> 00:33:03,205
+spedisco dei dati, tu il controllo? Per quello
+
+299
+00:33:03,205 --> 00:33:09,965
+il router lavoro sul livella. Prima di accettare
+
+300
+00:33:09,965 --> 00:33:12,705
+I dati che io ti sto mettendo tu
+
+301
+00:33:12,950 --> 00:33:15,910
+fai tutta una serie di controlli è chiaro
+
+302
+00:33:15,910 --> 00:33:18,550
+che sulla base di controlli che fai a
+
+303
+00:33:18,550 --> 00:33:21,910
+questo punto tu poi girerai decido se andare
+
+304
+00:33:21,910 --> 00:33:25,445
+di là o di tornare indietro ok E
+
+305
+00:33:25,445 --> 00:33:29,385
+questo lo fa lo fai. L'interazione è importante
+
+306
+00:33:29,845 --> 00:33:31,685
+tipo tiriamo il cavo, io e te dobbiamo
+
+307
+00:33:31,685 --> 00:33:33,925
+comunicare intanto io e te tiriamo il cavo
+
+308
+00:33:33,925 --> 00:33:41,120
+ed è una porzione di rete. La rete
+
+309
+00:33:41,260 --> 00:33:46,140
+è collegare io e te, lui, lui, intanto
+
+310
+00:33:46,140 --> 00:33:50,200
+colleghiamo io e te direttamente. A questo punto
+
+311
+00:33:50,460 --> 00:33:53,100
+I primi tre strati il rapporto è tra
+
+312
+00:33:53,100 --> 00:33:59,085
+me e il mio vicino. Chiaro? Quindi io
+
+313
+00:33:59,085 --> 00:34:02,705
+e te ti mando a livello di elettricamente
+
+314
+00:34:03,005 --> 00:34:06,205
+dobbiamo avere il connettore adeguato e dobbiamo decidere
+
+315
+00:34:06,205 --> 00:34:09,790
+con quale tipo di mezzo trasmissivo se il
+
+316
+00:34:10,130 --> 00:34:15,849
+wifi oppure la fibra oppure il doppino tiriamo
+
+317
+00:34:15,849 --> 00:34:21,550
+il cavo stabiliamo contatto elettrico qui è amperometro
+
+318
+00:34:21,849 --> 00:34:39,370
+EEA questo punto questo qualcosa deve rispettare le
+
+319
+00:34:39,370 --> 00:34:43,930
+regole di formato tipo il frame deve essere
+
+320
+00:34:43,930 --> 00:34:46,730
+strutturato in un certo modo nel frame ci
+
+321
+00:34:46,730 --> 00:34:50,270
+sono informazioni relative ai dati, mittente destinatari sempre
+
+322
+00:34:52,574 --> 00:34:56,175
+dopodiché codice di controllo il problema è chi
+
+323
+00:34:56,175 --> 00:34:59,635
+controlla quel codice ovviamente se siamo in due
+
+324
+00:34:59,855 --> 00:35:01,615
+e io ti mando le cose tu fai
+
+325
+00:35:01,615 --> 00:35:04,095
+il controllo si ma come lo fai? Manila
+
+326
+00:35:04,095 --> 00:35:07,670
+manina? No, con la scheda di rete con
+
+327
+00:35:07,670 --> 00:35:12,330
+l'elettronica può essere ovviamente un algoritmo incrementato attraverso
+
+328
+00:35:12,630 --> 00:35:15,850
+tutta una serie di circuiti cosa c'entra il
+
+329
+00:35:16,310 --> 00:35:25,835
+controllo prenderà il pacchetto separerà separerà praticamente la
+
+330
+00:35:25,835 --> 00:35:31,035
+parte dati dalla parte controllo, verificherà che gli
+
+331
+00:35:31,035 --> 00:35:34,395
+uni e gli zeri sono arrivati tutti e
+
+332
+00:35:34,395 --> 00:35:37,540
+a questo punto tutto è andato a buon
+
+333
+00:35:37,540 --> 00:35:40,020
+fine chi fa questa console? La scheda di
+
+334
+00:35:40,020 --> 00:35:47,780
+rete. La scheda di rete è collegata col
+
+335
+00:35:47,780 --> 00:35:50,995
+suo computer perché se non è collegato con
+
+336
+00:35:50,995 --> 00:35:54,775
+il suo computer, la comunicazione sarà soltanto tramite
+
+337
+00:35:57,875 --> 00:36:00,035
+te. A questo punto poi prenderà il frame
+
+338
+00:36:00,035 --> 00:36:04,890
+e lo spedirà alla macchina a dieci L'altra
+
+339
+00:36:05,109 --> 00:36:07,210
+macchina, farò lo stesso lavoro che hai fatto,
+
+340
+00:36:07,350 --> 00:36:10,390
+verificherà se tutto è arrivato correttamente dopodiché lo
+
+341
+00:36:10,390 --> 00:36:11,930
+manderà a te e poi tu lo manderà
+
+342
+00:36:12,150 --> 00:36:13,910
+a lui e poi lui lo manderà a
+
+343
+00:36:13,910 --> 00:36:15,830
+me. Ok, sto iniziando a capire perché lo
+
+344
+00:36:15,830 --> 00:36:20,994
+switch è a livello due. E' chiaro? Quindi
+
+345
+00:36:20,994 --> 00:36:25,815
+è chiaro che lo switch in base all'indirizzo
+
+346
+00:36:26,115 --> 00:36:28,775
+McCadrets che è la scheda di rete deciderà
+
+347
+00:36:28,915 --> 00:36:33,320
+a chi inviare? Che all'inizio manda tutti poi
+
+348
+00:36:33,320 --> 00:36:37,320
+ricevere le risposte. Tipo puoi capire praticamente la
+
+349
+00:36:37,320 --> 00:36:45,575
+logica di funzionamento gratuita è multi-Multi-Cas. E quindi
+
+350
+00:36:45,575 --> 00:36:48,454
+praticamente sì, fai non saperne leggere di scrivere
+
+351
+00:36:48,454 --> 00:36:50,535
+se non la mappa del gas. Esatto lui
+
+352
+00:36:50,535 --> 00:36:56,775
+manda a tutti. Poi chiedi? Ok. E invece
+
+353
+00:36:56,775 --> 00:37:01,790
+quando devo uscire fuori vado ma anche lì
+
+354
+00:37:04,170 --> 00:37:08,090
+massa perdere quella è un'altra cosa quella è
+
+355
+00:37:08,090 --> 00:37:16,474
+un'altra cosa il discorso è intanto concentratevi sul
+
+356
+00:37:17,015 --> 00:37:20,775
+discorso ottocentodue punto qualcosa specializzate e cioè fate
+
+357
+00:37:20,775 --> 00:37:22,855
+un richiesta direttamente a lui a certi DVD
+
+358
+00:37:22,855 --> 00:37:27,810
+e collegatevi sempre alle fonti perché lui vi
+
+359
+00:37:27,810 --> 00:37:29,730
+darà delle risposte ma se volete fare un
+
+360
+00:37:29,730 --> 00:37:31,890
+approfondimento serio è chiaro che dovete andare sui
+
+361
+00:37:31,890 --> 00:37:34,450
+libri invece che è un pacchetto limitato per
+
+362
+00:37:34,450 --> 00:37:38,210
+tutte le risposte che danno in questo caso
+
+363
+00:37:38,210 --> 00:37:44,865
+è chiaro il nodo, lo switch è chiaro
+
+364
+00:37:45,245 --> 00:37:47,885
+il mio computer non lo collego direttamente con
+
+365
+00:37:47,885 --> 00:37:56,280
+lo switch lo switch e poi spara a
+
+366
+00:37:56,280 --> 00:38:01,880
+tutte quante le macchine e quindi lavorando a
+
+367
+00:38:01,880 --> 00:38:05,240
+livello di link, di frame per lui il
+
+368
+00:38:05,240 --> 00:38:10,575
+IP non esiste Esiste alla scheda diretta. Lui
+
+369
+00:38:11,555 --> 00:38:17,155
+riconosce il Mc Address. Ma non l'IP. Se
+
+370
+00:38:17,155 --> 00:38:20,595
+voglio lavorare con l'IP cambia l'indirizzamento. Perché poi
+
+371
+00:38:20,595 --> 00:38:24,570
+sono le macchine che rispondono all'IP. Perché poi
+
+372
+00:38:24,570 --> 00:38:26,910
+gli arriva al pacchetto e dice ok sono
+
+373
+00:38:28,170 --> 00:38:29,690
+io però la macchina che dice è il
+
+374
+00:38:29,690 --> 00:38:31,370
+mio IP e lo switch non gliene frega
+
+375
+00:38:31,370 --> 00:38:33,290
+un cazzo. No, il switch non sa neanche
+
+376
+00:38:33,290 --> 00:38:38,765
+cos'è l'IP. Conosce il mecha lavora a livello
+
+377
+00:38:38,765 --> 00:38:41,905
+di McCadress quindi praticamente quando prende il frame
+
+378
+00:38:43,405 --> 00:39:07,895
+I tanti destinatari sono McCadress Ok la scheda
+
+379
+00:39:07,895 --> 00:39:13,255
+di rete configurabile anche con indirizzo IP e
+
+380
+00:39:13,255 --> 00:39:18,315
+lì parte la pila lì parte la pila
+
+381
+00:39:19,350 --> 00:39:22,870
+nel senso che a livello di a livello
+
+382
+00:39:22,870 --> 00:39:25,910
+di a livello di link stiamo lavorando con
+
+383
+00:39:25,910 --> 00:39:30,390
+I mercati? Sì è chiaro che se voglio
+
+384
+00:39:30,390 --> 00:39:33,350
+lavorare a livello di IP salva di livello
+
+385
+00:39:33,350 --> 00:39:47,125
+e cambia l'indirizzamento per capirci I siti vengono
+
+386
+00:39:47,184 --> 00:39:53,120
+riconosciuti in due modi: o attraverso IP oppure
+
+387
+00:39:53,420 --> 00:39:58,700
+attraverso un nome associato all'IP. Noi siamo convinti
+
+388
+00:39:58,700 --> 00:40:03,365
+di parlare direttamente però poi di fatto non
+
+389
+00:40:03,365 --> 00:40:07,845
+c'è la comunicazione diretta: il mio IP deve
+
+390
+00:40:07,845 --> 00:40:12,964
+comunicare con il router che poi sceglie la
+
+391
+00:40:12,964 --> 00:40:19,160
+rotta non la roda la rotta e decide
+
+392
+00:40:19,160 --> 00:40:23,880
+praticamente di instradare quei pacchetti. Ok si questo
+
+393
+00:40:23,880 --> 00:40:26,359
+indirizzo quindi o lo può fare su tutte
+
+394
+00:40:26,359 --> 00:40:29,420
+le linee oppure dire ok c'è una macchina
+
+395
+00:40:29,960 --> 00:40:34,315
+collegata direttamente che mi porta a definire il
+
+396
+00:40:34,315 --> 00:40:39,915
+percorso ma la forma di impacchettamento è già
+
+397
+00:40:39,915 --> 00:40:43,835
+diversa I pacchetti dell'IP sono diversi dai pacchetti
+
+398
+00:40:43,835 --> 00:40:50,100
+dei freni il pacchetto del protocollo IP dello
+
+399
+00:40:50,100 --> 00:40:53,780
+strato IP un formato diverso rispetto ad un
+
+400
+00:40:53,780 --> 00:41:02,455
+pacchetto dello strato IP. Ok, quindi non sono
+
+401
+00:41:02,455 --> 00:41:05,735
+tutti collegati, c'è l'header che viene attaccato attaccato
+
+402
+00:41:05,735 --> 00:41:10,375
+e poi viene spacchettato man mano. Ok. Ma
+
+403
+00:41:10,375 --> 00:41:14,470
+perché viene impacchettato spacchettato? Perché ogni strato deve
+
+404
+00:41:14,470 --> 00:41:21,829
+avere Certo! Io ho il mio pacchetto con
+
+405
+00:41:21,829 --> 00:41:25,269
+le regole dello strato rete e quindi ci
+
+406
+00:41:25,269 --> 00:41:29,385
+sono gli IP però quello viene riconosciuto soltanto
+
+407
+00:41:29,385 --> 00:41:34,185
+allo strato IP. Nel momento in cui poi
+
+408
+00:41:34,185 --> 00:41:38,745
+devo andarci devo la mia macchina collegata con
+
+409
+00:41:38,745 --> 00:41:41,225
+la sua macchina poi a questo punto devo
+
+410
+00:41:41,225 --> 00:41:48,930
+spacchettare e adattarlo al formato link e quindi
+
+411
+00:41:49,230 --> 00:41:53,470
+fai lo spacchettamento e riorganizzi tutto con le
+
+412
+00:41:53,470 --> 00:41:57,425
+regole dei pacchetti del link fino a trasformarli
+
+413
+00:41:57,485 --> 00:42:02,625
+in segnali. Possono essere onde, impulsi di luce,
+
+414
+00:42:03,725 --> 00:42:10,960
+qualunque cosa. Chiaro? Quindi praticamente lo adatti. E
+
+415
+00:42:11,420 --> 00:42:13,680
+invece il terzo livello quindi chi lo gestisce?
+
+416
+00:42:16,220 --> 00:42:17,900
+E ben detto che secondo livello se lo
+
+417
+00:42:17,900 --> 00:42:21,695
+gestiscono le schede di rete. Anche il terzo?
+
+418
+00:42:21,695 --> 00:42:23,475
+Anche il terzo è sempre scheda di rete.
+
+419
+00:42:23,695 --> 00:42:26,815
+Si, scheda di rete significa collegamento diretto con
+
+420
+00:42:26,815 --> 00:42:32,735
+macchina decente. E il router. Non soltanto il
+
+421
+00:42:32,735 --> 00:42:37,557
+router, però il discorso è lui conosce le
+
+422
+00:42:37,713 --> 00:42:42,807
+rotte lui lavora con tabelle di indirizzi perché
+
+423
+00:42:42,963 --> 00:42:46,725
+lui implementato l'algoritmo di stradamento e lì ci
+
+424
+00:42:46,725 --> 00:42:48,805
+sono I vari algoritmi di stradamento ti è
+
+425
+00:42:48,805 --> 00:42:54,825
+arrivato un pacchetto? C'è un IP sorgente destinatari
+
+426
+00:42:57,685 --> 00:43:01,319
+a questo punto tu guardi il destinatario benissimo
+
+427
+00:43:01,380 --> 00:43:04,099
+c'è la tabella di routine e allora a
+
+428
+00:43:04,099 --> 00:43:06,819
+questo punto dire ok lì c'è il punto
+
+429
+00:43:06,819 --> 00:43:13,235
+di ingresso per la rotta cerca applicando un
+
+430
+00:43:13,235 --> 00:43:16,115
+certo algoritmo di instradamento qual è la rotta
+
+431
+00:43:16,115 --> 00:43:20,035
+che dovrà seguire ma questa viene indicata da
+
+432
+00:43:20,035 --> 00:43:24,995
+una tabella di routine e decide praticamente quale
+
+433
+00:43:24,995 --> 00:43:32,750
+percorso far seguire al pacchetto. Lui gira semplicemente.
+
+434
+00:43:32,970 --> 00:43:36,650
+Se l'IP è lui allora è chiaro che
+
+435
+00:43:36,650 --> 00:43:41,550
+a questo punto fa salire allo strato trasporto
+
+436
+00:43:43,345 --> 00:43:47,345
+Ok. Non scende? Se mi arriva un pacchetto.
+
+437
+00:43:47,345 --> 00:43:49,425
+Se lui scende al massimo. Se se mi
+
+438
+00:43:49,425 --> 00:43:51,745
+sente il TCP è chiaro che deve avere
+
+439
+00:43:51,745 --> 00:43:57,029
+l'IP. Se è un router non ci sono
+
+440
+00:43:57,029 --> 00:44:00,089
+TCP e quindi si preoccupa di fare l'ottimistamento
+
+441
+00:44:01,509 --> 00:44:03,109
+ma una volta che è arrivata ad una
+
+442
+00:44:03,109 --> 00:44:09,118
+macchina che non è un router è chiaro
+
+443
+00:44:09,118 --> 00:44:12,585
+che in effetti poi la navigazione, l'infrastruttura è
+
+444
+00:44:12,585 --> 00:44:19,111
+ovviamente io mi creo una una una una
+
+445
+00:44:19,111 --> 00:44:23,040
+una molto importante un grafo con tutti quanti
+
+446
+00:44:23,040 --> 00:44:27,140
+I percorsi in mezzo cosa c'è in mezzo?
+
+447
+00:44:28,320 --> 00:44:40,695
+Router infatti io Router una parte del collegamento
+
+448
+00:44:40,835 --> 00:44:43,975
+ce l'ho con te router. Quindi io router
+
+449
+00:44:44,755 --> 00:44:50,570
+gestisco I miei client il discorso di uscire
+
+450
+00:44:50,570 --> 00:44:54,330
+esco dalla mia rete e comunichi solo con
+
+451
+00:44:54,330 --> 00:44:56,970
+altri router. Ok, ok. Qua è vero? Quindi
+
+452
+00:44:56,970 --> 00:45:19,995
+c'è la mappa dei quindi punto e lo
+
+453
+00:45:20,168 --> 00:45:23,319
+giro tu guardi il destinatario e dici ok
+
+454
+00:45:23,319 --> 00:45:28,920
+questo IP praticamente facciamo un esempio cioè giusto
+
+455
+00:45:28,920 --> 00:45:31,160
+per per dirti le classi di p ce
+
+456
+00:45:31,160 --> 00:45:35,255
+l'avete presente ok Per quanto riguarda l'Italia c'è
+
+457
+00:45:35,255 --> 00:45:39,075
+un pacchetto di IP riservati. Ci sono degli
+
+458
+00:45:39,075 --> 00:45:41,835
+IP che identificano l'Italia. Centonovantadue e una sessantotto.
+
+459
+00:45:43,895 --> 00:45:46,900
+Chiaro? A questo punto dici vabbè io sono
+
+460
+00:45:46,900 --> 00:45:50,660
+uno che parte dall'italia che vuole collegarsi la
+
+461
+00:45:50,660 --> 00:45:54,920
+Francia per la Francia ovviamente c'è una combinazione
+
+462
+00:45:54,980 --> 00:45:56,580
+ci sono delle classi di IP che sono
+
+463
+00:45:56,580 --> 00:46:01,265
+stati già assegnati al paese voi siete venute
+
+464
+00:46:01,265 --> 00:46:04,385
+di confine tu sei collegato con la Francia
+
+465
+00:46:04,385 --> 00:46:06,224
+tu sei collegato con gli Stati Uniti ti
+
+466
+00:46:06,224 --> 00:46:11,585
+sei collegato col Belgio chiaro? Nel momento in
+
+467
+00:46:11,585 --> 00:46:14,085
+cui ci arriva la classe cioè l'indirizzo IP
+
+468
+00:46:14,660 --> 00:46:19,320
+tu dici ok questo è un messaggio per
+
+469
+00:46:19,620 --> 00:46:23,140
+la Francia come fai a dirlo ad analizzare
+
+470
+00:46:23,140 --> 00:46:27,560
+l'IP no? Devi avere una mappa e quindi
+
+471
+00:46:28,100 --> 00:46:32,645
+misti Poi sono cazzi suoi. Quindi io faccio
+
+472
+00:46:32,645 --> 00:46:37,285
+un'analisi ovviamente delle parti di IP e in
+
+473
+00:46:37,285 --> 00:46:40,185
+base alla classe comincio a chiedere uno smistamento.
+
+474
+00:46:40,485 --> 00:46:45,250
+Sì perché in lidi della rete vai. Poi
+
+475
+00:46:45,250 --> 00:46:47,809
+una volta che analizziamo il problema a questo
+
+476
+00:46:47,809 --> 00:46:52,950
+punto ecco cosa significa appunto discorso tu puoi
+
+477
+00:46:53,089 --> 00:46:56,609
+comunicare con lui ma lui praticamente mi serve
+
+478
+00:46:56,609 --> 00:46:59,244
+come ponte per arrivare a me. Sì ma
+
+479
+00:46:59,244 --> 00:47:01,325
+tu non sai che arriverà a me. Tu
+
+480
+00:47:01,325 --> 00:47:04,765
+sai che arriva a lui. Come lo come
+
+481
+00:47:04,765 --> 00:47:07,244
+prefisso? 0 due Milano. Sì ma non sai
+
+482
+00:47:07,244 --> 00:47:12,220
+a chi arriva la telefonata. Okay. Quindi per
+
+483
+00:47:12,220 --> 00:47:15,040
+dire facciamo la mappa del mondo ok router
+
+484
+00:47:15,580 --> 00:47:20,960
+italia router francia router Belgio router facciamo quella
+
+485
+00:47:21,980 --> 00:47:26,435
+d'Europa bene abbiamo sempre un ip l'ottetto più
+
+486
+00:47:26,435 --> 00:47:32,375
+alto ci dice chiaramente l'indirizzo di riferimento assegnato
+
+487
+00:47:32,435 --> 00:47:37,235
+ad ogni singolo stato smisti dice ok questo?
+
+488
+00:47:37,235 --> 00:47:40,810
+Francia guardo la parte non so il dettaglio
+
+489
+00:47:40,810 --> 00:47:44,810
+non lo conosco e lui espone il suo
+
+490
+00:47:44,810 --> 00:47:48,650
+indirizzo di Stato ma è collegato a tutti
+
+491
+00:47:48,650 --> 00:47:53,385
+gli indirizzi specifici come l'ufficio postale Quando noi
+
+492
+00:47:53,385 --> 00:47:56,025
+scriviamo una lettera come si scriveva una volta
+
+493
+00:47:56,025 --> 00:47:58,925
+ma anche il CAP di Milano è duecento
+
+494
+00:47:59,385 --> 00:48:03,785
+e poi c'è duecentotrentuno, duemila centoventiquattro Arriva al
+
+495
+00:48:03,785 --> 00:48:06,599
+router qual è l'ufficio postale, cosa fa? Fa
+
+496
+00:48:06,599 --> 00:48:15,559
+lo smaltimento per via. E' sempre un delegare,
+
+497
+00:48:15,559 --> 00:48:17,160
+passa meglio. Diciamo che il router lo vediamo
+
+498
+00:48:17,160 --> 00:48:19,643
+come gli uffici postali, però però poi ci
+
+499
+00:48:19,643 --> 00:48:21,222
+sono gli uffici postali? No no no no
+
+500
+00:48:21,222 --> 00:48:22,055
+no no no e questo vuol dire il
+
+501
+00:48:22,055 --> 00:48:22,535
+livello già. Se in questo modo capite come
+
+502
+00:48:22,535 --> 00:48:23,015
+funzionano I meccanismi. Questo è il livello tre
+
+503
+00:48:23,015 --> 00:48:23,835
+quindi fondamentalmente. Bene ho capito. Questo è solo
+
+504
+00:48:23,835 --> 00:48:33,740
+il livello tre. Nel senso che poi ci
+
+505
+00:48:33,740 --> 00:48:38,220
+sono ovviamente quando io trasmetto in Francia arriva
+
+506
+00:48:38,220 --> 00:48:40,220
+la posta in Francia la la posta non
+
+507
+00:48:40,220 --> 00:48:43,680
+arriva l'ufficio postale specifico al punto di raccolta
+
+508
+00:48:44,140 --> 00:48:47,135
+internazionale sì quello che succede E poi viene
+
+509
+00:48:47,135 --> 00:48:50,675
+smistato. Poi dice okay. A parte il CAP.
+
+510
+00:48:51,855 --> 00:48:57,135
+Dice okay questa è Francia. Perpetetto. Però la
+
+511
+00:48:57,135 --> 00:49:00,480
+Francia a questo punto ci sono le regioni
+
+512
+00:49:00,480 --> 00:49:03,600
+cioè I punti di raccolta e come funziona
+
+513
+00:49:03,600 --> 00:49:07,280
+come la DHL o punti di raccolta Amazon
+
+514
+00:49:07,280 --> 00:49:12,635
+sto iniziando a vedere le reti capito? Cioè
+
+515
+00:49:12,635 --> 00:49:16,095
+punti di raccolta raccolgo tutto poi realizzo ovviamente
+
+516
+00:49:16,155 --> 00:49:21,755
+il destinatario io conosco Sol leggere ma anche
+
+517
+00:49:21,755 --> 00:49:25,990
+come telefonate più trentanove Italia no? Sì Quando
+
+518
+00:49:25,990 --> 00:49:28,490
+devo smistare, devo attivare un canale di comunicazione
+
+519
+00:49:29,190 --> 00:49:32,330
+più trentanove arriva in Italia. Sì. Alla centrale
+
+520
+00:49:32,710 --> 00:49:36,950
+di riferimento? Fai lo cosa fa? Non leggi
+
+521
+00:49:36,950 --> 00:49:40,885
+più trentanove okay a posto. Poi leggi il
+
+522
+00:49:40,885 --> 00:49:43,385
+prefisso e il mista per la giornata dell'Italia
+
+523
+00:49:44,405 --> 00:49:46,885
+poi il la centralina cosa fa? Prende il
+
+524
+00:49:46,885 --> 00:49:49,385
+numero e lo avvista gli ottamenti l'utente finale
+
+525
+00:49:50,085 --> 00:49:53,720
+dall'analisi del cioè dell'IP io posso ricavare informazioni
+
+526
+00:49:54,180 --> 00:50:01,880
+di regionali cittadine e poi a questo punto
+
+527
+00:50:01,940 --> 00:50:12,355
+anche di via di indirizzo. E l'hotel punti
+
+528
+00:50:12,355 --> 00:50:17,734
+di raccolta internazionale? Nodi fondamentalmente. I smistatori raccolgono
+
+529
+00:50:18,035 --> 00:50:27,290
+dall'esterno e smistano nella zona specifica capisci? Questo
+
+530
+00:50:27,290 --> 00:50:30,570
+è il meccanismo poi ovviamente per implementare questo
+
+531
+00:50:30,570 --> 00:50:36,525
+meccanismo ti servono degli algoritmi specifici No? Perché
+
+532
+00:50:36,525 --> 00:50:38,625
+ogni singola strada fa una serie di controlli
+
+533
+00:50:40,365 --> 00:50:44,605
+specifici e quindi ma entriamo in un altro
+
+534
+00:50:44,605 --> 00:50:50,720
+contesto, no? E poi è chiaro che a
+
+535
+00:50:50,720 --> 00:50:54,079
+questo punto una volta che io voglio comunicare
+
+536
+00:50:54,079 --> 00:50:56,319
+con lui una volta che lui gli arriva
+
+537
+00:50:56,319 --> 00:51:04,835
+lo squillo telefonate Allora a questo punto alza
+
+538
+00:51:04,835 --> 00:51:10,355
+la cornetta? Benissimo. Abbiamo creato il canale. Tutto
+
+539
+00:51:10,355 --> 00:51:12,595
+il canale è disattivato. Io e lui possiamo
+
+540
+00:51:12,595 --> 00:51:17,700
+comunicare direttamente perché? Perché l'abbiamo già occupato il
+
+541
+00:51:17,920 --> 00:51:20,720
+canale e diciamo canale occupato per la nostra
+
+542
+00:51:20,720 --> 00:51:23,680
+comunicazione da questo momento io e te parliamo
+
+543
+00:51:23,680 --> 00:51:26,019
+direttamente motivo per cui ti sei più importante
+
+544
+00:51:26,319 --> 00:51:29,135
+perché primo strato che ti consenta la comunicazione
+
+545
+00:51:29,135 --> 00:51:32,415
+diretta perché sotto hanno lavorato per girare il
+
+546
+00:51:32,415 --> 00:51:38,815
+treno quindi creato la ruota qui abbiamo le
+
+547
+00:51:38,815 --> 00:51:42,035
+nostre regole di comunicazione ben figo toc toc
+
+548
+00:51:42,300 --> 00:51:46,460
+chi sei pronto aspettare e lì però siam
+
+549
+00:51:46,460 --> 00:51:54,460
+già ad applicazione no semplicemente livello TCPIN abbiamo
+
+550
+00:51:54,460 --> 00:51:58,255
+stabilito la comunicazione poi che tipo di comunicazione
+
+551
+00:51:59,435 --> 00:52:02,955
+dipende dalla cosa ci vogliamo scambiare ci vogliamo
+
+552
+00:52:02,955 --> 00:52:15,970
+scambiare posta FTP FTTP, trasferimento file. Lì dici
+
+553
+00:52:15,970 --> 00:52:18,930
+ok, mi servono altre regole perché quello che
+
+554
+00:52:18,930 --> 00:52:23,349
+ci dobbiamo scambiare sono altre cose. A posto.
+
+555
+00:52:23,570 --> 00:52:27,250
+O da un lodato tutta la ISO. È
+
+556
+00:52:27,250 --> 00:52:30,365
+chiaro? Sì. Quando io ti dico: Le devi
+
+557
+00:52:30,365 --> 00:52:33,325
+vedere le cose, non immaginarle. E difatti non
+
+558
+00:52:33,325 --> 00:52:35,485
+riuscivo a vederle. Ma te lo so, ma
+
+559
+00:52:35,485 --> 00:52:41,005
+no? Ti confesso che quando io ho fatto
+
+560
+00:52:41,005 --> 00:52:44,849
+per otto anni il sistema sinceramente ho fatto
+
+561
+00:52:44,849 --> 00:52:50,050
+fatica a spiegarle non le vedevo non le
+
+562
+00:52:50,050 --> 00:52:52,710
+vedevo e quindi mi rendevo conto di spiegarle
+
+563
+00:52:54,290 --> 00:52:58,005
+però non ero convinto Sto parlando di una
+
+564
+00:52:58,005 --> 00:53:01,444
+vita fa. Ecco poi quando io vi dico:
+
+565
+00:53:01,444 --> 00:53:04,484
+no, nel momento in cui voi volete verificare
+
+566
+00:53:04,484 --> 00:53:09,785
+quanto sapete, okay parlate è facile, usate qualunque
+
+567
+00:53:10,325 --> 00:53:14,300
+linguaggio però fatemi capire che avete capito il
+
+568
+00:53:14,300 --> 00:53:17,020
+senso delle cose, non la definizione, la definizione
+
+569
+00:53:17,020 --> 00:53:19,740
+l' imparato sui libri. Imparare una definizione è
+
+570
+00:53:19,740 --> 00:53:23,200
+una questione mnemonica. Fate non le imparo io.
+
+571
+00:53:23,740 --> 00:53:25,740
+Me ne date duecento di definizione, non me
+
+572
+00:53:25,740 --> 00:53:26,860
+ne sono fatto un cazzo e le ho
+
+573
+00:53:26,860 --> 00:53:36,615
+dimenticate in tre secondi. Capito? Quindi neanche il
+
+574
+00:53:36,615 --> 00:53:40,215
+discorso poi anche parlando con voi mi venivano
+
+575
+00:53:40,215 --> 00:53:45,360
+al volo le cose no? L'esempio dell'ufficio perché
+
+576
+00:53:47,820 --> 00:53:50,800
+dici ok so cosa devo cioè la vedo
+
+577
+00:53:51,580 --> 00:53:55,500
+trovo un esempio che descriva l'immagine che ma
+
+578
+00:53:55,500 --> 00:54:02,545
+ce l'ho l'immagine capito? Ricordo il concetto. Roter
+
+579
+00:54:02,605 --> 00:54:06,685
+significa mistradare tu hai detto collegare la mia
+
+580
+00:54:06,685 --> 00:54:09,085
+rete con un'altra rete qual è la differenza
+
+581
+00:54:09,085 --> 00:54:11,725
+fra le due reti? L'IP? Ma qua non
+
+582
+00:54:11,725 --> 00:54:18,900
+tutto? L'IP dalla rete I miei quelli della
+
+583
+00:54:19,119 --> 00:54:24,000
+mia rete c'hanno una maschera particolare ma quelli
+
+584
+00:54:24,000 --> 00:54:27,540
+dell'altra rete c'hanno una maschera diversa con mask
+
+585
+00:54:28,335 --> 00:54:33,875
+cambia classe anche lì l'analisi dell'IP mi dice
+
+586
+00:54:35,535 --> 00:54:39,075
+come mi devo muovere chiaro?
