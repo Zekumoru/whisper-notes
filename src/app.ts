@@ -37,7 +37,7 @@ const app = async () => {
       0,
       audioFilename.lastIndexOf('.')
     );
-    const audioOutPath = path.join(audioDirPath, noExtAudioFilename);
+    const audioOutPath = path.join(audioDirPath, `${noExtAudioFilename}.srt`);
 
     logger.info(
       `Started audio transcription (${i + 1} out of ${
