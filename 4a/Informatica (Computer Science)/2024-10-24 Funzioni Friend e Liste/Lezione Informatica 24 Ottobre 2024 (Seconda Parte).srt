@@ -1,0 +1,2003 @@
+1
+00:00:02,460 --> 00:00:06,779
+L'argomento è un mondo in cui il mondo
+
+2
+00:00:06,779 --> 00:00:16,680
+è mai stato abbandonato dalla scuola, se non
+
+3
+00:00:17,780 --> 00:00:22,540
+come concetto associato ad una classe che le
+
+4
+00:00:22,540 --> 00:00:31,039
+giustizia. In effetti l'argomento è impegnativo perché vi
+
+5
+00:00:31,039 --> 00:00:36,211
+espone rischi importanti e di risponde a rischi
+
+6
+00:00:36,405 --> 00:00:43,400
+importanti. Di conseguenza, per ridurre I rischi dell'impatto,
+
+7
+00:00:45,140 --> 00:00:49,280
+a questo punto è meglio affidarsi a prodotti
+
+8
+00:00:49,400 --> 00:00:56,920
+già testati e confisciuti in parte di questo
+
+9
+00:00:56,920 --> 00:01:03,960
+mondo, diciamo, è importante conoscerlo nel momento in
+
+10
+00:01:03,960 --> 00:01:13,040
+cui deve sviluppare qualcosa di specifico allora, partiamo
+
+11
+00:01:13,280 --> 00:01:32,640
+da... Ok? Ok, ok, ok, ok. Ok, nello
+
+12
+00:01:33,760 --> 00:01:39,782
+2, 3, 4, 5, ne mancherà 2. Gabri
+
+13
+00:01:39,782 --> 00:01:39,961
+è andato? Ok, nemmeno due o tre, quattro,
+
+14
+00:01:39,961 --> 00:01:40,140
+cinque, ne mancano due Gabbri si è andato?
+
+15
+00:01:40,140 --> 00:01:47,660
+Gabbri ci fa, andiamo le asie Allora, per
+
+16
+00:01:47,660 --> 00:01:50,940
+poter affrontare il discorso delle liste, caro, mi
+
+17
+00:01:50,940 --> 00:01:57,620
+serve un ingrediente base senza il quale poi
+
+18
+00:01:57,700 --> 00:02:05,440
+tutte le liste... Senza il quale le liste
+
+19
+00:02:08,060 --> 00:02:08,893
+non hanno senso di esistere. Sempre quale registra
+
+20
+00:02:08,893 --> 00:02:12,700
+non ha senso di esistere e sono ovviamente
+
+21
+00:02:15,420 --> 00:02:27,180
+ci puntatori chiaro? I puntatori. Chiaro? Quindi dicevamo
+
+22
+00:02:27,340 --> 00:02:32,300
+la volta l'anno scorso. Quanto riguarda I puntatori,
+
+23
+00:02:33,040 --> 00:02:38,700
+io ripeto, il livello di complessità e di
+
+24
+00:02:38,700 --> 00:02:47,000
+completezza di questo argomento dipende da lei. Quindi
+
+25
+00:02:47,360 --> 00:02:51,600
+siamo in pochi, l'argomento deve essere affrontato anche
+
+26
+00:02:51,600 --> 00:02:56,220
+in maniera approfondita e dettagliata, approfondita nel senso
+
+27
+00:02:56,220 --> 00:02:59,180
+di fare emergere tutta una serie di situazioni
+
+28
+00:02:59,980 --> 00:03:03,500
+di criticità. E questo è l'approccio approfondito. Poi
+
+29
+00:03:03,500 --> 00:03:07,760
+ovviamente se vedo dei risconti dei ritorni a
+
+30
+00:03:07,760 --> 00:03:13,900
+questo punto si può continuare altrimenti vi darò
+
+31
+00:03:13,900 --> 00:03:21,700
+una prima definizione di base che ritengo sia
+
+32
+00:03:21,700 --> 00:03:26,020
+possa essere più che sufficiente. Quindi io non
+
+33
+00:03:26,020 --> 00:03:31,000
+voglio approfondire se non c'è un ritorno, di
+
+34
+00:03:31,000 --> 00:03:35,160
+conseguenza io volevo cominciare a vuotare basso I
+
+35
+00:03:35,160 --> 00:03:37,380
+segnali che mi manderete voi se ci saranno
+
+36
+00:03:37,380 --> 00:03:40,820
+segnali li dipendiamo se no le chiudiamo qui
+
+37
+00:03:43,620 --> 00:03:46,000
+senza le liste non è possibile fare gli
+
+38
+00:03:46,000 --> 00:03:49,980
+alberi Senza alberi non si possono fare I
+
+39
+00:03:49,980 --> 00:03:54,500
+grafi. Senza grafi non si può fare l'intelligenza
+
+40
+00:03:54,640 --> 00:03:59,440
+artificiale. Senza gli alberi non si possono scrivere
+
+41
+00:03:59,440 --> 00:04:05,380
+algoritmi impegnativi. Questi sono gli argomenti che io
+
+42
+00:04:05,380 --> 00:04:09,835
+considero tosti. Non a caso, per la quarta
+
+43
+00:04:10,080 --> 00:04:12,560
+sono previste sei ore di informatica e vi
+
+44
+00:04:12,560 --> 00:04:16,920
+aggiungo l'anno prossimo, ne faremo quattro, e quindi
+
+45
+00:04:16,920 --> 00:04:19,860
+chiaramente arriva a dire il concetto che se
+
+46
+00:04:19,860 --> 00:04:24,480
+dovete imparare a programmare fatelo adesso perché l'anno
+
+47
+00:04:24,480 --> 00:04:27,300
+prossimo non avrete tempo per imparare a programmare
+
+48
+00:04:28,820 --> 00:04:31,760
+quindi decidete cosa volete fare sin sin da
+
+49
+00:04:31,760 --> 00:04:42,620
+subito. Detto questo, semplicemente, ok, le liste richiedono
+
+50
+00:04:43,160 --> 00:04:47,560
+come prerequisito la conoscenza dei puntatori. Questo, però,
+
+51
+00:04:47,560 --> 00:04:51,400
+Questa è una visione legata al linguaggio di
+
+52
+00:04:51,400 --> 00:04:57,000
+programmazione, all'implementazione. Ci sono due tipi di trattazioni
+
+53
+00:04:57,100 --> 00:05:02,540
+che possono essere fatte. C'è una trattazione teorica,
+
+54
+00:05:03,260 --> 00:05:10,760
+concettuale, e poi c'è un avviramento dell'implementazione. Quando
+
+55
+00:05:10,760 --> 00:05:14,540
+parlo di liste, di puntatori, a questo punto
+
+56
+00:05:14,540 --> 00:05:18,560
+parlo di linguaggi specifici. In questo caso l'unico
+
+57
+00:05:18,580 --> 00:05:21,560
+linguaggio che continua ad esistere e a trattare
+
+58
+00:05:21,600 --> 00:05:27,020
+I puntatori è il linguaggio CEC Java Brucia.
+
+59
+00:05:30,440 --> 00:05:33,320
+E soltanto di produzione, so perché continuano ad
+
+60
+00:05:33,320 --> 00:05:35,760
+esistere le progetti vecchie, dal mio punto di
+
+61
+00:05:35,760 --> 00:05:47,280
+vista. Quindi, un discorso dei puntatori è prerogativa,
+
+62
+00:05:47,780 --> 00:05:51,200
+motivo per cui il C è sempre stato
+
+63
+00:05:51,200 --> 00:05:56,160
+considerato un linguaggio potente molto più vicino al
+
+64
+00:05:56,160 --> 00:05:59,000
+basso livello, l'unico più vicino al basso livello
+
+65
+00:05:59,240 --> 00:06:02,780
+al livello di SEMLER e molto più lontano
+
+66
+00:06:02,780 --> 00:06:05,380
+dall'altro livello, questo significa che chi lavora in
+
+67
+00:06:05,380 --> 00:06:08,460
+C deve conoscere esattamente cosa succede sulla macchina.
+
+68
+00:06:09,640 --> 00:06:12,920
+Il motivo per cui, vediamo come butta, è
+
+69
+00:06:12,920 --> 00:06:15,680
+in attimo o scendo di livello o salgo
+
+70
+00:06:15,680 --> 00:06:18,580
+di livello, se scendo di livello andiamo a
+
+71
+00:06:18,580 --> 00:06:22,820
+vedere come si muovono gli indirizzi se salgo
+
+72
+00:06:22,820 --> 00:06:27,380
+di livello però la vita va avanti anche
+
+73
+00:06:27,380 --> 00:06:33,480
+senza puntatori andiamo sul concetto di lista perché
+
+74
+00:06:33,480 --> 00:06:37,120
+nascono le liste? Per risolvere un problema, questo
+
+75
+00:06:37,120 --> 00:06:41,580
+problema prima delle liste noi avevamo a disposizione
+
+76
+00:06:41,880 --> 00:06:55,940
+dei contenitori tipo questo I contenitori tipo questo,
+
+77
+00:06:57,540 --> 00:06:59,560
+I contenitori che avevamo a disposizione per raccogliere
+
+78
+00:07:00,020 --> 00:07:03,020
+più dati erano I vettori, più dati erano
+
+79
+00:07:03,020 --> 00:07:08,040
+I vettori. La caratteristica dei vettori era dimensione
+
+80
+00:07:16,560 --> 00:07:29,780
+di costruzione fissa e a questo punto omogeneità
+
+81
+00:07:32,060 --> 00:07:40,740
+dei tipi, nel senso modo, la rei è
+
+82
+00:07:40,740 --> 00:07:44,480
+una raccolta di elementi dello stesso tipo, avente
+
+83
+00:07:44,720 --> 00:07:49,320
+una dimensione refissata. Pre fissata. Attenzione questo è
+
+84
+00:07:49,320 --> 00:07:55,260
+già un distingo quando io parlo di vettori
+
+85
+00:07:55,860 --> 00:07:58,120
+e qui c'è motivo di confusione e tanti
+
+86
+00:07:58,120 --> 00:08:02,020
+continuano a fare confusione. Tutti quelli che salgono
+
+87
+00:08:02,020 --> 00:08:05,880
+di livello non hanno in chiara la differenza.
+
+88
+00:08:07,280 --> 00:08:10,400
+Quello di cui sto parlando è una struttura
+
+89
+00:08:18,080 --> 00:08:23,680
+dati. Questa è una struttura dati. Questo significa
+
+90
+00:08:23,760 --> 00:08:26,640
+un raccoglitore di dati che ha quelle caratteristiche.
+
+91
+00:08:27,340 --> 00:08:30,400
+Non esiste un vettore 1 a dimensione variabile
+
+92
+00:08:32,520 --> 00:08:36,400
+come struttura dati 1. Come struttura data, è
+
+93
+00:08:36,400 --> 00:08:40,220
+chiaro? Come struttura data, quindi il vettore resta
+
+94
+00:08:40,260 --> 00:08:42,760
+una struttura data per come la stiamo vedendo
+
+95
+00:08:42,760 --> 00:08:46,860
+adesso, che ha delle caratteristiche ben precise, dimensione
+
+96
+00:08:46,980 --> 00:08:54,740
+fisica, e omogeneità degli elementi, non solo a
+
+97
+00:08:54,740 --> 00:09:01,000
+un'altra caratteristica. Tutti gli elementi sono contibili, nel
+
+98
+00:09:01,000 --> 00:09:04,060
+senso che in linea di principio potevamo anche
+
+99
+00:09:04,060 --> 00:09:10,480
+immaginare scenari di questo genere un vettore da
+
+100
+00:09:10,480 --> 00:09:15,900
+tre elementi con I tre elementi spazi, chiaro?
+
+101
+00:09:16,760 --> 00:09:19,940
+E invece no, cioè io apro fisicamente la
+
+102
+00:09:19,940 --> 00:09:25,740
+memoria, io vedrò che il vettore sarà posizionato
+
+103
+00:09:28,240 --> 00:09:30,480
+in maniera, gli elementi del vettore sanno posizionati
+
+104
+00:09:30,580 --> 00:09:33,640
+in maniera contibua e c'è un motivo e
+
+105
+00:09:33,640 --> 00:09:36,080
+questo è l'altro motivo per cui stiamo parlando
+
+106
+00:09:36,080 --> 00:09:41,880
+di struttura dati. La caratteristica dei vettori è
+
+107
+00:09:41,880 --> 00:09:44,620
+che supponiamo che questo è un altro vettore
+
+108
+00:09:44,620 --> 00:09:51,100
+che si chiama u e questa è l'altra
+
+109
+00:09:51,100 --> 00:09:56,200
+caratteristica. La caratteristica è quella che consente di
+
+110
+00:09:56,200 --> 00:10:01,960
+raggiungere direttamente ogni singolo elemento. Quindi a seconda
+
+111
+00:10:01,960 --> 00:10:06,800
+del valore di n, n può essere 0,
+
+112
+00:10:06,860 --> 00:10:10,400
+1, 2, 3, a seconda del valore io
+
+113
+00:10:10,400 --> 00:10:16,600
+posso raggiungere direttamente elementi 0, 1, 2, ecc.
+
+114
+00:10:17,860 --> 00:10:20,740
+Questo si traduce in un termine tecnico chiamato
+
+115
+00:10:20,740 --> 00:10:26,480
+accesso diretto. Accesso diretto che significa entrare in
+
+116
+00:10:26,480 --> 00:10:30,280
+via, se voglio raggiungere un elemento intermedio tipo
+
+117
+00:10:30,280 --> 00:10:37,860
+il quinto, non devo partire dal primo. C'è
+
+118
+00:10:37,860 --> 00:10:41,400
+un motivo? Il motivo l'abbiamo visto anche l'anno
+
+119
+00:10:41,400 --> 00:10:44,780
+scorso, perché è la contiguità che mi consente
+
+120
+00:10:44,920 --> 00:10:51,620
+di implementare questo meccanismo. E qui dicevamo delle
+
+121
+00:10:51,620 --> 00:10:57,300
+cose in merito. Altra caratteristica della struttura dati
+
+122
+00:10:58,460 --> 00:11:04,260
+vettore, ma arrei, è che quindi riepilogare dimensioni
+
+123
+00:11:04,280 --> 00:11:12,220
+fissi, elementi contigui, possibilità di aggiungere elementi direttamente.
+
+124
+00:11:17,520 --> 00:11:20,660
+Altro ingrediente che associe da vettoria è che
+
+125
+00:11:20,660 --> 00:11:23,380
+I vettori sono considerati una strutturata a dimensione
+
+126
+00:11:24,380 --> 00:11:41,540
+fissa. Usando le regole sintattiche del C, non
+
+127
+00:11:41,540 --> 00:11:47,700
+basta dire indicare il nome del vettore con
+
+128
+00:11:47,700 --> 00:11:51,900
+le parentesi quale, devo specificare anche il tipo
+
+129
+00:11:52,380 --> 00:11:54,500
+e non posso usare il posto del 5
+
+130
+00:11:55,160 --> 00:11:59,480
+una varia V. Questa è la regola del
+
+131
+00:11:59,480 --> 00:12:02,640
+vettore quindi la dimensione la fisse una volta
+
+132
+00:12:02,640 --> 00:12:06,140
+per tutte e quella rischerà fino alla fine
+
+133
+00:12:06,180 --> 00:12:11,140
+della seguizione del programma. Cosa significa? Significa che
+
+134
+00:12:11,940 --> 00:12:14,840
+se avessi la necessità di aggiungere degli elementi
+
+135
+00:12:15,040 --> 00:12:17,700
+non posso farlo, non potrei farlo. Se avessi
+
+136
+00:12:17,700 --> 00:12:20,060
+la necessità di eliminare gli elementi non lo
+
+137
+00:12:20,060 --> 00:12:29,960
+posso fare è chiaro? E questo ovviamente perché
+
+138
+00:12:31,140 --> 00:12:36,900
+ripeto, spero che venga nella mia testa di
+
+139
+00:12:36,900 --> 00:12:39,940
+una struttura data quando parliamo di struttura data
+
+140
+00:12:40,140 --> 00:12:43,740
+stiamo parlando di cose concrete e non di
+
+141
+00:12:43,740 --> 00:12:53,740
+effetti speciali effetto speciale Una delle cose che
+
+142
+00:12:53,740 --> 00:12:57,560
+mi piace di fare, però c'è stato uno
+
+143
+00:12:57,560 --> 00:12:59,960
+spot iniziale, devo dire che in pratica c'è
+
+144
+00:12:59,960 --> 00:13:03,980
+stato di nulla, è cominciare faccio guardare la
+
+145
+00:13:03,980 --> 00:13:07,460
+libreria e prendo l'esempio della libreria standard del
+
+146
+00:13:07,460 --> 00:13:15,952
+STL. Tenete, le STL prevedono anche il vetto.
+
+147
+00:13:15,952 --> 00:13:17,260
+Anche il vetto, tutti che erano un vettore,
+
+148
+00:13:27,900 --> 00:13:30,800
+ma non è un vettore. In effetti non
+
+149
+00:13:30,800 --> 00:13:33,660
+è una struttura dati, non ho fatto altro
+
+150
+00:13:33,680 --> 00:13:38,320
+che creare un oggetto quindi questo non è
+
+151
+00:13:38,320 --> 00:13:42,380
+una struttura dati, è un oggetto che ha
+
+152
+00:13:42,380 --> 00:13:51,640
+delle caratteristiche chiaro? Quindi Non confondete un oggetto
+
+153
+00:13:53,540 --> 00:13:57,800
+con una struttura dati, perché se vi chiedo
+
+154
+00:13:57,820 --> 00:14:00,860
+cos'è una struttura dati mi dite cos'è, se
+
+155
+00:14:00,860 --> 00:14:04,740
+vi chiedo cos'è una classe e mi dite
+
+156
+00:14:04,740 --> 00:14:10,040
+cos'è come è fatta, però state tranquilli, li
+
+157
+00:14:10,040 --> 00:14:14,780
+confonderete, se non lavorate in un certo modo,
+
+158
+00:14:16,060 --> 00:14:18,200
+Tanto è vero che chi lavora ad alto
+
+159
+00:14:18,200 --> 00:14:20,100
+livello ancora non ha fatto il pace con
+
+160
+00:14:20,100 --> 00:14:28,220
+se stessa e li confonde. Il motivo? Semplice.
+
+161
+00:14:30,160 --> 00:14:31,500
+Ovviamente hanno montato uso un'illusione. Ovviamente hanno montato
+
+162
+00:14:31,500 --> 00:14:36,280
+uso un illusione e l'illusione è questo buco
+
+163
+00:14:36,280 --> 00:14:39,760
+a nono a questo buco a nono gli
+
+164
+00:14:39,760 --> 00:14:43,900
+possiamo aggiungere elementi gli possiamo togliere elementi, gli
+
+165
+00:14:43,900 --> 00:14:50,320
+possiamo cambiare la dimensione, possiamo cancellare elementi è
+
+166
+00:14:50,320 --> 00:14:53,760
+chiaro? Ma questi non sono altro che effetti
+
+167
+00:14:53,760 --> 00:14:58,740
+che sono stati aggiunti? Allora, se fossimo stati
+
+168
+00:14:58,740 --> 00:15:02,020
+in contesto orientale avrei spiegato la classe vector
+
+169
+00:15:02,080 --> 00:15:05,500
+e avrei detto non avrei detto queste cose
+
+170
+00:15:05,500 --> 00:15:09,760
+e tu funziona così e avrei cercato di
+
+171
+00:15:09,760 --> 00:15:14,560
+non usare mai la parola magica struttura dati,
+
+172
+00:15:15,740 --> 00:15:18,580
+avrei usato sempre il termine questa è la
+
+173
+00:15:18,580 --> 00:15:23,600
+classe vettore, perché sono due mondi completamente diversi.
+
+174
+00:15:24,340 --> 00:15:27,120
+Qui ci sono dati veri, qui ci sono
+
+175
+00:15:27,120 --> 00:15:36,980
+nascoste le illusioni. Una per tutte, fatto con
+
+176
+00:15:36,980 --> 00:15:41,680
+5 elementi, finisco la retevuzione del programma con
+
+177
+00:15:41,680 --> 00:15:46,960
+150. Questo che significa che sono partito con
+
+178
+00:15:46,960 --> 00:15:50,320
+un'idea, l'algoritmo mi ha consentito di ripetere questa
+
+179
+00:15:50,320 --> 00:15:54,140
+idea di partenza, 5 elementi, poi praticamente sono
+
+180
+00:15:54,140 --> 00:15:57,840
+arrivati 150. Ma questa non è una struttura
+
+181
+00:15:57,840 --> 00:16:00,840
+data, è semplicemente l'illusione di avere una struttura
+
+182
+00:16:00,860 --> 00:16:05,940
+data. La prova? Se apro il computer e
+
+183
+00:16:05,940 --> 00:16:07,160
+guardo nella rama, io I 5 elementi continui
+
+184
+00:16:10,520 --> 00:16:15,720
+non li vedo. Trovo l'ira di Dio, tutta
+
+185
+00:16:15,720 --> 00:16:17,400
+una serie di metodi di proprietà che non
+
+186
+00:16:17,400 --> 00:16:25,020
+c'entrano niente con la struttura dati. Quindi, cos'è?
+
+187
+00:16:25,600 --> 00:16:28,960
+Questi sono I vettori, erano ingredienti di base.
+
+188
+00:16:29,160 --> 00:16:30,860
+Quanto a questo concetto, noi abbiamo introdotto anche
+
+189
+00:16:30,860 --> 00:16:37,540
+un altro concetto, dato strutturato, struttura dati e
+
+190
+00:16:37,540 --> 00:16:43,360
+dato strutturato. Cos'è quindi un dato strutturato? Quello
+
+191
+00:16:43,360 --> 00:16:49,040
+che vediamo chiamato strutturato. Strutt per usare il
+
+192
+00:16:49,040 --> 00:16:51,720
+linguaggio del cielo, record per usare il linguaggio
+
+193
+00:16:51,720 --> 00:16:57,260
+di tutti I linguaggi. Perché? E cos'è in
+
+194
+00:16:57,260 --> 00:17:01,620
+pratica un raccoglitore di dati di tipo differente,
+
+195
+00:17:02,220 --> 00:17:05,980
+sempre a dimensione fissa, una volta che ho
+
+196
+00:17:06,339 --> 00:17:14,119
+predisposto N, 10 sono e 10 resteranno chiaro?
+
+197
+00:17:15,079 --> 00:17:20,880
+1 un raccoglitore di variabili dello stesso tipo
+
+198
+00:17:23,260 --> 00:17:27,140
+attenzione, quando parlo di vettore, all'interno delle non
+
+199
+00:17:27,140 --> 00:17:32,440
+devo pensare soltanto ai vettori di interi posso
+
+200
+00:17:32,440 --> 00:17:37,700
+anche immaginare scenari vettori di vettori importanti che
+
+201
+00:17:37,700 --> 00:17:47,000
+ogni singolo elemento sia uguale al precedente. Bene,
+
+202
+00:17:47,180 --> 00:17:51,860
+accanto a queste strutture dati fondamentali, quindi gli
+
+203
+00:17:51,860 --> 00:17:59,880
+diamo la parola record, per richiamare o strap,
+
+204
+00:18:02,100 --> 00:18:06,720
+richiamare gli ingredienti di base, I dati di
+
+205
+00:18:06,720 --> 00:18:11,900
+base con cui abbiamo lavorato l'anno scorso. A
+
+206
+00:18:16,820 --> 00:18:25,340
+questo punto, strutture statiche, I vettori sono strutture
+
+207
+00:18:25,340 --> 00:18:30,400
+dati statiche, le strutture sono strutture dati statiche.
+
+208
+00:18:30,400 --> 00:18:47,720
+Dati statiche, insetti statici, le variabili, I rettori,
+
+209
+00:18:51,840 --> 00:18:57,560
+record. E poi, a un certo punto, si
+
+210
+00:18:57,560 --> 00:19:00,828
+dice che hanno inventato le strutture date dinamiche.
+
+211
+00:19:00,828 --> 00:19:12,540
+Le strutture dati dinamiche. E sono I dati
+
+212
+00:19:12,540 --> 00:19:22,780
+dinamici, perché erano I diti dinamici. Dati dinamici,
+
+213
+00:19:23,300 --> 00:19:27,380
+va bene? E quindi praticamente se passati dal
+
+214
+00:19:27,540 --> 00:19:31,500
+no avere un altro bisogno, avere dei contenitori,
+
+215
+00:19:31,500 --> 00:19:39,360
+dei contenitori che potessero a questo punto cambiare
+
+216
+00:19:39,560 --> 00:19:44,280
+le loro caratteristiche, il dinamismo ma hanno introdotto
+
+217
+00:19:44,340 --> 00:19:52,920
+a questo punto le liste le liste. Quale
+
+218
+00:19:52,920 --> 00:19:56,580
+è la caratteristica della lista? La lista è
+
+219
+00:20:00,000 --> 00:20:15,120
+insieme di nomi. Insieme di noi, va bene?
+
+220
+00:20:16,320 --> 00:20:21,440
+Quindi a questo punto la domanda successiva, come
+
+221
+00:20:21,440 --> 00:20:42,460
+è composto e organizzato un nodo? Attenzione non
+
+222
+00:20:42,460 --> 00:20:46,500
+voglio usare quel termine perché sto facendo una
+
+223
+00:20:46,500 --> 00:20:50,220
+lezione più omica. Un nodo è fatto da
+
+224
+00:20:50,220 --> 00:20:55,140
+dato, uno del tre e quattro punti, più
+
+225
+00:20:55,740 --> 00:21:11,710
+riferimento al nodo successivo o legato con il
+
+226
+00:21:11,710 --> 00:21:17,120
+nodo successivo. Legane con l'odo successivo. Rappresentando graficamente
+
+227
+00:21:17,360 --> 00:21:22,040
+la situazione in scritta parola, andiamo a scegliere
+
+228
+00:21:22,160 --> 00:21:36,820
+questo genere. Questa è la vista. Questo è
+
+229
+00:21:37,565 --> 00:21:45,520
+un noto, questo è un dato e questo
+
+230
+00:21:45,520 --> 00:21:59,120
+è un riferimento o link chiaro? Link, collegamento
+
+231
+00:21:59,620 --> 00:22:03,020
+con il nodo di ossia è chiaro che
+
+232
+00:22:07,020 --> 00:22:10,380
+l'ultimo nodo deve avere una caratteristica ben precisa
+
+233
+00:22:12,060 --> 00:22:15,720
+è chiaro che nel momento in cui io
+
+234
+00:22:15,720 --> 00:22:18,040
+vado a muovermi all'interno di questi nodi che
+
+235
+00:22:18,040 --> 00:22:20,580
+sono agganciati, è chiaro che una cosa che
+
+236
+00:22:20,580 --> 00:22:24,560
+devo sapere è quando fermarmi. Siccome è dinamica,
+
+237
+00:22:26,280 --> 00:22:27,780
+la cosa che devo sapere è qual è
+
+238
+00:22:27,780 --> 00:22:38,960
+l'ultima. E a questo punto l'ultima, una caratteristica,
+
+239
+00:22:39,400 --> 00:22:52,140
+il riferimento O-link è un filo inizio, lo
+
+240
+00:22:52,140 --> 00:22:55,940
+vedete? Questo è il concetto. Queste sono le
+
+241
+00:22:55,940 --> 00:23:00,520
+liste. A questo punto spostiamo l'attenzione, per il
+
+242
+00:23:00,520 --> 00:23:04,380
+motivo che le liste esistono indipendentemente da noi.
+
+243
+00:23:10,420 --> 00:23:17,720
+Cos'è una lista? Una struttura dati dinamiche. E'
+
+244
+00:23:17,720 --> 00:23:27,260
+chiaro? Domanda? Struttura dati dinamiche. Mi faccio vedere
+
+245
+00:23:27,260 --> 00:23:44,120
+cosa non è una lista. Io ho chiesto
+
+246
+00:23:44,120 --> 00:23:46,600
+di andare a guardare le STL, le perie
+
+247
+00:23:46,620 --> 00:23:52,422
+standard, ma c'è una classe che LSTL, libera
+
+248
+00:23:52,422 --> 00:23:56,920
+e rialzata. C'è una classe che va specializzata
+
+249
+00:23:57,980 --> 00:24:03,417
+per il tipo di dato. Quella non è
+
+250
+00:24:03,417 --> 00:24:04,180
+una lista. Bene? Quello non è una lista.
+
+251
+00:24:06,540 --> 00:24:10,460
+Quello è una classe che mi consente di
+
+252
+00:24:10,460 --> 00:24:17,340
+costruire degli oggetti che vengono gestiti come lista,
+
+253
+00:24:18,580 --> 00:24:24,240
+I cui elementi sono gestiti come lista mi
+
+254
+00:24:24,240 --> 00:24:28,280
+devo fidare sulla parola che significa in pratica?
+
+255
+00:24:29,600 --> 00:24:32,760
+La parola è la lista vera è questa
+
+256
+00:24:34,120 --> 00:24:38,500
+quindi io mi aspetto che dentro quell'oggetto avvenga
+
+257
+00:24:39,740 --> 00:24:45,900
+la stessa cosa, è chiaro? E in effetti
+
+258
+00:24:48,980 --> 00:24:56,820
+se mi avete ascoltato, ascoltare significa, ok, faccio
+
+259
+00:24:56,820 --> 00:24:59,400
+un esempio di prova, faccio almeno le operazioni
+
+260
+00:24:59,520 --> 00:25:04,920
+fondamentali, caricamento di una lista, riempire la lista
+
+261
+00:25:04,940 --> 00:25:14,200
+con dei valori interi e agganciare I singoli
+
+262
+00:25:14,740 --> 00:25:20,260
+elementi, I singoli elementi che sono detti, no
+
+263
+00:25:20,260 --> 00:25:25,900
+di? No? Bene, quando uso questa classe e
+
+264
+00:25:25,900 --> 00:25:30,040
+il relativo oggetto io devo fare solamente le
+
+265
+00:25:30,040 --> 00:25:30,720
+azioni di questo genere per essere in questo
+
+266
+00:25:30,720 --> 00:25:52,480
+genere. Push che significa giogia? Popo e streia.
+
+267
+00:25:53,800 --> 00:25:59,840
+Bene? Avete imparato a usare la lista cosa
+
+268
+00:25:59,840 --> 00:26:08,360
+manca? Ma se la lista è una roba
+
+269
+00:26:08,360 --> 00:26:17,180
+del genere, chi si occupa di questa parte?
+
+270
+00:26:24,060 --> 00:26:30,320
+Grazie, non pensare, a 0. Il problema è,
+
+271
+00:26:30,320 --> 00:26:33,000
+chi si occupa di queste parti? Non me
+
+272
+00:26:33,000 --> 00:26:37,960
+ne frega niente perché? Lo scopo di questo
+
+273
+00:26:37,960 --> 00:26:41,440
+relax è questo di nascondere proprio la gestione
+
+274
+00:26:41,520 --> 00:26:45,960
+di quella parte perché quella è la parte
+
+275
+00:26:45,960 --> 00:26:50,740
+più complicata da fare. È chiaro? E in
+
+276
+00:26:50,740 --> 00:26:53,100
+effetti quando io faccio un push e aggiungo,
+
+277
+00:26:55,000 --> 00:26:57,360
+basta dire che cazzo voglio aggiungere e dirgli
+
+278
+00:26:57,360 --> 00:27:00,060
+anche la posizione. Andi di solito lui prende
+
+279
+00:27:00,060 --> 00:27:03,480
+come riferimento la corrente. E lì c'è anche
+
+280
+00:27:03,480 --> 00:27:06,020
+qualcosa di interessante. Però una cosa è certa,
+
+281
+00:27:06,020 --> 00:27:11,720
+questo mondo non viene toccato. Hanno creato l'illusione.
+
+282
+00:27:12,040 --> 00:27:15,500
+E hanno semplificato anche l'uso, no? Mi hanno
+
+283
+00:27:15,500 --> 00:27:21,320
+svincolato dall'uso, dal dover gestire la parte link
+
+284
+00:27:22,860 --> 00:27:26,040
+ci siete? E come vi ho detto? Avete
+
+285
+00:27:26,040 --> 00:27:28,520
+due possibilità o mi fate abbassare il livello
+
+286
+00:27:28,520 --> 00:27:30,460
+e vi dico come si gestisce o se
+
+287
+00:27:30,460 --> 00:27:32,300
+no restiamo alti e vi ho già spiegato
+
+288
+00:27:32,300 --> 00:27:37,180
+le liste. Da questo momento in poi, potete
+
+289
+00:27:37,180 --> 00:27:48,260
+cominciare ad usare, aggiungendovi questa parte del Allora,
+
+290
+00:27:48,840 --> 00:27:54,740
+la lista è questa. Ragioniamo con una struttura
+
+291
+00:27:54,740 --> 00:28:07,640
+data lista. Ok. Cominciamo. Cominciamo appunto a 1.
+
+292
+00:28:07,640 --> 00:28:14,280
+Cominciamo appunto a 1. Prima considerazione, questa lista
+
+293
+00:28:14,280 --> 00:28:16,380
+è una lista composta da quanti novi? Tre
+
+294
+00:28:16,380 --> 00:28:22,520
+novi. Va bene? Attenzione, prima considerazione, seconda considerazione.
+
+295
+00:28:24,240 --> 00:28:26,720
+Una lista di questo genere non ha senso
+
+296
+00:28:26,720 --> 00:28:35,240
+di esistere per questo metodo. Una struttura data
+
+297
+00:28:35,240 --> 00:28:40,780
+di questo genere ha senso se ho la
+
+298
+00:28:40,780 --> 00:28:45,420
+possibilità di individuare il primo elemento della lista,
+
+299
+00:28:45,420 --> 00:28:48,980
+chiaro? Tanto è vero che se perdo questo
+
+300
+00:28:49,360 --> 00:28:52,300
+perdo tutto cosa che non succede per il
+
+301
+00:28:52,300 --> 00:28:58,100
+teptotipo? Se perdo questo inferimento io ho perso
+
+302
+00:28:58,100 --> 00:29:01,920
+tutti I dati nella lista motivo per cui
+
+303
+00:29:03,080 --> 00:29:05,640
+il punto di vista implementativo la vera lista
+
+304
+00:29:10,600 --> 00:29:13,180
+è la testa cioè l'inizio, il punto di
+
+305
+00:29:13,180 --> 00:29:16,520
+partenza perché è importante il punto di partenza?
+
+306
+00:29:16,640 --> 00:29:20,140
+Guardate come è configurata la lista, come sono
+
+307
+00:29:20,140 --> 00:29:24,540
+collegati gli elementi della lista. Vedete le frecce?
+
+308
+00:29:24,880 --> 00:29:27,780
+La freccia significa una cosa ben chiara, significato
+
+309
+00:29:28,620 --> 00:29:32,000
+è unidirezionale, questo che significa che non possono
+
+310
+00:29:32,000 --> 00:29:39,880
+tornare indietro. Ci siete? E quindi praticamente, questa
+
+311
+00:29:39,880 --> 00:29:44,060
+me la devo ricordare, questa cosa. Una volta
+
+312
+00:29:44,060 --> 00:29:46,580
+che ho capito questo, supponiamo di... Questo supponiamo
+
+313
+00:29:47,960 --> 00:30:03,500
+di questi sono singoli elementi, supponiamo che io
+
+314
+00:30:03,500 --> 00:30:08,080
+voglia visualizzare il contenuto della lista per come
+
+315
+00:30:08,080 --> 00:30:12,540
+è configurata, si vede no? Parto dall'inizio parto
+
+316
+00:30:12,540 --> 00:30:17,780
+dall'inizio, che tipo di visualizzazione posso fare? Mi
+
+317
+00:30:17,780 --> 00:30:20,140
+dentate la sequenza di 3, 4, 9 3,
+
+318
+00:30:20,140 --> 00:30:27,780
+4, 9 C'è una cosa che non posso
+
+319
+00:30:27,820 --> 00:30:35,060
+fare non posso dire testa, posizionati sull'elemento che
+
+320
+00:30:35,060 --> 00:30:39,980
+ha valore 4, il secondo elemento. Se voglio
+
+321
+00:30:41,920 --> 00:30:47,320
+accedere all'elemento 4 devo passare dall'inizio. Passare dall'inizio.
+
+322
+00:31:00,060 --> 00:31:04,260
+Ha un nome. L'accesso agli elementi per I
+
+323
+00:31:04,260 --> 00:31:10,140
+vettori avviene in maniera diretta. L'accesso agli elementi
+
+324
+00:31:10,420 --> 00:31:17,860
+di una lista avviene in maniera sequenziale. Accedere
+
+325
+00:31:18,000 --> 00:31:23,100
+sequenzialmente, segno perché devo partire dalle mezzo non
+
+326
+00:31:23,100 --> 00:31:25,900
+posso partire dal mezzo, perché non so proprio
+
+327
+00:31:25,900 --> 00:31:32,260
+se si trova il mezzo ci siete? A
+
+328
+00:31:32,260 --> 00:31:36,320
+questo punto le riflessioni sono queste. Cosa posso
+
+329
+00:31:36,320 --> 00:31:39,560
+fare con le liste? Come è una struttura
+
+330
+00:31:39,820 --> 00:31:43,620
+dinamica, posso fare diverse cose. La più ovvia
+
+331
+00:31:43,680 --> 00:32:02,420
+è questa. Aggiungere un nuovo nodo, è dinamica?
+
+332
+00:32:03,520 --> 00:32:09,940
+Lo posso fare. Ci siete? Lo posso fare.
+
+333
+00:32:10,260 --> 00:32:15,580
+È chiaro? Questo, quello che ho appena fatto
+
+334
+00:32:15,600 --> 00:32:20,360
+è l'esplicitazione del concetto di dinamismo. Dinamismo significa
+
+335
+00:32:20,540 --> 00:32:23,120
+posso aggiungere tutto quello che voglio ma anche
+
+336
+00:32:23,940 --> 00:32:29,220
+eliminare tutto quello che voglio è chiaro? Ma
+
+337
+00:32:29,220 --> 00:32:37,500
+restiamo sulla, restiamo sull'inserimento dinamico restiamo sull'inserimento dinamico.
+
+338
+00:32:38,300 --> 00:32:53,960
+Attenzione, questo è un inserimento in coda. In
+
+339
+00:32:53,960 --> 00:32:57,940
+coda che significa? Dopo l'ultimo. Se io inserisco
+
+340
+00:32:57,960 --> 00:33:01,860
+dopo l'ultimo automaticamente il novellamento diventa l'ultimo e
+
+341
+00:33:01,860 --> 00:33:05,700
+quello precedente diventa il penultimo. Però può subire
+
+342
+00:33:05,700 --> 00:33:17,020
+anche I corvi di questo genere. Lui ha
+
+343
+00:33:17,020 --> 00:33:24,980
+appena fatto un inserimento in mezzo ci chiede?
+
+344
+00:33:33,340 --> 00:33:46,080
+E poi possiamo fare anche questo Faccio un
+
+345
+00:33:46,080 --> 00:34:05,280
+inserimento in testa. Attenzione, come faccio l'inserimento, posso
+
+346
+00:34:05,280 --> 00:34:08,719
+fare l'eliminazione e anche in questo caso ho
+
+347
+00:34:08,719 --> 00:34:15,159
+sempre le tre opzioni, elimino l'ultimo, elimino il
+
+348
+00:34:15,159 --> 00:34:20,540
+centrale, elimino la centrale, elimino la testa perché
+
+349
+00:34:20,540 --> 00:34:31,159
+in questo caso la testa punta All'ultimo elemento.
+
+350
+00:34:31,239 --> 00:34:46,260
+Ci siete? Ok. Come ti faccio? Nel senso
+
+351
+00:34:46,260 --> 00:34:48,780
+che come faccio l'inserimento? In testa e in
+
+352
+00:34:48,780 --> 00:34:57,100
+coda e in mezzo? Ci siete? Riflettiamo sull'inserimento
+
+353
+00:34:57,660 --> 00:35:02,420
+in testa. Per poter implementare l'inserimento in testa
+
+354
+00:35:02,480 --> 00:35:09,660
+io devo creare un nuovo nodo chiaro? Aggiornare
+
+355
+00:35:10,840 --> 00:35:17,480
+in riferimento il link eliminare il simbolo dell'ultimo
+
+356
+00:35:17,540 --> 00:35:22,120
+elemento e farlo avganciare al nuovo elemento. Questo
+
+357
+00:35:22,120 --> 00:35:24,640
+è quello che deve succedere praticamente e questo
+
+358
+00:35:24,640 --> 00:35:30,880
+deve essere tradotto in codice. Ci siete? Faccio
+
+359
+00:35:30,880 --> 00:35:33,460
+un inserimento in mezzo? Creo il nuovo nodo
+
+360
+00:35:33,940 --> 00:35:37,760
+e a questo punto devo aggiornare il link
+
+361
+00:35:38,260 --> 00:35:43,440
+del precedente e aggiornare il link del nuovo
+
+362
+00:35:43,440 --> 00:35:47,900
+nodo facendolo contare all'unimento successivo E poi la
+
+363
+00:35:47,900 --> 00:35:50,560
+stessa cosa la faccio per l'inserimento in te.
+
+364
+00:35:50,580 --> 00:35:55,640
+Ci siete? Ok. A questo punto da giorno
+
+365
+00:35:55,800 --> 00:36:01,220
+abbiamo finito la lezione. A questo punto da
+
+366
+00:36:01,220 --> 00:36:06,740
+scuola italiana, ITIS, l'indirizzo informa, abbiamo finito la
+
+367
+00:36:06,740 --> 00:36:11,640
+lezione. Perché? Io ti ho spiegato come funziona,
+
+368
+00:36:12,560 --> 00:36:14,180
+ma non ti ho detto come si implementa.
+
+369
+00:36:15,660 --> 00:36:20,840
+Perché? Perché non ti ho detto come fare
+
+370
+00:36:20,840 --> 00:36:24,980
+l'aggiornamento della parte link e lì, la cosa
+
+371
+00:36:24,980 --> 00:36:33,580
+diventa impenetiva motivo per cui prendo la asserista
+
+372
+00:36:35,500 --> 00:36:39,460
+ti dico dove inserire, imparo come posizionarmi dove
+
+373
+00:36:39,460 --> 00:36:43,860
+inserire e non vedo niente. E quello che
+
+374
+00:36:43,860 --> 00:36:48,780
+succede dietro è questo. Se vogliamo vedere come
+
+375
+00:36:48,780 --> 00:36:51,920
+viene implementato, chiaramente devo sporcarmi le mani con
+
+376
+00:36:51,920 --> 00:36:56,500
+il cino. E con un altro ingrediente, il
+
+377
+00:36:56,500 --> 00:37:01,800
+puntatore. Perché raffiniamo il concetto. Io l'ho chiamato
+
+378
+00:37:01,800 --> 00:37:07,380
+riferimento link, però questo è un puntatore questo
+
+379
+00:37:07,380 --> 00:37:11,840
+è un puntatore questo è un puntatore questo
+
+380
+00:37:11,840 --> 00:37:18,000
+è un puntatore, chi ha un nome? Un
+
+381
+00:37:18,000 --> 00:37:26,360
+puntatore nulla Va bene? Fatto. Abbiamo fatto il
+
+382
+00:37:26,360 --> 00:37:34,900
+list. Miglioro perché a questo punto operativamente. Operativamente
+
+383
+00:37:35,180 --> 00:37:38,340
+che significa fare le liste? Cosa devo ricordare
+
+384
+00:37:38,340 --> 00:37:41,440
+delle liste? Una, una liste, una struttura dati,
+
+385
+00:37:41,600 --> 00:37:47,420
+dinamica. Dinamica significa che posso agganciare elementi e
+
+386
+00:37:47,420 --> 00:37:53,600
+posso sganciare elementi. È chiaro? Questo significa che
+
+387
+00:37:53,740 --> 00:38:00,120
+parto con un unico punto di partenza, testa.
+
+388
+00:38:01,380 --> 00:38:05,420
+All'inizio testa è vuota, non ha elementi, no?
+
+389
+00:38:06,980 --> 00:38:10,500
+E dopo che comincio ad agganciare, altrimenti come
+
+390
+00:38:10,500 --> 00:38:15,700
+potrai definirla dinamica no? Aggiungo quello che mi
+
+391
+00:38:15,700 --> 00:38:18,480
+serve, oggi mi serve 5, aggiungo 5, domani
+
+392
+00:38:18,480 --> 00:38:21,900
+mi serve 7, aggiungo 7, la cosa è
+
+393
+00:38:21,900 --> 00:38:23,920
+certa, a me serve soltanto il punto di
+
+394
+00:38:23,920 --> 00:38:27,880
+partenza da dove cominciare ad aggiungere. Ho questo
+
+395
+00:38:27,880 --> 00:38:36,520
+come riferimento. Le operazioni importanti sulle liste sono
+
+396
+00:38:36,520 --> 00:38:39,060
+la cosa che vi dovete ricordare. 1. Una
+
+397
+00:38:39,060 --> 00:38:47,840
+struttura dati dinamica. La modalità di accesso agli
+
+398
+00:38:47,840 --> 00:38:52,740
+elementi. Gli elementi possono essere raggiunti soltanto in
+
+399
+00:38:52,740 --> 00:38:57,040
+maniera sequenziale. Che significa? Non posso partire dal
+
+400
+00:38:57,040 --> 00:39:03,880
+mezzo? Devo partire dall'inizio? Detto testa. Ci siete?
+
+401
+00:39:05,700 --> 00:39:14,460
+Basta? Attenzione! Reflessioni sulla struttura dati lista. E'
+
+402
+00:39:14,460 --> 00:39:22,620
+chiaro che qualifiano le operazioni più impegnative? La
+
+403
+00:39:22,620 --> 00:39:28,240
+ricerca. Non è impegnativa la scorrimento, la ricerca
+
+404
+00:39:28,260 --> 00:39:32,720
+è che crea problemi. Perché? Quando abbiamo fatto
+
+405
+00:39:32,720 --> 00:39:38,160
+I vettori, abbiamo detto a questo punto se
+
+406
+00:39:38,160 --> 00:39:40,060
+il vettore è ordinato io posso fare la
+
+407
+00:39:40,060 --> 00:39:43,220
+ricerca binaria. Ricerca binaria significa che mi metto
+
+408
+00:39:44,000 --> 00:39:47,460
+nel mezzo. Qui non posso mettermi nel mezzo,
+
+409
+00:39:47,460 --> 00:39:49,900
+non so dove sta il mezzo e quindi
+
+410
+00:39:49,900 --> 00:39:53,300
+l'unica possibilità che ho è una ricerca sequenziale
+
+411
+00:39:55,000 --> 00:39:57,540
+e quindi la ricerca è questosa e non
+
+412
+00:39:57,540 --> 00:40:04,740
+è ottimizzata con I vettori sì è chiaro?
+
+413
+00:40:04,900 --> 00:40:09,200
+Quindi è questa la cosa che devo sapere
+
+414
+00:40:09,500 --> 00:40:12,980
+delle liste. Ovviamente usando la classe list, tutte
+
+415
+00:40:12,980 --> 00:40:16,760
+queste cose, non le vedo. So che pagherò
+
+416
+00:40:16,980 --> 00:40:21,060
+d'azione, ma non so perché. Ti diranno non
+
+417
+00:40:21,060 --> 00:40:27,940
+fare questo è oneroso. Perché? Perché non entri
+
+418
+00:40:27,960 --> 00:40:32,820
+nel merito della struttura data. Quindi l'operazione onerosa
+
+419
+00:40:32,880 --> 00:40:38,140
+è sicuramente a questo punto la ricerca, perché
+
+420
+00:40:38,140 --> 00:40:45,360
+può essere solo sequenziale. E' chiaro che I
+
+421
+00:40:45,360 --> 00:40:48,380
+punti di forza quali sono? Posso agganciare elementi
+
+422
+00:40:48,380 --> 00:40:51,220
+in mezzo, provate ad agganciare un elemento in
+
+423
+00:40:51,220 --> 00:40:57,920
+mezzo ad un vettore Orite? Tutto è possibile
+
+424
+00:41:00,180 --> 00:41:02,820
+Però, a questo punto, la procedura diventa particolarmente
+
+425
+00:41:03,120 --> 00:41:05,220
+lunga ed impegnativa per non parlare di un'altra
+
+426
+00:41:05,220 --> 00:41:07,660
+cosa che non posso fare tanto facilmente con
+
+427
+00:41:07,660 --> 00:41:12,180
+un vettore vi stringe un odio in mezzo
+
+428
+00:41:14,160 --> 00:41:16,460
+quindi le liste hanno tanti punti di forte
+
+429
+00:41:16,460 --> 00:41:18,840
+e tanti punti di criticità La stessa cosa
+
+430
+00:41:18,840 --> 00:41:20,460
+vale per I vettori, il motivo per cui
+
+431
+00:41:20,460 --> 00:41:24,280
+il professionista deve scegliere l'astruttura dati adatta al
+
+432
+00:41:24,280 --> 00:41:30,420
+suo algoritmo. E' chiaro? Quindi prima di parto
+
+433
+00:41:30,420 --> 00:41:32,640
+con la lista, mi devo fare due conti
+
+434
+00:41:32,640 --> 00:41:37,240
+e stabilire come andrà a lavorare l'algoritmo. E
+
+435
+00:41:37,240 --> 00:41:40,000
+come quella struttura data per la utilizzata? Dall'algoritmo.
+
+436
+00:41:42,600 --> 00:41:46,860
+Questo significa imparare ad usare il trapano, il
+
+437
+00:41:46,860 --> 00:41:54,600
+cacciavite, la pinza. Ma cosa non significa essere,
+
+438
+00:41:54,820 --> 00:42:00,320
+tra virgolette, artigiani esperti, perché l'artigiano esperto non
+
+439
+00:42:00,320 --> 00:42:03,740
+sa usare lo strumento per ogni caso specifico.
+
+440
+00:42:04,020 --> 00:42:05,740
+Io vi sto dando una serie di strumenti,
+
+441
+00:42:05,740 --> 00:42:07,580
+e questo è l'ennesimo strumento che mi metto
+
+442
+00:42:07,580 --> 00:42:13,500
+a disposizione. Questo ci si è? A questo
+
+443
+00:42:13,500 --> 00:42:22,980
+punto l'argomento è stato completato. Cosa potrei fare?
+
+444
+00:42:23,700 --> 00:42:27,000
+L'ho già chiesto. Non ho avuto molti risconti,
+
+445
+00:42:27,120 --> 00:42:30,040
+mi sarebbe piaciuto... Sono passate due settimane, più
+
+446
+00:42:30,040 --> 00:42:31,800
+di due settimane, che mi ho chiesto di
+
+447
+00:42:31,800 --> 00:42:35,340
+indagare su quella cosa lì. E vi ho
+
+448
+00:42:35,340 --> 00:42:37,680
+dato una prima chiedita di vettura come si
+
+449
+00:42:37,680 --> 00:42:41,360
+studiano le classi e vi ho detto partite
+
+450
+00:42:41,360 --> 00:42:45,640
+dai costruttori, e indagate sui metodi che sono
+
+451
+00:42:45,640 --> 00:42:49,280
+presenti, in tutto ciò che interfaccia. E questo
+
+452
+00:42:49,280 --> 00:42:51,400
+era il primo scopo. Il secondo scopo era,
+
+453
+00:42:51,400 --> 00:42:53,700
+in questo punto, provate a fare delle prove
+
+454
+00:42:54,320 --> 00:42:55,930
+e vi ho detto, ci sono delle parole
+
+455
+00:42:55,930 --> 00:43:02,780
+che chiami comuni a tutti queste classi push
+
+456
+00:43:02,780 --> 00:43:06,920
+a pop. Voi userete push a pop per
+
+457
+00:43:06,920 --> 00:43:12,120
+fare lavorare con vittori, lavorare con liste, lavorare
+
+458
+00:43:12,120 --> 00:43:16,720
+con tante altre cose. La logica qualità. Ok,
+
+459
+00:43:17,060 --> 00:43:20,220
+siccome sono pigri, non a questo punto metto
+
+460
+00:43:20,220 --> 00:43:24,440
+la disposizione delle parole e chiavi abbastanza comune,
+
+461
+00:43:24,440 --> 00:43:26,040
+a meno che poi la situiamo in un
+
+462
+00:43:26,040 --> 00:43:29,600
+po' più particolare. In effetti poi l'evoluzione è
+
+463
+00:43:29,600 --> 00:43:35,700
+quale? Push back. Back push back si esprime
+
+464
+00:43:35,700 --> 00:43:39,520
+da solo? Io non lo so come funzionerà
+
+465
+00:43:39,520 --> 00:43:48,760
+so che funziona chiaro? Provate ad implementare un
+
+466
+00:43:48,760 --> 00:43:53,200
+push back gestendo I puntatori E questo era
+
+467
+00:43:53,200 --> 00:43:54,880
+il lavoro che non ho fatto neanche con
+
+468
+00:43:54,880 --> 00:43:57,860
+voi, eravate troppo scatzi. C'erano molte panzerie che
+
+469
+00:43:57,860 --> 00:44:01,160
+vogliava fare stessi. E' da due anni che
+
+470
+00:44:01,160 --> 00:44:03,380
+non faccio più queste cose. Perché? Me ne
+
+471
+00:44:03,380 --> 00:44:08,540
+facevo da solo. Ma l'hanno? Non l'hanno fatta.
+
+472
+00:44:09,500 --> 00:44:11,820
+Sì, io ho capito. E' che ci diciamo,
+
+473
+00:44:11,880 --> 00:44:13,800
+tu credi di aver fatto, ma quando le
+
+474
+00:44:13,800 --> 00:44:16,100
+faccio io, qui ti rovanti per un mese.
+
+475
+00:44:16,100 --> 00:44:18,900
+Ah, sì, si, si. Ma perché? Ma perché
+
+476
+00:44:18,900 --> 00:44:22,900
+c'è stata la tua collaborazione, la nostra, tua,
+
+477
+00:44:22,900 --> 00:44:25,440
+perché hai avuto voglia di fare il perché,
+
+478
+00:44:25,660 --> 00:44:27,380
+ti ho dato ovviamente le parole chiave e
+
+479
+00:44:27,380 --> 00:44:28,940
+poi tutti I lavori scorpi, lo hai fatto
+
+480
+00:44:28,940 --> 00:44:31,860
+di solo, Ma io di fatto non mi
+
+481
+00:44:31,860 --> 00:44:34,400
+sento di aver trattato questo argomento con voi,
+
+482
+00:44:34,400 --> 00:44:36,960
+perché di fatto vi ho dato soltanto dei
+
+483
+00:44:36,960 --> 00:44:42,300
+vineschi. La trattazione mia, non l'ho fatta, l'ho
+
+484
+00:44:44,280 --> 00:44:48,120
+approfondita, però non posso considerare la cosa fatta.
+
+485
+00:44:50,700 --> 00:44:55,420
+Perchè? Basta pensare al lavoro che avete fatto
+
+486
+00:44:56,760 --> 00:44:59,340
+per capire certe cose, ma lo avete fatto
+
+487
+00:44:59,340 --> 00:45:07,460
+insolito e sostanzialmente. Ti chiaro? Quindi, da manuale
+
+488
+00:45:07,500 --> 00:45:10,940
+previsto che vengano trattate queste strutture dati informatica
+
+489
+00:45:12,160 --> 00:45:14,620
+e da manuale gli ho spiegato la teoria
+
+490
+00:45:14,620 --> 00:45:19,420
+delle liste senza alcuna forma di implementazione passante
+
+491
+00:45:20,020 --> 00:45:22,540
+della linguabilità. Per capirci il DDC lo faccio
+
+492
+00:45:22,540 --> 00:45:25,360
+io o qualche altra scimmia in giro gli
+
+493
+00:45:25,360 --> 00:45:30,720
+altri fanno C++ in alto, Java in alto
+
+494
+00:45:31,760 --> 00:45:34,640
+traduco, ti prendono la classe che implementa questa
+
+495
+00:45:34,640 --> 00:45:36,040
+cosa e ti dicono che questa è la
+
+496
+00:45:36,040 --> 00:45:41,320
+lista. Ti fanno il disegno? Se volete fare
+
+497
+00:45:41,320 --> 00:45:44,340
+l'approfondimento me lo dovete chiedere, sennò io non
+
+498
+00:45:44,340 --> 00:45:47,780
+lo faccio. Se mi chiedete di farlo, lo
+
+499
+00:45:47,780 --> 00:45:56,040
+dovete pagare non denaro, ma I risultati ah
+
+500
+00:45:56,040 --> 00:46:03,300
+be' ma chi ci fa questo? Tocca me
+
+501
+00:46:05,300 --> 00:46:05,800
+scherzo

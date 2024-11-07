@@ -1,0 +1,2003 @@
+1
+00:00:02,560 --> 00:00:04,500
+No, vai a vedere il codice, mostri il
+
+2
+00:00:04,500 --> 00:00:07,859
+codice che... C'è solo un pò. Sì, sì,
+
+3
+00:00:07,859 --> 00:00:12,400
+sì. Basta avanzare. Allora, ad esempio qua abbiamo
+
+4
+00:00:13,780 --> 00:00:18,000
+una classe, un iClass, abbiamo una proprietà privata,
+
+5
+00:00:18,000 --> 00:00:22,779
+un intero, abbiamo il costruttore che prende un
+
+6
+00:00:22,779 --> 00:00:27,560
+intero e abbiamo una funzione friendly. Come vedete
+
+7
+00:00:28,779 --> 00:00:32,560
+è all'interno della classe ma non fa parte
+
+8
+00:00:32,560 --> 00:00:34,920
+della classe, questo è importante, non fa parte
+
+9
+00:00:34,920 --> 00:00:38,000
+della classe. In effetti poi la parte che
+
+10
+00:00:38,000 --> 00:00:40,320
+dovete fare se avete intenzione di studiare questi
+
+11
+00:00:40,320 --> 00:00:44,360
+argomenti con voi stessi non è il posizionamento
+
+12
+00:00:44,840 --> 00:00:52,300
+che rende un elemento componente della classe, il
+
+13
+00:00:52,300 --> 00:00:54,280
+fatto che sia nella classe allora è qualcosa
+
+14
+00:00:54,280 --> 00:00:56,800
+che partiva da classe. Ne abbiamo dato, io
+
+15
+00:00:56,800 --> 00:01:00,300
+vi ho detto una cosa già nel scorso,
+
+16
+00:01:00,300 --> 00:01:03,020
+come è fatta una classe, una classe è
+
+17
+00:01:03,020 --> 00:01:09,979
+fatta da membri, punto. Quindi ricordando quella definizione
+
+18
+00:01:10,340 --> 00:01:14,280
+primordiale, poi abbiamo specializzato il concetto di membro,
+
+19
+00:01:14,440 --> 00:01:19,080
+abbiamo detto chi sono I membri, proprietà, metodi,
+
+20
+00:01:19,160 --> 00:01:24,500
+proprietà, altri oggetti, altre classi, cose che non
+
+21
+00:01:24,500 --> 00:01:27,720
+abbiamo mai visto e non abbiamo intenzione di
+
+22
+00:01:27,720 --> 00:01:31,920
+fare, perché esiste anche questa possibilità di inserire
+
+23
+00:01:31,920 --> 00:01:34,500
+una classe all'interno di una classe, quindi all'interno
+
+24
+00:01:34,500 --> 00:01:38,040
+della classe ci possono essere tante cose. Una
+
+25
+00:01:38,040 --> 00:01:43,460
+cosa certa, tutte queste cose non sono membri,
+
+26
+00:01:43,620 --> 00:01:48,040
+quindi una classe è composta da membri, chiaro?
+
+27
+00:01:48,280 --> 00:01:50,160
+Bene, La prima cosa che dicono quando si
+
+28
+00:01:50,160 --> 00:01:54,680
+spiega le funzioni friend, le friend non sono
+
+29
+00:01:54,680 --> 00:01:59,306
+membri. Hanno già detto tutto dal loro punto
+
+30
+00:01:59,306 --> 00:02:07,820
+di vista, quindi raccomandandoli in contrario, se non
+
+31
+00:02:07,820 --> 00:02:12,180
+è un membro, a questo punto è qualcosa
+
+32
+00:02:12,180 --> 00:02:16,220
+di esterno. E invece no. Vado a guardare
+
+33
+00:02:16,220 --> 00:02:18,760
+l'implementazione e me la ritrovo nella classe e
+
+34
+00:02:18,760 --> 00:02:25,660
+vado in confusione chiaro? Quindi formalmente, tecnicamente è
+
+35
+00:02:25,660 --> 00:02:27,820
+una funzione frendi, si trova nella classe ma
+
+36
+00:02:27,820 --> 00:02:30,620
+non fa parte della classe, però sono strano
+
+37
+00:02:30,620 --> 00:02:33,420
+e brutto, non è un membro della classe,
+
+38
+00:02:33,420 --> 00:02:37,820
+questa è la definizione più corretta. Quindi non
+
+39
+00:02:37,820 --> 00:02:43,160
+gode, anche lei non gode dei privilegi dei
+
+40
+00:02:43,160 --> 00:02:45,700
+membri, no, perché a ciasi vesi ne ha
+
+41
+00:02:45,700 --> 00:02:49,280
+pure di più. La dimostrazione reale a mio
+
+42
+00:02:49,280 --> 00:02:56,940
+avviso è nell'implementazione. Quando devo implementare una funzione
+
+43
+00:02:57,440 --> 00:03:03,380
+membro, quindi un metodo, ce la devo implementare
+
+44
+00:03:03,840 --> 00:03:06,840
+nome della classe, scopo, 4 punti, nome della
+
+45
+00:03:06,840 --> 00:03:10,780
+funzione, questa è l'implementazione. Sto dando per scontato
+
+46
+00:03:10,780 --> 00:03:13,380
+cosa potete fare. Nel momento in cui io
+
+47
+00:03:13,380 --> 00:03:18,080
+vado ad implementare una funzione Fender, non c'è
+
+48
+00:03:18,080 --> 00:03:20,900
+più lo scope? No. E scope che significa?
+
+49
+00:03:21,820 --> 00:03:27,100
+Non appartiene a quell'ambito, a quello scopo. Quindi
+
+50
+00:03:27,120 --> 00:03:29,380
+è una funzione che sta lì, che serve
+
+51
+00:03:29,380 --> 00:03:31,360
+a quella cosa lì, ma non fa parte
+
+52
+00:03:31,360 --> 00:03:37,100
+della classe. E viene accoglione ovviamente nell'implementazione di
+
+53
+00:03:37,100 --> 00:03:41,500
+un pianeta diverso. Infatti non c'è lo scopo,
+
+54
+00:03:41,760 --> 00:03:46,340
+ci fosse stata un'automizia, lo avremmo detto, chiaro?
+
+55
+00:03:46,340 --> 00:03:48,260
+Il motivo per cui è quello che gli
+
+56
+00:03:48,260 --> 00:03:50,660
+ha fatto, era quello che ho cercato di
+
+57
+00:03:50,660 --> 00:03:54,380
+fare ieri, delle serie, dovevo partire a vedere
+
+58
+00:03:54,380 --> 00:03:57,580
+una piattaforma del trend, ti costruisco una classe
+
+59
+00:03:57,900 --> 00:04:06,100
+idiota e il fatto che lo faccia, tenete
+
+60
+00:04:06,100 --> 00:04:08,460
+conto che io sono andato molto prima di
+
+61
+00:04:08,460 --> 00:04:12,500
+lui, quindi questo significa che se devo far
+
+62
+00:04:12,500 --> 00:04:14,700
+passare un concetto complesso io non ti scrivo
+
+63
+00:04:14,920 --> 00:04:17,240
+il libro di Dio di Corice, ti scrivo
+
+64
+00:04:17,240 --> 00:04:19,320
+il libro di Dio di Corice significativo perché
+
+65
+00:04:19,760 --> 00:04:23,500
+descrivo il concetto. E lui ha utilizzato la
+
+66
+00:04:23,500 --> 00:04:28,660
+stessa filosofia, cioè la semplificazione, grazia semplice, funzione
+
+67
+00:04:28,680 --> 00:04:35,420
+friend e implementazione, tutte le varie cose che
+
+68
+00:04:35,420 --> 00:04:40,140
+ti servono e poi uso e poi sull'uso
+
+69
+00:04:40,680 --> 00:04:43,980
+c'è da fare delle risorse perché poi in
+
+70
+00:04:43,980 --> 00:04:48,280
+effetti lui dovrebbe compiere questo lavoro tra virgolette
+
+71
+00:04:48,760 --> 00:04:57,700
+sporco anche se con un solo oggetto non
+
+72
+00:04:57,700 --> 00:05:02,720
+apprezzo avrei bisogno di almeno due oggetti io
+
+73
+00:05:02,720 --> 00:05:06,180
+oggetto la mia funzione friend, tu oggetto la
+
+74
+00:05:06,180 --> 00:05:09,600
+tua funzione friend, apparteniamo alla stessa classe, abbiamo
+
+75
+00:05:09,600 --> 00:05:13,800
+le stesse regole della classe, io entro nella
+
+76
+00:05:13,800 --> 00:05:16,620
+tua parte privata, tu entri nella mia parte
+
+77
+00:05:16,620 --> 00:05:20,020
+privata, allora a questo punto voi appresterete il
+
+78
+00:05:20,020 --> 00:05:24,220
+concetto in senso. Le potenze Friend possono entrare
+
+79
+00:05:24,480 --> 00:05:27,820
+in qualunque area privata di un qualunque oggetto
+
+80
+00:05:30,960 --> 00:05:34,640
+che ovviamente nato sempre con le regole della
+
+81
+00:05:34,640 --> 00:05:39,100
+classe di ritornello al l'interno della classe viene
+
+82
+00:05:39,260 --> 00:05:42,440
+dichiarato che esiste una funzione c'è una piccola
+
+83
+00:05:42,440 --> 00:05:46,100
+osservazione, la parola friend viene utilizzata soltanto nel
+
+84
+00:05:46,100 --> 00:05:50,020
+prototipo nell'implementazione della funzione friend la parola friend
+
+85
+00:05:50,020 --> 00:05:53,220
+non viene più utilizzata motivo per cui è
+
+86
+00:05:53,220 --> 00:05:55,240
+chiaro, se ti chiedo di costruire una funzione
+
+87
+00:05:55,240 --> 00:05:58,040
+Friender, ti scrivi la Friender se l'hai fatto
+
+88
+00:05:58,780 --> 00:06:03,500
+è normale, se non l'hai mai fatto scriverai
+
+89
+00:06:03,520 --> 00:06:09,980
+friend, questo è un'esperienza perché proprio... Che sai,
+
+90
+00:06:09,980 --> 00:06:12,540
+diciamo che è la famiglia chiave che serve
+
+91
+00:06:12,660 --> 00:06:15,560
+per la classe solo per la classe per
+
+92
+00:06:15,560 --> 00:06:17,220
+dire guarda che questo non è un tommy
+
+93
+00:06:17,220 --> 00:06:21,980
+in brook, è un amico. Al di fuori
+
+94
+00:06:21,980 --> 00:06:25,200
+è semplicemente una funzione, ma qualsiasi funzione come
+
+95
+00:06:25,200 --> 00:06:30,240
+se scrivessimo un modulo, nel modulo della nostra
+
+96
+00:06:30,240 --> 00:06:32,880
+libreria questo non lo mettiamo, se lo mettiamo
+
+97
+00:06:32,880 --> 00:06:40,080
+dentro una cassa lo dobbiamo mettere. La chiamata
+
+98
+00:06:40,080 --> 00:06:43,700
+come vedete non parte da un oggetto, non
+
+99
+00:06:43,700 --> 00:06:47,840
+c'è oggetto punto print value, cioè print value
+
+100
+00:06:48,160 --> 00:06:51,940
+è una funzione a tutti gli effetti. Anche
+
+101
+00:06:51,940 --> 00:06:54,680
+l'uso? Anche l'uso, sì sì, funziona a tutti
+
+102
+00:06:54,680 --> 00:07:01,440
+gli effetti. Il main, il main noi lo
+
+103
+00:07:01,440 --> 00:07:06,300
+utilizziamo per testare la classe e quindi per
+
+104
+00:07:06,300 --> 00:07:10,080
+testare una classe mi serve un mail perché
+
+105
+00:07:10,420 --> 00:07:12,580
+quello che io uso non è la classe,
+
+106
+00:07:13,500 --> 00:07:16,120
+è l'oggetto quindi la classe mi serve per
+
+107
+00:07:16,120 --> 00:07:19,940
+costruire oggetti, no? Quindi se voglio verificare il
+
+108
+00:07:19,940 --> 00:07:22,460
+consideramento di una classe gli devo far creare
+
+109
+00:07:22,460 --> 00:07:25,760
+un oggetto, il testo, oggetto e a questo
+
+110
+00:07:25,760 --> 00:07:29,440
+punto, che cosa ha fatto lui? Si è
+
+111
+00:07:29,440 --> 00:07:36,040
+creato un oggetto obj a cui è dato
+
+112
+00:07:36,040 --> 00:07:36,800
+ovviamente il valore 42, poco importo, una cosa
+
+113
+00:07:36,800 --> 00:07:41,920
+è certa, il costruttore anche li sa per
+
+114
+00:07:41,920 --> 00:07:46,240
+vedere, obj guardate praticamente c'è il costruttore che
+
+115
+00:07:46,240 --> 00:07:49,660
+prevede un unico parametro, l'operato ha fatto in
+
+116
+00:07:49,660 --> 00:07:51,280
+terza, con voi lo che ci ho fatto
+
+117
+00:07:51,280 --> 00:07:55,080
+altre volte, una riga di codice, bisogna dire
+
+118
+00:07:55,080 --> 00:07:58,460
+tutto quanto il programma, perché in una riga
+
+119
+00:07:58,460 --> 00:08:01,800
+di codice c'è tutto il programma, tipo, tutta
+
+120
+00:08:01,800 --> 00:08:04,500
+la programmazione degli oggetti, e in questo caso
+
+121
+00:08:04,500 --> 00:08:08,700
+ho fatto ritornimento al costruttore, perché lì c'è
+
+122
+00:08:08,700 --> 00:08:10,420
+scritto che c'è un costruttore che ha un
+
+123
+00:08:10,420 --> 00:08:15,160
+parametro. Non è sottinteso. E' solo un costruttore.
+
+124
+00:08:16,660 --> 00:08:19,020
+Poi se entrano nella classe è facile dare
+
+125
+00:08:19,020 --> 00:08:21,580
+la risposta, il problema è interpretare quello che
+
+126
+00:08:21,580 --> 00:08:25,680
+c'è fuori faccio partire il consultorio, il consultorio
+
+127
+00:08:25,680 --> 00:08:29,020
+ne costruisce con un parametro l'oggetto BJ a
+
+128
+00:08:29,020 --> 00:08:32,480
+questo punto io devo usare l'oggetto BJ per
+
+129
+00:08:32,480 --> 00:08:34,580
+le cose che ti siamo detto, se sei
+
+130
+00:08:35,220 --> 00:08:40,299
+un membro della famiglia, a questo punto nome
+
+131
+00:08:40,299 --> 00:08:45,220
+dell'oggetto, appunto, perché sei, hai una famiglia, in
+
+132
+00:08:45,220 --> 00:08:50,000
+questo caso la famiglia è l'oggetto. Ma siccome
+
+133
+00:08:50,020 --> 00:08:54,300
+sei una funzione freghe, sei l'amico di famiglia,
+
+134
+00:08:55,480 --> 00:08:57,600
+ma non sei la famiglia, allora a questo
+
+135
+00:08:57,600 --> 00:08:59,940
+punto già vale quello di chiamare le diverse.
+
+136
+00:09:04,580 --> 00:09:13,160
+Cosa manca in nome dell'oggetto? Oggetto punto. E
+
+137
+00:09:13,160 --> 00:09:16,300
+lì vi rendete conto che il concetto di
+
+138
+00:09:16,300 --> 00:09:19,620
+non far parte della famiglia, il concetto di
+
+139
+00:09:19,620 --> 00:09:23,140
+non essere membro della famiglia, il concetto è
+
+140
+00:09:23,140 --> 00:09:28,520
+un amico di famiglia è chiaro? Discorso è
+
+141
+00:09:28,520 --> 00:09:31,900
+che il concetto va metabolizzato non soltanto data
+
+142
+00:09:31,900 --> 00:09:35,480
+la definizione perché all'atto pratico voi siano non
+
+143
+00:09:35,480 --> 00:09:38,920
+metabolizzati il concetto, non lo so usare. A
+
+144
+00:09:38,920 --> 00:09:40,600
+meno che non ti faccio un esempio, non
+
+145
+00:09:40,600 --> 00:09:44,600
+specifico in cui io ti faccio premessa, lavoriamo
+
+146
+00:09:44,660 --> 00:09:47,360
+con le funzioni Frenda. Il problema è che
+
+147
+00:09:47,360 --> 00:09:49,620
+quando realizzi un progetto non c'è la premessa,
+
+148
+00:09:50,660 --> 00:09:54,440
+voi dovete decidere cosa mettereci dentro. E in
+
+149
+00:09:54,440 --> 00:09:56,720
+effetti un'altra domanda che possiamo fare a Cioto
+
+150
+00:09:56,720 --> 00:10:00,980
+e GPT è mi propone un mini progetto
+
+151
+00:10:00,980 --> 00:10:06,460
+in cui deve inserire la funzione Friendly. Il
+
+152
+00:10:06,460 --> 00:10:10,100
+discorso di indagare il provesso certo di tutti.
+
+153
+00:10:12,120 --> 00:10:14,620
+Perché la cosa più difficile non è tanto
+
+154
+00:10:14,660 --> 00:10:17,700
+questo, trovare dei esempi significativi che mi aiutano
+
+155
+00:10:18,560 --> 00:10:21,020
+a comprendere il senso. In questo caso il
+
+156
+00:10:21,020 --> 00:10:22,820
+senso è che io so usare la funzione
+
+157
+00:10:22,820 --> 00:10:26,640
+Friend, non riesco a capire quale possa essere
+
+158
+00:10:26,640 --> 00:10:29,840
+la situazione in cui applicare la funzione Friend.
+
+159
+00:10:30,820 --> 00:10:34,640
+Allora lui a lui chiede mi fai un
+
+160
+00:10:34,640 --> 00:10:38,380
+esempio in cui utilizzare la funzione friend e
+
+161
+00:10:38,380 --> 00:10:39,960
+poi mi spieghi non dico per cosa la
+
+162
+00:10:39,960 --> 00:10:42,540
+devo usare, perché se non scrivete questo, lui
+
+163
+00:10:42,540 --> 00:10:45,020
+la prena, ma non vi dà la spiegazione,
+
+164
+00:10:45,440 --> 00:10:47,480
+segnalate che la permanda, questo è un pronto
+
+165
+00:10:47,480 --> 00:10:53,640
+che dovete registrare se me lo salate tu
+
+166
+00:10:57,540 --> 00:11:05,220
+è l'ultimo allora, perché esistono, a quali ho
+
+167
+00:11:05,220 --> 00:11:09,100
+chiesto il dubbio che avevo ieri? Perché esistono
+
+168
+00:11:09,100 --> 00:11:11,540
+le funzioni Friend se posso accendere I membri
+
+169
+00:11:11,540 --> 00:11:15,600
+privati tra oggetti della stessa classe? Siccome discutevamo
+
+170
+00:11:15,860 --> 00:11:20,780
+appunto ieri che qualsiasi metodo di una classe
+
+171
+00:11:21,660 --> 00:11:25,580
+ha l'accesso a tutti I membri privati, protetti,
+
+172
+00:11:25,800 --> 00:11:29,180
+eccetera, di tutti gli oggetti. Se io passo
+
+173
+00:11:29,180 --> 00:11:32,060
+un oggetto a un metodo, C'è un oggetto
+
+174
+00:11:32,060 --> 00:11:35,480
+chiamante, fa la chiamata del metodo. In questa
+
+175
+00:11:35,480 --> 00:11:38,260
+chiamata come parametro passa un altro oggetto, sempre
+
+176
+00:11:38,260 --> 00:11:42,000
+della stessa classe. Quel metodo lì ha accesso
+
+177
+00:11:42,140 --> 00:11:45,380
+anche ai membri privati dell'oggetto che gli ha
+
+178
+00:11:45,380 --> 00:11:49,540
+passato, purche siano della stessa classe e quindi
+
+179
+00:11:49,540 --> 00:11:53,580
+viene il dubbio, perché esistono le funzioni Friend
+
+180
+00:11:53,580 --> 00:11:56,080
+e effettivamente poi qua ripete le stesse code
+
+181
+00:11:56,080 --> 00:11:59,380
+che hai reppetuto sopra e fa un altro
+
+182
+00:11:59,380 --> 00:12:03,580
+esempio, questo è l'esempio, quello che mi sono
+
+183
+00:12:03,580 --> 00:12:08,800
+trovato l'anno scorso la definizione di quello Offstream
+
+184
+00:12:09,780 --> 00:12:15,680
+e CNC Out io ho una classe frazione
+
+185
+00:12:16,220 --> 00:12:21,340
+però se uno vuole usare la cout con
+
+186
+00:12:21,340 --> 00:12:24,880
+la mia classe frazione come fa? Mi serve
+
+187
+00:12:27,360 --> 00:12:33,880
+ridefinire l'operatore, ma quello è un operatore, cioè,
+
+188
+00:12:33,880 --> 00:12:36,580
+ti devi fare definire un significato ben preciso
+
+189
+00:12:37,620 --> 00:12:40,880
+perché ridefinire significa attribuire un significato diverso a
+
+190
+00:12:40,880 --> 00:12:44,280
+quel tipo di team altrimenti quello sarà associato
+
+191
+00:12:44,420 --> 00:12:47,080
+a delle funzionalità infatti quando provi a passare
+
+192
+00:12:47,080 --> 00:12:51,180
+un oggetto di una tua classe usando questo
+
+193
+00:12:51,180 --> 00:12:53,300
+operatore con la c out ti dice guarda
+
+194
+00:12:53,300 --> 00:12:56,420
+non c'è l'overload per questo tipo quindi te
+
+195
+00:12:56,420 --> 00:12:58,980
+lo devi creare tu lo overload. Io ho
+
+196
+00:12:58,980 --> 00:13:01,280
+fatto questo quello che dicevo prima che mi
+
+197
+00:13:01,280 --> 00:13:03,140
+ha sputato in faccia, ok va bene perfetto
+
+198
+00:13:03,140 --> 00:13:08,420
+allora io faccio un metodo che ridefinisce l'operatore
+
+199
+00:13:10,280 --> 00:13:13,360
+li passo dentro l'oggetto e vado gli passo
+
+200
+00:13:13,360 --> 00:13:15,160
+dentro gli oggetti, perché questo è un altro
+
+201
+00:13:15,160 --> 00:13:21,600
+oggetto che sono passati per riferimento gli passo
+
+202
+00:13:21,600 --> 00:13:24,640
+due oggetti, quindi sono due parametri e lui
+
+203
+00:13:24,640 --> 00:13:26,660
+mi ha detto no non c'era a prendere,
+
+204
+00:13:26,940 --> 00:13:29,240
+non sapevo ancora cosa fosse la lettera e
+
+205
+00:13:29,240 --> 00:13:30,420
+lui mi ha scutato in faccia e fa
+
+206
+00:13:30,420 --> 00:13:32,480
+se tu fai la definizione di un operatore
+
+207
+00:13:32,640 --> 00:13:35,380
+come membro della classe non puoi avere più
+
+208
+00:13:35,380 --> 00:13:38,420
+di un parato e quindi a lì sono
+
+209
+00:13:38,420 --> 00:13:40,400
+andato avanti a fare domande a ciò gpt
+
+210
+00:13:40,460 --> 00:13:43,940
+spiega mi cos'è e il risultato è stato
+
+211
+00:13:43,940 --> 00:13:46,300
+questo penso che alcuni gli ori che sono
+
+212
+00:13:46,300 --> 00:13:47,580
+sbagliati o le hai fatto anche tu lo
+
+213
+00:13:47,580 --> 00:13:51,300
+sai, il risultato è questo ti dice guarda
+
+214
+00:13:51,760 --> 00:13:54,360
+tanto di usare un metodo friend non è
+
+215
+00:13:54,360 --> 00:14:01,160
+membro però può avere accesso ai membri dell'oggetto,
+
+216
+00:14:01,320 --> 00:14:04,640
+membri privati dell'oggetto, o anche devi passare anche
+
+217
+00:14:05,860 --> 00:14:10,120
+l'output stream e ritornare all'output stream perché se
+
+218
+00:14:10,120 --> 00:14:13,520
+tu sei concatenato tu mandi mandi mandi perché
+
+219
+00:14:13,520 --> 00:14:15,560
+fondamentalmente poi se si va a vedere l'output
+
+220
+00:14:15,680 --> 00:14:18,800
+stream, se si va a vedere il cout
+
+221
+00:14:18,800 --> 00:14:25,240
+c'è questo dietro? Certo. La ricorsione. No, la
+
+222
+00:14:25,240 --> 00:14:28,980
+ricorsione è chiamata temporanea, basta l'oggetto poi viene
+
+223
+00:14:28,980 --> 00:14:34,400
+risputato. Quando tu vedi l'operatore cout, questo è
+
+224
+00:14:34,400 --> 00:14:39,300
+un passaggio di oggetti da un operatore all'interno
+
+225
+00:14:39,440 --> 00:14:44,040
+della cout. Ok, quindi ridefinisco? È già ridefinito
+
+226
+00:14:44,160 --> 00:14:48,960
+dalla libervia. Tu devi fare un'ulteriore ridentinizione, è
+
+227
+00:14:48,960 --> 00:14:52,560
+come se fosse una funzione overload di una
+
+228
+00:14:52,560 --> 00:14:55,700
+funzione della Liberia Standard con il tuo tipo,
+
+229
+00:14:56,400 --> 00:14:59,840
+perché questa funzione già esiste in realtà nella
+
+230
+00:14:59,840 --> 00:15:01,760
+Liberia Standard, però non ce l'hai il tuo
+
+231
+00:15:01,760 --> 00:15:04,700
+tipo, scusa qua, non c'è il tuo tipo,
+
+232
+00:15:04,740 --> 00:15:08,260
+lo devi definire tu quindi tu ti crei
+
+233
+00:15:08,700 --> 00:15:11,380
+un ulteriore overload per poter usare la C-Auto
+
+234
+00:15:11,380 --> 00:15:15,900
+con il tuo oggetto poi all'interno della definizione,
+
+235
+00:15:16,980 --> 00:15:20,780
+fai quello che vuoi, ad esempio nel caso
+
+236
+00:15:20,780 --> 00:15:23,940
+della frazione noi avremo il nostro oggetto Opus
+
+237
+00:15:23,940 --> 00:15:29,960
+Stream, gli passo numeratore, barretta, denominatore, hand line,
+
+238
+00:15:30,440 --> 00:15:32,840
+oppure senza hand line in realtà, E quello
+
+239
+00:15:32,840 --> 00:15:35,900
+poi sarà la mia definizione. Quindi quando io
+
+240
+00:15:35,900 --> 00:15:39,280
+andrò a fare C out, minore minore, il
+
+241
+00:15:39,280 --> 00:15:43,200
+mio oggetto, lui farà quel mio chiamamento e
+
+242
+00:15:43,200 --> 00:15:45,000
+miscirà la mia frazione, perché non è un
+
+243
+00:15:45,000 --> 00:15:47,840
+posto a te. Poi questo è un altro
+
+244
+00:15:47,840 --> 00:15:51,180
+risorse. Calma, calma, calma. Se devi concludere, concludi,
+
+245
+00:15:51,180 --> 00:15:53,500
+perché poi adesso non è che dobbiamo fare
+
+246
+00:15:54,440 --> 00:15:58,280
+la tripe vado direttamente a l'ultima si, vai
+
+247
+00:15:58,280 --> 00:16:01,240
+sul ultimo per esempio, in classe 3 non
+
+248
+00:16:01,240 --> 00:16:03,600
+lasciamo perdere, questa è un'altra cosa la classe
+
+249
+00:16:03,600 --> 00:16:05,900
+3 è un'altra cosa in un altro momento
+
+250
+00:16:05,900 --> 00:16:10,180
+è diverso allora, sono arrivato ho fatto passare
+
+251
+00:16:10,180 --> 00:16:12,700
+del tempo ho lasciato che la mente elaborasse
+
+252
+00:16:12,700 --> 00:16:14,620
+le informazioni, poi vi ho fatto una domanda.
+
+253
+00:16:15,100 --> 00:16:17,140
+Fammi capire, perché se passo un metodo di
+
+254
+00:16:17,140 --> 00:16:20,140
+una classe, un oggetto della classe stessa, il
+
+255
+00:16:20,140 --> 00:16:23,080
+metodo può cedere sia ai membri privati dell'oggetto
+
+256
+00:16:23,300 --> 00:16:26,130
+chiamante che dell'oggetto passato nel metodo. E questa
+
+257
+00:16:26,130 --> 00:16:27,240
+è la domanda che avevo fatto io a
+
+258
+00:16:27,240 --> 00:16:30,500
+Giancarlo di quest'era. La risposta è stata semplicemente...
+
+259
+00:16:30,820 --> 00:16:36,020
+Perché si può spostare? Ci sono delle regole
+
+260
+00:16:36,240 --> 00:16:38,140
+che sono state stabili nel momento in cui
+
+261
+00:16:38,140 --> 00:16:39,960
+si è creato il linguaggio e una delle
+
+262
+00:16:39,960 --> 00:16:43,260
+regole la classe accesso a tutti I membri
+
+263
+00:16:43,280 --> 00:16:46,740
+di tutti gli oggetti creati con quella classe.
+
+264
+00:16:47,220 --> 00:16:49,110
+Ma mi hai detto perché si fidano. Si
+
+265
+00:16:49,110 --> 00:16:51,060
+si si si si si si si si
+
+266
+00:16:51,060 --> 00:16:53,140
+si si si c'è scritto anche quello una
+
+267
+00:16:53,140 --> 00:16:56,120
+questione di fiducia, poi ovviamente usare un linguaggio,
+
+268
+00:16:58,120 --> 00:17:02,160
+un meccanismo di fiducia. Perché giustamente se tu
+
+269
+00:17:02,160 --> 00:17:05,380
+crei una classe, se progettando una classe e
+
+270
+00:17:05,380 --> 00:17:07,900
+vai poi a definire I metodi ovviamente sei
+
+271
+00:17:07,900 --> 00:17:11,640
+tu che gestisci I membri, quindi devi essere
+
+272
+00:17:11,640 --> 00:17:14,680
+tu che devi stare attento e devi pensare
+
+273
+00:17:14,680 --> 00:17:18,079
+a prendere in considerazione che ogni metodo ha
+
+274
+00:17:18,079 --> 00:17:20,579
+l'accesso a tutti gli oggetti, a tutti I
+
+275
+00:17:20,579 --> 00:17:24,060
+membri di tutti gli oggetti e questo è
+
+276
+00:17:24,060 --> 00:17:27,319
+stato molto interessante se volete vi mando le
+
+277
+00:17:27,319 --> 00:17:30,820
+domande e vi schippate la parte della classe.
+
+278
+00:17:36,400 --> 00:17:39,340
+No ma questo ovviamente, torniamo ovviamente però a
+
+279
+00:17:39,340 --> 00:17:42,460
+un'altra questione nel momento in cui risponde in
+
+280
+00:17:42,460 --> 00:17:45,600
+quel modo è quello che vi dicevo glieri
+
+281
+00:17:46,560 --> 00:17:53,280
+attenzione il C++ è un'estensione del C l'obiettivo
+
+282
+00:17:53,640 --> 00:17:56,240
+dei produttisti era quello di mantenere le entità
+
+283
+00:17:56,240 --> 00:17:59,440
+del C e di aggiungere delle funzionalità specifiche
+
+284
+00:17:59,680 --> 00:18:00,640
+per la programmazione degli oggetti. La programmazione degli
+
+285
+00:18:00,640 --> 00:18:05,400
+oggetti. E' chiaro che se un linguaggio nasce
+
+286
+00:18:06,600 --> 00:18:10,520
+in un certo modo, aggiungere tutte quelle caratteristiche
+
+287
+00:18:11,080 --> 00:18:15,520
+che caratterizzano la programmazione degli oggetti, beh, potrebbe
+
+288
+00:18:15,520 --> 00:18:20,680
+avere qualche problema. In effetti questo è il
+
+289
+00:18:20,680 --> 00:18:25,380
+problema. Se io voglio implementare il concetto di
+
+290
+00:18:25,380 --> 00:18:30,180
+information writing che significa nascondere, decidere cosa nascondere
+
+291
+00:18:30,480 --> 00:18:34,080
+per tutti e poi mi comincio a costruire
+
+292
+00:18:34,240 --> 00:18:38,100
+tutta una serie di meccanismi trasversali che mi
+
+293
+00:18:38,100 --> 00:18:42,140
+consentono di entrare in quella parte beh, evidentemente
+
+294
+00:18:42,380 --> 00:18:45,800
+sono arrivato alla frutta, no? Non riesco a
+
+295
+00:18:45,800 --> 00:18:48,600
+fare quello che avrei intenzione di fare e
+
+296
+00:18:48,600 --> 00:18:52,540
+allora cerco delle alternative per cui il C++
+
+297
+00:18:52,920 --> 00:18:57,980
+è orientato agli oggetti. Orientato agli oggetti significa
+
+298
+00:18:58,260 --> 00:19:04,080
+che hai fatto tante cose però ovviamente l'orientamento,
+
+299
+00:19:05,940 --> 00:19:07,960
+anche per certi versi, questo è sul Java,
+
+300
+00:19:10,380 --> 00:19:14,340
+per certi versi non è totalmente ad oggetti,
+
+301
+00:19:15,460 --> 00:19:19,080
+lì c'è un motivo molto semplice, il java
+
+302
+00:19:19,080 --> 00:19:24,360
+prevede I tipi int, float la momenta in
+
+303
+00:19:24,360 --> 00:19:27,040
+cui io prevedo quelli e non sono oggetti
+
+304
+00:19:28,960 --> 00:19:32,240
+e questo ovviamente viola la purezza del concetto
+
+305
+00:19:32,240 --> 00:19:35,000
+di linguaggio oggetti smalltalk, se non ho risolto
+
+306
+00:19:35,000 --> 00:19:40,060
+male, è stato veramente quello eiffel e small
+
+307
+00:19:40,060 --> 00:19:46,360
+talk erano linguaggi proversogetti curi. Gli altri, bene,
+
+308
+00:19:46,920 --> 00:19:51,140
+questo significa che è chiaro, non rispettava tutti
+
+309
+00:19:52,120 --> 00:19:56,220
+I criteri di purezza e questa è la
+
+310
+00:19:56,220 --> 00:20:00,260
+dimostrazione, cioè si esce, si entra, infatti la
+
+311
+00:20:00,260 --> 00:20:03,400
+rispiegazione è sì, ok, si può fare torniamo
+
+312
+00:20:03,400 --> 00:20:05,540
+sempre alla tua cosa, sì, si può fare,
+
+313
+00:20:05,540 --> 00:20:09,480
+sì, capito, il problema era un altro perché
+
+314
+00:20:09,480 --> 00:20:11,880
+te lo consente? E la risposta è chiara,
+
+315
+00:20:12,340 --> 00:20:14,960
+sono arrivato alla frutta, non so come uscire,
+
+316
+00:20:15,000 --> 00:20:19,580
+non mi sono aumentato queste cose. Però devo
+
+317
+00:20:19,580 --> 00:20:24,220
+conoscere l'argomento perché altrimenti dici ok, lo faccio,
+
+318
+00:20:24,220 --> 00:20:27,580
+lo assoluto dici, nel momento in cui passa
+
+319
+00:20:27,720 --> 00:20:30,640
+la cosa che hai detto tu ieri, automaticamente
+
+320
+00:20:31,300 --> 00:20:34,580
+tu distruggi I refreni, che sono nati per
+
+321
+00:20:34,580 --> 00:20:37,060
+uno scopo, nel vero o nel male, però
+
+322
+00:20:37,060 --> 00:20:43,240
+dici vabbè conosco una via alternativa. Lo puoi
+
+323
+00:20:43,240 --> 00:20:50,420
+fare? Assumire responsabilità. Importante sapere cosa fare e
+
+324
+00:20:50,420 --> 00:20:53,800
+perché succedono certe cose? Il motivo per cui,
+
+325
+00:20:53,800 --> 00:20:56,000
+magari, ieri, no? Poi ti incazzi perché dici
+
+326
+00:20:56,000 --> 00:21:00,560
+no, un volume, semplicemente una riproduzione passiva, ma
+
+327
+00:21:00,560 --> 00:21:07,020
+una spiegazione che supporti la tua decisione. Ed
+
+328
+00:21:07,020 --> 00:21:13,900
+era questo. No, interessante comunque. La cosa che
+
+329
+00:21:13,900 --> 00:21:15,580
+non ho fatto, perché tu hai fatto la
+
+330
+00:21:15,580 --> 00:21:20,160
+condivisione, Ci sono delle liste di condivisione che
+
+331
+00:21:20,160 --> 00:21:22,760
+si possono fare, non l'ho mai fatto Liste
+
+332
+00:21:22,800 --> 00:21:27,960
+di condivisione su... Nel senso... Si? Perché tu
+
+333
+00:21:27,960 --> 00:21:31,160
+fai la condivisione? La fai con me? Io
+
+334
+00:21:31,640 --> 00:21:34,800
+mi faccio creare il link da condividere, faccio
+
+335
+00:21:34,800 --> 00:21:38,380
+la condesazione non penso che ci sia un
+
+336
+00:21:38,380 --> 00:21:41,840
+banco in alto, condividi, clicchi, si generano link
+
+337
+00:21:44,100 --> 00:21:50,140
+va bene, attenzione, adesso vedi, questo per darti
+
+338
+00:21:50,140 --> 00:21:53,900
+soddisfazione al fatto di, anche un altro motivo,
+
+339
+00:21:56,220 --> 00:21:58,520
+io comincio a fare le condizioni, quindi chiaramente
+
+340
+00:21:58,520 --> 00:22:00,760
+questo rientra nella tua condizione, perché ho sempre
+
+341
+00:22:00,760 --> 00:22:02,800
+detto non mi fate soltanto le consegne, perché
+
+342
+00:22:02,800 --> 00:22:06,300
+poi vi devo sentire. E quindi chiaramente devo
+
+343
+00:22:06,300 --> 00:22:12,460
+capire come esponete. Robby, devo dire tutto? Più
+
+344
+00:22:12,460 --> 00:22:15,160
+certo, non abbiamo paura. Allora, per quanto riguarda
+
+345
+00:22:15,160 --> 00:22:17,700
+la propria... Cioè, Entrare nel merito è un
+
+346
+00:22:17,700 --> 00:22:21,700
+attimo, basta vedere quel testo, il modo in
+
+347
+00:22:21,700 --> 00:22:25,000
+cui lo hai esposto, cioè se vince la
+
+348
+00:22:25,000 --> 00:22:28,100
+padronazza della tua merito. Quindi da questo punto
+
+349
+00:22:28,100 --> 00:22:32,900
+di vista non c'è problema, anzi, e si
+
+350
+00:22:32,900 --> 00:22:36,280
+spinta anche oltre la foglia che c'eravamo da
+
+351
+00:22:36,280 --> 00:22:38,580
+soltanto la funzione fredda tu sti andato anche
+
+352
+00:22:38,580 --> 00:22:43,060
+a toccare le classi prende no? E questo
+
+353
+00:22:43,060 --> 00:22:45,740
+magari ti sarà la seconda puntata, la seconda
+
+354
+00:22:45,740 --> 00:22:51,620
+parte della... È chiaro sull'esposizione no, ci sono
+
+355
+00:22:51,620 --> 00:22:57,640
+margini di miglioramento, hai trasmesso esistazioni in sicurezza
+
+356
+00:22:58,380 --> 00:23:01,220
+se non ti non scessi, quindi per un
+
+357
+00:23:01,220 --> 00:23:03,520
+attimo io ho voluto vestire I panni di
+
+358
+00:23:03,520 --> 00:23:07,780
+chi non ti conosco, ti devo ascoltare e
+
+359
+00:23:07,780 --> 00:23:14,520
+quindi questo è sicuramente importante, comunicare meglio, comunicare
+
+360
+00:23:14,620 --> 00:23:17,720
+meglio è di te su un pezzo di
+
+361
+00:23:17,720 --> 00:23:22,620
+versi, siamo tra amici, tra piccolette, no? E'
+
+362
+00:23:22,620 --> 00:23:26,760
+evidentemente una cosa che dobbiamo anche, sicuramente, ma
+
+363
+00:23:26,760 --> 00:23:29,240
+questa è una valutazione, diciamo, fuori busta, nel
+
+364
+00:23:29,240 --> 00:23:33,280
+senso che questo è l'ambito professionale, presentare un
+
+365
+00:23:33,280 --> 00:23:37,020
+argomento di questo genere, in un contesto diverso,
+
+366
+00:23:37,020 --> 00:23:39,460
+presentato in quel modo, non va proprio bene.
+
+367
+00:23:40,640 --> 00:23:47,020
+Nonostante ovviamente la ricchezza di argomentazioni, no? E
+
+368
+00:23:47,240 --> 00:23:49,860
+quindi dobbiamo lavorare Il motivo per cui è
+
+369
+00:23:49,860 --> 00:23:55,240
+importante che mi facciate sentire, altrimenti, amo il
+
+370
+00:23:55,240 --> 00:23:58,560
+trattato, trattato, trattato, che vi faccio una valutazione
+
+371
+00:23:58,620 --> 00:24:01,340
+scolastica, la sua valutazione scolastica si discute a
+
+372
+00:24:01,340 --> 00:24:08,000
+vista della complessità dell'argomento, sicuramente eccellente, no? Da
+
+373
+00:24:08,000 --> 00:24:10,000
+punto di vista professionale ci sono alcuni aspetti
+
+374
+00:24:10,000 --> 00:24:14,480
+su cui dobbiamo lavorare meglio. E quindi, bene,
+
+375
+00:24:14,480 --> 00:24:17,100
+questo ovviamente vorrei che anche voi facessero la
+
+376
+00:24:17,100 --> 00:24:22,640
+stessa cosa. E c'è un altro, è emerso
+
+377
+00:24:22,940 --> 00:24:26,080
+un'altra cosa, un altro aspetto. L'unica se limitata
+
+378
+00:24:26,100 --> 00:24:31,480
+ovviamente alla definizione del concetto, se non prende,
+
+379
+00:24:32,260 --> 00:24:37,560
+metodi, non metodi, appartiene membri, non membri, e
+
+380
+00:24:37,560 --> 00:24:44,100
+tutte. Queste cose ovviamente vengono valutate soltanto da
+
+381
+00:24:44,100 --> 00:24:49,640
+chi e sul pezzo. E quindi è chiaro,
+
+382
+00:24:49,780 --> 00:24:55,940
+il discorso è stata un'esposizione molto professionale e
+
+383
+00:24:55,940 --> 00:25:02,800
+quindi benissimo come esposizione. Detto questo, altra considerazione
+
+384
+00:25:03,120 --> 00:25:09,100
+importante, e Luca ti do la notizia, stanno
+
+385
+00:25:09,100 --> 00:25:18,240
+partendo I progetti del BDM1965-66, stiamo cercando appunto
+
+386
+00:25:18,240 --> 00:25:20,053
+un stato notertato per parlare del BDM stiamo
+
+387
+00:25:20,053 --> 00:25:20,280
+cercando appunto un stato di ottenzione per parlare
+
+388
+00:25:20,280 --> 00:25:24,640
+della posizione di risposta artificiale nella didattica, per
+
+389
+00:25:24,640 --> 00:25:29,160
+forza. E effettivamente io dico che in questo
+
+390
+00:25:29,160 --> 00:25:32,560
+chat GPT Ormai qualcuno lo sa che stia
+
+391
+00:25:32,560 --> 00:25:35,140
+facendo di tanto e anche abbandonamene questo strumento.
+
+392
+00:25:36,500 --> 00:25:40,280
+E niente, l'idea che stiamo lavorando è proporre
+
+393
+00:25:41,680 --> 00:25:47,660
+un utilizzo, un soccorsi da... ...E evocare, non
+
+394
+00:25:47,660 --> 00:25:49,040
+sto dicendo il diurno. Il diurno? E erogare,
+
+395
+00:25:49,040 --> 00:25:53,640
+ma se dite il giudo? Il giudo? Questo
+
+396
+00:25:55,520 --> 00:25:56,540
+è un tuo problema Luca, un tuo problema
+
+397
+00:25:56,620 --> 00:25:59,560
+nel senso che ormai è così che funziona
+
+398
+00:26:00,100 --> 00:26:03,300
+funziona sempre più così trovare la forma, lo
+
+399
+00:26:03,300 --> 00:26:08,260
+sai sono un artigiano sono un artigiano è
+
+400
+00:26:08,260 --> 00:26:12,480
+chiaro, I miei riferimenti sono queste esperienze, però
+
+401
+00:26:12,480 --> 00:26:14,060
+la cosa è certa, le esperienze che sto
+
+402
+00:26:14,060 --> 00:26:18,440
+facendo Nel bene o nel male. I guru
+
+403
+00:26:19,180 --> 00:26:23,980
+si occupano della parte nascosta, ma a questo
+
+404
+00:26:23,980 --> 00:26:28,680
+punto sull'uso io la considero appunto un uso
+
+405
+00:26:28,680 --> 00:26:32,400
+sul campo. È chiaro, e loro sono I
+
+406
+00:26:32,400 --> 00:26:38,640
+miei per certi persi supporti, le mie cose
+
+407
+00:26:38,800 --> 00:26:43,780
+sono passate sulla loro esperienza. Dicevamo, questo è
+
+408
+00:26:43,780 --> 00:26:50,220
+un uso, Nel senso intelligente, l'intelligenza non si
+
+409
+00:26:50,220 --> 00:26:54,660
+sente nel fatto che lo uso come strumento
+
+410
+00:26:54,660 --> 00:26:57,720
+di studio, non per copiarlo in collare, perché
+
+411
+00:26:57,720 --> 00:27:02,200
+lui l'approfondimento e la cosa più importante è
+
+412
+00:27:02,200 --> 00:27:07,260
+la chat. Sono le domande che lui ha
+
+413
+00:27:07,260 --> 00:27:10,280
+utilizzato e che voi dovete utilizzare per capire
+
+414
+00:27:10,280 --> 00:27:13,840
+l'argomento. Nel momento in cui mi fate una
+
+415
+00:27:13,840 --> 00:27:16,860
+chat con una o due domande c'è un
+
+416
+00:27:16,860 --> 00:27:21,480
+problema, state copiando e incollando la soluzione. Già
+
+417
+00:27:21,480 --> 00:27:23,500
+questo è una zioma, cioè per me è
+
+418
+00:27:23,500 --> 00:27:26,500
+diventato una sioma perché visto che mi hai
+
+419
+00:27:26,500 --> 00:27:29,540
+visto partire è chiaro che, in un momento
+
+420
+00:27:29,540 --> 00:27:31,680
+in cui vedo qualcuno che copia è chiaro,
+
+421
+00:27:31,680 --> 00:27:34,800
+guardi le chat, ma adesso te lo posso
+
+422
+00:27:34,800 --> 00:27:38,160
+dire, nel senso, cari colleghi, attenzione a quando
+
+423
+00:27:38,260 --> 00:27:42,760
+fatevi dare le chat perché dalle chat che
+
+424
+00:27:42,760 --> 00:27:47,260
+emergono, appunto, in terza ha detto un'altra cosa
+
+425
+00:27:48,100 --> 00:27:52,200
+confrontate le prime chat fatte a settembre con
+
+426
+00:27:52,200 --> 00:27:54,060
+quelle che fate adesso e si sono accorti
+
+427
+00:27:54,060 --> 00:27:56,720
+loro stessi che effettivamente quelli chat erano diversi
+
+428
+00:27:57,200 --> 00:28:01,860
+domande brevi secche e non c'era conversazione non
+
+429
+00:28:01,860 --> 00:28:05,140
+c'è interazione quindi il tuo obiettivo riceveva una
+
+430
+00:28:05,140 --> 00:28:10,660
+risposta pacio e l'altra cosa, diventa insopportabile e
+
+431
+00:28:10,660 --> 00:28:12,720
+poi diventa una bestia lo ha detto un
+
+432
+00:28:12,720 --> 00:28:14,800
+certo GPT, vai a fà' al culo, bruciati
+
+433
+00:28:14,800 --> 00:28:22,520
+tu e certo il GPT il senso è
+
+434
+00:28:22,520 --> 00:28:25,380
+uguale, attenzione sta già succedendo quello che avevo
+
+435
+00:28:25,380 --> 00:28:29,540
+già previsto attenzione, sta fidando la tua vita
+
+436
+00:28:29,540 --> 00:28:32,240
+a quella cazzo di macchina di merda è
+
+437
+00:28:32,240 --> 00:28:35,460
+lui che sta usando te lasciando di credere
+
+438
+00:28:35,460 --> 00:28:38,880
+delle cose che non hai ancora verificato. Senso
+
+439
+00:28:38,880 --> 00:28:44,680
+critico, senso critico, discorso di sì ma adesso
+
+440
+00:28:44,680 --> 00:28:47,560
+queste cose te le posso dire adesso, prima
+
+441
+00:28:47,560 --> 00:28:51,100
+le potrei sospettare, adesso ci sono praticamente delle
+
+442
+00:28:51,100 --> 00:28:55,840
+proprie oggettive che non servono. È chiaro che
+
+443
+00:28:55,840 --> 00:29:01,240
+c'è tanto da fare, però va fatto, va
+
+444
+00:29:01,240 --> 00:29:06,520
+fatto, non possiamo far finita di niente, perché
+
+445
+00:29:06,520 --> 00:29:12,360
+è effettivamente un strumento. La cosa triste, santo
+
+446
+00:29:12,360 --> 00:29:17,220
+Dio, mi sarebbe piaciuto avviare un gruppo di
+
+447
+00:29:17,220 --> 00:29:20,620
+progetti per serare e la cosa continuare ad
+
+448
+00:29:20,620 --> 00:29:24,900
+essere esempio l'atteggiamento da carbonara, rumina, no? Facciamo
+
+449
+00:29:25,000 --> 00:29:27,260
+facile cose con loro, vi devo minacciare di
+
+450
+00:29:27,260 --> 00:29:29,380
+morte perché sennò queste cose non me le
+
+451
+00:29:29,380 --> 00:29:39,880
+fanno quando collaborando quando collaborando allora c'è Bonetti?
+
+452
+00:29:41,580 --> 00:29:45,420
+È molto sensibile a questo problema sì? L'obiettivo
+
+453
+00:29:45,420 --> 00:29:49,400
+è da dove cominci tu mi hai visto
+
+454
+00:29:49,400 --> 00:29:53,800
+fare lezioni tu sei molto più avanti mentre
+
+455
+00:29:54,900 --> 00:30:04,240
+me. Sì, sembra strano. Indipendentemente da quella, dalla
+
+456
+00:30:04,240 --> 00:30:10,520
+tua posizione, capisci? Il discorso è che mi
+
+457
+00:30:10,520 --> 00:30:15,800
+hai ascoltato, ci siamo ascoltati, quindi hai già
+
+458
+00:30:15,800 --> 00:30:20,400
+una base poi ripeto, puoi avere la tua
+
+459
+00:30:20,400 --> 00:30:25,120
+opinione, digitti, ma il discorso è quando non
+
+460
+00:30:25,120 --> 00:30:27,820
+hai ascoltato I tuoi riferimenti, chi sono? Hai
+
+461
+00:30:27,820 --> 00:30:30,280
+sentito dire dove? Dalla radio e dalla televisione?
+
+462
+00:30:31,960 --> 00:30:37,800
+Oppure dai giornali? Oppure dai presunti corsi, perché
+
+463
+00:30:37,800 --> 00:30:41,060
+ho seguito anche quelli? Va bene, siete bravi.
+
+464
+00:30:42,040 --> 00:30:43,620
+Sì, ma non mi state dicendo come cazzo
+
+465
+00:30:43,620 --> 00:30:48,300
+usare questa cosa. Nessuno che ho diciato. Cosa?
+
+466
+00:30:52,400 --> 00:30:54,740
+Nella livello delle potesie ci sarà, ecco perché
+
+467
+00:30:54,740 --> 00:30:57,640
+la vedo come un'attività zionieristica io di fatti
+
+468
+00:30:57,640 --> 00:30:59,620
+la cosa, quella roba di boccato che ho
+
+469
+00:30:59,620 --> 00:31:01,940
+mandato a te ho mandato anche a lui
+
+470
+00:31:02,380 --> 00:31:05,340
+per avere una sua opinione su questo a
+
+471
+00:31:05,340 --> 00:31:08,140
+te voglio chiamare altre cose è come un
+
+472
+00:31:08,140 --> 00:31:11,720
+testo che non dici che dai conoscenti sembrava
+
+473
+00:31:11,720 --> 00:31:17,520
+un testo veramente fatto con scrittura buona hai
+
+474
+00:31:17,520 --> 00:31:19,060
+detto guarda Luca ti mando la roba la
+
+475
+00:31:19,060 --> 00:31:21,525
+roba di mangiare la roba di mangiare, ma
+
+476
+00:31:21,525 --> 00:31:28,780
+tante persone stanno a guardare però partita da
+
+477
+00:31:28,780 --> 00:31:35,280
+quella come hai costruito l'interazione? Questo è hai
+
+478
+00:31:35,280 --> 00:31:37,720
+uno scuolo erolo di quel testo lì si,
+
+479
+00:31:37,940 --> 00:31:40,600
+un po' buono si, perché questo è più
+
+480
+00:31:40,680 --> 00:31:41,365
+tecnico questo è più sciutto questo è il
+
+481
+00:31:41,365 --> 00:31:46,760
+più sciutto, non so se c'è, Lui ha
+
+482
+00:31:46,760 --> 00:31:52,780
+rilevato delle idondanze. E quindi chiaramente... Però anche
+
+483
+00:31:52,780 --> 00:32:13,013
+lì... Perché se ti rimedi soltanto è bravo
+
+484
+00:32:13,013 --> 00:32:15,720
+però questo tu ce l'hai e c'è abbiamo
+
+485
+00:32:15,720 --> 00:32:17,840
+un'altra ora ancora ma io devo andare a
+
+486
+00:32:17,840 --> 00:32:20,520
+casa perché non ho il treno stasera purtroppo
+
+487
+00:32:20,700 --> 00:32:23,200
+devo darti una tutta notizia sto introdurcendo I
+
+488
+00:32:23,200 --> 00:32:27,260
+nuovi argomenti se vuoi dirmi l'argomento guardo sull'argomento
+
+489
+00:32:27,260 --> 00:32:29,940
+viste I monitori? Perché questa dovrebbe essere una
+
+490
+00:32:29,940 --> 00:32:33,460
+lezione teologica quindi praticamente cominciamo a raccontare il
+
+491
+00:32:33,460 --> 00:32:45,700
+mondo delle strutture dati bellissimo questa l'evoluzione naturale
+
+492
+00:32:45,700 --> 00:32:55,940
+per l'espessivo sarà ovviamente liste, strutture dati, dinamiche
+
+493
+00:32:56,100 --> 00:33:01,520
+e astratte, stack, code e list. Per quanto
+
+494
+00:33:01,520 --> 00:33:04,120
+riguarda lo stack che implementato in vari modi
+
+495
+00:33:04,120 --> 00:33:06,600
+con la race e le liste questo è
+
+496
+00:33:06,600 --> 00:33:09,540
+il futuro prossimo quindi inizia a guardarmono anche
+
+497
+00:33:09,540 --> 00:33:13,080
+sul sito dell'università cominci ad abbiare a me
+
+498
+00:33:13,080 --> 00:33:15,680
+serve... Guarda la lista te la dico adesso
+
+499
+00:33:16,300 --> 00:33:19,480
+la stessi una struttura che non va a
+
+500
+00:33:19,480 --> 00:33:22,440
+dire regaglio tra l'ora perde il primo logo
+
+501
+00:33:22,620 --> 00:33:23,120
+ciao
