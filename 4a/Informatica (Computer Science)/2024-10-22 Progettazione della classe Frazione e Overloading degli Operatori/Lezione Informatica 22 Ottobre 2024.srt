@@ -1,0 +1,4027 @@
+1
+00:00:00,359 --> 00:00:04,279
+...Quando non sono, non appartengono a queste tre
+
+2
+00:00:04,279 --> 00:00:08,460
+categorie. Significa? No, è il fatto di cazzo.
+
+3
+00:00:10,059 --> 00:00:13,940
+Ripeto, ve l'avevo detto, anzi no, non c'eravate,
+
+4
+00:00:14,059 --> 00:00:19,960
+quando uscite il CET GPT, attenzione... Non è
+
+5
+00:00:19,960 --> 00:00:22,640
+la soluzione del problema, quello è il problema,
+
+6
+00:00:23,880 --> 00:00:27,920
+o lo usate per imparare o se noi
+
+7
+00:00:27,920 --> 00:00:35,860
+siete fottuti. Allora, torniamo a noi. Ma la
+
+8
+00:00:35,860 --> 00:00:42,820
+sigala, ogni riferimento non è caldoale? Sì. Quindi,
+
+9
+00:00:43,620 --> 00:00:51,559
+riprendo da qui, la Bibbia c'era peggio? E'
+
+10
+00:00:51,800 --> 00:00:53,363
+questa? Sempre questa? La Bibbia ce la avete?
+
+11
+00:00:53,363 --> 00:00:55,660
+E' questa? E' sempre questa? Abbiamo introdotto la
+
+12
+00:00:55,660 --> 00:01:00,640
+volta scorsa un nuovo concetto che per chi
+
+13
+00:01:00,640 --> 00:01:04,060
+l'ha fatta chiaramente sono cose che al più
+
+14
+00:01:04,060 --> 00:01:07,380
+deve rinfrescare, che non le ha fatte. Sono
+
+15
+00:01:07,380 --> 00:01:12,340
+cose impegnative, ho due possibilità. Di cibo di
+
+16
+00:01:12,340 --> 00:01:18,800
+farle? Per dopo gli riscontri? La chiudo lì,
+
+17
+00:01:18,800 --> 00:01:22,620
+perché è un approfondimento. Anche perché questo argomento
+
+18
+00:01:22,660 --> 00:01:26,360
+è un argomento legato strettamente al CP++ in
+
+19
+00:01:26,360 --> 00:01:30,940
+Java non esiste, sì però compare il Python
+
+20
+00:01:32,340 --> 00:01:37,120
+e quindi, siccome poi questi sono argomenti in
+
+21
+00:01:37,120 --> 00:01:41,600
+più, cioè perché devo perdere tempo dietro queste
+
+22
+00:01:41,600 --> 00:01:51,160
+cose? Le volete fare? Mi riferisco, mi riferisco,
+
+23
+00:01:56,400 --> 00:01:59,760
+e un, eccolo qua, un laverlo di un
+
+24
+00:01:59,760 --> 00:02:03,900
+odio degli operatori. Questo è un argomento non
+
+25
+00:02:04,262 --> 00:02:10,797
+è trascurabile, no, quindi è ancora non complicato.
+
+26
+00:02:11,160 --> 00:02:12,480
+Il problema è che ad un certo punto
+
+27
+00:02:12,480 --> 00:02:19,020
+compaiono delle cose strane, le funzioni friend, senza
+
+28
+00:02:19,020 --> 00:02:21,260
+le quali queste cose non possono essere implementate.
+
+29
+00:02:23,140 --> 00:02:29,480
+Allora io non devo stare a spiegarti cos'era
+
+30
+00:02:29,480 --> 00:02:35,060
+la firma, come si passano I parametri, cioè
+
+31
+00:02:35,060 --> 00:02:37,980
+tu lo devi saper fare e se ancora
+
+32
+00:02:37,980 --> 00:02:41,640
+avete confusione, ragazzi, avete avuto la fortuna di
+
+33
+00:02:41,640 --> 00:02:44,360
+essere in quattro gatti, sennò ci sareste rimasti.
+
+34
+00:02:47,459 --> 00:02:50,020
+Perché come dice qualcuno dobbiamo fare le classiche,
+
+35
+00:02:50,020 --> 00:02:56,220
+ma non me le fotte il cazzo abbonato
+
+36
+00:02:56,220 --> 00:03:00,860
+il primo anno secondo tu, ma tu prendete
+
+37
+00:03:00,860 --> 00:03:03,740
+il debito, ti prenderemo per culo a settembre
+
+38
+00:03:05,380 --> 00:03:07,500
+ma che qualcun altro sia su una responsabilità
+
+39
+00:03:07,500 --> 00:03:13,260
+di portarvi in quintà. È chiaro? Ho detto
+
+40
+00:03:13,260 --> 00:03:19,520
+questo. Gli argomenti che abbiamo trattati erano tosti
+
+41
+00:03:19,560 --> 00:03:22,880
+ed impegnativi. Io ripeto, ho commesso un errore,
+
+42
+00:03:23,080 --> 00:03:26,580
+ho sbagliato. Ho dato per scontato che tutti
+
+43
+00:03:26,580 --> 00:03:31,020
+foste allo stesso livello e ho dato per
+
+44
+00:03:31,020 --> 00:03:34,440
+scontato, mi sono affidati del vostro lavoro a
+
+45
+00:03:34,440 --> 00:03:40,200
+casa? Non ci è stato. E quindi in
+
+46
+00:03:40,200 --> 00:03:42,940
+più è emerso che effettivamente quelle che credevo
+
+47
+00:03:43,240 --> 00:03:46,280
+dovessero essere delle basi non ci sono. E
+
+48
+00:03:46,280 --> 00:03:51,920
+quando dico le cose voi chiudete tutto computer
+
+49
+00:03:52,480 --> 00:03:58,440
+smart cartepam dimostratevi che sapete le cose non
+
+50
+00:03:58,440 --> 00:04:02,480
+ho mai fatto con voi se faccio una
+
+51
+00:04:02,480 --> 00:04:06,420
+verifica se le morti sto facendo quinta di
+
+52
+00:04:06,420 --> 00:04:13,220
+niente, ma non state capendo allora vado un
+
+53
+00:04:13,220 --> 00:04:19,019
+attimo sull'indice, perchè poi l'effetto è questo non
+
+54
+00:04:19,019 --> 00:04:24,620
+lo evado degli operatori? In effetti è uno
+
+55
+00:04:24,620 --> 00:04:27,240
+dei primi argomenti che lui tratta. Io non
+
+56
+00:04:27,240 --> 00:04:31,480
+ho preferito fare dell'altro. Le digitalità, il polimorfismo,
+
+57
+00:04:32,660 --> 00:04:35,980
+il template. Uno delle cose di cui dobbiamo
+
+58
+00:04:35,980 --> 00:04:38,340
+spingere sono sicuramente I template, il motivo per
+
+59
+00:04:38,340 --> 00:04:42,380
+cui vi ho chiesto di lavorare anche, come
+
+60
+00:04:42,380 --> 00:04:45,160
+ce l'era a guardare l'asse del CTL, a
+
+61
+00:04:45,160 --> 00:04:51,160
+voi sto proponendo un percorso professionale, non scolastico
+
+62
+00:04:53,700 --> 00:04:57,640
+volete la scolastico? Allora non facciamo le template
+
+63
+00:04:59,920 --> 00:05:03,300
+non facciamo le definizioni sulle posizioni degli operatori,
+
+64
+00:05:03,820 --> 00:05:11,380
+non facciamo tante cose, facciamo quello scolastico. Però
+
+65
+00:05:11,380 --> 00:05:16,040
+serve a qualcuno poi, no? Diteglielo che non
+
+66
+00:05:16,040 --> 00:05:21,280
+sapete questo, questo e quest'altro. Devo fare l'ira
+
+67
+00:05:21,280 --> 00:05:26,040
+di Diva, l'ira di Diva, le liste. Ho
+
+68
+00:05:26,040 --> 00:05:29,920
+sempre le possibilità. Con la quarta dell'anno scorso
+
+69
+00:05:29,920 --> 00:05:32,380
+ho preso una decisione. Ti faccio lo schema,
+
+70
+00:05:32,380 --> 00:05:34,920
+al stesso modo in quello fatto a voi,
+
+71
+00:05:35,300 --> 00:05:38,020
+ti dico come funziona, non te lo faccio
+
+72
+00:05:38,020 --> 00:05:44,620
+implementare, non c'è, perché? Siete inaffidabili, non c'ho
+
+73
+00:05:44,620 --> 00:05:48,260
+voglia di spiegarvi quella cosa, neanche se mi
+
+74
+00:05:48,260 --> 00:05:52,320
+date mille euro per ora fate bene voi,
+
+75
+00:05:54,540 --> 00:05:57,840
+fate bene voi se le volete fare se
+
+76
+00:05:57,840 --> 00:06:01,800
+no, salite di livello e lavorate con I
+
+77
+00:06:01,800 --> 00:06:06,640
+click e infatti nello scorso con Fisto Base
+
+78
+00:06:07,160 --> 00:06:11,720
+STL prendete direttamente la classe lista Uscia e
+
+79
+00:06:11,720 --> 00:06:17,760
+pop basta ho fatto la lista due possibilità
+
+80
+00:06:17,760 --> 00:06:23,760
+avete? Ora facciamo un punti a comanda? Però
+
+81
+00:06:23,760 --> 00:06:25,660
+vi dovete fare il cuore se non avete
+
+82
+00:06:25,660 --> 00:06:28,640
+voglia vedete me lo subito passiamo direttamente alla
+
+83
+00:06:28,640 --> 00:06:32,360
+quarta lista ragazzi la domanda che ho fatto,
+
+84
+00:06:32,620 --> 00:06:37,800
+rispondete cosa volete fare? Volete lavorare con il
+
+85
+00:06:37,800 --> 00:06:43,520
+C? O saliamo di livello? Il C? Mi
+
+86
+00:06:43,520 --> 00:06:45,980
+servono, io non devo stare lì a discutere
+
+87
+00:06:46,000 --> 00:06:47,800
+come si passa una variabile per valore o
+
+88
+00:06:47,800 --> 00:06:50,820
+per riferimento. Se io ti dico passami questo
+
+89
+00:06:50,820 --> 00:06:55,040
+puntatore tu me lo devi passare. Se ci
+
+90
+00:06:55,040 --> 00:07:02,620
+sono problemi, cambiamo argomento. Decidete ragazzi, ho già
+
+91
+00:07:02,620 --> 00:07:09,900
+il piano BCDC0Z però decidete voi sapete per
+
+92
+00:07:09,900 --> 00:07:14,800
+me non esiste il programma ministeriale le persone
+
+93
+00:07:14,800 --> 00:07:21,030
+sono di voi c'è una parte che io
+
+94
+00:07:21,030 --> 00:07:21,700
+devo fare e ci sono altre cose più
+
+95
+00:07:21,700 --> 00:07:25,440
+impegnative. Io ripeto in interno, non è giusto
+
+96
+00:07:25,440 --> 00:07:27,120
+sbagliare e fare quelle cose. Io vorrei poter
+
+97
+00:07:27,120 --> 00:07:38,810
+farle con voi. Cazzo. No. Non siete pronti?
+
+98
+00:07:39,220 --> 00:07:43,620
+Alcune sì. E' fatto il gruppetto. Ti può
+
+99
+00:07:43,620 --> 00:07:46,960
+fare anche questo? Non ti ho detto il
+
+100
+00:07:46,960 --> 00:07:49,060
+carico di lavoro è il mio, no? È
+
+101
+00:07:49,060 --> 00:07:53,780
+chiaro che devo gestire le due situazioni, però
+
+102
+00:07:55,000 --> 00:08:00,680
+non mi piace. Quindi, I template su fondamentali,
+
+103
+00:08:01,900 --> 00:08:05,720
+capire la programmazione generica, stile template, è importantissimo
+
+104
+00:08:06,020 --> 00:08:14,840
+per capire tante altre cose. E poi abbiamo
+
+105
+00:08:14,840 --> 00:08:18,080
+parlato di eccezioni, che è il citra, il
+
+106
+00:08:18,080 --> 00:08:22,740
+lire di Dio, gli ho detto studiatevi, no?
+
+107
+00:08:22,740 --> 00:08:27,380
+La giallorchia? Studiatevi. E che cazzo dovete dire?
+
+108
+00:08:27,380 --> 00:08:29,160
+Andate su chat in GPT e ho fatto
+
+109
+00:08:29,160 --> 00:08:30,540
+la domanda e mi ha dato una risposta,
+
+110
+00:08:30,540 --> 00:08:36,360
+come non è studiare? L'anno scorto le eccezioni?
+
+111
+00:08:36,500 --> 00:08:40,100
+L'albero delle eccezioni? Non ho fatto, non siete?
+
+112
+00:08:41,280 --> 00:08:48,180
+Non erano pronti? Non sapranno mai che cazzo,
+
+113
+00:08:48,180 --> 00:08:54,020
+non avranno delle eccezioni. Hanno scelto. Con voi
+
+114
+00:08:54,020 --> 00:09:00,560
+ci ho provato. Non lo saprete mai? Cosa
+
+115
+00:09:00,959 --> 00:09:11,060
+ha fatto? Un'apertura C'era quella conversazione che ci
+
+116
+00:09:11,060 --> 00:09:13,320
+ha fatto vedere la settimana scorsa che ti
+
+117
+00:09:13,320 --> 00:09:16,340
+è piaciuto di mandarla No, non c'è, che
+
+118
+00:09:16,340 --> 00:09:21,640
+cosa succede Sì, sì, no, va bene No,
+
+119
+00:09:22,560 --> 00:09:24,380
+no, no Queste sono puree, va bene quelle
+
+120
+00:09:24,380 --> 00:09:33,940
+cose poi. Dopo la settimana scorsa Poi ti
+
+121
+00:09:33,940 --> 00:09:38,340
+dici che senso ha. Cioè, questo è un
+
+122
+00:09:38,340 --> 00:09:40,680
+io, non come lo vedo io, no? E
+
+123
+00:09:40,680 --> 00:09:43,980
+poi diventa certamente una questione personale, no? Sì,
+
+124
+00:09:43,980 --> 00:09:48,540
+no? Te sitano, te sitano, perché? Sennò è
+
+125
+00:09:48,540 --> 00:09:55,100
+semplicemente un accumulo di materiali e quindi se
+
+126
+00:09:55,100 --> 00:09:59,580
+quei materiali vengono usati, letti, studiati, usati hanno
+
+127
+00:09:59,580 --> 00:10:02,120
+un senso che tendebbero a andare a condividere,
+
+128
+00:10:02,940 --> 00:10:05,780
+ti ripeto, 35 anni che faccio questa cosa,
+
+129
+00:10:06,280 --> 00:10:08,860
+per I materiali che ho dato in più,
+
+130
+00:10:11,000 --> 00:10:16,160
+se capisci, trovare molto più dott. Poi ho
+
+131
+00:10:16,160 --> 00:10:21,040
+dato l'astrumente, usatevi, ricevete voi. Invece no, poi
+
+132
+00:10:21,260 --> 00:10:24,120
+sì, quella era una cosa che l'ho guardato,
+
+133
+00:10:24,400 --> 00:10:27,840
+infatti stavo già cercando un modo di migliorare
+
+134
+00:10:28,100 --> 00:10:33,800
+delle cose. Veroceamente vi do semplicemente la definizione,
+
+135
+00:10:34,400 --> 00:10:34,928
+overboard degli operatori. Verocevamente vi do la definizione,
+
+136
+00:10:34,928 --> 00:10:39,740
+over load degli operatori, esempio se qui a
+
+137
+00:10:39,740 --> 00:10:44,440
+più b per c, quindi praticamente abbiamo come
+
+138
+00:10:44,440 --> 00:10:53,620
+dicevamo la volta scorsa perché chiaramente mancavano pezzi
+
+139
+00:10:53,620 --> 00:10:56,320
+la volta scorsa, quindi ripeterò le stesse cose
+
+140
+00:10:56,320 --> 00:11:00,000
+della volta scorsa. Per overload degli operatori cosa
+
+141
+00:11:00,000 --> 00:11:06,100
+si intende? Bene, per capire partiamo direttamente da
+
+142
+00:11:06,100 --> 00:11:09,980
+un esempio. Supponiamo di avere una classe frazione,
+
+143
+00:11:10,320 --> 00:11:13,080
+visto che il mio esempio di riferimento. La
+
+144
+00:11:13,080 --> 00:11:18,220
+classe frazione non esiste, ma lo devo costruire.
+
+145
+00:11:19,460 --> 00:11:22,920
+Siccome le frazioni sono dei numeri, io mi
+
+146
+00:11:22,920 --> 00:11:37,660
+aspetto di utilizzare di utilizzare tipo, In matematica
+
+147
+00:11:38,000 --> 00:11:44,600
+siamo abituati a scrivere espressioni di questo genere,
+
+148
+00:11:45,520 --> 00:11:51,680
+però nel peggio il tipo frazione non esiste.
+
+149
+00:11:53,920 --> 00:11:56,940
+Decido di costruirlo perché evidentemente io uso in
+
+150
+00:11:56,940 --> 00:12:02,780
+maniera importante le frazioni. Allora cosa faccio? Mi
+
+151
+00:12:02,780 --> 00:12:05,400
+creo una classe. A questo punto c'è un
+
+152
+00:12:06,220 --> 00:12:09,100
+altro significato che viene data alla programmazione di
+
+153
+00:12:09,100 --> 00:12:19,820
+oggetti, rappresenta di fatto un tipo e io
+
+154
+00:12:19,820 --> 00:12:22,160
+come vi disse l'anno scorso, cos'è un tipo?
+
+155
+00:12:23,860 --> 00:12:31,500
+Un tipo è una raccolta di... E quindi
+
+156
+00:12:31,500 --> 00:12:34,600
+praticamente, quali sono queste regole? Prendiamo in considerazione
+
+157
+00:12:34,600 --> 00:12:37,100
+il tipo intero cosa ci faccio col tipo
+
+158
+00:12:37,100 --> 00:12:46,280
+intero? Il tipo intero ci faccio le quattro
+
+159
+00:12:46,280 --> 00:12:50,860
+operazioni no? La stessa cosa fare per il
+
+160
+00:12:50,860 --> 00:12:54,500
+tipo trotto. Quindi, noi siamo all'ipote di mettere
+
+161
+00:12:55,380 --> 00:13:00,240
+ad utilizzare la logica della matematica, che significa
+
+162
+00:13:00,340 --> 00:13:01,374
+la somma, non è questa, La somma non
+
+163
+00:13:01,374 --> 00:13:12,320
+è questa. La somma delle funzioni, cioè la
+
+164
+00:13:12,320 --> 00:13:16,840
+logica delle funzioni. Ma questa è la notazione
+
+165
+00:13:20,680 --> 00:13:25,000
+infissa. Allora, si è voluto mantenere questa linea,
+
+166
+00:13:25,000 --> 00:13:30,780
+no? E questo già una piccola, una riflessione.
+
+167
+00:13:30,900 --> 00:13:35,580
+La riflessione è quella si può anche vivere
+
+168
+00:13:35,580 --> 00:13:40,800
+senza le definizioni degli operatori tanto c'è la
+
+169
+00:13:40,800 --> 00:13:43,900
+funzione che gli fa la stessa cosa gli
+
+170
+00:13:43,900 --> 00:13:47,140
+conseguenziano di più ma la questione di stile
+
+171
+00:13:48,080 --> 00:13:51,100
+è di praticità ecco perché ho detto, cosa
+
+172
+00:13:51,100 --> 00:13:55,440
+è un approfondimento? Tanto potete fare tutto con
+
+173
+00:13:55,440 --> 00:14:03,760
+le funzioni. Però praticamente io voglio un'operazione di
+
+174
+00:14:03,760 --> 00:14:10,680
+questo genere, la possibilità di scrivere operazioni in
+
+175
+00:14:10,680 --> 00:14:14,420
+questo modo anche con le frazioni, e quindi
+
+176
+00:14:14,420 --> 00:14:16,860
+il tipo con un insieme di proprietà, quali
+
+177
+00:14:16,860 --> 00:14:20,880
+sono le proprietà? Bene, I numeri si possono
+
+178
+00:14:21,100 --> 00:14:26,980
+sommare, sottrarle, moltiplicare e dividere. Le ammottiamo tanto,
+
+179
+00:14:29,120 --> 00:14:33,240
+vi facciamo dare un'altra cosa. Avete fatto uno
+
+180
+00:14:33,240 --> 00:14:49,960
+straccio di Sender, no? Se ci intrettete... La
+
+181
+00:14:49,960 --> 00:15:09,760
+insomma ti scrive così dove l'infisso? Traduco questa
+
+182
+00:15:09,760 --> 00:15:13,300
+cosa viene sorrotta questa cosa viene sorrotta in
+
+183
+00:15:13,300 --> 00:15:19,460
+quel modo quindi la natura della professore l'infimista
+
+184
+00:15:19,860 --> 00:15:22,495
+non esiste ecco che ti ho notto fatta
+
+185
+00:15:22,495 --> 00:15:22,589
+Quindi la natura nella natura del professore l'infizza
+
+186
+00:15:22,589 --> 00:15:25,260
+nel sistema. Ecco che c'è un attepato. Lui
+
+187
+00:15:25,260 --> 00:15:28,060
+sa fare su di lui, però per lui
+
+188
+00:15:28,060 --> 00:15:33,820
+insomma non è questo. In conseguenza il compilatore
+
+189
+00:15:33,820 --> 00:15:35,380
+è chiaro che me lo deve tradurre in
+
+190
+00:15:35,380 --> 00:15:41,040
+quella formula. Questo per dire, evidentemente, hanno creato
+
+191
+00:15:41,040 --> 00:15:49,360
+l'invisione per venire incontro alle lezze romane. Chiaro?
+
+192
+00:15:50,040 --> 00:15:51,120
+Hanno inventato, ovviamente, queste formule. Chiaro? Chiaro, in
+
+193
+00:15:51,120 --> 00:15:54,100
+realtà è ovviamente questa formula, qual è la
+
+194
+00:15:54,100 --> 00:15:56,720
+matematica? E' troppo bene essere umano, troppo di
+
+195
+00:15:56,720 --> 00:15:59,120
+matematica, no? E vi trovate a vedere le
+
+196
+00:15:59,120 --> 00:16:03,920
+espressioni di questo amore? Detto questo, le altre
+
+197
+00:16:03,920 --> 00:16:05,780
+operazioni che ci posso fare con I numeri
+
+198
+00:16:05,780 --> 00:16:18,760
+interi è float maggiore o uguale, I confronti,
+
+199
+00:16:19,020 --> 00:16:21,660
+I numeri si possono confrontare ma anche la
+
+200
+00:16:21,660 --> 00:16:26,120
+segnazione, l'uguale, non c'è un uguale qui la
+
+201
+00:16:26,120 --> 00:16:29,840
+regola di questa sonnata è Somma A con
+
+202
+00:16:29,840 --> 00:16:34,140
+B trasferisci il risultato in A e distruggi
+
+203
+00:16:34,360 --> 00:16:43,540
+il vecchio valore. Distruggi il vecchio valore. Tutto
+
+204
+00:16:43,540 --> 00:16:48,300
+questo, queste sono le regole del processore, così
+
+205
+00:16:48,300 --> 00:16:53,900
+funziona la CPU alla base. Quindi il traduttore
+
+206
+00:16:55,520 --> 00:16:57,320
+mi dà la possibilità di scrivere, il linguaggio
+
+207
+00:16:57,320 --> 00:17:00,160
+mi dà la regola, lo puoi scrivere e
+
+208
+00:17:00,160 --> 00:17:05,740
+il compilatore lo trasforma in semplice traduzione. Ho
+
+209
+00:17:05,740 --> 00:17:09,740
+detto questo, le regole, le quattro operazioni tra
+
+210
+00:17:09,740 --> 00:17:12,880
+I numeri scritte in quel modulo I confronti
+
+211
+00:17:13,119 --> 00:17:18,260
+scritti in questo modulo, l'assegnazione, altre operazioni Bene,
+
+212
+00:17:18,859 --> 00:17:23,700
+fatto un'analisi delle regole degli interi, allora a
+
+213
+00:17:23,700 --> 00:17:29,600
+questo punto, Genio, c'ho voglia di crearmi una
+
+214
+00:17:29,600 --> 00:17:31,300
+mia classe, con le frazioni, quindi queste stesse
+
+215
+00:17:31,860 --> 00:17:37,940
+regole le voglio trasportare su numeri composti da
+
+216
+00:17:37,940 --> 00:17:40,840
+due numeri perché una frazione è composta da
+
+217
+00:17:40,840 --> 00:17:46,140
+un nominatore e un nominatore benissimo potrei utilizzare
+
+218
+00:17:47,540 --> 00:17:50,000
+le funzioni e in effetti la volta scorsa
+
+219
+00:17:50,720 --> 00:17:55,660
+la volta scorsa quello che abbiamo chiesto di
+
+220
+00:17:55,660 --> 00:17:58,160
+fare è detto ok cominciamo a costruirci questa
+
+221
+00:17:58,160 --> 00:18:02,340
+classe, in questo modo sfruttiamo il concetto di
+
+222
+00:18:02,360 --> 00:18:04,840
+come si costruisce una classe da dove fatto
+
+223
+00:18:05,620 --> 00:18:08,040
+e poi cominciamo ad aggiungere I singoli pezzi.
+
+224
+00:18:08,660 --> 00:18:13,720
+Lavoriamo in maniera incrementale, incrementale significa ok, facciamo
+
+225
+00:18:13,720 --> 00:18:17,740
+piccoli pezzi, testiamoli subito e acquisiamo un metodo
+
+226
+00:18:18,400 --> 00:18:21,300
+di lavoro e di studio. Non aspettate la
+
+227
+00:18:21,300 --> 00:18:24,760
+500esima istruzione per verificare se il foglio codice
+
+228
+00:18:25,200 --> 00:18:29,680
+funziona. Fate le porzioni più piccole e testate.
+
+229
+00:18:30,560 --> 00:18:33,460
+Io ho contato che ci fossero delle basi.
+
+230
+00:18:36,840 --> 00:18:38,500
+E' lì che poi mi sono incartato, nel
+
+231
+00:18:38,500 --> 00:18:41,100
+senso che mi sono inchiutato perché chiaramente quelle
+
+232
+00:18:41,100 --> 00:18:46,200
+basi non c'erano devo progettare una nuova classe
+
+233
+00:18:46,700 --> 00:18:49,740
+da dove comincia quindi togliamo un attimo sul
+
+234
+00:18:49,740 --> 00:18:56,160
+concetto quindi questa relazione non è prevista nella
+
+235
+00:18:56,160 --> 00:19:01,160
+mia classe, perché la mia classe frazione non
+
+236
+00:19:01,160 --> 00:19:06,540
+esiste, non è stata preparata da chi ha
+
+237
+00:19:06,540 --> 00:19:10,000
+progettato l'inguaggio C++ quindi a questo punto io
+
+238
+00:19:10,000 --> 00:19:13,280
+vorrei progettare la mia classe che diventerà poi
+
+239
+00:19:13,320 --> 00:19:18,220
+il mio tipo frazione ti chiaro? In conseguenza
+
+240
+00:19:18,620 --> 00:19:21,420
+se voglio crearmi un nuovo tipo motivo per
+
+241
+00:19:21,420 --> 00:19:24,520
+cui la programmazione degli oggetti serve anche per
+
+242
+00:19:24,520 --> 00:19:34,020
+creare nuovi tipi. Non c'è soltanto l'oggetto, ma
+
+243
+00:19:34,020 --> 00:19:38,060
+anche tipi. Quindi a questo punto io voglio
+
+244
+00:19:38,060 --> 00:19:43,100
+progettare le mie classe perché vorrei che consente
+
+245
+00:19:43,280 --> 00:19:50,080
+di lavorare con oggetti frazione, oggetti frazione, non
+
+246
+00:19:50,300 --> 00:19:54,800
+1-3, no, l'oggetto frazione. E allora vedo il
+
+247
+00:19:54,800 --> 00:19:58,900
+problema dall'interno su come si progetta e vedo
+
+248
+00:19:58,900 --> 00:20:02,100
+il problema dall'esterno su come si usano e
+
+249
+00:20:02,100 --> 00:20:04,840
+io voglio fare una torna di questo genere.
+
+250
+00:20:06,400 --> 00:20:12,440
+È chiaro? Gli strumenti che avevamo a disposizione
+
+251
+00:20:12,600 --> 00:20:15,520
+erano solamente una classe fatta da metodi e
+
+252
+00:20:15,520 --> 00:20:21,520
+proprietà, membri, metodi e proprietà nello specifico, variabili
+
+253
+00:20:21,800 --> 00:20:24,860
+e funzioni. Quelli erano gli strumenti, di conseguenza
+
+254
+00:20:24,960 --> 00:20:28,060
+nella migliore delle foto che potevamo utilizzare per
+
+255
+00:20:28,060 --> 00:20:35,760
+questo genere. No? La struttura della funzione. Vi
+
+256
+00:20:35,760 --> 00:20:37,980
+dissi e lo disse a loro, già in
+
+257
+00:20:37,980 --> 00:20:40,560
+secondo. Ogni volta che vedete una parola seguita
+
+258
+00:20:40,560 --> 00:20:42,440
+da una parentesi tonda, qual è la funzione?
+
+259
+00:20:44,940 --> 00:20:48,640
+Quindi dicevo, bè, sai usare le funzioni? E'
+
+260
+00:20:48,640 --> 00:20:52,940
+messo. Facciamo con gli ingredienti che abbiamo. Devo
+
+261
+00:20:52,940 --> 00:20:57,680
+progettare la mia posefazione. Quindi l'obiettivo è, io
+
+262
+00:20:57,900 --> 00:21:00,520
+nel mio codice voglio scrivere cose di questo
+
+263
+00:21:00,520 --> 00:21:03,956
+genere, non cose di questo genere. E quindi
+
+264
+00:21:04,133 --> 00:21:09,780
+passare dalla situazione di questo genere alla situazione
+
+265
+00:21:09,800 --> 00:21:13,360
+di... Ok, applicare questa serie pure della matematica,
+
+266
+00:21:14,620 --> 00:21:17,480
+matematica, la sua matematica funziona e frazioni si
+
+267
+00:21:17,480 --> 00:21:25,420
+scrive in quel Bene, a questo punto, progettiamo
+
+268
+00:21:25,560 --> 00:21:28,400
+la classe, da dove si parte. E dicevamo
+
+269
+00:21:28,440 --> 00:21:32,900
+la volta scorsa, ok? Quando progetto una classe,
+
+270
+00:21:32,900 --> 00:21:34,920
+la prima cosa che devo pensare sono I
+
+271
+00:21:34,920 --> 00:21:39,660
+costruttori. Perché? I costruttori sono quegli strumenti che
+
+272
+00:21:39,660 --> 00:21:41,720
+mi consentono di dichiarare gli oggetti. Qual è
+
+273
+00:21:41,720 --> 00:21:44,280
+lo scopo del costruttore? Poi orà definizione del
+
+274
+00:21:44,280 --> 00:21:47,880
+cazzo e dò Ah sì, il costruttore allocca
+
+275
+00:21:48,120 --> 00:21:52,960
+spazio inizializza le varie... La fallono e vedi
+
+276
+00:21:52,960 --> 00:21:57,960
+ovviamente il foglio bianco perché dici vedi stai
+
+277
+00:21:57,960 --> 00:22:02,200
+imparando le cose alla cazzo, Nozioni di merda
+
+278
+00:22:02,320 --> 00:22:04,160
+che non servono a niente, però tu conosci
+
+279
+00:22:04,160 --> 00:22:08,340
+la definizione di merda. No? Poi diventano animale
+
+280
+00:22:08,340 --> 00:22:15,200
+perché è insopportabile il nozionismo becero. E' nozionismo.
+
+281
+00:22:16,100 --> 00:22:21,300
+Perché se tu l'hai capito, ti dico, creami
+
+282
+00:22:21,300 --> 00:22:24,440
+sti cazzo di costruttori e parti tu dall'ipotesi
+
+283
+00:22:25,440 --> 00:22:28,380
+non ti do il suggerimento e l'ipotesi sono
+
+284
+00:22:38,900 --> 00:22:44,840
+lascia che ci amemi Grazie a tutti e
+
+285
+00:22:44,840 --> 00:22:46,120
+a me. Ok. Allora, a qualsiasi punto io
+
+286
+00:22:46,120 --> 00:22:53,280
+faccio? Grazie. Garteresi ha altre definizioni, no? Come
+
+287
+00:22:53,280 --> 00:22:55,360
+faccio a riconoscere I passi del tono? Perché
+
+288
+00:22:55,360 --> 00:22:57,000
+il tono ha il stesso nome della classe,
+
+289
+00:22:57,000 --> 00:23:02,560
+no? Nossurismo è merda. Allora, allora usiamo, no?
+
+290
+00:23:03,700 --> 00:23:09,420
+Domanda. Principio di sovrapposizione delle funzioni possono assistere
+
+291
+00:23:09,540 --> 00:23:11,940
+all'interno di un codice funzioni che hanno lo
+
+292
+00:23:11,940 --> 00:23:17,300
+stesso nome. Quindi all'interno di una classe possono
+
+293
+00:23:17,300 --> 00:23:21,840
+assistere più costruttori, semplicemente applicando il principio di
+
+294
+00:23:21,840 --> 00:23:28,160
+sovrapposizione delle funzioni. Con questa definizione io dovrei
+
+295
+00:23:28,160 --> 00:23:32,080
+fare la ripotesi di quanti costruttori ho bisogno.
+
+296
+00:23:33,860 --> 00:23:35,620
+Se non l'ho dicito prima, è inutile che
+
+297
+00:23:35,620 --> 00:23:39,880
+scrivo come dice. Se non ho lo strumento
+
+298
+00:23:39,920 --> 00:23:44,120
+di costruzione dell'oggetto, come cazzo faccio a pensare
+
+299
+00:23:44,540 --> 00:23:50,860
+ai metodi? Infatti, infatti se voglio creare dei
+
+300
+00:23:50,860 --> 00:23:56,280
+panni mi svesto dei panni del progettista e
+
+301
+00:23:56,280 --> 00:24:07,040
+penso come dovrebbe essere utilizzata? Come si creano
+
+302
+00:24:07,080 --> 00:24:10,600
+gli oggetti fraziani? A questo punto facciamo delle
+
+303
+00:24:10,600 --> 00:24:24,320
+protezioni. Questa è la classe ok questa è
+
+304
+00:24:24,320 --> 00:24:35,740
+una possibilità Questa è l'altra possibilità. Questa è
+
+305
+00:24:35,740 --> 00:24:45,960
+l'altra possibilità. Dare significa che non è un
+
+306
+00:24:45,960 --> 00:24:49,600
+semplice costruzione. Quanto significa che ho, mi sono
+
+307
+00:24:49,600 --> 00:24:54,500
+appena locato spazio per una frazione di cui
+
+308
+00:24:54,500 --> 00:25:02,660
+non conosco il nominatore. E' chiaro? Qui conosco
+
+309
+00:25:02,660 --> 00:25:07,760
+soltanto la parte della frazione. Qui conosco le
+
+310
+00:25:07,760 --> 00:25:14,280
+due parti della frazione. Ci siete? Diceva che
+
+311
+00:25:14,280 --> 00:25:16,620
+cos'è una frazione dal punto di vista matematico,
+
+312
+00:25:17,860 --> 00:25:20,660
+semplicemente appunto sono due nodi, uno che funge
+
+313
+00:25:20,660 --> 00:25:22,880
+dal miglioratore e l'altro che funge dal miglioratore.
+
+314
+00:25:23,660 --> 00:25:34,320
+E quindi... Non è vero? Non è vero
+
+315
+00:25:46,000 --> 00:25:54,160
+La sonata? Sì 7 minuti Non è vero?
+
+316
+00:25:54,160 --> 00:25:56,567
+Non è vero? Non è vero? La salata
+
+317
+00:25:56,567 --> 00:25:56,880
+si assolutamente 7 minuti ok andate a vedere
+
+318
+00:25:56,880 --> 00:26:03,960
+il mio dateci una mano stiamo cercando, no
+
+319
+00:26:03,960 --> 00:26:09,740
+vi sfrutto adesso da programmatore voi lavorate ad
+
+320
+00:26:09,740 --> 00:26:14,980
+oggetti? Si congettate oggetti o usate oggetti? Usate
+
+321
+00:26:16,100 --> 00:26:18,320
+e noi vi faccio vedere dove stavate questo
+
+322
+00:26:18,320 --> 00:26:25,980
+è dove stavate allora abbiamo detto la classe
+
+323
+00:26:25,980 --> 00:26:28,730
+frazione è composta dalle parti del numeratore o
+
+324
+00:26:28,730 --> 00:26:33,320
+del nominatore chiaro? Il numeratore o del nominatore
+
+325
+00:26:33,320 --> 00:26:37,700
+non devono essere raddibibili direttamente in conseguenza sono
+
+326
+00:26:37,700 --> 00:26:48,460
+più dati lavorati già? Si è inventata la
+
+327
+00:26:48,460 --> 00:26:53,700
+combinazione, ci più più già e non incorrecete
+
+328
+00:26:53,880 --> 00:26:59,300
+nemmeno su questa cosa è un correcente, abbiamo
+
+329
+00:26:59,300 --> 00:27:04,660
+progettato una posezione e quindi a questo punto
+
+330
+00:27:04,660 --> 00:27:06,660
+gli ingredienti fondamentali sono il numero tale della
+
+331
+00:27:06,660 --> 00:27:11,880
+memoria, no? Le panze manse quelli li devo
+
+332
+00:27:11,880 --> 00:27:16,520
+subito dichiarare, non le proprietà, devono essere private,
+
+333
+00:27:16,580 --> 00:27:19,940
+non devono essere suggeriti direttamente. Ma a un
+
+334
+00:27:19,940 --> 00:27:22,700
+certo punto è chiaro, ho bisogno dei costruttori
+
+335
+00:27:24,600 --> 00:27:35,500
+e quelli devono essere pubblici. Perché se li
+
+336
+00:27:35,500 --> 00:27:40,240
+rendessi privati non costruirebbero nulla, no? È chiaro?
+
+337
+00:27:42,440 --> 00:27:45,500
+Però fatta sbagliare e vediamo se costruisce qualcosa.
+
+338
+00:27:46,260 --> 00:27:52,080
+Discolto di imparare degli errori, no? Ok, il
+
+339
+00:27:52,080 --> 00:27:56,100
+nostro problema è di quanti costruttori abbiamo bisogno.
+
+340
+00:27:56,760 --> 00:27:59,740
+Devo progettare una classe, la prima cosa cui
+
+341
+00:27:59,740 --> 00:28:01,960
+devo pensare a questo punto non tutti I
+
+342
+00:28:01,960 --> 00:28:07,400
+metodi delle proprietà ma a questo punto di
+
+343
+00:28:07,400 --> 00:28:13,200
+quanti costruttori aveva bisogno. Una possibilità è quella
+
+344
+00:28:13,200 --> 00:28:17,500
+di tassi dei panni vostri. Come potrebbero essere
+
+345
+00:28:17,500 --> 00:28:24,000
+usate queste classi dagli sviluppatori del meglio? A
+
+346
+00:28:24,000 --> 00:28:28,900
+voi interessa solamente la specificità? Queste sono le
+
+347
+00:28:28,900 --> 00:28:31,580
+regole dei costruttori, poi li applicate Allora mi
+
+348
+00:28:31,580 --> 00:28:34,000
+calano I vostri panni e dico ok, loro
+
+349
+00:28:36,580 --> 00:28:42,780
+potrebbero usarli in questo modo, significa una frazione
+
+350
+00:28:44,060 --> 00:28:49,700
+vuota, senza nominatore, senza denominatore, no? Pensate ad
+
+351
+00:28:49,700 --> 00:28:51,580
+una frazione che dovrebbe essere il totale della
+
+352
+00:28:51,580 --> 00:28:54,460
+samba di due operazioni, non ci devo mettere
+
+353
+00:28:54,460 --> 00:28:59,420
+niente, però lui, cioè l'altra ricordazione è, sì
+
+354
+00:28:59,420 --> 00:29:02,160
+va bene, ma allora potrebbe anche utilizzare in
+
+355
+00:29:02,160 --> 00:29:06,700
+questa modo con un solo valore. E poi,
+
+356
+00:29:06,800 --> 00:29:12,120
+quella più canonica. A questo punto, la più
+
+357
+00:29:12,120 --> 00:29:14,760
+canonica è normale che ci metta il numeratore
+
+358
+00:29:14,760 --> 00:29:23,000
+o denominatore, no? Torniamo su questo. A questo
+
+359
+00:29:23,000 --> 00:29:27,920
+punto, b5 cosa significa? Io ho inserito soltanto
+
+360
+00:29:27,920 --> 00:29:30,560
+un valore, ma la frazione è composta da
+
+361
+00:29:30,560 --> 00:29:34,860
+due numeri interi. Quindi a questo punto a
+
+362
+00:29:34,860 --> 00:29:37,960
+voi dirò attenzione, quel 5 è il numeratore
+
+363
+00:29:38,140 --> 00:29:45,500
+della frazione. Perché? Perché matematica 5, indiviso 1
+
+364
+00:29:45,500 --> 00:29:47,680
+è uguale a 5. Ma questa non è
+
+365
+00:29:47,680 --> 00:29:52,380
+la matematica, no? Quindi tu non potrai mai
+
+366
+00:29:52,380 --> 00:29:56,780
+inserire il denominatore, devi sempre inserire il numeratore,
+
+367
+00:29:58,080 --> 00:30:01,980
+anche perché se fossi inserito un nominatore, qui
+
+368
+00:30:01,980 --> 00:30:03,960
+avrei potuto fare anche una cosa di questo
+
+369
+00:30:03,960 --> 00:30:09,160
+genere e la frazione non prevede il nominatore
+
+370
+00:30:09,340 --> 00:30:13,220
+4-0 quindi io ti blocco subito, tu puoi
+
+371
+00:30:13,220 --> 00:30:18,260
+fare solo quello Ci siete? E sono cominciato
+
+372
+00:30:18,260 --> 00:30:22,340
+a progettare I costruttori per dare la possibilità
+
+373
+00:30:22,540 --> 00:30:30,720
+alle persone di dichiarare l'oggetto frazione. Detto questo,
+
+374
+00:30:31,060 --> 00:30:34,360
+A questo punto, una volta che mi sono
+
+375
+00:30:34,360 --> 00:30:37,240
+dato questa regola, vediamo considerato un primo costruttore.
+
+376
+00:30:37,240 --> 00:30:41,680
+Il primo costruttore dice non diremmo inserire niente,
+
+377
+00:30:41,680 --> 00:30:45,020
+né il numeratore né il denominatore. Ci siete?
+
+378
+00:30:46,800 --> 00:30:51,140
+Ma c'è un problema? Momento in cui vi
+
+379
+00:30:51,140 --> 00:30:53,580
+caro te ne parlo del progettista della classe,
+
+380
+00:30:53,580 --> 00:30:56,640
+il progettista deve avere delle informazioni in più
+
+381
+00:30:56,840 --> 00:31:02,940
+del tipo. Una frazione, vi ho detto subito,
+
+382
+00:31:04,160 --> 00:31:06,660
+è composta da due passi, a, b, è
+
+383
+00:31:06,660 --> 00:31:11,020
+la regola della matematica, perché b è diverso
+
+384
+00:31:11,020 --> 00:31:19,400
+da 0. Queste obbligano, no? Quindi, il costruttore
+
+385
+00:31:19,700 --> 00:31:23,000
+di questa frazione, come la costruisce la frazione?
+
+386
+00:31:24,060 --> 00:31:36,140
+La risposta è il numeratore uguale 0, il
+
+387
+00:31:36,140 --> 00:31:44,460
+denominatore uguale 1. I due valori, le variabili,
+
+388
+00:31:45,080 --> 00:31:50,220
+li devo dare, chiaro? Forza! Perché tutte le
+
+389
+00:31:50,220 --> 00:31:53,080
+variabili prima di essere utilizzate devono essere inizializzate.
+
+390
+00:31:54,080 --> 00:31:57,120
+Qual è lo scopo del costruttore? Allogare spazio,
+
+391
+00:31:57,120 --> 00:32:02,200
+no? Sì, ma c'è pure quell'altro. Inizializzare tutte
+
+392
+00:32:02,200 --> 00:32:05,960
+quante le variabili. E che valori gli do?
+
+393
+00:32:07,480 --> 00:32:09,460
+Questa è la funzione, cioè questa è la
+
+394
+00:32:09,460 --> 00:32:15,080
+frazione senza parametri. Lui ti crea quella frazione,
+
+395
+00:32:15,160 --> 00:32:17,800
+è una frazione di lavoro, che potrà diventare
+
+396
+00:32:17,800 --> 00:32:22,580
+come parte di paga. E' chiaro? Quindi parte
+
+397
+00:32:22,580 --> 00:32:30,240
+questo costruttore, viene costruito questa frazione, no? Ci
+
+398
+00:32:30,240 --> 00:32:34,400
+siete? A questo punto parte invece la seconda
+
+399
+00:32:34,500 --> 00:32:38,480
+frazione C'è la dichiarazione della seconda frazione, alla
+
+400
+00:32:38,480 --> 00:32:42,740
+quale passo? 5 E in costruzione cosa trova?
+
+401
+00:32:52,380 --> 00:32:54,220
+Tu non mi dai il terminatore? Allora te
+
+402
+00:32:54,220 --> 00:32:56,560
+la prendiamo una, te la prendiamo una via.
+
+403
+00:32:58,060 --> 00:33:06,620
+Ci siete? Ah, per questo. E beh, qui
+
+404
+00:33:06,620 --> 00:33:10,940
+c'è un problema io do una finestra all'operatore
+
+405
+00:33:11,720 --> 00:33:22,100
+pericolosa perchè l'operatore fa così è un problema
+
+406
+00:33:22,100 --> 00:33:24,260
+critico? E quindi cosa fa? Così. Il problema
+
+407
+00:33:24,260 --> 00:33:31,190
+è che... ...Quindi cosa fa? All'interno del costruttore
+
+408
+00:33:31,280 --> 00:33:34,440
+direttamente. Il costruttore deve andare a controllare più
+
+409
+00:33:34,440 --> 00:33:39,720
+il denominatore ci siete? È lanciare un eccezionale
+
+410
+00:33:40,040 --> 00:33:43,440
+non me ne frega niente, ripeto no no
+
+411
+00:33:43,440 --> 00:33:47,600
+no no no no no ripeto sviluppare significa
+
+412
+00:33:47,660 --> 00:33:51,000
+pensare in un certo modo e progettare significa
+
+413
+00:33:52,260 --> 00:33:54,360
+non me ne frega niente del linguaggio, può
+
+414
+00:33:54,360 --> 00:33:57,340
+essere Java, può essere C-sharp, può essere C++,
+
+415
+00:33:57,440 --> 00:33:59,800
+non me ne frega niente, il progetto non
+
+416
+00:33:59,800 --> 00:34:04,000
+è vincolato al linguaggio, è la matematica che
+
+417
+00:34:04,000 --> 00:34:09,469
+mi dice controlla quel numero, non il linguaggio
+
+418
+00:34:10,159 --> 00:34:13,593
+poi, io ti ho messo l'info, buttare l'eccezione,
+
+419
+00:34:13,593 --> 00:34:17,699
+come cazzo ti pare? Una cosa è certa,
+
+420
+00:34:17,960 --> 00:34:20,340
+devi controllare quel denominatore perché quello è un
+
+421
+00:34:20,340 --> 00:34:25,540
+punto critico e non lo devo dire neanche
+
+422
+00:34:25,860 --> 00:34:30,300
+a loro che dovranno scrivere il mail la
+
+423
+00:34:30,300 --> 00:34:31,239
+cosa è certa La cosa è certa, se
+
+424
+00:34:31,239 --> 00:34:36,380
+uno di loro... Con la che cicola di
+
+425
+00:34:36,380 --> 00:34:40,600
+pesciate non ha io Ha famigliato, insomma C'è
+
+426
+00:34:40,600 --> 00:34:45,239
+il catraio fa meno rumore Il problema, il
+
+427
+00:34:45,239 --> 00:34:49,400
+messaggio è, attenzione se uno di loro scrive
+
+428
+00:34:49,580 --> 00:34:52,560
+qui 3, 0 appena parte il codice parte
+
+429
+00:34:52,560 --> 00:34:58,580
+subito l'errore. Perché? Perché tu avrai visto il
+
+430
+00:34:58,580 --> 00:35:02,620
+controllo di quella situazione. Ecco cosa intendo per
+
+431
+00:35:02,620 --> 00:35:05,660
+progettare. Progettare significa anticipare tutto quello che è
+
+432
+00:35:05,660 --> 00:35:08,680
+possibile, tanto non siamo oddio e sbaglieremo sempre
+
+433
+00:35:08,680 --> 00:35:13,560
+qualche cosa. Però quanto più cose possiamo già.
+
+434
+00:35:13,900 --> 00:35:17,100
+Ecco la differenza tra il discorso dell'esperienza, ne
+
+435
+00:35:17,100 --> 00:35:19,080
+hai visto tante, quindi no, fai questo tipo
+
+436
+00:35:19,080 --> 00:35:21,280
+di controllo perché mi sono beccato una vergogna
+
+437
+00:35:21,280 --> 00:35:26,780
+di errori, è chiaro? Eppure, allora ho proposto
+
+438
+00:35:26,940 --> 00:35:31,460
+questo, no? Progettiamo la classe di profeta, progettiamo
+
+439
+00:35:32,320 --> 00:35:38,240
+I nostri costruttori. Costruisce un'intera. E quindi chiaramente.
+
+440
+00:35:38,400 --> 00:35:42,680
+E poi analizziamo tutti questi benescenari. Dopodiché dice
+
+441
+00:35:42,680 --> 00:35:45,860
+ok, vedi, il discorso dell'INT lì È strumentale.
+
+442
+00:35:47,560 --> 00:35:49,440
+Lo so che ci saranno dei costruttori e
+
+443
+00:35:49,440 --> 00:35:52,580
+degli istruttori, che ci saranno dei metodi e
+
+444
+00:35:52,580 --> 00:35:54,640
+delle proprietà. Non me ne frega niente, io
+
+445
+00:35:54,640 --> 00:35:57,700
+lo sto facendo perché c'è C++, vabbè, uso
+
+446
+00:35:58,620 --> 00:36:03,220
+la sintassi del C++. Però una cosa certa,
+
+447
+00:36:03,220 --> 00:36:05,520
+potevo anche scrivere in italiano, questo è privato,
+
+448
+00:36:05,920 --> 00:36:08,200
+questo è pubblico e non mi entrega niente.
+
+449
+00:36:09,880 --> 00:36:16,360
+Chiaro? A questo punto qui ci sono le
+
+450
+00:36:16,360 --> 00:36:21,480
+competenze del C++. A questo punto, siccome praticamente
+
+451
+00:36:21,500 --> 00:36:24,120
+la classe la devo costruire usando il C++,
+
+452
+00:36:24,120 --> 00:36:27,380
+mi servono le regole sintattiche del C++. Le
+
+453
+00:36:27,380 --> 00:36:30,520
+regole sintattiche del C++ mi dicono non è
+
+454
+00:36:30,520 --> 00:36:47,670
+un plus frazione ok privato numeratore no numeratore
+
+455
+00:36:48,075 --> 00:37:03,980
+Numeratore? No. Int, nominatore. Int, denominatore. Questa è
+
+456
+00:37:03,980 --> 00:37:06,840
+una differenza del Java? Tipo per esempio, ogni
+
+457
+00:37:06,840 --> 00:37:11,520
+singola variabile, ogni singolo membro, gli deve dare
+
+458
+00:37:11,520 --> 00:37:19,740
+ovviamente modificatore. A questo punto questo è il
+
+459
+00:37:19,740 --> 00:37:23,420
+pubblico, qui il pubblico e a questo punto
+
+460
+00:37:23,420 --> 00:37:53,880
+cosa facciamo? E sono...frazione...frazione... Qui? Ciao, ciao Ci
+
+461
+00:37:53,880 --> 00:37:55,929
+sono andate allora? Sì, a 50 cem. Qui?
+
+462
+00:37:55,929 --> 00:37:58,780
+Ciao ciao suonate allora? Si 50 cc 50
+
+463
+00:37:58,780 --> 00:38:02,360
+cc posso dire una cosina? Dino ho trovato
+
+464
+00:38:03,340 --> 00:38:06,260
+uno come utilizza lei, lui scusami, che si
+
+465
+00:38:06,260 --> 00:38:07,340
+chiama DeepRUN, che è lo che tu fai
+
+466
+00:38:11,520 --> 00:38:18,460
+anche, e poi questo utilizza Python, Java per
+
+467
+00:38:18,460 --> 00:38:25,740
+fare la sua voce a testo. Quindi? La
+
+468
+00:38:25,740 --> 00:38:28,620
+interfaccia grafica è una applicazione che si può
+
+469
+00:38:28,620 --> 00:38:34,540
+stare con? Si, è gratuito l'ho trovato io
+
+470
+00:38:34,540 --> 00:38:42,500
+su internet cercando che ricorda? Ti la credo
+
+471
+00:38:44,380 --> 00:38:48,580
+si chiama ricorda non so se l'hai trovata
+
+472
+00:38:52,800 --> 00:38:56,500
+quando sei in un ricordo ci sei lo
+
+473
+00:38:56,753 --> 00:39:02,526
+puoi trovare, non so se lo hai trovato
+
+474
+00:39:02,780 --> 00:39:05,380
+Questo è buono, ti dà dei crediti e
+
+475
+00:39:05,380 --> 00:39:11,060
+per ogni testo che ti dai un credito
+
+476
+00:39:12,260 --> 00:39:16,800
+ti avanza per come 20-30 testi. E utilizza
+
+477
+00:39:16,900 --> 00:39:18,220
+anche l'intelligenza artificiale. E utilizza anche l'intelligenza artificiale
+
+478
+00:39:21,160 --> 00:39:23,860
+Sì, no, vabbè, per questa cosa non si
+
+479
+00:39:23,860 --> 00:39:27,520
+paga No, non si paga Cioè lui che
+
+480
+00:39:27,520 --> 00:39:31,640
+fa... Cioè è gratis, perdo I 100 dollari
+
+481
+00:39:31,640 --> 00:39:34,340
+di credit Interessante Io dò 100 dollari di
+
+482
+00:39:34,340 --> 00:39:41,480
+credit, esatto Interessante Guardate che un'idea Io sono
+
+483
+00:39:41,480 --> 00:39:46,660
+per l'altra linea però. Per l'altra vole. Perché?
+
+484
+00:39:46,740 --> 00:39:48,560
+Il problema è, una volta che abbiamo esaurito
+
+485
+00:39:48,560 --> 00:39:51,340
+I 200 crediti, anche se sembrano tanti, poi
+
+486
+00:39:51,340 --> 00:39:53,840
+che facciamo? È chiaro che il loro obiettivo
+
+487
+00:39:53,920 --> 00:39:55,940
+dice che hai fatto tutto quanto lavoro, allora
+
+488
+00:39:55,940 --> 00:40:00,245
+paghi no, sì, lo sento quindi bisogna fare
+
+489
+00:40:00,245 --> 00:40:07,120
+un lavoro e poi esauriamo quel credito automaticamente
+
+490
+00:40:07,480 --> 00:40:11,340
+non ci troviamo costretti a fare lavoramento per
+
+491
+00:40:11,600 --> 00:40:17,520
+continuare il nostro lavoro. Praticamente si usa anche
+
+492
+00:40:17,520 --> 00:40:20,980
+whisper, cioè ci sono altri modelli, whisper novo
+
+493
+00:40:20,980 --> 00:40:24,360
+quello che fanno loro. Però non è open
+
+494
+00:40:24,360 --> 00:40:29,240
+source, è più una cosa di commerciale no,
+
+495
+00:40:29,240 --> 00:40:33,400
+questa è commerciale questa è commerciale questa è
+
+496
+00:40:33,400 --> 00:40:36,240
+un'opera di whisper open source, non c'è bisogno
+
+497
+00:40:36,240 --> 00:40:42,260
+di parte No, concludo un attimo questa cosa,
+
+498
+00:40:42,260 --> 00:40:46,340
+perché poi faremo anche un po' dell'altro. Quindi
+
+499
+00:40:46,340 --> 00:40:51,100
+praticamente dicevamo, l'ora è suonata, no? Sì. Ok.
+
+500
+00:40:51,100 --> 00:40:55,680
+Quindi il discorso è, c'è la frazione, mi
+
+501
+00:40:55,680 --> 00:40:59,720
+preparo il pretodico, metto l'info. Il problema era
+
+502
+00:40:59,720 --> 00:41:03,160
+questo, frazione, e noi avevamo preso in considerazione
+
+503
+00:41:03,360 --> 00:41:11,720
+un'ipotesi. Esistono le funzioni a parametri costanti. E
+
+504
+00:41:11,720 --> 00:41:19,620
+quello potrebbe essere uno strumento. Di ricordate, anche
+
+505
+00:41:19,620 --> 00:41:23,080
+lì, sottointeso, ci ricordiamo quali sono le funzioni
+
+506
+00:41:23,180 --> 00:41:27,460
+e I parametri questanti? Come funzionano? Infatti io
+
+507
+00:41:27,460 --> 00:41:30,540
+l'ho dato per sottointeso e mi sono fatto
+
+508
+00:41:30,540 --> 00:42:03,540
+male. Allora, a questo punto ricercheremo. E' chiaro
+
+509
+00:42:03,540 --> 00:42:06,740
+che I corpi cosa avrebbero dovuto fare? Questo
+
+510
+00:42:06,740 --> 00:42:11,060
+corpo azzerra il numeratore e assegna uno delaminatore,
+
+511
+00:42:11,340 --> 00:42:15,780
+il costruttore. Questo corpo, il primo costruttore senza
+
+512
+00:42:15,780 --> 00:42:19,280
+parametri, il secondo costruttore senza parametri assegna al
+
+513
+00:42:19,280 --> 00:42:23,160
+numeratore e assegna a un denominatore qui assegna
+
+514
+00:42:23,600 --> 00:42:29,440
+però prima di assegnarlo il controllo eccezione e
+
+515
+00:42:29,440 --> 00:42:33,480
+faccio a questo punto un monitoraggio sul secondo
+
+516
+00:42:33,480 --> 00:42:36,280
+valore se non funziona serve per l'accezione e
+
+517
+00:42:36,280 --> 00:42:41,440
+però devo avvisare loro. Il discorso è loro
+
+518
+00:42:41,680 --> 00:42:43,840
+sono gli esecutori, quelli che usano la tua
+
+519
+00:42:43,840 --> 00:42:48,580
+classe quindi a loro devo dire attenzione questo
+
+520
+00:42:48,620 --> 00:42:50,380
+solleva eccezione e ti devo dire anche un
+
+521
+00:42:50,380 --> 00:42:53,760
+tipo di eccezione perché siano loro che scrivono
+
+522
+00:42:53,760 --> 00:42:57,260
+il menu non riescono a sviluppare il codice
+
+523
+00:42:58,900 --> 00:43:01,460
+se si verifica la situazione anomala si ritrova
+
+524
+00:43:01,460 --> 00:43:04,810
+una situazione strana è come il costruttore che
+
+525
+00:43:05,500 --> 00:43:06,820
+mi lancia le azioni dopo di che a
+
+526
+00:43:06,820 --> 00:43:10,200
+loro cosa ho chiesto la volta scorsa? Avete
+
+527
+00:43:10,200 --> 00:43:13,280
+in quel caso si tratta di scrivere 6
+
+528
+00:43:13,280 --> 00:43:22,260
+ricordi perché se vi fate I conti quanto
+
+529
+00:43:22,260 --> 00:43:24,340
+ci vuoi che si avessi scrivato? Te lo
+
+530
+00:43:24,340 --> 00:43:26,840
+scrivo anche a canto, la riga dei codici,
+
+531
+00:43:26,840 --> 00:43:28,540
+la riga dei codici, perché due righe di
+
+532
+00:43:28,540 --> 00:43:32,420
+codici io devo scrivere tutto qua? Miettina siamo
+
+533
+00:43:32,420 --> 00:43:37,460
+andati, siamo colpassati tutti quanti non si può
+
+534
+00:43:37,460 --> 00:43:40,180
+accettare le cose che stanno a me dici
+
+535
+00:43:40,180 --> 00:43:46,000
+ciò, fermo continuo a che mi serve questa
+
+536
+00:43:46,000 --> 00:43:49,920
+frase? L'ho scritta? Li ho implementati? Ok mi
+
+537
+00:43:49,920 --> 00:43:52,240
+scrivo il mail? Sì ma così non mi
+
+538
+00:43:52,240 --> 00:43:57,500
+gestisce l'eccezione oppure lo metti da dentro e
+
+539
+00:43:57,500 --> 00:44:02,240
+lo testo subito significa mi faccio, mi creo
+
+540
+00:44:02,240 --> 00:44:05,400
+delle oggetti la cosa è certa, se tiene
+
+541
+00:44:05,400 --> 00:44:08,280
+errore me lo da subito allora mettono dentro
+
+542
+00:44:08,280 --> 00:44:10,680
+se fa il fariscio con la porzione di
+
+543
+00:44:10,680 --> 00:44:12,820
+foglie devo andarla a controllare perché lo devo
+
+544
+00:44:12,820 --> 00:44:16,020
+attestare e quindi se continuo a scrivere il
+
+545
+00:44:16,020 --> 00:44:20,540
+codice e avrò errori, bene, la cosa è
+
+546
+00:44:20,540 --> 00:44:26,140
+certa, non dipenderà dai costruttori è uno stile,
+
+547
+00:44:27,960 --> 00:44:30,800
+non dovete aspettare la cinquecentesima ripetere il codice,
+
+548
+00:44:30,800 --> 00:44:33,000
+cioè alla fine c'è una vagonata dei codici,
+
+549
+00:44:33,000 --> 00:44:41,780
+no testa subito Stile, lo stile di lavoro,
+
+550
+00:44:42,340 --> 00:44:47,220
+ma lo dovete fare sempre ripeto, poi dobbiamo
+
+551
+00:44:47,220 --> 00:44:49,920
+andare a farci fare le cose, lasciate gli
+
+552
+00:44:49,920 --> 00:44:53,080
+impitti, fate tracchi, è come dire vabbo, non
+
+553
+00:44:53,080 --> 00:45:02,520
+deve essere molto in controllo, allora, che senso
+
+554
+00:45:02,520 --> 00:45:06,900
+ha? Niente, un attimato di ferme a questo
+
+555
+00:45:07,760 --> 00:45:11,540
+poi abbiamo aggiunto, ok, non mancano le proprietà
+
+556
+00:45:15,280 --> 00:45:20,480
+devo fare la sua matriottituzione No? Allora io
+
+557
+00:45:20,480 --> 00:45:29,740
+parto con le conoscenze che ho. Va bene?
+
+558
+00:45:30,140 --> 00:45:38,600
+Non ho altre conoscenze per ora manca una
+
+559
+00:45:38,600 --> 00:45:43,900
+cosa importante partecipate pure se riuscite, devo fare
+
+560
+00:45:43,900 --> 00:45:49,620
+l'assommato del funzione devo costruire un metodo per
+
+561
+00:45:49,620 --> 00:45:55,760
+ora manca l'altra frazione io ti sto chiedendo
+
+562
+00:45:55,760 --> 00:46:01,320
+di trovare una soluzione, io voglio stoccar spica
+
+563
+00:46:01,320 --> 00:46:04,940
+di metodi Tu mi devi dire quel metodo,
+
+564
+00:46:04,940 --> 00:46:08,760
+come lo vuoi costruire, devi fare delle ipotesi.
+
+565
+00:46:09,960 --> 00:46:12,160
+Se non fai delle ipotesi ti darò io
+
+566
+00:46:12,160 --> 00:46:16,400
+la soluzione. Io costruirei, farei due oggetti di
+
+567
+00:46:16,400 --> 00:46:20,140
+cofrazione e scrivere un'altra classe per le fomme
+
+568
+00:46:25,800 --> 00:46:29,700
+discorso è ecco il discorso di entrare nella
+
+569
+00:46:29,700 --> 00:46:34,240
+logica della progettazione, Voi avete un'idea? Ah, non
+
+570
+00:46:34,240 --> 00:46:38,060
+c'è niente nel Java, nel Qsharp? O si
+
+571
+00:46:38,060 --> 00:46:43,520
+ragiona o non si ragiona? Questo è il
+
+572
+00:46:43,520 --> 00:46:51,380
+Qsharp? No, questo è il Qsharp. Allora? Chi
+
+573
+00:46:51,380 --> 00:46:54,360
+ha il sono? Io sto progettando una classe
+
+574
+00:46:55,460 --> 00:46:57,380
+una classe, sappiamo che hai, di sopra di
+
+575
+00:46:57,380 --> 00:46:59,580
+metodi ad un certo punto, uno dei metodi
+
+576
+00:46:59,580 --> 00:47:09,360
+è la somma di diffusazione io passerei su
+
+577
+00:47:09,360 --> 00:47:17,660
+tutto il valore intero io passerei 4 ore
+
+578
+00:47:17,660 --> 00:47:20,460
+di tutto qui, quindi il lungere e poi
+
+579
+00:47:20,460 --> 00:47:23,420
+il risultato, poi la vigora, quindi sono rei
+
+580
+00:47:24,580 --> 00:47:30,920
+integer a 4 Possibili saluzioni? L'antigiro e poi
+
+581
+00:47:30,920 --> 00:47:35,040
+chiaramente la risposta è questa e poi chiaramente
+
+582
+00:47:35,040 --> 00:47:35,920
+risposti un po' no, la risposta è questa
+
+583
+00:47:38,560 --> 00:47:42,900
+per poter rispondere a questa domanda infatti mi
+
+584
+00:47:42,900 --> 00:47:44,880
+sono risolto a voi perché non aspettavo che
+
+585
+00:47:44,880 --> 00:47:47,060
+faceste un altro ragione perché non va del
+
+586
+00:47:47,060 --> 00:47:50,500
+parte poi vi dico quale, è quello che
+
+587
+00:47:50,500 --> 00:47:55,620
+avrei fatto io. Ok, le ipotesi sono queste.
+
+588
+00:47:57,234 --> 00:48:12,534
+Questo metodo No, non è possibile, perché? No,
+
+589
+00:48:14,148 --> 00:48:30,040
+no, non è possibile. Questo metodo, insomma, accetta
+
+590
+00:48:30,340 --> 00:48:37,160
+come parametro un'attrazione e restituisce come risultato un'altra
+
+591
+00:48:37,260 --> 00:48:48,720
+trazione. Per capire questa cosa, guardi il mail,
+
+592
+00:48:50,020 --> 00:49:03,860
+io mi dichiaro, frazione A5, frazione B7, abbiamo
+
+593
+00:49:03,860 --> 00:49:04,320
+detto che siamo frazioni, B 7, abbiamo detto
+
+594
+00:49:04,320 --> 00:49:06,440
+che sono apprezioni, non c'è nemmeno 0, 1
+
+595
+00:49:08,100 --> 00:49:12,540
+poi cosa faccio? Somma di A, che rientra
+
+596
+00:49:12,680 --> 00:49:47,400
+alla volta a quello C B è un'aggrazione,
+
+597
+00:49:50,500 --> 00:49:53,460
+quindi ha il suo numeratore del numeratore, qual
+
+598
+00:49:53,460 --> 00:50:04,220
+è? Io prendo il metodo di B, chiaro?
+
+599
+00:50:05,340 --> 00:50:07,740
+Che è un oggetto che ha il numeratore
+
+600
+00:50:07,760 --> 00:50:11,580
+dell'ominatore e gli chiedo di sommarlo al numeratore
+
+601
+00:50:11,580 --> 00:50:16,960
+dell'ominatore di un'altra frazione e ovviamente mi preparo
+
+602
+00:50:17,060 --> 00:50:23,500
+il contenitore per fare il difatto. Chiaro, quindi
+
+603
+00:50:23,640 --> 00:50:28,940
+il progetto, il prototipo. Mi avreste dovuto fare
+
+604
+00:50:28,940 --> 00:50:50,560
+un'altra ipotesi. Siccome è la tomata di locazione
+
+605
+00:50:50,600 --> 00:50:52,480
+io mi invento in mente la faczione 1
+
+606
+00:50:52,480 --> 00:50:52,717
+e la faczione 2. Siccome è la tua
+
+607
+00:50:52,717 --> 00:50:52,943
+matabocazione io mi invento il metodo frazione 1
+
+608
+00:50:52,943 --> 00:51:01,280
+e frazione 2 logicamente funziona no? Dove è
+
+609
+00:51:01,280 --> 00:51:05,280
+la criticità? Quando io vado a crearmi l'oggetto
+
+610
+00:51:05,800 --> 00:51:14,420
+frazione e ho intenzione di usare il metodo
+
+611
+00:51:14,420 --> 00:51:18,580
+Somma, gli devo passare due frazioni, ma il
+
+612
+00:51:18,580 --> 00:51:22,880
+metodo che contiene, no, ma l'oggetto che contiene
+
+613
+00:51:22,960 --> 00:51:27,520
+quella somma, il suo numeratore del nono e
+
+614
+00:51:27,520 --> 00:51:33,800
+che fine fanno oggi? Chiaro? Dice vabbè, no,
+
+615
+00:51:33,800 --> 00:51:35,520
+ma lo deve usare per andare a prendere
+
+616
+00:51:37,060 --> 00:51:44,560
+la somma ci sarebbe la trasplicazione chiaro? Quindi
+
+617
+00:51:44,560 --> 00:51:49,080
+se io progetto in questo modo rischia di
+
+618
+00:51:49,080 --> 00:51:54,240
+avere più viole se ne metti un po'
+
+619
+00:51:54,240 --> 00:52:02,660
+di olio, ti porti ma che amantogno chiaro?
+
+620
+00:52:02,920 --> 00:52:05,500
+Il discorso dei metodi, io vi ho rotto
+
+621
+00:52:05,500 --> 00:52:07,780
+I codioni da un'ora sposti e lo farò
+
+622
+00:52:07,780 --> 00:52:12,520
+anche con loro le funzioni di progetta non
+
+623
+00:52:12,520 --> 00:52:17,570
+si scrivono e quando dico progetta, io ho
+
+624
+00:52:17,570 --> 00:52:19,760
+un progetta, vedi? A me non mi riferica
+
+625
+00:52:19,760 --> 00:52:24,800
+niente del corpo la prima cosa che devo
+
+626
+00:52:24,800 --> 00:52:29,280
+pensare, tipo di parametri, quanti parametri e cosa
+
+627
+00:52:29,280 --> 00:52:32,560
+devo restituire se io penso al corpo avrò
+
+628
+00:52:32,560 --> 00:52:36,300
+problemi e in effetti noi va a discussionare,
+
+629
+00:52:36,400 --> 00:52:48,900
+stiamo facendo su la firma. Chiaro? Cosa chiederò
+
+630
+00:52:48,900 --> 00:52:54,680
+a voi? Dovete ragionare? Fare due fatica. Quindi
+
+631
+00:52:54,880 --> 00:52:56,520
+non mi aspetto che andi così. Non a
+
+632
+00:52:56,520 --> 00:52:59,540
+caso, il discorso non è stato fatto a
+
+633
+00:52:59,540 --> 00:53:03,220
+questo ragionamento. Ed questa è la cosa che
+
+634
+00:53:03,220 --> 00:53:06,240
+mi fa pensare, perché ho fatto le lezioni.
+
+635
+00:53:10,620 --> 00:53:12,440
+Potete usare le cose che le ho imparate
+
+636
+00:53:12,440 --> 00:53:15,740
+l'anno scorso, hanno solo le lezioni, oppure avete
+
+637
+00:53:15,740 --> 00:53:18,080
+le lezioni. Va bene. Oppure deve essere... Va
+
+638
+00:53:18,080 --> 00:53:27,120
+bene. Chiaro? E quindi, a questo punto, sai
+
+639
+00:53:27,120 --> 00:53:31,060
+che c'è di nuovo? Non voglio la parola,
+
+640
+00:53:31,060 --> 00:53:39,180
+io voglio la frazione matematica. La voglio scrivere
+
+641
+00:53:39,180 --> 00:53:43,940
+così. Quindi se ho due oggetti AEB, io
+
+642
+00:53:43,940 --> 00:53:47,640
+voglio fare a A più B, nonno, somma,
+
+643
+00:53:49,180 --> 00:54:12,820
+A, B. Siete? Bene, vi definizio nel laboratorio,
+
+644
+00:54:12,960 --> 00:54:20,380
+non vi importa, deve usare questa sintetica. Non
+
+645
+00:54:20,380 --> 00:54:21,660
+esistono I ciali, quindi ci deve più c'è
+
+646
+00:54:21,660 --> 00:54:27,940
+la definizione. Quindi posso anche costruire classe e
+
+647
+00:54:28,080 --> 00:54:32,340
+dire come deve comportarsi questo singolo. In ciali
+
+648
+00:54:32,960 --> 00:54:39,060
+c'è un paio di ciali. Chi ha rovola?
+
+649
+00:54:39,400 --> 00:54:42,600
+C'è un problema. Io vi ho detto come
+
+650
+00:54:42,600 --> 00:54:56,480
+trasformare la somma in questa espressione. Quindi abbiamo
+
+651
+00:54:56,480 --> 00:55:00,060
+progettato il prototipo, abbiamo usato la parola somma
+
+652
+00:55:00,060 --> 00:55:02,460
+che conoscevamo, poi vi dico che cosa c'è
+
+653
+00:55:02,460 --> 00:55:04,840
+di nuovo, ma io voglio questo effetto, bene,
+
+654
+00:55:05,300 --> 00:55:07,620
+togli la parola SOMMA, escrivi, ho perito a
+
+655
+00:55:07,620 --> 00:55:25,040
+più. E qui il problema è nato. E
+
+656
+00:55:25,040 --> 00:55:29,300
+qui che ci metto? Il prototipo al quello
+
+657
+00:55:29,420 --> 00:55:35,360
+è la retina, il corte. E lì, ovviamente,
+
+658
+00:55:36,940 --> 00:55:40,020
+avrei voluto un tentativo e poi avremmo fatto
+
+659
+00:55:40,020 --> 00:55:46,420
+un'azione positiva. Però tu ti dovevi schiantare. Voi
+
+660
+00:55:46,420 --> 00:55:51,740
+dico dovevate schiantare. Sì, a schiantare su cose
+
+661
+00:55:51,740 --> 00:55:54,340
+che effettivamente dici ok, non ho strumenti a
+
+662
+00:55:54,340 --> 00:55:59,040
+sufficienza per poter rispondere. Non ti scanti perché
+
+663
+00:55:59,040 --> 00:56:04,380
+ha una soluzione, poi gli ondai copiati. Bene
+
+664
+00:56:04,380 --> 00:56:08,440
+per tutti, Ecco perché quelli vengono male, no?
+
+665
+00:56:09,680 --> 00:56:13,320
+Perché? Io avevo previsto che ti dovessi riscaldare,
+
+666
+00:56:13,680 --> 00:56:15,620
+che non ci sia riuscito. Per me non
+
+667
+00:56:15,620 --> 00:56:24,260
+sei un genio. Siamo tutti normali. Beh, tra
+
+668
+00:56:24,260 --> 00:56:27,080
+le tre pure confusione. Se ho uno nome
+
+669
+00:56:27,080 --> 00:56:30,640
+genio, allora copio le tue soluzioni. Però sei
+
+670
+00:56:30,640 --> 00:56:33,660
+idiota. Non ce l'ho con te. Ti sto
+
+671
+00:56:33,660 --> 00:56:36,020
+dicendo queste dinamiche che per me sono insopportabili!
+
+672
+00:56:37,740 --> 00:56:42,100
+Insopportabili! Allora avete sempre le possibilità di un
+
+673
+00:56:42,100 --> 00:56:45,300
+di qualche voi di terza? Quando mi vedete
+
+674
+00:56:45,300 --> 00:56:49,900
+così sono molto incazzato quando mi vedete così,
+
+675
+00:56:50,160 --> 00:56:53,260
+qualcosa non funziona? Nel senso, mi avete tradito?
+
+676
+00:56:54,880 --> 00:57:00,500
+Avete voluto fare I furbi? Qualcuno deve pagare
+
+677
+00:57:00,600 --> 00:57:09,120
+con me? Questo argomento te l'ho introdotto non
+
+678
+00:57:09,120 --> 00:57:13,380
+lo faccio più, trovate qualcuno che lo conosca,
+
+679
+00:57:15,400 --> 00:57:22,380
+pagatero e che sia bravo, molto bravo. Gli
+
+680
+00:57:22,380 --> 00:57:29,400
+approfondimenti pagate per cui? Lì diventa un animale.
+
+681
+00:57:30,280 --> 00:57:32,440
+Dice che cosa vuol dire? La definizione del
+
+682
+00:57:32,440 --> 00:57:37,560
+cazzo? Beh, ci l'ha detto. O pure dove
+
+683
+00:57:37,560 --> 00:57:50,660
+diventare un riflessionista? Chiara? Ripeto. Ando sposti, per
+
+684
+00:57:50,660 --> 00:57:51,900
+capittare, progettare I prototipi, progettare I prototipi, da
+
+685
+00:57:51,900 --> 00:57:57,840
+dove si comincia a definizare, primi giorni vi
+
+686
+00:57:57,840 --> 00:58:01,720
+dici una cosa, Perché per loro il giorno
+
+687
+00:58:01,780 --> 00:58:05,080
+non usano parametri per le funzioni? E che
+
+688
+00:58:05,080 --> 00:58:09,120
+iniziano a pensare di guadagno? Eppure la gestizione
+
+689
+00:58:09,140 --> 00:58:11,380
+del conosco, passati dal valore e passati dal
+
+690
+00:58:11,380 --> 00:58:16,780
+riempimento. Allora, dove comincia la progettazione della funzione?
+
+691
+00:58:17,200 --> 00:58:19,300
+Ad una cosa di fan? Il nome della
+
+692
+00:58:19,300 --> 00:58:22,340
+funzione, parantesi ronda, aperta, chiusa, parantesi grappa, scrivata,
+
+693
+00:58:22,340 --> 00:58:27,660
+entri il codice cazzo! E la richiesta musicale,
+
+694
+00:58:27,760 --> 00:58:32,960
+come si fa? Per non parlare ovviamente devi
+
+695
+00:58:32,960 --> 00:58:37,660
+restituirti qualcosa. Per non parlare ti devi restituire
+
+696
+00:58:37,660 --> 00:58:41,100
+un riferimento in valore. Bene, questa è la
+
+697
+00:58:41,100 --> 00:58:42,660
+cosa che dovremmo fare, questo è il vostro
+
+698
+00:58:42,660 --> 00:58:50,220
+futuro. Non è facile. Sì, ma se non
+
+699
+00:58:50,220 --> 00:58:56,760
+ci lavorate sopra, non vuote attendere. Tornate l'anno
+
+700
+00:58:56,760 --> 00:59:00,320
+scorso e fatevi un chiavello l'anno scorso. Perché
+
+701
+00:59:00,320 --> 00:59:06,060
+questo si tratta. Se volete fare le cose
+
+702
+00:59:06,060 --> 00:59:09,220
+con me se no va bene vado a
+
+703
+00:59:09,220 --> 00:59:12,120
+sentare che volevo che ce lo dire va
+
+704
+00:59:12,120 --> 00:59:18,820
+bene? Quindi questo è, chiudiamo qui la cosa
+
+705
+00:59:19,120 --> 00:59:21,180
+questa ora, ma che cazzo hanno fatto? Hanno
+
+706
+00:59:21,180 --> 00:59:23,740
+spento tutto, siamo giudici? Ah, con cosa spengo
+
+707
+00:59:23,740 --> 00:59:26,600
+le luci, mi dà sola e niente, questa
+
+708
+00:59:26,600 --> 00:59:29,240
+è quest'ora diciamo, siamo partiti in un modo
+
+709
+00:59:29,240 --> 00:59:31,660
+credevo di andare in un altro modo invece
+
+710
+00:59:34,080 --> 00:59:38,560
+sono andato avanti con questa Noi abbiamo la
+
+711
+00:59:38,560 --> 00:59:42,240
+terna quando ce l'abbiamo? Domani? Sì, domani. Lui
+
+712
+00:59:42,240 --> 00:59:45,720
+ho tre. Tre ore. Domani tre ore, ok.
+
+713
+00:59:46,580 --> 00:59:51,040
+A questo punto vorrei partire dalla costruzione della
+
+714
+00:59:51,040 --> 00:59:53,900
+classifica frazione. Ci sono anche altri numeri in
+
+715
+00:59:53,900 --> 00:59:57,200
+matematica che sono molto utilizzati, tra l'altro, anche
+
+716
+00:59:57,200 --> 01:00:03,100
+molto in elettronica, I numeri complessi. E anche
+
+717
+01:00:03,100 --> 01:00:05,380
+quelli sono compositi da due parti, in teore,
+
+718
+01:00:05,380 --> 01:00:12,000
+la parte reale, la parte immaginale. Anche qui
+
+719
+01:00:12,000 --> 01:00:13,520
+ci sono delle operazioni da fare. Chi usa
+
+720
+01:00:13,520 --> 01:00:20,360
+quei numeri, gli elettronici li usano, gli elettroteknici
+
+721
+01:00:20,660 --> 01:00:24,260
+li usano, chi lavora con la corrente alternata
+
+722
+01:00:24,340 --> 01:00:31,800
+li usa si possono progettare queste facce e
+
+723
+01:00:31,800 --> 01:00:35,160
+le classi non è ricomplessa sì però devo
+
+724
+01:00:35,160 --> 01:00:38,560
+conoscere la reprodella matematica. E' un parlamento di
+
+725
+01:00:38,560 --> 01:00:42,120
+progettazione. Se no, ti dico, questa è la
+
+726
+01:00:42,120 --> 01:00:44,800
+classe complessa, ti dico I costruttori, elenco dei
+
+727
+01:00:44,800 --> 01:00:49,180
+costruttori, elenco delle eccezioni, ok, usali. E ve
+
+728
+01:00:49,180 --> 01:00:55,300
+l'avevo chiesto, andate sulla libreria standard. In questo
+
+729
+01:00:55,300 --> 01:00:58,280
+modo ho rivoluto, no? Parli di vedere il
+
+730
+01:00:58,280 --> 01:01:02,620
+loro lavoro. Dono le classi, le uso e
+
+731
+01:01:02,620 --> 01:01:10,600
+sviluppo le applicazioni decidete cosa dovete fare con
+
+732
+01:01:10,600 --> 01:01:13,280
+le app io ho un grande minimo, come?
+
+733
+01:01:13,440 --> 01:01:15,540
+Sono un mega manager, penso sempre a nessuno
+
+734
+01:01:15,540 --> 01:01:22,780
+di stessi tipo, vorrei fare le applicazioni client
+
+735
+01:01:22,780 --> 01:01:25,560
+server con voi, ma se devo fare la
+
+736
+01:01:25,560 --> 01:01:29,320
+prima del mio discorso e dell'altranno, che me
+
+737
+01:01:29,320 --> 01:01:31,780
+ne faccio da solo, a perché cazzo ma
+
+738
+01:01:31,780 --> 01:01:37,460
+perché cazzo credete che lo spiego? Dade a
+
+739
+01:01:37,460 --> 01:01:43,440
+te qualcuno mi date risultati e questo è
+
+740
+01:01:43,440 --> 01:01:47,200
+quello che io mi casso di vostri risultati,
+
+741
+01:01:47,800 --> 01:01:55,180
+seguite e lo possiamo fare ultimamente Vabbò dai,
+
+742
+01:01:55,180 --> 01:01:57,360
+e niente, mi spiace per questa cosa perché
+
+743
+01:01:57,360 --> 01:02:01,000
+avremmo potuto organizzare qualcosa. Ma beh, è la
+
+744
+01:02:01,000 --> 01:02:05,980
+prima lezione, la prima cosa. Invece, ci raccontate
+
+745
+01:02:06,140 --> 01:02:08,420
+la vostra un attimo, due minuti di esperienza,
+
+746
+01:02:08,540 --> 01:02:12,000
+come siete diventati per gli amatori? Da dove
+
+747
+01:02:12,000 --> 01:02:16,580
+siete per tutti? A Giro. Avevo fatto un
+
+748
+01:02:16,580 --> 01:02:21,080
+bootcamp gratuito di tre mesi, dove hanno segnato
+
+749
+01:02:21,920 --> 01:02:25,520
+Java come il gioco principale poi ci hanno
+
+750
+01:02:25,520 --> 01:02:30,340
+fatto fare tanti progetti con anche un mostrato
+
+751
+01:02:30,420 --> 01:02:36,180
+HTML, CSS, chiaro scritto poi ci hanno dato
+
+752
+01:02:36,180 --> 01:02:40,460
+un'infarinatura iniziale, hanno ispirato anche di l'algoritmo, se
+
+753
+01:02:40,460 --> 01:02:46,340
+dovete farlo, che stiamo facendo adesso. Cioè, non
+
+754
+01:02:46,340 --> 01:02:49,560
+in dettaglio, c'è anche l'architettura. No, no, no,
+
+755
+01:02:49,560 --> 01:02:52,780
+ma è normale, perché lì... ...Quantipende informazioni è
+
+756
+01:02:52,780 --> 01:02:55,200
+diversa La base è pratica solo per fare
+
+757
+01:02:55,200 --> 01:02:57,540
+come creare progetti e clip, che si è
+
+758
+01:02:57,540 --> 01:03:00,040
+qua Poi hai trovato il lavoro... Lì è
+
+759
+01:03:00,040 --> 01:03:03,280
+il leader? Sì, sì, sì E attenzione, per
+
+760
+01:03:03,280 --> 01:03:05,444
+quanto riguarda invece l'hidre, per quanto riguarda invece
+
+761
+01:03:05,444 --> 01:03:09,980
+il java, cosa vorrei fare con voi? Tipo
+
+762
+01:03:09,980 --> 01:03:13,280
+per esempio, in programmazione all'aggettivo seguo la linea
+
+763
+01:03:13,280 --> 01:03:17,520
+di C++, mi sarebbe piaciuto seguire la linea
+
+764
+01:03:17,520 --> 01:03:21,020
+di Cshark o di Java. Java si può
+
+765
+01:03:21,020 --> 01:03:23,300
+fare, le scuole si sono ogni ambiente, C
+
+766
+01:03:23,300 --> 01:03:25,480
+Shark no, ma c'è ogni ambiente, è la
+
+767
+01:03:25,480 --> 01:03:29,660
+cosa che ci inseguo, pure il mercato è
+
+768
+01:03:30,640 --> 01:03:35,300
+Java, C Sharp e Python, ci piace? Precittosto?
+
+769
+01:03:37,260 --> 01:03:41,500
+Io già riesco a dire a mezzo Poi
+
+770
+01:03:41,500 --> 01:03:45,960
+dopo abbiamo cercato tutti, cioè come abbiamo cercato
+
+771
+01:03:45,960 --> 01:03:48,500
+lavoro ho mandato pure I culo, ho trovato
+
+772
+01:03:48,500 --> 01:03:52,100
+un lavoro, una piccola impresa a Monza e
+
+773
+01:03:52,100 --> 01:03:56,360
+lì ho imparato tanto perché la settimana ho
+
+774
+01:03:56,360 --> 01:04:02,060
+letto mille pagine su C Sharp perché tutto
+
+775
+01:04:02,060 --> 01:04:05,180
+giorno lo legge e imparare perché era antirocinio
+
+776
+01:04:05,480 --> 01:04:07,560
+e era un troppo lavoro no no, dirlo
+
+777
+01:04:07,560 --> 01:04:11,280
+a loro ogni giorno facciamo diversi metodi di
+
+778
+01:04:11,280 --> 01:04:17,840
+partner e poi Progetti su progetti, consumazione di
+
+779
+01:04:17,840 --> 01:04:24,220
+API Avete fatto correzione di codice? Correzione di
+
+780
+01:04:24,220 --> 01:04:26,480
+codice, sì, però I progetti che mi davano
+
+781
+01:04:27,080 --> 01:04:30,440
+ero principalmente... Cioè io facevo progetti da 0,
+
+782
+01:04:30,680 --> 01:04:33,460
+mi dava solo le specifiche e io ne
+
+783
+01:04:33,460 --> 01:04:36,180
+la trovavo io come fare e io ho
+
+784
+01:04:36,180 --> 01:04:39,500
+imparato molto, sono stato un anno poi perché
+
+785
+01:04:39,500 --> 01:04:41,600
+non pagavano le stipende ho trovato questa nuova
+
+786
+01:04:41,600 --> 01:04:44,160
+azienda questa è un po' più grande, un
+
+787
+01:04:44,160 --> 01:04:48,840
+po' più internazionale Adesso sono più sulle task.
+
+788
+01:04:49,020 --> 01:04:55,100
+Come si chiama? CG, Consulenza, cliente finale sin
+
+789
+01:04:55,100 --> 01:05:00,100
+conduttore. Ho capito. Ma un'altra domanda, ma come
+
+790
+01:05:00,100 --> 01:05:08,660
+ci avete scoperto? Serali. Internet? Ho cercato NITI
+
+791
+01:05:09,080 --> 01:05:12,000
+che facesse le serali e poi ho visto
+
+792
+01:05:12,000 --> 01:05:16,260
+il sito anche c'era un sito che spiegava
+
+793
+01:05:17,020 --> 01:05:21,580
+cosa si andava a fare e poi era
+
+794
+01:05:21,580 --> 01:05:27,900
+perché era vicino anche? È poi importante per
+
+795
+01:05:27,900 --> 01:05:31,520
+contestarizzare tu avevi avuto già un anno hai
+
+796
+01:05:31,520 --> 01:05:36,240
+avuto sommato quant'è l'esperienza? Sommato due anni e
+
+797
+01:05:36,240 --> 01:05:38,900
+Adesso qua sono 9 mesi, prima un anno
+
+798
+01:05:40,420 --> 01:05:42,920
+Quasi 3 anni Ci sono più medisimoluzioni, sono
+
+799
+01:05:42,920 --> 01:05:46,340
+già anni Certe cose le ho prescontate Perfettamente
+
+800
+01:05:46,340 --> 01:05:48,760
+se dovrei pensare l'inizio ho fatto dei bootcamp
+
+801
+01:05:49,080 --> 01:05:51,220
+da sei mesi per contribuerti a Java uno
+
+802
+01:05:51,220 --> 01:05:53,940
+trasferta a Roma, farete l'anno stesso con il
+
+803
+01:05:53,940 --> 01:05:57,740
+gruppo, farei questo bootcamp che si offriva con
+
+804
+01:05:57,740 --> 01:06:00,200
+un corso di appunti, ma ti vincolava poi
+
+805
+01:06:00,200 --> 01:06:03,300
+a lavorare con lui per un anno quindi
+
+806
+01:06:04,660 --> 01:06:06,560
+per le proprie problemi ne ne ho fatto,
+
+807
+01:06:06,660 --> 01:06:08,420
+però ho fatto sei mesi di Java non
+
+808
+01:06:08,420 --> 01:06:11,300
+soddisfatto del corso di Java, ho voluto fare
+
+809
+01:06:11,460 --> 01:06:13,480
+qualcosa altro, che mi era piaciuto anche, come
+
+810
+01:06:13,480 --> 01:06:19,640
+il front-end. Offrivano 10 mesi con TypeScript. E'
+
+811
+01:06:20,140 --> 01:06:22,660
+lui che sta lavorando con TypeScript? Si, è
+
+812
+01:06:22,660 --> 01:06:26,400
+lì stesso no, nel senso, vedi, questa cosa
+
+813
+01:06:26,400 --> 01:06:28,100
+è importante perché poi in effetti sono dei
+
+814
+01:06:28,100 --> 01:06:31,240
+punti di incontro anche che ci possono essere
+
+815
+01:06:31,240 --> 01:06:34,120
+delle cose di voi anche perché poi loro,
+
+816
+01:06:34,500 --> 01:06:37,508
+vabbè, ormai riconosco ci sono delle cose di
+
+817
+01:06:37,508 --> 01:06:41,340
+conto di incontro e già il fatto di
+
+818
+01:06:41,640 --> 01:06:45,300
+trovare un progetto mi piacerebbe che si cercasse
+
+819
+01:06:45,380 --> 01:06:47,400
+un progetto comune un progetto comune? No, sta
+
+820
+01:06:47,400 --> 01:06:50,140
+su di tutto, sì, sì, e dopo di
+
+821
+01:06:50,140 --> 01:06:53,400
+che sono stato introdotto ad un'azienda che aveva
+
+822
+01:06:53,400 --> 01:06:59,060
+prevalentemente un'azienda in mancare, sono stato introdotto con
+
+823
+01:06:59,060 --> 01:07:02,160
+Capgemini, dopo di che una volta in Capgemini
+
+824
+01:07:02,160 --> 01:07:04,800
+ho fatto 6 mesi di stage, non è
+
+825
+01:07:04,800 --> 01:07:08,800
+triturato di poco, però ho fatto tantissime esperienze
+
+826
+01:07:08,860 --> 01:07:12,480
+con gente che c'aveva una po' di spensa
+
+827
+01:07:12,540 --> 01:07:15,340
+negli anni a respaldare. La cosa brutta è
+
+828
+01:07:15,340 --> 01:07:17,780
+che purtroppo, e io lo dico sempre ai
+
+829
+01:07:17,780 --> 01:07:22,060
+miei colleghi junior ormai laureati, però non so
+
+830
+01:07:22,060 --> 01:07:25,320
+le cose, ma perché so come non sapevo.
+
+831
+01:07:25,920 --> 01:07:29,400
+Ovvero che bisogna sempre apprezzare le persone bravi.
+
+832
+01:07:30,260 --> 01:07:32,300
+Purtroppo si dà per scontato che qualcuno ti
+
+833
+01:07:32,300 --> 01:07:34,840
+debba dire le cose come lei prima ci
+
+834
+01:07:34,840 --> 01:07:38,980
+narva sui trovati il proprio bravo. Io sui
+
+835
+01:07:38,980 --> 01:07:41,520
+trovare questo qualcuno bravo ho fatto sempre fatica
+
+836
+01:07:42,060 --> 01:07:46,360
+perché nei bootcamp ero sempre insolvisfatto perché chi
+
+837
+01:07:46,360 --> 01:07:49,740
+ti insegna lì è orientato a farti avere
+
+838
+01:07:49,740 --> 01:07:53,720
+un lavoro quindi in una macchina tu devi
+
+839
+01:07:53,720 --> 01:07:56,880
+imparare cose, un ciclo di produzione che alla
+
+840
+01:07:56,880 --> 01:07:59,580
+fine il codice è riuscuto tanto però non
+
+841
+01:07:59,580 --> 01:08:01,640
+ti spiega mai I funzionamente, non ti spiega
+
+842
+01:08:01,640 --> 01:08:04,060
+mai nulla dietro. Non lo fanno per cattività,
+
+843
+01:08:04,540 --> 01:08:08,080
+perché ripeto io ho seguito in passato anche
+
+844
+01:08:08,080 --> 01:08:13,500
+dei corsi aziendali. I tempi durano 8 ore,
+
+845
+01:08:15,520 --> 01:08:18,060
+si parte la mattina e si finisce il
+
+846
+01:08:18,060 --> 01:08:23,979
+pomeriggio. Costano uno sfracenro di soldi. Hanno un
+
+847
+01:08:23,979 --> 01:08:26,840
+costo per l'azienda spaventoso, anche perché c'è una
+
+848
+01:08:26,840 --> 01:08:31,640
+doppia spesa. 1. Il costo del formatore. 2.
+
+849
+01:08:31,640 --> 01:08:33,640
+Il mancato di guadagno perché tu non stai
+
+850
+01:08:33,640 --> 01:08:37,520
+producendo e stai imparando e quindi praticamente vale
+
+851
+01:08:37,520 --> 01:08:40,880
+doppio, sacco di soldi. Ho visto a questi
+
+852
+01:08:40,880 --> 01:08:43,460
+formatori, siccome faccio un insegnante, una delle cose
+
+853
+01:08:43,460 --> 01:08:45,080
+che mi sono chiesto, ho detto ok, se
+
+854
+01:08:45,080 --> 01:08:47,340
+mi facessi otto ore di questo mi avrebbero
+
+855
+01:08:47,359 --> 01:08:52,080
+già sputato in faccia del tipo io devo
+
+856
+01:08:52,080 --> 01:08:54,399
+dire talk to go la logica è questa
+
+857
+01:08:54,399 --> 01:08:56,479
+devo dire queste cose in otto ore non
+
+858
+01:08:56,479 --> 01:08:58,000
+me ne frega un cazzo se ne imparano
+
+859
+01:08:58,000 --> 01:09:01,020
+non ne imparano ma le devo dire vanno
+
+860
+01:09:01,020 --> 01:09:05,120
+a cottina quantità non ti guardano in faccia
+
+861
+01:09:06,180 --> 01:09:08,899
+nel senso che io devo riprodurre delle slide,
+
+862
+01:09:10,899 --> 01:09:13,000
+dopo di che te le lascio, le lascio
+
+863
+01:09:13,000 --> 01:09:15,240
+a te, magari sul centro decente, poi te
+
+864
+01:09:15,240 --> 01:09:17,359
+le devi studiare tu, io ho fatto il
+
+865
+01:09:17,359 --> 01:09:22,020
+mio lavoro E il dottore di lavoro ti
+
+866
+01:09:22,020 --> 01:09:24,600
+dice il giorno dopo, io ho speso I
+
+867
+01:09:24,600 --> 01:09:31,080
+soldi, domani usi quella cosa. Io le ho
+
+868
+01:09:31,080 --> 01:09:38,080
+guardate e ho detto, poveri voi, perché voi
+
+869
+01:09:38,080 --> 01:09:43,840
+siete formatori? Allora io sono genio, perché per
+
+870
+01:09:43,840 --> 01:09:49,220
+come parlate voi, conoscendo le dinamiche dell'apprendimento, se
+
+871
+01:09:49,220 --> 01:09:51,580
+non ti sono collassati già tanto, perché tu
+
+872
+01:09:51,580 --> 01:09:56,160
+collassi, ottore di quella roba ria. Supponiamo che
+
+873
+01:09:56,160 --> 01:09:59,340
+tu faccia laboratorio, sono le stesse esercitazioni che
+
+874
+01:09:59,340 --> 01:10:02,200
+proponerò a voi, infatti avete due possibilità, o
+
+875
+01:10:03,060 --> 01:10:07,800
+approcciate come voglio imparare senza sapere il motivo
+
+876
+01:10:07,800 --> 01:10:13,880
+per cui funziona, oppure faccio un approcciamento. Quindi
+
+877
+01:10:14,680 --> 01:10:18,000
+vi faccio fare, vi darò la soddisfazione di
+
+878
+01:10:18,000 --> 01:10:22,520
+imparare ma crederete di imparare. Avete riprodotto delle
+
+879
+01:10:22,520 --> 01:10:24,560
+cose che avete deciso di fare di riprodurre?
+
+880
+01:10:25,260 --> 01:10:32,400
+Volete progettare? Vabbè, avete visto una serie? Sì,
+
+881
+01:10:33,320 --> 01:10:36,440
+mettiti da parte la tastiera, prendi un pezzo
+
+882
+01:10:36,440 --> 01:10:38,440
+di carta, la ferma e cominci a scrivere,
+
+883
+01:10:38,800 --> 01:10:40,800
+perché I progetti li fai sulla carta, non
+
+884
+01:10:40,800 --> 01:10:45,740
+a casa te ho chiesto, voi usate gli
+
+885
+01:10:45,740 --> 01:10:49,140
+oggetti. Il problema è che voi dovessi imparare
+
+886
+01:10:49,140 --> 01:10:53,020
+a progettare gli oggetti. Ed è un altro
+
+887
+01:10:53,020 --> 01:10:57,200
+modo di pensare. Non dico miglior o peggiore,
+
+888
+01:10:57,200 --> 01:11:03,680
+è diverso. Capisci? Il motivo per cui, piano
+
+889
+01:11:03,680 --> 01:11:07,240
+B, non sapete progettare gli oggetti, ok, usateli.
+
+890
+01:11:07,900 --> 01:11:10,840
+Prendete la libreria standard, fatevi I prossimi programmi
+
+891
+01:11:10,840 --> 01:11:14,880
+con la libreria standard è tutto già pronto
+
+892
+01:11:17,760 --> 01:11:22,820
+decidetelo voi ecco perché ho detto, vuole che
+
+893
+01:11:22,820 --> 01:11:25,280
+imparare, vi insegnerò a lavorare anche il soltanto
+
+894
+01:11:25,280 --> 01:11:28,900
+lavoro libero di Astana. Chiudiamola qui, però dividi
+
+895
+01:11:28,900 --> 01:11:33,460
+la cassa. Chi vuole progettare viene da questa
+
+896
+01:11:33,460 --> 01:11:38,980
+parte, chi vuole usare resta dall'altra parte. Non
+
+897
+01:11:38,980 --> 01:11:44,180
+è cattiveria. Se risolvi il tuo problema, scopro
+
+898
+01:11:44,240 --> 01:11:46,980
+gli altri. Se risolvi il loro problema, scopro
+
+899
+01:11:46,980 --> 01:11:49,880
+te. Io sono in mezzo devo prendere la
+
+900
+01:11:49,880 --> 01:12:00,680
+decisione vabbo scusate vabbo dai scusate oggi la
+
+901
+01:12:00,840 --> 01:12:05,260
+prima è la prima e poi il partito
+
+902
+01:12:05,420 --> 01:12:10,580
+vediamo se non è una cosa ti provo
+
+903
+01:12:11,840 --> 01:12:12,641
+non è una cosa C'è un'altra cosa che
+
+904
+01:12:12,641 --> 01:12:13,237
+è in partito... Vediamo se... La domanda è
+
+905
+01:12:13,237 --> 01:12:14,960
+la... Progetto... Provo... Non mi dà... Ti conosco...
+
+906
+01:12:16,940 --> 01:12:20,740
+Prova di raccoltare Cristo Santo... Sono contento che
+
+907
+01:12:20,740 --> 01:12:24,400
+non mi faccia... Ma domani lo scrivo più...
+
+908
+01:12:24,520 --> 01:12:31,180
+Non mi faccia... No, non mi faccia... Ma
+
+909
+01:12:31,180 --> 01:12:34,800
+questo ho dovuto mettere qua Ho dovuto mettere
+
+910
+01:12:34,800 --> 01:12:44,580
+la travolta Ah Ah Ah Sì, ciao Ma
+
+911
+01:12:44,580 --> 01:12:46,240
+che c'è una che ha messo la travolta?
+
+912
+01:12:46,640 --> 01:12:48,660
+Mmmh Che c'è una che ha messo la
+
+913
+01:12:48,660 --> 01:12:55,600
+travolta? Quello di... Sì, frazione doppia. Per I
+
+914
+01:12:55,600 --> 01:12:59,340
+quelli lenti. Per il muvo. No, ma perché
+
+915
+01:12:59,340 --> 01:13:01,240
+l'altra volta non lo abbiamo messo? Ci sono
+
+916
+01:13:01,240 --> 01:13:04,840
+le facce? Gli ala o I capi ammorti?
+
+917
+01:13:05,040 --> 01:13:09,280
+Nessuno e due. Sip la spazio. Sip la
+
+918
+01:13:09,280 --> 01:13:12,863
+spazio. Non è la pena arrivare al cip.
+
+919
+01:13:12,863 --> 01:13:14,523
+Cosa? C plus plus Ah ok C plus
+
+920
+01:13:14,523 --> 01:13:16,184
+plus Ma non è la pena di arrivare
+
+921
+01:13:16,184 --> 01:13:17,844
+al C Ah beh, se imparerci poi C
+
+922
+01:13:17,844 --> 01:13:19,820
+plus plus non tanto, non abbiamo fatto tanto
+
+923
+01:13:21,040 --> 01:13:23,360
+abbiamo fatto poco ci, la nostra la prossima
+
+924
+01:13:23,440 --> 01:13:26,520
+volta ne portiamo, ma con lui? No, con
+
+925
+01:13:26,520 --> 01:13:30,900
+il Principe il Principe, non Java lui no,
+
+926
+01:13:30,900 --> 01:13:33,580
+di al TPML abbiamo fatto con lui Java
+
+927
+01:13:33,580 --> 01:13:39,380
+e... Java per TML Java C Ah Java
+
+928
+01:13:39,380 --> 01:13:44,740
+Scriv E la TPML E C Poco C
+
+929
+01:13:45,540 --> 01:13:49,440
+Pochissimo C A principio è logico Non so
+
+930
+01:13:49,440 --> 01:13:53,200
+se lo parla... Lo so che lo dia
+
+931
+01:13:53,200 --> 01:13:56,600
+quando mi vedeva Schiper e Enciplas ho detto
+
+932
+01:13:56,600 --> 01:13:58,400
+no no no non voglio vedere sta roba
+
+933
+01:13:59,060 --> 01:14:04,260
+si lo so il principe? Si si non
+
+934
+01:14:04,260 --> 01:14:07,780
+ho nemmeno avuto abbastanza di chi Enciplas lui
+
+935
+01:14:07,780 --> 01:14:11,360
+java, lui vive per java già lo scrive
+
+936
+01:14:11,360 --> 01:14:11,689
+abbiamo fatto quanti? Si si, non ha avuto
+
+937
+01:14:11,689 --> 01:14:12,019
+abbastanza di cipro a spasa, lui vive per
+
+938
+01:14:12,019 --> 01:14:13,880
+Java Java iscriviti, Java iscriviti, Java e Academy,
+
+939
+01:14:14,240 --> 01:14:22,580
+pochissimo c'è Si vede? Si vede che ha
+
+940
+01:14:22,580 --> 01:14:26,400
+tutto chissima Vabbè ma tu l'anno scorso eri
+
+941
+01:14:26,400 --> 01:14:30,220
+seconda No, è che non ti ho spiegato
+
+942
+01:14:30,320 --> 01:14:34,220
+cosa è stato Sai che cosa è stato?
+
+943
+01:14:34,280 --> 01:14:36,060
+Che io sono una mamma con tante cose
+
+944
+01:14:36,060 --> 01:14:39,060
+in testa che voglio capire perché sono una
+
+945
+01:14:39,060 --> 01:14:42,200
+persona che non ha niente Tu l'anno scorso
+
+946
+01:14:42,200 --> 01:14:44,940
+scusa, è il secondo però Non è male,
+
+947
+01:14:44,940 --> 01:14:48,740
+non è male Poi c'è il tegliano C'è
+
+948
+01:14:48,970 --> 01:14:52,600
+il tegliano Non so che sia lui Già
+
+949
+01:14:52,600 --> 01:14:54,760
+calente fanno il 5° per chi si fa
+
+950
+01:14:54,760 --> 01:15:05,670
+comunque anche se poco Ehi, non vado per
+
+951
+01:15:05,670 --> 01:15:07,190
+me il cimentale. Sì, vabbè, quello si mi
+
+952
+01:15:07,190 --> 01:15:08,710
+fa. Ma se poi le faccio vedere una
+
+953
+01:15:08,710 --> 01:15:10,230
+cosa, come se stavano... ...Se le faccio vedere,
+
+954
+01:15:10,230 --> 01:15:11,640
+poi la faccio vedere, poi in c. Potete
+
+955
+01:15:11,880 --> 01:15:14,160
+portare... Assaglio. Tu stai lavorando in un altro
+
+956
+01:15:14,160 --> 01:15:19,020
+livello, sai che si indigna? Ok, sai... Adesso
+
+957
+01:15:19,020 --> 01:15:45,560
+sta vedendo come girano le cose sotto Ho
+
+958
+01:15:54,340 --> 01:15:58,440
+provato ad usare il solo API, ho provato
+
+959
+01:15:58,440 --> 01:16:01,431
+ad usare il solo API, però mi ha
+
+960
+01:16:01,431 --> 01:16:02,440
+richiesto, Adesso? Sì, però una richiesta, solo che
+
+961
+01:16:02,440 --> 01:16:10,840
+non so perché mi dà un output senza
+
+962
+01:16:10,840 --> 01:16:15,620
+niente. Un output bocca, ci sarà. Sì? Però
+
+963
+01:16:15,620 --> 01:16:17,520
+magari non so, magari... No, non lo so,
+
+964
+01:16:17,520 --> 01:16:20,360
+è proprio assoluto. Però, però con un tipo
+
+965
+01:16:20,360 --> 01:16:24,000
+di metodo, un audio... Perché ho usato JavaScript,
+
+966
+01:16:24,180 --> 01:16:28,100
+ho fatto un piccolo script TypeScript dove chiamo
+
+967
+01:16:28,100 --> 01:16:29,680
+qua I suoi API di loro messo anche
+
+968
+01:16:29,680 --> 01:16:33,540
+il mio chiamamento e non so quando ho
+
+969
+01:16:33,540 --> 01:16:36,900
+fatto la prospettione non ho spiegato comunque c'è
+
+970
+01:16:36,900 --> 01:16:40,960
+nel mio account, appare che è altra scatola
+
+971
+01:16:42,900 --> 01:16:50,400
+allora, devo guardare ma che cosa? Non lo
+
+972
+01:16:53,580 --> 01:17:17,880
+so però, io l'ho fatto non ha passato
+
+973
+01:17:18,080 --> 01:17:23,400
+bene tutto l'aula no no vedi? Questo è
+
+974
+01:17:23,400 --> 01:17:27,760
+un po' rialto perché allora voglio sapere se
+
+975
+01:17:28,280 --> 01:17:31,280
+si io l'ho visto poco non l'ho visto
+
+976
+01:17:31,760 --> 01:17:34,980
+allora io l'ho visto molto poco quindi dice
+
+977
+01:17:34,980 --> 01:17:38,500
+aula perché se voglio sapere se quel è
+
+978
+01:17:38,500 --> 01:17:41,320
+più preciso l'inster o quello di nova perché
+
+979
+01:17:41,320 --> 01:17:46,260
+si chiama o nova il modello ho letto
+
+980
+01:17:46,900 --> 01:17:50,280
+quello ho letto quello ma non è il
+
+981
+01:17:50,280 --> 01:17:53,140
+viso come hai detto tu è il whisper
+
+982
+01:17:53,140 --> 01:18:00,260
+si? Whisper x è whisper sempre però mi
+
+983
+01:18:00,260 --> 01:18:04,200
+sembra che loro l'hanno modificato si, perchè io
+
+984
+01:18:04,200 --> 01:18:08,780
+non ho letto le cose le porte e
+
+985
+01:18:09,000 --> 01:18:09,624
+l'ho letto quasi uguale ma non so che
+
+986
+01:18:09,624 --> 01:18:10,154
+lo rolla in un modo più facile sì
+
+987
+01:18:10,154 --> 01:18:10,684
+perché io non parlo con le cose o
+
+988
+01:18:10,684 --> 01:18:11,215
+l'intera vita che mi porto a spingere però
+
+989
+01:18:11,215 --> 01:18:13,400
+questo non è quasi uguale ma è vero
+
+990
+01:18:13,480 --> 01:18:16,760
+perché il mio problema era per il mio
+
+991
+01:18:16,760 --> 01:18:19,740
+pensiero, per le mie decisioni è che sto
+
+992
+01:18:19,740 --> 01:18:22,480
+usando il mio computer non è che non
+
+993
+01:18:22,480 --> 01:18:32,320
+riesci a fare tutto Sto usando il modello
+
+994
+01:18:32,320 --> 01:18:37,880
+Medium di Whisper, perché sta già mangiando 8GB
+
+995
+01:18:38,140 --> 01:18:41,060
+di RAM, più di quello non riesco, ho
+
+996
+01:18:41,060 --> 01:18:44,160
+solo 16GB di RAM. Ho provato però non
+
+997
+01:18:44,160 --> 01:18:47,020
+riesce, si spegne e si scrascia il programma,
+
+998
+01:18:47,800 --> 01:18:51,300
+perché chiede troppo tempo. E poi con il
+
+999
+01:18:51,300 --> 01:18:57,040
+mio accessorio, tipo tre minuti di audio, un
+
+1000
+01:18:57,040 --> 01:19:03,280
+minuto, I cinque di octavo generazione, tredicesimo. La
+
+1001
+01:19:05,640 --> 01:19:09,280
+mia è un'el cinque stava, è vecchia, però
+
+1002
+01:19:10,120 --> 01:19:12,340
+la mia è proiettata per edizione Però non
+
+1003
+01:19:12,340 --> 01:19:13,940
+so se sta usando il CPU, perché mi
+
+1004
+01:19:13,940 --> 01:19:16,020
+sembra che sta usando il mio GPU che
+
+1005
+01:19:16,020 --> 01:19:23,000
+è 3060 solo che è un po' di
+
+1006
+01:19:23,000 --> 01:19:32,260
+grande quello che noi stavamo pensando però di
+
+1007
+01:19:32,260 --> 01:19:32,760
+fare
