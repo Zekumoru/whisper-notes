@@ -1,0 +1,1395 @@
+1
+00:00:43,825 --> 00:00:45,825
+E lo step point che è una variabile
+
+2
+00:00:45,825 --> 00:00:48,864
+che indica la posizione corrente e ovviamente dove
+
+3
+00:00:48,864 --> 00:00:55,905
+prendere due almeno due decisioni la decisione è
+
+4
+00:00:55,905 --> 00:01:47,515
+dove punta lo step point se invece deve
+
+5
+00:01:47,515 --> 00:01:53,915
+stare all'ultima posizione segreta è chiaro e quindi
+
+6
+00:01:53,915 --> 00:02:00,570
+quei valori mi daranno informazioni su praticamente come
+
+7
+00:02:00,630 --> 00:02:03,190
+gestire poi la movimentazione perché poi alla fine
+
+8
+00:02:03,190 --> 00:02:05,450
+lo stake non è altro che la movimentazione
+
+9
+00:02:05,590 --> 00:02:10,310
+di questo step point e aggiorna lo stake
+
+10
+00:02:10,310 --> 00:02:17,225
+point poi ci sono due di altre due
+
+11
+00:02:17,225 --> 00:02:20,925
+decisioni da prendere una decido di implementarlo con
+
+12
+00:02:22,905 --> 00:02:29,690
+un vettore o con una lista? È chiaro
+
+13
+00:02:29,690 --> 00:02:33,050
+che con un vettore chiaramente ho I limiti
+
+14
+00:02:33,050 --> 00:02:40,845
+del vettore, no? Nel senso devo decidere anche
+
+15
+00:02:42,185 --> 00:02:47,385
+quando fermare l'inserimento e quindi a questo punto
+
+16
+00:02:47,385 --> 00:02:49,305
+e anche lì poi ci sono delle considerazioni
+
+17
+00:02:49,305 --> 00:02:52,620
+da fare qui si tratta di progettare una
+
+18
+00:02:52,620 --> 00:03:02,080
+stecca progettare quell'altra struttura che vedremo per capirci
+
+19
+00:03:19,030 --> 00:03:20,709
+vi avevo detto di passarci e ve lo
+
+20
+00:03:20,709 --> 00:03:23,110
+dico anche stavolta li ci dovete andare o
+
+21
+00:03:23,110 --> 00:03:25,110
+le sapete o non le sapete queste cose
+
+22
+00:03:25,110 --> 00:03:27,909
+questo argomento che abbiamo già cominciato è quasi
+
+23
+00:03:27,909 --> 00:03:30,870
+esattamente quello che michele indipendentemente te le farebbe
+
+24
+00:03:30,870 --> 00:03:36,144
+fare me lo dovete fare cosa dovete fare?
+
+25
+00:03:36,144 --> 00:03:39,584
+Questo è il CP più e a questo
+
+26
+00:03:39,584 --> 00:03:43,185
+punto dove parliamo di CP più stiamo parlando
+
+27
+00:03:43,185 --> 00:03:46,965
+di classi classi che vengono messe a disposizione
+
+28
+00:03:48,099 --> 00:03:51,940
+del CP più dalla libreria standard cosa c'è
+
+29
+00:03:51,940 --> 00:03:54,500
+all'interno della libreria standard? Ci sono una serie
+
+30
+00:03:54,500 --> 00:04:00,420
+di classi che io posso utilizzare all'interno della
+
+31
+00:04:00,420 --> 00:04:03,705
+mia applicazione. Quindi all'interno della mia applicazione poteva
+
+32
+00:04:03,705 --> 00:04:05,785
+aver bisogno di una stecca, due possibilità, non
+
+33
+00:04:05,785 --> 00:04:10,345
+lo faccio da solo però con tutte le
+
+34
+00:04:10,345 --> 00:04:16,600
+criticità non sarò mai più effetto perché perché
+
+35
+00:04:16,600 --> 00:04:18,519
+potevo fare tutta una serie di controlli, tutti
+
+36
+00:04:18,519 --> 00:04:20,199
+I controlli che voglio tanto alla fine ci
+
+37
+00:04:20,199 --> 00:04:21,880
+saranno sempre dei controlli che non ho fatto
+
+38
+00:04:21,880 --> 00:04:25,240
+e quindi io non mi fiderò di lo
+
+39
+00:04:25,240 --> 00:04:27,795
+step che mi faccio io lo step lo
+
+40
+00:04:27,795 --> 00:04:29,855
+step che mi faccio io a scoprire I
+
+41
+00:04:30,955 --> 00:04:35,135
+tattici quindi lo costruisco, lo progetto e periodicamente
+
+42
+00:04:35,515 --> 00:04:39,195
+ci passo sempre per eliminare tutte le criticità
+
+43
+00:04:39,195 --> 00:04:41,115
+che scoprirò nel momento in cui vado a
+
+44
+00:04:41,115 --> 00:04:49,820
+girare oppure mi avvalgo di uno steck già
+
+45
+00:04:49,820 --> 00:04:52,300
+pronto e lo step già pronto a questo
+
+46
+00:04:52,300 --> 00:04:54,400
+punto per la classe che si chiama steck
+
+47
+00:05:24,405 --> 00:05:37,009
+proprietà e cosa mi aspetto di trovare? Un
+
+48
+00:05:37,009 --> 00:05:39,810
+qualcosa che si chiama I set point l'operazione
+
+49
+00:05:39,810 --> 00:05:43,330
+di voce e l'operazione di polvere e in
+
+50
+00:05:43,330 --> 00:06:00,300
+effetti poi e quindi se io sono un
+
+51
+00:06:00,300 --> 00:06:03,900
+utilizzatore di una classe io devo cosa devo
+
+52
+00:06:03,900 --> 00:06:12,195
+conoscere? Per poter usare quella classe? Faccia! È
+
+53
+00:06:12,195 --> 00:06:14,755
+chiaro? Non me ne frega niente dalla parte
+
+54
+00:06:14,755 --> 00:06:17,635
+mia scossa perché è come la macchinetta del
+
+55
+00:06:17,635 --> 00:06:21,555
+caffè però ricordate le stesse cose quindi io
+
+56
+00:06:21,555 --> 00:06:27,800
+uso il pannello ma apro lo sportello detto
+
+57
+00:06:27,800 --> 00:06:31,080
+questo, a questo punto qua ci sono altre
+
+58
+00:06:31,080 --> 00:06:46,215
+cose eccole qua E' cosa figa che puoi
+
+59
+00:06:46,215 --> 00:06:51,830
+usare tu quale container vuoi usare per fare
+
+60
+00:06:51,830 --> 00:07:00,229
+lo seck? Si lo puoi infatti ok a
+
+61
+00:07:00,229 --> 00:07:07,254
+proposito di push poi chiaro quindi praticamente che
+
+62
+00:07:07,254 --> 00:07:09,495
+io vi ho dato gli ingredienti è chiaro
+
+63
+00:07:09,495 --> 00:07:11,735
+che c'è come vi ho detto prima ci
+
+64
+00:07:11,735 --> 00:07:15,175
+sono due situazioni critiche ho appena creato queste
+
+65
+00:07:15,175 --> 00:09:37,120
+stelle l'unico problema che voi non avete perché
+
+66
+00:09:37,120 --> 00:09:40,339
+siete oltre è che tu scritto in inglese
+
+67
+00:11:06,435 --> 00:11:11,075
+la famosa interfaccia in effetti se io devo
+
+68
+00:11:11,075 --> 00:11:15,555
+imparare ad usare una classe chiaramente qui c'è
+
+69
+00:11:15,555 --> 00:11:20,695
+l'elenco di funzioni che io posso usare però
+
+70
+00:11:21,420 --> 00:11:24,780
+è chiaro che sono tutti metodi pubblici il
+
+71
+00:11:24,780 --> 00:11:26,860
+problema è cosa c'è nella plastica c'è tanta
+
+72
+00:11:26,860 --> 00:11:29,420
+roba nascosta ma tanto a me non me
+
+73
+00:11:29,420 --> 00:11:32,000
+ne frega niente a me interessa imparare l'interfaccia
+
+74
+00:11:32,620 --> 00:11:38,565
+studiare una plastica significa studiare l'interfaccia e quindi
+
+75
+00:11:38,565 --> 00:11:41,525
+attenzione cos'è il figlio pure no? Perché qui
+
+76
+00:11:41,525 --> 00:11:57,362
+c'è scritta una cosa strana gli amici No
+
+77
+00:11:57,362 --> 00:11:57,970
+no allora overload No no queste sono le
+
+78
+00:11:57,970 --> 00:12:01,650
+funzioni friend ok che fanno due parte cioè
+
+79
+00:12:01,650 --> 00:12:03,730
+sono inserite all'interno della classe ma non fanno
+
+80
+00:12:03,730 --> 00:12:06,055
+parte la classe tant'è vero che lui come
+
+81
+00:12:06,055 --> 00:12:09,095
+le chiama? Non è un nome ma perché
+
+82
+00:12:09,095 --> 00:12:15,115
+anche overloots? Perché benissimo così poi mettiamo l'overloddo
+
+83
+00:12:15,335 --> 00:12:21,250
+l'overloddo degli operatori ok allora spero quali sono
+
+84
+00:12:22,510 --> 00:12:24,510
+e poi da una spiegazione il motivo per
+
+85
+00:12:24,510 --> 00:12:26,350
+cui ero partito con l'idea di fare anche
+
+86
+00:12:26,350 --> 00:12:31,645
+non le friendde l'integrazione della classe frazione la
+
+87
+00:12:31,645 --> 00:12:35,805
+ridefinizione degli operatori il problema è poi mi
+
+88
+00:12:35,805 --> 00:12:41,305
+sono fermato perché ho fatto ottocento lire capito?
+
+89
+00:12:42,925 --> 00:12:45,645
+L'overload è sempre lì e l'overload lo faccio
+
+90
+00:12:45,645 --> 00:12:55,530
+con le friend perché se vedi fra I
+
+91
+00:12:55,530 --> 00:12:59,370
+membri c'è il swap c'è il metodo swap
+
+92
+00:12:59,370 --> 00:13:01,264
+c'è anche normale e quindi è un overload
+
+93
+00:13:01,404 --> 00:13:06,384
+perché c'è anche SWAP è friend. Prenderà parametri
+
+94
+00:13:06,444 --> 00:13:17,720
+diversi. È canonico e troppo c'è un altro
+
+95
+00:13:17,720 --> 00:13:22,839
+che è stato rivisitato leggermente diverso. Quante cose
+
+96
+00:13:22,839 --> 00:13:25,560
+si possono imparare ovviamente leggendo questa è la
+
+97
+00:13:25,560 --> 00:13:28,940
+documentazione, I programmatori vanno qui e non vanno
+
+98
+00:13:29,000 --> 00:13:34,045
+felici perché chiaramente conosciuti avendo la base concettuale
+
+99
+00:13:34,045 --> 00:13:36,204
+io vado direttamente sulla ponte, la ponte è
+
+100
+00:13:36,204 --> 00:13:41,565
+manuale e quindi questo è il motivo per
+
+101
+00:13:41,565 --> 00:13:46,180
+cui vi chiedo di andare qui invitando all'uso
+
+102
+00:13:46,240 --> 00:13:54,320
+dell'argomentazione ufficiale detto questo torniamo alla nostra realtà
+
+103
+00:13:54,320 --> 00:14:15,750
+aumentata Lo schedul è chiaramente una delle operazioni
+
+104
+00:14:16,130 --> 00:14:17,970
+allora lo schedul è di fatto un algoritmo
+
+105
+00:14:17,970 --> 00:14:25,395
+no? Un algoritmo che estrae a questo punto
+
+106
+00:14:26,995 --> 00:14:29,475
+una per tutti può estrarre per esempio il
+
+107
+00:14:29,475 --> 00:14:32,755
+processo che deve andare in esecuzione è chiaro
+
+108
+00:14:32,755 --> 00:14:37,715
+che il meccanismo di estrazione ovviamente deve essere
+
+109
+00:14:37,715 --> 00:14:42,110
+implementato ecco ovviamente il meccanismo che viene implementato
+
+110
+00:14:42,110 --> 00:14:44,769
+come se fosse una coda sono più code
+
+111
+00:14:44,910 --> 00:14:52,685
+anzi basta una No il mondo delle code
+
+112
+00:14:52,685 --> 00:14:55,485
+è un mondo molto affascinante anche perché poi
+
+113
+00:14:55,485 --> 00:14:58,365
+c'è tutto Sì c'è la coda alla fossa
+
+114
+00:14:58,365 --> 00:15:45,745
+al supermercato c'è proprio una teoria matematica per
+
+115
+00:15:45,745 --> 00:15:48,465
+le code? Che non sono quelle cose il
+
+116
+00:15:48,465 --> 00:15:51,205
+concetto è lo stesso però il problema è
+
+117
+00:15:52,465 --> 00:15:56,465
+se io ho l'autostrada di quanti caselli mi
+
+118
+00:15:56,465 --> 00:16:00,709
+devo totale come faccio a stabilire se un
+
+119
+00:16:00,930 --> 00:16:11,649
+casello, cinque caselli, dieci caselli? No come per
+
+120
+00:16:11,649 --> 00:16:14,715
+esempio ci sono delle situazioni critiche sono io
+
+121
+00:16:14,715 --> 00:16:19,435
+il gestore della tua strada benissimo uno ho
+
+122
+00:16:19,435 --> 00:16:23,595
+il numero dei caselli due quanti caselli lo
+
+123
+00:16:23,595 --> 00:16:42,845
+aprivo? Decido di aprire chiudere le caselle per
+
+124
+00:16:42,845 --> 00:16:46,764
+evitare ovviamente una serie di situazioni te li
+
+125
+00:16:46,764 --> 00:16:49,805
+tengo tutti aperti io l'unica cosa che è
+
+126
+00:16:49,805 --> 00:16:55,080
+che pago I casellanti poi mi passa una
+
+127
+00:16:55,080 --> 00:17:00,279
+macchina al giorno vado in perdita stessa cosa
+
+128
+00:17:00,279 --> 00:17:04,964
+per le cose? Gestione delle code non è
+
+129
+00:17:04,964 --> 00:17:07,625
+chiaro se ci sono N quanti spattelli hai?
+
+130
+00:17:08,964 --> 00:17:10,645
+Nel momento in cui apro lo sportello è
+
+131
+00:17:10,645 --> 00:17:13,924
+chiaro che ci devono essere delle persone se
+
+132
+00:17:13,924 --> 00:17:16,885
+li tengo aperti giusto per tenerli aperti io
+
+133
+00:17:16,885 --> 00:17:18,905
+una cosa è certa io li devo pagare
+
+134
+00:17:19,230 --> 00:18:17,300
+non fanno altri lavori Ok apri con cinque
+
+135
+00:18:17,300 --> 00:18:24,580
+gas tutte aperte? No l'afflusso massimo stabilito su
+
+136
+00:18:24,580 --> 00:18:29,045
+cinque gas poi in base alla gente interna
+
+137
+00:18:29,045 --> 00:18:31,365
+del momento decide ovviamente di aprire un altro
+
+138
+00:18:31,365 --> 00:18:33,865
+e quindi avere più o meno I dipendenti
+
+139
+00:18:36,965 --> 00:18:40,640
+niente è per caso quindi queste sono le
+
+140
+00:18:40,640 --> 00:18:42,820
+code però dal punto di vista informatico quindi
+
+141
+00:18:43,120 --> 00:18:45,620
+abbiamo una situazione di code da gestire lui
+
+142
+00:18:46,480 --> 00:18:50,640
+usato il plurale perché me per un motivo
+
+143
+00:18:50,640 --> 00:18:54,160
+molto semplice io posso avere più code perché
+
+144
+00:18:54,160 --> 00:18:57,255
+ho deciso di darmi delle regole di priorità
+
+145
+00:18:58,595 --> 00:19:01,655
+quindi già il fatto di avere più priorità
+
+146
+00:19:02,275 --> 00:19:06,755
+di fatto posso avere più code la coda
+
+147
+00:19:06,755 --> 00:19:08,995
+uno per priorità alta la coda due per
+
+148
+00:19:08,995 --> 00:19:11,419
+coprire al medio la coda tre per allora
+
+149
+00:19:11,419 --> 00:19:15,260
+poi le devo gestire perché chi priorità più
+
+150
+00:19:15,260 --> 00:19:18,880
+bassa evidentemente devo conoscere I criteri dovrà partire
+
+151
+00:19:20,380 --> 00:19:23,260
+e quindi devo avere un algoritmo che preleva
+
+152
+00:19:23,260 --> 00:19:26,815
+tutto quello che sei detto questo torniamo alla
+
+153
+00:19:26,815 --> 00:19:31,235
+coda tecnicamente una struttura di tipo Fel Simpest
+
+154
+00:19:31,375 --> 00:19:57,455
+Out in verticale giusto per mettere in evidenza
+
+155
+00:19:57,455 --> 00:20:00,095
+delle differenze e allora il discorso della coda
+
+156
+00:20:00,095 --> 00:20:04,595
+è per questo che significa anche qui l'implementazione
+
+157
+00:20:39,960 --> 00:20:43,480
+nei libri finalmente per fare l'esempio da dove
+
+158
+00:20:43,480 --> 00:20:47,340
+nasce il concetto è associato ovviamente alla coda
+
+159
+00:20:47,880 --> 00:20:52,645
+dei passeggeri che sono la fermata dell'autobus di
+
+160
+00:20:52,645 --> 00:20:59,545
+una pensilina presente all'interno di Wandera quindi lì
+
+161
+00:20:59,765 --> 00:21:04,265
+non è che arriva la gente a Deminchia
+
+162
+00:21:05,929 --> 00:21:08,570
+faccio il furbo no si viene a creare
+
+163
+00:21:08,570 --> 00:21:11,770
+una coda arriva una persona e il primo
+
+164
+00:21:11,770 --> 00:21:15,130
+arrivato occupa una certa posizione tutti gli altri
+
+165
+00:21:15,130 --> 00:21:19,465
+si accodano nella coda della posta quindi il
+
+166
+00:21:19,465 --> 00:21:23,645
+primo che arriva sarà il primo a salire
+
+167
+00:21:24,825 --> 00:21:27,804
+sull'autobus in questo caso ed esce dalla coda
+
+168
+00:21:28,985 --> 00:21:31,225
+è chiaro quindi devo stabilire a questo punto
+
+169
+00:21:31,225 --> 00:21:36,159
+qual è la posizione iniziale possiamo immaginare che
+
+170
+00:21:36,159 --> 00:21:40,799
+la posizione d'uscita sia a quattro o da
+
+171
+00:21:40,799 --> 00:21:50,025
+0, lì abbiamo inizio fine riflettete su quello
+
+172
+00:21:50,025 --> 00:21:51,865
+che sto facendo nel momento in cui io
+
+173
+00:21:51,865 --> 00:21:53,865
+ho una coda io devo stabilire qual è
+
+174
+00:21:53,865 --> 00:21:55,705
+il punto iniziale qual è il punto di
+
+175
+00:21:55,705 --> 00:22:00,045
+fine perché ci sono dei problemi chiaro? Arriva
+
+176
+00:22:00,585 --> 00:22:11,039
+il primo omino per inizio intende l'inizio della
+
+177
+00:22:11,039 --> 00:22:14,400
+coda? L'inizio della coda? Ok gira con me
+
+178
+00:22:14,400 --> 00:22:16,720
+vuoi tanto avrei sempre la domanda di da
+
+179
+00:22:16,720 --> 00:22:21,675
+dove inizia la coda perché? Perché praticamente io
+
+180
+00:22:21,675 --> 00:22:23,935
+già comincio a definire il punto di uscita
+
+181
+00:22:25,435 --> 00:22:30,075
+ci sono tante considerazioni da fare l'implementazione non
+
+182
+00:22:30,075 --> 00:22:33,809
+è banale quindi è un progettino che ti
+
+183
+00:22:33,809 --> 00:22:37,890
+devi fare ecco perché se aveste avuto delle
+
+184
+00:22:37,890 --> 00:22:41,570
+basi di programmazione questo esercizio l'esercizio su come
+
+185
+00:22:41,570 --> 00:22:46,955
+si scrivono gli algoritmi informatico scrive programma scrive
+
+186
+00:22:48,135 --> 00:22:51,495
+algoritmi, scrive programma che hanno già fatto fuori
+
+187
+00:22:51,495 --> 00:22:56,294
+con intelligenza artificiale il progetto io lo faccio
+
+188
+00:22:56,294 --> 00:23:04,070
+sugli algoritmi oppure sull'impostazione intraltezza tutto il resto
+
+189
+00:23:04,250 --> 00:23:08,670
+è una mano vacanza adesso è un algoritmo
+
+190
+00:23:09,210 --> 00:23:12,490
+perché inizio che significa ok qual è la
+
+191
+00:23:12,490 --> 00:23:16,445
+prima posizione che vedrà uscire e anche lì
+
+192
+00:23:17,465 --> 00:23:22,525
+ve lo faccio vedere quindi praticamente entra A
+
+193
+00:23:23,065 --> 00:23:26,685
+poi voglio fare entrare B se ci pensate
+
+194
+00:23:29,409 --> 00:23:32,450
+per due no soltanto non c'è non c'è
+
+195
+00:23:32,450 --> 00:23:37,409
+scambio il problema qual è in pratica? Pensate
+
+196
+00:23:37,409 --> 00:23:40,945
+alla coda della posta questo è il più
+
+197
+00:23:40,945 --> 00:23:44,705
+vicino alla cassa cioè allo sportello anche la
+
+198
+00:23:44,705 --> 00:23:48,625
+polvere del supermercato questo è il primo e
+
+199
+00:23:48,625 --> 00:24:28,270
+di conseguenza l'inserimento questa è la posizione corrente
+
+200
+00:24:28,570 --> 00:24:32,810
+che ti dice qual è il prossimo posto
+
+201
+00:24:32,810 --> 00:24:38,455
+disponibile chiaro? E quindi ti da perché tu
+
+202
+00:24:38,455 --> 00:24:42,955
+sai esattamente dove devi andare in pratica bene
+
+203
+00:24:43,175 --> 00:24:48,555
+a questo punto l'inizio, la fine, il corrente
+
+204
+00:24:49,800 --> 00:24:53,400
+il corrente è il prossimo posto da occupare
+
+205
+00:24:53,400 --> 00:24:57,480
+nella coda però attenzione alla fine ti dice
+
+206
+00:24:57,480 --> 00:24:59,580
+ok non c'è più posto chiudono le porte
+
+207
+00:25:00,000 --> 00:25:04,120
+e chiudono la coda ma nello stesso tempo
+
+208
+00:25:04,120 --> 00:25:11,285
+cosa succede cosa succede se A viene servito?
+
+209
+00:25:11,905 --> 00:25:14,705
+B finisce allo 0 C finisce all'uno questa
+
+210
+00:25:14,705 --> 00:25:41,664
+è una cronologia da questa la cosa a
+
+211
+00:25:41,664 --> 00:25:45,020
+cui devo pensare una volta che si libera
+
+212
+00:25:45,020 --> 00:25:47,900
+il posto poi chiaramente che fare la mia
+
+213
+00:25:47,900 --> 00:25:52,060
+strategia a questo punto che faccio un patto
+
+214
+00:25:52,060 --> 00:26:11,590
+la coda? Potrei oppure avere un altro algoritmo
+
+215
+00:26:11,590 --> 00:26:13,830
+la cosa è certa qui si tratta di
+
+216
+00:26:13,830 --> 00:26:17,210
+come incremento la coda la cosa è certa
+
+217
+00:26:19,190 --> 00:26:21,910
+è arrivato dal primo quello deve uscire dal
+
+218
+00:26:21,910 --> 00:26:24,995
+primo questa è la regola che non deve
+
+219
+00:26:24,995 --> 00:26:31,735
+mai saltare chiaro? Uscio da dove? Da dietro
+
+220
+00:26:32,835 --> 00:27:10,769
+e dopo davanti quindi Il push esprime il
+
+221
+00:27:10,769 --> 00:27:14,070
+concetto di inserimento che poi sia uno step
+
+222
+00:27:14,529 --> 00:27:19,570
+o è una coda, lui inserisce è chiaro
+
+223
+00:27:19,570 --> 00:27:23,035
+quando la vado ad usare io beh mi
+
+224
+00:27:23,035 --> 00:27:25,755
+devo ricordare che questo mi sto muovendo con
+
+225
+00:27:25,755 --> 00:27:28,415
+l'acquario con delle regole e mi sto muovendo
+
+226
+00:27:28,715 --> 00:27:32,255
+con uno step con altre regole entrambi pusciano
+
+227
+00:27:32,395 --> 00:27:37,090
+entrambi portano però è chiaro che il posizionamento
+
+228
+00:27:37,090 --> 00:27:42,930
+di estrazione di inserimento è inverso quindi ecco
+
+229
+00:27:42,930 --> 00:27:46,290
+perché non confondete il fatto che ci sia
+
+230
+00:27:46,290 --> 00:27:51,585
+una pushano a poco è chiaro? Perché poi
+
+231
+00:27:51,585 --> 00:27:56,145
+lo fanno per la questione pratica nelle cose
+
+232
+00:27:56,145 --> 00:27:59,425
+ci sarà sempre un push, un inserimento ci
+
+233
+00:27:59,425 --> 00:28:01,505
+sarà sempre una estrazione, alla stessa cosa vale
+
+234
+00:28:01,505 --> 00:28:20,865
+lo step ci siete? Attenzione qui sto semplificando
+
+235
+00:28:20,924 --> 00:28:23,085
+per quanto riguarda le cose poi c'è un
+
+236
+00:28:23,085 --> 00:28:26,445
+altro universo modo ci sono volentieri questa è
+
+237
+00:28:26,445 --> 00:28:28,924
+la cosa semplice poi ci sono le cose
+
+238
+00:28:28,924 --> 00:29:46,383
+circolari ma io che cazzo devo fare? Facevo
+
+239
+00:29:46,420 --> 00:29:54,855
+prima di scrivere la matematica dov'è l'informatica ed
+
+240
+00:29:54,855 --> 00:29:59,510
+erano tutta la matematica che serviva per informatica
+
+241
+00:30:23,890 --> 00:30:27,830
+Ammetto I miei omini, mi manca tante cose
+
+242
+00:30:27,889 --> 00:30:31,730
+nella vegetazione, qualcuno me le spiegate ma proprio
+
+243
+00:30:31,730 --> 00:30:35,890
+quella teoria proprio da fotografo? Però con una
+
+244
+00:30:35,890 --> 00:30:39,190
+base del genere ci può arrivare secondo me?
+
+245
+00:30:41,295 --> 00:30:45,395
+Sì, no, ni, è vero quello che dici,
+
+246
+00:30:45,775 --> 00:30:48,255
+è altrettanto vero però, non conta è avere
+
+247
+00:30:48,255 --> 00:30:51,695
+una bolla mentis, un conto è quando io
+
+248
+00:30:51,695 --> 00:30:53,775
+vi dico voi non avete idea di quanto
+
+249
+00:30:53,775 --> 00:30:56,270
+sia importante io per voi e lo capirete
+
+250
+00:30:56,270 --> 00:31:00,150
+quando sarete da soli perché nel bene o
+
+251
+00:31:00,150 --> 00:31:04,950
+nel male un riferimento ce l'avete quando sarete
+
+252
+00:31:04,950 --> 00:31:08,230
+da soli costruirci tutta una cosa tutto il
+
+253
+00:31:08,230 --> 00:31:10,309
+ragionamento e tutto il lavoro è una cosa
+
+254
+00:31:10,309 --> 00:31:18,164
+semplice capite? Potete fare tutti I costi che
+
+255
+00:31:18,164 --> 00:31:21,524
+volete tutorial contro I tutorial però io so
+
+256
+00:31:21,524 --> 00:31:24,600
+quali sono I cardini e ti dico ok
+
+257
+00:31:24,600 --> 00:31:27,159
+questo è importante questo è fondamentale questo è
+
+258
+00:31:27,159 --> 00:31:29,720
+indispensabile questo non devo cagare se c'è tempo
+
+259
+00:31:29,720 --> 00:31:35,960
+fatelo questa è la differenza detto questo, beh
+
+260
+00:31:35,960 --> 00:31:39,975
+a questo punto questo era lo step Ciplasi
+
+261
+00:32:44,830 --> 00:32:49,250
+a cosa dovete pensare a quel disegno? Entrate
+
+262
+00:32:51,150 --> 00:32:57,310
+dentro front è chiaro che qui ci deve
+
+263
+00:32:57,310 --> 00:33:01,485
+essere anche un front e un back il
+
+264
+00:33:01,745 --> 00:33:03,585
+front e il back riguarda il punto di
+
+265
+00:33:03,585 --> 00:33:06,965
+uscita e il punto d'ingresso nello step invece
+
+266
+00:33:07,825 --> 00:33:13,169
+soltanto un punto di attrazione e di inserimento
+
+267
+00:33:14,350 --> 00:33:20,429
+qui invece no dobbiamo avere un back voglio
+
+268
+00:33:20,429 --> 00:33:23,870
+inserire devo andare sul front no devo andare
+
+269
+00:33:23,870 --> 00:33:27,375
+sul back devo estrarre le bande del front
+
+270
+00:33:28,555 --> 00:33:32,155
+per implementare la cosa andiamo giù andiamo a
+
+271
+00:33:32,155 --> 00:34:20,405
+vedere I membri sennò chiaramente salta la regola
+
+272
+00:34:20,405 --> 00:34:23,844
+di noi stessi è quello che è astratta
+
+273
+00:34:23,844 --> 00:34:26,405
+perché io ti creo l'illusione di avere una
+
+274
+00:34:26,405 --> 00:34:30,485
+pila però e quindi niente quindi a questo
+
+275
+00:34:30,485 --> 00:35:01,480
+punto ok quindi andiamo a vedere praticamente come
+
+276
+00:35:01,940 --> 00:35:06,340
+funziona la Kusci significa inserimento l'inserimento dove lo
+
+277
+00:35:06,340 --> 00:35:10,580
+faccio? Dal fondo, no? Un ipotetico fondo in
+
+278
+00:35:10,580 --> 00:35:12,180
+effetti io non lo so se il fondo
+
+279
+00:35:12,180 --> 00:35:17,245
+è questo, è questo, è questo, è questo
+
+280
+00:35:17,245 --> 00:35:20,785
+infatti ci sono degli step anche all'interno dell'architettura,
+
+281
+00:35:22,125 --> 00:35:25,245
+andate a vedere lo step ponte c'è anche
+
+282
+00:35:25,245 --> 00:35:27,245
+un problema di capire qual è la crescita
+
+283
+00:35:27,245 --> 00:35:29,325
+ci sono degli step che crescono verso il
+
+284
+00:35:29,325 --> 00:35:33,480
+basso quindi il discorso è a me non
+
+285
+00:35:33,480 --> 00:35:36,760
+me ne frega niente in pratica basta che
+
+286
+00:35:36,760 --> 00:35:39,079
+push però per le cose è un po'
+
+287
+00:35:39,079 --> 00:35:44,234
+diverso perchè invece devo conoscere il punto di
+
+288
+00:35:44,234 --> 00:35:46,954
+inserimento perché c'è esistenza fra punto di inserimento
+
+289
+00:35:46,954 --> 00:35:49,994
+con punto di estrazione e quindi il mio
+
+290
+00:35:49,994 --> 00:35:54,570
+riferimento quello che mi aiuta è è il
+
+291
+00:35:54,570 --> 00:35:57,050
+front e il vecchio andiamo a vedere come
+
+292
+00:35:57,050 --> 00:36:10,075
+fa la push significa inserimento eccolo qui io
+
+293
+00:36:10,075 --> 00:36:14,655
+ve lo sto dicendo volete cominciare a programmare?
+
+294
+00:36:15,435 --> 00:36:19,355
+Cominciate a leggere quel codice e ogni volta
+
+295
+00:36:19,355 --> 00:36:23,690
+che trovate qualche punto critico parliamo se aspettate
+
+296
+00:36:23,690 --> 00:36:25,770
+che vi faccia una lezione su tutte quelle
+
+297
+00:36:25,770 --> 00:36:28,569
+cose che ci sono lì non mi basta
+
+298
+00:36:28,569 --> 00:36:34,730
+quest'anno chiaro? Perché lì ci sono dei pre
+
+299
+00:36:34,730 --> 00:36:40,225
+requisiti di terza che se mancano siamo proprio
+
+300
+00:36:40,225 --> 00:36:46,385
+lì è chiaro? Quindi provate ovviamente a leggere
+
+301
+00:36:46,385 --> 00:36:49,905
+questo codice e ad interpretarlo voi sapete che
+
+302
+00:36:49,905 --> 00:36:54,010
+sta facendo l'inserimento quindi parte il penna e
+
+303
+00:36:54,010 --> 00:36:57,630
+dire ok vediamo come funziona e dovete vedere
+
+304
+00:36:58,810 --> 00:37:01,610
+come muove il disegno, come si muovono I
+
+305
+00:37:01,610 --> 00:37:06,330
+dati all'interno del disegno questo significa capire lo
+
+306
+00:37:06,330 --> 00:37:10,085
+dico anche te lo dico a tutti, cioè
+
+307
+00:37:10,085 --> 00:37:12,785
+a tutti quelli che non hanno fatto, fatelo,
+
+308
+00:37:13,085 --> 00:37:16,705
+perché quando tu vedi sul disegno come sta
+
+309
+00:37:17,165 --> 00:37:22,230
+avvenendo la movimentazione e prendi coscienza ti devi
+
+310
+00:37:22,230 --> 00:37:25,670
+fermare, vi dovete fermare, vi dovete dedicare quel
+
+311
+00:37:25,670 --> 00:37:31,590
+tempo per convincervi che cosa funziona non c'è
+
+312
+00:37:31,590 --> 00:37:35,300
+più modo sennò la sfortuna non è memoria
+
+313
+00:37:51,760 --> 00:37:58,640
+capisci il discorso è avere uno strumento di
+
+314
+00:37:58,640 --> 00:38:04,089
+salvataggio quando non ci arrivo la memoria puff,
+
+315
+00:38:04,089 --> 00:38:06,335
+bravo però devo avere I fondamentali su cui
+
+316
+00:38:06,335 --> 00:38:09,135
+poggiare tutto il ravvedimento e quindi io vi
+
+317
+00:38:09,135 --> 00:38:12,815
+dico leggete questo codice cercate di capire quanto
+
+318
+00:38:12,815 --> 00:38:16,755
+funziona beh questo è il corpo del metodo
+
+319
+00:38:18,960 --> 00:38:25,760
+possiamo ricavare un po' di cose semplicemente sfruttando
+
+320
+00:38:25,760 --> 00:38:28,420
+quei concetti che abbiamo sulla programmazione di oggetti
+
+321
+00:38:28,880 --> 00:38:32,125
+noi non dovremmo avere tanto loro adesso fanno
+
+322
+00:38:32,125 --> 00:38:35,105
+in fase di costruzione considerando la reazione di
+
+323
+00:38:38,045 --> 00:38:44,065
+allora già queste parentesi angolari sono anche tanti
+
+324
+00:38:59,595 --> 00:39:04,475
+classi template o container I container sono delle
+
+325
+00:39:04,475 --> 00:39:10,315
+classi generiche la cosa importante delle classi generiche
+
+326
+00:39:10,315 --> 00:39:14,960
+è che non le posso usare o meglio
+
+327
+00:39:14,960 --> 00:39:19,200
+le posso usare ad una condizione le devo
+
+328
+00:39:19,200 --> 00:39:24,240
+specializzare sei un container di cosa? Che ci
+
+329
+00:39:24,240 --> 00:39:26,720
+pensi no? Se non ti dico di cosa?
+
+330
+00:39:26,720 --> 00:39:31,295
+Che senso non sento il container qualcosa di
+
+331
+00:39:31,295 --> 00:39:37,475
+specifico contenervi cosa contenere con te gli oggetti
+
+332
+00:39:37,695 --> 00:39:48,150
+contenere di flop di stringere quindi il concetto
+
+333
+00:39:48,150 --> 00:39:51,910
+astratto che non senso di esistere sia quando
+
+334
+00:39:51,910 --> 00:39:54,570
+non ci metto con quello di comprare cosa
+
+335
+00:39:54,790 --> 00:39:57,030
+gli interni va bene allora prende la forma
+
+336
+00:39:57,030 --> 00:40:01,705
+del container gli interi e della classe la
+
+337
+00:40:01,705 --> 00:40:05,485
+specializzus il container per poterlo utilizzare lo devo
+
+338
+00:40:06,345 --> 00:41:27,025
+specializzare per poterlo specializzare lo devo specializzare nel
+
+339
+00:41:27,025 --> 00:41:33,025
+senso che tu lo spiega a lui non
+
+340
+00:41:33,025 --> 00:41:33,841
+capisci il fatto che tu lo spiega a
+
+341
+00:41:33,841 --> 00:41:33,869
+lui non capisci il fatto che tu lo
+
+342
+00:41:33,869 --> 00:41:33,896
+spiega a lui non capisci il fatto che
+
+343
+00:41:33,896 --> 00:41:33,923
+tu lo spiega a lui non capisci il
+
+344
+00:41:33,923 --> 00:41:33,950
+fatto che tu lo spiega a lui non
+
+345
+00:41:33,950 --> 00:41:33,977
+capisci il fatto che tu lo spiega a
+
+346
+00:41:33,977 --> 00:41:34,004
+lui non capisci il fatto che tu lo
+
+347
+00:41:34,004 --> 00:41:34,031
+spiega a lui non capisci il fatto che
+
+348
+00:41:34,031 --> 00:41:34,058
+tu lo spiega a lui non capisci il
+
+349
+00:41:34,058 --> 00:41:38,640
+fatto che tu lo

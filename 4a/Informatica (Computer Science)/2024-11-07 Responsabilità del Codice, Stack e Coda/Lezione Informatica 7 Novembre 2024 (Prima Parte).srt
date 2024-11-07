@@ -1,0 +1,1419 @@
+1
+00:00:00,000 --> 00:00:07,440
+Continuiamo con la teoria quindi la differenza la
+
+2
+00:00:07,440 --> 00:00:11,679
+facciamo sull'implementazione, sul laboratorio quindi sul laboratorio voi
+
+3
+00:00:11,679 --> 00:00:14,160
+farete cose di avete avuto modo di fare
+
+4
+00:00:14,160 --> 00:00:19,695
+qualche cosa tra ieri sera, stanotte e stamattina?
+
+5
+00:00:21,355 --> 00:00:23,915
+Io ho già inventato una funzione dietro la
+
+6
+00:00:23,915 --> 00:00:29,195
+funzione della classe per vedere se mi leggeva
+
+7
+00:00:29,195 --> 00:00:32,409
+le cose pubbliche e private ovviamente mi letto
+
+8
+00:00:32,409 --> 00:00:35,950
+solo quelle pubbliche perché è in un'altra parte.
+
+9
+00:00:37,129 --> 00:00:41,210
+Ce l'hai messa all'interno della classe? Intendo la
+
+10
+00:00:41,210 --> 00:01:20,595
+funzione e la funzione Anche perché violita alcune
+
+11
+00:01:20,595 --> 00:01:26,375
+cosette. No, no, nei principi della programmazione dell'oggetto.
+
+12
+00:01:26,595 --> 00:01:31,909
+Allora, il discorso che funzioni va bene? È
+
+13
+00:01:31,909 --> 00:01:37,610
+scoperto se, quando e come funziona ci sei?
+
+14
+00:01:38,630 --> 00:01:40,310
+Il discorso di ma ti faccio vedere un'altra
+
+15
+00:01:40,310 --> 00:01:40,630
+cosa l'abbiamo appena fatta, ve l'ho detto quando
+
+16
+00:01:40,630 --> 00:02:01,329
+sei potere faccio vedere la cosa l'esempio idiota?
+
+17
+00:02:23,879 --> 00:02:25,799
+Poi in Australia la pancetta era una delle
+
+18
+00:02:25,799 --> 00:02:29,720
+bistecche così mica buonissime. Che facevi colazione con
+
+19
+00:02:29,720 --> 00:02:32,519
+quella era come se avessi pippato. Sì, infatti
+
+20
+00:02:32,519 --> 00:02:35,305
+c'è tutto il giorno Che parte a duecento
+
+21
+00:02:35,305 --> 00:03:27,085
+all'ora proprio. Sara mica, come ho buttato giù
+
+22
+00:03:27,085 --> 00:03:30,037
+quel caffè Mi sono reso conto della figura
+
+23
+00:03:30,037 --> 00:03:32,305
+di merda che il barista sicuramente è mavissimo
+
+24
+00:03:32,365 --> 00:03:34,445
+prendere il sale. Buttato giù e me ne
+
+25
+00:03:34,445 --> 00:03:38,290
+sono andato, avrei sbruffato lì sul bancone. Come
+
+26
+00:03:38,290 --> 00:03:40,710
+è capitato con il latte, quando ero bambino?
+
+27
+00:03:42,290 --> 00:03:44,050
+Ho messo il sale? Ho messo il sale
+
+28
+00:03:44,050 --> 00:05:19,485
+invece che lo zucchero Non l'ho bevuto Ma
+
+29
+00:05:19,485 --> 00:05:22,284
+difatti ieri c'era il ragazzo di terza e
+
+30
+00:05:22,284 --> 00:05:27,965
+stavo parlando con Marazigan su incapsulamento. Non digli
+
+31
+00:05:27,965 --> 00:05:31,324
+parole che mica lo mandi in crash, rimane
+
+32
+00:05:31,324 --> 00:05:37,240
+lì sull'incapsulamento. Poi sente Giancarlo incapsulamento pensa al
+
+33
+00:05:37,240 --> 00:05:56,795
+dentista ed è finita. Tu hai fatto ceno?
+
+34
+00:05:59,415 --> 00:06:02,690
+A lui l' fatto, Tu c'èdi. Te ricordi
+
+35
+00:06:02,690 --> 00:07:28,820
+qualche cosa? Ho capito. Allora Questo è Cin,
+
+36
+00:07:29,199 --> 00:07:33,020
+la scampo, il potere equivalente del Cin nella
+
+37
+00:07:33,440 --> 00:07:37,280
+Cina e questo è un altro Chout A
+
+38
+00:07:37,280 --> 00:07:42,965
+questo punto la prima Chout è un messaggio.
+
+39
+00:07:43,305 --> 00:07:53,065
+La seconda è un'acquisizione, cosa? Per suddit, quindi
+
+40
+00:07:53,065 --> 00:07:56,760
+il numero intero e questo è il contenitore
+
+41
+00:07:56,760 --> 00:08:00,060
+che dovrà contenere il numero intero, va bene?
+
+42
+00:08:01,080 --> 00:08:05,720
+Ci siete? A questo punto la patente che
+
+43
+00:08:05,720 --> 00:08:13,105
+fa? Guarda, questo numero intero quello che ti
+
+44
+00:08:13,105 --> 00:08:17,585
+sei preso prima visualizzalo, ci sei? Andiamo a
+
+45
+00:08:17,585 --> 00:08:20,625
+vedere quello che succede no no non ti
+
+46
+00:08:20,625 --> 00:08:23,825
+sto facendo l'esercitazione che no no guarda quello
+
+47
+00:08:23,825 --> 00:09:16,915
+che succede Ho trovato anche Google Kolab che
+
+48
+00:09:17,295 --> 00:09:27,220
+è molto interessante Molto interessante per una formula.
+
+49
+00:09:33,045 --> 00:09:35,525
+E' la formula che ti consente praticamente di
+
+50
+00:09:35,525 --> 00:09:51,830
+creare il Tipo Jupiter? C'è un vantaggio il
+
+51
+00:09:51,830 --> 00:09:56,150
+vantaggio è che essendo l'ambiente Google ti dà
+
+52
+00:09:56,150 --> 00:09:58,070
+anche la possibilità di accedere a vedere quanti
+
+53
+00:09:58,070 --> 00:12:15,545
+dati Mancano I commerciale. Sai cosa significa commerciale?
+
+54
+00:12:15,545 --> 00:12:18,765
+In riferimento all'indirizzo della variabile acquista davanti. L'indirizzo
+
+55
+00:12:18,905 --> 00:12:24,380
+della variabile. Qual è l'indirizzo della variabile? Qui
+
+56
+00:12:24,380 --> 00:12:28,660
+io passo l'indirizzo di una variabile. Se non
+
+57
+00:12:28,660 --> 00:12:30,720
+ci metto la A, se non ci metto
+
+58
+00:12:30,720 --> 00:12:34,180
+le commerciali passo La variabile è la variabile.
+
+59
+00:12:34,180 --> 00:12:36,260
+Ma non la variabile, ma la variabile. Il
+
+60
+00:12:36,260 --> 00:12:43,825
+valore. Ci sei? In effetti voglio dovesse sapere
+
+61
+00:12:43,825 --> 00:12:46,785
+passaggi per valore, passaggi per riferimento. Sapete, di
+
+62
+00:12:46,785 --> 00:13:07,175
+cosa stiamo parlando? E quel simbolo presente in
+
+63
+00:13:07,175 --> 00:13:11,095
+C, C più più è Java e tutti
+
+64
+00:13:11,095 --> 00:13:13,675
+diranno la stessa cosa, quello è un riferimento,
+
+65
+00:13:14,214 --> 00:13:19,050
+cioè un indirizzo. Vedete la dimenticanza di queste
+
+66
+00:13:19,189 --> 00:13:22,709
+commerciale provoca questo facciamo finta di far partire
+
+67
+00:13:22,709 --> 00:13:29,055
+adesso il codice con quella I commerciale Stessa
+
+68
+00:13:29,055 --> 00:13:36,255
+cosa di prima no? Sì però adesso il
+
+69
+00:13:36,255 --> 00:13:47,460
+codice sta funzionando Ci siete? Morale. Inserite questa
+
+70
+00:13:47,460 --> 00:14:01,765
+istruzione in un codice solo di cento? Cento
+
+71
+00:14:01,765 --> 00:14:09,144
+lire. Solo cento lire. Lui parte. Lui parte.
+
+72
+00:14:32,395 --> 00:14:36,975
+Questo quello che hai fatto si può fare
+
+73
+00:14:37,195 --> 00:14:41,340
+certo però potesse avere la responsabilità già le
+
+74
+00:14:41,340 --> 00:14:43,500
+cose povere quando fai partire il programma cominciano
+
+75
+00:14:43,500 --> 00:14:49,280
+a diventare strano quell'operazione si può fare tecnicamente
+
+76
+00:14:49,820 --> 00:14:57,315
+teoricamente praticamente non senso. Quindi va bene come
+
+77
+00:14:57,315 --> 00:15:01,954
+esercizio, capisci ok so che funziona però viola
+
+78
+00:15:01,954 --> 00:15:05,954
+dei principi cardine della programmazione di oggetti cioè
+
+79
+00:15:05,954 --> 00:15:12,380
+la funzione diciamo deve restare nell'ambito della classe
+
+80
+00:15:12,380 --> 00:15:17,420
+e nell'oggetto non deve chiamare altre cose lo
+
+81
+00:15:17,420 --> 00:15:22,495
+potrebbe fare ma non devono essere funzioni tue?
+
+82
+00:15:25,995 --> 00:15:28,394
+Tipo se voglio mettere una scanette all'interno di
+
+83
+00:15:28,394 --> 00:15:31,834
+una classe in teoria la potrei fare è
+
+84
+00:15:31,834 --> 00:15:37,430
+quella una chiamata funzione esterna però il discorso
+
+85
+00:15:37,430 --> 00:15:40,550
+è ragionare ad oggetti rispettando le regole degli
+
+86
+00:15:40,550 --> 00:15:43,270
+oggetti, tutto deve essere incapsulato, tutto deve essere
+
+87
+00:15:43,270 --> 00:15:48,070
+lì dentro. Quindi no, sfilacciamento. Ma devo chiamare
+
+88
+00:15:48,070 --> 00:15:51,275
+la funzione esterna che mi sono scritto che
+
+89
+00:15:51,275 --> 00:15:55,675
+faccia questa no e le situazioni sono due
+
+90
+00:15:55,675 --> 00:15:57,595
+si può fare, come hai visto, si può
+
+91
+00:15:57,595 --> 00:16:01,115
+fare il problema è violi logicamente e prima
+
+92
+00:16:01,115 --> 00:16:03,835
+o poi ti darà problemi quel codice scritto
+
+93
+00:16:03,835 --> 00:16:08,260
+in quel modo non lo vedi subito però
+
+94
+00:16:08,260 --> 00:16:10,520
+se ti abitui a lavorare in quel modo
+
+95
+00:16:10,660 --> 00:16:15,700
+stai tranquillo prima o poi avrai problemi chiaro?
+
+96
+00:16:15,700 --> 00:16:17,700
+Quindi la cosa che ti chiedo di fare
+
+97
+00:16:17,700 --> 00:16:19,645
+è non abituarti a quella cosa volta, non
+
+98
+00:16:19,645 --> 00:16:21,964
+dire sì l'ho visto fare quindi ti può
+
+99
+00:16:21,964 --> 00:16:27,985
+fare il problema è quando lo uso? Mai!
+
+100
+00:16:28,125 --> 00:16:34,225
+Ci sei? Quindi questo praticamente sì, di riferimento
+
+101
+00:16:35,420 --> 00:16:39,120
+e qui invece anche qui questo compilatore reagisce
+
+102
+00:16:39,420 --> 00:16:42,399
+in maniera diversa qui mi da l'errore infatti
+
+103
+00:16:45,260 --> 00:17:04,210
+è sufficientemente non è commerciale, qui E' una
+
+104
+00:17:04,210 --> 00:17:07,569
+cosa strana anche questa, questa segnalazione è strana,
+
+105
+00:17:07,569 --> 00:17:12,770
+facciamo ripeterlo. Ce lo da come warning perché
+
+106
+00:17:12,770 --> 00:17:14,609
+poi in effetti qui lui si sta aspettando
+
+107
+00:17:14,609 --> 00:17:28,135
+qualcosa e diamogli questo qualcosa Lui ci sta
+
+108
+00:17:28,135 --> 00:17:59,540
+provando anche ma può essere anche lo stesso
+
+109
+00:17:59,540 --> 00:18:02,660
+compilatore impostato in due modi diversi perché ci
+
+110
+00:18:02,660 --> 00:18:05,940
+sono vari livelli. Non lo so, ci sono
+
+111
+00:18:05,940 --> 00:18:08,440
+I livelli di controllo che puoi impostare. C11,
+
+112
+00:18:09,140 --> 00:18:13,125
+C13, C16 non lo so con cosa stanno
+
+113
+00:18:13,125 --> 00:18:16,005
+facendo girare. Per esempio magari hanno tutti e
+
+114
+00:18:16,005 --> 00:18:19,845
+due GCC come compilatore però uno Wall che
+
+115
+00:18:19,845 --> 00:18:22,265
+dire non ti faccio passare niente che solitamente
+
+116
+00:18:22,285 --> 00:18:27,880
+ho la IGDBM. L'opzione di compilazione, di ci
+
+117
+00:18:27,880 --> 00:18:30,440
+sono I vari livelli di quanti errori ti
+
+118
+00:18:30,440 --> 00:18:33,000
+faccio passare, ti faccio vedere. Però qui ci
+
+119
+00:18:33,000 --> 00:18:37,160
+spostiamo sulla linea di comando. Però allora dietro
+
+120
+00:18:37,160 --> 00:18:39,660
+quello c'è alla fine quando conviene. Sì, sì,
+
+121
+00:18:39,880 --> 00:18:45,535
+questa potrebbe essere una spiegazione. E quindi è
+
+122
+00:18:45,535 --> 00:18:49,235
+chiaro e quindi quando dovete fare le cose
+
+123
+00:18:49,375 --> 00:18:52,895
+giusto dicono e fate cose piccole non andare
+
+124
+00:18:52,895 --> 00:18:56,250
+di quantità sempre di qualità però inventatevi tutti
+
+125
+00:18:56,250 --> 00:18:59,370
+gli errori possibili della serie noi siamo stati
+
+126
+00:18:59,370 --> 00:19:06,990
+quest'ora semplicemente non solo aggiungendo e togliendo quest'area
+
+127
+00:19:07,050 --> 00:19:16,875
+commerciale e spiegando come mai qui non c'è?
+
+128
+00:19:24,180 --> 00:19:31,080
+Prima c'era, c'era il commerciale che mancava chiaro?
+
+129
+00:19:32,180 --> 00:19:38,075
+Detto questo dicevamo abbiamo due si queste sono
+
+130
+00:19:38,075 --> 00:19:41,275
+due teorie, facciamo teoria, ma la teoria a
+
+131
+00:19:41,275 --> 00:19:45,835
+questo punto è ok questo niente codice per
+
+132
+00:19:45,835 --> 00:19:50,720
+quanto possibile facciamo un po' di di giorni
+
+133
+00:19:50,860 --> 00:19:58,700
+che abbiamo già fatto l'anno scorso. Vi ho
+
+134
+00:19:58,700 --> 00:20:01,980
+detto gli argomenti da trattare quest'anno sono due
+
+135
+00:20:01,980 --> 00:20:06,705
+I macro argomenti uno gli oggetti, la programmazione
+
+136
+00:20:06,705 --> 00:20:14,065
+di oggetti due le strutture delle dinamiche ma
+
+137
+00:20:14,065 --> 00:20:17,605
+anche le sfruttare le strutture astratte. Mi sto
+
+138
+00:20:17,825 --> 00:20:21,799
+considerato che lui in effetti poi si è
+
+139
+00:20:21,799 --> 00:20:27,320
+trovato a spiegare queste cose ai ragazzi di
+
+140
+00:20:27,320 --> 00:20:34,505
+terzo. Ma tu prima eri in preora? Di
+
+141
+00:20:34,505 --> 00:20:39,225
+quanto? No è venuto in prioera, e poi
+
+142
+00:20:39,225 --> 00:20:44,665
+si è fermato con Marlon infatti con Marlon
+
+143
+00:20:44,665 --> 00:20:48,660
+ho detto no sono tanti punti di incontro
+
+144
+00:20:48,920 --> 00:20:52,240
+e l'altro punto d'incontro l'ho scoperto stasera parlando
+
+145
+00:20:52,240 --> 00:20:55,760
+con Margan è che lui sta lavorando con
+
+146
+00:20:55,760 --> 00:21:02,254
+I microservizi stiamo parlando di container, quando parliamo
+
+147
+00:21:02,254 --> 00:21:05,754
+di Ink container parliamo di dockers dockers è
+
+148
+00:21:05,934 --> 00:21:09,855
+un'applicazione che crea container e poi cos'è un
+
+149
+00:21:09,855 --> 00:21:13,955
+container, una macchina virtuale? Con del software specifico
+
+150
+00:21:14,950 --> 00:21:17,990
+e cos'è un micro servizio? È un'applicazione che
+
+151
+00:21:17,990 --> 00:21:20,470
+mette a disposizione dei servizi ma la cosa
+
+152
+00:21:20,470 --> 00:21:23,590
+più importante di microservizi è l'interfaccia cioè come
+
+153
+00:21:23,590 --> 00:21:27,690
+faccio a chiamare quei servizi e quindi praticamente
+
+154
+00:21:27,830 --> 00:21:32,225
+tu crei un'applicazione hai bisogno di un micro
+
+155
+00:21:32,225 --> 00:21:35,105
+servizio che lui per la sua macchina e
+
+156
+00:21:35,105 --> 00:21:37,345
+lui ti deve dire le regole di chiamata
+
+157
+00:21:37,345 --> 00:21:41,905
+perché sennò in sostanza è questo. Come si
+
+158
+00:21:41,905 --> 00:21:44,065
+costruisce un micro servizio? Come si costruisce un
+
+159
+00:21:44,065 --> 00:21:48,639
+interfaccia? Notizia, vi avevo fatto vedere di Daniele
+
+160
+00:21:49,019 --> 00:21:52,220
+Salvati che ho sentito e spero la settimana
+
+161
+00:21:52,220 --> 00:22:01,534
+durante riusciamo a farci una chiacchierata Sì avete
+
+162
+00:22:01,534 --> 00:22:05,615
+visto l'elenco di studenti ex studenti che mi
+
+163
+00:22:05,615 --> 00:22:08,835
+avevano mandato delle cose su ma c'è Rillo?
+
+164
+00:22:10,335 --> 00:22:12,674
+Non l'ho fatto vedere ai ragazzi di terzo?
+
+165
+00:22:12,975 --> 00:22:45,179
+Forse e lì sono tutti I miei servizi
+
+166
+00:22:45,320 --> 00:22:47,240
+perché a voi si mette a disposizione la
+
+167
+00:22:47,240 --> 00:22:52,759
+piattaforma con una serie di miei servizi che
+
+168
+00:22:52,759 --> 00:23:01,885
+puoi integrare all'interno della tua abitazione. Questa è
+
+169
+00:23:01,885 --> 00:23:03,725
+una cosa su cui potete lavorare, però ho
+
+170
+00:23:03,725 --> 00:23:06,125
+detto a loro: ok, mi devo che stanno
+
+171
+00:23:06,125 --> 00:23:08,860
+le cose, quando ho ottenuto mi fermo, noi
+
+172
+00:23:08,860 --> 00:23:12,240
+siamo lì informati, questo è un altro mondo,
+
+173
+00:23:12,620 --> 00:23:17,200
+non è competenza mia, quindi è importante capire
+
+174
+00:23:18,299 --> 00:23:21,100
+cos'è la macchina virtuale, no, come si fa
+
+175
+00:23:21,100 --> 00:23:26,125
+con Vetrabox, ma il senso e I container
+
+176
+00:23:26,185 --> 00:23:31,945
+sono tutte macchine virtuali dicevamo gli argomenti di
+
+177
+00:23:31,945 --> 00:23:40,130
+quest'anno sono l' programmazione agli oggetti orientata agli
+
+178
+00:23:40,130 --> 00:23:44,950
+oggetti e poi lo stesso punto Strutture dati
+
+179
+00:23:51,025 --> 00:24:40,150
+Strutture dati Dinamiche Chiaro? La lista tutta la
+
+180
+00:24:40,150 --> 00:24:45,210
+dati dinamica contrapposta ad una statica di Beethoven.
+
+181
+00:24:46,904 --> 00:24:52,825
+Abbiamo visto le caratteristiche, no? Dimensione variabile, abbiamo
+
+182
+00:24:52,825 --> 00:24:54,904
+visto anche punti di forza e punti di
+
+183
+00:24:54,904 --> 00:24:57,705
+debolezza, la cosa più importante è conoscere I
+
+184
+00:24:57,705 --> 00:24:59,465
+punti di forza che conoscere I punti di
+
+185
+00:24:59,465 --> 00:25:02,150
+debolezza. Il punto di forza è che io
+
+186
+00:25:02,150 --> 00:25:05,270
+posso eliminare qualunque nodo senza avere grossi problemi,
+
+187
+00:25:05,270 --> 00:25:11,530
+chiamiamoli così. Chiaro? Se rimuovo il primo nodo,
+
+188
+00:25:11,670 --> 00:25:16,445
+rimuovo quello centrale o l'ultimo nodo I tempi
+
+189
+00:25:16,825 --> 00:25:21,965
+sono sempre I cinesi invece la criticità consiste
+
+190
+00:25:22,105 --> 00:25:25,245
+come anche per esempio l'aggiunta io posso aggiungere
+
+191
+00:25:25,304 --> 00:25:29,645
+nodi in testa posso aggiungere nodi in coda
+
+192
+00:25:29,705 --> 00:25:33,350
+senza problemi Cosa vuol dire? Basta pensare alle
+
+193
+00:25:33,970 --> 00:25:40,050
+vittorie. Le stesse relazioni con I vettori non
+
+194
+00:25:40,050 --> 00:25:57,680
+c'è niente, le potrei anche fare in effetti
+
+195
+00:25:57,680 --> 00:25:59,920
+c'è un dispendio di però vorrei spiegare che
+
+196
+00:25:59,920 --> 00:26:06,720
+significa di spendere perché un costo diciamo sicuramente
+
+197
+00:26:06,720 --> 00:26:08,980
+un posto si può fare però costa chiaro
+
+198
+00:26:10,000 --> 00:26:14,545
+giusto per le liste queste sono le liste
+
+199
+00:26:14,695 --> 00:26:19,415
+quindi inserire un elemento in mezzo ad un
+
+200
+00:26:19,635 --> 00:26:22,695
+vettore è un problema cioè si può fare
+
+201
+00:26:55,710 --> 00:26:58,190
+lo voglio fare a tutti I costi che
+
+202
+00:26:58,190 --> 00:27:03,630
+soluzione vi proponete? C'è la sosta di qua
+
+203
+00:27:03,630 --> 00:27:08,690
+ci siete? Quindi qual è l'operazione più onerosa
+
+204
+00:27:08,830 --> 00:27:14,085
+per le liste? La ricerca con un Array
+
+205
+00:27:14,625 --> 00:27:19,524
+trecentocinquantasettenove ordinato cerca di abbinare, metto in mezzo
+
+206
+00:27:21,664 --> 00:27:24,820
+prendo il valore da cercare ho tre possibilità
+
+207
+00:27:24,820 --> 00:27:28,419
+lo becco le altre due quali sono o
+
+208
+00:27:28,419 --> 00:27:30,740
+sono a destra o sono a sinistra se
+
+209
+00:27:30,740 --> 00:27:32,899
+sono a destra scarto tutti quelli di semi
+
+210
+00:27:32,899 --> 00:27:50,720
+cosa c'è cinquanta per cento perché lo se
+
+211
+00:27:50,720 --> 00:27:58,740
+voglio beccare se voglio beccare per esempio l'otto
+
+212
+00:27:59,200 --> 00:28:01,280
+niente devo passare da tutti quanti I nodi
+
+213
+00:28:01,280 --> 00:28:05,105
+precedenti devo andare in maniera sequenziale quindi non
+
+214
+00:28:05,105 --> 00:28:08,865
+è efficiente la ricerca di conseguenza sapendo questo
+
+215
+00:28:08,865 --> 00:28:14,725
+è attenzione perché ci stai spiegando queste cose
+
+216
+00:28:15,425 --> 00:28:18,005
+per un motivo molto semplice devi progettare un'applicazione
+
+217
+00:28:18,305 --> 00:28:21,930
+devi decidere su quale struttura dati utilizzare tu
+
+218
+00:28:21,930 --> 00:28:26,730
+ne conosci due, conosci il vettore, conosci la
+
+219
+00:28:26,730 --> 00:28:31,310
+lista, devi prendere una decisione quale mi conviene?
+
+220
+00:28:33,295 --> 00:28:36,495
+La decisione deve essere fatta in base al
+
+221
+00:28:36,495 --> 00:28:38,675
+mio caso di cui vuoi usare questi dati.
+
+222
+00:28:39,015 --> 00:28:41,935
+E quali sono le operazioni più ricorrenti che
+
+223
+00:28:41,935 --> 00:28:49,980
+vuoi implementare? È chiaro? Se io non so
+
+224
+00:28:49,980 --> 00:28:54,380
+non faccio questa riflessione dici ok facciamo il
+
+225
+00:28:54,380 --> 00:28:58,320
+questionario risposta esatta risposta sbagliata risposta esatta risposta
+
+226
+00:28:58,700 --> 00:29:01,340
+sbagliata arriva la situazione il problema e non
+
+227
+00:29:01,340 --> 00:29:04,775
+lo dovete risolvere quindi il discorso è non
+
+228
+00:29:04,775 --> 00:29:09,335
+è tanto come funzionano sicuramente è importante la
+
+229
+00:29:09,335 --> 00:29:12,475
+cosa più importante punti di forza e criticità
+
+230
+00:29:13,495 --> 00:29:16,475
+perché se devo risolvere un problema devo scegliere
+
+231
+00:29:17,730 --> 00:29:20,790
+devo avere degli elementi su cui riflettere no?
+
+232
+00:29:21,410 --> 00:29:28,210
+È chiaro? Detto questo e queste praticamente sono
+
+233
+00:29:28,210 --> 00:29:32,395
+le due strutture dati statica e dinamica però
+
+234
+00:29:32,395 --> 00:29:36,335
+poi ci sono le astratte anche qui letteratura
+
+235
+00:29:37,035 --> 00:29:39,435
+le definisce in tanti modi io le definisco
+
+236
+00:29:39,435 --> 00:29:41,835
+astratte e poi vi spiego perché astratta in
+
+237
+00:29:41,835 --> 00:29:47,050
+pratica vi faccio vedere, le due strutture che
+
+238
+00:29:47,050 --> 00:29:58,105
+io ho finito astratte sono steg e poi
+
+239
+00:30:00,005 --> 00:30:12,179
+coda chiaro? Sono due strutture dato, strutture date
+
+240
+00:30:12,179 --> 00:30:20,279
+astratte il che è sottostante perché effettivamente rifletteteci
+
+241
+00:30:20,580 --> 00:30:28,345
+bene Per poterle implementare ho bisogno di qualcos'altro
+
+242
+00:30:30,325 --> 00:30:36,110
+cioè non esiste il contento restep ma esiste
+
+243
+00:30:36,110 --> 00:30:41,390
+un Array che gestisco come step fosse lo
+
+244
+00:30:41,390 --> 00:30:47,870
+step. Chiaro? La stessa cosa vale per la
+
+245
+00:30:47,870 --> 00:30:58,424
+coda. Un array che gestisco come coda. Un
+
+246
+00:30:58,424 --> 00:31:05,110
+array che gestisco con una lista che gestisco
+
+247
+00:31:05,110 --> 00:31:09,929
+come coda, una lista che gestisco come stake.
+
+248
+00:31:11,590 --> 00:31:15,110
+Il discorso è quando parliamo di stake, quando
+
+249
+00:31:15,110 --> 00:31:21,345
+parliamo di coda obbligatoriamente devo passare o da
+
+250
+00:31:21,345 --> 00:31:26,705
+un vettore o da una lista chiaro? Quindi
+
+251
+00:31:26,705 --> 00:31:31,850
+da sole non esiste e quindi praticamente perché
+
+252
+00:31:31,850 --> 00:31:35,610
+astratta? Perché ho bisogno di una struttura di
+
+253
+00:31:35,610 --> 00:31:39,309
+base, controllate, quelle delle strutture dati reali, è
+
+254
+00:31:40,570 --> 00:31:46,195
+chiaro? Poi devo implementare il concetto di stecca.
+
+255
+00:31:46,195 --> 00:31:54,995
+Cos'è uno stecca? Lo step praticamente ve lo
+
+256
+00:31:54,995 --> 00:32:00,290
+rappresento graficamente in questo modo dove sta lo
+
+257
+00:32:00,290 --> 00:32:05,090
+step? Ovviamente diverso avete fatto tutti qui a
+
+258
+00:32:05,090 --> 00:32:11,255
+sei? No sistema Avete fatto sistemi? Avete fatto
+
+259
+00:32:11,255 --> 00:32:24,010
+l'ottomila ottantasei? Un segmento del programma. Ma ricordando
+
+260
+00:32:24,010 --> 00:32:26,610
+la configurazione dell'ottomila ottantasei c'è una richiesta in
+
+261
+00:32:26,610 --> 00:32:34,850
+particolare due somme: SS e SP StopPointer è
+
+262
+00:32:34,850 --> 00:32:39,975
+associato ad un'area di memoria chiamata step. Quindi
+
+263
+00:32:39,975 --> 00:32:49,540
+gli step esistono in natura e tanto è
+
+264
+00:32:49,540 --> 00:32:53,320
+vero che se non ci fossero gli stake
+
+265
+00:32:54,180 --> 00:33:00,760
+non ci sarebbero le funzioni. E' chiaro? Come
+
+266
+00:33:00,900 --> 00:33:11,525
+funziona una stake? A-B-C, ok? Anche qui poi
+
+267
+00:33:11,525 --> 00:33:15,225
+ci sono disserziazioni. Questo è lo Step point.
+
+268
+00:33:16,565 --> 00:33:21,710
+Va bene? Step point significa, appunto dallo step,
+
+269
+00:33:21,710 --> 00:33:23,730
+dove a questo punto ci sono le dissertazioni,
+
+270
+00:33:25,310 --> 00:33:33,305
+le implementazioni che possono essere diverse. Io posso
+
+271
+00:33:33,305 --> 00:33:37,485
+avere uno step font che punta all'ultimo elemento
+
+272
+00:33:40,665 --> 00:33:43,005
+inserito quindi ho fatto questo tipo di inserimento
+
+273
+00:33:46,320 --> 00:33:49,140
+Ho inserito prima A, poi B, poi C.
+
+274
+00:33:53,680 --> 00:33:58,480
+Lo step cosa rappresenta come concetto? Un'omolivo? Una
+
+275
+00:33:58,480 --> 00:34:02,365
+guaina mafiosa. La Pinter South No, sui piatti
+
+276
+00:34:02,365 --> 00:34:06,144
+che andate ad accattare quando fanno Mangio la
+
+277
+00:34:06,684 --> 00:34:10,844
+gente! No, no, è la pila? Per poi
+
+278
+00:34:10,844 --> 00:34:13,005
+la pila di cosa? Di piatti? Stacca vuol
+
+279
+00:34:13,005 --> 00:34:18,630
+dire Quale? E già ovviamente a quando andate
+
+280
+00:34:18,810 --> 00:34:22,969
+a recuperare I piatti anche dal tavolo, no?
+
+281
+00:34:22,969 --> 00:34:24,969
+Prendi il primo piatto, poi prendi il secondo
+
+282
+00:34:24,969 --> 00:34:27,389
+piatto, poi prendi il terzo piatto, poi prendi
+
+283
+00:34:27,744 --> 00:34:29,984
+l'ultimo piatto. Qual è il piatto che verrà
+
+284
+00:34:29,984 --> 00:34:35,425
+lavato per primo? Lui, con la sotto. Io
+
+285
+00:34:35,425 --> 00:35:18,280
+mi auguro: Chiaro? Quindi faccio la pila, mi
+
+286
+00:35:18,420 --> 00:35:20,839
+porto e di là da dove? Partendo dall'ultimo
+
+287
+00:35:22,180 --> 00:35:33,305
+quindi l'IFO l'Astien forst Out l'ultimo ad entrare
+
+288
+00:35:38,085 --> 00:35:41,650
+è il primo ad essere lavato e quindi
+
+289
+00:35:41,650 --> 00:35:47,490
+l'effetto stake viene anche considerato viene detto anche
+
+290
+00:35:47,490 --> 00:35:57,295
+una struttura dati di tipo di iPhone. Hai
+
+291
+00:35:57,295 --> 00:36:02,174
+materializzato il concetto? Ho materializzato il concetto. E
+
+292
+00:36:02,174 --> 00:36:04,335
+perché tieni la faccia che dice dove c***o
+
+293
+00:36:04,335 --> 00:36:11,750
+siamo adesso? A è il primo pianto che
+
+294
+00:36:11,750 --> 00:36:15,750
+raccoglie dal tavolo, B è il secondo pianto
+
+295
+00:36:15,750 --> 00:36:19,830
+e lo sgrapponi, C è l'ultimo, se li
+
+296
+00:36:19,830 --> 00:36:22,810
+devo lavare da dove parto? C e quindi
+
+297
+00:36:24,345 --> 00:36:29,485
+l'ultimo teli inserito è l'IFO e il primo
+
+298
+00:36:29,865 --> 00:36:34,825
+ad uscire ad essere lavato, è l'IFO Sei
+
+299
+00:36:34,825 --> 00:36:46,250
+convinto? Si! Sicuro? Quindi questo ovviamente la strutturarà
+
+300
+00:36:46,470 --> 00:36:50,825
+l'ipo o detta anche steck poi mettiamo d'accordo
+
+301
+00:36:50,965 --> 00:36:54,885
+del tipo step point dove punta lo step
+
+302
+00:36:54,885 --> 00:37:00,185
+point possiamo decidere alla prossima posizione libera oppure
+
+303
+00:37:00,565 --> 00:37:06,100
+all'ultimo piatto inserito Ci siete? Ci sono due
+
+304
+00:37:06,100 --> 00:37:10,660
+operazioni che lavorano in maniera diversa, no? Detto
+
+305
+00:37:10,660 --> 00:37:15,300
+questo quando parliamo di stecco e di strutture
+
+306
+00:37:15,300 --> 00:37:19,785
+date di tipo Lipo a questa struttura dati
+
+307
+00:37:19,785 --> 00:37:28,825
+sono associate due operazioni abbiamo una push e
+
+308
+00:37:28,825 --> 00:37:32,279
+una poppa infatti ogni volta che parliamo di
+
+309
+00:37:32,279 --> 00:37:38,220
+step automaticamente compaiono queste due operazioni push l'inserimento
+
+310
+00:37:38,680 --> 00:37:42,759
+e popolo in stazione è chiaro? È chiaro
+
+311
+00:37:42,759 --> 00:37:45,984
+che nel momento in cui devo aggiungere la
+
+312
+00:37:45,984 --> 00:37:51,665
+D cosa faccio? Push up o pusciamo la
+
+313
+00:37:51,665 --> 00:37:54,385
+D e quindi praticamente ma pushare significa che
+
+314
+00:37:54,385 --> 00:37:59,960
+questo si deve spostare quindi lo step point
+
+315
+00:37:59,960 --> 00:38:03,740
+automaticamente cambia posizione, no? Quindi il plus usinimento,
+
+316
+00:38:03,800 --> 00:38:09,579
+inserimento e aggiornamento dello step point. Ci siete?
+
+317
+00:38:11,975 --> 00:38:15,931
+Qui ci potrebbero essere altri esempi che si
+
+318
+00:38:16,007 --> 00:38:19,655
+possono mostrare tipo lo stecco lo apprezzate e
+
+319
+00:38:19,655 --> 00:38:22,955
+capite anche I meccanismi come vengono le chiamate
+
+320
+00:38:23,655 --> 00:38:31,490
+delle funzioni infatti Coll Stack la Coll Stack
+
+321
+00:38:31,490 --> 00:38:39,029
+si chiama nel mio mondo interiore lo stake
+
+322
+00:38:59,080 --> 00:39:05,080
+quella struttura mi garantisce I rientri esatti perché
+
+323
+00:39:05,080 --> 00:39:07,740
+faccio la chiamata mi allontano dalla prima funzione
+
+324
+00:39:07,880 --> 00:39:11,175
+poi devo tornare e quindi se ne faccio
+
+325
+00:39:11,175 --> 00:39:14,455
+enne di chiamate poi alla fine devo sempre
+
+326
+00:39:14,455 --> 00:39:17,655
+ritornare al punto di partenza, no? E quindi
+
+327
+00:39:17,655 --> 00:39:21,735
+come faccio a tenere traccia di tutta questa
+
+328
+00:39:21,735 --> 00:39:25,700
+situazione? A questo punto è chiaro che ho
+
+329
+00:39:25,700 --> 00:39:28,420
+bisogno di una struttura dati appropriata, tipo lo
+
+330
+00:39:28,420 --> 00:39:32,180
+steak la implemetta in un certo modo. E'
+
+331
+00:39:32,180 --> 00:39:36,260
+chiaro? Quindi ogni volta che faccio una call
+
+332
+00:39:36,260 --> 00:39:42,214
+di chiamata cosa parte? Un'operazione di? USC, salvo,
+
+333
+00:39:43,155 --> 00:39:53,099
+cosa? IR. L'indirizzo? E non era Qui era
+
+334
+00:39:53,099 --> 00:39:56,960
+il corrente, il programmcanter è sufficiente, quindi salvo
+
+335
+00:39:57,420 --> 00:40:01,180
+il programmcanter. Veniva salvato anche, non ricordo come
+
+336
+00:40:01,180 --> 00:40:03,099
+si chiama, tipo una foto. Quella che non
+
+337
+00:40:03,099 --> 00:40:05,660
+c'è la configurazione dello step con tutto quello
+
+338
+00:40:05,660 --> 00:40:08,454
+che c'è dentro, lì c'è il delirio è
+
+339
+00:40:08,454 --> 00:40:11,595
+un altro mondo quindi c'è tutta la mappa
+
+340
+00:40:11,815 --> 00:40:15,015
+delle cose che vengono salvate nello step che
+
+341
+00:40:15,015 --> 00:40:17,895
+non sanno veramente l'indirizzo noi semplifichiamo dicendo mi
+
+342
+00:40:17,895 --> 00:40:20,935
+passa soltanto quello però Sì, c'è tanta roba
+
+343
+00:40:20,935 --> 00:40:24,500
+da salvare squadra. E che qua ci siete?
+
+344
+00:40:25,920 --> 00:40:32,560
+Quindi questo ovviamente lo steak. Importante per fare
+
+345
+00:40:32,560 --> 00:40:35,905
+le chiamate di funzioni. Se non ci fosse
+
+346
+00:40:36,045 --> 00:40:43,165
+non potremmo fare non esisterebbero. Una funzione è
+
+347
+00:40:43,165 --> 00:40:45,565
+bravo una sola ne oserei esistere solo al
+
+348
+00:40:45,565 --> 00:40:47,484
+main e basta per non fare chiamarlo il
+
+349
+00:40:47,484 --> 00:40:52,920
+sistema operativo non avrebbe senso sarebbe praticamente un
+
+350
+00:40:52,920 --> 00:40:55,640
+buon salita con una sequenza di istruzione non
+
+351
+00:40:55,640 --> 00:41:01,080
+puoi fare assolutamente niente ma ovviamente chiaro ma
+
+352
+00:41:01,080 --> 00:41:05,155
+niente in Assembler e quindi tutto è stato
+
+353
+00:41:05,155 --> 00:41:07,474
+implementato a livello di aziende poi dopo di
+
+354
+00:41:07,474 --> 00:41:09,575
+che è stato dettato con I vari linguaggi.
+
+355
+00:41:11,474 --> 00:41:13,015
+Questo è il lo steck
