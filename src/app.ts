@@ -30,7 +30,8 @@ const app = async () => {
   const audioDirPath = path.join(__dirname, 'tmp');
   const audioDirFiles = await fs.readdir(audioDirPath);
 
-  for await (const audioFilename of audioDirFiles) {
+  for (let i = 0; i < audioDirFiles.length; i++) {
+    const audioFilename = audioDirFiles[i];
     const audioPath = path.join(audioDirPath, audioFilename);
     const noExtAudioFilename = audioFilename.substring(
       0,
@@ -38,17 +39,30 @@ const app = async () => {
     );
     const audioOutPath = path.join(audioDirPath, noExtAudioFilename);
 
-    logger.info(`Started audio transcription: ${noExtAudioFilename}`);
+    logger.info(
+      `Started audio transcription (${i + 1} out of ${
+        audioDirFiles.length
+      }): ${noExtAudioFilename}`
+    );
 
     const [error, transcribed] = await asyncErrorHandler(transcribe(audioPath));
     if (!transcribed) {
-      logger.error(error, `Could not transcribed audio: ${noExtAudioFilename}`);
+      logger.error(
+        error,
+        `Could not transcribed audio (${i + 1} out of ${
+          audioDirFiles.length
+        }): ${noExtAudioFilename}`
+      );
       continue;
     }
 
     await fs.writeFile(audioOutPath, transcribed, 'utf8');
 
-    logger.info(`Saved audio transcription: ${noExtAudioFilename}`);
+    logger.info(
+      `Saved audio transcription (${i + 1} out of ${
+        audioDirFiles.length
+      }): ${noExtAudioFilename}`
+    );
   }
 };
 
