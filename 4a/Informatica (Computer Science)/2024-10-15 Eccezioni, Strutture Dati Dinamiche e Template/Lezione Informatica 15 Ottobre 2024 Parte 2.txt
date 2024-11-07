@@ -1,0 +1,484 @@
+Lascio la qua a stare per un stagno.
+Ah, va bene.
+No, il dedico è andato in bagno.
+Ah, ok, era arrivato un ralazzo e alla seconda.
+Dobbiamo fare ancora la pello e inserire le ore.
+Non abbiamo fatto la pelle?
+No.
+Più o meno le ore hai inserito.
+È perché hai iniziato subito con...
+un ragazzo è arrivato
+è perché dalle 21.50 hai accennato qualcosa, hai accennato qualcosa?
+Sì, sì, io ho chiesto, ha detto, per il momento, va bene, secondo me, che poi dopo non indipende, ha detto no, non ti preoccupare, perché poi dopo te le fanno recuperare con sportelli o quant'altro, non lo so.
+ora che?
+carta canta?
+va aspetta questo da dopo eh?
+vabbè non la verifichiamo?
+già!
+verifica scritta
+Siamo sicuri che si spegne?
+Sì, siamo sicuri che si spegne.
+E' inglese!
+Vabbè, essere come le altre... Vabbè, sì, era già super.
+Ma scusa, ma è solo così?
+Non è bello.
+Mi ricordo che si mi ha parlato anche a te.
+Io ho parlato solo di TV.
+Con TGV è un segment, si chiama segment vitale.
+Nel momento della panza lunga è arrivato il ragazzo che sta seduto lì.
+Ti ricordi quella cosa che ci siamo detti sul passaggio dal strato a strato?
+Sì, sì.
+Hai avuto modo di verificare?
+No, non ho avuto modo di verificare.
+io a favore si chiede la struttura di delinquenti, hai visto la versione?
+si, ha tutto un blocchetto di blocchi
+Dice qualsiasi presenti zero, perché?
+E vabbè però c'è la presenza alla prima ora.
+Ma no, perché la città ci aveva detto venite in quinta e poi venete andando a casa.
+In quinta possiamo andare.
+Non l'aveva detto prima?
+Sì, ma l'ha capito solo lui.
+La cosa?
+Non l'ha capita un po'.
+No, perché l'ho scritto poi ieri sera, sono uscito di paio per trovare un momento, aspettavo un po'.
+Ah, il Fezzeri di laboratorio?
+No, il Fezzeri di laboratorio.
+Venite in Quinta a fare questa parte d'ora, e poi venete andate a casa.
+Ah!
+Che non aveva senso.
+Ma hai domandato quella che non ci ha chiamato?
+Quindi?
+In che senso quindi?
+Non è venuto da me.
+Dove cazzo si entra?
+Lui ci ha detto, venite dopo l'intervallo in quinta, anche dopo l'ora con quello di telecomunicazione, venite in quinta, facciamo un'ora lì e poi venite andate a casa.
+Non l'ha capito solo lui.
+Sì l'ha capito solo lui e noi non ci ha detto niente, infatti siamo stati tutta l'ora
+Noi due collaborò, sì.
+Loro con... Di Donato.
+Di Donato, eh.
+E poi, vedi, abbiamo fatto l'ultima, no?
+Quello stessa cosa.
+Sì, eh.
+Questo è il mio.
+C'era il mio invieto.
+Eh, ma cosa stai facendo?
+Ah, no.
+Stavo... E' andretto andato a me in morte, così.
+E' andretto andato a me in morte, così.
+Non è più semplice.
+Non è più semplice.
+Non è più semplice.
+Non è più semplice.
+Non è più semplice.
+Non è più semplice.
+Allora fermi un attimo, fermi fermi fermi fermi fermi fermi un attimo e le cose che discorso sui template ce n'erano un po' e qui eh
+La cosa che vi chiedo di fare adesso, quindi qui ci sono ovviamente, c'è la parte teorica, c'è la parte teorica, infatti, sì, lui parte prima dalle classi template e poi sviluppa le funzioni template, quindi in pratica, questo è proprio l'esempio, vabbè, uno degli esempi che abbiamo visto qui,
+Quindi, se il suggerimento che vi do è 1, prima di chiedere a Certo e GPT, intanto è il tempo verso, intanto faccio un'idea, consolidare l'idea di template, di classe template, di funzione template, andando a vedere ulteriormente questi appunti.
+Dove di che entra?
+La cosa che potete chiedere a certe ricettive che vi proponga degli esercizi da fare.
+Quindi voi interagite con lui.
+Cercate di chiedere anche tutte quelle cose che non sono chiare.
+In particolare, cercate di chiedere anche a lui se avete capito bene.
+Perché il fatto che voi vi convinceate di aver capito è una cosa che sta solamente nella vostra testa.
+Quindi usatelo anche come strumento di consulenza.
+E quindi dire, ok, io credo di aver capito.
+Potete chiedermi qualunque cosa in qualunque ligno, tanto lui appunto una risposta vera dà.
+Però è molto utile come metodo di studio.
+Quindi verificare se avete capito bene e colto il senso del concetto.
+La cosa che vorrei che facesse adesso, ve l'ho detto all'inizio, vorrei che facesse qualche prova sulla tradizione delle eccezioni.
+perché è un argomento molto importante e poi perché viene utilizzato in tutti i linguaggi di programmazione non c'è programmazione senza gestione delle eccezioni quindi in pratica questa è la fruttata per chiedergli qualche esercizio qualche esercizio su la gestione delle eccezioni in C++
+ovviamente aggiungete sempre la parola semplificati perché se non quello sepparte per la tangente vi chiede delle cose spaventose quindi in pratica cercate di gestirlo cercando di fornire una difficoltà crescente quindi i primi esempi devono essere degli esempi
+che vi consentono di testare le vostre conoscenze e la comprensione dell'argomento in pratica poi pian piano vi spingete un po' più avanti va bene?
+la cosa ideale è questo è il suggerimento che vi do rivedete gli esempi e gli esercizi che avete mandato in passato riprendeteli
+e trovate, valutate l'ipotesi di inserire la gestione delle eccezioni.
+Attenzione, ultima cosa è purtroppo quando parti vuoi parto, no?
+Attenzione, quando vogliamo le eccezioni, il C++, il C++ praticamente ha una sua classe, exception.
+Ci siete?
+Allora, fate questo lavoro dai.
+perché sennò vi vengono fuori soltanto le lezioni piccole e in un'ora a quello potete fare però sono cose che potete anche fare a casa, invece potete fare questa cosa in cui siete in gruppo.
+Proposta a chiedere, vi anticipo, la classe section è un'albero e quindi praticamente ci sono, cioè il concetto viene realizzato e c'è la specializzazione
+Quindi ci sono tutte le eccezioni che voi potete utilizzare, che rappresentano delle specializzazioni.
+In questo modo, se voi guardate quali sono le eccezioni, le classi eccezioni che lui prevede, lì comincerete a dare senso
+all'esistenza delle sessioni.
+Voi fatelo, provate a fare delle domande, io mi organizzo perché il lavoro vi ho già fatto, quindi poi voi cominciate a fare delle domande, classe eccezione, parlavi della classe eccezione, quindi rompete il ghiaccio chiedendo, ovviamente qui sul sito c'è tutti.
+Com'è organizzata la tua seccezione?
+Eccezion?
+Deciti più.
+E poi io mi preparo una cosa che avevo preparato.
+Intanto ho mandato la incompleta dita di guitarra per una parte del testo di sopra.
+C'è anche la documentazione di HTML, ma non so come farla prima.
+A proposito, Cima, ti l'hai sentito?
+Senti?
+Tutto a posto?
+Eh, sta facendo un stage di... No, io volevo capire, eh, siccome praticamente gli avevo dato dei libri... Ah, ok.
+E volevo a questo punto recuperare i libri.
+Ok, allora gli dure.
+Sì, vabbè, mi è sfuggito, perché no, è una cosa, è un promemoria mio, nel senso che vorrei scrivere i libri per dire ok, per quanto riguarda appunto quei libri sull'UML.
+Allora, aspetta, vediamo se mi ricordo.
+Vediamo se mi ricordo perché...
+Non ho mai capito l'incezione, non devo vedere un attimo quali passi.
+Certo, G.P.T.
+No, io voglio partire al 30, dove stai?
+Geno, in senso continui a fare catch, throw, catch, throw, catch, throw, finché non esce da tutte le chiamate.
+No, ma ti ritorna sempre lo primo.
+Beh, sì, per forza.
+Cioè, io me lo sono immaginato prima, non me.
+Lo utilizzo tutto, in questo senso.
+Ok, aspetta un attimo, vediamo.
+Assemble, auto-tenimento, tradizione, eccezione.
+Eccole qui.
+Vediamo?
+Sì.
+Ok.
+Perché?
+Perché poi vabbè sono disordinato, quindi in pratica... Ok.
+Rai Si ok Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai Rai
+Quando parliamo di eccezioni non stiamo parlando del C++, eh?
+Qual è soltanto appunto l'uso che C++ fa delle eccezioni, quindi gli strumenti che vengono messi a disposizione da parte del linguaggio.
+Quindi se io devo fare una domanda per capire il senso delle eccezioni, io non sto facendo le eccezioni del C++, sto facendo le eccezioni che poi ci sia il sito per un caso.
+E quindi la cosa più importante è questa domanda, la domanda più generale, più generica.
+Quindi parliamo dell'eccezione della programmazione?
+No, c'è più.
+E lui vi dirà delle cose in pratica.
+Struttura di gestione delle eccezioni, quindi praticamente vi dirà le stesse cose che vi ho detto io.
+devo implementare un'eccezione, allora a questo punto cosa faccio?
+Prima, la prima cosa è mettere sotto osservazione il codice critico, lo step successivo è predisporre l'intercettazione dell'eccezione.
+Cos'è un'eccezione?
+E ovviamente può essere un oggetto, può essere un dato.
+Attenzione, oggetto, non una classe,
+oggetto, quindi praticamente stiamo parlando di un qualcosa come una variabile, non un tipo, ma una variabile.
+Invece il tipo lo devo inserire nel cache.
+Io ne ho fatto vedere degli esempi, ecco perché poi ho detto che fateli, e poi sul sito ci sono gli esempi.
+Lui fa un esempio di Java,
+Io mi suggerisco anche di guardare, secondo gli abbiamo detto con quale linguaggio, lui solitamente quando si tratta di argomenti sulla programmazione di oggetti Java ce lo mette sempre.
+Quindi c'è sempre un esempio Java.
+Soffermatevi e riflettete, perché automaticamente vi renderete conto di quanti punti di incontro ci siano col C++ e di quanto sia abbastanza rapido il passaggio dal C++ al Java.
+È chiaro?
+Come vi ho sempre detto i linguaggi sono plurali, si studiano, quindi si impara una regola comune, a questo punto imparare un nuovo linguaggio significerebbe imparare quello che non ha l'altro e quindi lavoro per differenza.
+Detto questo, quindi qui abbiamo il cache e qui c'è la versione ovviamente sempre in Java.
+C'è anche la versione in Python.
+Anche questo.
+Mi piace questa soluzione che propone lui.
+Perché?
+Perché, definitivamente, il Python è un altro linguaggio.
+C'è un pallino di questa storia del Python.
+Vorrei che si facesse almeno a fine anno.
+Perché?
+Perché l'intelligenza artificiale sta girando attorno al Python.
+E quindi è giusto avere anche quel linguaggio come riferimento.
+Per noi sarà un corollario, una cosa
+No?
+I concetti grossi li affronteremo usando il C++.
+Python è semplicemente una cosa che mi metto in paro appunto.
+Non più di una settimana a 10 giorni riuscirete già a fare delle cose importanti.
+Se avete una solita base.
+Altrimenti i tempi sarebbero più lunghi.
+Poi, sì, l'altra cosa interessante è questo, gerarchia dell'eccezione, perché io vi ho detto che c'è la classe eccezione, non c'è più più, e c'è una gerarchia.
+Il problema non è tanto, c'è o non c'è una gerarchia, ma qual è il senso della gerarchia?
+Perché c'è la gerarchia?
+come è impostata la gerarchia buone pratiche e quindi praticamente suggerimenti su come si usano le eccezioni vedete quella domanda che non avreste mai fatto ma non perché siete idioti per un motivo molto semplice quando siamo molto abitati sul linguaggio è chiaro ci perdiamo la genericità
+Quindi, la domanda più ovvia è, parlami delle eccezioni, senza indicare il linguaggio.
+Questo significa che lui fa un discorso, intanto dimostra il fatto che le eccezioni esistono a prescindere dal linguaggio.
+Come vi ho detto una volta scorsa, sono i linguaggi che si sono adeguati alle eccezioni, ma il concetto c'era... poi lo hanno implementato con i vari linguaggi, con le varie sintassi, no?
+Però evidentemente c'era un problema, qual'era il problema?
+Cosa volevano risolvere con le eccezioni?
+E quando parlo in questo modo io non sto parlando del C++, quello è semplicemente uno strumento, io mi sono dato queste regole e le gestisco in questo modo.
+E quindi è molto interessante anche questo tipo, quando usarle, come usarle, perché usarle.
+Infatti, vi faccio notare un'altra cosa.
+aspetta, ecco qui ha spostato l'attenzione sul C++ vorrei che facesse riferimento anche al C++ e qui a questo punto lui riprende il concetto generico e lo contestorizza in C++ di conseguenza fa ovviamente l'esempio guardate questo esempio che è interessante
+Lui ha fatto questo esempio che io non ho fatto.
+Io, per fare il riferimento all'esempio, ho messo una funzione che contiene al proprio interno il TRO.
+Il TRO è la terza parola chiave.
+Da quel momento viene lanciata l'eccezione.
+Lanciata l'eccezione significa c'è la novalia.
+E questo significa che un'eccezione la posso anche inserire io.
+all'interno del mio codice senza necessariamente andare a spomodare altre funzioni lo posso fare attraverso delle funzioni ma lo posso fare anche all'interno del main una cosa certa qual è il senso di questo codice?
+il senso di questo codice non è banale perchè la cosa che vuole mettere in evidenza lui qui è che quando parte questa eccezione questa istruzione non verrà eseguita quando io vi dico le cose si imparano
+da piccoli codici significativi non da vagonate dei codici perché se so leggere io capisco e lì c'è scritto una cosa molto importante quando viene lanciata un'eccezione in questo caso trovo cosa stai lanciando e vi ho detto un'eccezione cos'è o è un dato oppure
+è un oggetto e in effetti lui non sta mettendo string, sta mettendo una stringa quindi un valore è chiaro?
+e quindi tutte le considerazioni che erano fatte su quella stringa non sul tipo stringa il messaggio quando io leggo il codice, ecco perché quando vi dico mi consegnate il codice, poi me lo spiegate ma mi spiegate di carriera
+E' quel motivo per cui va bene usare i fattori di pitti per farci vedere i codici e poi me li spiegate riga per riga le cose.
+Se sapete come stanno le cose non me ne frega niente.
+Il problema è quando non sapete come stanno le cose.
+Perchè ci stiamo prendendo in giro?
+La cosa non mi piace.
+Messaggio?
+Parte l'eccezione?
+Parte la stringa?
+questa istruzione non viene seguita se ne fossero state 50 non le avrebbe seguita basta una perché il senso è questo interruzione dell'eseguizione di quel flusso a questo punto parte l'eccezione l'eccezione è qualcosa che si muove si muove per cercare cosa qualcuno che l'intercetta e a questo punto eccola qui catch
+attenzione, è qui che ci devo mettere il tipo perché il punto di intercettazione lui non intercetta i valori non intercetta i tipi quindi, nel senso, intercetta il tipo di eccezione che mi arriverà se mi arriverà una streghe allora intervengo
+Se mi arriverà un intero, questa viene saltata.
+Attenzione, ci sono delle belle checce con tre puntini che hanno un significato molto importante, con tre puntini all'interno.
+Che significa?
+Non c'è il tipo, raccoglie tutto, chiaro?
+E se raccoglie tutto, il problema è che ci mettono nel corpo.
+siccome le potrebbe raccogliere di diversi tipi è chiaro che all'interno delle parentesi di grafici dobbiamo mettere una serie di info che vanno a fare una serie di controlli quindi scendiamo e infatti c'è un cache qui puntini puntini puntini andiamo giù questo è un esempio di utilizzo di cosa non ve ne ho parlato ed è presente anche in Java
+Qui c'è un esempio pilota.
+Attenzione, ecco perché attenzione a quello che gli chiedete.
+Potete anche chiedervi di generare codice C. Attenzione, questo è l'altro argomento che dobbiamo riprendere.
+quindi sono i file ma questo serve ovviamente come rinfresco di quanto era di Dio abbiamo fatto l'anno scorso l'anno scorso abbiamo fatto un casino di cose quindi dovremmo riprendere anche la gestione dei file lui sta lavorando con i file attenzione, lanciare un'eccezione personalizzata qui fa una serie di esempi
+poi vado vantaggi e svantaggi nell'uso delle eccezioni.
+Io vi ho detto, le eccezioni hanno un costo, è vero che mi aiutano a... Però effettivamente non sempre.
+La maggior parte delle attività prevedono solo delle eccezioni.
+Però ci sono delle eccezioni, cioè delle situazioni in cui le eccezioni sono sconsigliate.
+sconsigliate perché considerate onerose.
+E quando io non ho più la possibilità di usare le eccezioni, cosa faccio?
+Io lo giustisco io.
+Quindi sono io che vi faccio tutti i controlli necessari, è chiaro?
+Andiamo giù, vantaggio e svantaggio se usate le eccezioni, quindi separazione dalla logica
+principale, lui vi spiega come stanno le cose.
+Era questo che vi volevo mettere in condivisione.
+Sono queste le domande che mi sarei aspettato da voi.
+Questa è la dimostrazione che avete studiato l'argomento.
+Perché?
+Le domande non vengono così.
+O me li trovo con un percorso di domande e me li devo studiare.
+Poi mi devo leggere le risposte.
+perché a volte lui parte per la tangente e allora mi aspetto la seconda domanda di giustamento.
+Se non c'è, avete fatto proprio un colla.
+Chiaro?
+Quindi, questo è un percorso di studio, delle sezioni.
+Però, come vi ho sempre detto, io rompio il ghiaccio, vi do il punto di partenza.
+L'alternativa, ti do il titolo dell'argomento, vai a cercare di studiare.
+ma non capirete il senso.
+Compressità e difficoltà del debug.
+Attenzione, cosa mi era sfuggita?
+Quando usate le eccezioni, debagare diventa complicato.
+È chiaro?
+Debagare diventa complicato.
+Quindi tutto è un prezzo.
+E quindi, se ho una anomalia di funzionamento del mio codice,
+e voglio debagarlo, la presenza delle eccezioni mi crea problemi e quindi ci sono altre tecniche che devo utilizzare per debagare il codice, questo vale per i principi più ma vale per chiunque, perchè la risposta è, la considerazione è sul concetto di eccezione uso il gesticolo delle eccezioni e può complicare il codice ecco perchè quando vi dicevo
+Dovete scrivere codice, dovete progettare codice.
+E progettare significa prendere delle decisioni.
+Cosa fare e cosa non fare.
+Anche se apparentemente mi conviene.
+Qui ci sono una serie di... E poi ho fatto questo.
+Mi parezzi dei semplici significativi commentati
+su quando usare e non usare le eccezioni.
+Perché è chiaro, lui mi ha detto quando vantaggi e svantaggi, no?
+Ma a questo punto la cosa che si chiede è, dimmi quando lo devo usare, fammi un esempio.
+In questo modo, secondo questo percorso, è chiaro che l'argomento io lo capisco.
+Se non lo capite, c'è un problema.
+e non è lui.
+Cioè, ai miei tempi, se gose morire, chiaro?
+Ecco perché potete essere molto più produttivi.
+Questa è la produttività.
+Dicono che l'intelligenza artificiale aumenta e incrementa la produttività.
+Questa è la dimostrazione.
+Ma anche lo stile di apprendimento, il modo di studiare cambia.
+Però c'è una cosa che è vecchia, era moderno e rimasto.
+Diccio, se tu non mi stai al passo, e lo dico per tutti, perdonese, siete morti, potete avere tutti gli strumenti che volete.
+Ho studiato di volte in volta micro con la scienza, micro studio.
+Si scatta la presunzione, tanto c'è lui,
+Andrete nella merda.
+Piccole cose, sempre.
+Non commettete l'errore di spostare tutto in avanti.
+Mi farete male.
+Andrete in affano.
+E poi non vi dico il dopo.
+Quando non usare, non lo ha messo anche in maioscola,
+E qui c'è un esempio di caso in cui non conviene utilizzare le attezioni.
+C'è un'altra domanda che gli ho fatto.
+Quando non usare?
+Conclusione.
+Gli ho chiesto, lo sapevano?
+Mi generi l'albero delle attezioni.
+io gli ho fatto una domanda di cui conoscevo già la risposta, quindi praticamente questa è già una domanda avanzata a voi ho detto, rotto il ghiaccio dicendo attenzione a c'è un aldere potreste non farlo mai, fare male a queste domande a berlo gelatico?
+eh si si, si, si, si, si, in questo caso parliamo di gerafia vedete?
+queste sono tutte le sezioni che lui riesce a gestire cioè
+C'è un piano di gestione delle eccezioni, di generazione delle eccezioni.
+Prendiamo questa, SFD exception, è la classe base, il PADLE, che raccoglie ovviamente le generalità e qui rifassiamo le regita di età e la generalizzazione, classe generica.
+C'è un'eccezione generica, eccezione generica di
+detettivo, non l'ho ben capito, e poi gli faccio le specializzazioni.
+Infatti, guardate qui, vedi all'occhio, una eccezione può essere generata quando, per esempio, sto usando i puntatori, devo alocare la memoria dinamicamente, e quindi a questo punto che succede in pratica.
+Il problema qual è?
+La memoria in piena.
+anche perchè noi abbiamo dato sempre il riscontrato che tutto funzionassero però su una macchina vera vedete soltanto la lettura con la descrizione già vi dovrebbe aprire la mente e farvi venire qualche dubbio del tipo ma che cazzo di cazzo dici di merda scritto?
+No, semplicemente a non leggere queste cose, perché dici già vero, già vero, già vero.
+Ok, state prendendo coscienza, state crescendo.
+E' chiaro?
+Bad alloc.
+Errore di memoria, di allocazione di memoria.
+Viene sellevata quando l'operatore GNU non riesce ad olegare memoria
+e come la Marlboro qui in c'è, quindi, il Niu alloca in C++ allocazione di spazio, devo prendere lo spazio che sta dove sta?
+Vi ricordate dove sta lo spazio?
+Nell'HIP.
+Nell'HIP.
+E quindi?
+Evidentemente lo HIP?
+È pieno.
+È pieno, punto.
+Uno dei motivi per cui si riempie lo HIP è perché non ho fatto la D allocazione e quindi non ho liberato spazio.
+Niu alloca la DELETE
+Elimina.
+Evidentemente l'ho mai usata.
+È chiaro?
+Lavorare con i puntatori è per persone serie.
+Il motivo per cui i migliori programmatori erano quelli che gestivano quell'area di memoria.
+Il motivo per cui non si insegna più, perché la maggior parte della gente non è fatta queste cose.
+Però se prendi uno che lavora a questi livelli, lo paghi caro.
+Perché non c'è?
+Non c'è formazione specifica?
+La gente voleva correre sempre alto.
+Qui spacchi il bit.
+Siete?
+E qui c'è una serie di esempi.
+Vedete?
+Badcast C'è un problema di casting, ma nelle allocazioni, cosa che vi ho detto?
+La new alloca a spazio, sì, vero?
+I C10++ non si incassano mai.
+provata ad usare una new con un tipo incompatibile con il puntatore che dovrà ricevere l'indirizzo, e lui si cazza.
+Dall'errore.
+Ah, quando dall'errore poi cresce.
+Vedete?
+E quindi ho chiesto appunto di fare questo elenco.
+Cos'è mandati?
+Joe?
+Lui ha fatto tutta una serie di esempi.
+Di Petro, lo studio consiste infatti nella lettura di queste eccezioni.
+Perché la lettura di queste eccezioni ti fa capire cosa significa per le mali maera positiva.
+Ma i runtime non sono utili per il debone?
+No, il runtime significa che c'è un problema durante l'esecuzione, è stato rilevato qualcosa durante l'esecuzione, per chiedermi.
+Enrico, per esempio, c'è un overflow error, mi aiuta a trovare un errore?
+No, il problema è un altro, il problema è quando si verifica, nel momento in cui si verifica una situazione di overflow,
+significa che Daniele non mi possa spostare.
+Ma allora a questo punto lui cosa fa?
+Ti lancia un'accensione, ti dice, guarda, è successo.
+Il problema è un altro.
+Io quando scrivo il codice devo sapere qual è la forzione di codice?
+C'è rischio.
+Chiaro?
+Se devo fare un armino è chiaro.
+Quali possono essere i rischi?
+Non c'è spazio.
+Allora io mi predispongo, no?
+C'è un errore di runtime.
+Quale è la posizione di codice che può provocare questa defalazione?
+C'è tutto il pacchetto di eccezioni, no?
+Già, pronte?
+C'è.
+Chiaro?
+E quindi?
+Tutto sfinita?
+No.
+Overflow, eccetera eccetera.
+E poi?
+E poi niente.
+Questo per dire le domande, le volete avere, queste cose?
+Sì.
+Io ripeto, questa era la settimana scuola quando avevo detto che c'era una sorpresa, poi l'ho messa al caso.
+E questo lo considero un percorso di studio, ma anche un percorso di approfondimento, ma anche un percorso di presa di coscienza, di cosa significa sviluppare un codice serio.
+Se no, faccio cosa?
+Vedo gente.
+È chiaro?
+E la lettura di queste eccezioni mi fa capire cosa dovete prevedere nel vostro codice a scuola.
+Lavoriamo sempre per caso ottimo, no?
+Per situazioni ottimali, mai per cose critiche.
+E quindi noi le monitoriamo nella realtà.
+Poi me le ritrovo.
+ok vabbo poi mi metto in condivisione questa cosa vi mando il percorso, va bene?
+ciao ragazzi
+te l'ho detto, Gabriele
+Non mi stai facendo questa... Eh no, so, ma forse per me avrei... Per me è il sabato.
+Sì, ho capito, Gabriele, tanto Dio, però... Il discorso è... Capisci?
+Vabbè, se ti inconsegno non vedeci neanche io.
+Neanche se... Non è solo me.
+Si può usare per 3 anni di lavoro e inizia
+Allora...
+Buonasera
+veramente la verifica era domani non oggi
+no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no
+2 volte in meno.
+Ciao
+Sì, sì.
+Io avevo pensato a un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po' e un po'
+Quello di Paolo San Lorenzo, io l'ho vista oggi come lì, che era la sua priorita mia scuola.
+Perché a me l'ha detto?
+Perché a te?
+Perché a te l'ho detto io?
+Sì, ma che cosa senti?
+Questa è quella che ho fatto l'altro giorno.
+Ah, hai fatto?
+Sì, e me l'ho vista quando stavo nei corritori.
+Ma adesso la devo stampare e... E praticamente lui dice di dare un'utilità, però a questo punto abbiamo...
+Questa opportunità.
+Che devo fare?
+Con il foglio, il secondo foglio, lo devo stantare?
+Io l'ho vista molto.
+Praticamente non so, non letta nei dettagli.
+Io ho visto che Luigi l'ha girata, quella circolata, e quindi, perché una delle cose che avevo chiesto è che i docenti possano informare.
+E l'ha fatto.
+il problema è chiaramente a tutti quelli che fanno le sopprente, uno c'è la richiesta di disponibilità, l'altro a questo punto è quando tu
+fai la lezione, ti serve ovviamente il fogliato con la compilazione.
+Si, da tenere se c'è.
+Ecco che ho detto ad Antonio, fare un orario in prospettiva, fino a quando poi l'organico non è completo.
+Quelle ore servono quando ci sono
+problemi di soprense, cioè sopprenti non sono arrivati, allora che fai?
+Rimandi a casa?
+Tu fai un orario e poi a questo punto coca.
+Quindi anch'io posso fare?
+Sì, tutto lo posso fare.
+Io l'ho aperto all'ora buca, quando stavo
+un'ora a buca però poi, visto, manca l'ora, hai dovuto fare il suplento e si è dito perché non c'è un paletto.
+Magari parliamo di domani alla regno dei... Il problema è che io voglio fare le coperture su quelli di informatica che non hanno ancora fatto informatica in prima e seconda.
+Certo.
+TPSI non hanno ancora fatto una lezione del TPSI, cioè, non per fare, no?
+Cosa è vedere gente?
+A loro, quelli che prima stavano dicendo, poi ci lamentiamo se poi se ne vanno, no?
+Perché qualcuno si sta lamentando che vorrebbe fare anche altre cose, ma non le sta facendo.
+E' da più di un mese che stiamo qui senza insegnante.
+Allora ho detto ok, allora a questo punto abbiamo questa opportunità, facciamo delle coperture, ma serie?
+No, semplicemente per fare... li mettiamo in prime ore, seconde ore, arriva più tardi e te ne vai più presto.
+Che cazzo risolviamo?
+E' sempre un disagio?
+E' un mese di scuola che si sono persi.
+Tutti li possiamo fare, è chiaro.
+Si?
+Si è stato chiamato?
+Ma chi era il chiamato?
+Dall'alto!
+All'alto!
+All'alto!
+All'alto!
+All'alto!
+All'alto!
+All'alto!
+No, mi sono andato nel salare.
+Ma signora che non ha mai già venuto?
+Sì, è andata via, ha fatto 8 ore.
+No, non è uscito proprio, non è uscito proprio.
+8 ore, domani?
+No.
+No, mi sa che dovrebbe venire.
+non mi hanno comunicato niente dalla presidenza eri a casa, non stavi bene, settimana scorsa non c'è l'unica spiegazione è quella ma l'ha avuto da te o da Antonio?
+infatti anche lui mi ha fatto conoscere
+Benvenuti.
+Sì, avevo la prima ora, in quinta e poi l'ultima.
+Se domani, no, questo domani un giorno, non lo verrà.
+Almeno mi prendo i dati da disegnare il computer.
+E non vuoi venire, perché io non dico, non vuoi venire.
+da delle ore pure al giorno e solo c'è roba
+Non lo so, ma perché mi facciano mangiare i figli?
+Non ci faccio ridere!
+Chi figlia, chi figlia!
+Come sono andate poi l'anno scorso le votazioni che aveva fatta la pagella voi?
+Ormai l'ha fatte vedere?
+No, ormai ha detto che è stato forzerato.
+Rimandato a settembre!
+Ciao ragazzi!
+Ciao!
+Non ti riconoscerò qua, se ne hai capito qualcosa?
+Eh sì, ho perso trent'anni.
+Eh?
+Ho perso trent'anni.
+Sennò sembrava il gemello di Alemanno.
+Sì, con la barba.
+Poi è diventata bianchissima.
+Oddio, di chi è questo?
+Di Cerva, di Cerva.
+Cerva?
+Ah, ok.
+Pensavo fosse di Alemanno, e poi lo devo rincorre.
+Ma...
