@@ -28,7 +28,9 @@ const transcribe = async (filepath: string): Promise<string> => {
 
 const app = async () => {
   const audioDirPath = path.join(__dirname, 'tmp');
-  const audioDirFiles = await fs.readdir(audioDirPath);
+  const audioDirFiles = (await fs.readdir(audioDirPath)).filter(
+    (path) => path.lastIndexOf('.') > 0 // only takes files with extensions
+  );
 
   for (let i = 0; i < audioDirFiles.length; i++) {
     const audioFilename = audioDirFiles[i];
